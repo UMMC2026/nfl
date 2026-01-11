@@ -1,0 +1,52 @@
+name: Block Unvalidated Outputs
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, edited]
+
+jobs:
+  block-outputs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: List PR files
+        id: list_files
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const pr = context.payload.pull_request
+            if (!pr) return core.setOutput('outputs', JSON.stringify([]))
+            const files = await github.paginate(github.rest.pulls.listFiles, { owner: context.repo.owner, repo: context.repo.repo, pull_number: pr.number })
+            const paths = files.map(f => f.filename)
+            const outputs = paths.filter(p => p.startsWith('outputs/') || p === 'outputs/signals_latest.json')
+            core.setOutput('outputs', JSON.stringify(outputs))
+            core.setOutput('has_outputs', outputs.length > 0 ? 'true' : 'false')
+
+      - name: Check for output changes
+        run: |
+          echo "Outputs changed: ${{ steps.list_files.outputs.has_outputs }}"
+
+      - name: Validate changed outputs
+        if: steps.list_files.outputs.has_outputs == 'true'
+        run: |
+          echo "Validating changed output files..."
+          python - <<'PY'
+import json,sys,subprocess
+files = json.loads('''${{ steps.list_files.outputs.outputs }}''')
+if not files:
+    print('No output files to validate')
+    sys.exit(0)
+for f in files:
+    print(f"Running validator on: {f}")
+    res = subprocess.run([sys.executable, 'scripts/validate_output.py', '--edges', f], capture_output=True, text=True)
+    if res.returncode != 0:
+        print('Validation failed for', f)
+        print('stdout:\n', res.stdout)
+        print('stderr:\n', res.stderr)
+        sys.exit(1)
+print('All output files validated')
+PY
