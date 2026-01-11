@@ -1,0 +1,96 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "pip-show-telegram",
+			"type": "shell",
+			"command": "python -m pip show telegram"
+		},
+		{
+			"label": "pip-install-ptb-13",
+			"type": "shell",
+			"command": "python -m pip install -U python-telegram-bot==13.15"
+		},
+		{
+			"label": "pip-install-ptb-13-venv",
+			"type": "shell",
+			"command": ".venv\\Scripts\\python.exe -m pip install -U python-telegram-bot==13.15"
+		},
+		{
+			"label": "pip-show-ptb",
+			"type": "shell",
+			"command": ".venv\\Scripts\\python.exe -m pip show python-telegram-bot"
+		},
+		{
+			"label": "run-start-bot",
+			"type": "shell",
+			"command": ".venv\\Scripts\\python.exe start_bot.py"
+		},
+		{
+			"label": "Ingest NFL Stats",
+			"type": "shell",
+			"command": "python",
+			"args": ["scripts/ingest_nfl_stats.py"],
+			"problemMatcher": []
+		},
+		{
+			"label": "Generate Features",
+			"type": "shell",
+			"command": "python",
+			"args": ["scripts/nfl_feature_builder.py"],
+			"problemMatcher": []
+		},
+		{
+			"label": "Generate Edges",
+			"type": "shell",
+			"command": "python",
+			"args": ["scripts/nfl_edge_generator.py"],
+			"problemMatcher": []
+		},
+		{
+			"label": "Collapse Edges",
+			"type": "shell",
+			"command": "python",
+			"args": ["scripts/collapse_edges.py"],
+			"problemMatcher": []
+		},
+		{
+			"label": "Score Edges",
+			"type": "shell",
+			"command": "python",
+			"args": ["scripts/score_edges.py"],
+			"problemMatcher": []
+		},
+		{
+			"label": "Validate Output (HARD GATE)",
+			"type": "shell",
+			"command": "python",
+			"args": ["scripts/validate_output.py", "--edges", "outputs/signals_latest.json"],
+			"problemMatcher": []
+		},
+		{
+			"label": "Render Report",
+			"type": "shell",
+			"command": "python",
+			"args": ["scripts/render_report.py"],
+			"problemMatcher": []
+		},
+		{
+			"label": "Run NFL Daily (full)",
+			"dependsOn": [
+				"Ingest NFL Stats",
+				"Generate Features",
+				"Generate Edges",
+				"Collapse Edges",
+				"Score Edges",
+				"Validate Output (HARD GATE)",
+				"Render Report"
+			],
+			"dependsOrder": "sequence",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
