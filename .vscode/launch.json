@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Run NFL Daily",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/run_daily.py",
+      "console": "integratedTerminal",
+      "args": ["--picks", "picks_latest_nfl.json"]
+    },
+    {
+      "name": "Python: Debug validate_output.py",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/validate_output.py",
+      "console": "integratedTerminal",
+      "args": ["--edges", "outputs/signals_latest.json"]
+    }
+  ]
+}

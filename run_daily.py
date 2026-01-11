@@ -24,7 +24,12 @@ sys.path.insert(0, str(Path(__file__).parent))
 from engine.filters import filter_signals, build_signal_from_mc_result
 from engine.correlation import block_correlated, block_same_player_max
 from ollama.risk_analyst import run_ollama, skip_ollama
-from telegram.formatter import format_signal_batch, format_parlay_suggestion
+# --- TELEGRAM DISABLED ---
+# from telegram.formatter import format_signal_batch, format_parlay_suggestion
+def format_signal_batch(*args, **kwargs):
+    return "[TELEGRAM DISABLED]"
+def format_parlay_suggestion(*args, **kwargs):
+    return "[TELEGRAM DISABLED]"
 
 
 def load_monte_carlo_results(picks_file: str) -> list:
@@ -40,21 +45,42 @@ def load_monte_carlo_results(picks_file: str) -> list:
     results = []
     for pick in picks:
         vals = pick.get('recent_values', [])
+        line = pick.get('line', 0)
+        direction = pick.get('direction', 'higher')
+
+        # If we don't have enough hydration data, make a routing/allowance decision
+        synthesized = False
+        from engine.stat_router import is_atomic
         if len(vals) < 3:
-            continue
-        
-        mean = np.mean(vals)
-        var = np.var(vals)
-        std = np.std(vals)
-        line = pick['line']
-        direction = pick['direction']
-        
+            # If stat is not atomic, do NOT synthesize — drop signal (no real history)
+            if not is_atomic(pick.get('stat', '')):
+                print(f"[MC DROP] Dropping {pick.get('player')} ({pick.get('stat')}) - non-atomic stat with insufficient history")
+                continue
+
+            odds = pick.get('odds', 0.5)
+            try:
+                odds = float(odds)
+            except Exception:
+                odds = 0.5
+            # Small mean shift toward the market-implied direction (conservative)
+            shift_sign = 1 if (odds > 0.5 and direction == 'higher') or (odds < 0.5 and direction == 'lower') else -1
+            shift = 0.02 * max(1.0, abs(line)) * shift_sign
+            mean = line + shift
+            std = max(1.0, 0.3 * max(1.0, abs(line)))
+            var = std ** 2
+            synthesized = True
+            print(f"[MC FALLBACK] Synthesizing data for {pick.get('player')} ({pick.get('stat')}): mean={mean:.2f}, std={std:.2f}")
+        else:
+            mean = np.mean(vals)
+            var = np.var(vals)
+            std = np.std(vals)
+
         # Run simulation
         sim = run_monte_carlo(line, mean, var, dist='normal', n_sims=10000, clip_min=0)
-        
+
         # Get probability based on direction
         prob = sim['p_over'] if direction == 'higher' else sim['p_under']
-        
+
         results.append({
             'player': pick['player'],
             'team': pick.get('team', ''),
@@ -66,7 +92,8 @@ def load_monte_carlo_results(picks_file: str) -> list:
             'std': std,
             'prob': prob,
             'p_hit': prob,
-            'edge': mean - line if direction == 'higher' else line - mean
+            'edge': mean - line if direction == 'higher' else line - mean,
+            'synthesized': synthesized
         })
     
     return results
@@ -131,15 +158,38 @@ def run_pipeline(
     with open(json_path, 'w') as f:
         json.dump(final_signals, f, indent=2)
     print(f"      Saved: {json_path}")
+
+    # Validate outputs using the hard gate (non-bypassable in production)
+    # If validation fails, abort the pipeline and return a non-zero code.
+    try:
+        import subprocess
+        validator_cmd = [sys.executable, "scripts/validate_output.py", "--edges", str(json_path)]
+        print("[VALIDATE] Running validation hard gate...")
+        res = subprocess.run(validator_cmd, capture_output=True, text=True)
+        if res.returncode != 0:
+            print("[VALIDATE] Validation failed. Aborting pipeline.")
+            print(res.stdout)
+            print(res.stderr)
+            # Persist the failed validation output for debugging
+            fail_path = output_path / f"validation_failed_{timestamp}.json"
+            with open(fail_path, 'w') as fh:
+                fh.write(res.stdout or res.stderr)
+            raise SystemExit(1)
+        else:
+            print("[VALIDATE] Validation passed.")
+    except Exception as ex:
+        print(f"[VALIDATE] Validation execution error: {ex}")
+        raise
+
     
-    # Save Telegram payload
-    telegram_payload = format_signal_batch(final_signals, f"NBA Signals - {datetime.now().strftime('%b %d')}")
-    telegram_path = output_path / f"telegram_{timestamp}.txt"
-    with open(telegram_path, 'w', encoding='utf-8') as f:
-        f.write(telegram_payload)
-        f.write("\n\n")
-        f.write(format_parlay_suggestion(final_signals, 3))
-    print(f"      Saved: {telegram_path}")
+    # --- TELEGRAM DISABLED ---
+    # telegram_payload = format_signal_batch(final_signals, f"NBA Signals - {datetime.now().strftime('%b %d')}")
+    # telegram_path = output_path / f"telegram_{timestamp}.txt"
+    # with open(telegram_path, 'w', encoding='utf-8') as f:
+    #     f.write(telegram_payload)
+    #     f.write("\n\n")
+    #     f.write(format_parlay_suggestion(final_signals, 3))
+    # print(f"      Saved: {telegram_path}")
     
     # Print summary
     print()
@@ -157,10 +207,10 @@ def run_pipeline(
     print(f"  📊 LEAN:   {len(leans)}")
     print()
     
-    # Print Telegram output
-    print(telegram_payload)
-    print()
-    print(format_parlay_suggestion(final_signals, 3))
+    # --- TELEGRAM DISABLED ---
+    # print(telegram_payload)
+    # print()
+    # print(format_parlay_suggestion(final_signals, 3))
     
     return final_signals
 
@@ -184,5 +234,4 @@ if __name__ == "__main__":
         max_per_player=args.max_per_player,
         ollama_model=args.model
     )
-if __name__ == "__main__":
-    main()
+## No main() function needed; pipeline runs above. Clean exit.
