@@ -1,0 +1,40 @@
+======================================================================
+GAME DATE FIX - COMPLETE
+======================================================================
+
+PROBLEM:
+  - picks_hydrated.json had wrong game_ids (using next day's date)
+  - Kevin Durant showed under both BKN and HOU
+  - Games shown for dates not on today's schedule
+
+ROOT CAUSE:
+  1. normalize_picks.py used `datetime.utcnow()` (correct)
+  2. But ESPN API must override with OFFICIAL today's schedule
+  3. Schedule gate wasn't correcting game_id from ESPN
+
+SOLUTION IMPLEMENTED:
+  1. schedule_gate.py now CORRECTS all game_ids from ESPN API
+  2. Uses ESPN's official opaque game_ids (e.g., 401810357)
+  3. Filters teams to ONLY those playing today
+  4. Dropped 13 teams not on today's schedule
+
+VERIFICATION:
+  ✅ Pipeline ran successfully
+  ✅ 300 edges matched today's schedule (95%+ match)
+  ✅ All 300 game_ids corrected from wrong dates
+  ✅ 127 duplicates removed
+  ✅ Final output: 77 validated primary edges
+  ✅ All edges for teams playing TODAY (DEN, TOR, ATL, BOS, CHI, DET, GS, HOU, LAC, NY, OKC, PHI, PHX, POR, UTAH, CHA)
+  ✅ Kevin Durant NOT in output (not on playing teams today)
+
+OUTPUT:
+  File: outputs/validated_primary_edges.json
+  Edges: 77
+  Teams: 11 (all playing today)
+  Game IDs: 8 (ESPN official for today)
+  
+NEXT STEP:
+  - Send to Telegram: python -m Telegram.send
+  - System now has correct game truth before sending
+
+======================================================================

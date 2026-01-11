@@ -1,0 +1,149 @@
+🔒 GOVERNED TRUTH UPDATE — DEPLOYMENT COMPLETE
+
+═════════════════════════════════════════════════════════════════════
+
+✅ FILES CREATED/UPDATED:
+
+1. engine/slate_gate.py (NEW)
+   - enforce_today_slate(picks, today_teams, min_match_rate=0.95)
+   - RULE 1: If team not in today's slate → ABORT
+   - Fail mode: RuntimeError (no soft failures)
+
+2. engine/roster_gate.py (NEW)
+   - bind_player_team(picks, roster_map, override=True)
+   - RULE 2: Roster truth overrides picks.json
+   - Example: Kevin Durant HOU (roster) > BOS (picks.json)
+   - load_roster_map(roster_file) - Load from JSON/CSV
+
+3. engine/slate_roster_validator.py (NEW)
+   - validate_and_render() - Full pipeline entry point
+   - Roster binding → Slate enforcement → Write validated output
+   - RULE 3: All downstream systems read from outputs/validated_primary_edges.json
+   - load_validated_picks() - Safe getter with error handling
+
+4. Telegram/send.py (UPDATED)
+   - send_governed_telegram(max_age_seconds=3600)
+   - GUARD: assert_fresh() checks file age
+   - GUARD: load_json() with error handling
+   - GUARD: Only sends picks with is_primary=True
+   - Module-safe: python -m Telegram.send
+
+5. Telegram/transport.py (UPDATED)
+   - Fail loud: RuntimeError if SPORTS_BOT_TOKEN or TELEGRAM_CHAT_ID missing
+   - load_dotenv() early (was missing)
+   - Async/await properly implemented
+   - Response dict returned with status
+
+6. requirements.txt (UPDATED)
+   - ✅ cryptography>=41.0.0,<45 (NOT pinned to 44.x+)
+   - ✅ aiohttp>=3.13.0 (added for async transport)
+   - ✅ scipy>=1.14.0 (optional, for Monte Carlo)
+   - All versions safe and available
+
+7. SOP.md (NEW)
+   - 261-line operational governance document
+   - 5 inviolable rules (detailed, with error patterns)
+   - Full architecture diagram
+   - Module structure reference
+   - Error handling patterns (good vs bad)
+   - Testing examples (3 scenarios)
+   - Deployment checklist
+   - When SOP stops you (error table)
+   - Who can change what
+
+═════════════════════════════════════════════════════════════════════
+
+🎯 THE FIVE INVIOLABLE RULES:
+
+RULE 1: NO SLATE, NO SIGNAL
+   If team not playing today → abort (min_match_rate=95%)
+
+RULE 2: ROSTER TRUTH OVERRIDES ALL
+   Player-to-team from roster ONLY, not picks.json
+
+RULE 3: VALIDATED OUTPUT IS THE ONLY SOURCE
+   All views/Telegram/reports read from outputs/validated_primary_edges.json
+
+RULE 4: FAIL CLOSED (NO DRIFT)
+   Any mismatch >5% aborts pipeline, never silent
+
+RULE 5: MODULE EXECUTION ONLY
+   python -m menu.interactive_menu
+   python -m Telegram.send
+   (Never: python scripts/old_script.py)
+
+═════════════════════════════════════════════════════════════════════
+
+🚀 HOW YOU RUN IT:
+
+From repo root (Windows PowerShell):
+
+   # Run analysis:
+   python -m menu.interactive_menu
+
+   # Send Telegram (if valid picks exist):
+   python -m Telegram.send
+
+   # OR, programmatically:
+   from engine.slate_roster_validator import validate_and_render
+   from engine.roster_gate import load_roster_map
+
+   roster = load_roster_map("data_center/rosters/nba_2024-25.json")
+   picks = [...]  # Your picks
+   today_teams = {"LAL", "BOS", "MIA"}
+
+   validated = validate_and_render(picks, roster, today_teams)
+   # writes to outputs/validated_primary_edges.json
+   # ✅ 42 picks validated
+
+═════════════════════════════════════════════════════════════════════
+
+🛡️ WHY THIS STOPS LOSSES:
+
+Before:
+   ❌ Wrong teams leaked into Telegram
+   ❌ Stale picks sent without validation
+   ❌ picks.json could override roster (chaos)
+   ❌ No single source of truth
+   ❌ Silent failures (system thought it was OK)
+
+After:
+   ✅ enforce_today_slate() blocks wrong teams
+   ✅ assert_fresh() blocks stale data
+   ✅ Roster truth is law (picks.json has no power)
+   ✅ outputs/validated_primary_edges.json is THE source
+   ✅ Fail loud: RuntimeError on any mismatch
+
+═════════════════════════════════════════════════════════════════════
+
+📋 NEXT STEPS:
+
+1. pip install -r requirements.txt
+   (Updates: cryptography range, adds aiohttp)
+
+2. Ensure .env has:
+   SPORTS_BOT_TOKEN=<your_token>
+   TELEGRAM_CHAT_ID=<your_chat_id>
+
+3. Ensure roster file exists:
+   data_center/rosters/nba_2024-25.json (or your league)
+
+4. Run a test:
+   python -m menu.interactive_menu
+   (Will now validate picks through slate gate first)
+
+5. Read SOP.md for deployment checklist
+
+═════════════════════════════════════════════════════════════════════
+
+⚠️ BREAKING CHANGES:
+
+- All Telegram sends now require outputs/validated_primary_edges.json
+- picks.json is no longer the source of truth
+- Roster overrides picks.json (if player in roster_map, team is overridden)
+- Wrong teams = abort (not soft warning)
+- Missing SPORTS_BOT_TOKEN = RuntimeError (not None)
+
+═════════════════════════════════════════════════════════════════════
+
+✨ YOU ARE NOW GOVERNED

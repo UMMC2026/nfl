@@ -1,0 +1,110 @@
+🔒 GOVERNANCE QUICK REF — Always Keep This Open
+
+═══════════════════════════════════════════════════════════════════════
+
+⚡ QUICK COMMANDS (from repo root):
+
+   # Run with governance:
+   python -m menu.interactive_menu
+
+   # Send Telegram (only if validated file exists):
+   python -m Telegram.send
+
+   # Update deps:
+   pip install -r requirements.txt
+
+═══════════════════════════════════════════════════════════════════════
+
+🛡️ THE RULES (Never Bend):
+
+1. No wrong teams in output (enforce_today_slate)
+2. Roster truth > picks.json (bind_player_team)
+3. Read ONLY from outputs/validated_primary_edges.json
+4. Fail loud (RuntimeError on mismatch, never silent)
+5. Module execution only (python -m ...)
+
+═══════════════════════════════════════════════════════════════════════
+
+📂 KEY FILES:
+
+engine/
+├── slate_gate.py               ← Team validation (95% rule)
+├── roster_gate.py              ← Player-team truth
+└── slate_roster_validator.py   ← Pipeline entry
+
+Telegram/
+├── send.py                     ← Governed sender (run via python -m)
+└── transport.py                ← API client (fail loud)
+
+outputs/
+└── validated_primary_edges.json ← THE SOURCE OF TRUTH
+
+SOP.md                          ← Full governance doc (261 lines)
+
+═══════════════════════════════════════════════════════════════════════
+
+⚠️ ERRORS YOU MAY SEE:
+
+SLATE GATE FAIL
+   → Wrong teams in picks or picks don't match today's slate
+   → Fix: Get actual today_teams from ESPN API
+   → Action: Re-run with correct team set
+
+RuntimeError: SPORTS_BOT_TOKEN not set
+   → Missing .env config
+   → Fix: Add SPORTS_BOT_TOKEN and TELEGRAM_CHAT_ID to .env
+
+FileNotFoundError: validated_primary_edges.json
+   → Tried to read before validation
+   → Fix: Run validate_and_render() first
+
+Validated picks < 95%
+   → Too many wrong teams
+   → Fix: Check roster_map and today_teams accuracy
+
+═══════════════════════════════════════════════════════════════════════
+
+✅ WORKFLOW:
+
+1. Load picks (JSON or user input)
+2. Load roster map (player → team truth)
+3. Get today's teams (ESPN API)
+4. Call validate_and_render(picks, roster, today_teams)
+   → Writes outputs/validated_primary_edges.json
+5. All downstream reads from validated file ONLY
+
+═══════════════════════════════════════════════════════════════════════
+
+🚀 EXAMPLE (Python):
+
+from engine.slate_roster_validator import validate_and_render
+from engine.roster_gate import load_roster_map
+import json
+
+# Step 1: Load inputs
+with open("picks.json") as f:
+    picks = json.load(f)
+
+roster = load_roster_map("data_center/rosters/nba_2024-25.json")
+today_teams = {"LAL", "BOS", "MIA"}  # From ESPN
+
+# Step 2: Validate
+validated = validate_and_render(picks, roster, today_teams)
+print(f"✅ {len(validated)} picks validated")
+
+# Step 3: Everything else reads from outputs/validated_primary_edges.json
+
+═══════════════════════════════════════════════════════════════════════
+
+❌ DO NOT:
+
+- Send Telegram from picks.json directly
+- Read picks.json in reports (use validated file)
+- Skip roster binding (picks.json teams can be wrong)
+- Ignore team mismatches (they abort pipeline)
+- Run scripts directly (use python -m ...)
+- Override roster with picks.json (never)
+
+═══════════════════════════════════════════════════════════════════════
+
+✨ YOU ARE NOW GOVERNED — LOSSES PREVENTED ✨

@@ -1,0 +1,22 @@
+{
+  "timeouts": {
+    "quick": 3,
+    "standard": 8,
+    "detailed": 15
+  },
+  "models": {
+    "quick": "mistral",
+    "standard": "mistral",
+    "detailed": "mistral"
+  },
+  "cache": {
+    "enabled": true,
+    "ttl_hours": 24,
+    "max_size_mb": 100
+  },
+  "validation": {
+    "require_min_confidence": 0.6,
+    "auto_correct_teams": true,
+    "log_all_validations": false
+  }
+}

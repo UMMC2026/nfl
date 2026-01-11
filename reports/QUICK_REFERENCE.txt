@@ -1,0 +1,141 @@
+# 📋 QUICK REFERENCE — DAILY GAMES REPORT GATING
+
+---
+
+## **ONE-LINE SUMMARY**
+Master report (all sports) gates all edge/cheat/ledger systems. No report = no edges allowed. **SOP v2.1 locked.**
+
+---
+
+## **3 FILES TO KNOW**
+
+| File | Purpose | Generated |
+|------|---------|-----------|
+| `reports/DAILY_GAMES_REPORT_2026-01-03.md` | Human-readable game context (all sports) | ✅ Today |
+| `reports/DAILY_GAMES_REPORT_2026-01-03.json` | System-readable structure (caps, volumes, scripts) | ✅ Today |
+| `gating/daily_games_report_gating.py` | Master controller (gates all edge systems) | ✅ Ready |
+
+---
+
+## **3 INTEGRATION POINTS**
+
+### **Point 1: NFL Edge Generator**
+```python
+from gating.daily_games_report_gating import gate_nfl_edges
+caps = gate_nfl_edges(date="2026-01-03")  # {core: 0.70, alt: 0.65, td: 0.52}
+```
+
+### **Point 2: Cheat Sheet Builder**
+```python
+from gating.daily_games_report_gating import gate_cheat_sheets
+context = gate_cheat_sheets(date="2026-01-03")  # All games + volume ceilings
+```
+
+### **Point 3: Resolved Ledger**
+```python
+from gating.daily_games_report_gating import gate_resolved_ledger
+report = gate_resolved_ledger(date="2026-01-03")  # Sport context for calibration
+```
+
+---
+
+## **5 CONFIDENCE CAPS**
+
+```
+Default (NFL/NBA core): 70%
+Default (alternative):  65%
+Default (TD):           55%
+
+Adjusted for game context:
+  VERY_HIGH suppression → 70% → 66.5%  (e.g., BAL @ PIT)
+  HIGH suppression      → 70% → 68%    (e.g., CIN @ CLE)
+  Normal                → 70%          (most games)
+```
+
+---
+
+## **7 SPORTS SUPPORTED**
+
+```
+NFL        → 5 playoff games (cold, volume suppressed)
+NBA        → 3 regular season games (elite defense focus)
+CFB        → None today
+CBB        → 2 tournament prep games (pace varies)
+Tennis     → 2 Australian Open prep matches
+Boxing     → None scheduled
+Soccer     → 2 matches (EPL + DFB-Pokal)
+```
+
+---
+
+## **3 VALIDATION GATES**
+
+```
+Gate 1: Report files exist (MD + JSON)
+Gate 2: JSON parses + has required sections
+Gate 3: Confidence caps locked (70% core)
+        → If any fail: SOP violation, abort
+```
+
+---
+
+## **2 OUTPUT MODES**
+
+```
+Markdown (human):
+  • Game-by-game context
+  • Coaching style, defensive ratings
+  • Expected scripts, environmental factors
+  • Readable in any text editor
+
+JSON (system):
+  • Sport-segmented structure
+  • Extractable caps, volumes, variance
+  • Machine-parseable, tested
+  • Feeds all edge/cheat/ledger systems
+```
+
+---
+
+## **QUICK TEST**
+
+```bash
+python gating/daily_games_report_gating.py 2026-01-03
+```
+
+Expected output:
+```
+Status: OPERATIONAL
+Message: Gating PASSED for NFL
+NFL Confidence Caps:
+  core: 70%
+  alt: 65%
+  td: 52%
+```
+
+---
+
+## **REMEMBER**
+
+1. **Report first, edges second** — Context before confidence
+2. **Sport-segmented** — NFL never contaminates NBA rolling window
+3. **Confidence capped** — 70% hard limit on core stats (adjustable by report)
+4. **Volume-gated** — Cheat sheets constrained by expected game script
+5. **Enforced** — Missing report = automatic abort (SOP violation)
+
+---
+
+## **NEXT STEPS**
+
+- [ ] Integrate gating into NFL edge generator (5 lines)
+- [ ] Integrate gating into NBA edge generator (5 lines)
+- [ ] Integrate gating into CBB edge generator (5 lines)
+- [ ] Integrate gating into cheat sheet builder (10 lines)
+- [ ] Integrate gating into resolved ledger (10 lines)
+- [ ] Test full pipeline (all 5 systems using report)
+
+---
+
+**Generated:** 2026-01-03 06:45 AM ET  
+**Status:** ✅ OPERATIONAL  
+**Integration:** 🟢 READY  

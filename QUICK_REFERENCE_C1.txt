@@ -1,0 +1,217 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                                                                            ║
+║           PHASE C-1 TICKET GOVERNOR — QUICK REFERENCE CARD                ║
+║                                                                            ║
+║                     January 1, 2026 — Production Ready                    ║
+║                                                                            ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+═════════════════════════════════════════════════════════════════════════════
+HARD GATES (Blocks Tickets → 0% EV)
+═════════════════════════════════════════════════════════════════════════════
+
+ ❌ BLOCKED IF...                          │ EXAMPLE
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 3+ alt-stats in same ticket              │ Pass attempts + Rush attempts
+                                          │ + Targets + Core points = BLOCKED
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 2+ early-sequence stats in same ticket   │ Points (First 3 Min) +
+                                          │ Assists (First 3 Min) = BLOCKED
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 2+ event-binary stats in same ticket     │ Dunk + Steal = BLOCKED
+                                          │
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 2+ same-player stats in same ticket      │ Lamar Pass Yards +
+                                          │ Lamar Pass Attempts = BLOCKED
+
+═════════════════════════════════════════════════════════════════════════════
+SOFT PENALTIES (Reduces EV → Multiplier Applied)
+═════════════════════════════════════════════════════════════════════════════
+
+ ⚠️  PENALIZED IF...                      │ EV MULTIPLIER  │ EXAMPLE
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━
+ 2 alt-stats in same ticket               │ 95% (−5%)      │ Pass attempts
+                                          │                │ + Targets
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━
+ 1 early-sequence + 1 event-binary mixed  │ 90% (−10%)     │ First 3 min
+                                          │                │ + Dunk
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━
+ 2 same-team stats in same ticket         │ 85% (−15%)     │ 2 NBA teams:
+                                          │                │ LAL + LAL
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━
+ 3 same-team stats in same ticket         │ 70% (−30%)     │ 3 picks from
+ (DOWNGRADED)                             │ + DOWNGRADE    │ same team
+
+═════════════════════════════════════════════════════════════════════════════
+STAT CLASSES (Defined in prob.py STAT_CLASS Dict)
+═════════════════════════════════════════════════════════════════════════════
+
+ STAT CLASS          │ EXAMPLES                       │ EXPOSURE RULE
+ ━━━━━━━━━━━━━━━━━━━┼━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┼━━━━━━━━━━━━━━━━━
+ core (🟢)           │ Points, Rebounds, Assists,     │ No restrictions
+                    │ Combo stats (PRA, PR, etc)     │ (foundation picks)
+ ━━━━━━━━━━━━━━━━━━━┼━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┼━━━━━━━━━━━━━━━━━
+ volume_micro (🔵)   │ Pass attempts, Rush attempts,  │ Max 2 per ticket
+                    │ Targets, Receptions, FG att    │ (5% penalty if 2)
+ ━━━━━━━━━━━━━━━━━━━┼━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┼━━━━━━━━━━━━━━━━━
+ sequence_early (🟡) │ First 3 minutes stats,         │ Max 1 per ticket
+                    │ Early-window projections       │ (blocked if 2+)
+ ━━━━━━━━━━━━━━━━━━━┼━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┼━━━━━━━━━━━━━━━━━
+ event_binary (🔴)   │ Longest plays, Dunks,          │ Max 1 per ticket
+                    │ Turnovers, rare events         │ (blocked if 2+)
+
+═════════════════════════════════════════════════════════════════════════════
+VERDICT FLOW (What You'll See in Cheatsheet)
+═════════════════════════════════════════════════════════════════════════════
+
+ VERDICT                    │ SYMBOL │ MEANING                │ ACTION
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━┼━━━━━━━┼━━━━━━━━━━━━━━━━━━━━━━┼━━━━━━━━
+ APPROVED                   │ ✅     │ Clean ticket,          │ Submit as-is
+                            │        │ no exposure issues     │
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━┼━━━━━━━┼━━━━━━━━━━━━━━━━━━━━━━┼━━━━━━━━
+ APPROVED_WITH_PENALTY      │ ⚠️     │ Acceptable but risky   │ Submit but
+                            │        │ combination, EV cut     │ expect less
+                            │        │ (5%, 10%, 15%, 30%)    │ profit
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━┼━━━━━━━┼━━━━━━━━━━━━━━━━━━━━━━┼━━━━━━━━
+ DOWNGRADED                 │ ⬇️     │ Exposure violation,    │ Consider
+                            │        │ tier downgrade (e.g.   │ reducing
+                            │        │ 3 same-team)           │ exposure
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━┼━━━━━━━┼━━━━━━━━━━━━━━━━━━━━━━┼━━━━━━━━
+ BLOCKED                    │ ❌     │ Hard gate violation,   │ Skip this
+                            │        │ ticket cannot be used  │ ticket
+                            │        │ (0% EV)                │
+
+═════════════════════════════════════════════════════════════════════════════
+SCORING EXAMPLE: How Penalties Stack
+═════════════════════════════════════════════════════════════════════════════
+
+ Example Ticket: [Lamar O 34.5 pass_att (volume) + Henry O 15.5 rush_att
+ (volume) + Giannis O 27.5 pts (core)]
+
+ Base Combined Probability: 0.55 (55%)
+ 
+ Governance Penalties:
+   • 2 alt-stats (volume): 0.55 × 0.95 = 0.5225 (5% cut)
+   • 2 same-team (BAL): 0.5225 × 0.85 = 0.444 (15% cut)
+   • Combined penalty: 0.95 × 0.85 = 0.808 (19.2% total cut)
+ 
+ Final Probability: 0.55 × 0.808 = 0.444 (44.4%)
+ 
+ Verdict: ⚠️ APPROVED_WITH_PENALTY
+ Message: "Approved (with penalty): 2 alt-stats: 95% EV; 2 same-team: 85% EV"
+
+═════════════════════════════════════════════════════════════════════════════
+WHEN C-1 IS ACTIVE (You'll Know Because...)
+═════════════════════════════════════════════════════════════════════════════
+
+ ✅ Cheatsheet shows symbols: ✅ ⚠️ ⬇️ ❌ next to parlay suggestion
+ ✅ Parlay section includes: "⚠️ Approved (with penalty): [reason]"
+ ✅ Messages like: "2 alt-stats: 95% EV" or "BLOCKED: 2 early-sequence"
+ ✅ All picks have "stat_class" field (core, volume_micro, etc.)
+ ✅ Governance header visible: "⚙️ GOVERNANCE LAYER ACTIVE"
+
+═════════════════════════════════════════════════════════════════════════════
+QUICK DECISION TREE
+═════════════════════════════════════════════════════════════════════════════
+
+ Start: Looking at a parlay ticket...
+ 
+   Is it all "core" picks?
+   ├─ YES → ✅ APPROVED (no exposure issues)
+   └─ NO → Count alt-stats...
+   
+        How many alt-stats?
+        ├─ 0-1 → Continue to next check
+        ├─ 2 → ⚠️ APPROVED_WITH_PENALTY (−5%)
+        └─ 3+ → ❌ BLOCKED
+   
+        Any 2+ early-sequence?
+        ├─ YES → ❌ BLOCKED (same-time correlation)
+        └─ NO → Continue...
+   
+        Any 2+ event-binary?
+        ├─ YES → ❌ BLOCKED (rare events)
+        └─ NO → Continue...
+   
+        Any 2+ same-player?
+        ├─ YES → ❌ BLOCKED (double-dip)
+        └─ NO → Check same-team...
+   
+        How many same-team?
+        ├─ 0-1 → ✅ APPROVED
+        ├─ 2 → ⚠️ APPROVED_WITH_PENALTY (−15%)
+        └─ 3 → ⬇️ DOWNGRADED (−30% + tier reduction)
+
+═════════════════════════════════════════════════════════════════════════════
+OPERATIONAL CHECKLIST (Daily)
+═════════════════════════════════════════════════════════════════════════════
+
+ [ ] Run: python -m ufa.daily_pipeline
+ [ ] Check: Any ❌ BLOCKED messages? (log if yes)
+ [ ] Check: Any ⬇️ DOWNGRADED messages? (log if yes)
+ [ ] Check: Any ⚠️ APPROVED_WITH_PENALTY? (normal, expected)
+ [ ] Send: Fresh cheatsheet to Telegram
+ [ ] Monitor: Results (track which penalties improve accuracy)
+
+ Weekly (Sundays):
+ [ ] Review blocked tickets from past 7 days
+ [ ] Check hit rate vs expected
+ [ ] Note any patterns (which gates trigger most?)
+ [ ] Prepare feedback for Phase C-2 design
+
+═════════════════════════════════════════════════════════════════════════════
+TROUBLESHOOTING
+═════════════════════════════════════════════════════════════════════════════
+
+ Problem: Ticket appears BLOCKED but shouldn't be
+ → Check: Is stat_class assigned correctly?
+ → Check: Does alt_stats.py model_alt_stat() return right class?
+
+ Problem: No BLOCKED messages (expected to see some)
+ → Likely: No alt-stats ingested yet (only "core" picks)
+ → Solution: C-1 will activate once alt-stats added to picks.json
+
+ Problem: Penalty seems too harsh
+ → Option 1: Wait 2 weeks, gather data, tune in Phase C-2
+ → Option 2: Adjust soft_penalties dict in ticket_governor.py
+ → Option 3: Disable by setting penalty_mult=1.0 (emergency)
+
+═════════════════════════════════════════════════════════════════════════════
+SYSTEM STATUS (Jan 1, 13:35 PM)
+═════════════════════════════════════════════════════════════════════════════
+
+ Phase A (Governance Layer):       ✅ DEPLOYED
+ Phase B (Alt-Stats Modeling):     ✅ DEPLOYED
+ Phase C-1 (Ticket Exposure):      ✅ DEPLOYED ← YOU ARE HERE
+ Phase C-2 (Slate Exposure):       ⏳ PLANNED (mid-January)
+ 
+ Latest Cheatsheet:                CHEATSHEET_JAN01_20260101_133230.txt
+ Fresh Telegram Signals:           READY TO SEND
+ Live Monitoring:                  READY TO BEGIN
+
+═════════════════════════════════════════════════════════════════════════════
+FILES & DOCUMENTATION
+═════════════════════════════════════════════════════════════════════════════
+
+ Code:
+   • ufa/optimizer/ticket_governor.py (297 lines)
+   • ufa/daily_pipeline.py (modified, +8 lines)
+
+ Reference:
+   • PHASE_C1_SUMMARY.txt (this session overview)
+   • PHASE_C1_COMPLETE.txt (detailed spec, 340 lines)
+   • SYSTEM_ARCHITECTURE_C1.txt (visual architecture)
+   • OPERATIONAL_CHECKLIST_C1.txt (pre-deploy + live checks)
+
+ Quick Lookup:
+   • GOVERNANCE_LAYER_CARD.txt (hard gates table)
+
+═════════════════════════════════════════════════════════════════════════════
+
+                        ✅ PRODUCTION READY
+                  
+                  Deployment Status: AUTHORIZED
+                  Latest Cheatsheet: READY
+                  Telegram Signals: READY TO SEND
+
+═════════════════════════════════════════════════════════════════════════════

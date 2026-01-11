@@ -1,0 +1,59 @@
+{
+  "verification_timeout": 120,
+  "max_concurrent_verifications": 5,
+  "retry_attempts": 3,
+  "retry_delay_minutes": 5,
+  "sources": {
+    "fast": {
+      "nba_api": {
+        "timeout": 5,
+        "priority": 1,
+        "enabled": true,
+        "weight": 0.7
+      },
+      "espn_scrape": {
+        "timeout": 10,
+        "priority": 2,
+        "enabled": true,
+        "weight": 0.3
+      }
+    },
+    "slow_reliable": {
+      "basketball_reference": {
+        "delay_minutes": 30,
+        "priority": 1,
+        "enabled": true,
+        "weight": 0.4
+      },
+      "nba_official_boxscore": {
+        "delay_minutes": 45,
+        "priority": 1,
+        "enabled": true,
+        "weight": 0.4
+      },
+      "espn_official": {
+        "delay_minutes": 60,
+        "priority": 2,
+        "enabled": true,
+        "weight": 0.2
+      }
+    }
+  },
+  "conservative_estimates": {
+    "historical_games": 10,
+    "safety_margin": 0.15,
+    "min_confidence": 0.6,
+    "percentile_for_unders": 10,
+    "percentile_for_overs": 90
+  },
+  "notification": {
+    "slack_webhook": "",
+    "email_on_verification": false,
+    "log_level": "INFO"
+  },
+  "cleanup": {
+    "keep_verified_days": 30,
+    "keep_failed_days": 7,
+    "cleanup_interval_hours": 24
+  }
+}

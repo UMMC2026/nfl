@@ -1,0 +1,57 @@
+[
+  {
+    "league": "NFL",
+    "player": "Caleb Williams",
+    "team": "CHI",
+    "opponent": "SF",
+    "stat": "pass_yds",
+    "line": 224.5,
+    "direction": "higher",
+    "mu": 224.5,
+    "sigma": 35.0
+  },
+  {
+    "league": "NFL",
+    "player": "D'Andre Swift",
+    "team": "CHI",
+    "opponent": "SF",
+    "stat": "rush_yds",
+    "line": 58.5,
+    "direction": "higher",
+    "mu": 58.5,
+    "sigma": 18.0
+  },
+  {
+    "league": "NFL",
+    "player": "Ricky Pearsall",
+    "team": "SF",
+    "opponent": "CHI",
+    "stat": "rec_yds",
+    "line": 39.5,
+    "direction": "higher",
+    "mu": 39.5,
+    "sigma": 22.0
+  },
+  {
+    "league": "NFL",
+    "player": "Cole Kmet",
+    "team": "CHI",
+    "opponent": "SF",
+    "stat": "receptions",
+    "line": 2.5,
+    "direction": "higher",
+    "mu": 2.5,
+    "sigma": 1.2
+  },
+  {
+    "league": "NFL",
+    "player": "Brock Purdy",
+    "team": "SF",
+    "opponent": "CHI",
+    "stat": "pass_yds",
+    "line": 255.5,
+    "direction": "higher",
+    "mu": 255.5,
+    "sigma": 35.0
+  }
+]

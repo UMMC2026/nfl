@@ -1,0 +1,72 @@
+UFA Learning Loop Report - 2026-01-06
+============================================================
+
+Analysis Summary:
+- Target Date: 2026-01-04
+- Days Analyzed: 3
+- Total Picks: 12
+- Overall Win Rate: 58.3%
+
+Detailed Patterns:
+- stat:points
+  Win Rate: 57.1% (4-3)
+  Sample Size: 7 picks
+  Avg Confidence: 0.70
+  Suggestion: ✅ Strong performer (57.1% win rate). Consider increasing confidence allocation.
+
+- stat:assists
+  Win Rate: 100.0% (3-0)
+  Sample Size: 3 picks
+  Avg Confidence: 0.66
+  Suggestion: ✅ Strong performer (100.0% win rate). Consider increasing confidence allocation.
+
+- tier:SLAM
+  Win Rate: 80.0% (4-1)
+  Sample Size: 5 picks
+  Avg Confidence: 0.75
+  Suggestion: ✅ Strong performer (80.0% win rate). Consider increasing confidence allocation.
+
+- tier:STRONG
+  Win Rate: 66.7% (2-1)
+  Sample Size: 3 picks
+  Avg Confidence: 0.70
+  Suggestion: ✅ Strong performer (66.7% win rate). Consider increasing confidence allocation.
+
+- tier:LEAN
+  Win Rate: 25.0% (1-3)
+  Sample Size: 4 picks
+  Avg Confidence: 0.57
+  Suggestion: ⚠️ Underperforming (25.0% win rate). Consider reducing confidence or adjusting model.
+
+- direction:higher
+  Win Rate: 50.0% (5-5)
+  Sample Size: 10 picks
+  Avg Confidence: 0.69
+  Suggestion: 📊 Neutral performance (50.0% win rate). Monitor for changes.
+
+- line_range:5-10
+  Win Rate: 100.0% (4-0)
+  Sample Size: 4 picks
+  Avg Confidence: 0.68
+  Suggestion: 🎯 Sweet spot for 5-10 lines. Higher success rate suggests good model fit.
+
+- line_range:15-20
+  Win Rate: 100.0% (2-0)
+  Sample Size: 2 picks
+  Avg Confidence: 0.71
+  Suggestion: 🎯 Sweet spot for 15-20 lines. Higher success rate suggests good model fit.
+
+- line_range:25+
+  Win Rate: 20.0% (1-4)
+  Sample Size: 5 picks
+  Avg Confidence: 0.69
+  Suggestion: ⚠️ Challenging range for 25+ lines. May need line-specific adjustments.
+
+Anomalies:
+- OG Anunoby pts+reb+ast: Expected 25.5, Got 18.0 (deviation: 7.5)
+- Tyrese Maxey points: Expected 25.5, Got 19.0 (deviation: 6.5)
+- Giannis Antetokounmpo points: Expected 27.5, Got 22.0 (deviation: 5.5)
+
+Recommendations:
+- Investigate 3 large misses using contextual analysis. Check for injuries, matchups, or model blind spots.
+- ✅ System performing well above baseline. Focus on scaling and refinement.

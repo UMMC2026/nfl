@@ -1,0 +1,15 @@
+[
+  {"league": "NBA", "player": "LeBron James", "team": "LAL", "opponent": "SAC", "stat": "points", "line": 23.5, "direction": "higher", "mu": 24.8, "sigma": 5.0},
+  {"league": "NBA", "player": "LeBron James", "team": "LAL", "opponent": "SAC", "stat": "assists", "line": 7.5, "direction": "higher", "mu": 7.8, "sigma": 2.0},
+  {"league": "NBA", "player": "Jarred Vanderbilt", "team": "LAL", "opponent": "SAC", "stat": "rebounds", "line": 5.5, "direction": "higher", "mu": 6.0, "sigma": 2.2},
+  {"league": "NBA", "player": "DeMar DeRozan", "team": "SAC", "opponent": "LAL", "stat": "points", "line": 20.5, "direction": "higher", "mu": 21.0, "sigma": 4.8},
+  {"league": "NBA", "player": "Keon Ellis", "team": "SAC", "opponent": "LAL", "stat": "3pm", "line": 2.5, "direction": "higher", "mu": 2.6, "sigma": 1.3},
+  {"league": "NBA", "player": "Deandre Ayton", "team": "LAL", "opponent": "SAC", "stat": "rebounds", "line": 9.5, "direction": "higher", "mu": 10.2, "sigma": 3.0},
+  {"league": "NBA", "player": "Marcus Smart", "team": "LAL", "opponent": "SAC", "stat": "assists", "line": 3.5, "direction": "higher", "mu": 3.8, "sigma": 1.5},
+
+  {"league": "NFL", "player": "Brock Purdy", "team": "SF", "opponent": "CHI", "stat": "pass_yds", "line": 255.5, "direction": "higher", "mu": 270.0, "sigma": 40.0},
+  {"league": "NFL", "player": "Christian McCaffrey", "team": "SF", "opponent": "CHI", "stat": "receptions", "line": 5.5, "direction": "higher", "mu": 6.0, "sigma": 2.0},
+  {"league": "NFL", "player": "D.J. Moore", "team": "CHI", "opponent": "SF", "stat": "rec_yds", "line": 45.5, "direction": "higher", "mu": 58.0, "sigma": 25.0},
+  {"league": "NFL", "player": "Caleb Williams", "team": "CHI", "opponent": "SF", "stat": "pass_yds", "line": 224.5, "direction": "higher", "mu": 240.0, "sigma": 35.0},
+  {"league": "NFL", "player": "D'Andre Swift", "team": "CHI", "opponent": "SF", "stat": "receptions", "line": 2.5, "direction": "higher", "mu": 3.0, "sigma": 1.2}
+]

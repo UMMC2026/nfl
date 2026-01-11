@@ -1,0 +1,22 @@
+# SaaS Dependencies for Underdog Signals
+# Install with: pip install -r requirements-saas.txt
+
+# Authentication
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+
+# Payments
+stripe>=7.0.0
+
+# Telegram Bot
+python-telegram-bot>=20.0
+
+# Database (already in base, but ensure version)
+sqlalchemy>=2.0.0
+alembic>=1.13.0
+
+# Task scheduling (optional - for auto grading)
+apscheduler>=3.10.0
+
+# Additional utilities
+python-dotenv>=1.0.0

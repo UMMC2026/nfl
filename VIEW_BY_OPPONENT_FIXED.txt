@@ -1,0 +1,41 @@
+======================================================================
+VIEW_BY_OPPONENT.PY - FIXED TO USE VALIDATED DATA
+======================================================================
+
+PROBLEM:
+  - view_by_opponent.py was reading from picks_hydrated.json (INPUT)
+  - Showing stale/invalid games (BKN, DAL, MIA not playing today)
+  - All probabilities showed UNKNOWN (no scoring applied to input picks)
+  - Used hardcoded old MATCHUPS dictionary
+
+ROOT CAUSE:
+  view_by_opponent.py was displaying RAW PICKS, not validated pipeline output
+
+SOLUTION IMPLEMENTED:
+  1. Changed source from picks_hydrated.json → validated_primary_edges.json
+  2. Removed hardcoded MATCHUPS dictionary
+  3. Built matchups DYNAMICALLY from validated data
+  4. Updated display to use "probability" field (from scoring)
+  5. Removed complex Rich markup that was causing errors
+  6. Updated summary stats to reference correct data
+
+VERIFICATION:
+  ✅ Now shows: ATL vs TOR, BOS vs CHI, DEN vs OKC, etc. (TODAY's teams)
+  ✅ No longer shows: BKN, DAL, MIA (teams not playing today)
+  ✅ Probabilities now showing correctly (59%, 65%, 76%, 95%, etc.)
+  ✅ Confidence tiers working (SLAM, STRONG, LEAN, etc.)
+  ✅ Team assignments validated
+
+DATA FLOW:
+  picks.json (manual) 
+    → picks_hydrated.json (with recent values added)
+    → daily_pipeline.py (applies 3 gates + scoring)
+    → validated_primary_edges.json (TRUTH OUTPUT)
+    → view_by_opponent.py NOW READS THIS ✅
+
+NEXT STEPS:
+  - Menu option [3b] "By Opponent" now shows correct validated picks
+  - Ready to send to Telegram with [3c] or [2]
+  - All displays now pull from single source of truth
+
+======================================================================

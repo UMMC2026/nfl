@@ -1,0 +1,43 @@
+📊 RESULTS TRACKING SYSTEM - QUICK GUIDE
+
+You have 3 tools to track picks performance:
+
+1️⃣ CHECK RESULTS (View historical performance)
+   .venv\Scripts\python.exe check_results.py
+   .venv\Scripts\python.exe check_results.py 2026-01-02
+   
+   Shows:
+   - Overall hit rate
+   - Performance by tier (SLAM, STRONG, LEAN, BELOW)  
+   - Performance by direction (OVER vs UNDER)
+   - Top performing picks
+   - Biggest misses with failure causes
+
+2️⃣ UPDATE RESULTS (Enter actual game outcomes)
+   
+   Show pending picks:
+   .venv\Scripts\python.exe update_results.py show 2026-01-02
+   
+   Update single pick:
+   .venv\Scripts\python.exe update_results.py update pick_2026010201_og_anunoby_points 22.0
+   
+   Bulk update from CSV:
+   .venv\Scripts\python.exe update_results.py bulk jan02_results.csv
+
+3️⃣ VIEW RAW DATA
+   Open: calibration_history.csv
+   
+   Contains all picks with:
+   - Predictions (probability, tier, line)
+   - Results (actual_value, outcome: HIT/MISS)
+   - Analysis (failure causes, governance flags)
+
+WORKFLOW:
+1. Run daily_pipeline.py → generates picks → saves to calibration_history.csv
+2. After games finish → update_results.py → enter actual stats
+3. check_results.py → analyze performance and calibration
+
+CURRENT STATUS:
+- 156 picks from 2026-01-02 pending results
+- 0 picks resolved (need to enter actual game stats)
+

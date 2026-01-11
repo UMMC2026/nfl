@@ -1,0 +1,62 @@
+[
+  {
+    "league": "NBA",
+    "player": "Player A",
+    "team": "LAL",
+    "stat": "points",
+    "line": 24.5,
+    "direction": "higher",
+    "recent_values": [
+      22,
+      28,
+      25,
+      31,
+      19,
+      26,
+      27,
+      24,
+      30,
+      21
+    ]
+  },
+  {
+    "league": "NFL",
+    "player": "Player C",
+    "team": "KC",
+    "stat": "pass_yds",
+    "line": 265.5,
+    "direction": "higher",
+    "recent_values": [
+      240,
+      310,
+      275,
+      290,
+      260,
+      315,
+      225,
+      280,
+      305,
+      250
+    ]
+  },
+  {
+    "league": "CFB",
+    "player": "Player D",
+    "team": "TEX",
+    "stat": "cfb_pass_yds",
+    "line": 245.5,
+    "direction": "higher",
+    "recent_values": [
+      210,
+      265,
+      290,
+      240,
+      320,
+      180,
+      275,
+      260,
+      300,
+      230
+    ]
+  }
+]

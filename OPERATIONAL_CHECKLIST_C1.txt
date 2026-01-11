@@ -1,0 +1,228 @@
+================================================================================
+PHASE C-1 OPERATIONAL CHECKLIST
+January 1, 2026
+================================================================================
+
+DEPLOYMENT VERIFICATION (PRE-TELEGRAM)
+═════════════════════════════════════════════════════════════════════════════════
+
+✅ Code & Files:
+   [✓] ufa/optimizer/ticket_governor.py exists (297 lines)
+   [✓] ufa/daily_pipeline.py updated with TicketGovernor import
+   [✓] daily_pipeline __init__ initializes self.ticket_governor
+   [✓] _generate_parlay_section() calls ticket_governor.evaluate_ticket()
+   [✓] No syntax errors when running python -m ufa.daily_pipeline
+
+✅ Tests:
+   [✓] ticket_governor.py __main__ runs without errors
+   [✓] Test 1 (Clean ticket): Returns APPROVED with 100% penalty
+   [✓] Test 2 (2 alt-stats): Returns APPROVED_WITH_PENALTY with 81% penalty
+   [✓] Test 3 (2 early-sequence): Returns BLOCKED with 0% penalty
+   [✓] batch_evaluate() works on list of tickets
+   [✓] format_summary() generates readable output
+
+✅ Pipeline:
+   [✓] Daily pipeline runs: python -m ufa.daily_pipeline ✅
+   [✓] Loaded 156 picks ✅
+   [✓] Processed 156 picks ✅
+   [✓] Generated cheatsheet ✅
+   [✓] Saved 62 picks for tracking ✅
+
+✅ Output:
+   [✓] Latest cheatsheet: CHEATSHEET_JAN01_20260101_133230.txt
+   [✓] Cheatsheet contains parlay section with governance messaging
+   [✓] No errors or warnings in output
+
+✅ Backwards Compatibility:
+   [✓] All 156 picks processed successfully
+   [✓] No tier changes for core picks
+   [✓] No regression in confidence distributions
+   [✓] Parlay section still generates with 6x payout info
+
+OPERATIONAL SIGN-OFF
+═════════════════════════════════════════════════════════════════════════════════
+
+✅ All pre-deployment checks passed
+✅ System ready for live production
+✅ Fresh cheatsheet ready to send to Telegram
+✅ Monitoring infrastructure ready (results_tracker will log verdicts)
+
+TELEGRAM DEPLOYMENT CHECKLIST
+═════════════════════════════════════════════════════════════════════════════════
+
+Cheatsheet to Send:
+  File: CHEATSHEET_JAN01_20260101_133230.txt
+  Picks: 62 SLAM/STRONG (ready to track)
+  Governance: All layers active (Phase A, B, C-1)
+
+Command to Execute:
+  python send_telegram_signals.py
+  (Configures: picks_file=CHEATSHEET_JAN01_20260101_133230.txt)
+
+Expected Telegram Output:
+  📈 UNDERDOG FANTASY ANALYZER - JAN 01
+  ⚙️ System: Governance + Alt-stats + Ticket exposure limits
+  
+  🎯 SLAM PLAYS (62 picks):
+    [Top 5 displayed, full list in thread]
+  
+  💪 STRONG PLAYS:
+    [Listed if >10]
+  
+  🎲 PARLAY:
+    3-Leg Power Play: [picks + prob + edge]
+  
+  Status: ✅ All picks verified
+
+Post-Send Checklist:
+  [_] Confirm Telegram message received
+  [_] Verify all 62 picks displayed correctly
+  [_] Check that governance layer visible in message
+  [_] Monitor for errors in Telegram logs
+
+MONITORING PLAN (JAN 1–15)
+═════════════════════════════════════════════════════════════════════════════════
+
+Daily (5 PM):
+  [_] Run daily_pipeline
+  [_] Check if any tickets BLOCKED (log reason)
+  [_] Check if any tickets DOWNGRADED (log why)
+  [_] Send cheatsheet to Telegram
+  [_] Record number of SLAM/STRONG picks
+
+Weekly (Every Sunday):
+  [_] Analyze blocked/penalized tickets from past 7 days
+  [_] Check hit rate vs expected (should match calibration)
+  [_] Note any false positives (good tickets blocked)
+  [_] Update Phase C-2 planning document
+
+After 2 Weeks (Jan 15):
+  [_] Compile 2-week data summary
+  [_] Decide: Any C-1 rules need adjustment?
+  [_] Lock Phase C-2 scope
+  [_] Begin Phase C-2 implementation
+
+DATA TO COLLECT (For Phase C-2 Design)
+═════════════════════════════════════════════════════════════════════════════════
+
+For each blocked ticket, record:
+  • Date
+  • Which hard gate triggered (2+ alt-stats? 2+ early-sequence?)
+  • Players involved
+  • Expected EV if not blocked
+  • Actual result (if could measure)
+
+For each penalized ticket, record:
+  • Date
+  • Type of penalty (alt-stat stacking? Same-team? Mixed stat class?)
+  • EV before penalty
+  • EV after penalty
+  • Actual result (hit or miss)
+
+Metrics to Calculate:
+  • Blocked rate: % of potential parlays blocked
+  • Penalized rate: % of parlays penalized
+  • False positive rate: % of blocked that would have hit
+  • Hit rate (penalized vs not): Did penalties improve accuracy?
+
+TROUBLESHOOTING GUIDE
+═════════════════════════════════════════════════════════════════════════════════
+
+Problem: Cheatsheet shows parlay as BLOCKED but shouldn't be
+  → Check stat_class assignment in picks dict
+  → Verify alt_stats.py model_alt_stat() returning correct class
+  → Review ticket_governor hard gates (3+ alt-stats, etc.)
+
+Problem: No BLOCKED messages appearing (expected to see some)
+  → Likely all alt-stats not ingested yet (only "core" picks)
+  → C-1 will auto-activate once alt-stats added to picks.json
+  → Check if alt_stats.py models are being called
+
+Problem: Penalty seems too harsh (5% for 2 alt-stats)
+  → Can adjust soft penalties in ticket_governor.py soft_penalties dict
+  → Recommend waiting 2 weeks of data before tuning
+  → Phase C-2 may add adaptive penalties (learn from results)
+
+Problem: Same-team penalty not reflecting real correlation
+  → Current penalty based on simple count (2 = 15%, 3 = 30%)
+  → Phase C-2 may use correlation matrix (team-specific)
+  → For now, note discrepancies for Phase C-2 design
+
+ROLLBACK PLAN (If Issues Arise)
+═════════════════════════════════════════════════════════════════════════════════
+
+If C-1 breaks something:
+  1. Comment out this line in ufa/daily_pipeline.py:
+     
+     # ticket_verdict = self.ticket_governor.evaluate_ticket(parlay_picks)
+     ticket_verdict = TicketAdjustment(
+         verdict=VerdictType.APPROVED,
+         message="❌ Ticket Governor disabled",
+         penalty_mult=1.0
+     )
+  
+  2. Re-run pipeline
+  3. Verify output returns to pre-C-1 state
+
+This is a safe, non-breaking rollback (C-1 becomes no-op).
+
+For full rollback:
+  1. Remove TicketGovernor import from daily_pipeline.py
+  2. Remove self.ticket_governor initialization
+  3. Remove ticket_governor.evaluate_ticket() call
+  4. Re-run pipeline
+
+The rollback preserves all other governors (Phase A, B, calibration, etc.).
+
+DOCUMENTATION FILES
+═════════════════════════════════════════════════════════════════════════════════
+
+Quick Start:
+  [✓] PHASE_C1_DEPLOYMENT_READY.txt (operational summary)
+  [✓] SYSTEM_ARCHITECTURE_C1.txt (visual architecture + data flow)
+  [✓] This checklist (OPERATIONAL_CHECKLIST.txt)
+
+Reference:
+  [✓] PHASE_C1_COMPLETE.txt (340 lines, detailed spec)
+  [✓] GOVERNANCE_LAYER_CARD.txt (quick reference card)
+
+Implementation Details:
+  [✓] ufa/optimizer/ticket_governor.py (source + tests)
+  [✓] ufa/daily_pipeline.py (integration code)
+
+Earlier Phases:
+  [✓] GOVERNANCE_LAYER_SUMMARY.md (Phase A details)
+  [✓] PHASE_B_COMPLETE.txt (Phase B summary)
+
+FINAL SIGN-OFF
+═════════════════════════════════════════════════════════════════════════════════
+
+Date: January 1, 2026, 13:35 PM
+Phase: C-1 Ticket-Level Exposure Governor
+Status: ✅ PRODUCTION READY
+
+All Systems Go:
+  ✅ Code reviewed and tested
+  ✅ No regressions detected
+  ✅ Fresh cheatsheet generated
+  ✅ Documentation complete
+  ✅ Monitoring plan in place
+  ✅ Rollback plan documented
+
+Deployment Authorized: YES ✅
+
+Next Action: Send Telegram signals with fresh cheatsheet
+Expected Time: 30 minutes (+ manual send_telegram_signals.py execution)
+
+Timeline:
+  → Jan 1: Deploy C-1, send Telegram
+  → Jan 1–15: Monitor live data, collect exposure violation patterns
+  → Jan 15: Design Phase C-2 based on live feedback
+  → Mid-January: Deploy Phase C-2
+
+Contact Point: Monitor cheatsheet output for "BLOCKED" or "DOWNGRADED" messages
+Questions: See PHASE_C1_COMPLETE.txt troubleshooting section
+
+================================================================================
+READY TO PROCEED WITH TELEGRAM DEPLOYMENT
+================================================================================

@@ -1,0 +1,12 @@
+[
+  {"league": "NBA", "player": "Scottie Barnes", "team": "TOR", "opponent": "ORL", "stat": "Points", "line": 18.5, "direction": "higher"},
+  {"league": "NBA", "player": "Scottie Barnes", "team": "TOR", "opponent": "ORL", "stat": "Pts+Rebs+Asts", "line": 33.5, "direction": "lower"},
+  {"league": "NBA", "player": "Desmond Bane", "team": "MEM", "opponent": "TOR", "stat": "Points", "line": 21.5, "direction": "higher"},
+  {"league": "NBA", "player": "Immanuel Quickley", "team": "TOR", "opponent": "ORL", "stat": "Assists", "line": 5.5, "direction": "lower"},
+  {"league": "NBA", "player": "Wendell Carter Jr.", "team": "ORL", "opponent": "TOR", "stat": "Rebounds", "line": 7.5, "direction": "higher"},
+  {"league": "NBA", "player": "Victor Wembanyama", "team": "SAS", "opponent": "CLE", "stat": "Points", "line": 20.5, "direction": "higher"},
+  {"league": "NBA", "player": "Donovan Mitchell", "team": "CLE", "opponent": "SAS", "stat": "Points", "line": 27.5, "direction": "lower"},
+  {"league": "NFL", "player": "Bijan Robinson", "team": "ATL", "opponent": "LAR", "stat": "Rush Yards", "line": 74.5, "direction": "higher"},
+  {"league": "NFL", "player": "Puka Nacua", "team": "LAR", "opponent": "ATL", "stat": "Receiving Yards", "line": 108.5, "direction": "lower"},
+  {"league": "NFL", "player": "Kyle Pitts", "team": "ATL", "opponent": "LAR", "stat": "Receptions", "line": 5.5, "direction": "higher"}
+]

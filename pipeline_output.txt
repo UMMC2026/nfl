@@ -1,0 +1,61 @@
+≡ƒÜÇ DAILY PIPELINE START
+   League: NBA
+
+≡ƒôÑ Loaded 945 raw picks
+≡ƒöº Normalized 945 picks
+
+Γ¢ö SCHEDULE GATE
+   Fetched 8 games for today
+Γ¢ö SCHEDULE GATE: 8 games on ESPN today
+   Teams playing: ['ATL', 'BOS', 'CHA', 'CHI', 'DEN', 'DET', 'GS', 'HOU', 'LAC', 'NY', 'OKC', 'PHI', 'PHX', 'POR', 'TOR', 'UTAH']
+
+ΓÜá∩╕Å  SCHEDULE GATE: Dropped 13 teams not playing today
+   - BKN
+   - CLE
+   - DAL
+   - GSW
+   - LAL
+   - MIA
+   - MIL
+   - NOP
+   - NYK
+   - SAC
+   - SAS
+   - UTA
+   - WAS
+Γ£à SCHEDULE GATE: 300 edges for 11 teams playing today
+   ≡ƒöä Corrected 300 game_id + edge_key/edge_id from ESPN
+
+   Γ£à 300 picks match today's schedule
+
+Γ¢ö ROSTER GATE
+Traceback (most recent call last):
+ΓÜá∩╕Å  ROSTER GATE: No roster data found from ESPN (may be API issue), skipping roster validation
+ΓÜá∩╕Å  ROSTER VALIDATION SKIPPED (ESPN API unavailable)
+   300 picks NOT verified against active rosters
+
+Γ¢ö DEDUPE GATE
+ΓÜá∩╕Å  DEDUPE: Removed 127 duplicate edges
+Γ£à DEDUPE: 173 unique edges retained
+  File "C:\Users\hiday\UNDERDOG ANANLYSIS\daily_pipeline.py", line 130, in <module>
+   Γ£à 173 unique edges after deduplication
+
+≡ƒº⌐ COLLAPSE EDGES
+   Γ£à Collapsed to 173 edge rows
+
+≡ƒôè SCORE EDGES
+   Γ£à Scored 78 eligible edges
+
+≡ƒÄ» RESOLVE PRIMARIES
+   Γ£à Resolved primary edges per player/game
+
+≡ƒöÆ RENDER GATE
+   Γ¥î RENDER GATE FAILED
+Tier mismatch for Mark Williams
+    run_pipeline()
+  File "C:\Users\hiday\UNDERDOG ANANLYSIS\daily_pipeline.py", line 110, in run_pipeline
+    validated = render_gate(resolved)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hiday\UNDERDOG ANANLYSIS\engine\render_gate.py", line 44, in render_gate
+    raise RenderGateError(f"Tier mismatch for {p['player']}")
+engine.render_gate.RenderGateError: Tier mismatch for Mark Williams

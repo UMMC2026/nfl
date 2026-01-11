@@ -1,0 +1,57 @@
+[
+  {
+    "league": "NBA",
+    "player": "Derrick White",
+    "team": "BOS",
+    "opponent": "POR",
+    "stat": "rebounds",
+    "line": 4.5,
+    "direction": "higher",
+    "mu": 4.5,
+    "sigma": 2.0
+  },
+  {
+    "league": "NBA",
+    "player": "Jaylen Brown",
+    "team": "BOS",
+    "opponent": "POR",
+    "stat": "points",
+    "line": 29.5,
+    "direction": "higher",
+    "mu": 29.5,
+    "sigma": 4.0
+  },
+  {
+    "league": "NBA",
+    "player": "Anfernee Simons",
+    "team": "POR",
+    "opponent": "BOS",
+    "stat": "points",
+    "line": 11.5,
+    "direction": "higher",
+    "mu": 11.5,
+    "sigma": 4.0
+  },
+  {
+    "league": "NBA",
+    "player": "Shaedon Sharpe",
+    "team": "POR",
+    "opponent": "BOS",
+    "stat": "points",
+    "line": 23.5,
+    "direction": "higher",
+    "mu": 23.5,
+    "sigma": 4.0
+  },
+  {
+    "league": "NBA",
+    "player": "Donovan Clingan",
+    "team": "POR",
+    "opponent": "BOS",
+    "stat": "rebounds",
+    "line": 11.5,
+    "direction": "higher",
+    "mu": 11.5,
+    "sigma": 2.0
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "league": "NFL",
+    "player": "Jalen Hurts",
+    "team": "PHI",
+    "opponent": "BUF",
+    "stat": "pass_yds",
+    "line": 245.5,
+    "direction": "higher",
+    "recent_values": [228, 265, 242, 289, 255, 238, 276, 245, 261, 233]
+  },
+  {
+    "league": "NFL",
+    "player": "Saquon Barkley",
+    "team": "PHI",
+    "opponent": "BUF",
+    "stat": "rush_yds",
+    "line": 60.5,
+    "direction": "higher",
+    "recent_values": [74, 63, 58, 71, 66, 54, 80, 62, 69, 57]
+  },
+  {
+    "league": "NFL",
+    "player": "A.J. Brown",
+    "team": "PHI",
+    "opponent": "BUF",
+    "stat": "rec_yds",
+    "line": 70.5,
+    "direction": "higher",
+    "recent_values": [82, 96, 61, 88, 104, 73, 92, 85, 78, 69]
+  },
+  {
+    "league": "NFL",
+    "player": "DeVonta Smith",
+    "team": "PHI",
+    "opponent": "BUF",
+    "stat": "rec_yds",
+    "line": 58.5,
+    "direction": "higher",
+    "recent_values": [64, 52, 71, 59, 68, 55, 73, 61, 57, 62]
+  },
+  {
+    "league": "NFL",
+    "player": "Dallas Goedert",
+    "team": "PHI",
+    "opponent": "BUF",
+    "stat": "receptions",
+    "line": 4.5,
+    "direction": "higher",
+    "recent_values": [5, 6, 4, 5, 7, 4, 6, 5, 5, 4]
+  },
+  {
+    "league": "NFL",
+    "player": "Josh Allen",
+    "team": "BUF",
+    "opponent": "PHI",
+    "stat": "pass_yds",
+    "line": 265.5,
+    "direction": "higher",
+    "recent_values": [278, 301, 255, 292, 320, 268, 276, 289, 305, 250]
+  },
+  {
+    "league": "NFL",
+    "player": "James Cook",
+    "team": "BUF",
+    "opponent": "PHI",
+    "stat": "rush_yds",
+    "line": 58.5,
+    "direction": "higher",
+    "recent_values": [62, 57, 71, 59, 66, 54, 75, 60, 63, 58]
+  },
+  {
+    "league": "NFL",
+    "player": "Dalton Kincaid",
+    "team": "BUF",
+    "opponent": "PHI",
+    "stat": "receptions",
+    "line": 5.5,
+    "direction": "higher",
+    "recent_values": [6, 5, 7, 6, 6, 5, 8, 6, 7, 5]
+  },
+  {
+    "league": "NFL",
+    "player": "Khalil Shakir",
+    "team": "BUF",
+    "opponent": "PHI",
+    "stat": "rec_yds",
+    "line": 52.5,
+    "direction": "higher",
+    "recent_values": [55, 48, 62, 57, 53, 51, 65, 58, 54, 49]
+  }
+]

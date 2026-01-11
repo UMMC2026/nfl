@@ -1,0 +1,117 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                PHASE B: ALT-STATS MODELING LAYER — DEPLOYED ✅              ║
+║                           Ready for expansion (NFL + NBA)                   ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+IMPLEMENTED:
+═════════════════════════════════════════════════════════════════════════════
+
+✅ ufa/analysis/alt_stats.py (275 lines)
+   • model_volume_micro() — Pass attempts, targets, receptions, FG attempts
+   • model_sequence_early() — First 3 min stats, early-window projections
+   • model_event_binary() — Longest plays, dunks, turnovers (rare events)
+   • Context builders for NFL + NBA
+   • Self-contained, zero dependencies
+   • Tested & working (logistic scaling verified)
+
+✅ ufa/analysis/prob.py (Integration)
+   • Import alt_stats module (safe try/except)
+   • ALT_STATS_AVAILABLE flag
+   • Integration documentation (how to use when ready)
+   • No forcing of alt-stats (backward compatible)
+
+✅ Fresh cheatsheet generated (Jan 1, 13:26 PM)
+   • CHEATSHEET_JAN01_20260101_132655.txt
+   • 156 picks processed
+   • 62 SLAM/STRONG for tracking
+   • Governance layer active
+
+═════════════════════════════════════════════════════════════════════════════
+
+HOW ALT-STATS WILL FLOW:
+═════════════════════════════════════════════════════════════════════════════
+
+When you ingest alt-stats to picks.json:
+{
+  "player": "Lamar Jackson",
+  "stat": "pass_attempts",
+  "line": 34.5,
+  "direction": "higher",
+  "league": "NFL",
+  "mu": 34.2,
+  "sigma": 3.1
+}
+
+Pipeline will:
+1. Tag as "volume_micro" (via STAT_CLASS lookup)
+2. Check regime gate (PREGAME? EARLY_LIVE? allowed? ✓)
+3. Call model_alt_stat() to get expected + raw_p
+4. Apply confidence governor (68% cap, sample shrinkage)
+5. Apply calibration (same as core)
+6. Add to cheatsheet (with stat_class label)
+7. Apply parlay correlations (-15%, -20% penalties)
+
+Result: Alt-stats flow through full governance automatically.
+
+═════════════════════════════════════════════════════════════════════════════
+
+NEXT DECISION: PHASE C — EXPOSURE GOVERNOR
+═════════════════════════════════════════════════════════════════════════════
+
+Two paths forward:
+
+╔─ TICKET-LEVEL EXPOSURE ────────────────────────────────────────────────────╗
+│                                                                              │
+│ ✅ Controls RISK INSIDE each individual parlay                             │
+│ ✅ Enforces max 2 alt-stats per ticket                                     │
+│ ✅ Blocks overstacking (2+ early-sequence in same slip)                    │
+│ ✅ Simple, fast, immediate value                                           │
+│ ✅ Perfect for manual slip builders                                        │
+│                                                                              │
+│ ❌ Doesn't see aggregate exposure across all slips                         │
+│ ❌ Can unknowingly stack same player across many tickets                   │
+│                                                                              │
+│ RECOMMENDATION: Start here (next 2-3 weeks)                               │
+│ Implementation time: 1-2 hours                                             │
+│                                                                              │
+╚────────────────────────────────────────────────────────────────────────────╝
+
+╔─ SLATE-LEVEL EXPOSURE ────────────────────────────────────────────────────╗
+│                                                                              │
+│ ✅ Controls TOTAL EXPOSURE across entire slate                             │
+│ ✅ Sees: Player concentration, stat type heat, team overweighting         │
+│ ✅ Routes capital (SLAM vs ALT budget)                                     │
+│ ✅ Institutional-grade (how sharp books operate)                           │
+│ ✅ Required for scaling >$1k bankroll                                      │
+│                                                                              │
+│ ❌ More complex (persistent state management)                             │
+│ ❌ Requires full slate context before building tickets                    │
+│ ❌ Slower (must evaluate all tickets together)                            │
+│                                                                              │
+│ RECOMMENDATION: Add after 2-3 weeks live data                             │
+│ Implementation time: 4-6 hours                                             │
+│                                                                              │
+╚────────────────────────────────────────────────────────────────────────────╝
+
+═════════════════════════════════════════════════════════════════════════════
+
+YOUR CHOICE (LOCK IT IN):
+
+Option 1: "Proceed to Phase C — Ticket-level"
+   → Implement per-ticket exposure limits + downgrade logic
+   → Fast, safe, immediate protection
+   → Can scale to slate-level later
+
+Option 2: "Proceed to Phase C — Slate-level"
+   → Full exposure heatmap across all tickets
+   → Capital routing (SLAM vs ALT budgets)
+   → Slower build but institutional-grade
+
+═════════════════════════════════════════════════════════════════════════════
+
+STATUS:
+✅ Phase A: Governance Layer — LIVE
+✅ Phase B: Alt-Stats Modeling — DEPLOYED & READY
+🔄 Phase C: Exposure Governor — AWAITING DECISION
+
+All systems tested. New cheatsheet live. Ready to proceed.

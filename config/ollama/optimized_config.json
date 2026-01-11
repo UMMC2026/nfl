@@ -1,0 +1,17 @@
+{
+  "model": "tinyllama:1.1b-chat-q4_0",
+  "timeout_seconds": 15,
+  "max_concurrent": 2,
+  "cache_enabled": true,
+  "cache_ttl_hours": 24,
+  "prompt_templates": {
+    "quick": "Q: {player} {stat} {value} for {team} reasonable? A:",
+    "team_check": "Q: {player} NBA team 2025-26? A:",
+    "stat_check": "Q: {player} typical {stat}? A:"
+  },
+  "fallback_behavior": {
+    "on_timeout": "assume_valid",
+    "on_error": "skip",
+    "min_confidence": 0.3
+  }
+}

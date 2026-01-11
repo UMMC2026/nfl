@@ -1,0 +1,17 @@
+
+================================================================================
+[AUTO-VERIFY] RESULTS - 2026-01-06
+[FILE] calibration_jan6.csv
+================================================================================
+
+Traceback (most recent call last):
+  File "C:\Users\hiday\UNDERDOG ANANLYSIS\auto_verify_results.py", line 472, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\hiday\UNDERDOG ANANLYSIS\auto_verify_results.py", line 438, in main
+    print(f"\U0001f4cb Found {len(pending)} pending picks for {date}\n")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4cb' in position 0: character maps to <undefined>

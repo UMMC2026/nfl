@@ -1,0 +1,32 @@
+# PINNED REQUIREMENTS - DO NOT MODIFY
+# Freeze with: python -m pip freeze > requirements.lock.txt
+
+# Core API
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+pydantic==2.10.4
+
+# Data
+numpy==2.1.3
+pandas==2.2.3
+sqlalchemy==2.0.36
+
+# CLI & Utils
+typer==0.15.1
+rich==13.9.4
+joblib==1.4.2
+requests==2.32.3
+
+# Async & HTTP
+aiohttp>=3.13.0
+
+# Security & Payments
+python-dotenv==1.0.1
+cryptography>=41.0.0,<45  # Safe range (NOT pinned to non-existent 44.x+)
+stripe==14.1.0
+
+# Telegram Bot (LOCKED VERSION - DO NOT UPGRADE)
+python-telegram-bot==13.15
+
+# Data Science (optional, for Monte Carlo)
+scipy>=1.14.0

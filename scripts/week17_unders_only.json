@@ -1,0 +1,62 @@
+[
+  {
+    "league": "NFL",
+    "player": "Tim Patrick",
+    "team": "JAX",
+    "opponent": "IND",
+    "stat": "Rec Yards",
+    "line": 20.0,
+    "direction": "lower",
+    "recent_values": [16, 12, 18, 20, 14, 10, 19, 13]
+  },
+  {
+    "league": "NFL",
+    "player": "Dyami Brown",
+    "team": "JAX",
+    "opponent": "IND",
+    "stat": "Rec Yards",
+    "line": 20.0,
+    "direction": "lower",
+    "recent_values": [15, 17, 12, 14, 16, 13, 18, 11]
+  },
+  {
+    "league": "NFL",
+    "player": "Ashton Dulin",
+    "team": "IND",
+    "opponent": "JAX",
+    "stat": "Rec Yards",
+    "line": 20.0,
+    "direction": "lower",
+    "recent_values": [8, 10, 7, 12, 9, 6, 11, 7]
+  },
+  {
+    "league": "NFL",
+    "player": "Dylan Sampson",
+    "team": "CLE",
+    "opponent": "PIT",
+    "stat": "Rush Yards",
+    "line": 25.0,
+    "direction": "lower",
+    "recent_values": [14, 20, 18, 13, 22, 17, 15, 19]
+  },
+  {
+    "league": "NFL",
+    "player": "Dylan Sampson",
+    "team": "CLE",
+    "opponent": "PIT",
+    "stat": "Rec Yards",
+    "line": 20.0,
+    "direction": "lower",
+    "recent_values": [9, 12, 7, 8, 11, 10, 6, 9]
+  },
+  {
+    "league": "NFL",
+    "player": "Dylan Sampson",
+    "team": "CLE",
+    "opponent": "PIT",
+    "stat": "Receptions",
+    "line": 2.5,
+    "direction": "lower",
+    "recent_values": [1, 2, 2, 1, 2, 1, 2, 2]
+  }
+]
