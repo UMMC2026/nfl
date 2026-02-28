@@ -49,6 +49,31 @@ outputs/archive/
 data/raw/scraped/
 data/processed/
 
+# --- Custom Ignore Patterns (User Request) ---
+# Virtual environments
+venv/
+
+# Python artifacts
+*.pyc
+
+# Databases
+*.db
+
+# Output artifacts
+outputs/
+*/outputs/
+tennis/outputs/
+sports/*/outputs/
+
+# Saved slates & state
+saved_slates/
+stats_cache/
+state/
+cache/
+
+# Logs
+*.log
+
 # Calibration data (tracked separately)
 calibration_history.csv.backup*
 
