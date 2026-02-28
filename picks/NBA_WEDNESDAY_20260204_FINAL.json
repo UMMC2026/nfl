@@ -1,0 +1,220 @@
+{
+  "date": "2026-02-04",
+  "timestamp": "2026-02-04T18:30:55.241270",
+  "slate": "NBA_WEDNESDAY",
+  "source_file": "NBA_WEDNESDAY_RISK_FIRST_20260204_FROM_UD.json",
+  "summary": {
+    "play_count": 2,
+    "lean_count": 21,
+    "total": 23
+  },
+  "picks": [
+    {
+      "player": "Julius Randle",
+      "team": "MIN",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 67.7
+    },
+    {
+      "player": "Herbert Jones",
+      "team": "NOP",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 67.7
+    },
+    {
+      "player": "Baylor Scheierman",
+      "team": "BOS",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 67.4
+    },
+    {
+      "player": "Rudy Gobert",
+      "team": "MIN",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 64.0
+    },
+    {
+      "player": "Naz Reid",
+      "team": "MIN",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 63.9
+    },
+    {
+      "player": "Yves Missi",
+      "team": "NOP",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 63.4
+    },
+    {
+      "player": "Victor Wembanyama",
+      "team": "SAS",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 60.4
+    },
+    {
+      "player": "Naz Reid",
+      "team": "MIN",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 60.2
+    },
+    {
+      "player": "Jabari Smith",
+      "team": "HOU",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 59.3
+    },
+    {
+      "player": "Tari Eason",
+      "team": "HOU",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 58.4
+    },
+    {
+      "player": "Keldon Johnson",
+      "team": "SAS",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 58.1
+    },
+    {
+      "player": "De'Aaron Fox",
+      "team": "SAS",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 57.4
+    },
+    {
+      "player": "Bones Hyland",
+      "team": "MIN",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 56.3
+    },
+    {
+      "player": "Julian Champagnie",
+      "team": "SAS",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 56.3
+    },
+    {
+      "player": "Neemias Queta",
+      "team": "BOS",
+      "stat": "pra",
+      "line": 22.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 55.7
+    },
+    {
+      "player": "Kevin Porter",
+      "team": "MIL",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 55.1
+    },
+    {
+      "player": "Payton Pritchard",
+      "team": "BOS",
+      "stat": "pra",
+      "line": 31.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 54.9
+    },
+    {
+      "player": "Baylor Scheierman",
+      "team": "BOS",
+      "stat": "pts+ast",
+      "line": 10.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 48.8
+    },
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "stat": "pra",
+      "line": 20.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 48.6
+    },
+    {
+      "player": "Kevin Durant",
+      "team": "HOU",
+      "stat": "points",
+      "line": 24.0,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 47.1
+    },
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "stat": "pts+ast",
+      "line": 16.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 43.2
+    },
+    {
+      "player": "Naz Reid",
+      "team": "MIN",
+      "stat": "pts+ast",
+      "line": 15.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 42.7
+    },
+    {
+      "player": "Saddiq Bey",
+      "team": "NOP",
+      "stat": "pts+ast",
+      "line": 20.0,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 42.4
+    }
+  ]
+}

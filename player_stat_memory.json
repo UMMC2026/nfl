@@ -1,0 +1,88 @@
+{
+  "bans": {
+    "Joel Embiid|assists": {
+      "fails_10": 2,
+      "fails_30": 3,
+      "last_fail": "2026-01-14",
+      "banned": true,
+      "reason": "Big role - not distributor"
+    },
+    "Cedric Coward|3pm": {
+      "fails_10": 99,
+      "fails_30": 99,
+      "last_fail": "2026-01-23",
+      "banned": true,
+      "reason": "Auto-ban due to NBA API hydration failure"
+    },
+    "Jordan Goodwin|3pm": {
+      "fails_10": 99,
+      "fails_30": 99,
+      "last_fail": "2026-01-23",
+      "banned": true,
+      "reason": "Auto-ban due to NBA API hydration failure"
+    },
+    "Jaylen Wells|3pm": {
+      "fails_10": 99,
+      "fails_30": 99,
+      "last_fail": "2026-01-23",
+      "banned": true,
+      "reason": "Auto-ban due to NBA API hydration failure"
+    },
+    "Karlo Matkovic|3pm": {
+      "fails_10": 99,
+      "fails_30": 99,
+      "last_fail": "2026-01-23",
+      "banned": true,
+      "reason": "Auto-ban due to NBA API hydration failure"
+    },
+    "Micah Peavy|3pm": {
+      "fails_10": 99,
+      "fails_30": 99,
+      "last_fail": "2026-01-23",
+      "banned": true,
+      "reason": "Auto-ban due to NBA API hydration failure"
+    },
+    "Kyle Kuzma|3pm": {
+      "fails_10": 99,
+      "fails_30": 99,
+      "last_fail": "2026-01-23",
+      "banned": true,
+      "reason": "Auto-ban due to NBA API hydration failure"
+    },
+    "Peyton Watson|3pm": {
+      "fails_10": 99,
+      "fails_30": 99,
+      "last_fail": "2026-01-23",
+      "banned": true,
+      "reason": "Auto-ban due to NBA API hydration failure"
+    },
+    "Toumani Camara|3pm": {
+      "fails_10": 99,
+      "fails_30": 99,
+      "last_fail": "2026-01-23",
+      "banned": true,
+      "reason": "Auto-ban due to NBA API hydration failure"
+    },
+    "Donovan Clingan|3pm": {
+      "fails_10": 99,
+      "fails_30": 99,
+      "last_fail": "2026-01-23",
+      "banned": true,
+      "reason": "Auto-ban due to NBA API hydration failure"
+    }
+  },
+  "warnings": {
+    "Joel Embiid|pra": {
+      "fails_10": 1,
+      "fails_30": 2,
+      "last_fail": "2026-01-10",
+      "banned": false
+    },
+    "Nikola Vucevic|assists": {
+      "fails_10": 1,
+      "fails_30": 1,
+      "last_fail": "2026-01-12",
+      "banned": false
+    }
+  }
+}

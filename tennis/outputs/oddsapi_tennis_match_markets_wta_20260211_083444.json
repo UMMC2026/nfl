@@ -1,0 +1,304 @@
+{
+  "sport": "TENNIS",
+  "tour": "WTA",
+  "ingested_at": "2026-02-11T14:34:44.926755Z",
+  "sport_key": "tennis_wta_qatar_open",
+  "regions": "us",
+  "markets": "totals,spreads,h2h",
+  "total_props": 16,
+  "props": [
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Iga Swiatek vs Daria Kasatkina",
+      "stat": "total_games",
+      "line": 16.5,
+      "direction": "higher",
+      "raw": {
+        "event_id": "3962a8440939a2ea6ac00345f3e1a3f2",
+        "commence_time": "2026-02-11T14:35:00Z",
+        "home_team": "Iga Swiatek",
+        "away_team": "Daria Kasatkina",
+        "bookmaker_key": "betrivers",
+        "market_key": "totals",
+        "price": -143
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Iga Swiatek vs Daria Kasatkina",
+      "stat": "total_games",
+      "line": 16.5,
+      "direction": "lower",
+      "raw": {
+        "event_id": "3962a8440939a2ea6ac00345f3e1a3f2",
+        "commence_time": "2026-02-11T14:35:00Z",
+        "home_team": "Iga Swiatek",
+        "away_team": "Daria Kasatkina",
+        "bookmaker_key": "betrivers",
+        "market_key": "totals",
+        "price": 110
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Daria Kasatkina",
+      "stat": "game_spread",
+      "line": 7.5,
+      "direction": "higher",
+      "raw": {
+        "event_id": "3962a8440939a2ea6ac00345f3e1a3f2",
+        "commence_time": "2026-02-11T14:35:00Z",
+        "home_team": "Iga Swiatek",
+        "away_team": "Daria Kasatkina",
+        "bookmaker_key": "betrivers",
+        "market_key": "spreads",
+        "price": -130,
+        "opponent": "Iga Swiatek"
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Iga Swiatek",
+      "stat": "game_spread",
+      "line": -7.5,
+      "direction": "lower",
+      "raw": {
+        "event_id": "3962a8440939a2ea6ac00345f3e1a3f2",
+        "commence_time": "2026-02-11T14:35:00Z",
+        "home_team": "Iga Swiatek",
+        "away_team": "Daria Kasatkina",
+        "bookmaker_key": "betrivers",
+        "market_key": "spreads",
+        "price": 100,
+        "opponent": "Daria Kasatkina"
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Qinwen Zheng vs Elena Rybakina",
+      "stat": "total_games",
+      "line": 19.5,
+      "direction": "higher",
+      "raw": {
+        "event_id": "01fa5d301c7856a696020fa5b55cf6f0",
+        "commence_time": "2026-02-11T15:00:00Z",
+        "home_team": "Qinwen Zheng",
+        "away_team": "Elena Rybakina",
+        "bookmaker_key": "betrivers",
+        "market_key": "totals",
+        "price": -127
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Qinwen Zheng vs Elena Rybakina",
+      "stat": "total_games",
+      "line": 19.5,
+      "direction": "lower",
+      "raw": {
+        "event_id": "01fa5d301c7856a696020fa5b55cf6f0",
+        "commence_time": "2026-02-11T15:00:00Z",
+        "home_team": "Qinwen Zheng",
+        "away_team": "Elena Rybakina",
+        "bookmaker_key": "betrivers",
+        "market_key": "totals",
+        "price": -103
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Elena Rybakina",
+      "stat": "game_spread",
+      "line": -5.5,
+      "direction": "lower",
+      "raw": {
+        "event_id": "01fa5d301c7856a696020fa5b55cf6f0",
+        "commence_time": "2026-02-11T15:00:00Z",
+        "home_team": "Qinwen Zheng",
+        "away_team": "Elena Rybakina",
+        "bookmaker_key": "betrivers",
+        "market_key": "spreads",
+        "price": 108,
+        "opponent": "Qinwen Zheng"
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Qinwen Zheng",
+      "stat": "game_spread",
+      "line": 5.5,
+      "direction": "higher",
+      "raw": {
+        "event_id": "01fa5d301c7856a696020fa5b55cf6f0",
+        "commence_time": "2026-02-11T15:00:00Z",
+        "home_team": "Qinwen Zheng",
+        "away_team": "Elena Rybakina",
+        "bookmaker_key": "betrivers",
+        "market_key": "spreads",
+        "price": -141,
+        "opponent": "Elena Rybakina"
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Karolina Pliskova vs Karolina Muchova",
+      "stat": "total_games",
+      "line": 20.5,
+      "direction": "higher",
+      "raw": {
+        "event_id": "f7e718db08ad9c2466b478d15bf18090",
+        "commence_time": "2026-02-11T15:00:00Z",
+        "home_team": "Karolina Pliskova",
+        "away_team": "Karolina Muchova",
+        "bookmaker_key": "betrivers",
+        "market_key": "totals",
+        "price": 100
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Karolina Pliskova vs Karolina Muchova",
+      "stat": "total_games",
+      "line": 20.5,
+      "direction": "lower",
+      "raw": {
+        "event_id": "f7e718db08ad9c2466b478d15bf18090",
+        "commence_time": "2026-02-11T15:00:00Z",
+        "home_team": "Karolina Pliskova",
+        "away_team": "Karolina Muchova",
+        "bookmaker_key": "betrivers",
+        "market_key": "totals",
+        "price": -130
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Karolina Muchova",
+      "stat": "game_spread",
+      "line": -5.5,
+      "direction": "lower",
+      "raw": {
+        "event_id": "f7e718db08ad9c2466b478d15bf18090",
+        "commence_time": "2026-02-11T15:00:00Z",
+        "home_team": "Karolina Pliskova",
+        "away_team": "Karolina Muchova",
+        "bookmaker_key": "betrivers",
+        "market_key": "spreads",
+        "price": 108,
+        "opponent": "Karolina Pliskova"
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Karolina Pliskova",
+      "stat": "game_spread",
+      "line": 5.5,
+      "direction": "higher",
+      "raw": {
+        "event_id": "f7e718db08ad9c2466b478d15bf18090",
+        "commence_time": "2026-02-11T15:00:00Z",
+        "home_team": "Karolina Pliskova",
+        "away_team": "Karolina Muchova",
+        "bookmaker_key": "betrivers",
+        "market_key": "spreads",
+        "price": -139,
+        "opponent": "Karolina Muchova"
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Anna Kalinskaya vs Elina Svitolina",
+      "stat": "total_games",
+      "line": 21.5,
+      "direction": "higher",
+      "raw": {
+        "event_id": "11b6f9d84983e3e87bd3c8dfd7d3eabd",
+        "commence_time": "2026-02-11T16:30:00Z",
+        "home_team": "Anna Kalinskaya",
+        "away_team": "Elina Svitolina",
+        "bookmaker_key": "betrivers",
+        "market_key": "totals",
+        "price": -104
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Anna Kalinskaya vs Elina Svitolina",
+      "stat": "total_games",
+      "line": 21.5,
+      "direction": "lower",
+      "raw": {
+        "event_id": "11b6f9d84983e3e87bd3c8dfd7d3eabd",
+        "commence_time": "2026-02-11T16:30:00Z",
+        "home_team": "Anna Kalinskaya",
+        "away_team": "Elina Svitolina",
+        "bookmaker_key": "betrivers",
+        "market_key": "totals",
+        "price": -125
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Anna Kalinskaya",
+      "stat": "game_spread",
+      "line": 3.5,
+      "direction": "higher",
+      "raw": {
+        "event_id": "11b6f9d84983e3e87bd3c8dfd7d3eabd",
+        "commence_time": "2026-02-11T16:30:00Z",
+        "home_team": "Anna Kalinskaya",
+        "away_team": "Elina Svitolina",
+        "bookmaker_key": "betrivers",
+        "market_key": "spreads",
+        "price": 105,
+        "opponent": "Elina Svitolina"
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Elina Svitolina",
+      "stat": "game_spread",
+      "line": -3.5,
+      "direction": "lower",
+      "raw": {
+        "event_id": "11b6f9d84983e3e87bd3c8dfd7d3eabd",
+        "commence_time": "2026-02-11T16:30:00Z",
+        "home_team": "Anna Kalinskaya",
+        "away_team": "Elina Svitolina",
+        "bookmaker_key": "betrivers",
+        "market_key": "spreads",
+        "price": -136,
+        "opponent": "Anna Kalinskaya"
+      }
+    }
+  ],
+  "meta": {
+    "sport": "TENNIS",
+    "tour": "WTA",
+    "sport_key": "tennis_wta_qatar_open",
+    "regions": "us",
+    "markets": "totals,spreads,h2h",
+    "event_count": 5,
+    "props_extracted": 16,
+    "quota": {
+      "remaining": 18718,
+      "used": 1282
+    }
+  }
+}

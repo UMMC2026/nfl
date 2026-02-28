@@ -1,0 +1,2302 @@
+{
+  "timestamp": "2026-02-18T10:51:52.195103",
+  "sites": [
+    "persistent"
+  ],
+  "total_props": 182,
+  "parsed_props": 182,
+  "players": 53,
+  "props": [
+    {
+      "source": "Underdog",
+      "player": "Jack Eichel",
+      "stat": "shots on goal",
+      "line": 3.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Jack Eichel Shots on Goal 3.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Jack Eichel",
+      "stat": "points",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Jack Eichel Points 1.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Jack Eichel",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Jack Eichel Goals 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Jack Eichel",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Jack Eichel Assists 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Jake Guentzel",
+      "stat": "points",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Jake Guentzel Points 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Jake Guentzel",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Jake Guentzel Goals 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Jake Guentzel",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Jake Guentzel Assists 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Brady Tkachuk",
+      "stat": "shots on goal",
+      "line": 2.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Brady Tkachuk Shots on Goal 2.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Brady Tkachuk",
+      "stat": "points",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Brady Tkachuk Points 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Brady Tkachuk",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Brady Tkachuk Goals 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Brady Tkachuk",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Brady Tkachuk Assists 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Auston Matthews",
+      "stat": "shots on goal",
+      "line": 3.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Auston Matthews Shots on Goal 3.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Auston Matthews",
+      "stat": "points",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Auston Matthews Points 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Auston Matthews",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Auston Matthews Goals 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Auston Matthews",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Auston Matthews Assists 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "William Nylander",
+      "stat": "points",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "William Nylander Points 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "William Nylander",
+      "stat": "shots on goal",
+      "line": 3.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "William Nylander Shots on Goal 3.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "William Nylander",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "William Nylander Goals 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "William Nylander",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "William Nylander Assists 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Darius Acuff",
+      "stat": "points",
+      "line": 23.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Darius Acuff Points 23.5 higher",
+      "matchup": {
+        "team1": "ARK",
+        "team2": "BAMA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Darius Acuff",
+      "stat": "pts+rebs+asts",
+      "line": 33.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Darius Acuff Pts + Rebs + Asts 33.5 higher",
+      "matchup": {
+        "team1": "ARK",
+        "team2": "BAMA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Darius Acuff",
+      "stat": "rebounds",
+      "line": 2.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Darius Acuff Rebounds 2.5 higher",
+      "matchup": {
+        "team1": "ARK",
+        "team2": "BAMA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Darius Acuff",
+      "stat": "assists",
+      "line": 5.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Darius Acuff Assists 5.5 higher",
+      "matchup": {
+        "team1": "ARK",
+        "team2": "BAMA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nate Ament",
+      "stat": "points",
+      "line": 19.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nate Ament Points 19.5 higher",
+      "matchup": {
+        "team1": "TENN",
+        "team2": "OKLA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nate Ament",
+      "stat": "pts+rebs+asts",
+      "line": 29.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nate Ament Pts + Rebs + Asts 29.5 higher",
+      "matchup": {
+        "team1": "TENN",
+        "team2": "OKLA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nate Ament",
+      "stat": "rebounds",
+      "line": 6.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nate Ament Rebounds 6.5 higher",
+      "matchup": {
+        "team1": "TENN",
+        "team2": "OKLA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nate Ament",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nate Ament Assists 2.5 higher",
+      "matchup": {
+        "team1": "TENN",
+        "team2": "OKLA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nate Ament",
+      "stat": "points",
+      "line": 24.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nate Ament Points 24.5 higher",
+      "matchup": {
+        "team1": "BYU",
+        "team2": "ARIZ"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nate Ament",
+      "stat": "pts+rebs+asts",
+      "line": 36.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nate Ament Pts + Rebs + Asts 36.5 higher",
+      "matchup": {
+        "team1": "BYU",
+        "team2": "ARIZ"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nate Ament",
+      "stat": "rebounds",
+      "line": 6.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nate Ament Rebounds 6.5 higher",
+      "matchup": {
+        "team1": "BYU",
+        "team2": "ARIZ"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nate Ament",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nate Ament Assists 4.5 higher",
+      "matchup": {
+        "team1": "BYU",
+        "team2": "ARIZ"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Robert Wright",
+      "stat": "points",
+      "line": 19.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Robert Wright Points 19.5 higher",
+      "matchup": {
+        "team1": "BYU",
+        "team2": "ARIZ"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Robert Wright",
+      "stat": "pts+rebs+asts",
+      "line": 27.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Robert Wright Pts + Rebs + Asts 27.5 higher",
+      "matchup": {
+        "team1": "BYU",
+        "team2": "ARIZ"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Robert Wright",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Robert Wright Rebounds 3.5 higher",
+      "matchup": {
+        "team1": "BYU",
+        "team2": "ARIZ"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Robert Wright",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Robert Wright Assists 4.5 higher",
+      "matchup": {
+        "team1": "BYU",
+        "team2": "ARIZ"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nick Martinelli",
+      "stat": "points",
+      "line": 23.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nick Martinelli Points 23.5 higher",
+      "matchup": {
+        "team1": "NW",
+        "team2": "UMD"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nick Martinelli",
+      "stat": "pts+rebs+asts",
+      "line": 31.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nick Martinelli Pts + Rebs + Asts 31.5 higher",
+      "matchup": {
+        "team1": "NW",
+        "team2": "UMD"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nick Martinelli",
+      "stat": "rebounds",
+      "line": 6.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nick Martinelli Rebounds 6.5 higher",
+      "matchup": {
+        "team1": "NW",
+        "team2": "UMD"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nick Martinelli",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nick Martinelli Assists 1.5 higher",
+      "matchup": {
+        "team1": "NW",
+        "team2": "UMD"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Alijah Arenas",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Alijah Arenas Rebounds 3.5 higher",
+      "matchup": {
+        "team1": "USC",
+        "team2": "ILL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Alijah Arenas",
+      "stat": "3pointers made",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Alijah Arenas 3-Pointers Made 1.5 higher",
+      "matchup": {
+        "team1": "USC",
+        "team2": "ILL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Alijah Arenas",
+      "stat": "points",
+      "line": 17.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Alijah Arenas Points 17.5 higher",
+      "matchup": {
+        "team1": "USC",
+        "team2": "ILL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Alijah Arenas",
+      "stat": "pts+rebs+asts",
+      "line": 23.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Alijah Arenas Pts + Rebs + Asts 23.5 higher",
+      "matchup": {
+        "team1": "USC",
+        "team2": "ILL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Marcus Hill",
+      "stat": "points",
+      "line": 11.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Marcus Hill Points 11.5 higher",
+      "matchup": {
+        "team1": "TXAM",
+        "team2": "MISS"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Marcus Hill",
+      "stat": "pts+rebs+asts",
+      "line": 17.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Marcus Hill Pts + Rebs + Asts 17.5 higher",
+      "matchup": {
+        "team1": "TXAM",
+        "team2": "MISS"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Marcus Hill",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Marcus Hill Rebounds 3.5 higher",
+      "matchup": {
+        "team1": "TXAM",
+        "team2": "MISS"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Marcus Hill",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Marcus Hill Assists 1.5 higher",
+      "matchup": {
+        "team1": "TXAM",
+        "team2": "MISS"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nijel Pack",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nijel Pack Points 13.5 higher",
+      "matchup": {
+        "team1": "OKLA",
+        "team2": "TENN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nijel Pack",
+      "stat": "pts+rebs+asts",
+      "line": 19.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nijel Pack Pts + Rebs + Asts 19.5 higher",
+      "matchup": {
+        "team1": "OKLA",
+        "team2": "TENN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nijel Pack",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nijel Pack Rebounds 3.5 higher",
+      "matchup": {
+        "team1": "OKLA",
+        "team2": "TENN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nijel Pack",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nijel Pack Assists 2.5 higher",
+      "matchup": {
+        "team1": "OKLA",
+        "team2": "TENN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Labaron Philon",
+      "stat": "points",
+      "line": 21.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Labaron Philon Points 21.5 higher",
+      "matchup": {
+        "team1": "BAMA",
+        "team2": "ARK"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Labaron Philon",
+      "stat": "pts+rebs+asts",
+      "line": 31.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Labaron Philon Pts + Rebs + Asts 31.5 higher",
+      "matchup": {
+        "team1": "BAMA",
+        "team2": "ARK"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Labaron Philon",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Labaron Philon Rebounds 4.5 higher",
+      "matchup": {
+        "team1": "BAMA",
+        "team2": "ARK"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Labaron Philon",
+      "stat": "assists",
+      "line": 5.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Labaron Philon Assists 5.5 higher",
+      "matchup": {
+        "team1": "BAMA",
+        "team2": "ARK"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Trevon Brazile",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Trevon Brazile Points 13.5 higher",
+      "matchup": {
+        "team1": "ARK",
+        "team2": "BAMA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Trevon Brazile",
+      "stat": "pts+rebs+asts",
+      "line": 23.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Trevon Brazile Pts + Rebs + Asts 23.5 higher",
+      "matchup": {
+        "team1": "ARK",
+        "team2": "BAMA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Trevon Brazile",
+      "stat": "rebounds",
+      "line": 8.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Trevon Brazile Rebounds 8.5 higher",
+      "matchup": {
+        "team1": "ARK",
+        "team2": "BAMA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Trevon Brazile",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Trevon Brazile Assists 1.5 higher",
+      "matchup": {
+        "team1": "ARK",
+        "team2": "BAMA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Julian Alvarez",
+      "stat": "shots attempted",
+      "line": 2.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Julian Alvarez Shots Attempted 2.5 higher",
+      "matchup": {
+        "team1": "ATM",
+        "team2": "BRU"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Julian Alvarez",
+      "stat": "shots on target",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Julian Alvarez Shots on Target 1.5 higher",
+      "matchup": {
+        "team1": "ATM",
+        "team2": "BRU"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Julian Alvarez",
+      "stat": "goals+assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Julian Alvarez Goals + Assists 0.5 higher",
+      "matchup": {
+        "team1": "ATM",
+        "team2": "BRU"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Julian Alvarez",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Julian Alvarez Goals 0.5 higher",
+      "matchup": {
+        "team1": "ATM",
+        "team2": "BRU"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Jose Sa",
+      "stat": "saves",
+      "line": 3.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Jose Sa Saves 3.5 higher",
+      "matchup": {
+        "team1": "WOL",
+        "team2": "ARS"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Jose Sa",
+      "stat": "goals allowed",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Jose Sa Goals Allowed 1.5 higher",
+      "matchup": {
+        "team1": "WOL",
+        "team2": "ARS"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Jose Sa",
+      "stat": "1h goals allowed",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Jose Sa 1H Goals Allowed 0.5 higher",
+      "matchup": {
+        "team1": "WOL",
+        "team2": "ARS"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Jose Sa",
+      "stat": "1h saves",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Jose Sa 1H Saves 1.5 higher",
+      "matchup": {
+        "team1": "WOL",
+        "team2": "ARS"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nick Pope",
+      "stat": "saves",
+      "line": 2.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nick Pope Saves 2.5 higher",
+      "matchup": {
+        "team1": "NEW",
+        "team2": "QAR"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nick Pope",
+      "stat": "goals allowed",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nick Pope Goals Allowed 0.5 higher",
+      "matchup": {
+        "team1": "NEW",
+        "team2": "QAR"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nick Pope",
+      "stat": "1h goals allowed",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nick Pope 1H Goals Allowed 0.5 higher",
+      "matchup": {
+        "team1": "NEW",
+        "team2": "QAR"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nick Pope",
+      "stat": "1h saves",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nick Pope 1H Saves 0.5 higher",
+      "matchup": {
+        "team1": "NEW",
+        "team2": "QAR"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Anthony Gordon",
+      "stat": "shots attempted",
+      "line": 2.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Anthony Gordon Shots Attempted 2.5 higher",
+      "matchup": {
+        "team1": "NEW",
+        "team2": "QAR"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Anthony Gordon",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Anthony Gordon Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "NEW",
+        "team2": "QAR"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Anthony Gordon",
+      "stat": "goals+assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Anthony Gordon Goals + Assists 0.5 higher",
+      "matchup": {
+        "team1": "NEW",
+        "team2": "QAR"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Anthony Gordon",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Anthony Gordon Goals 0.5 higher",
+      "matchup": {
+        "team1": "NEW",
+        "team2": "QAR"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Anthony Gordon",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Anthony Gordon Assists 0.5 higher",
+      "matchup": {
+        "team1": "NEW",
+        "team2": "QAR"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Sandro Tonali",
+      "stat": "shots attempted",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Sandro Tonali Shots Attempted 1.5 higher",
+      "matchup": {
+        "team1": "NEW",
+        "team2": "QAR"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Sandro Tonali",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Sandro Tonali Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "NEW",
+        "team2": "QAR"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Sandro Tonali",
+      "stat": "goals+assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Sandro Tonali Goals + Assists 0.5 higher",
+      "matchup": {
+        "team1": "NEW",
+        "team2": "QAR"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Sandro Tonali",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Sandro Tonali Goals 0.5 higher",
+      "matchup": {
+        "team1": "NEW",
+        "team2": "QAR"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Sandro Tonali",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Sandro Tonali Assists 0.5 higher",
+      "matchup": {
+        "team1": "NEW",
+        "team2": "QAR"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "David Raya",
+      "stat": "saves",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "David Raya Saves 1.5 higher",
+      "matchup": {
+        "team1": "ARS",
+        "team2": "WOL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "David Raya",
+      "stat": "goals allowed",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "David Raya Goals Allowed 0.5 higher",
+      "matchup": {
+        "team1": "ARS",
+        "team2": "WOL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "David Raya",
+      "stat": "1h goals allowed",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "David Raya 1H Goals Allowed 0.5 higher",
+      "matchup": {
+        "team1": "ARS",
+        "team2": "WOL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "David Raya",
+      "stat": "1h saves",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "David Raya 1H Saves 0.5 higher",
+      "matchup": {
+        "team1": "ARS",
+        "team2": "WOL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Mike Maignan",
+      "stat": "saves",
+      "line": 2.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Mike Maignan Saves 2.5 higher",
+      "matchup": {
+        "team1": "MIL",
+        "team2": "COM"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Mike Maignan",
+      "stat": "goals allowed",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Mike Maignan Goals Allowed 0.5 higher",
+      "matchup": {
+        "team1": "MIL",
+        "team2": "COM"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Mike Maignan",
+      "stat": "1h goals allowed",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Mike Maignan 1H Goals Allowed 0.5 higher",
+      "matchup": {
+        "team1": "MIL",
+        "team2": "COM"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Mike Maignan",
+      "stat": "1h saves",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Mike Maignan 1H Saves 1.5 higher",
+      "matchup": {
+        "team1": "MIL",
+        "team2": "COM"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Jan Oblak",
+      "stat": "saves",
+      "line": 2.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Jan Oblak Saves 2.5 higher",
+      "matchup": {
+        "team1": "ATM",
+        "team2": "BRU"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Jan Oblak",
+      "stat": "goals allowed",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Jan Oblak Goals Allowed 1.5 higher",
+      "matchup": {
+        "team1": "ATM",
+        "team2": "BRU"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Jan Oblak",
+      "stat": "1h goals allowed",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Jan Oblak 1H Goals Allowed 0.5 higher",
+      "matchup": {
+        "team1": "ATM",
+        "team2": "BRU"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Jan Oblak",
+      "stat": "1h saves",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Jan Oblak 1H Saves 1.5 higher",
+      "matchup": {
+        "team1": "ATM",
+        "team2": "BRU"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Lautaro Javier Martinez",
+      "stat": "shots attempted",
+      "line": 3.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Lautaro Javier Martinez Shots Attempted 3.5 higher",
+      "matchup": {
+        "team1": "INT",
+        "team2": "BOD"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Lautaro Javier Martinez",
+      "stat": "shots on target",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Lautaro Javier Martinez Shots on Target 1.5 higher",
+      "matchup": {
+        "team1": "INT",
+        "team2": "BOD"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Lautaro Javier Martinez",
+      "stat": "goals+assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Lautaro Javier Martinez Goals + Assists 0.5 higher",
+      "matchup": {
+        "team1": "INT",
+        "team2": "BOD"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Lautaro Javier Martinez",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Lautaro Javier Martinez Goals 0.5 higher",
+      "matchup": {
+        "team1": "INT",
+        "team2": "BOD"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Lautaro Javier Martinez",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Lautaro Javier Martinez Assists 0.5 higher",
+      "matchup": {
+        "team1": "INT",
+        "team2": "BOD"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Georges Mikautadze",
+      "stat": "shots attempted",
+      "line": 4.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Georges Mikautadze Shots Attempted 4.5 higher",
+      "matchup": {
+        "team1": "VIL",
+        "team2": "LEV"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Georges Mikautadze",
+      "stat": "shots on target",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Georges Mikautadze Shots on Target 1.5 higher",
+      "matchup": {
+        "team1": "VIL",
+        "team2": "LEV"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Georges Mikautadze",
+      "stat": "goals+assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Georges Mikautadze Goals + Assists 0.5 higher",
+      "matchup": {
+        "team1": "VIL",
+        "team2": "LEV"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Georges Mikautadze",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Georges Mikautadze Goals 0.5 higher",
+      "matchup": {
+        "team1": "VIL",
+        "team2": "LEV"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Georges Mikautadze",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Georges Mikautadze Assists 0.5 higher",
+      "matchup": {
+        "team1": "VIL",
+        "team2": "LEV"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Audi Crooks",
+      "stat": "points",
+      "line": 25.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Audi Crooks Points 25.5 higher",
+      "matchup": {
+        "team1": "ISU",
+        "team2": "ASU"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Grace Sullivan",
+      "stat": "points",
+      "line": 19.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Grace Sullivan Points 19.5 higher",
+      "matchup": {
+        "team1": "NW",
+        "team2": "MSU"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Grace VanSlooten",
+      "stat": "points",
+      "line": 16.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Grace VanSlooten Points 16.5 higher",
+      "matchup": {
+        "team1": "MSU",
+        "team2": "NW"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Mariyah Noel",
+      "stat": "points",
+      "line": 14.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Mariyah Noel Points 14.5 higher",
+      "matchup": {
+        "team1": "XAV",
+        "team2": "HALL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Kennedy Blair",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Kennedy Blair Points 13.5 higher",
+      "matchup": {
+        "team1": "MSU",
+        "team2": "NW"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Sarah Strong",
+      "stat": "points",
+      "line": 20.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Sarah Strong Points 20.5 higher",
+      "matchup": {
+        "team1": "CONN",
+        "team2": "NOVA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Azzi Fudd",
+      "stat": "points",
+      "line": 17.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Azzi Fudd Points 17.5 higher",
+      "matchup": {
+        "team1": "CONN",
+        "team2": "NOVA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Mariana Valenzuela",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Mariana Valenzuela Points 13.5 higher",
+      "matchup": {
+        "team1": "HALL",
+        "team2": "XAV"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Savannah Catalon",
+      "stat": "points",
+      "line": 14.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Savannah Catalon Points 14.5 higher",
+      "matchup": {
+        "team1": "HALL",
+        "team2": "XAV"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Bailey Maupin",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Bailey Maupin Points 15.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Alex Carpenter",
+      "stat": "points",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Alex Carpenter Points 1.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Alex Carpenter",
+      "stat": "shots on goal",
+      "line": 4.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Alex Carpenter Shots on Goal 4.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Alex Carpenter",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Alex Carpenter Goals 0.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Alex Carpenter",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Alex Carpenter Assists 0.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Hilary Knight",
+      "stat": "points",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Hilary Knight Points 1.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Hilary Knight",
+      "stat": "shots on goal",
+      "line": 4.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Hilary Knight Shots on Goal 4.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Hilary Knight",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Hilary Knight Goals 0.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Hilary Knight",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Hilary Knight Assists 0.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Daryl Watts",
+      "stat": "points",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Daryl Watts Points 0.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Daryl Watts",
+      "stat": "shots on goal",
+      "line": 2.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Daryl Watts Shots on Goal 2.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Daryl Watts",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Daryl Watts Goals 0.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Daryl Watts",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Daryl Watts Assists 0.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Sarah Fillier",
+      "stat": "points",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Sarah Fillier Points 0.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Sarah Fillier",
+      "stat": "shots on goal",
+      "line": 4.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Sarah Fillier Shots on Goal 4.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Sarah Fillier",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Sarah Fillier Goals 0.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Sarah Fillier",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Sarah Fillier Assists 0.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Julia Gosling",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Julia Gosling Goals 0.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "First Goal Scorer",
+      "stat": "points",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "First Goal Scorer Points 0.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "First Goal Scorer",
+      "stat": "shots on goal",
+      "line": 4.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "First Goal Scorer Shots on Goal 4.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "First Goal Scorer",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "First Goal Scorer Goals 0.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "First Goal Scorer",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "First Goal Scorer Assists 0.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Kendall Coyne Schofield",
+      "stat": "shots on goal",
+      "line": 3.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Kendall Coyne Schofield Shots on Goal 3.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Kendall Coyne Schofield",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Kendall Coyne Schofield Goals 0.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Hannah Bilka",
+      "stat": "shots on goal",
+      "line": 4.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Hannah Bilka Shots on Goal 4.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Hannah Bilka",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Hannah Bilka Goals 0.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Taylor Heise",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Taylor Heise Goals 0.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Abbey Murphy",
+      "stat": "points",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Abbey Murphy Points 1.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Abbey Murphy",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Abbey Murphy Goals 0.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Abbey Murphy",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Abbey Murphy Assists 0.5 higher",
+      "matchup": {
+        "team1": "TTU",
+        "team2": "BAY"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Victor Wembanyama",
+      "stat": "points",
+      "line": 23.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Victor Wembanyama Points 23.5 higher",
+      "matchup": {
+        "team1": "SAS",
+        "team2": "PHX"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Victor Wembanyama",
+      "stat": "pts+rebs+asts",
+      "line": 38.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Victor Wembanyama Pts + Rebs + Asts 38.5 higher",
+      "matchup": {
+        "team1": "SAS",
+        "team2": "PHX"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Victor Wembanyama",
+      "stat": "rebounds",
+      "line": 11.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Victor Wembanyama Rebounds 11.5 higher",
+      "matchup": {
+        "team1": "SAS",
+        "team2": "PHX"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Victor Wembanyama",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Victor Wembanyama Assists 2.5 higher",
+      "matchup": {
+        "team1": "SAS",
+        "team2": "PHX"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "James Harden",
+      "stat": "points",
+      "line": 20.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "James Harden Points 20.5 higher",
+      "matchup": {
+        "team1": "CLE",
+        "team2": "BKN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "James Harden",
+      "stat": "pts+rebs+asts",
+      "line": 32.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "James Harden Pts + Rebs + Asts 32.5 higher",
+      "matchup": {
+        "team1": "CLE",
+        "team2": "BKN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "James Harden",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "James Harden Rebounds 4.5 higher",
+      "matchup": {
+        "team1": "CLE",
+        "team2": "BKN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "James Harden",
+      "stat": "assists",
+      "line": 8.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "James Harden Assists 8.5 higher",
+      "matchup": {
+        "team1": "CLE",
+        "team2": "BKN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Donovan Mitchell",
+      "stat": "points",
+      "line": 27.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Donovan Mitchell Points 27.5 higher",
+      "matchup": {
+        "team1": "CLE",
+        "team2": "BKN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Donovan Mitchell",
+      "stat": "pts+rebs+asts",
+      "line": 36.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Donovan Mitchell Pts + Rebs + Asts 36.5 higher",
+      "matchup": {
+        "team1": "CLE",
+        "team2": "BKN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Donovan Mitchell",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Donovan Mitchell Rebounds 4.5 higher",
+      "matchup": {
+        "team1": "CLE",
+        "team2": "BKN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Donovan Mitchell",
+      "stat": "assists",
+      "line": 5.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Donovan Mitchell Assists 5.5 higher",
+      "matchup": {
+        "team1": "CLE",
+        "team2": "BKN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Joel Embiid",
+      "stat": "points",
+      "line": 28.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Joel Embiid Points 28.5 higher",
+      "matchup": {
+        "team1": "PHI",
+        "team2": "ATL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Joel Embiid",
+      "stat": "pts+rebs+asts",
+      "line": 42.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Joel Embiid Pts + Rebs + Asts 42.5 higher",
+      "matchup": {
+        "team1": "PHI",
+        "team2": "ATL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Joel Embiid",
+      "stat": "rebounds",
+      "line": 8.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Joel Embiid Rebounds 8.5 higher",
+      "matchup": {
+        "team1": "PHI",
+        "team2": "ATL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Joel Embiid",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Joel Embiid Assists 4.5 higher",
+      "matchup": {
+        "team1": "PHI",
+        "team2": "ATL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nikola Jokic",
+      "stat": "points",
+      "line": 26.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nikola Jokic Points 26.5 higher",
+      "matchup": {
+        "team1": "DEN",
+        "team2": "LAC"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nikola Jokic",
+      "stat": "pts+rebs+asts",
+      "line": 49.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nikola Jokic Pts + Rebs + Asts 49.5 higher",
+      "matchup": {
+        "team1": "DEN",
+        "team2": "LAC"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nikola Jokic",
+      "stat": "rebounds",
+      "line": 13.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nikola Jokic Rebounds 13.5 higher",
+      "matchup": {
+        "team1": "DEN",
+        "team2": "LAC"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nikola Jokic",
+      "stat": "assists",
+      "line": 9.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nikola Jokic Assists 9.5 higher",
+      "matchup": {
+        "team1": "DEN",
+        "team2": "LAC"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nikola Jokic",
+      "stat": "points",
+      "line": 20.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nikola Jokic Points 20.5 higher",
+      "matchup": {
+        "team1": "CHA",
+        "team2": "HOU"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nikola Jokic",
+      "stat": "pts+rebs+asts",
+      "line": 32.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nikola Jokic Pts + Rebs + Asts 32.5 higher",
+      "matchup": {
+        "team1": "CHA",
+        "team2": "HOU"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nikola Jokic",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nikola Jokic Rebounds 4.5 higher",
+      "matchup": {
+        "team1": "CHA",
+        "team2": "HOU"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nikola Jokic",
+      "stat": "assists",
+      "line": 7.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nikola Jokic Assists 7.5 higher",
+      "matchup": {
+        "team1": "CHA",
+        "team2": "HOU"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Jaylen Brown",
+      "stat": "points",
+      "line": 28.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Jaylen Brown Points 28.5 higher",
+      "matchup": {
+        "team1": "BOS",
+        "team2": "GSW"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Jaylen Brown",
+      "stat": "pts+rebs+asts",
+      "line": 39.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Jaylen Brown Pts + Rebs + Asts 39.5 higher",
+      "matchup": {
+        "team1": "BOS",
+        "team2": "GSW"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Jaylen Brown",
+      "stat": "rebounds",
+      "line": 6.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Jaylen Brown Rebounds 6.5 higher",
+      "matchup": {
+        "team1": "BOS",
+        "team2": "GSW"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Jaylen Brown",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Jaylen Brown Assists 4.5 higher",
+      "matchup": {
+        "team1": "BOS",
+        "team2": "GSW"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Cade Cunningham",
+      "stat": "points",
+      "line": 24.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Cade Cunningham Points 24.5 higher",
+      "matchup": {
+        "team1": "DET",
+        "team2": "NYK"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Cade Cunningham",
+      "stat": "pts+rebs+asts",
+      "line": 39.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Cade Cunningham Pts + Rebs + Asts 39.5 higher",
+      "matchup": {
+        "team1": "DET",
+        "team2": "NYK"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Cade Cunningham",
+      "stat": "rebounds",
+      "line": 5.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Cade Cunningham Rebounds 5.5 higher",
+      "matchup": {
+        "team1": "DET",
+        "team2": "NYK"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Cade Cunningham",
+      "stat": "assists",
+      "line": 8.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Cade Cunningham Assists 8.5 higher",
+      "matchup": {
+        "team1": "DET",
+        "team2": "NYK"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Ryan Rollins",
+      "stat": "points",
+      "line": 19.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Ryan Rollins Points 19.5 higher",
+      "matchup": {
+        "team1": "MIL",
+        "team2": "NOP"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Ryan Rollins",
+      "stat": "pts+rebs+asts",
+      "line": 29.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Ryan Rollins Pts + Rebs + Asts 29.5 higher",
+      "matchup": {
+        "team1": "MIL",
+        "team2": "NOP"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Ryan Rollins",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Ryan Rollins Rebounds 4.5 higher",
+      "matchup": {
+        "team1": "MIL",
+        "team2": "NOP"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Ryan Rollins",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Ryan Rollins Assists 4.5 higher",
+      "matchup": {
+        "team1": "MIL",
+        "team2": "NOP"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Russell Westbrook",
+      "stat": "points",
+      "line": 14.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Russell Westbrook Points 14.5 higher",
+      "matchup": {
+        "team1": "SAC",
+        "team2": "ORL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Russell Westbrook",
+      "stat": "pts+rebs+asts",
+      "line": 25.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Russell Westbrook Pts + Rebs + Asts 25.5 higher",
+      "matchup": {
+        "team1": "SAC",
+        "team2": "ORL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Russell Westbrook",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Russell Westbrook Rebounds 4.5 higher",
+      "matchup": {
+        "team1": "SAC",
+        "team2": "ORL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Russell Westbrook",
+      "stat": "assists",
+      "line": 5.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Russell Westbrook Assists 5.5 higher",
+      "matchup": {
+        "team1": "SAC",
+        "team2": "ORL"
+      }
+    }
+  ],
+  "run_id": "ee2b3034f1814ac6"
+}

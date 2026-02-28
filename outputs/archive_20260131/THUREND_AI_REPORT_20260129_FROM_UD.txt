@@ -1,0 +1,44 @@
+
+================================================================================
+RISK-FIRST ANALYSIS REPORT (Math-Only)
+================================================================================
+
+
+❌ BLOCKED PICKS (Sample of 10)
+
+================================================================================
+
+[BLOCK] Kasparas Jakucionis POINTS: BLOCKED: Player 'Kasparas Jakucionis' not classified
+INFO: MIA vs CHI; role=Player; minutes=HIGH VAR; Pace: -2.4% | 📊 Multi-window projection: 4.8 | ⚠️ High variance (CV=1.42): -20% penalty | ⛔ Edge gate FAIL: -20.9% < 3% min
+
+[BLOCK] Jaylin Williams POINTS: Bench gate - starter minutes not guaranteed
+INFO: OKC vs MIN; minutes=MED VAR; Matchup: -3.6% | 📊 Multi-window projection: 4.8 | ⚠️ High variance (CV=0.88): -20% penalty | ⛔ Edge gate FAIL: -22.5% < 3% min
+
+[BLOCK] Reed Sheppard POINTS: Bench gate - starter minutes not guaranteed
+INFO: HOU vs ATL; minutes=MED VAR; Matchup: +3.0% | 📊 Multi-window projection: 12.0 | ⚠️ High variance (CV=0.59): -20% penalty | ⛔ Edge gate FAIL: -18.7% < 3% min
+
+[BLOCK] Ron Holland POINTS: BLOCKED: Player 'Ron Holland' not classified
+INFO: DET vs PHX; role=Player; minutes=LOW VAR; 📊 Multi-window projection: 9.1 | ⚠️ High variance (CV=0.51): -20% penalty | ⛔ Edge gate FAIL: -10.6% < 3% min
+
+[BLOCK] Ron Holland POINTS: BLOCKED: Player 'Ron Holland' not classified
+INFO: DET vs PHX; role=Player; minutes=LOW VAR; 📊 Multi-window projection: 9.1 | ⚠️ High variance (CV=0.51): -20% penalty | ⛔ Edge gate FAIL: -14.2% < 3% min
+
+[BLOCK] Lu Dort POINTS: Bench gate - starter minutes not guaranteed
+INFO: OKC vs MIN; minutes=MED VAR; Matchup: -3.6% | 📊 Multi-window projection: 10.7 | ⚠️ High variance (CV=0.76): -20% penalty | ⛔ Edge gate FAIL: -19.9% < 3% min
+
+[BLOCK] Lu Dort POINTS: Bench gate - starter minutes not guaranteed
+INFO: OKC vs MIN; minutes=MED VAR; Matchup: -3.6% | 📊 Multi-window projection: 10.7 | ⚠️ High variance (CV=0.76): -20% penalty | ⛔ Edge gate FAIL: -4.9% < 3% min
+
+[BLOCK] Cason Wallace POINTS: Bench gate - starter minutes not guaranteed
+INFO: OKC vs MIN; minutes=MED VAR; Matchup: -3.6% | 📊 Multi-window projection: 6.5 | ⚠️ High variance (CV=0.67): -20% penalty | ⛔ Edge gate FAIL: -17.4% < 3% min
+
+[BLOCK] DeMar DeRozan REBOUNDS: Role gate - historical usage doesn't support this stat
+INFO: SAC vs PHI; role=SCORER; minutes=LOW VAR; Matchup: -4.7% | 📊 Multi-window projection: 3.0 | ⚠️ High variance (CV=0.83): -20% penalty | ⛔ Edge gate FAIL: -3.7% < 3% min
+
+[BLOCK] Amen Thompson REBOUNDS: Role gate - historical usage doesn't support this stat
+INFO: HOU vs ATL; role=SECONDARY_WING; minutes=LOW VAR; Matchup: +3.0% | 📊 Multi-window projection: 8.1 | ⛔ Edge gate FAIL: -15.0% < 3% min
+
+================================================================================
+SUMMARY: 0 PLAY | 50 BLOCKED
+Commentary: Math-only (no LLM speculation)
+================================================================================

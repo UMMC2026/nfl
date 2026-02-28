@@ -1,0 +1,139 @@
+{
+  "date": "2026-02-08",
+  "timestamp": "2026-02-08T22:11:42.990368",
+  "slate": "ODDSAPI_NBA_20260208",
+  "source_file": "ODDSAPI_NBA_20260208_RISK_FIRST_20260208_FROM_UD.json",
+  "summary": {
+    "play_count": 0,
+    "lean_count": 14,
+    "total": 14
+  },
+  "picks": [
+    {
+      "player": "Jalen Smith",
+      "team": "CHI",
+      "stat": "points",
+      "line": 11.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 62.5
+    },
+    {
+      "player": "Sion James",
+      "team": "CHA",
+      "stat": "points",
+      "line": 4.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 62.1
+    },
+    {
+      "player": "Chet Holmgren",
+      "team": "OKC",
+      "stat": "points",
+      "line": 18.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 61.3
+    },
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "stat": "points",
+      "line": 29.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 60.8
+    },
+    {
+      "player": "Jrue Holiday",
+      "team": "POR",
+      "stat": "assists",
+      "line": 5.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 60.2
+    },
+    {
+      "player": "Lauri Markkanen",
+      "team": "UTA",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 58.9
+    },
+    {
+      "player": "Marcus Smart",
+      "team": "LAL",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 56.8
+    },
+    {
+      "player": "Anthony Edwards",
+      "team": "MIN",
+      "stat": "points",
+      "line": 28.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 56.4
+    },
+    {
+      "player": "Jake LaRavia",
+      "team": "LAL",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 56.1
+    },
+    {
+      "player": "LeBron James",
+      "team": "LAL",
+      "stat": "assists",
+      "line": 7.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 56.0
+    },
+    {
+      "player": "Ace Bailey",
+      "team": "UTA",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 55.6
+    },
+    {
+      "player": "Cameron Johnson",
+      "team": "DEN",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 55.5
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "stat": "3pm",
+      "line": 3.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 55.4
+    },
+    {
+      "player": "De'Anthony Melton",
+      "team": "GSW",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 55.3
+    }
+  ]
+}

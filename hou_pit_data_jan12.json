@@ -1,0 +1,106 @@
+{
+  "game_info": {
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "Houston Texans",
+    "date": "2025-01-12",
+    "home_spread": -3.5,
+    "away_spread": 3.5,
+    "over_under": 40.5,
+    "location": "Acrisure Stadium",
+    "weather": {
+      "temperature": 28,
+      "condition": "Partly Cloudy",
+      "wind_mph": 12
+    }
+  },
+  "historical_stats": {
+    "houston": {
+      "avg_points_for": 23.1,
+      "avg_points_against": 20.8,
+      "offensive_rank": 12,
+      "defensive_rank": 7,
+      "turnover_margin": 0.5,
+      "redzone_efficiency": 0.55,
+      "third_down_percentage": 0.42,
+      "time_of_possession": 30.2,
+      "sacks_allowed": 2.1,
+      "sacks_made": 2.8
+    },
+    "pittsburgh": {
+      "avg_points_for": 20.3,
+      "avg_points_against": 19.1,
+      "offensive_rank": 21,
+      "defensive_rank": 6,
+      "turnover_margin": -0.2,
+      "redzone_efficiency": 0.48,
+      "third_down_percentage": 0.38,
+      "time_of_possession": 28.5,
+      "sacks_allowed": 3.2,
+      "sacks_made": 3.1
+    }
+  },
+  "player_projections": {
+    "houston": {
+      "QB": {
+        "CJ_Stroud": {
+          "pass_yards": 265,
+          "tds": 1.8,
+          "ints": 0.7,
+          "completion_pct": 0.64
+        }
+      },
+      "RB": {
+        "Dameon_Pierce": {
+          "rush_yards": 68,
+          "tds": 0.5,
+          "receptions": 2.1
+        }
+      },
+      "WR": {
+        "Nico_Collins": {
+          "rec_yards": 85,
+          "tds": 0.6,
+          "receptions": 5.2
+        }
+      }
+    },
+    "pittsburgh": {
+      "QB": {
+        "Kenny_Pickett": {
+          "pass_yards": 210,
+          "tds": 1.2,
+          "ints": 0.9,
+          "completion_pct": 0.61
+        }
+      },
+      "RB": {
+        "Najee_Harris": {
+          "rush_yards": 72,
+          "tds": 0.6,
+          "receptions": 2.8
+        }
+      },
+      "WR": {
+        "George_Pickens": {
+          "rec_yards": 65,
+          "tds": 0.4,
+          "receptions": 4.1
+        }
+      }
+    }
+  },
+  "recent_trends": {
+    "houston": {
+      "last_5_games": [1, 1, 0, 1, 1],
+      "points_last_5": [24, 27, 17, 31, 23],
+      "ats_record": "9-7-1",
+      "over_under_record": "8-9"
+    },
+    "pittsburgh": {
+      "last_5_games": [0, 1, 0, 1, 0],
+      "points_last_5": [17, 24, 13, 20, 18],
+      "ats_record": "8-8-1",
+      "over_under_record": "7-10"
+    }
+  }
+}

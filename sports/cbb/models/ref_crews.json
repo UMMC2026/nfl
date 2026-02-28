@@ -1,0 +1,37 @@
+{
+  "_notes": "Ref crew-specific foul and variance multipliers. Use when crew is known (usually tournament).",
+  
+  "DEFAULT": {
+    "foul_mult": 1.00,
+    "variance_mult": 1.00
+  },
+  
+  "CREWS": {
+    "CREW_HIGH_WHISTLE": {
+      "foul_mult": 1.12,
+      "variance_mult": 1.18,
+      "notes": "Calls everything, game slows down"
+    },
+    "CREW_LOW_WHISTLE": {
+      "foul_mult": 0.90,
+      "variance_mult": 0.92,
+      "notes": "Lets them play, favors unders"
+    },
+    "CREW_NEUTRAL": {
+      "foul_mult": 1.00,
+      "variance_mult": 1.05,
+      "notes": "Standard officiating"
+    },
+    "CREW_HOME_BIAS": {
+      "foul_mult": 1.05,
+      "variance_mult": 1.10,
+      "notes": "Historically favors home team"
+    }
+  },
+  
+  "_unknown_crew_default": {
+    "foul_mult": 1.00,
+    "variance_mult": 1.10,
+    "notes": "Unknown crew = add variance"
+  }
+}

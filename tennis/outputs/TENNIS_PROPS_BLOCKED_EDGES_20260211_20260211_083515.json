@@ -1,0 +1,332 @@
+{
+  "created_at_utc": "2026-02-11T14:35:15.811382+00:00",
+  "edges": [
+    {
+      "edge_id": "f847b6c2b1b7ceda",
+      "player": "Daria Kasatkina",
+      "team": "",
+      "opponent": "",
+      "stat": "game_spread",
+      "line": 7.5,
+      "direction": "higher",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 78.5,
+      "effective_confidence": 78.5,
+      "mu": 9.997961286826294,
+      "sigma": 3.057756182726863,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 4,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=VETTED",
+      "gate_details": [
+        {
+          "pick_id": "Daria Kasatkina_GAME_SPREAD_higher_7.5",
+          "state": "VETTED",
+          "original_probability": 78.5,
+          "final_probability": 78.5,
+          "adjustments": [],
+          "rejection_reason": null,
+          "vetted_reason": "FRAGILE_FLAG",
+          "flags_detected": [
+            "FRAGILE"
+          ],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "GATE_2_USAGE_VOLATILITY",
+            "GATE_3_SPECIALIST_REJECTS",
+            "GATE_4_FRAGILE",
+            "VETTED: FRAGILE flag (visible, not optimizable)"
+          ],
+          "is_optimizable": false,
+          "is_visible": true
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "4eccf40546f3363a",
+      "player": "Karolina Pliskova",
+      "team": "",
+      "opponent": "",
+      "stat": "game_spread",
+      "line": 5.5,
+      "direction": "higher",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 93.15,
+      "effective_confidence": 93.15,
+      "mu": 9.987314984443053,
+      "sigma": 2.9734363908938373,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 2,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=VETTED",
+      "gate_details": [
+        {
+          "pick_id": "Karolina Pliskova_GAME_SPREAD_higher_5.5",
+          "state": "VETTED",
+          "original_probability": 93.15,
+          "final_probability": 93.15,
+          "adjustments": [],
+          "rejection_reason": null,
+          "vetted_reason": "FRAGILE_FLAG",
+          "flags_detected": [
+            "FRAGILE"
+          ],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "GATE_2_USAGE_VOLATILITY",
+            "GATE_3_SPECIALIST_REJECTS",
+            "GATE_4_FRAGILE",
+            "VETTED: FRAGILE flag (visible, not optimizable)"
+          ],
+          "is_optimizable": false,
+          "is_visible": true
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "6c5f4848ff110ac8",
+      "player": "Elena Rybakina",
+      "team": "",
+      "opponent": "",
+      "stat": "total_games",
+      "line": 19.5,
+      "direction": "higher",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 54.400000000000006,
+      "effective_confidence": 54.400000000000006,
+      "mu": 21.8585,
+      "sigma": 5.677728070982619,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 10,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=REJECTED",
+      "gate_details": [
+        {
+          "pick_id": "Elena Rybakina_TOTAL_GAMES_higher_19.5",
+          "state": "REJECTED",
+          "original_probability": 54.400000000000006,
+          "final_probability": 54.400000000000006,
+          "adjustments": [],
+          "rejection_reason": "LOW_PROBABILITY",
+          "vetted_reason": null,
+          "flags_detected": [],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "REJECTED: prob 54.4% < 55.0%"
+          ],
+          "is_optimizable": false,
+          "is_visible": false
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "3101f81d87913c28",
+      "player": "Iga Swiatek",
+      "team": "",
+      "opponent": "",
+      "stat": "game_spread",
+      "line": -7.5,
+      "direction": "lower",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 0.0,
+      "effective_confidence": 0.0,
+      "mu": 9.992522565841524,
+      "sigma": 3.033956421258904,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 8,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=REJECTED",
+      "gate_details": [
+        {
+          "pick_id": "Iga Swiatek_GAME_SPREAD_lower_-7.5",
+          "state": "REJECTED",
+          "original_probability": 0.0,
+          "final_probability": 0.0,
+          "adjustments": [],
+          "rejection_reason": "LOW_PROBABILITY",
+          "vetted_reason": null,
+          "flags_detected": [],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "REJECTED: prob 0.0% < 55.0%"
+          ],
+          "is_optimizable": false,
+          "is_visible": false
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "8e64453c9bdd15f5",
+      "player": "Elena Rybakina",
+      "team": "",
+      "opponent": "",
+      "stat": "game_spread",
+      "line": -5.5,
+      "direction": "lower",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 0.0,
+      "effective_confidence": 0.0,
+      "mu": 9.915174679861034,
+      "sigma": 3.0029494482115537,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 3,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=REJECTED",
+      "gate_details": [
+        {
+          "pick_id": "Elena Rybakina_GAME_SPREAD_lower_-5.5",
+          "state": "REJECTED",
+          "original_probability": 0.0,
+          "final_probability": 0.0,
+          "adjustments": [],
+          "rejection_reason": "LOW_PROBABILITY",
+          "vetted_reason": null,
+          "flags_detected": [
+            "FRAGILE"
+          ],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "REJECTED: prob 0.0% < 55.0%"
+          ],
+          "is_optimizable": false,
+          "is_visible": false
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "df81c76449f2c730",
+      "player": "Karolina Muchova",
+      "team": "",
+      "opponent": "",
+      "stat": "game_spread",
+      "line": -5.5,
+      "direction": "lower",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 0.0,
+      "effective_confidence": 0.0,
+      "mu": 10.061920423611603,
+      "sigma": 2.940745881102602,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 6,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=REJECTED",
+      "gate_details": [
+        {
+          "pick_id": "Karolina Muchova_GAME_SPREAD_lower_-5.5",
+          "state": "REJECTED",
+          "original_probability": 0.0,
+          "final_probability": 0.0,
+          "adjustments": [],
+          "rejection_reason": "LOW_PROBABILITY",
+          "vetted_reason": null,
+          "flags_detected": [],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "REJECTED: prob 0.0% < 55.0%"
+          ],
+          "is_optimizable": false,
+          "is_visible": false
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "8a792757bec04ada",
+      "player": "Elina Svitolina",
+      "team": "",
+      "opponent": "",
+      "stat": "game_spread",
+      "line": -3.5,
+      "direction": "lower",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 0.0,
+      "effective_confidence": 0.0,
+      "mu": 10.055730548030185,
+      "sigma": 2.928499828667463,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 7,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=REJECTED",
+      "gate_details": [
+        {
+          "pick_id": "Elina Svitolina_GAME_SPREAD_lower_-3.5",
+          "state": "REJECTED",
+          "original_probability": 0.0,
+          "final_probability": 0.0,
+          "adjustments": [],
+          "rejection_reason": "LOW_PROBABILITY",
+          "vetted_reason": null,
+          "flags_detected": [],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "REJECTED: prob 0.0% < 55.0%"
+          ],
+          "is_optimizable": false,
+          "is_visible": false
+        }
+      ],
+      "stat_adjustment": null
+    }
+  ]
+}

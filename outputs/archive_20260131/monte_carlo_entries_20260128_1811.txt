@@ -1,0 +1,75 @@
+======================================================================
+MONTE CARLO ENTRY OPTIMIZATION
+Generated: 2026-01-28T18:10:59.864259
+======================================================================
+
+STAT KEY (basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made (aka 3PT/3PTS) | STOCKS=STL+BLK | PRA=PTS+REB+AST
+
+RUN CONTEXT:
+   League inferred: NBA
+   Picks: 27 qualifying (from 100 analyzed)
+   Filter pass: NBA_LEGACY_FALLBACK — fallback: include PLAY/LEAN or >= min_confidence (broadest)
+   Filter attempts (qualifying picks): NBA_STRICT_PRIMARY=0, NBA_PRIMARY_ONLY=0, NBA_PLAYLEAN_ANY_NO_COMPOSITES=0, NBA_LEGACY_FALLBACK=27
+   Constraints: max_same_game=4, max_primary_per_game=4
+   NBA min confidence: 65.0
+   NBA flags: primary_only=1, playlean_only=1
+
+BEST POWER ENTRY:
+   3L POWER | EV=+0.76 | Sharpe=0.28 | P(profit)=29.3% | Desmond Bane AST >3.5; Desmond Bane PR <24.5; Desmond Bane PA <23.5
+   Kelly stake: 2.5% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=73.9%, min p_hit=71.4%
+   Stat mix: AST:1, PA:1, PR:1
+   Same-game buckets: MIA@ORL:3
+   LEGS (what each pick is):
+    1. Desmond Bane AST >3.5 (ORL vs MIA) | p_hit=78.9% | FRAGILE
+    2. Desmond Bane PR <24.5 (ORL vs MIA) | p_hit=71.4% | FRAGILE
+    3. Desmond Bane PA <23.5 (ORL vs MIA) | p_hit=71.4% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST FLEX ENTRY:
+   4L FLEX | EV=+0.30 | Sharpe=0.18 | P(profit)=51.5% | Desmond Bane AST >3.5; Desmond Bane PR <24.5; Desmond Bane PA <23.5; Norman Powell PA <24.5
+   Kelly stake: 2.6% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=73.3%, min p_hit=71.4%
+   Stat mix: PA:2, AST:1, PR:1
+   Same-game buckets: MIA@ORL:4
+   LEGS (what each pick is):
+    1. Desmond Bane AST >3.5 (ORL vs MIA) | p_hit=78.9% | FRAGILE
+    2. Desmond Bane PR <24.5 (ORL vs MIA) | p_hit=71.4% | FRAGILE
+    3. Desmond Bane PA <23.5 (ORL vs MIA) | p_hit=71.4% | FRAGILE
+    4. Norman Powell PA <24.5 (MIA vs ORL) | p_hit=71.4% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST RISK-ADJUSTED (Sharpe):
+   2L POWER | EV=+0.53 | Sharpe=0.35 | P(profit)=50.9% | Desmond Bane AST >3.5; Desmond Bane PR <24.5
+   ENTRY SNAPSHOT: avg p_hit=75.2%, min p_hit=71.4%
+   Stat mix: AST:1, PR:1
+   Same-game buckets: MIA@ORL:2
+   LEGS (what each pick is):
+    1. Desmond Bane AST >3.5 (ORL vs MIA) | p_hit=78.9% | FRAGILE
+    2. Desmond Bane PR <24.5 (ORL vs MIA) | p_hit=71.4% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+----------------------------------------------------------------------
+TOP 10 ENTRIES BY EV:
+----------------------------------------------------------------------
+ 1. 3L POWER | EV=+0.76 | Sharpe=0.28 | P(profit)=29.3% | Desmond Bane AST >3.5; Desmond Bane PR <24.5; Desmond Bane PA <23.5
+ 2. 3L POWER | EV=+0.76 | Sharpe=0.28 | P(profit)=29.3% | Desmond Bane AST >3.5; Desmond Bane PR <24.5; Norman Powell PA <24.5
+ 3. 3L POWER | EV=+0.76 | Sharpe=0.28 | P(profit)=29.3% | Desmond Bane AST >3.5; Desmond Bane PA <23.5; Norman Powell PA <24.5
+ 4. 3L POWER | EV=+0.75 | Sharpe=0.28 | P(profit)=29.2% | Jaime Jaquez Jr. PA <19.5; Desmond Bane AST >3.5; Desmond Bane PR <24.5
+ 5. 3L POWER | EV=+0.75 | Sharpe=0.28 | P(profit)=29.2% | Jaime Jaquez Jr. PA <19.5; Desmond Bane AST >3.5; Desmond Bane PA <23.5
+ 6. 3L POWER | EV=+0.75 | Sharpe=0.28 | P(profit)=29.2% | Jaime Jaquez Jr. PA <19.5; Desmond Bane AST >3.5; Norman Powell PA <24.5
+ 7. 3L POWER | EV=+0.68 | Sharpe=0.25 | P(profit)=27.9% | Desmond Bane AST >3.5; Desmond Bane PR <24.5; Norman Powell PRA <28.5
+ 8. 3L POWER | EV=+0.68 | Sharpe=0.25 | P(profit)=27.9% | Desmond Bane AST >3.5; Desmond Bane PA <23.5; Norman Powell PRA <28.5
+ 9. 3L POWER | EV=+0.68 | Sharpe=0.25 | P(profit)=27.9% | Desmond Bane AST >3.5; Norman Powell PRA <28.5; Norman Powell PA <24.5
+10. 3L POWER | EV=+0.67 | Sharpe=0.25 | P(profit)=27.8% | Jaime Jaquez Jr. PA <19.5; Desmond Bane AST >3.5; Norman Powell PRA <28.5

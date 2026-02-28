@@ -1,0 +1,384 @@
+{
+  "created_at_utc": "2026-02-08T10:23:56.454055+00:00",
+  "edges": [
+    {
+      "edge_id": "28a2ce5e37f21bb9",
+      "player": "Alycia Parks",
+      "team": "",
+      "opponent": "",
+      "stat": "games_won",
+      "line": 9.5,
+      "direction": "higher",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 70.15,
+      "effective_confidence": 70.15,
+      "mu": 11.7865,
+      "sigma": 3.904938158410515,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 3,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=VETTED",
+      "gate_details": [
+        {
+          "pick_id": "Alycia Parks_GAMES_WON_HIGHER_9.5",
+          "state": "VETTED",
+          "original_probability": 70.15,
+          "final_probability": 70.15,
+          "adjustments": [],
+          "rejection_reason": null,
+          "vetted_reason": "FRAGILE_FLAG",
+          "flags_detected": [
+            "FRAGILE"
+          ],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "GATE_2_USAGE_VOLATILITY",
+            "GATE_3_SPECIALIST_REJECTS",
+            "GATE_4_FRAGILE",
+            "VETTED: FRAGILE flag (visible, not optimizable)"
+          ],
+          "is_optimizable": false,
+          "is_visible": true
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "d7b9a1ebd5223e36",
+      "player": "Alycia Parks",
+      "team": "",
+      "opponent": "",
+      "stat": "sets_won",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 65.64999999999999,
+      "effective_confidence": 65.64999999999999,
+      "mu": 1.0195,
+      "sigma": 0.8405194741903644,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 3,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=VETTED",
+      "gate_details": [
+        {
+          "pick_id": "Alycia Parks_SETS_WON_HIGHER_0.5",
+          "state": "VETTED",
+          "original_probability": 65.64999999999999,
+          "final_probability": 65.64999999999999,
+          "adjustments": [],
+          "rejection_reason": null,
+          "vetted_reason": "FRAGILE_FLAG",
+          "flags_detected": [
+            "FRAGILE"
+          ],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "GATE_2_USAGE_VOLATILITY",
+            "GATE_3_SPECIALIST_REJECTS",
+            "GATE_4_FRAGILE",
+            "VETTED: FRAGILE flag (visible, not optimizable)"
+          ],
+          "is_optimizable": false,
+          "is_visible": true
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "2d205fe98d53685f",
+      "player": "Alycia Parks",
+      "team": "",
+      "opponent": "",
+      "stat": "1st_set_games_won",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 59.050000000000004,
+      "effective_confidence": 59.050000000000004,
+      "mu": 4.796,
+      "sigma": 1.7905270155729984,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 3,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=VETTED",
+      "gate_details": [
+        {
+          "pick_id": "Alycia Parks_1ST_SET_GAMES_WON_HIGHER_4.5",
+          "state": "VETTED",
+          "original_probability": 59.050000000000004,
+          "final_probability": 59.050000000000004,
+          "adjustments": [],
+          "rejection_reason": null,
+          "vetted_reason": "FRAGILE_FLAG",
+          "flags_detected": [
+            "FRAGILE"
+          ],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "GATE_2_USAGE_VOLATILITY",
+            "GATE_3_SPECIALIST_REJECTS",
+            "GATE_4_FRAGILE",
+            "VETTED: FRAGILE flag (visible, not optimizable)"
+          ],
+          "is_optimizable": false,
+          "is_visible": true
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "e21dddfb0a5127b8",
+      "player": "Diana Shnaider",
+      "team": "",
+      "opponent": "",
+      "stat": "sets_played",
+      "line": 2.5,
+      "direction": "lower",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 52.55,
+      "effective_confidence": 52.55,
+      "mu": 2.4745,
+      "sigma": 0.49947421078932774,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 5,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=REJECTED",
+      "gate_details": [
+        {
+          "pick_id": "Diana Shnaider_SETS_PLAYED_LOWER_2.5",
+          "state": "REJECTED",
+          "original_probability": 52.55,
+          "final_probability": 52.55,
+          "adjustments": [],
+          "rejection_reason": "LOW_PROBABILITY",
+          "vetted_reason": null,
+          "flags_detected": [],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "REJECTED: prob 52.5% < 55.0%"
+          ],
+          "is_optimizable": false,
+          "is_visible": false
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "4e2b93b94ae14be6",
+      "player": "Alycia Parks",
+      "team": "",
+      "opponent": "",
+      "stat": "aces",
+      "line": 9.5,
+      "direction": "higher",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 49.9,
+      "effective_confidence": 49.9,
+      "mu": 9.8455,
+      "sigma": 3.9627618513790823,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 3,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=REJECTED",
+      "gate_details": [
+        {
+          "pick_id": "Alycia Parks_ACES_HIGHER_9.5",
+          "state": "REJECTED",
+          "original_probability": 49.9,
+          "final_probability": 49.9,
+          "adjustments": [],
+          "rejection_reason": "LOW_PROBABILITY",
+          "vetted_reason": null,
+          "flags_detected": [
+            "FRAGILE"
+          ],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "REJECTED: prob 49.9% < 55.0%"
+          ],
+          "is_optimizable": false,
+          "is_visible": false
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "eecb6347b553b07a",
+      "player": "Diana Shnaider",
+      "team": "",
+      "opponent": "",
+      "stat": "aces",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 34.150000000000006,
+      "effective_confidence": 34.150000000000006,
+      "mu": 2.05,
+      "sigma": 1.4824300318732415,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 5,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=REJECTED",
+      "gate_details": [
+        {
+          "pick_id": "Diana Shnaider_ACES_HIGHER_2.5",
+          "state": "REJECTED",
+          "original_probability": 34.150000000000006,
+          "final_probability": 34.150000000000006,
+          "adjustments": [],
+          "rejection_reason": "LOW_PROBABILITY",
+          "vetted_reason": null,
+          "flags_detected": [],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "REJECTED: prob 34.2% < 55.0%"
+          ],
+          "is_optimizable": false,
+          "is_visible": false
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "99aa58aed0f2e1e1",
+      "player": "Diana Shnaider",
+      "team": "",
+      "opponent": "",
+      "stat": "double_faults",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 21.6,
+      "effective_confidence": 21.6,
+      "mu": 3.143,
+      "sigma": 1.9158251989929949,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 5,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=REJECTED",
+      "gate_details": [
+        {
+          "pick_id": "Diana Shnaider_DOUBLE_FAULTS_HIGHER_4.5",
+          "state": "REJECTED",
+          "original_probability": 21.6,
+          "final_probability": 21.6,
+          "adjustments": [],
+          "rejection_reason": "LOW_PROBABILITY",
+          "vetted_reason": null,
+          "flags_detected": [],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "REJECTED: prob 21.6% < 55.0%"
+          ],
+          "is_optimizable": false,
+          "is_visible": false
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "d5f1e5f179eb3c9f",
+      "player": "Alycia Parks",
+      "team": "",
+      "opponent": "",
+      "stat": "double_faults",
+      "line": 10.5,
+      "direction": "higher",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 19.55,
+      "effective_confidence": 19.55,
+      "mu": 7.7125,
+      "sigma": 3.264992164909199,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 3,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=REJECTED",
+      "gate_details": [
+        {
+          "pick_id": "Alycia Parks_DOUBLE_FAULTS_HIGHER_10.5",
+          "state": "REJECTED",
+          "original_probability": 19.55,
+          "final_probability": 19.55,
+          "adjustments": [],
+          "rejection_reason": "LOW_PROBABILITY",
+          "vetted_reason": null,
+          "flags_detected": [
+            "FRAGILE"
+          ],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "REJECTED: prob 19.6% < 55.0%"
+          ],
+          "is_optimizable": false,
+          "is_visible": false
+        }
+      ],
+      "stat_adjustment": null
+    }
+  ]
+}

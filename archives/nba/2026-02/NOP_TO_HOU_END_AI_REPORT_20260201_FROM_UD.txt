@@ -1,0 +1,132 @@
+
+================================================================================
+RISK-FIRST ANALYSIS REPORT (Math-Only)
+================================================================================
+
+✅ QUALIFIED PICKS (6)
+
+================================================================================
+
+#1 | Clint Capela - POINTS LOWER 29.5
+Edge: +25.0 (+6.66 sd) ELITE | Confidence: 74.2%
+Stats: μ=4.5, σ=3.8
+
+ANALYSIS:
+Model projects 4.5 points (line: 29.5) | Line is 25.0 ABOVE projection (551% gap) | P(lower 29.5) = 74.2% | z = +6.66σ
+Edge: +37.3% | Kelly stake: 18.6% | Decision: [SLAM]
+
+INFO: HOU vs NOP; role=BIG; minutes=MED VAR; 📊 Multi-window projection: 4.5 | 📊 Hybrid: SLAM (edge: 49.0%)
+
+CONTEXT: [Based on 41 games | Historical hit rate: 100% | High variance player (CV=83%)]
+
+--------------------------------------------------------------------------------
+
+#2 | Herbert Jones - 3PM HIGHER 0.5
+Edge: +0.5 (+0.53 sd) STRONG | Confidence: 67.7%
+Stats: μ=1.0, σ=0.9
+
+ANALYSIS:
+Model projects 1.0 3pm (line: 0.5) | Line is 0.5 BELOW projection (50% gap) | Adjustments: situation -3%
+P(higher 0.5) = 67.7% | z = -0.53σ | Raw 80% → Final 80% (−0% penalty) | Edge: +30.1% | Kelly stake: 15.0% | Decision: [STRONG]
+
+INFO: NOP vs UNK; role=ROLE_PLAYER; minutes=MED VAR; Away: -3.0% | 📊 Multi-window projection: 1.0 | 📊 Hybrid: SLAM (edge: 20.8%)
+
+CONTEXT: [Based on 28 games | Historical hit rate: 79% | High variance player (CV=94%)]
+
+--------------------------------------------------------------------------------
+
+#3 | Jose Alvarado - 3PM HIGHER 0.5
+Edge: +1.4 (+1.18 sd) ELITE | Confidence: 67.7%
+Stats: μ=1.9, σ=1.2
+
+ANALYSIS:
+Model projects 1.9 3pm (line: 0.5) | Line is 1.4 BELOW projection (73% gap) | Adjustments: situation -3%
+P(higher 0.5) = 67.7% | z = -1.18σ | Raw 89% → Final 89% (−0% penalty) | Edge: +39.1% | Kelly stake: 19.5% | Decision: [SLAM]
+
+INFO: NOP vs UNK; role=SECONDARY_GUARD; minutes=MED VAR; Away: -3.0% | 📊 Multi-window projection: 1.9 | 📊 Hybrid: SLAM (edge: 41.3%)
+
+CONTEXT: [Based on 39 games | Historical hit rate: 87% | High variance player (CV=62%)]
+
+--------------------------------------------------------------------------------
+
+#4 | Julius Randle - 3PM HIGHER 0.5
+Edge: +1.1 (+0.61 sd) STRONG | Confidence: 67.7%
+Stats: μ=1.6, σ=1.8
+
+ANALYSIS:
+Model projects 1.6 3pm (line: 0.5) | Line is 1.1 BELOW projection (69% gap) | P(higher 0.5) = 67.7% | z = -0.61σ
+Raw 86% → Final 85% (−0% penalty) | Edge: +35.7% | Kelly stake: 17.9% | Decision: [SLAM]
+
+INFO: MIN vs UNK; role=ATHLETIC_WING; minutes=LOW VAR; 📊 Multi-window projection: 1.6 | 📊 Hybrid: SLAM (edge: 23.8%)
+
+CONTEXT: [Based on 50 games | Historical hit rate: 82% | High variance player (CV=113%)]
+
+--------------------------------------------------------------------------------
+
+#5 | Jaden McDaniels - 3PM HIGHER 0.5
+Edge: +1.7 (+1.12 sd) ELITE | Confidence: 67.7%
+Stats: μ=2.2, σ=1.5
+
+ANALYSIS:
+Model projects 2.2 3pm (line: 0.5) | Line is 1.7 BELOW projection (78% gap) | P(higher 0.5) = 67.7% | z = -1.12σ
+Raw 85% → Final 85% (−0% penalty) | Edge: +35.0% | Kelly stake: 17.5% | Decision: [SLAM]
+
+INFO: MIN vs UNK; role=ATHLETIC_WING; minutes=LOW VAR; 📊 Multi-window projection: 2.2 | 📊 Hybrid: SLAM (edge: 40.0%)
+
+CONTEXT: [Based on 48 games | Historical hit rate: 79% | High variance player (CV=69%)]
+
+--------------------------------------------------------------------------------
+
+#6 | Max Christie - 3PM HIGHER 1.5
+Edge: +1.1 (+0.48 sd) MODERATE | Confidence: 67.7%
+Stats: μ=2.6, σ=2.2
+
+ANALYSIS:
+Model projects 2.6 3pm (line: 1.5) | Line is 1.1 BELOW projection (42% gap) | P(higher 1.5) = 67.7% | z = -0.48σ
+Raw 80% → Final 80% (−0% penalty) | Edge: +30.1% | Kelly stake: 15.0% | Decision: [STRONG]
+
+INFO: DAL vs UNK; role=SECONDARY_GUARD; minutes=LOW VAR; 📊 Multi-window projection: 2.6 | 📊 Hybrid: SLAM (edge: 18.7%)
+
+CONTEXT: [Based on 45 games | Historical hit rate: 73% | High variance player (CV=87%)]
+
+--------------------------------------------------------------------------------
+
+
+❌ BLOCKED PICKS (Sample of 10)
+
+================================================================================
+
+[BLOCK] Joel Embiid ASSISTS: Role gate - historical usage doesn't support this stat
+INFO: PHI vs NOP; role=WARNING:; minutes=LOW VAR; 📊 Multi-window projection: 5.0
+
+[BLOCK] Joel Embiid ASSISTS: Role gate - historical usage doesn't support this stat
+INFO: PHI vs NOP; role=WARNING:; minutes=LOW VAR; 📊 Multi-window projection: 5.0
+
+[BLOCK] Trey Murphy POINTS: BLOCKED: Player 'Trey Murphy' not classified
+INFO: NOP vs UNK; role=Player; minutes=LOW VAR; Away: -2.0% | 📊 Multi-window projection: 19.5
+
+[BLOCK] Trey Murphy POINTS: BLOCKED: Player 'Trey Murphy' not classified
+INFO: NOP vs UNK; role=Player; minutes=LOW VAR; Away: -2.0% | 📊 Multi-window projection: 19.5 | 📊 Hybrid: LEAN (edge: 5.9%)
+
+[BLOCK] Cedric Coward POINTS: Bench gate - starter minutes not guaranteed
+INFO: MEM vs MIN; minutes=LOW VAR; 📊 Multi-window projection: 13.4
+
+[BLOCK] Cedric Coward POINTS: Bench gate - starter minutes not guaranteed
+INFO: MEM vs MIN; minutes=LOW VAR; 📊 Multi-window projection: 13.4 | 📊 Hybrid: STRONG (edge: 11.4%)
+
+[BLOCK] Jock Landale POINTS: Bench gate - starter minutes not guaranteed
+INFO: MEM vs MIN; minutes=LOW VAR; 📊 Multi-window projection: 12.1
+
+[BLOCK] Jock Landale POINTS: Bench gate - starter minutes not guaranteed
+INFO: MEM vs MIN; minutes=LOW VAR; 📊 Multi-window projection: 12.1 | 📊 Hybrid: SLAM (edge: 16.9%)
+
+[BLOCK] Cam Spencer POINTS: Bench gate - starter minutes not guaranteed
+INFO: MEM vs MIN; minutes=LOW VAR; 📊 Multi-window projection: 10.3
+
+[BLOCK] Cam Spencer POINTS: Bench gate - starter minutes not guaranteed
+INFO: MEM vs MIN; minutes=LOW VAR; 📊 Multi-window projection: 10.3 | 📊 Hybrid: SLAM (edge: 17.6%)
+
+================================================================================
+SUMMARY: 6 PLAY | 61 BLOCKED
+Commentary: Math-only (no LLM speculation)
+================================================================================

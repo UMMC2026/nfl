@@ -1,0 +1,72 @@
+{
+  "global": {
+    "enable_new_features": false,
+    "description": "Master switch for all new features. OFF by default for safety."
+  },
+  "nba": {
+    "matchup_memory_enabled": false,
+    "description": "Player vs opponent matchup history adjustments"
+  },
+  "mc_optimizer": {
+    "use_beta_distribution": false,
+    "use_cvar": false,
+    "use_clamped_kelly": false,
+    "correlation_penalty": 0.05,
+    "max_kelly_fraction": 0.10,
+    "cvar_alpha": 0.05,
+    "description": "Monte Carlo optimizer hardening options"
+  },
+  "features": {
+    "matchup_memory": {
+      "enabled": false,
+      "description": "Player vs opponent matchup history adjustments (Task 1)",
+      "min_games": 3,
+      "min_games_full": 10,
+      "max_cv": 0.8,
+      "max_staleness_days": 365,
+      "shrinkage_prior_strength": 5.0
+    },
+    "probability_lineage": {
+      "enabled": false,
+      "description": "Full audit trail for probability adjustments (Task 2)",
+      "persist_to_disk": true,
+      "storage_path": "outputs/lineage"
+    },
+    "mc_hardening": {
+      "enabled": false,
+      "description": "Monte Carlo hardening with Beta/CVaR/correlation (Task 3)",
+      "use_beta_distributions": true,
+      "confidence_mapping": {
+        "SLAM": 0.8,
+        "STRONG": 0.6,
+        "LEAN": 0.4
+      },
+      "risk_aversion": 0.1,
+      "max_kelly_fraction": 0.02,
+      "use_cvar": true,
+      "cvar_confidence": 0.95,
+      "correlation_penalty_factor": 0.1
+    }
+  },
+  "defaults": {
+    "league_priors": {
+      "NBA": {
+        "PTS": {"mean": 15.0, "std": 8.0},
+        "REB": {"mean": 5.0, "std": 3.5},
+        "AST": {"mean": 4.0, "std": 3.0},
+        "STL": {"mean": 1.0, "std": 0.7},
+        "BLK": {"mean": 0.6, "std": 0.6},
+        "3PM": {"mean": 1.5, "std": 1.5},
+        "TOV": {"mean": 2.0, "std": 1.2},
+        "PRA": {"mean": 24.0, "std": 12.0},
+        "PR": {"mean": 20.0, "std": 10.0},
+        "PA": {"mean": 19.0, "std": 10.0},
+        "RA": {"mean": 9.0, "std": 5.0},
+        "STOCKS": {"mean": 1.6, "std": 1.0}
+      }
+    }
+  },
+  "version": "2.0.0",
+  "last_updated": "2026-01-27",
+  "notes": "7-Task Group upgrade: Menu honesty, matchup memory, probability hardening, MC hardening. All OFF by default."
+}

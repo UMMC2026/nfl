@@ -1,0 +1,103 @@
+{
+  "date": "2026-02-05",
+  "timestamp": "2026-02-05T21:07:00.988440",
+  "slate": "GSWEND",
+  "source_file": "GSWEND_RISK_FIRST_20260205_FROM_UD.json",
+  "summary": {
+    "play_count": 2,
+    "lean_count": 8,
+    "total": 10
+  },
+  "picks": [
+    {
+      "player": "Collin Gillespie",
+      "team": "PHX",
+      "stat": "3pm",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 67.7
+    },
+    {
+      "player": "Al Horford",
+      "team": "GSW",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 67.7
+    },
+    {
+      "player": "Mark Williams",
+      "team": "PHX",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 62.7
+    },
+    {
+      "player": "Draymond Green",
+      "team": "GSW",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 59.8
+    },
+    {
+      "player": "De'Anthony Melton",
+      "team": "GSW",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 54.4
+    },
+    {
+      "player": "Dillon Brooks",
+      "team": "PHX",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 54.3
+    },
+    {
+      "player": "Brandin Podziemski",
+      "team": "GSW",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 54.1
+    },
+    {
+      "player": "Dillon Brooks",
+      "team": "PHX",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 52.1
+    },
+    {
+      "player": "Draymond Green",
+      "team": "GSW",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 50.2
+    },
+    {
+      "player": "Royce O'Neale",
+      "team": "PHX",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 48.9
+    }
+  ]
+}

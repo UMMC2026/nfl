@@ -1,0 +1,58 @@
+======================================================================
+MONTE CARLO ENTRY OPTIMIZATION
+Generated: 2026-01-26T13:43:11.636967
+======================================================================
+
+STAT KEY (basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made (aka 3PT/3PTS) | STOCKS=STL+BLK | PRA=PTS+REB+AST
+
+RUN CONTEXT:
+   League inferred: NBA
+   Picks: 38 qualifying (from 150 analyzed)
+   Filter pass: NBA_LEGACY_FALLBACK — fallback: include PLAY/LEAN or >= min_confidence (broadest)
+   Filter attempts (qualifying picks): NBA_STRICT_PRIMARY=0, NBA_PRIMARY_ONLY=0, NBA_PLAYLEAN_ANY_NO_COMPOSITES=0, NBA_LEGACY_FALLBACK=38
+   Constraints: max_same_game=1, max_primary_per_game=1
+   NBA min confidence: 65.0
+   NBA flags: primary_only=1, playlean_only=1
+
+BEST POWER ENTRY:
+   2L POWER | EV=+0.47 | Sharpe=0.31 | P(profit)=49.1% | Collin Sexton AST >2.5; VJ Edgecombe PRA <26.5
+   Kelly stake: 5.3% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=70.1%, min p_hit=68.0%
+   Stat mix: AST:1, PRA:1
+   Same-game buckets: CHA@PHI:1, PHI@UNK:1
+   LEGS (what each pick is):
+    1. Collin Sexton AST >2.5 (CHA vs PHI) | p_hit=72.2% | FRAGILE
+    2. VJ Edgecombe PRA <26.5 (PHI vs UNK) | p_hit=68.0% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST RISK-ADJUSTED (Sharpe):
+   2L POWER | EV=+0.47 | Sharpe=0.31 | P(profit)=49.1% | Collin Sexton AST >2.5; VJ Edgecombe PRA <26.5
+   ENTRY SNAPSHOT: avg p_hit=70.1%, min p_hit=68.0%
+   Stat mix: AST:1, PRA:1
+   Same-game buckets: CHA@PHI:1, PHI@UNK:1
+   LEGS (what each pick is):
+    1. Collin Sexton AST >2.5 (CHA vs PHI) | p_hit=72.2% | FRAGILE
+    2. VJ Edgecombe PRA <26.5 (PHI vs UNK) | p_hit=68.0% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+----------------------------------------------------------------------
+TOP 10 ENTRIES BY EV:
+----------------------------------------------------------------------
+ 1. 2L POWER | EV=+0.47 | Sharpe=0.31 | P(profit)=49.1% | Collin Sexton AST >2.5; VJ Edgecombe PRA <26.5
+ 2. 2L POWER | EV=+0.47 | Sharpe=0.31 | P(profit)=49.1% | Collin Sexton AST >2.5; Quentin Grimes PRA <20.5
+ 3. 2L POWER | EV=+0.47 | Sharpe=0.31 | P(profit)=49.1% | Collin Sexton AST >2.5; Adem Bona PRA <13.5
+ 4. 2L POWER | EV=+0.47 | Sharpe=0.31 | P(profit)=49.1% | Collin Sexton AST >2.5; VJ Edgecombe PRA <26.5
+ 5. 2L POWER | EV=+0.47 | Sharpe=0.31 | P(profit)=49.1% | Collin Sexton AST >2.5; Quentin Grimes PRA <20.5
+ 6. 2L POWER | EV=+0.47 | Sharpe=0.31 | P(profit)=49.1% | Collin Sexton AST >2.5; Adem Bona PRA <13.5
+ 7. 2L POWER | EV=+0.46 | Sharpe=0.30 | P(profit)=48.6% | Miles Bridges RA <9; VJ Edgecombe PRA <26.5
+ 8. 2L POWER | EV=+0.46 | Sharpe=0.30 | P(profit)=48.6% | Miles Bridges RA <9; Quentin Grimes PRA <20.5
+ 9. 2L POWER | EV=+0.46 | Sharpe=0.30 | P(profit)=48.6% | Miles Bridges RA <9; Adem Bona PRA <13.5
+10. 2L POWER | EV=+0.46 | Sharpe=0.30 | P(profit)=48.6% | Sion James RA >4.5; VJ Edgecombe PRA <26.5

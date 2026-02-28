@@ -1,0 +1,64 @@
+{
+  "sport": "NBA",
+  "timestamp": "2026-02-08T17:44:44.928346",
+  "teams": {
+    "LAL": [
+      {
+        "player": "Deandre Ayton",
+        "team": "LAL",
+        "status": "Day-To-Day",
+        "injury_type": "",
+        "details": "",
+        "is_playable": true,
+        "penalty": 0.05
+      },
+      {
+        "player": "Luka Doncic",
+        "team": "LAL",
+        "status": "Day-To-Day",
+        "injury_type": "",
+        "details": "",
+        "is_playable": true,
+        "penalty": 0.05
+      },
+      {
+        "player": "Adou Thiero",
+        "team": "LAL",
+        "status": "Out",
+        "injury_type": "",
+        "details": "",
+        "is_playable": false,
+        "penalty": 1.0
+      }
+    ],
+    "BOS": [
+      {
+        "player": "Sam Hauser",
+        "team": "BOS",
+        "status": "Out",
+        "injury_type": "",
+        "details": "",
+        "is_playable": false,
+        "penalty": 1.0
+      },
+      {
+        "player": "Jayson Tatum",
+        "team": "BOS",
+        "status": "Out",
+        "injury_type": "",
+        "details": "",
+        "is_playable": false,
+        "penalty": 1.0
+      },
+      {
+        "player": "John Tonje",
+        "team": "BOS",
+        "status": "Day-To-Day",
+        "injury_type": "",
+        "details": "",
+        "is_playable": true,
+        "penalty": 0.05
+      }
+    ]
+  }
+}

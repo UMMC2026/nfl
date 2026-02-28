@@ -1,0 +1,1290 @@
+{
+  "picks": [
+    {
+      "edge_id": "cbb_GONZ_Graham_Ike_points_21p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Graham Ike",
+      "team": "GONZ",
+      "opponent": "SF",
+      "stat": "points",
+      "line": 21.5,
+      "direction": "lower",
+      "probability": 0.6339,
+      "player_mean": 19.78,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 19.7826,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 6.5,
+          "raw_prob": 0.633905,
+          "direction": "lower",
+          "line": 21.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.633905
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.633905,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "LEAN",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.7 (UNDER exempt from MPG floor)",
+        "games: GP=23",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.3661,
+        "kept": "lower",
+        "kept_probability": 0.6339
+      },
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.7 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=23"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.86,
+          "z_season": 0.86,
+          "z_threshold": 0.55,
+          "l10_mu": 19.78,
+          "season_mu": 19.78,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.101,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.6339,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 19.78,
+      "projected_sigma": 2.0
+    },
+    {
+      "edge_id": "cbb_GONZ_Graham_Ike_pra_33p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Graham Ike",
+      "team": "GONZ",
+      "opponent": "SF",
+      "stat": "pra",
+      "line": 33.5,
+      "direction": "lower",
+      "probability": 0.5831,
+      "player_mean": 31.22,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 31.2174,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.583056,
+          "direction": "lower",
+          "line": 33.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.583056
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.583056,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.7 (UNDER exempt from MPG floor)",
+        "games: GP=23",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.3717,
+        "kept": "lower",
+        "kept_probability": 0.5831
+      },
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.7 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=23"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 1.14,
+          "z_season": 1.14,
+          "z_threshold": 0.55,
+          "l10_mu": 31.22,
+          "season_mu": 31.22,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.064,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5831,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 31.22,
+      "projected_sigma": 2.0,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_GONZ_Graham_Ike_rebounds_9p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Graham Ike",
+      "team": "GONZ",
+      "opponent": "SF",
+      "stat": "rebounds",
+      "line": 9.5,
+      "direction": "lower",
+      "probability": 0.516,
+      "player_mean": 8.74,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 8.7391,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 3.2,
+          "raw_prob": 0.61941,
+          "direction": "lower",
+          "line": 9.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 0.98,
+          "adjusted_prob": 0.607021
+        },
+        "caps": {
+          "stat_cap": 0.72,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.607021,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.7 (UNDER exempt from MPG floor)",
+        "games: GP=23",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.373,
+        "kept": "lower",
+        "kept_probability": 0.607
+      },
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.7 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=23"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.38<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY",
+        "SOFT_PENALTY:85%"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.38,
+          "z_season": 0.38,
+          "z_threshold": 0.55,
+          "l10_mu": 8.74,
+          "season_mu": 8.74
+        },
+        "cv": {
+          "cv_ratio": 0.229,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.607,
+      "sdg_soft_penalty": 0.85,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_GONZ_Tyon_Grant-Foster_points_11p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Tyon Grant-Foster",
+      "team": "GONZ",
+      "opponent": "SF",
+      "stat": "points",
+      "line": 11.5,
+      "direction": "lower",
+      "probability": 0.5738,
+      "player_mean": 11.37,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 11.3704,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 6.5,
+          "raw_prob": 0.573753,
+          "direction": "lower",
+          "line": 11.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.573753
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.573753,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=21.6 (UNDER exempt from MPG floor)",
+        "games: GP=27",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.4262,
+        "kept": "lower",
+        "kept_probability": 0.5738
+      },
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=21.6 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=27"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.07<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.065,
+          "z_season": 0.065,
+          "z_threshold": 0.55,
+          "l10_mu": 11.37,
+          "season_mu": 11.37
+        },
+        "cv": {
+          "cv_ratio": 0.176,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5738,
+      "skip_reason": "SDG_HARD_REJECT: z=0.07 (no signal)"
+    },
+    {
+      "edge_id": "cbb_SF_Ryan_Beasley_pra_20p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Ryan Beasley",
+      "team": "SF",
+      "opponent": "GONZ",
+      "stat": "pra",
+      "line": 20.5,
+      "direction": "lower",
+      "probability": 0.3426,
+      "player_mean": 20.92,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 20.9231,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.456761,
+          "direction": "lower",
+          "line": 20.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.456761
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.456761,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=33.1 (UNDER exempt from MPG floor)",
+        "games: GP=26",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=33.1 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=26"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.21<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY",
+        "SOFT_PENALTY:75%"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.21,
+          "z_season": 0.21,
+          "z_threshold": 0.55,
+          "l10_mu": 20.92,
+          "season_mu": 20.92
+        },
+        "cv": {
+          "cv_ratio": 0.096,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.4568,
+      "skip_reason": "COMPOSITE_LOW_Z:0.21<0.6",
+      "sdg_soft_penalty": 0.75
+    },
+    {
+      "edge_id": "cbb_SF_Ryan_Beasley_rebounds_3p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Ryan Beasley",
+      "team": "SF",
+      "opponent": "GONZ",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "lower",
+      "probability": 0.6238,
+      "player_mean": 3.27,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 3.2692,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 3.2,
+          "raw_prob": 0.636553,
+          "direction": "lower",
+          "line": 3.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 0.98,
+          "adjusted_prob": 0.623822
+        },
+        "caps": {
+          "stat_cap": 0.72,
+          "global_cap": 0.79,
+          "low_line_cap": 0.75,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.623822,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=33.1 (UNDER exempt from MPG floor)",
+        "games: GP=26",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.3562,
+        "kept": "lower",
+        "kept_probability": 0.6238
+      },
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=33.1 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=26"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.11<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.115,
+          "z_season": 0.115,
+          "z_threshold": 0.55,
+          "l10_mu": 3.27,
+          "season_mu": 3.27
+        },
+        "cv": {
+          "cv_ratio": 0.612,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.6238,
+      "skip_reason": "SDG_HARD_REJECT: z=0.12 (no signal)"
+    },
+    {
+      "edge_id": "cbb_GONZ_Emmanuel_Innocenti_pra_13p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Emmanuel Innocenti",
+      "team": "GONZ",
+      "opponent": "SF",
+      "stat": "pra",
+      "line": 13.5,
+      "direction": "lower",
+      "probability": 0.7313,
+      "player_mean": 10.15,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 10.1481,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 8.5,
+          "raw_prob": 0.731289,
+          "direction": "lower",
+          "line": 13.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.731289
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.731289,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "LEAN",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=21.6 (UNDER exempt from MPG floor)",
+        "games: GP=27",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.2687,
+        "kept": "lower",
+        "kept_probability": 0.7313
+      },
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=21.6 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=27"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 1.675,
+          "z_season": 1.675,
+          "z_threshold": 0.55,
+          "l10_mu": 10.15,
+          "season_mu": 10.15,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.197,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.7313,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 10.15,
+      "projected_sigma": 2.0,
+      "tier_cap_reason": "CALIBRATION_CAP (until 2026-03-01)",
+      "calibration_capped": true
+    },
+    {
+      "edge_id": "cbb_UNLV_Dra_Gibbs-Lawhorn_points_21p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Dra Gibbs-Lawhorn",
+      "team": "UNLV",
+      "opponent": "CSU",
+      "stat": "points",
+      "line": 21.5,
+      "direction": "lower",
+      "probability": 0.6555,
+      "player_mean": 19.4,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 19.4,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 6.5,
+          "raw_prob": 0.655484,
+          "direction": "lower",
+          "line": 21.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.655484
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.655484,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "LEAN",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=33.3 (UNDER exempt from MPG floor)",
+        "games: GP=25",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.3445,
+        "kept": "lower",
+        "kept_probability": 0.6555
+      },
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=33.3 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=25"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 1.05,
+          "z_season": 1.05,
+          "z_threshold": 0.55,
+          "l10_mu": 19.4,
+          "season_mu": 19.4,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.103,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.6555,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 19.4,
+      "projected_sigma": 2.0
+    },
+    {
+      "edge_id": "cbb_UNLV_Dra_Gibbs-Lawhorn_pra_28p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Dra Gibbs-Lawhorn",
+      "team": "UNLV",
+      "opponent": "CSU",
+      "stat": "pra",
+      "line": 28.5,
+      "direction": "lower",
+      "probability": 0.6255,
+      "player_mean": 25.28,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 25.28,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.625516,
+          "direction": "lower",
+          "line": 28.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.625516
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.625516,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "LEAN",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=33.3 (UNDER exempt from MPG floor)",
+        "games: GP=25",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.3308,
+        "kept": "lower",
+        "kept_probability": 0.6255
+      },
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=33.3 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=25"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 1.61,
+          "z_season": 1.61,
+          "z_threshold": 0.55,
+          "l10_mu": 25.28,
+          "season_mu": 25.28,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.079,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.6255,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 25.28,
+      "projected_sigma": 2.0
+    },
+    {
+      "edge_id": "cbb_CSU_Brandon_Rechsteiner_pra_17p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Brandon Rechsteiner",
+      "team": "CSU",
+      "opponent": "UNLV",
+      "stat": "pra",
+      "line": 17.5,
+      "direction": "lower",
+      "probability": 0.545,
+      "player_mean": 16.04,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 16.04,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.544961,
+          "direction": "lower",
+          "line": 17.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.544961
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.544961,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=27.1 (UNDER exempt from MPG floor)",
+        "games: GP=25",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.4088,
+        "kept": "lower",
+        "kept_probability": 0.545
+      },
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=27.1 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=25"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.73,
+          "z_season": 0.73,
+          "z_threshold": 0.55,
+          "l10_mu": 16.04,
+          "season_mu": 16.04,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.125,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.545,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 16.04,
+      "projected_sigma": 2.0,
+      "skip_reason": "BELOW_THRESHOLD"
+    }
+  ],
+  "generated": "2026-02-18T21:11:33.590918",
+  "source": "CBB_PIPELINE"
+}

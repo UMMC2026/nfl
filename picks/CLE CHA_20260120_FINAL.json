@@ -1,0 +1,67 @@
+{
+  "date": "2026-01-20",
+  "timestamp": "2026-01-20T23:50:03.662525",
+  "slate": "CLE CHA",
+  "source_file": "CLE CHA_RISK_FIRST_20260120_FROM_UD.json",
+  "summary": {
+    "play_count": 4,
+    "lean_count": 2,
+    "total": 6
+  },
+  "picks": [
+    {
+      "player": "Yves Missi",
+      "team": "NOP",
+      "stat": "points",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 75
+    },
+    {
+      "player": "CJ McCollum",
+      "team": "ATL",
+      "stat": "points",
+      "line": 16.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 75
+    },
+    {
+      "player": "Jaylen Brown",
+      "team": "BOS",
+      "stat": "points",
+      "line": 24.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 73.2
+    },
+    {
+      "player": "Neemias Queta",
+      "team": "BOS",
+      "stat": "points",
+      "line": 8.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 72.7
+    },
+    {
+      "player": "Anfernee Simons",
+      "team": "BOS",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 66.4
+    },
+    {
+      "player": "Ausar Thompson",
+      "team": "DET",
+      "stat": "points",
+      "line": 10.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 66.0
+    }
+  ]
+}

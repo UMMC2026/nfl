@@ -1,0 +1,124 @@
+================================================================================
+🎾 TENNIS PROPS ANALYZER - QUICK REFERENCE GUIDE
+   Updated: 2026-01-25
+================================================================================
+
+📋 MENU OPTIONS
+================================================================================
+
+From main menu → Tennis module:
+
+  [1] Full Pipeline         - Match winner analysis (odds-based)
+  [2] Quick Analyze         - Paste match odds for quick analysis  
+  [3] View Latest Report    - Display most recent match analysis
+  [4] Validate Output       - Run validation on latest results
+  [5] Analyze PROPS         - ⭐ PLAYER PROPS ANALYZER (ALL STATS)
+  [R] View Reports          - Show all saved reports (match + props)
+  [0] Back to Main Menu
+
+================================================================================
+⭐ OPTION [5] - PLAYER PROPS ANALYZER
+================================================================================
+
+SUPPORTED STAT TYPES:
+  ✓ Fantasy Score / Fantasy Points
+  ✓ Break Points Won / Breakpoints Won
+  ✓ Total Games / Total Games Won / Games Won
+  ✓ Aces / Double Faults
+  ✓ Sets Won / Sets Played
+  ✓ Tiebreakers Played
+
+HOW TO USE:
+  1. Run: python menu.py
+  2. Select Tennis module
+  3. Select option [5]
+  4. Paste your Underdog tennis props
+  5. Press Enter twice to submit
+  6. Review analysis on screen
+  7. Files auto-saved to tennis/outputs/
+
+EXPECTED INPUT FORMAT (from Underdog):
+  Jannik Sinner
+  Jannik Sinner - Player
+  Jannik Sinner
+  @ Luciano Darderi Mon 1:00am
+  34
+  Fantasy Score
+  Less
+  More
+  Trending
+  5.6K
+
+OUTPUT FILES:
+  • tennis_props_analysis_YYYYMMDD_HHMMSS.txt  (human-readable report)
+  • tennis_props_analysis_YYYYMMDD_HHMMSS.json (data for programmatic use)
+
+REPORT INCLUDES:
+  ✓ Total props count
+  ✓ Breakdown by stat type
+  ✓ Props grouped by player
+  ✓ Opponent matchups
+  ✓ Lines (Higher/Lower multipliers if available)
+  ✓ Value plays (multiplier edge ≥ 0.05)
+
+================================================================================
+📊 OPTION [R] - VIEW REPORTS
+================================================================================
+
+Shows latest reports for both:
+  • Match Winner Analysis (tennis_report_*.txt)
+  • Player Props Analysis (tennis_props_analysis_*.txt)
+
+Location: tennis/outputs/
+
+================================================================================
+🚀 STANDALONE USAGE (without menu)
+================================================================================
+
+Run directly from command line:
+  
+  python tennis/analyze_all_tennis_props.py
+
+Then paste your props and press Enter twice.
+
+================================================================================
+✅ VERIFICATION
+================================================================================
+
+Test the system:
+  python test_tennis_props_menu.py
+
+Expected output:
+  ✓ Parsed X props
+  ✓ Report generated
+  ✓ Report saved
+  ✓ Data saved
+  ✅ ALL TESTS PASSED
+
+================================================================================
+🛠️ TROUBLESHOOTING
+================================================================================
+
+ISSUE: "No valid props found"
+FIX: Check paste format - needs player name, opponent, line, stat type
+
+ISSUE: "Module import error"  
+FIX: Run from workspace root: c:\Users\hiday\UNDERDOG ANANLYSIS
+
+ISSUE: Terminal stuck
+FIX: Press Ctrl+C and restart menu
+
+ISSUE: Wrong menu option selected
+FIX: Use option [5] for props, NOT [1] (match winners)
+
+================================================================================
+📁 FILE LOCATIONS
+================================================================================
+
+Parser:     tennis/tennis_props_parser.py
+Analyzer:   tennis/analyze_all_tennis_props.py  
+Menu:       tennis/tennis_main.py
+Reports:    tennis/outputs/
+Test:       test_tennis_props_menu.py
+
+================================================================================

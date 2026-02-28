@@ -1,0 +1,98 @@
+{
+  "game_info": {
+    "matchup": "OKC @ HOU",
+    "game_time": "6:30PM CST",
+    "spread": "OKC -7.5",
+    "total": 223.5,
+    "date": "2026-01-15"
+  },
+  "rest_advantage": {
+    "OKC": {
+      "days_rest": 1,
+      "back_to_back": false,
+      "travel_distance_miles": 450,
+      "last_game_minutes": {
+        "Shai Gilgeous-Alexander": 36,
+        "Jalen Williams": 34,
+        "Chet Holmgren": 32
+      }
+    },
+    "HOU": {
+      "days_rest": 1,
+      "back_to_back": false,
+      "travel_distance_miles": 0,
+      "last_game_minutes": {
+        "Alperen Sengun": 35,
+        "Jabari Smith Jr": 33,
+        "Amen Thompson": 32
+      }
+    }
+  },
+  "injury_report": {
+    "OKC": [],
+    "HOU": []
+  },
+  "coaching_tendencies": {
+    "Mark Daigneault": {
+      "team": "OKC",
+      "minute_limits": {
+        "Shai Gilgeous-Alexander": 36,
+        "Jalen Williams": 34
+      },
+      "blowout_pull_starters": 10,
+      "rotation_notes": "Tight 8-man rotation, rarely plays bench in competitive games"
+    },
+    "Ime Udoka": {
+      "team": "HOU",
+      "minute_limits": {
+        "Alperen Sengun": 35,
+        "Jabari Smith Jr": 34
+      },
+      "blowout_pull_starters": 12,
+      "rotation_notes": "Deep bench rotation, plays 10-11 players regularly"
+    }
+  },
+  "game_dynamics": {
+    "pace_matchup": {
+      "OKC_pace": 98.2,
+      "HOU_pace": 101.5,
+      "pace_differential": 3.3,
+      "expected_possessions": 100
+    },
+    "defensive_matchup": {
+      "OKC_def_rating": 3,
+      "HOU_def_rating": 12,
+      "notes": "OKC #3 defense, HOU average defense"
+    },
+    "motivation": {
+      "OKC": "Fighting for #1 seed in West",
+      "HOU": "Playoff positioning battle"
+    },
+    "playoff_implications": true
+  },
+  "defensive_rankings": {
+    "OKC": {
+      "overall_rank": 3,
+      "pts_allowed_per_100": 109.2,
+      "assists_suppression": true,
+      "3pm_suppression": true,
+      "notes": "Elite perimeter defense, suppresses assists and 3PM"
+    },
+    "HOU": {
+      "overall_rank": 12,
+      "pts_allowed_per_100": 113.8,
+      "assists_suppression": false,
+      "3pm_suppression": false
+    }
+  },
+  "key_matchups": {
+    "SGA_vs_HOU": {
+      "notes": "SGA elite scorer, HOU struggles vs elite guards",
+      "historical_avg": 32.1
+    },
+    "Sengun_vs_OKC": {
+      "notes": "OKC weak vs playmaking centers, Sengun thrives",
+      "historical_avg": 18.2
+    }
+  }
+}

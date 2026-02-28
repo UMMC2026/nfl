@@ -1,0 +1,40 @@
+{
+  "date": "2026-01-22",
+  "timestamp": "2026-01-22T13:38:40.409331",
+  "slate": "ALL HOTS",
+  "source_file": "ALL HOTS_RISK_FIRST_20260122_FROM_UD.json",
+  "summary": {
+    "play_count": 0,
+    "lean_count": 3,
+    "total": 3
+  },
+  "picks": [
+    {
+      "player": "LeBron James",
+      "team": "LAL",
+      "stat": "rebounds",
+      "line": 6.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 74.3
+    },
+    {
+      "player": "Jusuf Nurki\u0107",
+      "team": "UTA",
+      "stat": "pra",
+      "line": 27.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "LeBron James",
+      "team": "LAL",
+      "stat": "pra",
+      "line": 35.0,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+==============================================================================
+GOVERNANCE SUMMARY - SOCCER_SCRAPED - 20260218
+==============================================================================
+Created (UTC): 2026-02-18T16:51:58.805663+00:00
+
+COUNTS
+------------------------------------------------------------------------------
+Total results : 85
+Allowed edges : 14
+Blocked edges : 71
+Decision breakdown:
+  - BLOCKED: 71
+  - PLAY: 11
+  - LEAN: 3
+
+TOP BLOCK REASONS
+------------------------------------------------------------------------------
+   37x - pick_state=REJECTED
+   34x - pick_state=VETTED
+
+TOP PLAY PICKS
+------------------------------------------------------------------------------
+ 1. Sandro Tonali (Newcastle) goals LOWER 0.5
+    eff=88.4% model=88.4% edge=? z=?
+ 2. Sandro Tonali (Newcastle) assists LOWER 0.5
+    eff=86.9% model=86.9% edge=? z=?
+ 3. Sandro Tonali (Newcastle) goals_assists LOWER 0.5
+    eff=81.7% model=81.7% edge=? z=?
+ 4. Anthony Gordon (Newcastle) goals LOWER 0.5
+    eff=80.5% model=80.5% edge=? z=?
+ 5. David Raya (Arsenal) saves HIGHER 1.5
+    eff=79.4% model=79.4% edge=? z=?
+ 6. Anthony Gordon (Newcastle) assists LOWER 0.5
+    eff=76.8% model=76.8% edge=? z=?
+ 7. Sandro Tonali (Newcastle) shots LOWER 1.5
+    eff=73.8% model=73.8% edge=? z=?
+ 8. Julian Alvarez (Atletico Madrid) shots_on_target LOWER 1.5
+    eff=73.0% model=73.0% edge=? z=?
+ 9. Julian Alvarez (Atletico Madrid) goals LOWER 0.5
+... (truncated)

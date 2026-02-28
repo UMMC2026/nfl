@@ -1,0 +1,2045 @@
+[
+  {
+    "trace_id": "d464df01-dfc4-48",
+    "timestamp": "2026-01-31T14:50:29.179620",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "be8c836b",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-01-31T14:50:29.179621",
+        "duration_ms": 0.0,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "player_count": 64
+        },
+        "events": [
+          {
+            "name": "analysis_complete",
+            "timestamp": 0.0,
+            "attributes": {}
+          }
+        ]
+      }
+    ],
+    "total_duration_ms": 0.0
+  },
+  {
+    "trace_id": "d9e1a051-5caa-4a",
+    "timestamp": "2026-01-31T15:43:46.024756",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "d125e6a4",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-01-31T15:41:59.720234",
+        "duration_ms": 106304.49414253235,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 633,
+          "total_props": 551,
+          "play_count": 3,
+          "blocked_count": 70
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 106304.49414253235
+  },
+  {
+    "trace_id": "51d2209c-293b-43",
+    "timestamp": "2026-01-31T16:40:28.485924",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "984a4b72",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-01-31T16:39:15.616881",
+        "duration_ms": 72869.01926994324,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 633,
+          "total_props": 551,
+          "play_count": 3,
+          "blocked_count": 70
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 72869.01926994324
+  },
+  {
+    "trace_id": "f959f21f-9e73-42",
+    "timestamp": "2026-01-31T17:10:43.540358",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "f9838e94",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-01-31T17:09:03.775487",
+        "duration_ms": 99764.87112045288,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 633,
+          "total_props": 551,
+          "play_count": 3,
+          "blocked_count": 70
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 99764.87112045288
+  },
+  {
+    "trace_id": "cdca43a1-67c1-47",
+    "timestamp": "2026-01-31T18:21:50.593763",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "5f21ed6d",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-01-31T18:20:40.568540",
+        "duration_ms": 70025.19822120667,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 368,
+          "total_props": 280,
+          "play_count": 7,
+          "blocked_count": 61
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 70025.19822120667
+  },
+  {
+    "trace_id": "6f3197c0-520b-4b",
+    "timestamp": "2026-02-01T01:25:56.297885",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "ab5a97cd",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-01T01:19:43.583776",
+        "duration_ms": 372714.07318115234,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 368,
+          "total_props": 280,
+          "play_count": 5,
+          "blocked_count": 56
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 372714.07318115234
+  },
+  {
+    "trace_id": "c79df97e-08e9-46",
+    "timestamp": "2026-02-01T01:43:10.619882",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "d1d7dea5",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-01T01:40:31.009984",
+        "duration_ms": 159609.87305641174,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 368,
+          "total_props": 280,
+          "play_count": 6,
+          "blocked_count": 61
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 159609.87305641174
+  },
+  {
+    "trace_id": "99e03414-e986-47",
+    "timestamp": "2026-02-01T02:16:27.802924",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "bf55554b",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-01T01:53:08.556532",
+        "duration_ms": 1399246.3581562042,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 972,
+          "total_props": 966,
+          "play_count": 35,
+          "blocked_count": 76
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 1399246.3581562042
+  },
+  {
+    "trace_id": "5513c3c8-aa02-4f",
+    "timestamp": "2026-02-01T02:27:28.073801",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "cb728476",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-01T02:21:40.832842",
+        "duration_ms": 347240.9269809723,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 972,
+          "total_props": 966,
+          "play_count": 45,
+          "blocked_count": 108
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 347240.9269809723
+  },
+  {
+    "trace_id": "ebb1cb2f-6a15-42",
+    "timestamp": "2026-02-01T16:46:25.597426",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "03ed8651",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-01T16:43:22.124878",
+        "duration_ms": 183472.5160598755,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 579,
+          "total_props": 534,
+          "play_count": 21,
+          "blocked_count": 65
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 183472.5160598755
+  },
+  {
+    "trace_id": "a5099ffa-b3c1-4a",
+    "timestamp": "2026-02-01T18:03:58.585702",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "5a9602e6",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-01T18:03:55.100248",
+        "duration_ms": 3485.426664352417,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 58,
+          "total_props": 58,
+          "play_count": 1,
+          "blocked_count": 2
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 3485.426664352417
+  },
+  {
+    "trace_id": "3af2548e-214c-41",
+    "timestamp": "2026-02-02T16:32:40.448589",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "8b71da1d",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-02T16:27:06.791693",
+        "duration_ms": 333656.86893463135,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 455,
+          "total_props": 388,
+          "play_count": 7,
+          "blocked_count": 72
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 333656.86893463135
+  },
+  {
+    "trace_id": "f5a35540-a0d0-44",
+    "timestamp": "2026-02-02T16:43:44.155857",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "70fbe5d9",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-02T16:41:03.749137",
+        "duration_ms": 160406.69345855713,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 455,
+          "total_props": 388,
+          "play_count": 7,
+          "blocked_count": 93
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 160406.69345855713
+  },
+  {
+    "trace_id": "f3cee027-5844-47",
+    "timestamp": "2026-02-02T16:50:38.239857",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "27924965",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-02T16:49:28.319128",
+        "duration_ms": 69920.70364952087,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 455,
+          "total_props": 388,
+          "play_count": 7,
+          "blocked_count": 93
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 69920.70364952087
+  },
+  {
+    "trace_id": "28e0efbb-21c6-4a",
+    "timestamp": "2026-02-02T19:43:51.208101",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "46ea1fee",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-02T19:43:46.115072",
+        "duration_ms": 5092.961072921753,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 157,
+          "total_props": 146,
+          "play_count": 2,
+          "blocked_count": 21
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 5092.961072921753
+  },
+  {
+    "trace_id": "cc6d1a11-a806-40",
+    "timestamp": "2026-02-03T14:33:53.725201",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "912bde80",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-03T14:10:57.874705",
+        "duration_ms": 1375850.4526615143,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 1458,
+          "total_props": 1371,
+          "play_count": 15,
+          "blocked_count": 104
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 1375850.4526615143
+  },
+  {
+    "trace_id": "1379dc82-e87a-4a",
+    "timestamp": "2026-02-03T19:44:31.857344",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "0524b6c1",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-03T19:41:40.678896",
+        "duration_ms": 171178.4152984619,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 287,
+          "total_props": 287,
+          "play_count": 2,
+          "blocked_count": 74
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 171178.4152984619
+  },
+  {
+    "trace_id": "24b92f46-877c-41",
+    "timestamp": "2026-02-04T18:30:52.670204",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "cbdad7c7",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-04T18:26:51.557804",
+        "duration_ms": 241112.3661994934,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 414,
+          "total_props": 357,
+          "play_count": 2,
+          "blocked_count": 53
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 241112.3661994934
+  },
+  {
+    "trace_id": "acbbe1af-bc61-4c",
+    "timestamp": "2026-02-04T21:29:30.293471",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "884fc793",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-04T21:29:23.063671",
+        "duration_ms": 7229.774475097656,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 183,
+          "total_props": 123,
+          "play_count": 0,
+          "blocked_count": 12
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 7229.774475097656
+  },
+  {
+    "trace_id": "b7fb0535-d155-4d",
+    "timestamp": "2026-02-05T00:09:02.136392",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "46854e59",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-05T00:08:54.626636",
+        "duration_ms": 7509.724855422974,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 183,
+          "total_props": 123,
+          "play_count": 0,
+          "blocked_count": 12
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 7509.724855422974
+  },
+  {
+    "trace_id": "c32a1228-d671-45",
+    "timestamp": "2026-02-05T15:12:44.229261",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "f9248274",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-05T15:02:21.212566",
+        "duration_ms": 623016.6566371918,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 801,
+          "total_props": 724,
+          "play_count": 8,
+          "blocked_count": 52
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 623016.6566371918
+  },
+  {
+    "trace_id": "e1b04de6-bcf4-4f",
+    "timestamp": "2026-02-05T16:05:23.026503",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "53380ae7",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-05T16:02:33.208139",
+        "duration_ms": 169818.33004951477,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 801,
+          "total_props": 724,
+          "play_count": 7,
+          "blocked_count": 53
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 169818.33004951477
+  },
+  {
+    "trace_id": "93dae637-fabe-4b",
+    "timestamp": "2026-02-05T20:53:01.949017",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "03f92cd8",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-05T20:52:57.896986",
+        "duration_ms": 4052.0029067993164,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 159,
+          "total_props": 113,
+          "play_count": 1,
+          "blocked_count": 5
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 4052.0029067993164
+  },
+  {
+    "trace_id": "636dbd0d-ee60-4d",
+    "timestamp": "2026-02-05T21:07:00.123747",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "88aaf59b",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-05T21:06:55.781920",
+        "duration_ms": 4341.796875,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 75,
+          "total_props": 75,
+          "play_count": 2,
+          "blocked_count": 33
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 4341.796875
+  },
+  {
+    "trace_id": "f6b29892-d00b-44",
+    "timestamp": "2026-02-05T23:46:57.536661",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "3d170bdb",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-05T23:43:46.742873",
+        "duration_ms": 190793.75553131104,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 400,
+          "total_props": 380,
+          "play_count": 6,
+          "blocked_count": 28
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 190793.75553131104
+  },
+  {
+    "trace_id": "01113476-bcbd-4a",
+    "timestamp": "2026-02-06T12:08:16.987276",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "fe7cd9c9",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-06T11:57:32.015736",
+        "duration_ms": 644971.5402126312,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 400,
+          "total_props": 380,
+          "play_count": 1,
+          "blocked_count": 27
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 644971.5402126312
+  },
+  {
+    "trace_id": "3ff0c9ae-d711-47",
+    "timestamp": "2026-02-06T13:59:56.021694",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "0e984859",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-06T13:59:22.015114",
+        "duration_ms": 34006.5803527832,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 91,
+          "total_props": 91,
+          "play_count": 2,
+          "blocked_count": 9
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 34006.5803527832
+  },
+  {
+    "trace_id": "c097b45d-6942-4b",
+    "timestamp": "2026-02-06T14:35:39.459875",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "d78295b5",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-06T14:35:36.235368",
+        "duration_ms": 3224.5078086853027,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 91,
+          "total_props": 91,
+          "play_count": 2,
+          "blocked_count": 9
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 3224.5078086853027
+  },
+  {
+    "trace_id": "39a46594-7c8d-45",
+    "timestamp": "2026-02-06T18:55:33.597250",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "fff25dd8",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-06T18:55:32.117270",
+        "duration_ms": 1479.980707168579,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 76,
+          "total_props": 2,
+          "play_count": 0,
+          "blocked_count": 0
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 1479.980707168579
+  },
+  {
+    "trace_id": "72cae0a1-63fe-48",
+    "timestamp": "2026-02-06T19:09:11.770200",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "4f028631",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-06T19:08:06.785598",
+        "duration_ms": 64984.601736068726,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 129,
+          "total_props": 129,
+          "play_count": 0,
+          "blocked_count": 27
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 64984.601736068726
+  },
+  {
+    "trace_id": "82c3df0c-adbb-4b",
+    "timestamp": "2026-02-06T19:51:11.227682",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "88c8c79b",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-06T19:50:37.491963",
+        "duration_ms": 33735.72015762329,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 69,
+          "total_props": 69,
+          "play_count": 0,
+          "blocked_count": 39
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 33735.72015762329
+  },
+  {
+    "trace_id": "e0157f60-4337-4d",
+    "timestamp": "2026-02-06T19:52:45.828342",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "80ff90c5",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-06T19:52:42.841319",
+        "duration_ms": 2987.023115158081,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 69,
+          "total_props": 69,
+          "play_count": 0,
+          "blocked_count": 39
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 2987.023115158081
+  },
+  {
+    "trace_id": "c7679074-57d7-4c",
+    "timestamp": "2026-02-06T20:11:35.656722",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "271406e5",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-06T20:11:30.520778",
+        "duration_ms": 5135.944604873657,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 69,
+          "total_props": 69,
+          "play_count": 0,
+          "blocked_count": 39
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 5135.944604873657
+  },
+  {
+    "trace_id": "7e2e1c20-bd24-48",
+    "timestamp": "2026-02-06T20:17:52.706209",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "c82bf470",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-06T20:17:49.609519",
+        "duration_ms": 3096.6901779174805,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 69,
+          "total_props": 69,
+          "play_count": 0,
+          "blocked_count": 39
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 3096.6901779174805
+  },
+  {
+    "trace_id": "ce7e16c6-a877-42",
+    "timestamp": "2026-02-06T20:20:23.251909",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "e1f012ba",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-06T20:20:19.021034",
+        "duration_ms": 4230.876207351685,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 69,
+          "total_props": 69,
+          "play_count": 0,
+          "blocked_count": 39
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 4230.876207351685
+  },
+  {
+    "trace_id": "6c162eb8-ebdc-4b",
+    "timestamp": "2026-02-06T20:25:25.433004",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "290c3fe5",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-06T20:25:22.269476",
+        "duration_ms": 3163.5284423828125,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 69,
+          "total_props": 69,
+          "play_count": 0,
+          "blocked_count": 39
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 3163.5284423828125
+  },
+  {
+    "trace_id": "d117d3d3-dfa5-49",
+    "timestamp": "2026-02-06T20:25:59.983107",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "29da4dcb",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-06T20:25:56.413763",
+        "duration_ms": 3569.3445205688477,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 69,
+          "total_props": 69,
+          "play_count": 0,
+          "blocked_count": 39
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 3569.3445205688477
+  },
+  {
+    "trace_id": "f3031e3d-89b7-45",
+    "timestamp": "2026-02-06T20:29:23.484545",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "e4d5826e",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-06T20:29:19.977047",
+        "duration_ms": 3507.4985027313232,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 69,
+          "total_props": 69,
+          "play_count": 0,
+          "blocked_count": 39
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 3507.4985027313232
+  },
+  {
+    "trace_id": "8a4c4e2f-eccf-4a",
+    "timestamp": "2026-02-07T04:15:54.449634",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "3e86f529",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-07T03:55:38.167567",
+        "duration_ms": 1216282.0682525635,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 1779,
+          "total_props": 1779,
+          "play_count": 2,
+          "blocked_count": 126
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 1216282.0682525635
+  },
+  {
+    "trace_id": "7106e470-996e-44",
+    "timestamp": "2026-02-07T05:47:08.792993",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "127ec310",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-07T05:40:23.986443",
+        "duration_ms": 404806.5505027771,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 1779,
+          "total_props": 1779,
+          "play_count": 0,
+          "blocked_count": 147
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 404806.5505027771
+  },
+  {
+    "trace_id": "b68a990c-32bc-47",
+    "timestamp": "2026-02-07T06:03:05.774596",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "86fecbb3",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-07T06:00:24.178462",
+        "duration_ms": 161596.1344242096,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 1779,
+          "total_props": 1779,
+          "play_count": 0,
+          "blocked_count": 162
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 161596.1344242096
+  },
+  {
+    "trace_id": "092f965a-6ab9-4e",
+    "timestamp": "2026-02-07T14:32:53.866811",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "30ec7b88",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-07T14:32:18.664141",
+        "duration_ms": 35201.67636871338,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 141,
+          "total_props": 122,
+          "play_count": 0,
+          "blocked_count": 32
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 35201.67636871338
+  },
+  {
+    "trace_id": "79dcea97-792c-4c",
+    "timestamp": "2026-02-07T21:19:48.079477",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "f770897d",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-07T21:19:42.329768",
+        "duration_ms": 5749.708652496338,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 18,
+          "total_props": 18,
+          "play_count": 0,
+          "blocked_count": 0
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 5749.708652496338
+  },
+  {
+    "trace_id": "0ecc90bd-0133-48",
+    "timestamp": "2026-02-08T03:17:22.735283",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "dc13520d",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-08T03:17:20.040665",
+        "duration_ms": 2694.6182250976562,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 753,
+          "total_props": 753,
+          "play_count": 0,
+          "blocked_count": 43
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 2694.6182250976562
+  },
+  {
+    "trace_id": "174514be-9245-49",
+    "timestamp": "2026-02-08T03:42:42.505191",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "d60a9ef1",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-08T03:42:39.590293",
+        "duration_ms": 2914.898633956909,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 753,
+          "total_props": 753,
+          "play_count": 0,
+          "blocked_count": 59
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 2914.898633956909
+  },
+  {
+    "trace_id": "bf3047db-f103-45",
+    "timestamp": "2026-02-08T05:05:15.516887",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "6b2297a1",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-08T05:05:13.146989",
+        "duration_ms": 2369.899272918701,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 753,
+          "total_props": 753,
+          "play_count": 0,
+          "blocked_count": 59
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 2369.899272918701
+  },
+  {
+    "trace_id": "cb9ee8e2-5b65-45",
+    "timestamp": "2026-02-08T05:19:51.043627",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "5d3a22b3",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-08T05:19:48.613497",
+        "duration_ms": 2430.1297664642334,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 753,
+          "total_props": 753,
+          "play_count": 0,
+          "blocked_count": 59
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 2430.1297664642334
+  },
+  {
+    "trace_id": "d252ac5e-f7a0-4e",
+    "timestamp": "2026-02-08T05:35:24.344055",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "5a22780b",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-08T05:35:22.000054",
+        "duration_ms": 2344.001531600952,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 753,
+          "total_props": 753,
+          "play_count": 0,
+          "blocked_count": 165
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 2344.001531600952
+  },
+  {
+    "trace_id": "ba7a5955-f809-4e",
+    "timestamp": "2026-02-08T22:11:39.349985",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "11ae552a",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-08T21:51:08.391957",
+        "duration_ms": 1230958.028793335,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 1533,
+          "total_props": 1533,
+          "play_count": 0,
+          "blocked_count": 302
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 1230958.028793335
+  },
+  {
+    "trace_id": "bfdf66ef-ae80-48",
+    "timestamp": "2026-02-08T23:39:25.215342",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "e0ddaa59",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-08T23:39:22.448672",
+        "duration_ms": 2766.6707038879395,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 22,
+          "total_props": 22,
+          "play_count": 0,
+          "blocked_count": 0
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 2766.6707038879395
+  },
+  {
+    "trace_id": "cfa79466-7043-40",
+    "timestamp": "2026-02-09T13:06:39.179737",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "980215d1",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-09T13:06:36.210348",
+        "duration_ms": 2969.3892002105713,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 151,
+          "total_props": 91,
+          "play_count": 0,
+          "blocked_count": 9
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 2969.3892002105713
+  },
+  {
+    "trace_id": "2900f782-b2b7-44",
+    "timestamp": "2026-02-09T13:28:39.288069",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "3abb6921",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-09T13:16:07.130314",
+        "duration_ms": 752157.7551364899,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 400,
+          "total_props": 360,
+          "play_count": 0,
+          "blocked_count": 137
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 752157.7551364899
+  },
+  {
+    "trace_id": "5917a74c-97bb-47",
+    "timestamp": "2026-02-09T17:32:22.214956",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "5a90f37c",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-09T17:32:21.003487",
+        "duration_ms": 1211.4694118499756,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 93,
+          "total_props": 93,
+          "play_count": 0,
+          "blocked_count": 49
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 1211.4694118499756
+  },
+  {
+    "trace_id": "e97fad39-6d72-4f",
+    "timestamp": "2026-02-09T17:34:00.830123",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "86d073e4",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-09T17:33:59.588478",
+        "duration_ms": 1241.6448593139648,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 93,
+          "total_props": 93,
+          "play_count": 0,
+          "blocked_count": 49
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 1241.6448593139648
+  },
+  {
+    "trace_id": "2c9b5ea4-aee5-4b",
+    "timestamp": "2026-02-09T18:35:48.970916",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "0fddfe07",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-09T18:35:48.921050",
+        "duration_ms": 49.866437911987305,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 0,
+          "total_props": 0,
+          "play_count": 0,
+          "blocked_count": 0
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 49.866437911987305
+  },
+  {
+    "trace_id": "dfd20d7a-fb38-4b",
+    "timestamp": "2026-02-09T18:36:16.235436",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "dca753d2",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-09T18:36:14.656650",
+        "duration_ms": 1578.787088394165,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 93,
+          "total_props": 93,
+          "play_count": 0,
+          "blocked_count": 49
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 1578.787088394165
+  },
+  {
+    "trace_id": "878469a8-359f-40",
+    "timestamp": "2026-02-09T18:37:54.587292",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "d6ada39a",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-09T18:37:25.704790",
+        "duration_ms": 28882.50207901001,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 400,
+          "total_props": 360,
+          "play_count": 0,
+          "blocked_count": 146
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 28882.50207901001
+  },
+  {
+    "trace_id": "5ea8bd97-f04d-4e",
+    "timestamp": "2026-02-09T18:38:11.736098",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "77350351",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-09T18:38:09.703598",
+        "duration_ms": 2032.5007438659668,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 400,
+          "total_props": 360,
+          "play_count": 0,
+          "blocked_count": 146
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 2032.5007438659668
+  },
+  {
+    "trace_id": "ee192e61-2cd4-4a",
+    "timestamp": "2026-02-09T18:39:03.960758",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "0da99726",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-09T18:39:01.574354",
+        "duration_ms": 2386.404037475586,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 400,
+          "total_props": 360,
+          "play_count": 0,
+          "blocked_count": 146
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 2386.404037475586
+  },
+  {
+    "trace_id": "73d74c2a-492e-47",
+    "timestamp": "2026-02-09T18:39:25.586773",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "acd41e1a",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-09T18:39:23.602262",
+        "duration_ms": 1984.5116138458252,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 400,
+          "total_props": 360,
+          "play_count": 0,
+          "blocked_count": 146
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 1984.5116138458252
+  },
+  {
+    "trace_id": "e47b92f8-41ac-4d",
+    "timestamp": "2026-02-09T18:41:24.677640",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "c7ba4e7a",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-09T18:41:21.944626",
+        "duration_ms": 2733.0143451690674,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 93,
+          "total_props": 93,
+          "play_count": 0,
+          "blocked_count": 49
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 2733.0143451690674
+  },
+  {
+    "trace_id": "13e8d1a9-d307-44",
+    "timestamp": "2026-02-09T18:56:52.901668",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "10533a27",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-09T18:55:04.162943",
+        "duration_ms": 108738.72518539429,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 2554,
+          "total_props": 2554,
+          "play_count": 0,
+          "blocked_count": 1587
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 108738.72518539429
+  },
+  {
+    "trace_id": "8b4b4ca3-c234-41",
+    "timestamp": "2026-02-09T21:51:47.999425",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "8d923c70",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-09T21:51:41.509732",
+        "duration_ms": 6489.693641662598,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 2503,
+          "total_props": 2503,
+          "play_count": 0,
+          "blocked_count": 1644
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 6489.693641662598
+  },
+  {
+    "trace_id": "5722ddd4-f764-47",
+    "timestamp": "2026-02-10T10:41:57.854279",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "8b7c47e5",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-10T10:37:17.213806",
+        "duration_ms": 280640.4731273651,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 301,
+          "total_props": 296,
+          "play_count": 0,
+          "blocked_count": 207
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 280640.4731273651
+  },
+  {
+    "trace_id": "2a2b10d0-f6aa-4e",
+    "timestamp": "2026-02-10T11:30:41.702396",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "0c6a5e6f",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-10T11:30:32.573773",
+        "duration_ms": 9128.623008728027,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 301,
+          "total_props": 296,
+          "play_count": 0,
+          "blocked_count": 214
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 9128.623008728027
+  },
+  {
+    "trace_id": "30b1a681-8eb1-4a",
+    "timestamp": "2026-02-10T12:10:53.406265",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "48c3e0fe",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-10T12:10:36.395771",
+        "duration_ms": 17010.494470596313,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 1030,
+          "total_props": 1030,
+          "play_count": 0,
+          "blocked_count": 634
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 17010.494470596313
+  },
+  {
+    "trace_id": "dd68be22-cd6a-47",
+    "timestamp": "2026-02-10T17:31:18.775795",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "95ab9c1d",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-10T17:29:48.059636",
+        "duration_ms": 90716.15934371948,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 427,
+          "total_props": 427,
+          "play_count": 0,
+          "blocked_count": 328
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 90716.15934371948
+  },
+  {
+    "trace_id": "8140298b-2442-47",
+    "timestamp": "2026-02-11T17:31:05.092162",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "e665d05a",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-11T17:23:03.923230",
+        "duration_ms": 481168.9326763153,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 594,
+          "total_props": 583,
+          "play_count": 1,
+          "blocked_count": 179
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 481168.9326763153
+  },
+  {
+    "trace_id": "f9b2e278-47de-44",
+    "timestamp": "2026-02-11T18:31:51.538538",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "d6ffc3bb",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-11T18:03:48.150140",
+        "duration_ms": 1683388.3981704712,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 2902,
+          "total_props": 2902,
+          "play_count": 0,
+          "blocked_count": 1505
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 1683388.3981704712
+  },
+  {
+    "trace_id": "cc876924-180e-4a",
+    "timestamp": "2026-02-11T19:12:21.879038",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "c3505a30",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-11T19:12:20.287279",
+        "duration_ms": 1591.759204864502,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 83,
+          "total_props": 83,
+          "play_count": 0,
+          "blocked_count": 54
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 1591.759204864502
+  },
+  {
+    "trace_id": "3e5df1e1-298d-4f",
+    "timestamp": "2026-02-11T22:54:10.075331",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "da79faf6",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-11T22:53:34.222063",
+        "duration_ms": 35853.26838493347,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 327,
+          "total_props": 327,
+          "play_count": 0,
+          "blocked_count": 204
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 35853.26838493347
+  },
+  {
+    "trace_id": "508d0554-e116-46",
+    "timestamp": "2026-02-11T23:01:39.683234",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "a38f1c82",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-11T22:56:25.448777",
+        "duration_ms": 314234.45749282837,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 2004,
+          "total_props": 2004,
+          "play_count": 1,
+          "blocked_count": 1234
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 314234.45749282837
+  },
+  {
+    "trace_id": "54116232-cb05-46",
+    "timestamp": "2026-02-11T23:19:29.150393",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "51b0ebff",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-11T23:19:27.174160",
+        "duration_ms": 1976.2332439422607,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 10,
+          "total_props": 10,
+          "play_count": 0,
+          "blocked_count": 0
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 1976.2332439422607
+  },
+  {
+    "trace_id": "8e5b8c4c-52f1-42",
+    "timestamp": "2026-02-11T23:22:06.363561",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "cfd3268c",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-11T23:22:05.003194",
+        "duration_ms": 1360.3670597076416,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 101,
+          "total_props": 89,
+          "play_count": 0,
+          "blocked_count": 38
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 1360.3670597076416
+  },
+  {
+    "trace_id": "29e8956c-1c76-4a",
+    "timestamp": "2026-02-18T15:49:23.795309",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "92c14707",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-18T15:49:21.426117",
+        "duration_ms": 2369.192123413086,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 10,
+          "total_props": 10,
+          "play_count": 0,
+          "blocked_count": 0
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 2369.192123413086
+  },
+  {
+    "trace_id": "292975be-fba1-4a",
+    "timestamp": "2026-02-18T15:57:12.942906",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "de7b05b8",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-18T15:57:11.495768",
+        "duration_ms": 1447.138786315918,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 10,
+          "total_props": 10,
+          "play_count": 0,
+          "blocked_count": 0
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 1447.138786315918
+  },
+  {
+    "trace_id": "38a596db-54e3-47",
+    "timestamp": "2026-02-18T19:03:18.721728",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "d12a1d02",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-18T18:35:26.458742",
+        "duration_ms": 1672262.986421585,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 1917,
+          "total_props": 1917,
+          "play_count": 0,
+          "blocked_count": 917
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 1672262.986421585
+  },
+  {
+    "trace_id": "25918b87-f04d-40",
+    "timestamp": "2026-02-19T18:12:46.222185",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "a2ec6f3e",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-19T17:50:40.987952",
+        "duration_ms": 1325234.2338562012,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 601,
+          "total_props": 581,
+          "play_count": 0,
+          "blocked_count": 53
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 1325234.2338562012
+  },
+  {
+    "trace_id": "7a03c560-92aa-47",
+    "timestamp": "2026-02-19T19:07:43.672090",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "a70f43b8",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-19T18:48:03.442992",
+        "duration_ms": 1180229.0987968445,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 601,
+          "total_props": 581,
+          "play_count": 0,
+          "blocked_count": 72
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 1180229.0987968445
+  },
+  {
+    "trace_id": "2a19bfbb-1c57-46",
+    "timestamp": "2026-02-19T22:05:29.838376",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "f9810eae",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-19T20:34:32.028525",
+        "duration_ms": 5457809.8521232605,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 1442,
+          "total_props": 1442,
+          "play_count": 0,
+          "blocked_count": 289
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 5457809.8521232605
+  },
+  {
+    "trace_id": "0ce6d714-ef33-48",
+    "timestamp": "2026-02-20T12:37:13.044253",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "1f1c8e22",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-20T12:25:08.670599",
+        "duration_ms": 724373.654127121,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 243,
+          "total_props": 243,
+          "play_count": 0,
+          "blocked_count": 0
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 724373.654127121
+  },
+  {
+    "trace_id": "2a8ac0a4-2f07-42",
+    "timestamp": "2026-02-20T14:07:14.441009",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "3b00550d",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-20T13:32:19.499186",
+        "duration_ms": 2094941.8232440948,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 694,
+          "total_props": 645,
+          "play_count": 0,
+          "blocked_count": 9
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 2094941.8232440948
+  },
+  {
+    "trace_id": "c4c9c658-528f-4e",
+    "timestamp": "2026-02-20T14:59:13.509657",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "31f12795",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-20T14:22:49.487180",
+        "duration_ms": 2184022.477388382,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 694,
+          "total_props": 645,
+          "play_count": 0,
+          "blocked_count": 9
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 2184022.477388382
+  },
+  {
+    "trace_id": "1ec46924-81dc-46",
+    "timestamp": "2026-02-20T15:20:52.452258",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "0e456914",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-20T14:45:46.265093",
+        "duration_ms": 2106187.1650218964,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 694,
+          "total_props": 645,
+          "play_count": 0,
+          "blocked_count": 10
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 2106187.1650218964
+  },
+  {
+    "trace_id": "1ffcbc2d-14e9-46",
+    "timestamp": "2026-02-20T19:29:13.466739",
+    "span_count": 1,
+    "spans": [
+      {
+        "span_id": "2a0cbe8b",
+        "name": "analyze_slate",
+        "parent_id": null,
+        "start_time": "2026-02-20T18:45:36.463522",
+        "duration_ms": 2617003.217458725,
+        "status": "OK",
+        "attributes": {
+          "sport": "NBA",
+          "prop_count": 1317,
+          "total_props": 1317,
+          "play_count": 0,
+          "blocked_count": 180
+        },
+        "events": []
+      }
+    ],
+    "total_duration_ms": 2617003.217458725
+  }
+]

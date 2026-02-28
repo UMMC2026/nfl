@@ -1,0 +1,103 @@
+{
+  "date": "2026-01-19",
+  "timestamp": "2026-01-19T18:54:38.607843",
+  "slate": "MIA GSW",
+  "source_file": "MIA GSW_RISK_FIRST_20260119_FROM_UD.json",
+  "summary": {
+    "play_count": 2,
+    "lean_count": 8,
+    "total": 10
+  },
+  "picks": [
+    {
+      "player": "Jimmy Butler",
+      "team": "GSW",
+      "stat": "rebounds",
+      "line": 6.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 74.3
+    },
+    {
+      "player": "Stephen Curry",
+      "team": "GSW",
+      "stat": "turnovers",
+      "line": 3.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 70
+    },
+    {
+      "player": "Stephen Curry",
+      "team": "GSW",
+      "stat": "pra",
+      "line": 38.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Stephen Curry",
+      "team": "GSW",
+      "stat": "pts+reb",
+      "line": 32.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Stephen Curry",
+      "team": "GSW",
+      "stat": "pts+ast",
+      "line": 34.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Pelle Larsson",
+      "team": "MIA",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68
+    },
+    {
+      "player": "Jimmy Butler",
+      "team": "GSW",
+      "stat": "reb+ast",
+      "line": 11.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Pelle Larsson",
+      "team": "MIA",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 66.8
+    },
+    {
+      "player": "Al Horford",
+      "team": "GSW",
+      "stat": "pra",
+      "line": 15.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 66.2
+    },
+    {
+      "player": "Stephen Curry",
+      "team": "GSW",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 65.7
+    }
+  ]
+}

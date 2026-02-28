@@ -1,0 +1,657 @@
+{
+  "label": "MIZZ_TEXAS",
+  "timestamp": "20260214_184216",
+  "count": 65,
+  "props": [
+    {
+      "player": "Mark Mitchell",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "points",
+      "line": 17.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Mark Mitchell",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "pra",
+      "line": 26.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Mark Mitchell",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "pra",
+      "line": 26.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Mark Mitchell",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "rebounds",
+      "line": 5.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Mark Mitchell",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "rebounds",
+      "line": 5.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Mark Mitchell",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "assists",
+      "line": 3.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Matas Vokietaitis",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "points",
+      "line": 13.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Matas Vokietaitis",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "pra",
+      "line": 22.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Matas Vokietaitis",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "pra",
+      "line": 22.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Matas Vokietaitis",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "rebounds",
+      "line": 7.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Matas Vokietaitis",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "pts+reb",
+      "line": 21.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "T.O. Barrett",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "points",
+      "line": 14.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "T.O. Barrett",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "pra",
+      "line": 21.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "T.O. Barrett",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "pra",
+      "line": 21.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "T.O. Barrett",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "rebounds",
+      "line": 4.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "T.O. Barrett",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "rebounds",
+      "line": 4.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "T.O. Barrett",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "assists",
+      "line": 3.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Jordan Pope",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "points",
+      "line": 12.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Jordan Pope",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "points",
+      "line": 12.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Jordan Pope",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "pra",
+      "line": 15.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Jordan Pope",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "pra",
+      "line": 15.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Jordan Pope",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "rebounds",
+      "line": 2.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Jordan Pope",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "3pm",
+      "line": 2.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Jordan Pope",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "pts+reb",
+      "line": 14.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Dailyn Swain",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "points",
+      "line": 17.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Dailyn Swain",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "points",
+      "line": 17.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Dailyn Swain",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "pra",
+      "line": 29.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Dailyn Swain",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "pra",
+      "line": 29.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Dailyn Swain",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "rebounds",
+      "line": 7.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Dailyn Swain",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "rebounds",
+      "line": 7.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Dailyn Swain",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "assists",
+      "line": 3.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Dailyn Swain",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "assists",
+      "line": 3.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Jayden Stone",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "points",
+      "line": 14.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Jayden Stone",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "pra",
+      "line": 19.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Jayden Stone",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "pra",
+      "line": 19.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Jayden Stone",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "rebounds",
+      "line": 4.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Jayden Stone",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "assists",
+      "line": 1.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Tramon Mark",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "points",
+      "line": 13.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Tramon Mark",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "pra",
+      "line": 21.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Tramon Mark",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "pra",
+      "line": 21.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Tramon Mark",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "rebounds",
+      "line": 4.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Tramon Mark",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "assists",
+      "line": 2.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Jordan Pope",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "3pm",
+      "line": 2.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Jayden Stone",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "3pm",
+      "line": 1.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Tramon Mark",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "3pm",
+      "line": 1.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Dailyn Swain",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "pts+reb",
+      "line": 25.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Tramon Mark",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "pts+reb",
+      "line": 19.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Jayden Stone",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "pts+reb",
+      "line": 18.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Matas Vokietaitis",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "pts+reb",
+      "line": 21.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "T.O. Barrett",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "pts+reb",
+      "line": 18.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Jordan Pope",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "pts+reb",
+      "line": 14.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Dailyn Swain",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "reb+ast",
+      "line": 11.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "T.O. Barrett",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "reb+ast",
+      "line": 7.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Jayden Stone",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "reb+ast",
+      "line": 6.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Mark Mitchell",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "reb+ast",
+      "line": 9.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Tramon Mark",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "reb+ast",
+      "line": 6.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Mark Mitchell",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "points",
+      "line": 17.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Jayden Stone",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "points",
+      "line": 14.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Matas Vokietaitis",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "points",
+      "line": 13.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Jordan Pope",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "points",
+      "line": 12.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Jordan Pope",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "points",
+      "line": 12.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Dailyn Swain",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "points",
+      "line": 17.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Dailyn Swain",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "points",
+      "line": 17.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "T.O. Barrett",
+      "team": "MIZZ",
+      "opponent": "TEX",
+      "stat": "points",
+      "line": 14.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Tramon Mark",
+      "team": "TEX",
+      "opponent": "MIZZ",
+      "stat": "points",
+      "line": 13.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "injury_return": {
+    "enabled": false,
+    "players": [],
+    "games_back_threshold": 2,
+    "stat_window": "last_5",
+    "projection_multiplier": 0.92,
+    "max_probability": 0.58
+  },
+  "player_overrides": {
+    "Trey Murphy": {
+      "allow_analysis": true,
+      "max_probability": 0.55
+    },
+    "Trey Murphy III": {
+      "allow_analysis": true,
+      "max_probability": 0.55
+    },
+    "Kon Knueppel": {
+      "allow_analysis": true,
+      "max_probability": 0.55
+    }
+  },
+  "reporting": {
+    "top_n_per_team": 5,
+    "include_status": [
+      "PLAY",
+      "LEAN",
+      "ANALYSIS_ONLY",
+      "SLAM",
+      "STRONG",
+      "SOLID",
+      "LEAN_TIER"
+    ]
+  }
+}

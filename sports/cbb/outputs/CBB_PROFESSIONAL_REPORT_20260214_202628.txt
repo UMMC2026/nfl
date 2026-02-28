@@ -1,0 +1,587 @@
+╔════════════════════════════════════════════════════════════════════╗
+║          PROFESSIONAL CBB ANALYSIS REPORT                          ║
+║                   COLLEGE BASKETBALL                               ║
+╠════════════════════════════════════════════════════════════════════╣
+║  Generated: 2026-02-14T20:26:28                                  ║
+║  System: UNDERDOG ANALYSIS — Risk-First Quant Engine (Poisson)    ║
+╚════════════════════════════════════════════════════════════════════╝
+
+STAT KEY (college basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made | PRA=PTS+REB+AST | PR=PTS+REB | PA=PTS+AST | RA=REB+AST
+
+======================================================================
+🎯 TOP PLAYS — SLATE LEADERS (ALL TEAMS)
+======================================================================
+
+#   PLAYER                 STAT     DIR      LINE    PROB TIER     TEAM 
+──────────────────────────────────────────────────────────────────────
+1   MJ Collins           POINTS   LOWER   15.5   75.0% STRONG USU 
+2   Graham Ike           POINTS   LOWER   22.0   75.0% STRONG GONZ
+3   Mason Falslev        POINTS   LOWER   17.5   74.1% STRONG USU 
+4   Dailyn Swain         REBOUNDS LOWER    7.5   72.0% STRONG TEX 
+5   Jalen Warley         REBOUNDS LOWER    4.5   72.0% STRONG GONZ
+6   MJ Collins           PTS+REB+ LOWER   20.5   68.0% STRONG USU 
+7   Dailyn Swain         PTS+REB+ LOWER   28.5   68.0% STRONG TEX 
+8   Tramon Mark          PTS+REB+ LOWER   22.0   68.0% STRONG TEX 
+9   Cade Tyson           PTS+REB+ LOWER   26.5   68.0% STRONG MINN
+10  Paulius Murauskas    PTS+REB+ LOWER   26.5   68.0% STRONG SMC 
+11  Joshua Dent          PTS+REB+ LOWER   18.5   68.0% STRONG SMC 
+12  TJ Wainwright        PTS+REB+ LOWER   18.5   68.0% STRONG PAC 
+13  Graham Ike           PTS+REB+ LOWER   33.5   68.0% STRONG GONZ
+14  Jalen Warley         PTS+REB+ LOWER   15.5   68.0% STRONG GONZ
+15  Christian Hammond    PTS+REB+ LOWER   21.0   68.0% STRONG SCU 
+
+======================================================================
+💡 ACTIONABLE INSIGHTS — QUICK REFERENCE
+======================================================================
+
+🔥 OVERS TO CONSIDER:
+
+🔻 UNDERS TO CONSIDER:
+   • MJ Collins POINTS U15.5 [STRONG] (75.0%) — μ=8.6
+   • Graham Ike POINTS U22.0 [STRONG] (75.0%) — μ=17.5
+   • Mason Falslev POINTS U17.5 [STRONG] (74.1%) — μ=13.9
+   • Dailyn Swain REBOUNDS U7.5 [STRONG] (72.0%) — μ=5.2
+   • Jalen Warley REBOUNDS U4.5 [STRONG] (72.0%) — μ=3.0
+   • MJ Collins PRA U20.5 [STRONG] (68.0%) — μ=12.6
+   • Dailyn Swain PRA U28.5 [STRONG] (68.0%) — μ=18.1
+
+======================================================================
+TEAM-BY-TEAM ANALYSIS
+======================================================================
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: GONZ         vs UNKNOWN OPPONENT (NO_KENPOM_OPP)              │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Graham Ike           POINTS   LOWER  22.0 — STRONG   (75.0%) [μ=17.5, edge=20.6%]
+   2) Jalen Warley         REBOUNDS LOWER   4.5 — STRONG   (72.0%) [μ=3.0, edge=33.6%]
+   3) Graham Ike           PTS+REB+ LOWER  33.5 — STRONG   (68.0%) [μ=26.8, edge=20.1%]
+   4) Jalen Warley         PTS+REB+ LOWER  15.5 — STRONG   (68.0%) [μ=12.0, edge=22.6%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: ILL          vs IND                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   No actionable edges for this team.
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: IND          vs UNKNOWN OPPONENT (NO_KENPOM_OPP)              │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   No actionable edges for this team.
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: MEM          vs USU                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   No actionable edges for this team.
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: MINN         vs UNKNOWN OPPONENT (NO_KENPOM_OPP)              │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Cade Tyson           PTS+REB+ LOWER  26.5 — STRONG   (68.0%) [μ=17.8, edge=32.7%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: MIZZ         vs TEX                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   No actionable edges for this team.
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: PAC          vs SMC                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) TJ Wainwright        PTS+REB+ LOWER  18.5 — STRONG   (68.0%) [μ=13.1, edge=29.0%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: SCU          vs GONZ                                          │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Christian Hammond    PTS+REB+ LOWER  21.0 — STRONG   (68.0%) [μ=15.3, edge=27.2%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: SMC          vs UNKNOWN OPPONENT (NO_KENPOM_OPP)              │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Paulius Murauskas    PTS+REB+ LOWER  26.5 — STRONG   (68.0%) [μ=18.6, edge=29.9%]
+   2) Joshua Dent          PTS+REB+ LOWER  18.5 — STRONG   (68.0%) [μ=11.7, edge=36.9%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: TEX          vs UNKNOWN OPPONENT (NO_KENPOM_OPP)              │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Dailyn Swain         REBOUNDS LOWER   7.5 — STRONG   (72.0%) [μ=5.2, edge=31.1%]
+   2) Dailyn Swain         PTS+REB+ LOWER  28.5 — STRONG   (68.0%) [μ=18.1, edge=36.4%]
+   3) Tramon Mark          PTS+REB+ LOWER  22.0 — STRONG   (68.0%) [μ=17.1, edge=22.1%]
+   4) Matas Vokietaitis    PTS+REB+ LOWER  23.0 — LEAN     (67.5%) [μ=18.7, edge=18.9%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: USU          vs MEM                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) MJ Collins           POINTS   LOWER  15.5 — STRONG   (75.0%) [μ=8.6, edge=44.3%]
+   2) Mason Falslev        POINTS   LOWER  17.5 — STRONG   (74.1%) [μ=13.9, edge=20.5%]
+   3) MJ Collins           PTS+REB+ LOWER  20.5 — STRONG   (68.0%) [μ=12.6, edge=38.4%]
+   4) Mason Falslev        PTS+REB+ LOWER  26.5 — LEAN     (66.7%) [μ=22.3, edge=15.7%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: WASH         vs MINN                                          │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   No actionable edges for this team.
+
+======================================================================
+📊 STAT CATEGORY BREAKDOWN
+======================================================================
+
+   3-POINTERS    24 picks |  0 actionable | avg conf:  26.9%
+   ASSISTS        6 picks |  0 actionable | avg conf:  38.0%
+   POINTS        10 picks |  3 actionable | avg conf:  49.4%
+   PTS+REB+AST   29 picks | 12 actionable | avg conf:  58.9%
+   PTS+AST        5 picks |  0 actionable | avg conf:  31.9%
+   PTS+REB        2 picks |  0 actionable | avg conf:  45.2%
+   REBOUNDS      32 picks |  2 actionable | avg conf:  44.9%
+   TURNOVERS     27 picks |  0 actionable | avg conf:  32.9%
+
+======================================================================
+🔬 DETAILED PICK ANALYSIS — ACTIONABLE PLAYS
+======================================================================
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #1 MJ Collins (USU) vs MEM                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 15.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 8.64 (ESPN)
+      • Confidence: OK
+      • Line: 15.5 | Gap: 44.3% above mean
+      • Z-Score: +3.43
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #2 Graham Ike (GONZ) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 22.0   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 17.47 (ESPN)
+      • Confidence: OK
+      • Line: 22.0 | Gap: 20.6% above mean
+      • Z-Score: +2.27
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #3 Mason Falslev (USU) vs MEM                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 17.5   |   [STRONG] 74.1%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 13.91 (ESPN)
+      • Confidence: OK
+      • Line: 17.5 | Gap: 20.5% above mean
+      • Z-Score: +1.79
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 74.1%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 74.1%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #4 Dailyn Swain (TEX) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REBOUNDS UNDER 7.5   |   [STRONG] 72.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 5.17 (ESPN)
+      • Confidence: OK
+      • Line: 7.5 | Gap: 31.1% above mean
+      • Z-Score: +1.17
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 72.0%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 72.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #5 Jalen Warley (GONZ) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REBOUNDS UNDER 4.5   |   [STRONG] 72.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 2.99 (ESPN)
+      • Confidence: OK
+      • Line: 4.5 | Gap: 33.6% above mean
+      • Z-Score: +0.75
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 72.0%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 72.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+      • Notes: CV_PENALTY:90%
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #6 MJ Collins (USU) vs MEM                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 20.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 12.63 (ESPN)
+      • Confidence: OK
+      • Line: 20.5 | Gap: 38.4% above mean
+      • Z-Score: +3.93
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #7 Dailyn Swain (TEX) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 28.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 18.14 (ESPN)
+      • Confidence: OK
+      • Line: 28.5 | Gap: 36.4% above mean
+      • Z-Score: +5.18
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #8 Tramon Mark (TEX) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 22.0   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 17.14 (ESPN)
+      • Confidence: OK
+      • Line: 22.0 | Gap: 22.1% above mean
+      • Z-Score: +2.43
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 69.6%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #9 Cade Tyson (MINN) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 26.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 17.83 (ESPN)
+      • Confidence: OK
+      • Line: 26.5 | Gap: 32.7% above mean
+      • Z-Score: +4.34
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #10 Paulius Murauskas (SMC) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 26.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 18.58 (ESPN)
+      • Confidence: OK
+      • Line: 26.5 | Gap: 29.9% above mean
+      • Z-Score: +3.96
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #11 Joshua Dent (SMC) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 18.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.68 (ESPN)
+      • Confidence: OK
+      • Line: 18.5 | Gap: 36.9% above mean
+      • Z-Score: +3.41
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #12 TJ Wainwright (PAC) vs SMC                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 18.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 13.14 (ESPN)
+      • Confidence: OK
+      • Line: 18.5 | Gap: 29.0% above mean
+      • Z-Score: +2.68
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #13 Graham Ike (GONZ) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 33.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 26.77 (ESPN)
+      • Confidence: OK
+      • Line: 33.5 | Gap: 20.1% above mean
+      • Z-Score: +3.37
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #14 Jalen Warley (GONZ) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 15.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.99 (ESPN)
+      • Confidence: OK
+      • Line: 15.5 | Gap: 22.6% above mean
+      • Z-Score: +1.75
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 72.4%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #15 Christian Hammond (SCU) vs GONZ                                      │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 21.0   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 15.29 (ESPN)
+      • Confidence: OK
+      • Line: 21.0 | Gap: 27.2% above mean
+      • Z-Score: +2.86
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 73.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #16 Matas Vokietaitis (TEX) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 23.0   |   [LEAN] 67.5%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 18.66 (ESPN)
+      • Confidence: OK
+      • Line: 23.0 | Gap: 18.9% above mean
+      • Z-Score: +2.17
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 67.5%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 67.5%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #17 Mason Falslev (USU) vs MEM                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 26.5   |   [LEAN] 66.7%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 22.33 (ESPN)
+      • Confidence: OK
+      • Line: 26.5 | Gap: 15.7% above mean
+      • Z-Score: +2.09
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 66.7%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 66.7%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+======================================================================
+SLATE SUMMARY STATISTICS
+======================================================================
+
+Total Props Analyzed: 135
+
+Tier Distribution:
+   SKIP         █████████████████░░░ 118 (87.4%)
+   STRONG       ██░░░░░░░░░░░░░░░░░░  15 (11.1%)
+   LEAN         ░░░░░░░░░░░░░░░░░░░░   2 (1.5%)
+
+Direction Bias: 85 OVER / 50 UNDER (63.0% / 37.0%)
+
+======================================================================
+🎲 PARLAY CONSTRUCTION GUIDE
+======================================================================
+
+DIVERSIFICATION POOLS:
+   POINTS        3 picks (best: MJ Collins)
+   PTS+REB+AST  12 picks (best: MJ Collins)
+   REBOUNDS      2 picks (best: Dailyn Swain)
+
+SAMPLE 3-LEG POWER PLAY:
+   (select from different stats for diversification)
+   1. MJ Collins POINTS UNDER 15.5 (75.0%)
+   2. Graham Ike POINTS UNDER 22.0 (75.0%)
+   3. Mason Falslev POINTS UNDER 17.5 (74.1%)
+
+   Combined probability: 41.7%
+   3-leg POWER payout: 6x
+   Expected value: +1.50 units
+
+======================================================================
+GOVERNANCE & DISCLAIMER
+======================================================================
+
+This report is generated by a risk-first quantitative analysis system.
+CBB uses POISSON probability model with stricter confidence caps than NBA.
+
+CBB-SPECIFIC NOTES:
+• NO SLAM tier available (max tier = STRONG @ 70%)
+• Global cap: 79% (vs NBA 85%)
+• College variance is HIGHER than NBA — expect more swings
+• Conference play has different dynamics than non-conference
+• 'UNKNOWN OPPONENT (NO_KENPOM_OPP)' = opponent/schedule not in KenPom set (non-D1/exhibition/unknown)
+
+RISK MANAGEMENT:
+• Never exceed 2% of bankroll on a single CBB entry
+• Parlays carry exponentially higher variance
+• Past performance does not guarantee future results
+
+For entertainment purposes only. Gamble responsibly.
+
+──────────────────────────────────────────────────────────────────────
+Report ID: CBB_20260214_202628
+System: UNDERDOG ANALYSIS v2.0 — Risk-First Quant Engine (Poisson)
+──────────────────────────────────────────────────────────────────────

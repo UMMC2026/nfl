@@ -1,0 +1,77 @@
+======================================================================
+MONTE CARLO ENTRY OPTIMIZATION
+Generated: 2026-01-25T21:02:30.674443
+======================================================================
+
+STAT KEY (basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made (aka 3PT/3PTS) | STOCKS=STL+BLK | PRA=PTS+REB+AST
+
+RUN CONTEXT:
+   League inferred: NBA
+   Picks: 9 qualifying (from 358 analyzed)
+   Filter pass: NBA_PLAYLEAN_ANY_NO_COMPOSITES — PLAY/LEAN only + min conf + allow non-composite stats (can include 3PM/AST/etc)
+   Filter attempts (qualifying picks): NBA_STRICT_PRIMARY=0, NBA_PRIMARY_ONLY=0, NBA_PLAYLEAN_ANY_NO_COMPOSITES=9
+   Constraints: max_same_game=1, max_primary_per_game=1
+   NBA min confidence: 65.0
+   NBA flags: primary_only=1, playlean_only=1
+
+BEST POWER ENTRY:
+   4L POWER | EV=+4.30 | Sharpe=0.86 | P(profit)=53.0% | CJ McCollum AST >2.5; Aaron Nesmith AST >1.5; Matas Buzelis AST >1.5; Rui Hachimura AST >0.5
+   Kelly stake: 4.3% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=85.5%, min p_hit=79.2%
+   Stat mix: AST:4
+   Same-game buckets: ATL@IND:1, CHI@LAL:1, IND@UNK:1, LAL@UNK:1
+   LEGS (what each pick is):
+    1. CJ McCollum AST >2.5 (ATL vs IND) | p_hit=90.2% | FRAGILE
+    2. Aaron Nesmith AST >1.5 (IND vs UNK) | p_hit=79.2% | FRAGILE
+    3. Matas Buzelis AST >1.5 (CHI vs LAL) | p_hit=90.2% | FRAGILE
+    4. Rui Hachimura AST >0.5 (LAL vs UNK) | p_hit=82.2% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST FLEX ENTRY:
+   4L FLEX | EV=+2.20 | Sharpe=1.13 | P(profit)=89.9% | CJ McCollum AST >2.5; Aaron Nesmith AST >1.5; Matas Buzelis AST >1.5; Rui Hachimura AST >0.5
+   Kelly stake: 14.4% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=85.5%, min p_hit=79.2%
+   Stat mix: AST:4
+   Same-game buckets: ATL@IND:1, CHI@LAL:1, IND@UNK:1, LAL@UNK:1
+   LEGS (what each pick is):
+    1. CJ McCollum AST >2.5 (ATL vs IND) | p_hit=90.2% | FRAGILE
+    2. Aaron Nesmith AST >1.5 (IND vs UNK) | p_hit=79.2% | FRAGILE
+    3. Matas Buzelis AST >1.5 (CHI vs LAL) | p_hit=90.2% | FRAGILE
+    4. Rui Hachimura AST >0.5 (LAL vs UNK) | p_hit=82.2% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST RISK-ADJUSTED (Sharpe):
+   3L FLEX | EV=+0.87 | Sharpe=1.46 | P(profit)=95.9% | CJ McCollum AST >2.5; Matas Buzelis AST >1.5; Rui Hachimura AST >0.5
+   ENTRY SNAPSHOT: avg p_hit=87.5%, min p_hit=82.2%
+   Stat mix: AST:3
+   Same-game buckets: ATL@IND:1, CHI@LAL:1, LAL@UNK:1
+   LEGS (what each pick is):
+    1. CJ McCollum AST >2.5 (ATL vs IND) | p_hit=90.2% | FRAGILE
+    2. Matas Buzelis AST >1.5 (CHI vs LAL) | p_hit=90.2% | FRAGILE
+    3. Rui Hachimura AST >0.5 (LAL vs UNK) | p_hit=82.2% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+----------------------------------------------------------------------
+TOP 10 ENTRIES BY EV:
+----------------------------------------------------------------------
+ 1. 4L POWER | EV=+4.30 | Sharpe=0.86 | P(profit)=53.0% | CJ McCollum AST >2.5; Aaron Nesmith AST >1.5; Matas Buzelis AST >1.5; Rui Hachimura AST >0.5
+ 2. 4L POWER | EV=+4.09 | Sharpe=0.82 | P(profit)=50.9% | CJ McCollum AST >2.5; Jarace Walker AST >1.5; Matas Buzelis AST >1.5; Rui Hachimura AST >0.5
+ 3. 4L POWER | EV=+4.02 | Sharpe=0.80 | P(profit)=50.2% | Jalen Johnson AST <7.5; Aaron Nesmith AST >1.5; Matas Buzelis AST >1.5; Rui Hachimura AST >0.5
+ 4. 4L POWER | EV=+3.91 | Sharpe=0.78 | P(profit)=49.1% | Andrew Nembhard AST >6.5; CJ McCollum AST >2.5; Matas Buzelis AST >1.5; Rui Hachimura AST >0.5
+ 5. 4L POWER | EV=+3.86 | Sharpe=0.77 | P(profit)=48.6% | CJ McCollum AST >2.5; Aaron Nesmith AST >1.5; Isaac Okoro AST >0.5; Rui Hachimura AST >0.5
+ 6. 4L POWER | EV=+3.82 | Sharpe=0.76 | P(profit)=48.2% | Jalen Johnson AST <7.5; Jarace Walker AST >1.5; Matas Buzelis AST >1.5; Rui Hachimura AST >0.5
+ 7. 4L POWER | EV=+3.66 | Sharpe=0.73 | P(profit)=46.6% | CJ McCollum AST >2.5; Jarace Walker AST >1.5; Isaac Okoro AST >0.5; Rui Hachimura AST >0.5
+ 8. 4L POWER | EV=+3.65 | Sharpe=0.73 | P(profit)=46.5% | Jalen Johnson AST <7.5; Andrew Nembhard AST >6.5; Matas Buzelis AST >1.5; Rui Hachimura AST >0.5
+ 9. 4L POWER | EV=+3.60 | Sharpe=0.72 | P(profit)=46.0% | Jalen Johnson AST <7.5; Aaron Nesmith AST >1.5; Isaac Okoro AST >0.5; Rui Hachimura AST >0.5
+10. 4L POWER | EV=+3.59 | Sharpe=0.72 | P(profit)=45.9% | CJ McCollum AST >2.5; Aaron Nesmith AST >1.5; Ayo Dosunmu AST >2.5; Rui Hachimura AST >0.5

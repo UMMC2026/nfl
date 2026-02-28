@@ -1,0 +1,49 @@
+{
+  "sport": "TENNIS",
+  "generated_at": "2026-02-07T15:06:46.780523",
+  "match_count": 3,
+  "matches": [
+    {
+      "match_id": "WTA_HARD_R1_JEL_PAU_20260207",
+      "tour": "WTA",
+      "surface": "HARD",
+      "round": "R1",
+      "player_a": "Jelena Ostapenko",
+      "player_b": "Paula Badosa",
+      "line_a": 133,
+      "line_b": -167,
+      "market": "match_winner",
+      "event": "WTA Qatar Open",
+      "commence_time": "2026-02-08T07:00:00Z",
+      "ingested_at": "2026-02-07T15:06:46.576037"
+    },
+    {
+      "match_id": "WTA_HARD_R1_LIU_MAG_20260207",
+      "tour": "WTA",
+      "surface": "HARD",
+      "round": "R1",
+      "player_a": "Liudmila Samsonova",
+      "player_b": "Magdalena Frech",
+      "line_a": -233,
+      "line_b": 188,
+      "market": "match_winner",
+      "event": "WTA Qatar Open",
+      "commence_time": "2026-02-08T10:00:00Z",
+      "ingested_at": "2026-02-07T15:06:46.675771"
+    },
+    {
+      "match_id": "WTA_HARD_R1_PEY_VER_20260207",
+      "tour": "WTA",
+      "surface": "HARD",
+      "round": "R1",
+      "player_a": "Peyton Stearns",
+      "player_b": "Vera Zvonareva",
+      "line_a": -217,
+      "line_b": 175,
+      "market": "match_winner",
+      "event": "WTA Qatar Open",
+      "commence_time": "2026-02-08T10:30:00Z",
+      "ingested_at": "2026-02-07T15:06:46.780523"
+    }
+  ]
+}

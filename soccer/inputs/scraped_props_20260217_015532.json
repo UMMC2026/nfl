@@ -1,0 +1,571 @@
+{
+  "timestamp": "2026-02-17T01:55:27.390800",
+  "sites": [
+    "persistent"
+  ],
+  "total_props": 43,
+  "parsed_props": 43,
+  "players": 10,
+  "props": [
+    {
+      "source": "Underdog",
+      "player": "Kylian Mbappe",
+      "stat": "shots attempted",
+      "line": 3.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Kylian Mbappe Shots Attempted 3.5 higher",
+      "matchup": {
+        "team1": "RMA",
+        "team2": "BEN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Kylian Mbappe",
+      "stat": "shots on target",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Kylian Mbappe Shots on Target 1.5 higher",
+      "matchup": {
+        "team1": "RMA",
+        "team2": "BEN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Kylian Mbappe",
+      "stat": "goals+assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Kylian Mbappe Goals + Assists 0.5 higher",
+      "matchup": {
+        "team1": "RMA",
+        "team2": "BEN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Kylian Mbappe",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Kylian Mbappe Goals 0.5 higher",
+      "matchup": {
+        "team1": "RMA",
+        "team2": "BEN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Victor Osimhen",
+      "stat": "shots attempted",
+      "line": 3.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Victor Osimhen Shots Attempted 3.5 higher",
+      "matchup": {
+        "team1": "GAL",
+        "team2": "JUV"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Victor Osimhen",
+      "stat": "shots on target",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Victor Osimhen Shots on Target 1.5 higher",
+      "matchup": {
+        "team1": "GAL",
+        "team2": "JUV"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Victor Osimhen",
+      "stat": "goals+assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Victor Osimhen Goals + Assists 0.5 higher",
+      "matchup": {
+        "team1": "GAL",
+        "team2": "JUV"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Victor Osimhen",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Victor Osimhen Goals 0.5 higher",
+      "matchup": {
+        "team1": "GAL",
+        "team2": "JUV"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Michele Di Gregorio",
+      "stat": "saves",
+      "line": 2.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Michele Di Gregorio Saves 2.5 higher",
+      "matchup": {
+        "team1": "JUV",
+        "team2": "GAL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Michele Di Gregorio",
+      "stat": "goals allowed",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Michele Di Gregorio Goals Allowed 1.5 higher",
+      "matchup": {
+        "team1": "JUV",
+        "team2": "GAL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Michele Di Gregorio",
+      "stat": "1h goals allowed",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Michele Di Gregorio 1H Goals Allowed 0.5 higher",
+      "matchup": {
+        "team1": "JUV",
+        "team2": "GAL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Michele Di Gregorio",
+      "stat": "1h saves",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Michele Di Gregorio 1H Saves 1.5 higher",
+      "matchup": {
+        "team1": "JUV",
+        "team2": "GAL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Vinicius Junior",
+      "stat": "shots attempted",
+      "line": 2.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Vinicius Junior Shots Attempted 2.5 higher",
+      "matchup": {
+        "team1": "RMA",
+        "team2": "BEN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Vinicius Junior",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Vinicius Junior Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "RMA",
+        "team2": "BEN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Vinicius Junior",
+      "stat": "goals+assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Vinicius Junior Goals + Assists 0.5 higher",
+      "matchup": {
+        "team1": "RMA",
+        "team2": "BEN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Vinicius Junior",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Vinicius Junior Goals 0.5 higher",
+      "matchup": {
+        "team1": "RMA",
+        "team2": "BEN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Vinicius Junior",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Vinicius Junior Assists 0.5 higher",
+      "matchup": {
+        "team1": "RMA",
+        "team2": "BEN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Kenan Yildiz",
+      "stat": "shots attempted",
+      "line": 2.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Kenan Yildiz Shots Attempted 2.5 higher",
+      "matchup": {
+        "team1": "JUV",
+        "team2": "GAL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Kenan Yildiz",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Kenan Yildiz Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "JUV",
+        "team2": "GAL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Kenan Yildiz",
+      "stat": "goals+assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Kenan Yildiz Goals + Assists 0.5 higher",
+      "matchup": {
+        "team1": "JUV",
+        "team2": "GAL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Kenan Yildiz",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Kenan Yildiz Goals 0.5 higher",
+      "matchup": {
+        "team1": "JUV",
+        "team2": "GAL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Thibaut Courtois",
+      "stat": "saves",
+      "line": 2.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Thibaut Courtois Saves 2.5 higher",
+      "matchup": {
+        "team1": "RMA",
+        "team2": "BEN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Thibaut Courtois",
+      "stat": "goals allowed",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Thibaut Courtois Goals Allowed 1.5 higher",
+      "matchup": {
+        "team1": "RMA",
+        "team2": "BEN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Thibaut Courtois",
+      "stat": "1h goals allowed",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Thibaut Courtois 1H Goals Allowed 0.5 higher",
+      "matchup": {
+        "team1": "RMA",
+        "team2": "BEN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Thibaut Courtois",
+      "stat": "1h saves",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Thibaut Courtois 1H Saves 1.5 higher",
+      "matchup": {
+        "team1": "RMA",
+        "team2": "BEN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Ousmane Dembele",
+      "stat": "shots attempted",
+      "line": 3.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Ousmane Dembele Shots Attempted 3.5 higher",
+      "matchup": {
+        "team1": "PSG",
+        "team2": "ASM"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Ousmane Dembele",
+      "stat": "shots on target",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Ousmane Dembele Shots on Target 1.5 higher",
+      "matchup": {
+        "team1": "PSG",
+        "team2": "ASM"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Ousmane Dembele",
+      "stat": "goals+assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Ousmane Dembele Goals + Assists 0.5 higher",
+      "matchup": {
+        "team1": "PSG",
+        "team2": "ASM"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Ousmane Dembele",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Ousmane Dembele Goals 0.5 higher",
+      "matchup": {
+        "team1": "PSG",
+        "team2": "ASM"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Ousmane Dembele",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Ousmane Dembele Assists 0.5 higher",
+      "matchup": {
+        "team1": "PSG",
+        "team2": "ASM"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Anatoliy Trubin",
+      "stat": "saves",
+      "line": 3.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Anatoliy Trubin Saves 3.5 higher",
+      "matchup": {
+        "team1": "BEN",
+        "team2": "RMA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Anatoliy Trubin",
+      "stat": "goals allowed",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Anatoliy Trubin Goals Allowed 1.5 higher",
+      "matchup": {
+        "team1": "BEN",
+        "team2": "RMA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Anatoliy Trubin",
+      "stat": "1h goals allowed",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Anatoliy Trubin 1H Goals Allowed 0.5 higher",
+      "matchup": {
+        "team1": "BEN",
+        "team2": "RMA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Anatoliy Trubin",
+      "stat": "1h saves",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Anatoliy Trubin 1H Saves 1.5 higher",
+      "matchup": {
+        "team1": "BEN",
+        "team2": "RMA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Serhou Guirassy",
+      "stat": "shots attempted",
+      "line": 3.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Serhou Guirassy Shots Attempted 3.5 higher",
+      "matchup": {
+        "team1": "BVB",
+        "team2": "ATA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Serhou Guirassy",
+      "stat": "shots on target",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Serhou Guirassy Shots on Target 1.5 higher",
+      "matchup": {
+        "team1": "BVB",
+        "team2": "ATA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Serhou Guirassy",
+      "stat": "goals+assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Serhou Guirassy Goals + Assists 0.5 higher",
+      "matchup": {
+        "team1": "BVB",
+        "team2": "ATA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Serhou Guirassy",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Serhou Guirassy Goals 0.5 higher",
+      "matchup": {
+        "team1": "BVB",
+        "team2": "ATA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Weston McKennie",
+      "stat": "shots attempted",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Weston McKennie Shots Attempted 1.5 higher",
+      "matchup": {
+        "team1": "JUV",
+        "team2": "GAL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Weston McKennie",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Weston McKennie Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "JUV",
+        "team2": "GAL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Weston McKennie",
+      "stat": "goals+assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Weston McKennie Goals + Assists 0.5 higher",
+      "matchup": {
+        "team1": "JUV",
+        "team2": "GAL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Weston McKennie",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Weston McKennie Goals 0.5 higher",
+      "matchup": {
+        "team1": "JUV",
+        "team2": "GAL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Weston McKennie",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Weston McKennie Assists 0.5 higher",
+      "matchup": {
+        "team1": "JUV",
+        "team2": "GAL"
+      }
+    }
+  ],
+  "run_id": "3ad64805fdf6575b"
+}

@@ -1,0 +1,40 @@
+{
+  "engine": "TOTAL_SETS_ENGINE",
+  "market": "TOTAL_SETS",
+  "version": "1.0.0",
+  
+  "edge_identity": ["player_a", "player_b", "surface", "sets_line"],
+  
+  "block_rules": {
+    "elo_gap_gt_220": true,
+    "qualifier_vs_top20": true,
+    "straight_set_rate_gt_65": true,
+    "bo5_and_sets_line_lt_4_5": true
+  },
+  
+  "features": [
+    "elo_gap",
+    "set_win_pct_vs_top50",
+    "breaks_per_set",
+    "tiebreak_frequency",
+    "surface_hold_rate"
+  ],
+  
+  "model": {
+    "type": "structural",
+    "formula": "p_over = sigmoid(resistance_score - dominance_score)"
+  },
+  
+  "sets_lines": {
+    "Bo3": [2.5],
+    "Bo5": [3.5, 4.5]
+  },
+  
+  "tiers": {
+    "STRONG": {"min": 0.66},
+    "LEAN": {"min": 0.58},
+    "NO_PLAY": {"max": 0.579}
+  },
+  
+  "max_plays": 2
+}

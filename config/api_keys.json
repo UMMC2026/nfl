@@ -1,0 +1,18 @@
+{
+    "api_sports": {
+        "key": "29f5fe801b18ad08ee502e5d7b4612d2",
+        "tennis_base_url": "https://v1.tennis.api-sports.io",
+        "football_base_url": "https://v3.football.api-sports.io",
+        "daily_limit": 100,
+        "rate_limit_per_minute": 30
+    },
+    "notes": {
+        "tennis_endpoints": [
+            "/players",
+            "/players/statistics",
+            "/games",
+            "/rankings"
+        ],
+        "documentation": "https://api-sports.io/documentation/tennis/v1"
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "mode": "NORMAL",
+  "allow_overs": true,
+  "max_edges_per_game": 2,
+  "max_edges_per_player": 1,
+  "enabled": true,
+  "last_updated": "2026-02-14",
+
+  "game_script_gate": {
+    "enabled": true,
+    "block_under_on_underdog_spread": 6,
+    "block_under_combo_spread": 4,
+    "high_usage_threshold": 0.22,
+    "high_impact_stats": ["pra", "pts_rebs_asts", "pts+reb+ast", "pa", "pts_ast", "pts+ast", "pr", "pts_reb", "pts+reb", "reb+ast", "reb_ast", "points+assists", "points+rebounds", "points+rebounds+assists", "rebounds+assists"]
+  },
+
+  "spread_lambda_adjustment": {
+    "enabled": true,
+    "underdog_boost": {
+      "spread_5_to_8": 1.08,
+      "spread_8_to_12": 1.12,
+      "spread_12_plus": 1.15
+    },
+    "favorite_reduction": {
+      "spread_10_to_14": 0.95,
+      "spread_14_plus": 0.90
+    }
+  },
+
+  "mpg_gate": {
+    "direction_aware": true,
+    "min_mpg_over": 18,
+    "min_mpg_under": 10
+  }
+}

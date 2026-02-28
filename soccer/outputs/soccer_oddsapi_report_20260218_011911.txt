@@ -1,0 +1,55 @@
+======================================================================
+[SOCCER] PROP ANALYSIS - RISK-FIRST REPORT
+======================================================================
+[ENGINE] Monte Carlo (10,000 sims) | Distributions: mc_poisson
+
+[DATA] Sources: 4 from DATABASE | 1 from ESTIMATES
+[!] ESTIMATES are position-based averages - treat with caution!
+
+
+[SLAM] (82%+) - ELITE CONFIDENCE
+--------------------------------------------------
+  [DB] Viktor Gyokeres (Sporting Lisbon)
+     shots OVER 2.0 - 83.0%
+     Avg: 4.0/game | GP: 22
+     Range: p10=2.0 | p50=4.0 | p90=7.0 [mc_poisson]
+
+[STRONG] (66%+) - HIGH CONFIDENCE
+--------------------------------------------------
+  [EST] Toluwalase Emmanuel Arokodare
+     shots UNDER 1.5 - 66.4%
+     Avg: 1.2/game | GP: EST
+     Range: p10=0.0 | p50=1.0 | p90=3.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+
+[LEAN] (56%+) - ACTIONABLE
+--------------------------------------------------
+  [DB] Bukayo Saka (Arsenal)
+     shots UNDER 3.0 - 57.9%
+     Avg: 2.8/game | GP: 22
+     Range: p10=1.0 | p50=3.0 | p90=5.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+
+[AVOID] (below LEAN threshold) - SKIP
+--------------------------------------------------
+  [X] Leandro Trossard - shots UNDER 2.0 - 54.8%  [WRONG DIR]
+       Platform offered: OVER | Model best: UNDER
+       -> Flip UNDER also weak: 54.8%
+  [X] Noni Madueke - shots OVER 2.0 - 55.3%  [NO EDGE]
+       OVER: 55.3% | UNDER: 44.7% -- coin flip
+
+======================================================================
+[SUMMARY] ACTIONABLE PICKS: 3
+   SLAM: 1 | STRONG: 1 | LEAN: 1
+
+[!] NOTE: Some picks use ESTIMATES. Prioritize DATABASE picks.
+
+======================================================================
+[CHEAT SHEET] - Copy/Paste Ready
+======================================================================
+** Viktor Gyokeres shots OVER 2.0 (83%)
+** Toluwalase Emmanuel Arokodare shots UNDER 1.5 (66%)
+* Bukayo Saka shots UNDER 3.0 (58%)
+======================================================================

@@ -1,0 +1,693 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                       UNDERDOG FANTASY PROPS ANALYZER                        ║
+║                       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━                        ║
+║                      DAILY SLATE REPORT: GSW_MIN262026                       ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  Report Date:    January 26, 2026
+  Generated At:   07:58 PM
+  Data Source:    GSW_MIN262026_RISK_FIRST_20260126_FROM_UD.json
+  Lens: UNDER-first enabled; Failure Lens enabled
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  EXECUTIVE SUMMARY                                                           │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  Total Props Analyzed:  70            Actionable Plays:  8                   │
+│  ✓ PLAY Tier:           0             ○ LEAN Tier:        8                  │
+│  Directional Bias:      2 UNDERs / 6 OVERs                                   │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+
+════════════════════════════════════════════════════════════════════════════════
+  📊 LEAN PLAYS (8)
+  Moderate confidence (65-74%) — consider for parlays
+════════════════════════════════════════════════════════════════════════════════
+
+  ┌─ #1 ────────────────────────────────────────────────────────────
+  │  Rudy Gobert (MIN)
+  │  REBOUNDS OVER 10.5
+  │
+  │  Confidence:  78.5%
+  │  Edge:        +0.8%
+  │  Recent Avg:  11.3  (σ=3.7, n=10)
+  │  Line Gap:    +0.8 pts
+  │  Context:     Matchup: +2.5%, Home: +1.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 11.3 > Line 10.5, 78.5% confidence, +0.8% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #2 ────────────────────────────────────────────────────────────
+  │  Donte DiVincenzo (MIN)
+  │  PTS+AST OVER 14.5
+  │
+  │  Confidence:  71.4%
+  │  Edge:        +3.9%
+  │  Recent Avg:  18.4  (σ=6.4, n=0)
+  │  Line Gap:    +3.9 pts
+  │  Context:     Matchup: +3.0%, Home: +1.5%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 18.4 > Line 14.5, 71.4% confidence, +3.9% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #3 ────────────────────────────────────────────────────────────
+  │  Jaden McDaniels (MIN)
+  │  PTS+AST OVER 14.5
+  │
+  │  Confidence:  71.4%
+  │  Edge:        +5.3%
+  │  Recent Avg:  19.8  (σ=8.2, n=0)
+  │  Line Gap:    +5.3 pts
+  │  Context:     Matchup: +3.0%, Home: +1.5%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 19.8 > Line 14.5, 71.4% confidence, +5.3% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 6+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #4 ────────────────────────────────────────────────────────────
+  │  Donte DiVincenzo (MIN)
+  │  REBOUNDS OVER 3.5
+  │
+  │  Confidence:  67.8%
+  │  Edge:        +2.0%
+  │  Recent Avg:  5.5  (σ=2.3, n=10)
+  │  Line Gap:    +2.0 pts
+  │  Context:     Matchup: +2.5%, Home: +1.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 5.5 > Line 3.5, 67.8% confidence, +2.0% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #5 ────────────────────────────────────────────────────────────
+  │  Jaden McDaniels (MIN)
+  │  REBOUNDS OVER 3.5
+  │
+  │  Confidence:  67.2%
+  │  Edge:        +1.6%
+  │  Recent Avg:  5.1  (σ=1.8, n=10)
+  │  Line Gap:    +1.6 pts
+  │  Context:     Matchup: +2.5%, Home: +1.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 5.1 > Line 3.5, 67.2% confidence, +1.6% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #6 ────────────────────────────────────────────────────────────
+  │  Jaden McDaniels (MIN)
+  │  POINTS OVER 11.5
+  │
+  │  Confidence:  63.8%
+  │  Edge:        +4.5%
+  │  Recent Avg:  16.0  (σ=7.9, n=10)
+  │  Line Gap:    +4.5 pts
+  │  Context:     Matchup: +3.0%, Home: +2.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 16.0 > Line 11.5, 63.8% confidence, +4.5% edge
+  │   • Structural risk: Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #7 ────────────────────────────────────────────────────────────
+  │  Brandin Podziemski (GSW)
+  │  POINTS UNDER 16.5
+  │
+  │  Confidence:  60.4%
+  │  Edge:        +3.0%
+  │  Recent Avg:  13.5  (σ=7.5, n=10)
+  │  Line Gap:    +3.0 pts
+  │  Context:     Away: -2.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 13.5 < Line 16.5, 60.4% confidence, +3.0% edge
+  │   • Structural risk: High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #8 ────────────────────────────────────────────────────────────
+  │  Mike Conley (MIN)
+  │  POINTS UNDER 6.5
+  │
+  │  Confidence:  59.5%
+  │  Edge:        +3.7%
+  │  Recent Avg:  2.8  (σ=3.3, n=10)
+  │  Line Gap:    +3.7 pts
+  │  Context:     Matchup: +3.0%, Home: +2.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 2.8 < Line 6.5, 59.5% confidence, +3.7% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+
+════════════════════════════════════════════════════════════════════════════════
+  ⛔ NO PLAY (32)
+  Below threshold — insufficient edge or confidence
+════════════════════════════════════════════════════════════════════════════════
+
+  ┌─ #1 ────────────────────────────────────────────────────────────
+  │  Brandin Podziemski (GSW)
+  │  PTS+AST UNDER 21.5
+  │
+  │  Confidence:  66.1%
+  │  Edge:        +2.9%
+  │  Recent Avg:  18.6  (σ=8.4, n=0)
+  │  Line Gap:    +2.9 pts
+  │  Context:     Away: -1.5%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 18.6 < Line 21.5, 66.1% confidence, +2.9% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #2 ────────────────────────────────────────────────────────────
+  │  Mike Conley (MIN)
+  │  REBOUNDS UNDER 2.5
+  │
+  │  Confidence:  65.5%
+  │  Edge:        +0.5%
+  │  Recent Avg:  2.0  (σ=1.3, n=10)
+  │  Line Gap:    +0.5 pts
+  │  Context:     Matchup: +2.5%, Home: +1.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 2.0 < Line 2.5, 65.5% confidence, +0.5% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #3 ────────────────────────────────────────────────────────────
+  │  Donte DiVincenzo (MIN)
+  │  REB+AST OVER 8.5
+  │
+  │  Confidence:  65.3%
+  │  Edge:        +1.2%
+  │  Recent Avg:  9.7  (σ=3.8, n=0)
+  │  Line Gap:    +1.2 pts
+  │  Context:     Matchup: +3.0%, Home: +1.5%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 9.7 > Line 8.5, 65.3% confidence, +1.2% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #4 ────────────────────────────────────────────────────────────
+  │  Julius Randle (MIN)
+  │  PTS+AST OVER 24.5
+  │
+  │  Confidence:  62.9%
+  │  Edge:        +3.2%
+  │  Recent Avg:  27.7  (σ=11.9, n=0)
+  │  Line Gap:    +3.2 pts
+  │  Context:     Matchup: +3.0%, Home: +1.5%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 27.7 > Line 24.5, 62.9% confidence, +3.2% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 6+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #5 ────────────────────────────────────────────────────────────
+  │  Brandin Podziemski (GSW)
+  │  REBOUNDS UNDER 5.0
+  │
+  │  Confidence:  61.1%
+  │  Edge:        +0.4%
+  │  Recent Avg:  4.6  (σ=1.7, n=10)
+  │  Line Gap:    +0.4 pts
+  │  Context:     Away: -1.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 4.6 < Line 5.0, 61.1% confidence, +0.4% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #6 ────────────────────────────────────────────────────────────
+  │  Jaden McDaniels (MIN)
+  │  REB+AST OVER 8.5
+  │
+  │  Confidence:  60.6%
+  │  Edge:        +0.6%
+  │  Recent Avg:  9.1  (σ=2.9, n=0)
+  │  Line Gap:    +0.6 pts
+  │  Context:     Matchup: +3.0%, Home: +1.5%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 9.1 > Line 8.5, 60.6% confidence, +0.6% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #7 ────────────────────────────────────────────────────────────
+  │  Rudy Gobert (MIN)
+  │  REB+AST UNDER 13.5
+  │
+  │  Confidence:  60.3%
+  │  Edge:        +0.8%
+  │  Recent Avg:  12.7  (σ=4.0, n=0)
+  │  Line Gap:    +0.8 pts
+  │  Context:     Matchup: +3.0%, Home: +1.5%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 12.7 < Line 13.5, 60.3% confidence, +0.8% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #8 ────────────────────────────────────────────────────────────
+  │  Julius Randle (MIN)
+  │  REBOUNDS OVER 6.5
+  │
+  │  Confidence:  59.0%
+  │  Edge:        -0.3%
+  │  Recent Avg:  6.2  (σ=3.5, n=10)
+  │  Line Gap:    -0.3 pts
+  │  Context:     Matchup: +2.5%, Home: +1.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 6.2 < Line 6.5, 59.0% confidence, -0.3% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #9 ────────────────────────────────────────────────────────────
+  │  Naz Reid (MIN)
+  │  PTS+AST OVER 14.5
+  │
+  │  Confidence:  56.0%
+  │  Edge:        +1.2%
+  │  Recent Avg:  15.7  (σ=14.0, n=0)
+  │  Line Gap:    +1.2 pts
+  │  Context:     Matchup: +3.0%, Home: +1.5%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 15.7 > Line 14.5, 56.0% confidence, +1.2% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 6+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #10 ────────────────────────────────────────────────────────────
+  │  Naz Reid (MIN)
+  │  REBOUNDS UNDER 6.5
+  │
+  │  Confidence:  55.7%
+  │  Edge:        -0.3%
+  │  Recent Avg:  6.8  (σ=5.0, n=10)
+  │  Line Gap:    -0.3 pts
+  │  Context:     Matchup: +2.5%, Home: +1.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 6.8 > Line 6.5, 55.7% confidence, -0.3% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #11 ────────────────────────────────────────────────────────────
+  │  Rudy Gobert (MIN)
+  │  PTS+AST OVER 9.5
+  │
+  │  Confidence:  55.3%
+  │  Edge:        +0.4%
+  │  Recent Avg:  9.9  (σ=4.9, n=0)
+  │  Line Gap:    +0.4 pts
+  │  Context:     Matchup: +3.0%, Home: +1.5%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 9.9 > Line 9.5, 55.3% confidence, +0.4% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #12 ────────────────────────────────────────────────────────────
+  │  Rudy Gobert (MIN)
+  │  POINTS OVER 8.5
+  │
+  │  Confidence:  53.4%
+  │  Edge:        +0.1%
+  │  Recent Avg:  8.6  (σ=4.7, n=10)
+  │  Line Gap:    +0.1 pts
+  │  Context:     Matchup: +3.0%, Home: +2.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 8.6 > Line 8.5, 53.4% confidence, +0.1% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #13 ────────────────────────────────────────────────────────────
+  │  Naz Reid (MIN)
+  │  3PM OVER 1.5
+  │
+  │  Confidence:  51.7%
+  │  Edge:        +0.9%
+  │  Recent Avg:  2.4  (σ=2.8, n=10)
+  │  Line Gap:    +0.9 pts
+  │  Context:     Matchup: -3.0%, Home: +3.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 2.4 > Line 1.5, 51.7% confidence, +0.9% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #14 ────────────────────────────────────────────────────────────
+  │  Naz Reid (MIN)
+  │  POINTS OVER 11.5
+  │
+  │  Confidence:  50.3%
+  │  Edge:        +1.5%
+  │  Recent Avg:  13.0  (σ=13.7, n=10)
+  │  Line Gap:    +1.5 pts
+  │  Context:     Matchup: +3.0%, Home: +2.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 13.0 > Line 11.5, 50.3% confidence, +1.5% edge
+  │   • Structural risk: Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #15 ────────────────────────────────────────────────────────────
+  │  Buddy Hield (GSW)
+  │  POINTS UNDER 13.5
+  │
+  │  Confidence:  50.1%
+  │  Edge:        +2.1%
+  │  Recent Avg:  11.4  (σ=12.1, n=10)
+  │  Line Gap:    +2.1 pts
+  │  Context:     Away: -2.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 11.4 < Line 13.5, 50.1% confidence, +2.1% edge
+  │   • Structural risk: High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #16 ────────────────────────────────────────────────────────────
+  │  Donte DiVincenzo (MIN)
+  │  POINTS OVER 11.5
+  │
+  │  Confidence:  49.3%
+  │  Edge:        +2.8%
+  │  Recent Avg:  14.3  (σ=5.7, n=10)
+  │  Line Gap:    +2.8 pts
+  │  Context:     Matchup: +3.0%, Home: +2.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 14.3 > Line 11.5, 49.3% confidence, +2.8% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #17 ────────────────────────────────────────────────────────────
+  │  Julius Randle (MIN)
+  │  3PM OVER 0.5
+  │
+  │  Confidence:  48.5%
+  │  Edge:        +0.8%
+  │  Recent Avg:  1.3  (σ=1.5, n=10)
+  │  Line Gap:    +0.8 pts
+  │  Context:     Matchup: -3.0%, Home: +3.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 1.3 > Line 0.5, 48.5% confidence, +0.8% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #18 ────────────────────────────────────────────────────────────
+  │  Naz Reid (MIN)
+  │  REBOUNDS OVER 6.5
+  │
+  │  Confidence:  46.3%
+  │  Edge:        +0.3%
+  │  Recent Avg:  6.8  (σ=5.0, n=10)
+  │  Line Gap:    +0.3 pts
+  │  Context:     Matchup: +2.5%, Home: +1.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 6.8 > Line 6.5, 46.3% confidence, +0.3% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #19 ────────────────────────────────────────────────────────────
+  │  Buddy Hield (GSW)
+  │  3PM UNDER 2.5
+  │
+  │  Confidence:  44.7%
+  │  Edge:        +0.2%
+  │  Recent Avg:  2.3  (σ=3.4, n=10)
+  │  Line Gap:    +0.2 pts
+  │  Context:     Away: -3.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 2.3 < Line 2.5, 44.7% confidence, +0.2% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #20 ────────────────────────────────────────────────────────────
+  │  Naz Reid (MIN)
+  │  REB+AST OVER 10.5
+  │
+  │  Confidence:  44.4%
+  │  Edge:        -0.8%
+  │  Recent Avg:  9.7  (σ=5.6, n=0)
+  │  Line Gap:    -0.8 pts
+  │  Context:     Matchup: +3.0%, Home: +1.5%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 9.7 < Line 10.5, 44.4% confidence, -0.8% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #21 ────────────────────────────────────────────────────────────
+  │  Julius Randle (MIN)
+  │  POINTS OVER 19.5
+  │
+  │  Confidence:  43.8%
+  │  Edge:        +4.2%
+  │  Recent Avg:  23.7  (σ=11.7, n=10)
+  │  Line Gap:    +4.2 pts
+  │  Context:     Matchup: +3.0%, Home: +2.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 23.7 > Line 19.5, 43.8% confidence, +4.2% edge
+  │   • Structural risk: Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #22 ────────────────────────────────────────────────────────────
+  │  Rudy Gobert (MIN)
+  │  REB+AST OVER 13.5
+  │
+  │  Confidence:  42.1%
+  │  Edge:        -0.8%
+  │  Recent Avg:  12.7  (σ=4.0, n=0)
+  │  Line Gap:    -0.8 pts
+  │  Context:     Matchup: +3.0%, Home: +1.5%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 12.7 < Line 13.5, 42.1% confidence, -0.8% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #23 ────────────────────────────────────────────────────────────
+  │  Jaden McDaniels (MIN)
+  │  REB+AST UNDER 8.5
+  │
+  │  Confidence:  41.7%
+  │  Edge:        -0.6%
+  │  Recent Avg:  9.1  (σ=2.9, n=0)
+  │  Line Gap:    -0.6 pts
+  │  Context:     Matchup: +3.0%, Home: +1.5%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 9.1 > Line 8.5, 41.7% confidence, -0.6% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #24 ────────────────────────────────────────────────────────────
+  │  Brandin Podziemski (GSW)
+  │  REBOUNDS OVER 5.0
+  │
+  │  Confidence:  40.9%
+  │  Edge:        -0.4%
+  │  Recent Avg:  4.6  (σ=1.7, n=10)
+  │  Line Gap:    -0.4 pts
+  │  Context:     Away: -1.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 4.6 < Line 5.0, 40.9% confidence, -0.4% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #25 ────────────────────────────────────────────────────────────
+  │  Mike Conley (MIN)
+  │  REBOUNDS OVER 2.5
+  │
+  │  Confidence:  36.5%
+  │  Edge:        -0.5%
+  │  Recent Avg:  2.0  (σ=1.3, n=10)
+  │  Line Gap:    -0.5 pts
+  │  Context:     Matchup: +2.5%, Home: +1.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 2.0 < Line 2.5, 36.5% confidence, -0.5% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #26 ────────────────────────────────────────────────────────────
+  │  Brandin Podziemski (GSW)
+  │  PTS+AST OVER 21.5
+  │
+  │  Confidence:  36.3%
+  │  Edge:        -2.9%
+  │  Recent Avg:  18.6  (σ=8.4, n=0)
+  │  Line Gap:    -2.9 pts
+  │  Context:     Away: -1.5%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 18.6 < Line 21.5, 36.3% confidence, -2.9% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 6+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #27 ────────────────────────────────────────────────────────────
+  │  Brandin Podziemski (GSW)
+  │  3PM OVER 1.5
+  │
+  │  Confidence:  31.8%
+  │  Edge:        -0.2%
+  │  Recent Avg:  1.3  (σ=1.8, n=10)
+  │  Line Gap:    -0.2 pts
+  │  Context:     Away: -3.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 1.3 < Line 1.5, 31.8% confidence, -0.2% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #28 ────────────────────────────────────────────────────────────
+  │  Buddy Hield (GSW)
+  │  POINTS OVER 13.5
+  │
+  │  Confidence:  30.6%
+  │  Edge:        -2.1%
+  │  Recent Avg:  11.4  (σ=12.1, n=10)
+  │  Line Gap:    -2.1 pts
+  │  Context:     Away: -2.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 11.4 < Line 13.5, 30.6% confidence, -2.1% edge
+  │   • Structural risk: Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #29 ────────────────────────────────────────────────────────────
+  │  Buddy Hield (GSW)
+  │  3PM OVER 2.5
+  │
+  │  Confidence:  28.9%
+  │  Edge:        -0.2%
+  │  Recent Avg:  2.3  (σ=3.4, n=10)
+  │  Line Gap:    -0.2 pts
+  │  Context:     Away: -3.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 2.3 < Line 2.5, 28.9% confidence, -0.2% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #30 ────────────────────────────────────────────────────────────
+  │  Brandin Podziemski (GSW)
+  │  POINTS OVER 16.5
+  │
+  │  Confidence:  24.4%
+  │  Edge:        -3.0%
+  │  Recent Avg:  13.5  (σ=7.5, n=10)
+  │  Line Gap:    -3.0 pts
+  │  Context:     Away: -2.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 13.5 < Line 16.5, 24.4% confidence, -3.0% edge
+  │   • Structural risk: Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #31 ────────────────────────────────────────────────────────────
+  │  Mike Conley (MIN)
+  │  POINTS OVER 6.5
+  │
+  │  Confidence:  21.2%
+  │  Edge:        -3.7%
+  │  Recent Avg:  2.8  (σ=3.3, n=10)
+  │  Line Gap:    -3.7 pts
+  │  Context:     Matchup: +3.0%, Home: +2.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 2.8 < Line 6.5, 21.2% confidence, -3.7% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #32 ────────────────────────────────────────────────────────────
+  │  Buddy Hield (GSW)
+  │  PTS+AST OVER 24.5
+  │
+  │  Confidence:  16.2%
+  │  Edge:        -12.0%
+  │  Recent Avg:  12.5  (σ=12.1, n=0)
+  │  Line Gap:    -12.0 pts
+  │  Context:     Away: -1.5%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 12.5 < Line 24.5, 16.2% confidence, -12.0% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 6+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  METHODOLOGY                                                                 │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  • Confidence = P(hit) via Normal CDF on recent performance data             │
+│  • Edge = (Confidence - Breakeven%) / Breakeven% × 100                       │
+│  • PLAY threshold: 75%+ confidence with positive edge                        │
+│  • LEAN threshold: 65-74% confidence with positive edge                      │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  DISCLAIMER                                                                  │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  This analysis is for informational purposes only. Past performance          │
+│  does not guarantee future results. Always gamble responsibly.               │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+════════════════════════════════════════════════════════════════════════════════
+  END OF REPORT
+════════════════════════════════════════════════════════════════════════════════

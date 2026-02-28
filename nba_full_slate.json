@@ -1,0 +1,595 @@
+{
+  "date": "2026-01-14",
+  "games": [
+    {
+      "away": "CLE",
+      "home": "PHI",
+      "time": "6:00PM CST"
+    },
+    {
+      "away": "TOR",
+      "home": "IND",
+      "time": "6:00PM CST"
+    },
+    {
+      "away": "UTA",
+      "home": "CHI",
+      "time": "7:00PM CST"
+    },
+    {
+      "away": "BKN",
+      "home": "NOP",
+      "time": "7:00PM CST"
+    },
+    {
+      "away": "DEN",
+      "home": "DAL",
+      "time": "8:30PM CST"
+    },
+    {
+      "away": "NYK",
+      "home": "SAC",
+      "time": "9:00PM CST"
+    },
+    {
+      "away": "WAS",
+      "home": "LAC",
+      "time": "9:30PM CST"
+    }
+  ],
+  "plays": [
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "stat": "points",
+      "line": 25.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "stat": "rebounds",
+      "line": 8.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Donovan Mitchell",
+      "team": "CLE",
+      "stat": "points",
+      "line": 27.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Donovan Mitchell",
+      "team": "CLE",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Donovan Mitchell",
+      "team": "CLE",
+      "stat": "assists",
+      "line": 5.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "stat": "points",
+      "line": 27.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "stat": "assists",
+      "line": 6.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Paul George",
+      "team": "PHI",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Paul George",
+      "team": "PHI",
+      "stat": "rebounds",
+      "line": 5.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Paul George",
+      "team": "PHI",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "stat": "points",
+      "line": 17.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "stat": "rebounds",
+      "line": 8.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Darius Garland",
+      "team": "CLE",
+      "stat": "points",
+      "line": 17.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Darius Garland",
+      "team": "CLE",
+      "stat": "assists",
+      "line": 6.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Jarrett Allen",
+      "team": "CLE",
+      "stat": "points",
+      "line": 12.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Jarrett Allen",
+      "team": "CLE",
+      "stat": "rebounds",
+      "line": 9.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Sam Merrill",
+      "team": "CLE",
+      "stat": "points",
+      "line": 12.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Brandon Ingram",
+      "team": "TOR",
+      "stat": "points",
+      "line": 24.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Brandon Ingram",
+      "team": "TOR",
+      "stat": "rebounds",
+      "line": 6.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Brandon Ingram",
+      "team": "TOR",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Pascal Siakam",
+      "team": "IND",
+      "stat": "points",
+      "line": 23.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Pascal Siakam",
+      "team": "IND",
+      "stat": "rebounds",
+      "line": 7.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Pascal Siakam",
+      "team": "IND",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Scottie Barnes",
+      "team": "TOR",
+      "stat": "points",
+      "line": 20.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Scottie Barnes",
+      "team": "TOR",
+      "stat": "rebounds",
+      "line": 8.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Scottie Barnes",
+      "team": "TOR",
+      "stat": "assists",
+      "line": 5.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Andrew Nembhard",
+      "team": "IND",
+      "stat": "points",
+      "line": 17.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Andrew Nembhard",
+      "team": "IND",
+      "stat": "assists",
+      "line": 7.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Nikola Vucevic",
+      "team": "CHI",
+      "stat": "points",
+      "line": 17.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Nikola Vucevic",
+      "team": "CHI",
+      "stat": "rebounds",
+      "line": 9.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Nikola Vucevic",
+      "team": "CHI",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Keyonte George",
+      "team": "UTA",
+      "stat": "points",
+      "line": 26.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Keyonte George",
+      "team": "UTA",
+      "stat": "assists",
+      "line": 6.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Coby White",
+      "team": "CHI",
+      "stat": "points",
+      "line": 20.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Coby White",
+      "team": "CHI",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Zion Williamson",
+      "team": "NOP",
+      "stat": "points",
+      "line": 22.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Zion Williamson",
+      "team": "NOP",
+      "stat": "rebounds",
+      "line": 5.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Zion Williamson",
+      "team": "NOP",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Michael Porter Jr.",
+      "team": "BKN",
+      "stat": "points",
+      "line": 26.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Michael Porter Jr.",
+      "team": "BKN",
+      "stat": "rebounds",
+      "line": 7.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Michael Porter Jr.",
+      "team": "BKN",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Trey Murphy III",
+      "team": "NOP",
+      "stat": "points",
+      "line": 21.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Trey Murphy III",
+      "team": "NOP",
+      "stat": "rebounds",
+      "line": 5.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Cam Thomas",
+      "team": "BKN",
+      "stat": "points",
+      "line": 16.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Nic Claxton",
+      "team": "BKN",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Nic Claxton",
+      "team": "BKN",
+      "stat": "rebounds",
+      "line": 7.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Jamal Murray",
+      "team": "DEN",
+      "stat": "points",
+      "line": 26.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Jamal Murray",
+      "team": "DEN",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Jamal Murray",
+      "team": "DEN",
+      "stat": "assists",
+      "line": 8.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Cooper Flagg",
+      "team": "DAL",
+      "stat": "points",
+      "line": 22.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Cooper Flagg",
+      "team": "DAL",
+      "stat": "rebounds",
+      "line": 6.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Cooper Flagg",
+      "team": "DAL",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Peyton Watson",
+      "team": "DEN",
+      "stat": "points",
+      "line": 20.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Peyton Watson",
+      "team": "DEN",
+      "stat": "rebounds",
+      "line": 6.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Peyton Watson",
+      "team": "DEN",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Aaron Gordon",
+      "team": "DEN",
+      "stat": "points",
+      "line": 18.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Aaron Gordon",
+      "team": "DEN",
+      "stat": "rebounds",
+      "line": 6.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Jalen Brunson",
+      "team": "NYK",
+      "stat": "points",
+      "line": 29.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Jalen Brunson",
+      "team": "NYK",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Jalen Brunson",
+      "team": "NYK",
+      "stat": "assists",
+      "line": 6.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Karl-Anthony Towns",
+      "team": "NYK",
+      "stat": "points",
+      "line": 20.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Karl-Anthony Towns",
+      "team": "NYK",
+      "stat": "rebounds",
+      "line": 11.5,
+      "direction": "higher"
+    },
+    {
+      "player": "DeMar DeRozan",
+      "team": "SAC",
+      "stat": "points",
+      "line": 19.5,
+      "direction": "higher"
+    },
+    {
+      "player": "DeMar DeRozan",
+      "team": "SAC",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Russell Westbrook",
+      "team": "SAC",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Russell Westbrook",
+      "team": "SAC",
+      "stat": "rebounds",
+      "line": 5.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Russell Westbrook",
+      "team": "SAC",
+      "stat": "assists",
+      "line": 6.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Zach LaVine",
+      "team": "SAC",
+      "stat": "points",
+      "line": 20.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Kawhi Leonard",
+      "team": "LAC",
+      "stat": "points",
+      "line": 27.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Kawhi Leonard",
+      "team": "LAC",
+      "stat": "rebounds",
+      "line": 5.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Kawhi Leonard",
+      "team": "LAC",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "higher"
+    },
+    {
+      "player": "James Harden",
+      "team": "LAC",
+      "stat": "points",
+      "line": 27.5,
+      "direction": "higher"
+    },
+    {
+      "player": "James Harden",
+      "team": "LAC",
+      "stat": "rebounds",
+      "line": 5.5,
+      "direction": "higher"
+    },
+    {
+      "player": "James Harden",
+      "team": "LAC",
+      "stat": "assists",
+      "line": 8.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Alex Sarr",
+      "team": "WAS",
+      "stat": "points",
+      "line": 16.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Alex Sarr",
+      "team": "WAS",
+      "stat": "rebounds",
+      "line": 7.5,
+      "direction": "higher"
+    }
+  ]
+}

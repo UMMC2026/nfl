@@ -1,0 +1,65 @@
+{
+  "sport": "TENNIS",
+  "generated_at": "2026-02-07T15:02:05.675011",
+  "slate_matches": 1,
+  "total_edges": 2,
+  "blocked_count": 0,
+  "edges": [
+    {
+      "sport": "TENNIS",
+      "tour": "ATP",
+      "match_id": "ATP_HARD_R1_SAB_SVI_20260128",
+      "player": "Sabalenka",
+      "opponent": "Svitol\u2026 - Thu :AM CST",
+      "surface": "HARD",
+      "round": "R1",
+      "market": "match_winner",
+      "direction": "Sabalenka",
+      "line": null,
+      "implied_prob": 0.5,
+      "probability": 0.5,
+      "tier": "AVOID",
+      "edge": 0.0,
+      "prob_details": {
+        "elo_prob": 0.5,
+        "serve_edge": 0.0,
+        "return_edge": 0.0,
+        "fatigue_adj": 0.0,
+        "raw_prob": 0.5,
+        "clamped_prob": 0.5
+      },
+      "risk_tag": "SINGLES_ONLY",
+      "blocked": false,
+      "block_reason": null,
+      "generated_at": "2026-02-07T15:02:05.674013"
+    },
+    {
+      "sport": "TENNIS",
+      "tour": "ATP",
+      "match_id": "ATP_HARD_R1_SAB_SVI_20260128",
+      "player": "Svitol\u2026 - Thu :AM CST",
+      "opponent": "Sabalenka",
+      "surface": "HARD",
+      "round": "R1",
+      "market": "match_winner",
+      "direction": "Svitol\u2026 - Thu :AM CST",
+      "line": null,
+      "implied_prob": 0.5,
+      "probability": 0.5,
+      "tier": "AVOID",
+      "edge": 0.0,
+      "prob_details": {
+        "elo_prob": 0.5,
+        "serve_edge": 0.0,
+        "return_edge": 0.0,
+        "fatigue_adj": 0.0,
+        "raw_prob": 0.5,
+        "clamped_prob": 0.5
+      },
+      "risk_tag": "SINGLES_ONLY",
+      "blocked": false,
+      "block_reason": null,
+      "generated_at": "2026-02-07T15:02:05.675011"
+    }
+  ]
+}

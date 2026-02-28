@@ -1,0 +1,3430 @@
+{
+  "picks": [
+    {
+      "edge_id": "cbb_ISU_Tamin_Lipsey_pra_19p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Tamin Lipsey",
+      "team": "ISU",
+      "opponent": "HOU",
+      "stat": "pra",
+      "line": 19.5,
+      "direction": "higher",
+      "probability": 0.5718,
+      "player_mean": 22.64,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 22.6364,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.621781,
+          "direction": "higher",
+          "line": 19.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.621781
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.621781,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=31.2",
+        "games: GP=22",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "confidence": 0.5718,
+      "direction_gate_flag": "COMPRESSED",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=31.2"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=22"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 1.57,
+          "z_season": 1.57,
+          "z_threshold": 0.55,
+          "l10_mu": 22.64,
+          "season_mu": 22.64,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.088,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5718,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 22.64,
+      "projected_sigma": 2.0,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_ISU_Joshua_Jefferson_points_13p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Joshua Jefferson",
+      "team": "ISU",
+      "opponent": "HOU",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "lower",
+      "probability": 0.3382,
+      "player_mean": 16.72,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 16.72,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 6.5,
+          "raw_prob": 0.338223,
+          "direction": "lower",
+          "line": 13.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.338223
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.338223,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=31.5 (UNDER exempt from MPG floor)",
+        "games: GP=25",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=31.5 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=25"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 1.61,
+          "z_season": 1.61,
+          "z_threshold": 0.55,
+          "l10_mu": 16.72,
+          "season_mu": 16.72,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.12,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.3382,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 16.72,
+      "projected_sigma": 2.0,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_ISU_Joshua_Jefferson_pra_24p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Joshua Jefferson",
+      "team": "ISU",
+      "opponent": "HOU",
+      "stat": "pra",
+      "line": 24.5,
+      "direction": "lower",
+      "probability": 0.258,
+      "player_mean": 29.52,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 29.52,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.258036,
+          "direction": "lower",
+          "line": 24.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.258036
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.258036,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=31.5 (UNDER exempt from MPG floor)",
+        "games: GP=25",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=31.5 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=25"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 2.51,
+          "z_season": 2.51,
+          "z_threshold": 0.55,
+          "l10_mu": 29.52,
+          "season_mu": 29.52,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.068,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.258,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 29.52,
+      "projected_sigma": 2.0,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_HOU_Emanuel_Sharp_pra_20p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Emanuel Sharp",
+      "team": "HOU",
+      "opponent": "ISU",
+      "stat": "pra",
+      "line": 20.5,
+      "direction": "lower",
+      "probability": 0.4253,
+      "player_mean": 21.6,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 21.6,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.425346,
+          "direction": "lower",
+          "line": 20.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.425346
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.425346,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.4 (UNDER exempt from MPG floor)",
+        "games: GP=25",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.4 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=25"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.55,
+          "z_season": 0.55,
+          "z_threshold": 0.55,
+          "l10_mu": 21.6,
+          "season_mu": 21.6,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.093,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.4253,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 21.6,
+      "projected_sigma": 2.0,
+      "skip_reason": "COMPOSITE_LOW_Z:0.55<0.6"
+    },
+    {
+      "edge_id": "cbb_ISU_Milan_Momcilovic_pra_21p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Milan Momcilovic",
+      "team": "ISU",
+      "opponent": "HOU",
+      "stat": "pra",
+      "line": 21.5,
+      "direction": "lower",
+      "probability": 0.4253,
+      "player_mean": 22.6,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 22.6,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.425346,
+          "direction": "lower",
+          "line": 21.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.425346
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.425346,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.7 (UNDER exempt from MPG floor)",
+        "games: GP=25",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.7 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=25"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.55,
+          "z_season": 0.55,
+          "z_threshold": 0.55,
+          "l10_mu": 22.6,
+          "season_mu": 22.6,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.088,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.4253,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 22.6,
+      "projected_sigma": 2.0,
+      "skip_reason": "COMPOSITE_LOW_Z:0.55<0.6"
+    },
+    {
+      "edge_id": "cbb_ISU_Milan_Momcilovic_rebounds_3p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Milan Momcilovic",
+      "team": "ISU",
+      "opponent": "HOU",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "lower",
+      "probability": 0.6223,
+      "player_mean": 3.28,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 3.28,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 3.2,
+          "raw_prob": 0.634954,
+          "direction": "lower",
+          "line": 3.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 0.98,
+          "adjusted_prob": 0.622254
+        },
+        "caps": {
+          "stat_cap": 0.72,
+          "global_cap": 0.79,
+          "low_line_cap": 0.75,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.622254,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.7 (UNDER exempt from MPG floor)",
+        "games: GP=25",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.3577,
+        "kept": "lower",
+        "kept_probability": 0.6223
+      },
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.7 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=25"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.11<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.11,
+          "z_season": 0.11,
+          "z_threshold": 0.55,
+          "l10_mu": 3.28,
+          "season_mu": 3.28
+        },
+        "cv": {
+          "cv_ratio": 0.61,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.6223,
+      "skip_reason": "SDG_HARD_REJECT: z=0.11 (no signal)"
+    },
+    {
+      "edge_id": "cbb_SYR_J.J._Starling_points_9p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "J.J. Starling",
+      "team": "SYR",
+      "opponent": "DUKE",
+      "stat": "points",
+      "line": 9.5,
+      "direction": "higher",
+      "probability": 0.5583,
+      "player_mean": 12.12,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 12.125,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 6.5,
+          "raw_prob": 0.608313,
+          "direction": "higher",
+          "line": 9.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.608313
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.608313,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=30.0",
+        "games: GP=24",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "confidence": 0.5583,
+      "direction_gate_flag": "COMPRESSED",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=30.0"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=24"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 1.31,
+          "z_season": 1.31,
+          "z_threshold": 0.55,
+          "l10_mu": 12.12,
+          "season_mu": 12.12,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.165,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5583,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 12.12,
+      "projected_sigma": 2.0,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_SYR_J.J._Starling_pra_14p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "J.J. Starling",
+      "team": "SYR",
+      "opponent": "DUKE",
+      "stat": "pra",
+      "line": 14.5,
+      "direction": "higher",
+      "probability": 0.5525,
+      "player_mean": 17.21,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 17.2083,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.602492,
+          "direction": "higher",
+          "line": 14.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.602492
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.602492,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=30.0",
+        "games: GP=24",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "confidence": 0.5525,
+      "direction_gate_flag": "COMPRESSED",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=30.0"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=24"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 1.355,
+          "z_season": 1.355,
+          "z_threshold": 0.55,
+          "l10_mu": 17.21,
+          "season_mu": 17.21,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.116,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5525,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 17.21,
+      "projected_sigma": 2.0,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_PUR_Oscar_Cluff_pra_15p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Oscar Cluff",
+      "team": "PUR",
+      "opponent": "MICH",
+      "stat": "pra",
+      "line": 15.5,
+      "direction": "lower",
+      "probability": 0.2974,
+      "player_mean": 19.52,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 19.52,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.297444,
+          "direction": "lower",
+          "line": 15.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.297444
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.297444,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=23.4 (UNDER exempt from MPG floor)",
+        "games: GP=25",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=23.4 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=25"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 2.01,
+          "z_season": 2.01,
+          "z_threshold": 0.55,
+          "l10_mu": 19.52,
+          "season_mu": 19.52,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.102,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.2974,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 19.52,
+      "projected_sigma": 2.0,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_UCF_Themus_Fulks_pra_25p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Themus Fulks",
+      "team": "UCF",
+      "opponent": "TCU",
+      "stat": "pra",
+      "line": 25.5,
+      "direction": "lower",
+      "probability": 0.5739,
+      "player_mean": 23.42,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 23.4167,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.573885,
+          "direction": "lower",
+          "line": 25.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.573885
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.573885,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=31.8 (UNDER exempt from MPG floor)",
+        "games: GP=24",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.3806,
+        "kept": "lower",
+        "kept_probability": 0.5739
+      },
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=31.8 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=24"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 1.04,
+          "z_season": 1.04,
+          "z_threshold": 0.55,
+          "l10_mu": 23.42,
+          "season_mu": 23.42,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.085,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5739,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 23.42,
+      "projected_sigma": 2.0,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_TTU_LeJuan_Watts_pra_20p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "LeJuan Watts",
+      "team": "TTU",
+      "opponent": "ASU",
+      "stat": "pra",
+      "line": 20.5,
+      "direction": "lower",
+      "probability": 0.3399,
+      "player_mean": 21.0,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 21.0,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.453174,
+          "direction": "lower",
+          "line": 20.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.453174
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.453174,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=28.5 (UNDER exempt from MPG floor)",
+        "games: GP=24",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=28.5 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=24"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.25<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY",
+        "SOFT_PENALTY:75%"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.25,
+          "z_season": 0.25,
+          "z_threshold": 0.55,
+          "l10_mu": 21.0,
+          "season_mu": 21.0
+        },
+        "cv": {
+          "cv_ratio": 0.095,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.4532,
+      "skip_reason": "COMPOSITE_LOW_Z:0.25<0.6",
+      "sdg_soft_penalty": 0.75
+    },
+    {
+      "edge_id": "cbb_ASU_Santiago_Trouet_pra_14p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Santiago Trouet",
+      "team": "ASU",
+      "opponent": "TTU",
+      "stat": "pra",
+      "line": 14.5,
+      "direction": "lower",
+      "probability": 0.5825,
+      "player_mean": 14.26,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 14.2609,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 8.5,
+          "raw_prob": 0.582456,
+          "direction": "lower",
+          "line": 14.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.582456
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.582456,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=25.1 (UNDER exempt from MPG floor)",
+        "games: GP=23",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.4175,
+        "kept": "lower",
+        "kept_probability": 0.5825
+      },
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=25.1 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=23"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.12<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.12,
+          "z_season": 0.12,
+          "z_threshold": 0.55,
+          "l10_mu": 14.26,
+          "season_mu": 14.26
+        },
+        "cv": {
+          "cv_ratio": 0.14,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5825,
+      "skip_reason": "SDG_HARD_REJECT: z=0.12 (no signal)"
+    },
+    {
+      "edge_id": "cbb_SYR_Donnie_Freeman_pra_21p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Donnie Freeman",
+      "team": "SYR",
+      "opponent": "DUKE",
+      "stat": "pra",
+      "line": 21.5,
+      "direction": "lower",
+      "probability": 0.2667,
+      "player_mean": 26.29,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 26.2941,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.266696,
+          "direction": "lower",
+          "line": 21.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.266696
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.266696,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=30.9 (UNDER exempt from MPG floor)",
+        "games: GP=17",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=30.9 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=17"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 2.395,
+          "z_season": 2.395,
+          "z_threshold": 0.55,
+          "l10_mu": 26.29,
+          "season_mu": 26.29,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.076,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.2667,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 26.29,
+      "projected_sigma": 2.0,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_DUKE_Patrick_Ngongba_pra_18p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Patrick Ngongba",
+      "team": "DUKE",
+      "opponent": "SYR",
+      "stat": "pra",
+      "line": 18.5,
+      "direction": "lower",
+      "probability": 0.4668,
+      "player_mean": 18.71,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 18.7083,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.466793,
+          "direction": "lower",
+          "line": 18.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.466793
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.466793,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=22.5 (UNDER exempt from MPG floor)",
+        "games: GP=24",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=22.5 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=24"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.11<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.105,
+          "z_season": 0.105,
+          "z_threshold": 0.55,
+          "l10_mu": 18.71,
+          "season_mu": 18.71
+        },
+        "cv": {
+          "cv_ratio": 0.107,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.4668,
+      "skip_reason": "SDG_HARD_REJECT: z=0.10 (no signal)"
+    },
+    {
+      "edge_id": "cbb_MICH_Elliot_Cadeau_pra_17p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Elliot Cadeau",
+      "team": "MICH",
+      "opponent": "PUR",
+      "stat": "pra",
+      "line": 17.5,
+      "direction": "lower",
+      "probability": 0.3399,
+      "player_mean": 18.0,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 18.0,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.453174,
+          "direction": "lower",
+          "line": 17.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.453174
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.453174,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=24.7 (UNDER exempt from MPG floor)",
+        "games: GP=25",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=24.7 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=25"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.25<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY",
+        "SOFT_PENALTY:75%"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.25,
+          "z_season": 0.25,
+          "z_threshold": 0.55,
+          "l10_mu": 18.0,
+          "season_mu": 18.0
+        },
+        "cv": {
+          "cv_ratio": 0.111,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.4532,
+      "skip_reason": "COMPOSITE_LOW_Z:0.25<0.6",
+      "sdg_soft_penalty": 0.75
+    },
+    {
+      "edge_id": "cbb_PUR_C.J._Cox_pra_11p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "C.J. Cox",
+      "team": "PUR",
+      "opponent": "MICH",
+      "stat": "pra",
+      "line": 11.5,
+      "direction": "lower",
+      "probability": 0.4714,
+      "player_mean": 12.16,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 12.16,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 8.5,
+          "raw_prob": 0.55462,
+          "direction": "lower",
+          "line": 11.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.55462
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.55462,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=24.1 (UNDER exempt from MPG floor)",
+        "games: GP=25",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.4454,
+        "kept": "lower",
+        "kept_probability": 0.5546
+      },
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=24.1 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=25"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.33<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY",
+        "SOFT_PENALTY:85%"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.33,
+          "z_season": 0.33,
+          "z_threshold": 0.55,
+          "l10_mu": 12.16,
+          "season_mu": 12.16
+        },
+        "cv": {
+          "cv_ratio": 0.164,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5546,
+      "skip_reason": "COMPOSITE_LOW_Z:0.33<0.6",
+      "sdg_soft_penalty": 0.85
+    },
+    {
+      "edge_id": "cbb_TCU_Xavier_Edmonds_pra_24p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Xavier Edmonds",
+      "team": "TCU",
+      "opponent": "UCF",
+      "stat": "pra",
+      "line": 24.5,
+      "direction": "lower",
+      "probability": 0.7042,
+      "player_mean": 19.44,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 19.44,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.704183,
+          "direction": "lower",
+          "line": 24.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.704183
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.704183,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "LEAN",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=22.0 (UNDER exempt from MPG floor)",
+        "games: GP=25",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.2565,
+        "kept": "lower",
+        "kept_probability": 0.7042
+      },
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=22.0 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=25"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 2.53,
+          "z_season": 2.53,
+          "z_threshold": 0.55,
+          "l10_mu": 19.44,
+          "season_mu": 19.44,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.103,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.7042,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 19.44,
+      "projected_sigma": 2.0,
+      "tier_cap_reason": "CALIBRATION_CAP (until 2026-03-01)",
+      "calibration_capped": true
+    },
+    {
+      "edge_id": "cbb_UCLA_Tyler_Bilodeau_pra_21p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Tyler Bilodeau",
+      "team": "UCLA",
+      "opponent": "MSU",
+      "stat": "pra",
+      "line": 21.5,
+      "direction": "higher",
+      "probability": 0.5686,
+      "player_mean": 24.57,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 24.5652,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.618594,
+          "direction": "higher",
+          "line": 21.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.618594
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.618594,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=30.7",
+        "games: GP=23",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "lower",
+        "probability": 0.3374,
+        "kept": "higher",
+        "kept_probability": 0.6186
+      },
+      "confidence": 0.5686,
+      "direction_gate_flag": "COMPRESSED",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=30.7"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=23"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 1.535,
+          "z_season": 1.535,
+          "z_threshold": 0.55,
+          "l10_mu": 24.57,
+          "season_mu": 24.57,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.081,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5686,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 24.57,
+      "projected_sigma": 2.0,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_WIS_John_Blackwell_pra_25p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "John Blackwell",
+      "team": "WIS",
+      "opponent": "OSU",
+      "stat": "pra",
+      "line": 25.5,
+      "direction": "lower",
+      "probability": 0.3737,
+      "player_mean": 26.29,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 26.2917,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.439609,
+          "direction": "lower",
+          "line": 25.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.439609
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.439609,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=33.3 (UNDER exempt from MPG floor)",
+        "games: GP=24",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=33.3 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=24"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.39<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY",
+        "SOFT_PENALTY:85%"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.395,
+          "z_season": 0.395,
+          "z_threshold": 0.55,
+          "l10_mu": 26.29,
+          "season_mu": 26.29
+        },
+        "cv": {
+          "cv_ratio": 0.076,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.4396,
+      "skip_reason": "COMPOSITE_LOW_Z:0.40<0.6",
+      "sdg_soft_penalty": 0.85
+    },
+    {
+      "edge_id": "cbb_WIS_Nolan_Winter_pra_23p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Nolan Winter",
+      "team": "WIS",
+      "opponent": "OSU",
+      "stat": "pra",
+      "line": 23.5,
+      "direction": "lower",
+      "probability": 0.3998,
+      "player_mean": 24.4,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 24.4,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.434588,
+          "direction": "lower",
+          "line": 23.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.434588
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.434588,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=31.3 (UNDER exempt from MPG floor)",
+        "games: GP=25",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=31.3 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=25"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.45<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY",
+        "SOFT_PENALTY:92%"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.45,
+          "z_season": 0.45,
+          "z_threshold": 0.55,
+          "l10_mu": 24.4,
+          "season_mu": 24.4
+        },
+        "cv": {
+          "cv_ratio": 0.082,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.4346,
+      "skip_reason": "COMPOSITE_LOW_Z:0.45<0.6",
+      "sdg_soft_penalty": 0.92
+    },
+    {
+      "edge_id": "cbb_TTU_JT_Toppin_pra_38p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "JT Toppin",
+      "team": "TTU",
+      "opponent": "ASU",
+      "stat": "pra",
+      "line": 38.5,
+      "direction": "lower",
+      "probability": 0.6416,
+      "player_mean": 34.92,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 34.9167,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.641602,
+          "direction": "lower",
+          "line": 38.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.641602
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.641602,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "LEAN",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=35.0 (UNDER exempt from MPG floor)",
+        "games: GP=24",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.3155,
+        "kept": "lower",
+        "kept_probability": 0.6416
+      },
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=35.0 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=24"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 1.79,
+          "z_season": 1.79,
+          "z_threshold": 0.55,
+          "l10_mu": 34.92,
+          "season_mu": 34.92,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.057,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.6416,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 34.92,
+      "projected_sigma": 2.0
+    },
+    {
+      "edge_id": "cbb_UCF_Riley_Kugel_3pm_1p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Riley Kugel",
+      "team": "UCF",
+      "opponent": "TCU",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "lower",
+      "probability": 0.2035,
+      "player_mean": 1.88,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 1.875,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 1.5,
+          "raw_prob": 0.46381,
+          "direction": "lower",
+          "line": 1.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 0.9,
+          "adjusted_prob": 0.417429
+        },
+        "caps": {
+          "stat_cap": 0.65,
+          "global_cap": 0.79,
+          "low_line_cap": 0.65,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.417429,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.0 (UNDER exempt from MPG floor)",
+        "games: GP=24",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.0 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=24"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 0.65,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.19<0.45",
+        "CV_PENALTY:65%",
+        "PHASE_FAIL:CONFERENCE_PLAY",
+        "SOFT_PENALTY:75%"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.19,
+          "z_season": 0.19,
+          "z_threshold": 0.45,
+          "l10_mu": 1.88,
+          "season_mu": 1.88
+        },
+        "cv": {
+          "cv_ratio": 1.064,
+          "cv_threshold": 0.85,
+          "player_role": "SPECIALIST"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.4174,
+      "sdg_soft_penalty": 0.75,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_TTU_Donovan_Atwell_3pm_3p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Donovan Atwell",
+      "team": "TTU",
+      "opponent": "ASU",
+      "stat": "3pm",
+      "line": 3.5,
+      "direction": "lower",
+      "probability": 0.4637,
+      "player_mean": 3.6,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 3.6,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "poisson",
+          "sigma": 1.9,
+          "raw_prob": 0.515216,
+          "direction": "lower",
+          "line": 3.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 0.9,
+          "adjusted_prob": 0.463694
+        },
+        "caps": {
+          "stat_cap": 0.65,
+          "global_cap": 0.79,
+          "low_line_cap": 0.75,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.463694,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=34.0 (UNDER exempt from MPG floor)",
+        "games: GP=25",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.4363,
+        "kept": "lower",
+        "kept_probability": 0.4637
+      },
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=34.0 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=25"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.05<0.45",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.05,
+          "z_season": 0.05,
+          "z_threshold": 0.45,
+          "l10_mu": 3.6,
+          "season_mu": 3.6
+        },
+        "cv": {
+          "cv_ratio": 0.556,
+          "cv_threshold": 0.85,
+          "player_role": "SPECIALIST"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.4637,
+      "skip_reason": "SDG_HARD_REJECT: z=0.05 (no signal)"
+    },
+    {
+      "edge_id": "cbb_DUKE_Isaiah_Evans_3pm_2p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Isaiah Evans",
+      "team": "DUKE",
+      "opponent": "SYR",
+      "stat": "3pm",
+      "line": 2.5,
+      "direction": "lower",
+      "probability": 0.65,
+      "player_mean": 2.48,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 2.48,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 1.57,
+          "raw_prob": 1.0,
+          "direction": "lower",
+          "line": 2.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 0.9,
+          "adjusted_prob": 0.9
+        },
+        "caps": {
+          "stat_cap": 0.65,
+          "global_cap": 0.79,
+          "low_line_cap": 0.7,
+          "cap_hit": "stat_cap"
+        },
+        "final": {
+          "final_prob": 0.65,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=27.8 (UNDER exempt from MPG floor)",
+        "games: GP=25",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.0,
+        "kept": "lower",
+        "kept_probability": 0.65
+      },
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=27.8 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=25"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.01<0.45",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.01,
+          "z_season": 0.01,
+          "z_threshold": 0.45,
+          "l10_mu": 2.48,
+          "season_mu": 2.48
+        },
+        "cv": {
+          "cv_ratio": 0.806,
+          "cv_threshold": 0.85,
+          "player_role": "SPECIALIST"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.65,
+      "skip_reason": "SDG_HARD_REJECT: z=0.01 (no signal)"
+    },
+    {
+      "edge_id": "cbb_MSUST_Jaxon_Kohler_3pm_1p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Jaxon Kohler",
+      "team": "MSU",
+      "opponent": "UCLA",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "lower",
+      "probability": 0.3646,
+      "player_mean": 1.41,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 1.41,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 1.5,
+          "raw_prob": 0.623186,
+          "direction": "lower",
+          "line": 1.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 0.9,
+          "adjusted_prob": 0.560868
+        },
+        "caps": {
+          "stat_cap": 0.65,
+          "global_cap": 0.79,
+          "low_line_cap": 0.65,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.560868,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=28.0 (UNDER exempt from MPG floor)",
+        "games: GP=25",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.3945,
+        "kept": "lower",
+        "kept_probability": 0.5609
+      },
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=28.0 (UNDER exempt from MPG floor)"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=25"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 0.65,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.05<0.45",
+        "CV_PENALTY:65%",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.045,
+          "z_season": 0.045,
+          "z_threshold": 0.45,
+          "l10_mu": 1.41,
+          "season_mu": 1.41
+        },
+        "cv": {
+          "cv_ratio": 1.418,
+          "cv_threshold": 0.85,
+          "player_role": "SPECIALIST"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5609,
+      "skip_reason": "SDG_HARD_REJECT: z=0.04 (no signal)"
+    },
+    {
+      "edge_id": "cbb_SCAR_Mike_Sharavjamts_pra_15p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Mike Sharavjamts",
+      "team": "SCAR",
+      "opponent": "FLA",
+      "stat": "pra",
+      "line": 15.5,
+      "direction": "lower",
+      "probability": 0.6113,
+      "player_mean": 14.57,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 14.57,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 8.5,
+          "raw_prob": 0.611284,
+          "direction": "lower",
+          "line": 15.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.611284
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.611284,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Mike Sharavjamts not on SCAR roster"
+      ],
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Mike Sharavjamts not on SCAR roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Mike Sharavjamts not on SCAR roster"
+    },
+    {
+      "edge_id": "cbb_SCAR_Kobe_Knox_pra_15p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Kobe Knox",
+      "team": "SCAR",
+      "opponent": "FLA",
+      "stat": "pra",
+      "line": 15.5,
+      "direction": "lower",
+      "probability": 0.6113,
+      "player_mean": 14.57,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 14.57,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 8.5,
+          "raw_prob": 0.611284,
+          "direction": "lower",
+          "line": 15.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.611284
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.611284,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Kobe Knox not on SCAR roster"
+      ],
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Kobe Knox not on SCAR roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Kobe Knox not on SCAR roster"
+    },
+    {
+      "edge_id": "cbb_SCAR_Meechie_Johnson_3pm_1p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Meechie Johnson",
+      "team": "SCAR",
+      "opponent": "FLA",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "lower",
+      "probability": 0.5609,
+      "player_mean": 1.41,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 1.41,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 1.5,
+          "raw_prob": 0.623186,
+          "direction": "lower",
+          "line": 1.5
+        },
+        "distribution": {
+          "type": "TABLE_FALLBACK",
+          "dispersion_ratio": null,
+          "confidence": "LOW",
+          "sample_size": 0,
+          "actual_variance": null
+        },
+        "adjustment": {
+          "multiplier": 0.9,
+          "adjusted_prob": 0.560868
+        },
+        "caps": {
+          "stat_cap": 0.65,
+          "global_cap": 0.79,
+          "low_line_cap": 0.65,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.560868,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Meechie Johnson not on SCAR roster"
+      ],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.3945,
+        "kept": "lower",
+        "kept_probability": 0.5609
+      },
+      "direction_gate_flag": "COUNTER_DIRECTION_PASS",
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Meechie Johnson not on SCAR roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Meechie Johnson not on SCAR roster"
+    }
+  ],
+  "generated": "2026-02-16T14:52:35.219609",
+  "source": "CBB_PIPELINE"
+}

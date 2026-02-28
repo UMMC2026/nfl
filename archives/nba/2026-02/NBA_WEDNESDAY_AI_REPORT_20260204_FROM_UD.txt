@@ -1,0 +1,76 @@
+
+================================================================================
+RISK-FIRST ANALYSIS REPORT (Math-Only)
+================================================================================
+
+✅ QUALIFIED PICKS (2)
+
+================================================================================
+
+#1 | Julius Randle - 3PM HIGHER 0.5
+Edge: +1.1 (+0.67 sd) STRONG | Confidence: 67.7%
+Stats: μ=1.6, σ=1.6
+
+ANALYSIS:
+Model projects 1.6 3pm (line: 0.5) | Line is 1.1 BELOW projection (69% gap) | P(higher 0.5) = 67.7% | z = -0.67σ
+Edge: +35.9% | Kelly stake: 17.9% | Decision: [SLAM]
+
+INFO: MIN vs UNK; role=ATHLETIC_WING; minutes=LOW VAR; 📊 Multi-window projection: 1.6 | 📊 Hybrid: SLAM (edge: 22.4%)
+
+CONTEXT: [Based on 51 games | Historical hit rate: 82% | High variance player (CV=102%)]
+
+--------------------------------------------------------------------------------
+
+#2 | Herbert Jones - 3PM HIGHER 0.5
+Edge: +0.9 (+0.61 sd) STRONG | Confidence: 67.7%
+Stats: μ=1.4, σ=1.5
+
+ANALYSIS:
+Model projects 1.4 3pm (line: 0.5) | Line is 0.9 BELOW projection (65% gap) | P(higher 0.5) = 67.7% | z = -0.61σ
+Edge: +31.0% | Kelly stake: 15.5% | Decision: [SLAM]
+
+INFO: NOP vs UNK; role=ROLE_PLAYER; minutes=MED VAR; 📊 Multi-window projection: 1.4 | 📊 Hybrid: SLAM (edge: 20.6%)
+
+CONTEXT: [Based on 29 games | Historical hit rate: 79% | High variance player (CV=106%)]
+
+--------------------------------------------------------------------------------
+
+
+❌ BLOCKED PICKS (Sample of 10)
+
+================================================================================
+
+[BLOCK] MoreAnthony Edwards 3PM: BLOCKED: Player 'MoreAnthony Edwards' not classified
+INFO: MIN vs UNK; role=Player; minutes=LOW VAR; 📊 Multi-window projection: 3.3 | 📊 Hybrid: STRONG (edge: 12.4%)
+
+[BLOCK] Trey Murphy 3PM: BLOCKED: Player 'Trey Murphy' not classified
+INFO: NOP vs UNK; role=Player; minutes=LOW VAR; 📊 Multi-window projection: 2.7
+
+[BLOCK] Kyle Kuzma 3PM: Ban list - recent failures on this prop type
+INFO: MIL vs NOP; role=ATHLETIC_WING; minutes=LOW VAR; 📊 Multi-window projection: 1.4 | 📊 Hybrid: SLAM (edge: 18.2%)
+
+[BLOCK] Reed Sheppard 3PM: Bench gate - starter minutes not guaranteed
+INFO: HOU vs BOS; minutes=MED VAR; 📊 Multi-window projection: 1.8 | 📊 Hybrid: LEAN (edge: 3.6%)
+
+[BLOCK] Cason Wallace 3PM: Bench gate - starter minutes not guaranteed
+INFO: OKC vs UNK; minutes=MED VAR; 📊 Multi-window projection: 1.9 | 📊 Hybrid: LEAN (edge: 2.8%)
+
+[BLOCK] Jaylin Williams 3PM: Bench gate - starter minutes not guaranteed
+INFO: OKC vs UNK; minutes=MED VAR; 📊 Multi-window projection: 0.9
+
+[BLOCK] MoreAnthony Edwards PRA: BLOCKED: Player 'MoreAnthony Edwards' not classified
+INFO: MIN vs UNK; role=Player; minutes=LOW VAR; 🚫 Hybrid VETO: Insufficient sample size (n=0 < 5)
+
+[BLOCK] MoreAnthony Edwards PRA: BLOCKED: Player 'MoreAnthony Edwards' not classified
+INFO: MIN vs UNK; role=Player; minutes=LOW VAR; 🚫 Hybrid VETO: Insufficient sample size (n=0 < 5)
+
+[BLOCK] Trey Murphy PRA: BLOCKED: Player 'Trey Murphy' not classified
+INFO: NOP vs UNK; role=Player; minutes=LOW VAR; 🚫 Hybrid VETO: Insufficient sample size (n=0 < 5)
+
+[BLOCK] Trey Murphy PRA: BLOCKED: Player 'Trey Murphy' not classified
+INFO: NOP vs UNK; role=Player; minutes=LOW VAR; 🚫 Hybrid VETO: Insufficient sample size (n=0 < 5)
+
+================================================================================
+SUMMARY: 2 PLAY | 53 BLOCKED
+Commentary: Math-only (no LLM speculation)
+================================================================================

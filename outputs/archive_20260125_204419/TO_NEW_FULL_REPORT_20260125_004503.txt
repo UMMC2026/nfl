@@ -1,0 +1,244 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                       UNDERDOG FANTASY PROPS ANALYZER                        ║
+║                       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━                        ║
+║                          DAILY SLATE REPORT: TO_NEW                          ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  Report Date:    January 25, 2026
+  Generated At:   12:45 AM
+  Data Source:    TO_NEW_RISK_FIRST_20260125_FROM_UD.json
+  Lens: UNDER-first enabled; Failure Lens enabled
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  EXECUTIVE SUMMARY                                                           │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  Total Props Analyzed:  44            Actionable Plays:  0                   │
+│  ✓ PLAY Tier:           0             ○ LEAN Tier:        0                  │
+│  Directional Bias:      0 UNDERs / 0 OVERs                                   │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+
+════════════════════════════════════════════════════════════════════════════════
+  ⛔ NO PLAY (13)
+  Below threshold — insufficient edge or confidence
+════════════════════════════════════════════════════════════════════════════════
+
+  ┌─ #1 ────────────────────────────────────────────────────────────
+  │  De'Anthony Melton (GSW)
+  │  TURNOVERS UNDER 1.5
+  │
+  │  Confidence:  60.3%
+  │  Edge:        -0.1%
+  │  Recent Avg:  1.6  (σ=1.9, n=10)
+  │  Line Gap:    -0.1 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 1.6 > Line 1.5, 60.3% confidence, -0.1% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #2 ────────────────────────────────────────────────────────────
+  │  Jamal Murray (DEN)
+  │  TURNOVERS UNDER 2.5
+  │
+  │  Confidence:  54.7%
+  │  Edge:        -0.2%
+  │  Recent Avg:  2.7  (σ=1.9, n=41)
+  │  Line Gap:    -0.2 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 2.7 > Line 2.5, 54.7% confidence, -0.2% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #3 ────────────────────────────────────────────────────────────
+  │  Domantas Sabonis (SAC)
+  │  TURNOVERS OVER 2.5
+  │
+  │  Confidence:  53.7%
+  │  Edge:        +0.7%
+  │  Recent Avg:  3.2  (σ=2.6, n=10)
+  │  Line Gap:    +0.7 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 3.2 > Line 2.5, 53.7% confidence, +0.7% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #4 ────────────────────────────────────────────────────────────
+  │  Zach LaVine (SAC)
+  │  TURNOVERS OVER 1.5
+  │
+  │  Confidence:  49.1%
+  │  Edge:        -0.3%
+  │  Recent Avg:  1.2  (σ=1.0, n=10)
+  │  Line Gap:    -0.3 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 1.2 < Line 1.5, 49.1% confidence, -0.3% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #5 ────────────────────────────────────────────────────────────
+  │  Russell Westbrook (SAC)
+  │  TURNOVERS UNDER 3.5
+  │
+  │  Confidence:  48.3%
+  │  Edge:        +0.2%
+  │  Recent Avg:  3.3  (σ=2.3, n=10)
+  │  Line Gap:    +0.2 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 3.3 < Line 3.5, 48.3% confidence, +0.2% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #6 ────────────────────────────────────────────────────────────
+  │  Jalen Duren (DET)
+  │  TURNOVERS OVER 1.5
+  │
+  │  Confidence:  47.5%
+  │  Edge:        +0.1%
+  │  Recent Avg:  1.6  (σ=1.2, n=10)
+  │  Line Gap:    +0.1 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 1.6 > Line 1.5, 47.5% confidence, +0.1% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #7 ────────────────────────────────────────────────────────────
+  │  Russell Westbrook (SAC)
+  │  TURNOVERS OVER 3.5
+  │
+  │  Confidence:  46.7%
+  │  Edge:        -0.2%
+  │  Recent Avg:  3.3  (σ=2.3, n=10)
+  │  Line Gap:    -0.2 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 3.3 < Line 3.5, 46.7% confidence, -0.2% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #8 ────────────────────────────────────────────────────────────
+  │  Jaren Jackson (MEM)
+  │  TURNOVERS OVER 2.5
+  │
+  │  Confidence:  45.6%
+  │  Edge:        +0.5%
+  │  Recent Avg:  3.0  (σ=1.6, n=10)
+  │  Line Gap:    +0.5 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 3.0 > Line 2.5, 45.6% confidence, +0.5% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #9 ────────────────────────────────────────────────────────────
+  │  Jamal Murray (DEN)
+  │  TURNOVERS OVER 2.5
+  │
+  │  Confidence:  40.3%
+  │  Edge:        +0.2%
+  │  Recent Avg:  2.7  (σ=1.9, n=41)
+  │  Line Gap:    +0.2 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 2.7 > Line 2.5, 40.3% confidence, +0.2% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #10 ────────────────────────────────────────────────────────────
+  │  Rudy Gobert (MIN)
+  │  TURNOVERS OVER 1.5
+  │
+  │  Confidence:  39.0%
+  │  Edge:        -0.4%
+  │  Recent Avg:  1.1  (σ=1.1, n=10)
+  │  Line Gap:    -0.4 pts
+  │  Context:     Matchup: +3.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 1.1 < Line 1.5, 39.0% confidence, -0.4% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #11 ────────────────────────────────────────────────────────────
+  │  Stephen Curry (GSW)
+  │  TURNOVERS OVER 2.5
+  │
+  │  Confidence:  37.3%
+  │  Edge:        -0.2%
+  │  Recent Avg:  2.3  (σ=1.0, n=10)
+  │  Line Gap:    -0.2 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 2.3 < Line 2.5, 37.3% confidence, -0.2% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #12 ────────────────────────────────────────────────────────────
+  │  De'Anthony Melton (GSW)
+  │  TURNOVERS OVER 1.5
+  │
+  │  Confidence:  37.3%
+  │  Edge:        +0.1%
+  │  Recent Avg:  1.6  (σ=1.9, n=10)
+  │  Line Gap:    +0.1 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 1.6 > Line 1.5, 37.3% confidence, +0.1% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #13 ────────────────────────────────────────────────────────────
+  │  Anthony Edwards (MIN)
+  │  TURNOVERS OVER 2.5
+  │
+  │  Confidence:  32.0%
+  │  Edge:        -1.1%
+  │  Recent Avg:  1.4  (σ=1.1, n=10)
+  │  Line Gap:    -1.1 pts
+  │  Context:     Matchup: +3.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 1.4 < Line 2.5, 32.0% confidence, -1.1% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  METHODOLOGY                                                                 │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  • Confidence = P(hit) via Normal CDF on recent performance data             │
+│  • Edge = (Confidence - Breakeven%) / Breakeven% × 100                       │
+│  • PLAY threshold: 75%+ confidence with positive edge                        │
+│  • LEAN threshold: 65-74% confidence with positive edge                      │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  DISCLAIMER                                                                  │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  This analysis is for informational purposes only. Past performance          │
+│  does not guarantee future results. Always gamble responsibly.               │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+════════════════════════════════════════════════════════════════════════════════
+  END OF REPORT
+════════════════════════════════════════════════════════════════════════════════

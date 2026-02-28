@@ -1,0 +1,8678 @@
+{
+  "timestamp": "20260217_161812",
+  "count": 1084,
+  "props": [
+    {
+      "player": "Lajae Jones",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Lajae Jones",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robert McCray V",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robert McCray V",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Lajae Jones",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Lajae Jones",
+      "team": "FLA",
+      "stat": "PTS+REB",
+      "line": 21.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boden Kapke",
+      "team": "BC",
+      "stat": "PTS+REB",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robert McCray V",
+      "team": "FLA",
+      "stat": "PTS+REB",
+      "line": 19.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Fred Payne",
+      "team": "BC",
+      "stat": "PTS+REB",
+      "line": 22.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Lajae Jones",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 22.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Lajae Jones",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 22.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boden Kapke",
+      "team": "BC",
+      "stat": "PRA",
+      "line": 19.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boden Kapke",
+      "team": "BC",
+      "stat": "PRA",
+      "line": 19.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robert McCray V",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 24.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robert McCray V",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 24.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Fred Payne",
+      "team": "BC",
+      "stat": "PRA",
+      "line": 25.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Fred Payne",
+      "team": "BC",
+      "stat": "PRA",
+      "line": 25.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Lajae Jones",
+      "team": "FLA",
+      "stat": "REB",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Lajae Jones",
+      "team": "FLA",
+      "stat": "REB",
+      "line": 7.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Fred Payne",
+      "team": "BC",
+      "stat": "REB",
+      "line": 4.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Fred Payne",
+      "team": "BC",
+      "stat": "REB",
+      "line": 4.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Fred Payne",
+      "team": "BC",
+      "stat": "REB+AST",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robert McCray V",
+      "team": "FLA",
+      "stat": "AST",
+      "line": 5.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robert McCray V",
+      "team": "FLA",
+      "stat": "AST",
+      "line": 5.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Fred Payne",
+      "team": "BC",
+      "stat": "PTS",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Fred Payne",
+      "team": "BC",
+      "stat": "PTS",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Chauncey Wiggins",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Chauncey Wiggins",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Fred Payne",
+      "team": "BC",
+      "stat": "PTS+AST",
+      "line": 20.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Fred Payne",
+      "team": "BC",
+      "stat": "PTS+AST",
+      "line": 20.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robert McCray V",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 21.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robert McCray V",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 21.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Lajae Jones",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Chauncey Wiggins",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Chauncey Wiggins",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 13.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boden Kapke",
+      "team": "BC",
+      "stat": "PTS+AST",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boden Kapke",
+      "team": "BC",
+      "stat": "PTS+AST",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Fred Payne",
+      "team": "BC",
+      "stat": "PTS+REB",
+      "line": 22.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Lajae Jones",
+      "team": "FLA",
+      "stat": "PTS+REB",
+      "line": 21.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robert McCray V",
+      "team": "FLA",
+      "stat": "PTS+REB",
+      "line": 19.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boden Kapke",
+      "team": "BC",
+      "stat": "PTS+REB",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Chauncey Wiggins",
+      "team": "FLA",
+      "stat": "PTS+REB",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Chauncey Wiggins",
+      "team": "FLA",
+      "stat": "PTS+REB",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Chauncey Wiggins",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Chauncey Wiggins",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boden Kapke",
+      "team": "BC",
+      "stat": "REB",
+      "line": 7.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boden Kapke",
+      "team": "BC",
+      "stat": "REB",
+      "line": 7.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boden Kapke",
+      "team": "BC",
+      "stat": "REB+AST",
+      "line": 8.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boden Kapke",
+      "team": "BC",
+      "stat": "REB+AST",
+      "line": 8.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Fred Payne",
+      "team": "BC",
+      "stat": "REB+AST",
+      "line": 7.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Fred Payne",
+      "team": "BC",
+      "stat": "REB+AST",
+      "line": 7.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Lajae Jones",
+      "team": "FLA",
+      "stat": "REB+AST",
+      "line": 9.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Lajae Jones",
+      "team": "FLA",
+      "stat": "REB+AST",
+      "line": 9.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robert McCray V",
+      "team": "FLA",
+      "stat": "REB+AST",
+      "line": 9.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robert McCray V",
+      "team": "FLA",
+      "stat": "REB+AST",
+      "line": 9.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Carroll",
+      "team": "XAV",
+      "stat": "AST",
+      "line": 2.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Carroll",
+      "team": "XAV",
+      "stat": "AST",
+      "line": 2.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Messina-Moore",
+      "team": "XAV",
+      "stat": "AST",
+      "line": 3.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Messina-Moore",
+      "team": "XAV",
+      "stat": "AST",
+      "line": 3.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Acaden Lewis",
+      "team": "VILL",
+      "stat": "AST",
+      "line": 6.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Acaden Lewis",
+      "team": "VILL",
+      "stat": "AST",
+      "line": 6.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Duke Brennan",
+      "team": "VILL",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Duke Brennan",
+      "team": "VILL",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Messina-Moore",
+      "team": "XAV",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Messina-Moore",
+      "team": "XAV",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "All Wright",
+      "team": "XAV",
+      "stat": "PTS",
+      "line": 6.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "All Wright",
+      "team": "XAV",
+      "stat": "PTS",
+      "line": 6.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Filip Borovicanin",
+      "team": "XAV",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Filip Borovicanin",
+      "team": "XAV",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Acaden Lewis",
+      "team": "VILL",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Acaden Lewis",
+      "team": "VILL",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Perkins",
+      "team": "VILL",
+      "stat": "PTS",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Perkins",
+      "team": "VILL",
+      "stat": "PTS",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Carroll",
+      "team": "XAV",
+      "stat": "PTS+AST",
+      "line": 21.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Messina-Moore",
+      "team": "XAV",
+      "stat": "PTS+AST",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Filip Borovicanin",
+      "team": "XAV",
+      "stat": "PTS+AST",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Acaden Lewis",
+      "team": "VILL",
+      "stat": "PTS+AST",
+      "line": 19.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Perkins",
+      "team": "VILL",
+      "stat": "PTS+AST",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Duke Brennan",
+      "team": "VILL",
+      "stat": "PTS+REB",
+      "line": 23.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Carroll",
+      "team": "XAV",
+      "stat": "PTS+REB",
+      "line": 24.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Messina-Moore",
+      "team": "XAV",
+      "stat": "PTS+REB",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jovan Milicevic",
+      "team": "XAV",
+      "stat": "PTS+REB",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Perkins",
+      "team": "VILL",
+      "stat": "PTS+REB",
+      "line": 24.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Carroll",
+      "team": "XAV",
+      "stat": "PRA",
+      "line": 27.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Carroll",
+      "team": "XAV",
+      "stat": "PRA",
+      "line": 27.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "All Wright",
+      "team": "XAV",
+      "stat": "PRA",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "All Wright",
+      "team": "XAV",
+      "stat": "PRA",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Filip Borovicanin",
+      "team": "XAV",
+      "stat": "PRA",
+      "line": 23.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Filip Borovicanin",
+      "team": "XAV",
+      "stat": "PRA",
+      "line": 23.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Acaden Lewis",
+      "team": "VILL",
+      "stat": "PRA",
+      "line": 22.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Acaden Lewis",
+      "team": "VILL",
+      "stat": "PRA",
+      "line": 22.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Perkins",
+      "team": "VILL",
+      "stat": "PRA",
+      "line": 26.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Perkins",
+      "team": "VILL",
+      "stat": "PRA",
+      "line": 26.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Filip Borovicanin",
+      "team": "XAV",
+      "stat": "REB",
+      "line": 8.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Filip Borovicanin",
+      "team": "XAV",
+      "stat": "REB",
+      "line": 8.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Perkins",
+      "team": "VILL",
+      "stat": "REB",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Perkins",
+      "team": "VILL",
+      "stat": "REB",
+      "line": 7.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Acaden Lewis",
+      "team": "VILL",
+      "stat": "REB+AST",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Filip Borovicanin",
+      "team": "XAV",
+      "stat": "AST",
+      "line": 4.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Filip Borovicanin",
+      "team": "XAV",
+      "stat": "AST",
+      "line": 4.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Carroll",
+      "team": "XAV",
+      "stat": "PTS",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Carroll",
+      "team": "XAV",
+      "stat": "PTS",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jovan Milicevic",
+      "team": "XAV",
+      "stat": "PTS",
+      "line": 12.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jovan Milicevic",
+      "team": "XAV",
+      "stat": "PTS",
+      "line": 12.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Matt Hodge",
+      "team": "VILL",
+      "stat": "PTS",
+      "line": 8.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Matt Hodge",
+      "team": "VILL",
+      "stat": "PTS",
+      "line": 8.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Carroll",
+      "team": "XAV",
+      "stat": "PTS+AST",
+      "line": 21.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Perkins",
+      "team": "VILL",
+      "stat": "PTS+AST",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Duke Brennan",
+      "team": "VILL",
+      "stat": "PTS+AST",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Duke Brennan",
+      "team": "VILL",
+      "stat": "PTS+AST",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Filip Borovicanin",
+      "team": "XAV",
+      "stat": "PTS+AST",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Matt Hodge",
+      "team": "VILL",
+      "stat": "PTS+AST",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Matt Hodge",
+      "team": "VILL",
+      "stat": "PTS+AST",
+      "line": 9.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Carroll",
+      "team": "XAV",
+      "stat": "PTS+REB",
+      "line": 25.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Carroll",
+      "team": "XAV",
+      "stat": "PTS+REB",
+      "line": 25.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Duke Brennan",
+      "team": "VILL",
+      "stat": "PTS+REB",
+      "line": 23.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Perkins",
+      "team": "VILL",
+      "stat": "PTS+REB",
+      "line": 23.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Perkins",
+      "team": "VILL",
+      "stat": "PTS+REB",
+      "line": 23.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Filip Borovicanin",
+      "team": "XAV",
+      "stat": "PTS+REB",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Filip Borovicanin",
+      "team": "XAV",
+      "stat": "PTS+REB",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jovan Milicevic",
+      "team": "XAV",
+      "stat": "PTS+REB",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Acaden Lewis",
+      "team": "VILL",
+      "stat": "PTS+REB",
+      "line": 16.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Acaden Lewis",
+      "team": "VILL",
+      "stat": "PTS+REB",
+      "line": 16.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Matt Hodge",
+      "team": "VILL",
+      "stat": "PTS+REB",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Matt Hodge",
+      "team": "VILL",
+      "stat": "PTS+REB",
+      "line": 12.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Perkins",
+      "team": "VILL",
+      "stat": "PRA",
+      "line": 27.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Perkins",
+      "team": "VILL",
+      "stat": "PRA",
+      "line": 27.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Duke Brennan",
+      "team": "VILL",
+      "stat": "PRA",
+      "line": 26.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Duke Brennan",
+      "team": "VILL",
+      "stat": "PRA",
+      "line": 26.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jovan Milicevic",
+      "team": "XAV",
+      "stat": "PRA",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jovan Milicevic",
+      "team": "XAV",
+      "stat": "PRA",
+      "line": 17.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Matt Hodge",
+      "team": "VILL",
+      "stat": "PRA",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Matt Hodge",
+      "team": "VILL",
+      "stat": "PRA",
+      "line": 13.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Duke Brennan",
+      "team": "VILL",
+      "stat": "REB",
+      "line": 11.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Duke Brennan",
+      "team": "VILL",
+      "stat": "REB",
+      "line": 11.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jovan Milicevic",
+      "team": "XAV",
+      "stat": "REB",
+      "line": 4.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jovan Milicevic",
+      "team": "XAV",
+      "stat": "REB",
+      "line": 4.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Filip Borovicanin",
+      "team": "XAV",
+      "stat": "REB+AST",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Filip Borovicanin",
+      "team": "XAV",
+      "stat": "REB+AST",
+      "line": 12.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Perkins",
+      "team": "VILL",
+      "stat": "REB+AST",
+      "line": 10.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Perkins",
+      "team": "VILL",
+      "stat": "REB+AST",
+      "line": 10.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Acaden Lewis",
+      "team": "VILL",
+      "stat": "REB+AST",
+      "line": 9.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Carroll",
+      "team": "XAV",
+      "stat": "REB+AST",
+      "line": 8.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Carroll",
+      "team": "XAV",
+      "stat": "REB+AST",
+      "line": 8.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Elliot Cadeau",
+      "team": "MICH",
+      "stat": "AST",
+      "line": 5.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Elliot Cadeau",
+      "team": "MICH",
+      "stat": "AST",
+      "line": 5.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Braden Smith",
+      "team": "PUR",
+      "stat": "PTS",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Braden Smith",
+      "team": "PUR",
+      "stat": "PTS",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trey Kaufman-Renn",
+      "team": "PUR",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trey Kaufman-Renn",
+      "team": "PUR",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Elliot Cadeau",
+      "team": "MICH",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Elliot Cadeau",
+      "team": "MICH",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Oscar Cluff",
+      "team": "PUR",
+      "stat": "PTS",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Oscar Cluff",
+      "team": "PUR",
+      "stat": "PTS",
+      "line": 7.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Aday Mara",
+      "team": "MICH",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Aday Mara",
+      "team": "MICH",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "C.J. Cox",
+      "team": "PUR",
+      "stat": "PTS",
+      "line": 8.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "C.J. Cox",
+      "team": "PUR",
+      "stat": "PTS",
+      "line": 8.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Braden Smith",
+      "team": "PUR",
+      "stat": "PTS+AST",
+      "line": 23.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Fletcher Loyer",
+      "team": "PUR",
+      "stat": "PTS+AST",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Elliot Cadeau",
+      "team": "MICH",
+      "stat": "PTS+AST",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Yaxel Lendeborg",
+      "team": "MICH",
+      "stat": "PTS+AST",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Braden Smith",
+      "team": "PUR",
+      "stat": "PTS+REB",
+      "line": 21.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Fletcher Loyer",
+      "team": "PUR",
+      "stat": "PTS+REB",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trey Kaufman-Renn",
+      "team": "PUR",
+      "stat": "PTS+REB",
+      "line": 20.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Oscar Cluff",
+      "team": "PUR",
+      "stat": "PTS+REB",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Morez Johnson Jr.",
+      "team": "MICH",
+      "stat": "PTS+REB",
+      "line": 20.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Yaxel Lendeborg",
+      "team": "MICH",
+      "stat": "PTS+REB",
+      "line": 24.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Aday Mara",
+      "team": "MICH",
+      "stat": "PTS+REB",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Braden Smith",
+      "team": "PUR",
+      "stat": "PRA",
+      "line": 28.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Braden Smith",
+      "team": "PUR",
+      "stat": "PRA",
+      "line": 28.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trey Kaufman-Renn",
+      "team": "PUR",
+      "stat": "PRA",
+      "line": 22.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trey Kaufman-Renn",
+      "team": "PUR",
+      "stat": "PRA",
+      "line": 22.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Elliot Cadeau",
+      "team": "MICH",
+      "stat": "PRA",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Elliot Cadeau",
+      "team": "MICH",
+      "stat": "PRA",
+      "line": 17.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Oscar Cluff",
+      "team": "PUR",
+      "stat": "PRA",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Oscar Cluff",
+      "team": "PUR",
+      "stat": "PRA",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Morez Johnson Jr.",
+      "team": "MICH",
+      "stat": "PRA",
+      "line": 21.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Morez Johnson Jr.",
+      "team": "MICH",
+      "stat": "PRA",
+      "line": 21.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Yaxel Lendeborg",
+      "team": "MICH",
+      "stat": "PRA",
+      "line": 26.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Yaxel Lendeborg",
+      "team": "MICH",
+      "stat": "PRA",
+      "line": 26.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Aday Mara",
+      "team": "MICH",
+      "stat": "PRA",
+      "line": 20.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Aday Mara",
+      "team": "MICH",
+      "stat": "PRA",
+      "line": 20.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Fletcher Loyer",
+      "team": "PUR",
+      "stat": "REB",
+      "line": 2.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Fletcher Loyer",
+      "team": "PUR",
+      "stat": "REB",
+      "line": 2.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Oscar Cluff",
+      "team": "PUR",
+      "stat": "REB",
+      "line": 6.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Oscar Cluff",
+      "team": "PUR",
+      "stat": "REB",
+      "line": 6.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Aday Mara",
+      "team": "MICH",
+      "stat": "REB",
+      "line": 6.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Aday Mara",
+      "team": "MICH",
+      "stat": "REB",
+      "line": 6.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Braden Smith",
+      "team": "PUR",
+      "stat": "REB+AST",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trey Kaufman-Renn",
+      "team": "PUR",
+      "stat": "REB+AST",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Elliot Cadeau",
+      "team": "MICH",
+      "stat": "REB+AST",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Oscar Cluff",
+      "team": "PUR",
+      "stat": "REB+AST",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Aday Mara",
+      "team": "MICH",
+      "stat": "REB+AST",
+      "line": 8.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Braden Smith",
+      "team": "PUR",
+      "stat": "AST",
+      "line": 7.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Braden Smith",
+      "team": "PUR",
+      "stat": "AST",
+      "line": 7.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Yaxel Lendeborg",
+      "team": "MICH",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Yaxel Lendeborg",
+      "team": "MICH",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Fletcher Loyer",
+      "team": "PUR",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Fletcher Loyer",
+      "team": "PUR",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Morez Johnson Jr.",
+      "team": "MICH",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Morez Johnson Jr.",
+      "team": "MICH",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Braden Smith",
+      "team": "PUR",
+      "stat": "PTS+AST",
+      "line": 23.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Braden Smith",
+      "team": "PUR",
+      "stat": "PTS+AST",
+      "line": 23.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Yaxel Lendeborg",
+      "team": "MICH",
+      "stat": "PTS+AST",
+      "line": 17.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Elliot Cadeau",
+      "team": "MICH",
+      "stat": "PTS+AST",
+      "line": 15.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Elliot Cadeau",
+      "team": "MICH",
+      "stat": "PTS+AST",
+      "line": 15.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trey Kaufman-Renn",
+      "team": "PUR",
+      "stat": "PTS+AST",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trey Kaufman-Renn",
+      "team": "PUR",
+      "stat": "PTS+AST",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Aday Mara",
+      "team": "MICH",
+      "stat": "PTS+AST",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Aday Mara",
+      "team": "MICH",
+      "stat": "PTS+AST",
+      "line": 13.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Morez Johnson Jr.",
+      "team": "MICH",
+      "stat": "PTS+AST",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Morez Johnson Jr.",
+      "team": "MICH",
+      "stat": "PTS+AST",
+      "line": 13.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Oscar Cluff",
+      "team": "PUR",
+      "stat": "PTS+AST",
+      "line": 8.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Oscar Cluff",
+      "team": "PUR",
+      "stat": "PTS+AST",
+      "line": 8.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Yaxel Lendeborg",
+      "team": "MICH",
+      "stat": "PTS+REB",
+      "line": 23.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Yaxel Lendeborg",
+      "team": "MICH",
+      "stat": "PTS+REB",
+      "line": 23.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Braden Smith",
+      "team": "PUR",
+      "stat": "PTS+REB",
+      "line": 21.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Braden Smith",
+      "team": "PUR",
+      "stat": "PTS+REB",
+      "line": 21.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Morez Johnson Jr.",
+      "team": "MICH",
+      "stat": "PTS+REB",
+      "line": 20.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Morez Johnson Jr.",
+      "team": "MICH",
+      "stat": "PTS+REB",
+      "line": 20.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trey Kaufman-Renn",
+      "team": "PUR",
+      "stat": "PTS+REB",
+      "line": 19.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trey Kaufman-Renn",
+      "team": "PUR",
+      "stat": "PTS+REB",
+      "line": 19.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Aday Mara",
+      "team": "MICH",
+      "stat": "PTS+REB",
+      "line": 18.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Aday Mara",
+      "team": "MICH",
+      "stat": "PTS+REB",
+      "line": 18.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Fletcher Loyer",
+      "team": "PUR",
+      "stat": "PTS+REB",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Oscar Cluff",
+      "team": "PUR",
+      "stat": "PTS+REB",
+      "line": 14.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Oscar Cluff",
+      "team": "PUR",
+      "stat": "PTS+REB",
+      "line": 14.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Elliot Cadeau",
+      "team": "MICH",
+      "stat": "PTS+REB",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Elliot Cadeau",
+      "team": "MICH",
+      "stat": "PTS+REB",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "C.J. Cox",
+      "team": "PUR",
+      "stat": "PTS+REB",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "C.J. Cox",
+      "team": "PUR",
+      "stat": "PTS+REB",
+      "line": 10.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Morez Johnson Jr.",
+      "team": "MICH",
+      "stat": "PRA",
+      "line": 21.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Morez Johnson Jr.",
+      "team": "MICH",
+      "stat": "PRA",
+      "line": 21.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Aday Mara",
+      "team": "MICH",
+      "stat": "PRA",
+      "line": 20.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Aday Mara",
+      "team": "MICH",
+      "stat": "PRA",
+      "line": 20.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Fletcher Loyer",
+      "team": "PUR",
+      "stat": "PRA",
+      "line": 18.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Fletcher Loyer",
+      "team": "PUR",
+      "stat": "PRA",
+      "line": 18.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Elliot Cadeau",
+      "team": "MICH",
+      "stat": "PRA",
+      "line": 17.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Elliot Cadeau",
+      "team": "MICH",
+      "stat": "PRA",
+      "line": 17.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Oscar Cluff",
+      "team": "PUR",
+      "stat": "PRA",
+      "line": 15.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Oscar Cluff",
+      "team": "PUR",
+      "stat": "PRA",
+      "line": 15.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "C.J. Cox",
+      "team": "PUR",
+      "stat": "PRA",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "C.J. Cox",
+      "team": "PUR",
+      "stat": "PRA",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trey Kaufman-Renn",
+      "team": "PUR",
+      "stat": "REB",
+      "line": 8.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trey Kaufman-Renn",
+      "team": "PUR",
+      "stat": "REB",
+      "line": 8.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Braden Smith",
+      "team": "PUR",
+      "stat": "REB",
+      "line": 4.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Braden Smith",
+      "team": "PUR",
+      "stat": "REB",
+      "line": 4.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Braden Smith",
+      "team": "PUR",
+      "stat": "REB+AST",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Aday Mara",
+      "team": "MICH",
+      "stat": "REB+AST",
+      "line": 8.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Morez Johnson Jr.",
+      "team": "MICH",
+      "stat": "REB+AST",
+      "line": 8.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Morez Johnson Jr.",
+      "team": "MICH",
+      "stat": "REB+AST",
+      "line": 8.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Elliot Cadeau",
+      "team": "MICH",
+      "stat": "REB+AST",
+      "line": 7.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Oscar Cluff",
+      "team": "PUR",
+      "stat": "REB+AST",
+      "line": 7.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Elliot Cadeau",
+      "team": "MICH",
+      "stat": "3PM",
+      "line": 1.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Elliot Cadeau",
+      "team": "MICH",
+      "stat": "3PM",
+      "line": 1.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Urban Klavzar",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Urban Klavzar",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xaivian Lee",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xaivian Lee",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Alex Condon",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Alex Condon",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Rueben Chinyelu",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Rueben Chinyelu",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Thomas Haugh",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Thomas Haugh",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 17.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Meechie Johnson",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 19.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xaivian Lee",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Alex Condon",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boogie Fland",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Thomas Haugh",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 19.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Meechie Johnson",
+      "team": "FLA",
+      "stat": "PTS+REB",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xaivian Lee",
+      "team": "FLA",
+      "stat": "PTS+REB",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Alex Condon",
+      "team": "FLA",
+      "stat": "PTS+REB",
+      "line": 21.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Kobe Knox",
+      "team": "FLA",
+      "stat": "PTS+REB",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boogie Fland",
+      "team": "FLA",
+      "stat": "PTS+REB",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Rueben Chinyelu",
+      "team": "FLA",
+      "stat": "PTS+REB",
+      "line": 25.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Thomas Haugh",
+      "team": "FLA",
+      "stat": "PTS+REB",
+      "line": 24.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Meechie Johnson",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 22.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Meechie Johnson",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 22.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xaivian Lee",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 19.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xaivian Lee",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 19.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Alex Condon",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 24.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Alex Condon",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 24.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Eli Ellis",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Eli Ellis",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 10.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Kobe Knox",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Kobe Knox",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mike Sharavjamts",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mike Sharavjamts",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boogie Fland",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 19.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boogie Fland",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 19.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Thomas Haugh",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 27.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Thomas Haugh",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 27.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Alex Condon",
+      "team": "FLA",
+      "stat": "REB",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Alex Condon",
+      "team": "FLA",
+      "stat": "REB",
+      "line": 7.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mike Sharavjamts",
+      "team": "FLA",
+      "stat": "REB",
+      "line": 4.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mike Sharavjamts",
+      "team": "FLA",
+      "stat": "REB",
+      "line": 4.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Rueben Chinyelu",
+      "team": "FLA",
+      "stat": "REB",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Rueben Chinyelu",
+      "team": "FLA",
+      "stat": "REB",
+      "line": 12.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xaivian Lee",
+      "team": "FLA",
+      "stat": "REB+AST",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Alex Condon",
+      "team": "FLA",
+      "stat": "REB+AST",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mike Sharavjamts",
+      "team": "FLA",
+      "stat": "REB+AST",
+      "line": 6.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Thomas Haugh",
+      "team": "FLA",
+      "stat": "REB+AST",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Meechie Johnson",
+      "team": "FLA",
+      "stat": "3PM",
+      "line": 1.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Meechie Johnson",
+      "team": "FLA",
+      "stat": "3PM",
+      "line": 1.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xaivian Lee",
+      "team": "FLA",
+      "stat": "3PM",
+      "line": 1.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xaivian Lee",
+      "team": "FLA",
+      "stat": "3PM",
+      "line": 1.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boogie Fland",
+      "team": "FLA",
+      "stat": "AST",
+      "line": 5.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boogie Fland",
+      "team": "FLA",
+      "stat": "AST",
+      "line": 5.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xaivian Lee",
+      "team": "FLA",
+      "stat": "AST",
+      "line": 4.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xaivian Lee",
+      "team": "FLA",
+      "stat": "AST",
+      "line": 4.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Thomas Haugh",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 17.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Thomas Haugh",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 17.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Meechie Johnson",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 16.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Meechie Johnson",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 16.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boogie Fland",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boogie Fland",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xaivian Lee",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 11.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xaivian Lee",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 11.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mike Sharavjamts",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mike Sharavjamts",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Eli Ellis",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 7.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Eli Ellis",
+      "team": "FLA",
+      "stat": "PTS",
+      "line": 7.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Thomas Haugh",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 19.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Meechie Johnson",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Meechie Johnson",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Alex Condon",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Alex Condon",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 17.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boogie Fland",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boogie Fland",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 16.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boogie Fland",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 16.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xaivian Lee",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xaivian Lee",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xaivian Lee",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Kobe Knox",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Kobe Knox",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mike Sharavjamts",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 11.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mike Sharavjamts",
+      "team": "FLA",
+      "stat": "PTS+AST",
+      "line": 11.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Rueben Chinyelu",
+      "team": "FLA",
+      "stat": "PTS+REB",
+      "line": 25.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Thomas Haugh",
+      "team": "FLA",
+      "stat": "PTS+REB",
+      "line": 24.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Alex Condon",
+      "team": "FLA",
+      "stat": "PTS+REB",
+      "line": 21.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Alex Condon",
+      "team": "FLA",
+      "stat": "PTS+REB",
+      "line": 21.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Meechie Johnson",
+      "team": "FLA",
+      "stat": "PTS+REB",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Kobe Knox",
+      "team": "FLA",
+      "stat": "PTS+REB",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xaivian Lee",
+      "team": "FLA",
+      "stat": "PTS+REB",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boogie Fland",
+      "team": "FLA",
+      "stat": "PTS+REB",
+      "line": 14.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boogie Fland",
+      "team": "FLA",
+      "stat": "PTS+REB",
+      "line": 14.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Eli Ellis",
+      "team": "FLA",
+      "stat": "PTS+REB",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Eli Ellis",
+      "team": "FLA",
+      "stat": "PTS+REB",
+      "line": 9.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Rueben Chinyelu",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 26.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Rueben Chinyelu",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 26.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Alex Condon",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 25.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Alex Condon",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 25.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xaivian Lee",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xaivian Lee",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Eli Ellis",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 10.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Eli Ellis",
+      "team": "FLA",
+      "stat": "PRA",
+      "line": 10.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Kobe Knox",
+      "team": "FLA",
+      "stat": "REB",
+      "line": 4.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Kobe Knox",
+      "team": "FLA",
+      "stat": "REB",
+      "line": 4.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Alex Condon",
+      "team": "FLA",
+      "stat": "REB+AST",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Thomas Haugh",
+      "team": "FLA",
+      "stat": "REB+AST",
+      "line": 9.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boogie Fland",
+      "team": "FLA",
+      "stat": "REB+AST",
+      "line": 8.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boogie Fland",
+      "team": "FLA",
+      "stat": "REB+AST",
+      "line": 8.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xaivian Lee",
+      "team": "FLA",
+      "stat": "REB+AST",
+      "line": 7.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xaivian Lee",
+      "team": "FLA",
+      "stat": "REB+AST",
+      "line": 7.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mike Sharavjamts",
+      "team": "FLA",
+      "stat": "REB+AST",
+      "line": 6.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Kobe Knox",
+      "team": "FLA",
+      "stat": "REB+AST",
+      "line": 5.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Kobe Knox",
+      "team": "FLA",
+      "stat": "REB+AST",
+      "line": 5.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Kobe Knox",
+      "team": "FLA",
+      "stat": "3PM",
+      "line": 0.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Kobe Knox",
+      "team": "FLA",
+      "stat": "3PM",
+      "line": 0.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mike Sharavjamts",
+      "team": "FLA",
+      "stat": "3PM",
+      "line": 0.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mike Sharavjamts",
+      "team": "FLA",
+      "stat": "3PM",
+      "line": 0.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Samet Yigitoglu",
+      "team": "SMU",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Samet Yigitoglu",
+      "team": "SMU",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boopie Miller",
+      "team": "SMU",
+      "stat": "PTS",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boopie Miller",
+      "team": "SMU",
+      "stat": "PTS",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Isaac McKneely",
+      "team": "LOU",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Isaac McKneely",
+      "team": "LOU",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "J'Vonne Hadley",
+      "team": "LOU",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "J'Vonne Hadley",
+      "team": "LOU",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jaron Pierre Jr.",
+      "team": "SMU",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jaron Pierre Jr.",
+      "team": "SMU",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "B.J. Edwards",
+      "team": "SMU",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "B.J. Edwards",
+      "team": "SMU",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boopie Miller",
+      "team": "SMU",
+      "stat": "PTS+AST",
+      "line": 24.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ryan Conwell",
+      "team": "LOU",
+      "stat": "PTS+AST",
+      "line": 21.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jaron Pierre Jr.",
+      "team": "SMU",
+      "stat": "PTS+AST",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Samet Yigitoglu",
+      "team": "SMU",
+      "stat": "PTS+REB",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boopie Miller",
+      "team": "SMU",
+      "stat": "PTS+REB",
+      "line": 22.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "J'Vonne Hadley",
+      "team": "LOU",
+      "stat": "PTS+REB",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ryan Conwell",
+      "team": "LOU",
+      "stat": "PTS+REB",
+      "line": 23.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jaron Pierre Jr.",
+      "team": "SMU",
+      "stat": "PTS+REB",
+      "line": 21.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "B.J. Edwards",
+      "team": "SMU",
+      "stat": "PTS+REB",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mikel Brown Jr.",
+      "team": "LOU",
+      "stat": "PTS+REB",
+      "line": 23.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Corey Washington",
+      "team": "SMU",
+      "stat": "PTS+REB",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Samet Yigitoglu",
+      "team": "SMU",
+      "stat": "PRA",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Samet Yigitoglu",
+      "team": "SMU",
+      "stat": "PRA",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boopie Miller",
+      "team": "SMU",
+      "stat": "PRA",
+      "line": 28.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Boopie Miller",
+      "team": "SMU",
+      "stat": "PRA",
+      "line": 28.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Isaac McKneely",
+      "team": "LOU",
+      "stat": "PRA",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Isaac McKneely",
+      "team": "LOU",
+      "stat": "PRA",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "J'Vonne Hadley",
+      "team": "LOU",
+      "stat": "PRA",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "J'Vonne Hadley",
+      "team": "LOU",
+      "stat": "PRA",
+      "line": 17.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ryan Conwell",
+      "team": "LOU",
+      "stat": "PRA",
+      "line": 26.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ryan Conwell",
+      "team": "LOU",
+      "stat": "PRA",
+      "line": 26.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Sananda Fru",
+      "team": "LOU",
+      "stat": "PRA",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Sananda Fru",
+      "team": "LOU",
+      "stat": "PRA",
+      "line": 17.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jaron Pierre Jr.",
+      "team": "SMU",
+      "stat": "PRA",
+      "line": 23.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jaron Pierre Jr.",
+      "team": "SMU",
+      "stat": "PRA",
+      "line": 23.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "B.J. Edwards",
+      "team": "SMU",
+      "stat": "PRA",
+      "line": 22.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "B.J. Edwards",
+      "team": "SMU",
+      "stat": "PRA",
+      "line": 22.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mikel Brown Jr.",
+      "team": "LOU",
+      "stat": "PRA",
+      "line": 29.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mikel Brown Jr.",
+      "team": "LOU",
+      "stat": "PRA",
+      "line": 29.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Corey Washington",
+      "team": "SMU",
+      "stat": "PRA",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Corey Washington",
+      "team": "SMU",
+      "stat": "PRA",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Sananda Fru",
+      "team": "LOU",
+      "stat": "REB",
+      "line": 6.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Sananda Fru",
+      "team": "LOU",
+      "stat": "REB",
+      "line": 6.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "B.J. Edwards",
+      "team": "SMU",
+      "stat": "REB",
+      "line": 6.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "B.J. Edwards",
+      "team": "SMU",
+      "stat": "REB",
+      "line": 6.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mikel Brown Jr.",
+      "team": "LOU",
+      "stat": "REB",
+      "line": 3.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mikel Brown Jr.",
+      "team": "LOU",
+      "stat": "REB",
+      "line": 3.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Samet Yigitoglu",
+      "team": "SMU",
+      "stat": "REB+AST",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mikel Brown Jr.",
+      "team": "LOU",
+      "stat": "REB+AST",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Isaac McKneely",
+      "team": "LOU",
+      "stat": "3PM",
+      "line": 2.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Isaac McKneely",
+      "team": "LOU",
+      "stat": "3PM",
+      "line": 2.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "B.J. Edwards",
+      "team": "SMU",
+      "stat": "AST",
+      "line": 4.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "B.J. Edwards",
+      "team": "SMU",
+      "stat": "AST",
+      "line": 4.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mikel Brown Jr.",
+      "team": "LOU",
+      "stat": "PTS",
+      "line": 20.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mikel Brown Jr.",
+      "team": "LOU",
+      "stat": "PTS",
+      "line": 20.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ryan Conwell",
+      "team": "LOU",
+      "stat": "PTS",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ryan Conwell",
+      "team": "LOU",
+      "stat": "PTS",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Sananda Fru",
+      "team": "LOU",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Sananda Fru",
+      "team": "LOU",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Corey Washington",
+      "team": "SMU",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Corey Washington",
+      "team": "SMU",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mikel Brown Jr.",
+      "team": "LOU",
+      "stat": "PTS+AST",
+      "line": 26.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mikel Brown Jr.",
+      "team": "LOU",
+      "stat": "PTS+AST",
+      "line": 26.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ryan Conwell",
+      "team": "LOU",
+      "stat": "PTS+AST",
+      "line": 21.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jaron Pierre Jr.",
+      "team": "SMU",
+      "stat": "PTS+AST",
+      "line": 17.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "B.J. Edwards",
+      "team": "SMU",
+      "stat": "PTS+AST",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "B.J. Edwards",
+      "team": "SMU",
+      "stat": "PTS+AST",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "J'Vonne Hadley",
+      "team": "LOU",
+      "stat": "PTS+AST",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "J'Vonne Hadley",
+      "team": "LOU",
+      "stat": "PTS+AST",
+      "line": 12.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Sananda Fru",
+      "team": "LOU",
+      "stat": "PTS+AST",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Sananda Fru",
+      "team": "LOU",
+      "stat": "PTS+AST",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mikel Brown Jr.",
+      "team": "LOU",
+      "stat": "PTS+REB",
+      "line": 23.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ryan Conwell",
+      "team": "LOU",
+      "stat": "PTS+REB",
+      "line": 23.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jaron Pierre Jr.",
+      "team": "SMU",
+      "stat": "PTS+REB",
+      "line": 21.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jaron Pierre Jr.",
+      "team": "SMU",
+      "stat": "PTS+REB",
+      "line": 21.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "B.J. Edwards",
+      "team": "SMU",
+      "stat": "PTS+REB",
+      "line": 18.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "B.J. Edwards",
+      "team": "SMU",
+      "stat": "PTS+REB",
+      "line": 18.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Sananda Fru",
+      "team": "LOU",
+      "stat": "PTS+REB",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Sananda Fru",
+      "team": "LOU",
+      "stat": "PTS+REB",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "J'Vonne Hadley",
+      "team": "LOU",
+      "stat": "PTS+REB",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Corey Washington",
+      "team": "SMU",
+      "stat": "PTS+REB",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jaron Pierre Jr.",
+      "team": "SMU",
+      "stat": "PRA",
+      "line": 23.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jaron Pierre Jr.",
+      "team": "SMU",
+      "stat": "PRA",
+      "line": 23.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ryan Conwell",
+      "team": "LOU",
+      "stat": "REB",
+      "line": 5.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ryan Conwell",
+      "team": "LOU",
+      "stat": "REB",
+      "line": 5.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jaron Pierre Jr.",
+      "team": "SMU",
+      "stat": "REB",
+      "line": 5.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jaron Pierre Jr.",
+      "team": "SMU",
+      "stat": "REB",
+      "line": 5.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Corey Washington",
+      "team": "SMU",
+      "stat": "REB",
+      "line": 4.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Corey Washington",
+      "team": "SMU",
+      "stat": "REB",
+      "line": 4.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "B.J. Edwards",
+      "team": "SMU",
+      "stat": "REB+AST",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "B.J. Edwards",
+      "team": "SMU",
+      "stat": "REB+AST",
+      "line": 10.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mikel Brown Jr.",
+      "team": "LOU",
+      "stat": "REB+AST",
+      "line": 9.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Sananda Fru",
+      "team": "LOU",
+      "stat": "REB+AST",
+      "line": 8.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Sananda Fru",
+      "team": "LOU",
+      "stat": "REB+AST",
+      "line": 8.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "J'Vonne Hadley",
+      "team": "LOU",
+      "stat": "3PM",
+      "line": 0.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "J'Vonne Hadley",
+      "team": "LOU",
+      "stat": "3PM",
+      "line": 0.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Peter Suder",
+      "team": "MASS",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Peter Suder",
+      "team": "MASS",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Luke Skaljac",
+      "team": "MASS",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Luke Skaljac",
+      "team": "MASS",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Antwone Woolfolk",
+      "team": "MASS",
+      "stat": "REB",
+      "line": 5.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Antwone Woolfolk",
+      "team": "MASS",
+      "stat": "REB",
+      "line": 5.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Leonardo Bettiol",
+      "team": "MASS",
+      "stat": "REB",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Leonardo Bettiol",
+      "team": "MASS",
+      "stat": "REB",
+      "line": 7.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Luka Bogavac",
+      "team": "UNC",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Luka Bogavac",
+      "team": "UNC",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jarin Stevenson",
+      "team": "UNC",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jarin Stevenson",
+      "team": "UNC",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "PTS+AST",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Luka Bogavac",
+      "team": "UNC",
+      "stat": "PTS+AST",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "PTS+AST",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "PTS+AST",
+      "line": 21.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Seth Trimble",
+      "team": "UNC",
+      "stat": "PTS+AST",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "PTS+REB",
+      "line": 22.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jarin Stevenson",
+      "team": "UNC",
+      "stat": "PTS+REB",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "PTS+REB",
+      "line": 20.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "PTS+REB",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Paul McNeil Jr.",
+      "team": "NCST",
+      "stat": "PTS+REB",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Seth Trimble",
+      "team": "UNC",
+      "stat": "PTS+REB",
+      "line": 20.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "PRA",
+      "line": 23.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "PRA",
+      "line": 23.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jarin Stevenson",
+      "team": "UNC",
+      "stat": "PRA",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jarin Stevenson",
+      "team": "UNC",
+      "stat": "PRA",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "PRA",
+      "line": 25.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "PRA",
+      "line": 25.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Paul McNeil Jr.",
+      "team": "NCST",
+      "stat": "PRA",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Paul McNeil Jr.",
+      "team": "NCST",
+      "stat": "PRA",
+      "line": 17.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Seth Trimble",
+      "team": "UNC",
+      "stat": "PRA",
+      "line": 22.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Seth Trimble",
+      "team": "UNC",
+      "stat": "PRA",
+      "line": 22.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jarin Stevenson",
+      "team": "UNC",
+      "stat": "REB",
+      "line": 5.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jarin Stevenson",
+      "team": "UNC",
+      "stat": "REB",
+      "line": 5.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "REB+AST",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Paul McNeil Jr.",
+      "team": "NCST",
+      "stat": "3PM",
+      "line": 2.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Paul McNeil Jr.",
+      "team": "NCST",
+      "stat": "3PM",
+      "line": 2.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "AST",
+      "line": 7.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "AST",
+      "line": 7.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Seth Trimble",
+      "team": "UNC",
+      "stat": "PTS",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Seth Trimble",
+      "team": "UNC",
+      "stat": "PTS",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "PTS",
+      "line": 14.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "PTS",
+      "line": 14.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Paul McNeil Jr.",
+      "team": "NCST",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Paul McNeil Jr.",
+      "team": "NCST",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "PTS+AST",
+      "line": 21.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "PTS+AST",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "PTS+AST",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Seth Trimble",
+      "team": "UNC",
+      "stat": "PTS+AST",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "PTS+AST",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Luka Bogavac",
+      "team": "UNC",
+      "stat": "PTS+AST",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Paul McNeil Jr.",
+      "team": "NCST",
+      "stat": "PTS+AST",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Paul McNeil Jr.",
+      "team": "NCST",
+      "stat": "PTS+AST",
+      "line": 13.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jarin Stevenson",
+      "team": "UNC",
+      "stat": "PTS+AST",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jarin Stevenson",
+      "team": "UNC",
+      "stat": "PTS+AST",
+      "line": 12.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "PTS+REB",
+      "line": 22.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "PTS+REB",
+      "line": 22.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "PTS+REB",
+      "line": 20.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Seth Trimble",
+      "team": "UNC",
+      "stat": "PTS+REB",
+      "line": 20.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "PTS+REB",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jarin Stevenson",
+      "team": "UNC",
+      "stat": "PTS+REB",
+      "line": 17.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Paul McNeil Jr.",
+      "team": "NCST",
+      "stat": "PTS+REB",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "PRA",
+      "line": 23.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "PRA",
+      "line": 23.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "PRA",
+      "line": 23.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "PRA",
+      "line": 23.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Paul McNeil Jr.",
+      "team": "NCST",
+      "stat": "PRA",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Paul McNeil Jr.",
+      "team": "NCST",
+      "stat": "PRA",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Luka Bogavac",
+      "team": "UNC",
+      "stat": "PRA",
+      "line": 16.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Luka Bogavac",
+      "team": "UNC",
+      "stat": "PRA",
+      "line": 16.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "REB",
+      "line": 8.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "REB",
+      "line": 8.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "REB",
+      "line": 5.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "REB",
+      "line": 5.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "REB+AST",
+      "line": 11.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "REB+AST",
+      "line": 11.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "REB+AST",
+      "line": 9.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "REB+AST",
+      "line": 9.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "REB+AST",
+      "line": 7.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jarin Stevenson",
+      "team": "UNC",
+      "stat": "REB+AST",
+      "line": 6.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jarin Stevenson",
+      "team": "UNC",
+      "stat": "REB+AST",
+      "line": 6.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Seth Trimble",
+      "team": "UNC",
+      "stat": "REB+AST",
+      "line": 6.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Seth Trimble",
+      "team": "UNC",
+      "stat": "REB+AST",
+      "line": 6.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "3PM",
+      "line": 0.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "3PM",
+      "line": 0.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robbie Avila",
+      "team": "SLU",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robbie Avila",
+      "team": "SLU",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amari McCottry",
+      "team": "SLU",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amari McCottry",
+      "team": "SLU",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trey Green",
+      "team": "SLU",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trey Green",
+      "team": "SLU",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Myles Corey",
+      "team": "URI",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Myles Corey",
+      "team": "URI",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robbie Avila",
+      "team": "SLU",
+      "stat": "PTS+AST",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robbie Avila",
+      "team": "SLU",
+      "stat": "PTS+REB",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Keeyan Itejere",
+      "team": "URI",
+      "stat": "PTS+REB",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trey Green",
+      "team": "SLU",
+      "stat": "PTS+REB",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Cochran",
+      "team": "URI",
+      "stat": "PTS+REB",
+      "line": 24.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robbie Avila",
+      "team": "SLU",
+      "stat": "PRA",
+      "line": 21.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robbie Avila",
+      "team": "SLU",
+      "stat": "PRA",
+      "line": 21.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amari McCottry",
+      "team": "SLU",
+      "stat": "PRA",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amari McCottry",
+      "team": "SLU",
+      "stat": "PRA",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quentin Jones",
+      "team": "SLU",
+      "stat": "PRA",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quentin Jones",
+      "team": "SLU",
+      "stat": "PRA",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Keeyan Itejere",
+      "team": "URI",
+      "stat": "PRA",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Keeyan Itejere",
+      "team": "URI",
+      "stat": "PRA",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Dion Brown",
+      "team": "SLU",
+      "stat": "PRA",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Dion Brown",
+      "team": "SLU",
+      "stat": "PRA",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trey Green",
+      "team": "SLU",
+      "stat": "PRA",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trey Green",
+      "team": "SLU",
+      "stat": "PRA",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Cochran",
+      "team": "URI",
+      "stat": "PRA",
+      "line": 26.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Cochran",
+      "team": "URI",
+      "stat": "PRA",
+      "line": 26.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amari McCottry",
+      "team": "SLU",
+      "stat": "REB",
+      "line": 5.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amari McCottry",
+      "team": "SLU",
+      "stat": "REB",
+      "line": 5.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Keeyan Itejere",
+      "team": "URI",
+      "stat": "REB",
+      "line": 6.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Keeyan Itejere",
+      "team": "URI",
+      "stat": "REB",
+      "line": 6.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Dion Brown",
+      "team": "SLU",
+      "stat": "REB",
+      "line": 4.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Dion Brown",
+      "team": "SLU",
+      "stat": "REB",
+      "line": 4.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Cochran",
+      "team": "URI",
+      "stat": "REB",
+      "line": 6.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Cochran",
+      "team": "URI",
+      "stat": "REB",
+      "line": 6.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robbie Avila",
+      "team": "SLU",
+      "stat": "REB+AST",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quentin Jones",
+      "team": "SLU",
+      "stat": "REB+AST",
+      "line": 6.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Cochran",
+      "team": "URI",
+      "stat": "REB+AST",
+      "line": 8.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trey Green",
+      "team": "SLU",
+      "stat": "3PM",
+      "line": 2.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trey Green",
+      "team": "SLU",
+      "stat": "3PM",
+      "line": 2.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robbie Avila",
+      "team": "SLU",
+      "stat": "AST",
+      "line": 4.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robbie Avila",
+      "team": "SLU",
+      "stat": "AST",
+      "line": 4.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Cochran",
+      "team": "URI",
+      "stat": "PTS",
+      "line": 18.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Cochran",
+      "team": "URI",
+      "stat": "PTS",
+      "line": 18.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quentin Jones",
+      "team": "SLU",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quentin Jones",
+      "team": "SLU",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Dion Brown",
+      "team": "SLU",
+      "stat": "PTS",
+      "line": 9.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Dion Brown",
+      "team": "SLU",
+      "stat": "PTS",
+      "line": 9.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Keeyan Itejere",
+      "team": "URI",
+      "stat": "PTS",
+      "line": 8.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Keeyan Itejere",
+      "team": "URI",
+      "stat": "PTS",
+      "line": 8.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Cochran",
+      "team": "URI",
+      "stat": "PTS+AST",
+      "line": 20.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Cochran",
+      "team": "URI",
+      "stat": "PTS+AST",
+      "line": 20.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robbie Avila",
+      "team": "SLU",
+      "stat": "PTS+AST",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amari McCottry",
+      "team": "SLU",
+      "stat": "PTS+AST",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amari McCottry",
+      "team": "SLU",
+      "stat": "PTS+AST",
+      "line": 12.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quentin Jones",
+      "team": "SLU",
+      "stat": "PTS+AST",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quentin Jones",
+      "team": "SLU",
+      "stat": "PTS+AST",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Cochran",
+      "team": "URI",
+      "stat": "PTS+REB",
+      "line": 24.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robbie Avila",
+      "team": "SLU",
+      "stat": "PTS+REB",
+      "line": 17.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robbie Avila",
+      "team": "SLU",
+      "stat": "PTS+REB",
+      "line": 17.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robbie Avila",
+      "team": "SLU",
+      "stat": "PTS+REB",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robbie Avila",
+      "team": "SLU",
+      "stat": "PTS+REB",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amari McCottry",
+      "team": "SLU",
+      "stat": "PTS+REB",
+      "line": 16.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amari McCottry",
+      "team": "SLU",
+      "stat": "PTS+REB",
+      "line": 16.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amari McCottry",
+      "team": "SLU",
+      "stat": "PTS+REB",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amari McCottry",
+      "team": "SLU",
+      "stat": "PTS+REB",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Keeyan Itejere",
+      "team": "URI",
+      "stat": "PTS+REB",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Keeyan Itejere",
+      "team": "URI",
+      "stat": "PTS+REB",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Myles Corey",
+      "team": "URI",
+      "stat": "PTS+REB",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Myles Corey",
+      "team": "URI",
+      "stat": "PTS+REB",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trey Green",
+      "team": "SLU",
+      "stat": "PTS+REB",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quentin Jones",
+      "team": "SLU",
+      "stat": "PTS+REB",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quentin Jones",
+      "team": "SLU",
+      "stat": "PTS+REB",
+      "line": 13.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Keeyan Itejere",
+      "team": "URI",
+      "stat": "PRA",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Keeyan Itejere",
+      "team": "URI",
+      "stat": "PRA",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Myles Corey",
+      "team": "URI",
+      "stat": "PRA",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Myles Corey",
+      "team": "URI",
+      "stat": "PRA",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robbie Avila",
+      "team": "SLU",
+      "stat": "REB",
+      "line": 5.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robbie Avila",
+      "team": "SLU",
+      "stat": "REB",
+      "line": 5.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Robbie Avila",
+      "team": "SLU",
+      "stat": "REB+AST",
+      "line": 9.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amari McCottry",
+      "team": "SLU",
+      "stat": "REB+AST",
+      "line": 8.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amari McCottry",
+      "team": "SLU",
+      "stat": "REB+AST",
+      "line": 8.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quentin Jones",
+      "team": "SLU",
+      "stat": "REB+AST",
+      "line": 6.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Micah Robinson",
+      "team": "TCU",
+      "stat": "AST",
+      "line": 1.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Micah Robinson",
+      "team": "TCU",
+      "stat": "AST",
+      "line": 1.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Brock Harding",
+      "team": "TCU",
+      "stat": "PTS",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Brock Harding",
+      "team": "TCU",
+      "stat": "PTS",
+      "line": 7.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Riley Kugel",
+      "team": "UCF",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Riley Kugel",
+      "team": "UCF",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xavier Edmonds",
+      "team": "TCU",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xavier Edmonds",
+      "team": "TCU",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jayden Pierre",
+      "team": "TCU",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jayden Pierre",
+      "team": "TCU",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Themus Fulks",
+      "team": "UCF",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Themus Fulks",
+      "team": "UCF",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Micah Robinson",
+      "team": "TCU",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Micah Robinson",
+      "team": "TCU",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "John Bol",
+      "team": "UCF",
+      "stat": "PTS",
+      "line": 6.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "John Bol",
+      "team": "UCF",
+      "stat": "PTS",
+      "line": 6.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "David Punch",
+      "team": "TCU",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "David Punch",
+      "team": "TCU",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Riley Kugel",
+      "team": "UCF",
+      "stat": "PTS+AST",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xavier Edmonds",
+      "team": "TCU",
+      "stat": "PTS+AST",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Riley Kugel",
+      "team": "UCF",
+      "stat": "PTS+REB",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jordan Burks",
+      "team": "UCF",
+      "stat": "PTS+REB",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xavier Edmonds",
+      "team": "TCU",
+      "stat": "PTS+REB",
+      "line": 23.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Themus Fulks",
+      "team": "UCF",
+      "stat": "PTS+REB",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Micah Robinson",
+      "team": "TCU",
+      "stat": "PTS+REB",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "David Punch",
+      "team": "TCU",
+      "stat": "PTS+REB",
+      "line": 20.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Brock Harding",
+      "team": "TCU",
+      "stat": "PRA",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Brock Harding",
+      "team": "TCU",
+      "stat": "PRA",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Riley Kugel",
+      "team": "UCF",
+      "stat": "PRA",
+      "line": 20.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Riley Kugel",
+      "team": "UCF",
+      "stat": "PRA",
+      "line": 20.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jordan Burks",
+      "team": "UCF",
+      "stat": "PRA",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jordan Burks",
+      "team": "UCF",
+      "stat": "PRA",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xavier Edmonds",
+      "team": "TCU",
+      "stat": "PRA",
+      "line": 24.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xavier Edmonds",
+      "team": "TCU",
+      "stat": "PRA",
+      "line": 24.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jayden Pierre",
+      "team": "TCU",
+      "stat": "PRA",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jayden Pierre",
+      "team": "TCU",
+      "stat": "PRA",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Themus Fulks",
+      "team": "UCF",
+      "stat": "PRA",
+      "line": 24.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Themus Fulks",
+      "team": "UCF",
+      "stat": "PRA",
+      "line": 24.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Micah Robinson",
+      "team": "TCU",
+      "stat": "PRA",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Micah Robinson",
+      "team": "TCU",
+      "stat": "PRA",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "David Punch",
+      "team": "TCU",
+      "stat": "PRA",
+      "line": 22.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "David Punch",
+      "team": "TCU",
+      "stat": "PRA",
+      "line": 22.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Riley Kugel",
+      "team": "UCF",
+      "stat": "REB",
+      "line": 3.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Riley Kugel",
+      "team": "UCF",
+      "stat": "REB",
+      "line": 3.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "John Bol",
+      "team": "UCF",
+      "stat": "REB",
+      "line": 6.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "John Bol",
+      "team": "UCF",
+      "stat": "REB",
+      "line": 6.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "David Punch",
+      "team": "TCU",
+      "stat": "REB",
+      "line": 5.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "David Punch",
+      "team": "TCU",
+      "stat": "REB",
+      "line": 5.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Riley Kugel",
+      "team": "UCF",
+      "stat": "REB+AST",
+      "line": 6.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Themus Fulks",
+      "team": "UCF",
+      "stat": "REB+AST",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Riley Kugel",
+      "team": "UCF",
+      "stat": "3PM",
+      "line": 1.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Riley Kugel",
+      "team": "UCF",
+      "stat": "3PM",
+      "line": 1.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xavier Edmonds",
+      "team": "TCU",
+      "stat": "PTS",
+      "line": 15.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xavier Edmonds",
+      "team": "TCU",
+      "stat": "PTS",
+      "line": 15.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jordan Burks",
+      "team": "UCF",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jordan Burks",
+      "team": "UCF",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jordan Burks",
+      "team": "UCF",
+      "stat": "PTS",
+      "line": 13.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jordan Burks",
+      "team": "UCF",
+      "stat": "PTS",
+      "line": 13.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jayden Pierre",
+      "team": "TCU",
+      "stat": "PTS",
+      "line": 10.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jayden Pierre",
+      "team": "TCU",
+      "stat": "PTS",
+      "line": 10.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Themus Fulks",
+      "team": "UCF",
+      "stat": "PTS+AST",
+      "line": 20.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Themus Fulks",
+      "team": "UCF",
+      "stat": "PTS+AST",
+      "line": 20.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Riley Kugel",
+      "team": "UCF",
+      "stat": "PTS+AST",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xavier Edmonds",
+      "team": "TCU",
+      "stat": "PTS+AST",
+      "line": 16.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xavier Edmonds",
+      "team": "TCU",
+      "stat": "PTS+AST",
+      "line": 16.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jayden Pierre",
+      "team": "TCU",
+      "stat": "PTS+AST",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jayden Pierre",
+      "team": "TCU",
+      "stat": "PTS+AST",
+      "line": 13.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Brock Harding",
+      "team": "TCU",
+      "stat": "PTS+AST",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Brock Harding",
+      "team": "TCU",
+      "stat": "PTS+AST",
+      "line": 12.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Micah Robinson",
+      "team": "TCU",
+      "stat": "PTS+AST",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Micah Robinson",
+      "team": "TCU",
+      "stat": "PTS+AST",
+      "line": 12.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xavier Edmonds",
+      "team": "TCU",
+      "stat": "PTS+REB",
+      "line": 23.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "David Punch",
+      "team": "TCU",
+      "stat": "PTS+REB",
+      "line": 20.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "David Punch",
+      "team": "TCU",
+      "stat": "PTS+REB",
+      "line": 20.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jordan Burks",
+      "team": "UCF",
+      "stat": "PTS+REB",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Riley Kugel",
+      "team": "UCF",
+      "stat": "PTS+REB",
+      "line": 17.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Themus Fulks",
+      "team": "UCF",
+      "stat": "PTS+REB",
+      "line": 17.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Micah Robinson",
+      "team": "TCU",
+      "stat": "PTS+REB",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jayden Pierre",
+      "team": "TCU",
+      "stat": "PTS+REB",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jayden Pierre",
+      "team": "TCU",
+      "stat": "PTS+REB",
+      "line": 13.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Brock Harding",
+      "team": "TCU",
+      "stat": "PTS+REB",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Brock Harding",
+      "team": "TCU",
+      "stat": "PTS+REB",
+      "line": 10.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Themus Fulks",
+      "team": "UCF",
+      "stat": "PRA",
+      "line": 25.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Themus Fulks",
+      "team": "UCF",
+      "stat": "PRA",
+      "line": 25.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "David Punch",
+      "team": "TCU",
+      "stat": "PRA",
+      "line": 22.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "David Punch",
+      "team": "TCU",
+      "stat": "PRA",
+      "line": 22.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jordan Burks",
+      "team": "UCF",
+      "stat": "PRA",
+      "line": 19.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jordan Burks",
+      "team": "UCF",
+      "stat": "PRA",
+      "line": 19.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jayden Pierre",
+      "team": "TCU",
+      "stat": "PRA",
+      "line": 16.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jayden Pierre",
+      "team": "TCU",
+      "stat": "PRA",
+      "line": 16.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xavier Edmonds",
+      "team": "TCU",
+      "stat": "REB",
+      "line": 8.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xavier Edmonds",
+      "team": "TCU",
+      "stat": "REB",
+      "line": 8.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jordan Burks",
+      "team": "UCF",
+      "stat": "REB",
+      "line": 5.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jordan Burks",
+      "team": "UCF",
+      "stat": "REB",
+      "line": 5.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Micah Robinson",
+      "team": "TCU",
+      "stat": "REB",
+      "line": 4.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Micah Robinson",
+      "team": "TCU",
+      "stat": "REB",
+      "line": 4.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xavier Edmonds",
+      "team": "TCU",
+      "stat": "REB+AST",
+      "line": 9.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Xavier Edmonds",
+      "team": "TCU",
+      "stat": "REB+AST",
+      "line": 9.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Brock Harding",
+      "team": "TCU",
+      "stat": "REB+AST",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Brock Harding",
+      "team": "TCU",
+      "stat": "REB+AST",
+      "line": 7.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "David Punch",
+      "team": "TCU",
+      "stat": "REB+AST",
+      "line": 7.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "David Punch",
+      "team": "TCU",
+      "stat": "REB+AST",
+      "line": 7.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Riley Kugel",
+      "team": "UCF",
+      "stat": "REB+AST",
+      "line": 6.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jayden Pierre",
+      "team": "TCU",
+      "stat": "REB+AST",
+      "line": 5.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jayden Pierre",
+      "team": "TCU",
+      "stat": "REB+AST",
+      "line": 5.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jadrian Tracey",
+      "team": "VCU",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jadrian Tracey",
+      "team": "VCU",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Lazar Djokovic",
+      "team": "VCU",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Lazar Djokovic",
+      "team": "VCU",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Barry Evans",
+      "team": "VCU",
+      "stat": "PTS",
+      "line": 5.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Barry Evans",
+      "team": "VCU",
+      "stat": "PTS",
+      "line": 5.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jadrian Tracey",
+      "team": "VCU",
+      "stat": "PTS+REB",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Lazar Djokovic",
+      "team": "VCU",
+      "stat": "PTS+REB",
+      "line": 23.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jadrian Tracey",
+      "team": "VCU",
+      "stat": "PRA",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jadrian Tracey",
+      "team": "VCU",
+      "stat": "PRA",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Lazar Djokovic",
+      "team": "VCU",
+      "stat": "PRA",
+      "line": 24.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Lazar Djokovic",
+      "team": "VCU",
+      "stat": "PRA",
+      "line": 24.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nyk Lewis",
+      "team": "VCU",
+      "stat": "PRA",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nyk Lewis",
+      "team": "VCU",
+      "stat": "PRA",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Barry Evans",
+      "team": "VCU",
+      "stat": "PRA",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Barry Evans",
+      "team": "VCU",
+      "stat": "PRA",
+      "line": 12.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Lazar Djokovic",
+      "team": "VCU",
+      "stat": "REB",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Lazar Djokovic",
+      "team": "VCU",
+      "stat": "REB",
+      "line": 7.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Barry Evans",
+      "team": "VCU",
+      "stat": "REB",
+      "line": 4.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Barry Evans",
+      "team": "VCU",
+      "stat": "REB",
+      "line": 4.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Barry Evans",
+      "team": "VCU",
+      "stat": "REB+AST",
+      "line": 6.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nyk Lewis",
+      "team": "VCU",
+      "stat": "PTS",
+      "line": 8.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nyk Lewis",
+      "team": "VCU",
+      "stat": "PTS",
+      "line": 8.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Lazar Djokovic",
+      "team": "VCU",
+      "stat": "PTS+AST",
+      "line": 17.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Lazar Djokovic",
+      "team": "VCU",
+      "stat": "PTS+AST",
+      "line": 17.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Lazar Djokovic",
+      "team": "VCU",
+      "stat": "PTS+REB",
+      "line": 23.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jadrian Tracey",
+      "team": "VCU",
+      "stat": "PTS+REB",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nyk Lewis",
+      "team": "VCU",
+      "stat": "PTS+REB",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nyk Lewis",
+      "team": "VCU",
+      "stat": "PTS+REB",
+      "line": 12.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nyk Lewis",
+      "team": "VCU",
+      "stat": "REB",
+      "line": 4.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nyk Lewis",
+      "team": "VCU",
+      "stat": "REB",
+      "line": 4.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Lazar Djokovic",
+      "team": "VCU",
+      "stat": "REB+AST",
+      "line": 9.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Lazar Djokovic",
+      "team": "VCU",
+      "stat": "REB+AST",
+      "line": 9.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Barry Evans",
+      "team": "VCU",
+      "stat": "REB+AST",
+      "line": 6.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ben Hammond",
+      "team": "VT",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ben Hammond",
+      "team": "VT",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jailen Bedford",
+      "team": "VT",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jailen Bedford",
+      "team": "VT",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tobi Lawal",
+      "team": "VT",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tobi Lawal",
+      "team": "VT",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Shelton Henderson",
+      "team": "MIA",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Shelton Henderson",
+      "team": "MIA",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Donaldson",
+      "team": "MIA",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Donaldson",
+      "team": "MIA",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amani Hansberry",
+      "team": "VT",
+      "stat": "PTS+AST",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ben Hammond",
+      "team": "VT",
+      "stat": "PTS+AST",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jailen Bedford",
+      "team": "VT",
+      "stat": "PTS+AST",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Shelton Henderson",
+      "team": "MIA",
+      "stat": "PTS+AST",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Donaldson",
+      "team": "MIA",
+      "stat": "PTS+AST",
+      "line": 20.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Reneau",
+      "team": "MIA",
+      "stat": "PTS+REB",
+      "line": 27.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amani Hansberry",
+      "team": "VT",
+      "stat": "PTS+REB",
+      "line": 19.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jailen Bedford",
+      "team": "VT",
+      "stat": "PTS+REB",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tobi Lawal",
+      "team": "VT",
+      "stat": "PTS+REB",
+      "line": 19.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Shelton Henderson",
+      "team": "MIA",
+      "stat": "PTS+REB",
+      "line": 20.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Donaldson",
+      "team": "MIA",
+      "stat": "PTS+REB",
+      "line": 19.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Reneau",
+      "team": "MIA",
+      "stat": "PRA",
+      "line": 29.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Reneau",
+      "team": "MIA",
+      "stat": "PRA",
+      "line": 29.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amani Hansberry",
+      "team": "VT",
+      "stat": "PRA",
+      "line": 21.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amani Hansberry",
+      "team": "VT",
+      "stat": "PRA",
+      "line": 21.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ben Hammond",
+      "team": "VT",
+      "stat": "PRA",
+      "line": 20.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ben Hammond",
+      "team": "VT",
+      "stat": "PRA",
+      "line": 20.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jailen Bedford",
+      "team": "VT",
+      "stat": "PRA",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jailen Bedford",
+      "team": "VT",
+      "stat": "PRA",
+      "line": 17.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tobi Lawal",
+      "team": "VT",
+      "stat": "PRA",
+      "line": 20.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tobi Lawal",
+      "team": "VT",
+      "stat": "PRA",
+      "line": 20.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Shelton Henderson",
+      "team": "MIA",
+      "stat": "PRA",
+      "line": 22.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Shelton Henderson",
+      "team": "MIA",
+      "stat": "PRA",
+      "line": 22.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Donaldson",
+      "team": "MIA",
+      "stat": "PRA",
+      "line": 24.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Donaldson",
+      "team": "MIA",
+      "stat": "PRA",
+      "line": 24.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Reneau",
+      "team": "MIA",
+      "stat": "REB",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Reneau",
+      "team": "MIA",
+      "stat": "REB",
+      "line": 7.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ben Hammond",
+      "team": "VT",
+      "stat": "REB",
+      "line": 2.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ben Hammond",
+      "team": "VT",
+      "stat": "REB",
+      "line": 2.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Reneau",
+      "team": "MIA",
+      "stat": "REB+AST",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tobi Lawal",
+      "team": "VT",
+      "stat": "REB+AST",
+      "line": 8.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Donaldson",
+      "team": "MIA",
+      "stat": "REB+AST",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Donaldson",
+      "team": "MIA",
+      "stat": "AST",
+      "line": 5.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Donaldson",
+      "team": "MIA",
+      "stat": "AST",
+      "line": 5.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Neoklis Avdalas",
+      "team": "VT",
+      "stat": "AST",
+      "line": 4.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Neoklis Avdalas",
+      "team": "VT",
+      "stat": "AST",
+      "line": 4.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tobi Lawal",
+      "team": "VT",
+      "stat": "AST",
+      "line": 0.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tobi Lawal",
+      "team": "VT",
+      "stat": "AST",
+      "line": 0.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Reneau",
+      "team": "MIA",
+      "stat": "PTS+AST",
+      "line": 22.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Reneau",
+      "team": "MIA",
+      "stat": "PTS+AST",
+      "line": 22.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ben Hammond",
+      "team": "VT",
+      "stat": "PTS+AST",
+      "line": 17.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Shelton Henderson",
+      "team": "MIA",
+      "stat": "PTS+AST",
+      "line": 17.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amani Hansberry",
+      "team": "VT",
+      "stat": "PTS+AST",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jailen Bedford",
+      "team": "VT",
+      "stat": "PTS+AST",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Neoklis Avdalas",
+      "team": "VT",
+      "stat": "PTS+AST",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Neoklis Avdalas",
+      "team": "VT",
+      "stat": "PTS+AST",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tobi Lawal",
+      "team": "VT",
+      "stat": "PTS+AST",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tobi Lawal",
+      "team": "VT",
+      "stat": "PTS+AST",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Reneau",
+      "team": "MIA",
+      "stat": "PTS+REB",
+      "line": 27.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Shelton Henderson",
+      "team": "MIA",
+      "stat": "PTS+REB",
+      "line": 21.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Shelton Henderson",
+      "team": "MIA",
+      "stat": "PTS+REB",
+      "line": 21.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tobi Lawal",
+      "team": "VT",
+      "stat": "PTS+REB",
+      "line": 19.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Donaldson",
+      "team": "MIA",
+      "stat": "PTS+REB",
+      "line": 19.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amani Hansberry",
+      "team": "VT",
+      "stat": "PTS+REB",
+      "line": 19.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amani Hansberry",
+      "team": "VT",
+      "stat": "PTS+REB",
+      "line": 19.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ben Hammond",
+      "team": "VT",
+      "stat": "PTS+REB",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ben Hammond",
+      "team": "VT",
+      "stat": "PTS+REB",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jailen Bedford",
+      "team": "VT",
+      "stat": "PTS+REB",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Neoklis Avdalas",
+      "team": "VT",
+      "stat": "PTS+REB",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Neoklis Avdalas",
+      "team": "VT",
+      "stat": "PTS+REB",
+      "line": 13.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ben Hammond",
+      "team": "VT",
+      "stat": "PRA",
+      "line": 20.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ben Hammond",
+      "team": "VT",
+      "stat": "PRA",
+      "line": 20.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tobi Lawal",
+      "team": "VT",
+      "stat": "PRA",
+      "line": 20.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tobi Lawal",
+      "team": "VT",
+      "stat": "PRA",
+      "line": 20.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tobi Lawal",
+      "team": "VT",
+      "stat": "PRA",
+      "line": 19.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tobi Lawal",
+      "team": "VT",
+      "stat": "PRA",
+      "line": 19.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Neoklis Avdalas",
+      "team": "VT",
+      "stat": "PRA",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Neoklis Avdalas",
+      "team": "VT",
+      "stat": "PRA",
+      "line": 17.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tobi Lawal",
+      "team": "VT",
+      "stat": "REB",
+      "line": 8.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tobi Lawal",
+      "team": "VT",
+      "stat": "REB",
+      "line": 8.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Donaldson",
+      "team": "MIA",
+      "stat": "REB",
+      "line": 4.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Donaldson",
+      "team": "MIA",
+      "stat": "REB",
+      "line": 4.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Reneau",
+      "team": "MIA",
+      "stat": "REB+AST",
+      "line": 9.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Donaldson",
+      "team": "MIA",
+      "stat": "REB+AST",
+      "line": 9.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amani Hansberry",
+      "team": "VT",
+      "stat": "REB+AST",
+      "line": 9.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amani Hansberry",
+      "team": "VT",
+      "stat": "REB+AST",
+      "line": 9.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tobi Lawal",
+      "team": "VT",
+      "stat": "REB+AST",
+      "line": 8.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Shelton Henderson",
+      "team": "MIA",
+      "stat": "REB+AST",
+      "line": 7.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Shelton Henderson",
+      "team": "MIA",
+      "stat": "REB+AST",
+      "line": 7.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Neoklis Avdalas",
+      "team": "VT",
+      "stat": "REB+AST",
+      "line": 7.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Neoklis Avdalas",
+      "team": "VT",
+      "stat": "REB+AST",
+      "line": 7.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ben Hammond",
+      "team": "VT",
+      "stat": "REB+AST",
+      "line": 5.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ben Hammond",
+      "team": "VT",
+      "stat": "REB+AST",
+      "line": 5.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jailen Bedford",
+      "team": "VT",
+      "stat": "REB+AST",
+      "line": 4.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jailen Bedford",
+      "team": "VT",
+      "stat": "REB+AST",
+      "line": 4.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jailen Bedford",
+      "team": "VT",
+      "stat": "3PM",
+      "line": 1.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jailen Bedford",
+      "team": "VT",
+      "stat": "3PM",
+      "line": 1.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ben Hammond",
+      "team": "VT",
+      "stat": "3PM",
+      "line": 1.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ben Hammond",
+      "team": "VT",
+      "stat": "3PM",
+      "line": 1.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tobi Lawal",
+      "team": "VT",
+      "stat": "3PM",
+      "line": 0.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tobi Lawal",
+      "team": "VT",
+      "stat": "3PM",
+      "line": 0.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Zaon Collins",
+      "team": "FRES",
+      "stat": "AST",
+      "line": 3.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Zaon Collins",
+      "team": "FRES",
+      "stat": "AST",
+      "line": 3.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Zaon Collins",
+      "team": "FRES",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Zaon Collins",
+      "team": "FRES",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Leland Walker",
+      "team": "WYO",
+      "stat": "PTS",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Leland Walker",
+      "team": "WYO",
+      "stat": "PTS",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Zaon Collins",
+      "team": "FRES",
+      "stat": "PTS+AST",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Khaden Bennett",
+      "team": "WYO",
+      "stat": "PTS+AST",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Leland Walker",
+      "team": "WYO",
+      "stat": "PTS+AST",
+      "line": 20.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Zaon Collins",
+      "team": "FRES",
+      "stat": "PTS+REB",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Leland Walker",
+      "team": "WYO",
+      "stat": "PTS+REB",
+      "line": 19.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Zaon Collins",
+      "team": "FRES",
+      "stat": "PRA",
+      "line": 19.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Zaon Collins",
+      "team": "FRES",
+      "stat": "PRA",
+      "line": 19.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Khaden Bennett",
+      "team": "WYO",
+      "stat": "PRA",
+      "line": 22.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Khaden Bennett",
+      "team": "WYO",
+      "stat": "PRA",
+      "line": 22.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "DeShawn Gory",
+      "team": "FRES",
+      "stat": "PRA",
+      "line": 26.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "DeShawn Gory",
+      "team": "FRES",
+      "stat": "PRA",
+      "line": 26.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Leland Walker",
+      "team": "WYO",
+      "stat": "PRA",
+      "line": 23.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Leland Walker",
+      "team": "WYO",
+      "stat": "PRA",
+      "line": 23.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Zaon Collins",
+      "team": "FRES",
+      "stat": "REB+AST",
+      "line": 6.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Leland Walker",
+      "team": "WYO",
+      "stat": "REB+AST",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Leland Walker",
+      "team": "WYO",
+      "stat": "AST",
+      "line": 4.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Leland Walker",
+      "team": "WYO",
+      "stat": "AST",
+      "line": 4.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "DeShawn Gory",
+      "team": "FRES",
+      "stat": "PTS",
+      "line": 17.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "DeShawn Gory",
+      "team": "FRES",
+      "stat": "PTS",
+      "line": 17.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nasir Meyer",
+      "team": "WYO",
+      "stat": "PTS",
+      "line": 13.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nasir Meyer",
+      "team": "WYO",
+      "stat": "PTS",
+      "line": 13.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Khaden Bennett",
+      "team": "WYO",
+      "stat": "PTS",
+      "line": 12.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Khaden Bennett",
+      "team": "WYO",
+      "stat": "PTS",
+      "line": 12.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Leland Walker",
+      "team": "WYO",
+      "stat": "PTS+AST",
+      "line": 20.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "DeShawn Gory",
+      "team": "FRES",
+      "stat": "PTS+AST",
+      "line": 19.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "DeShawn Gory",
+      "team": "FRES",
+      "stat": "PTS+AST",
+      "line": 19.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Zaon Collins",
+      "team": "FRES",
+      "stat": "PTS+AST",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Khaden Bennett",
+      "team": "WYO",
+      "stat": "PTS+AST",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "DeShawn Gory",
+      "team": "FRES",
+      "stat": "PTS+REB",
+      "line": 24.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "DeShawn Gory",
+      "team": "FRES",
+      "stat": "PTS+REB",
+      "line": 24.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Leland Walker",
+      "team": "WYO",
+      "stat": "PTS+REB",
+      "line": 19.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Khaden Bennett",
+      "team": "WYO",
+      "stat": "PTS+REB",
+      "line": 19.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Khaden Bennett",
+      "team": "WYO",
+      "stat": "PTS+REB",
+      "line": 19.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Zaon Collins",
+      "team": "FRES",
+      "stat": "PTS+REB",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "DeShawn Gory",
+      "team": "FRES",
+      "stat": "REB",
+      "line": 7.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "DeShawn Gory",
+      "team": "FRES",
+      "stat": "REB",
+      "line": 7.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Khaden Bennett",
+      "team": "WYO",
+      "stat": "REB",
+      "line": 7.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Khaden Bennett",
+      "team": "WYO",
+      "stat": "REB",
+      "line": 7.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Khaden Bennett",
+      "team": "WYO",
+      "stat": "REB+AST",
+      "line": 10.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Khaden Bennett",
+      "team": "WYO",
+      "stat": "REB+AST",
+      "line": 10.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "DeShawn Gory",
+      "team": "FRES",
+      "stat": "REB+AST",
+      "line": 9.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "DeShawn Gory",
+      "team": "FRES",
+      "stat": "REB+AST",
+      "line": 9.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Leland Walker",
+      "team": "WYO",
+      "stat": "REB+AST",
+      "line": 7.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Zaon Collins",
+      "team": "FRES",
+      "stat": "REB+AST",
+      "line": 6.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jeremy Fears Jr.",
+      "team": "MSU",
+      "stat": "AST",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jeremy Fears Jr.",
+      "team": "MSU",
+      "stat": "AST",
+      "line": 9.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Donovan Dent",
+      "team": "UCLA",
+      "stat": "AST",
+      "line": 5.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Donovan Dent",
+      "team": "UCLA",
+      "stat": "AST",
+      "line": 5.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jeremy Fears Jr.",
+      "team": "MSU",
+      "stat": "PTS",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jeremy Fears Jr.",
+      "team": "MSU",
+      "stat": "PTS",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trent Perry",
+      "team": "UCLA",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trent Perry",
+      "team": "UCLA",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Donovan Dent",
+      "team": "UCLA",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Donovan Dent",
+      "team": "UCLA",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jaxon Kohler",
+      "team": "MSU",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jaxon Kohler",
+      "team": "MSU",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Bilodeau",
+      "team": "UCLA",
+      "stat": "PTS+AST",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jeremy Fears Jr.",
+      "team": "MSU",
+      "stat": "PTS+AST",
+      "line": 26.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Donovan Dent",
+      "team": "UCLA",
+      "stat": "PTS+AST",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Bilodeau",
+      "team": "UCLA",
+      "stat": "PTS+REB",
+      "line": 20.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jeremy Fears Jr.",
+      "team": "MSU",
+      "stat": "PTS+REB",
+      "line": 19.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trent Perry",
+      "team": "UCLA",
+      "stat": "PTS+REB",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Donovan Dent",
+      "team": "UCLA",
+      "stat": "PTS+REB",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Coen Carr",
+      "team": "MSU",
+      "stat": "PTS+REB",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Bilodeau",
+      "team": "UCLA",
+      "stat": "PRA",
+      "line": 21.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Bilodeau",
+      "team": "UCLA",
+      "stat": "PRA",
+      "line": 21.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jeremy Fears Jr.",
+      "team": "MSU",
+      "stat": "PRA",
+      "line": 29.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jeremy Fears Jr.",
+      "team": "MSU",
+      "stat": "PRA",
+      "line": 29.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trent Perry",
+      "team": "UCLA",
+      "stat": "PRA",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trent Perry",
+      "team": "UCLA",
+      "stat": "PRA",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Donovan Dent",
+      "team": "UCLA",
+      "stat": "PRA",
+      "line": 21.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Donovan Dent",
+      "team": "UCLA",
+      "stat": "PRA",
+      "line": 21.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jaxon Kohler",
+      "team": "MSU",
+      "stat": "PRA",
+      "line": 20.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jaxon Kohler",
+      "team": "MSU",
+      "stat": "PRA",
+      "line": 20.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Coen Carr",
+      "team": "MSU",
+      "stat": "PRA",
+      "line": 19.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Coen Carr",
+      "team": "MSU",
+      "stat": "PRA",
+      "line": 19.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jaxon Kohler",
+      "team": "MSU",
+      "stat": "REB",
+      "line": 8.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jaxon Kohler",
+      "team": "MSU",
+      "stat": "REB",
+      "line": 8.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jaxon Kohler",
+      "team": "MSU",
+      "stat": "REB+AST",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trent Perry",
+      "team": "UCLA",
+      "stat": "3PM",
+      "line": 1.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trent Perry",
+      "team": "UCLA",
+      "stat": "3PM",
+      "line": 1.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jaxon Kohler",
+      "team": "MSU",
+      "stat": "3PM",
+      "line": 1.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jaxon Kohler",
+      "team": "MSU",
+      "stat": "3PM",
+      "line": 1.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Bilodeau",
+      "team": "UCLA",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Bilodeau",
+      "team": "UCLA",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Coen Carr",
+      "team": "MSU",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Coen Carr",
+      "team": "MSU",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jeremy Fears Jr.",
+      "team": "MSU",
+      "stat": "PTS+AST",
+      "line": 27.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jeremy Fears Jr.",
+      "team": "MSU",
+      "stat": "PTS+AST",
+      "line": 27.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Donovan Dent",
+      "team": "UCLA",
+      "stat": "PTS+AST",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Bilodeau",
+      "team": "UCLA",
+      "stat": "PTS+AST",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Bilodeau",
+      "team": "UCLA",
+      "stat": "PTS+REB",
+      "line": 20.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jeremy Fears Jr.",
+      "team": "MSU",
+      "stat": "PTS+REB",
+      "line": 20.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jeremy Fears Jr.",
+      "team": "MSU",
+      "stat": "PTS+REB",
+      "line": 20.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jaxon Kohler",
+      "team": "MSU",
+      "stat": "PTS+REB",
+      "line": 19.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jaxon Kohler",
+      "team": "MSU",
+      "stat": "PTS+REB",
+      "line": 19.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Coen Carr",
+      "team": "MSU",
+      "stat": "PTS+REB",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Donovan Dent",
+      "team": "UCLA",
+      "stat": "PTS+REB",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Trent Perry",
+      "team": "UCLA",
+      "stat": "PTS+REB",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Coen Carr",
+      "team": "MSU",
+      "stat": "REB",
+      "line": 6.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Coen Carr",
+      "team": "MSU",
+      "stat": "REB",
+      "line": 6.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Bilodeau",
+      "team": "UCLA",
+      "stat": "REB",
+      "line": 6.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Bilodeau",
+      "team": "UCLA",
+      "stat": "REB",
+      "line": 6.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jeremy Fears Jr.",
+      "team": "MSU",
+      "stat": "REB",
+      "line": 2.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jeremy Fears Jr.",
+      "team": "MSU",
+      "stat": "REB",
+      "line": 2.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jeremy Fears Jr.",
+      "team": "MSU",
+      "stat": "REB+AST",
+      "line": 12.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Jeremy Fears Jr.",
+      "team": "MSU",
+      "stat": "REB+AST",
+      "line": 12.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Bilodeau",
+      "team": "UCLA",
+      "stat": "REB+AST",
+      "line": 7.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tyler Bilodeau",
+      "team": "UCLA",
+      "stat": "REB+AST",
+      "line": 7.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Coen Carr",
+      "team": "MSU",
+      "stat": "3PM",
+      "line": 0.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Coen Carr",
+      "team": "MSU",
+      "stat": "3PM",
+      "line": 0.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Bruce Thornton",
+      "team": "OSU",
+      "stat": "AST",
+      "line": 3.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Bruce Thornton",
+      "team": "OSU",
+      "stat": "AST",
+      "line": 3.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Devin Royal",
+      "team": "OSU",
+      "stat": "AST",
+      "line": 1.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Devin Royal",
+      "team": "OSU",
+      "stat": "AST",
+      "line": 1.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Bruce Thornton",
+      "team": "OSU",
+      "stat": "PTS",
+      "line": 22.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Bruce Thornton",
+      "team": "OSU",
+      "stat": "PTS",
+      "line": 22.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nick Boyd",
+      "team": "WIS",
+      "stat": "PTS",
+      "line": 20.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nick Boyd",
+      "team": "WIS",
+      "stat": "PTS",
+      "line": 20.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "John Blackwell",
+      "team": "WIS",
+      "stat": "PTS",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "John Blackwell",
+      "team": "WIS",
+      "stat": "PTS",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Christoph Tilly",
+      "team": "OSU",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Christoph Tilly",
+      "team": "OSU",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Devin Royal",
+      "team": "OSU",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Devin Royal",
+      "team": "OSU",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Bruce Thornton",
+      "team": "OSU",
+      "stat": "PTS+AST",
+      "line": 26.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nick Boyd",
+      "team": "WIS",
+      "stat": "PTS+AST",
+      "line": 25.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "John Blackwell",
+      "team": "WIS",
+      "stat": "PTS+AST",
+      "line": 21.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Devin Royal",
+      "team": "OSU",
+      "stat": "PTS+AST",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Bruce Thornton",
+      "team": "OSU",
+      "stat": "PTS+REB",
+      "line": 28.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nick Boyd",
+      "team": "WIS",
+      "stat": "PTS+REB",
+      "line": 24.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nolan Winter",
+      "team": "WIS",
+      "stat": "PTS+REB",
+      "line": 21.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "John Blackwell",
+      "team": "WIS",
+      "stat": "PTS+REB",
+      "line": 24.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amare Bynum",
+      "team": "OSU",
+      "stat": "PTS+REB",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Devin Royal",
+      "team": "OSU",
+      "stat": "PTS+REB",
+      "line": 22.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Bruce Thornton",
+      "team": "OSU",
+      "stat": "PRA",
+      "line": 32.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Bruce Thornton",
+      "team": "OSU",
+      "stat": "PRA",
+      "line": 32.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nick Boyd",
+      "team": "WIS",
+      "stat": "PRA",
+      "line": 28.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nick Boyd",
+      "team": "WIS",
+      "stat": "PRA",
+      "line": 28.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nolan Winter",
+      "team": "WIS",
+      "stat": "PRA",
+      "line": 23.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nolan Winter",
+      "team": "WIS",
+      "stat": "PRA",
+      "line": 23.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "John Blackwell",
+      "team": "WIS",
+      "stat": "PRA",
+      "line": 26.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "John Blackwell",
+      "team": "WIS",
+      "stat": "PRA",
+      "line": 26.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Devin Royal",
+      "team": "OSU",
+      "stat": "PRA",
+      "line": 24.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Devin Royal",
+      "team": "OSU",
+      "stat": "PRA",
+      "line": 24.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Devin Royal",
+      "team": "OSU",
+      "stat": "REB",
+      "line": 5.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Devin Royal",
+      "team": "OSU",
+      "stat": "REB",
+      "line": 5.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Bruce Thornton",
+      "team": "OSU",
+      "stat": "REB+AST",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "John Blackwell",
+      "team": "WIS",
+      "stat": "3PM",
+      "line": 2.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "John Blackwell",
+      "team": "WIS",
+      "stat": "3PM",
+      "line": 2.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nick Boyd",
+      "team": "WIS",
+      "stat": "AST",
+      "line": 4.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nick Boyd",
+      "team": "WIS",
+      "stat": "AST",
+      "line": 4.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nolan Winter",
+      "team": "WIS",
+      "stat": "PTS",
+      "line": 12.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nolan Winter",
+      "team": "WIS",
+      "stat": "PTS",
+      "line": 12.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amare Bynum",
+      "team": "OSU",
+      "stat": "PTS",
+      "line": 11.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amare Bynum",
+      "team": "OSU",
+      "stat": "PTS",
+      "line": 11.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Bruce Thornton",
+      "team": "OSU",
+      "stat": "PTS+AST",
+      "line": 26.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nick Boyd",
+      "team": "WIS",
+      "stat": "PTS+AST",
+      "line": 25.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "John Blackwell",
+      "team": "WIS",
+      "stat": "PTS+AST",
+      "line": 21.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "John Blackwell",
+      "team": "WIS",
+      "stat": "PTS+AST",
+      "line": 21.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Devin Royal",
+      "team": "OSU",
+      "stat": "PTS+AST",
+      "line": 17.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Devin Royal",
+      "team": "OSU",
+      "stat": "PTS+AST",
+      "line": 17.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nolan Winter",
+      "team": "WIS",
+      "stat": "PTS+AST",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nolan Winter",
+      "team": "WIS",
+      "stat": "PTS+AST",
+      "line": 13.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Bruce Thornton",
+      "team": "OSU",
+      "stat": "PTS+REB",
+      "line": 28.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Bruce Thornton",
+      "team": "OSU",
+      "stat": "PTS+REB",
+      "line": 28.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nick Boyd",
+      "team": "WIS",
+      "stat": "PTS+REB",
+      "line": 24.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "John Blackwell",
+      "team": "WIS",
+      "stat": "PTS+REB",
+      "line": 23.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "John Blackwell",
+      "team": "WIS",
+      "stat": "PTS+REB",
+      "line": 23.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Devin Royal",
+      "team": "OSU",
+      "stat": "PTS+REB",
+      "line": 22.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Devin Royal",
+      "team": "OSU",
+      "stat": "PTS+REB",
+      "line": 22.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nolan Winter",
+      "team": "WIS",
+      "stat": "PTS+REB",
+      "line": 21.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amare Bynum",
+      "team": "OSU",
+      "stat": "PTS+REB",
+      "line": 16.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amare Bynum",
+      "team": "OSU",
+      "stat": "PTS+REB",
+      "line": 16.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "John Blackwell",
+      "team": "WIS",
+      "stat": "PRA",
+      "line": 26.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "John Blackwell",
+      "team": "WIS",
+      "stat": "PRA",
+      "line": 26.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amare Bynum",
+      "team": "OSU",
+      "stat": "PRA",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amare Bynum",
+      "team": "OSU",
+      "stat": "PRA",
+      "line": 17.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nolan Winter",
+      "team": "WIS",
+      "stat": "REB",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nolan Winter",
+      "team": "WIS",
+      "stat": "REB",
+      "line": 9.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Bruce Thornton",
+      "team": "OSU",
+      "stat": "REB",
+      "line": 5.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Bruce Thornton",
+      "team": "OSU",
+      "stat": "REB",
+      "line": 5.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "John Blackwell",
+      "team": "WIS",
+      "stat": "REB",
+      "line": 5.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "John Blackwell",
+      "team": "WIS",
+      "stat": "REB",
+      "line": 5.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amare Bynum",
+      "team": "OSU",
+      "stat": "REB",
+      "line": 5.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amare Bynum",
+      "team": "OSU",
+      "stat": "REB",
+      "line": 5.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nolan Winter",
+      "team": "WIS",
+      "stat": "REB+AST",
+      "line": 11.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Nolan Winter",
+      "team": "WIS",
+      "stat": "REB+AST",
+      "line": 11.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "John Blackwell",
+      "team": "WIS",
+      "stat": "REB+AST",
+      "line": 7.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "John Blackwell",
+      "team": "WIS",
+      "stat": "REB+AST",
+      "line": 7.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amare Bynum",
+      "team": "OSU",
+      "stat": "REB+AST",
+      "line": 6.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Amare Bynum",
+      "team": "OSU",
+      "stat": "REB+AST",
+      "line": 6.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+
+================================================================================
+RISK-FIRST ANALYSIS REPORT (Math-Only)
+================================================================================
+
+Coverage: 122/122 props with modelable stat windows (0 skipped)
+
+✅ QUALIFIED PICKS (3)
+
+================================================================================
+
+#1 | Aaron Wiggins - POINTS LOWER 17.5
+Edge: +5.3 (+0.86 sd) STRONG | Confidence: 74.2%
+Stats: μ=12.2, σ=6.2
+
+ANALYSIS:
+Model projects 12.2 points (line: 17.5) | Line is 5.3 ABOVE projection (44% gap) | Adjustments: situation +2%
+Model P(lower 17.5) = 79.9% | Final confidence = 74.2% | z = +0.86σ | Raw 80% → Final 74% (−6% penalty) | Adjustment: 79.9% → 74.2% (-5.8 pts) | Edge: +29.9% | Kelly stake: 15.0% | Tier: [STRONG] | Engine decision: [STRONG]
+
+INFO: OKC vs HOU; role=ATHLETIC_WING; minutes=MED VAR; Home: +2.0% | 📊 Multi-window projection: 11.9 | 📊 Hybrid: SLAM (edge: 28.9%)
+
+CONTEXT: [Based on 37 games | Historical hit rate: 84% | High variance player (CV=51%)]
+
+--------------------------------------------------------------------------------
+
+#2 | Amen Thompson - POINTS HIGHER 10.5
+Edge: +4.2 (+0.66 sd) STRONG | Confidence: 67.7%
+Stats: μ=14.7, σ=6.3
+
+ANALYSIS:
+Model projects 14.7 points (line: 10.5) | Line is 4.2 BELOW projection (29% gap) | Adjustments: situation -2%
+Model P(higher 10.5) = 91.3% | Final confidence = 67.7% | z = -0.66σ | Raw 91% → Final 68% (−24% penalty) | Adjustment: 91.3% → 67.7% (-23.6 pts) | Edge: +41.3% | Kelly stake: 20.7% | Tier: [STRONG] | Engine decision: [STRONG]
+
+INFO: HOU vs OKC; role=SECONDARY_WING; minutes=LOW VAR; Away: -2.0% | 📊 Multi-window projection: 15.0 | 📊 Hybrid: SLAM (edge: 20.0%)
+
+CONTEXT: [Based on 50 games | Historical hit rate: 86% | High variance player (CV=43%)]
+
+--------------------------------------------------------------------------------
+
+#3 | Amen Thompson - ASSISTS HIGHER 3.5
+Edge: +2.7 (+0.97 sd) STRONG | Confidence: 67.7%
+Stats: μ=6.2, σ=2.8
+
+ANALYSIS:
+Model projects 6.2 assists (line: 3.5) | Line is 2.7 BELOW projection (44% gap) | Adjustments: situation -2%
+Model P(higher 3.5) = 75.5% | Final confidence = 67.7% | z = -0.97σ | Raw 75% → Final 68% (−8% penalty) | Adjustment: 75.5% → 67.7% (-7.8 pts) | Edge: +25.5% | Kelly stake: 12.7% | Tier: [STRONG] | Engine decision: [STRONG]
+
+INFO: HOU vs OKC; role=SECONDARY_WING; minutes=LOW VAR; Away: -2.0% | 📊 Multi-window projection: 6.3 | 📊 Hybrid: SLAM (edge: 35.0%)
+
+CONTEXT: [Based on 50 games | Historical hit rate: 78% | High variance player (CV=45%)]
+
+--------------------------------------------------------------------------------
+
+
+❌ BLOCKED PICKS (showing 10 of 32)
+
+================================================================================
+
+[BLOCK] Kevin Durant REBOUNDS OVER 5.5: Role gate - historical usage doesn't support this stat
+INFO: HOU vs OKC; role=SCORER; minutes=LOW VAR; Away: -1.0% | 📊 Multi-window projection: 5.0
+
+[BLOCK] Kevin Durant ASSISTS OVER 4.5: Role gate - historical usage doesn't support this stat
+INFO: HOU vs OKC; role=SCORER; minutes=LOW VAR; Away: -2.0% | 📊 Multi-window projection: 4.2
+
+[BLOCK] Jaylin Williams POINTS OVER 6.5: Bench gate - starter minutes not guaranteed
+INFO: OKC vs HOU; minutes=HIGH VAR; Home: +2.0% | 📊 Multi-window projection: 7.8 | 📊 Hybrid: LEAN (edge: 3.7%)
+
+[BLOCK] Jaylin Williams PRA OVER 14.5: Bench gate - starter minutes not guaranteed
+INFO: OKC vs HOU; minutes=HIGH VAR; Home: +2.0% | 🚫 Hybrid VETO: Insufficient sample size (n=0 < 5)
+
+[BLOCK] Jaylin Williams REBOUNDS OVER 4.5: Bench gate - starter minutes not guaranteed
+INFO: OKC vs HOU; minutes=HIGH VAR; Home: +1.0% | 📊 Multi-window projection: 6.3 | 📊 Hybrid: STRONG (edge: 14.3%)
+
+[BLOCK] Jaylin Williams ASSISTS OVER 2.5: Bench gate - starter minutes not guaranteed
+INFO: OKC vs HOU; minutes=HIGH VAR; Home: +2.0% | 📊 Multi-window projection: 2.8 | 📊 Hybrid: LEAN (edge: 4.7%)
+
+[BLOCK] Cason Wallace POINTS OVER 10.5: Bench gate - starter minutes not guaranteed
+INFO: OKC vs HOU; minutes=MED VAR; Home: +2.0% | 📊 Multi-window projection: 10.3
+
+[BLOCK] Cason Wallace PRA OVER 17.5: Bench gate - starter minutes not guaranteed
+INFO: OKC vs HOU; minutes=MED VAR; Home: +2.0% | 🚫 Hybrid VETO: Insufficient sample size (n=0 < 5)
+
+[BLOCK] Cason Wallace REBOUNDS OVER 3.5: Bench gate - starter minutes not guaranteed
+INFO: OKC vs HOU; minutes=MED VAR; Home: +1.0% | 📊 Multi-window projection: 2.9
+
+[BLOCK] Cason Wallace ASSISTS OVER 3.5: Bench gate - starter minutes not guaranteed
+INFO: OKC vs HOU; minutes=MED VAR; Home: +2.0% | 📊 Multi-window projection: 2.2
+
+================================================================================
+SUMMARY (post-veto tiers): 0 PLAY | 3 STRONG | 2 LEAN | 32 BLOCKED | 52 VETO
+SUMMARY (raw analyzer counters): 0 PLAY | 3 STRONG | 2 LEAN | 32 BLOCKED
+Commentary: Math-only (no LLM speculation)
+================================================================================

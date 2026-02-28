@@ -1,0 +1,1588 @@
+
+=================================================================
+[CBB] COLLEGE BASKETBALL STRATEGIC REPORT
+   Generated: 2026-02-14 16:24:10
+   Total edges: 758 | Actionable: 111
+=================================================================
+
+
+============================================================
+ WAKE
+============================================================
+  ROSTER SNAPSHOT - WAKE
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Juke Harris           25.3  12.7   4.5   0.9   0.0   0.0   0.0   0.0   0.0   1.5
+  Tre'Von Spillers      30.4  11.3   7.5   0.9   0.0   0.0   0.0   0.0   0.0   0.2
+
+[EDGES]
+    Tre'Von Spillers   reb+ast    higher 6.5   (LEAN)
+      Probability: 62.0% | mean_source=ESPN | confidence=UNVERIFIED | signal=OK | spread=MISSING
+      TRACE: lambda=8.4333 (ESPN/OK)
+             raw=None adj_mult=0.95 adj=0.620336
+             caps: stat_cap=0.7 global_cap=0.79 cap_hit=None final=0.620336
+      [AI Math] Model projects 8.4 reb+ast (line: 6.5) | Line is 1.9 BELOW projection (23% gap) | P(higher 6.5) = 62.0% | z = -0.96σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency.
+      [DeepSeek AI] This line is set exactly at his recent average, offering no statistical edge, and the unknown stability and tier suggest high volatility. The matchup against Stanford's weak interior defense could create extra rebounding opportunities, but his undefined role makes this a risky play. Given the lack of clear value and predictability, this
+
+  * Juke Harris        pra        lower 32.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.040
+      TRACE: lambda=18.0727 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.949342
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 18.1 pra (line: 32.5) | Line is 14.4 ABOVE projection (80% gap) | P(lower 32.5) = 68.0% | z = +7.21σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at Harris's recent average, but the 68% hit probability suggests the market is undervaluing Stanford's defensive pressure, which ranks top-50 in adjusted efficiency and should limit his production. The key risk is Wake Forest's reliance on Harris in a must-win game,
+
+    Tre'Von Spillers   pra        higher 16.5  (LEAN)
+      Probability: 62.6% | mean_source=ESPN | confidence=UNVERIFIED | signal=OK | spread=MISSING | dedupe_dropped=lower@0.330
+      TRACE: lambda=19.7333 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.62611
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.62611
+      [AI Math] Model projects 19.7 pra (line: 16.5) | Line is 3.2 BELOW projection (16% gap) | P(higher 16.5) = 62.6% | z = -1.62σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency.
+      [DeepSeek AI] This line is mispriced given Spillers’ consistent role and Stanford’s poor interior defense, which allows a high rate of rebounds and paint scoring. The primary risk is limited minutes in a potential blowout, but his floor is secure enough to target the over.
+
+  * Juke Harris        points     lower 23.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.065
+      TRACE: lambda=12.6909 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.935071
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 12.7 points (line: 23.5) | Line is 10.8 ABOVE projection (85% gap) | P(lower 23.5) = 75.0% | z = +5.41σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility, making the under a pure fade on his ability to exceed that mark. The high hit probability suggests the market expects a slight regression, likely due to STAN's disciplined defensive pace. The primary risk is Harris maintaining his exact scoring output in
+
+
+============================================================
+ NCST
+============================================================
+  ROSTER SNAPSHOT - NCST
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Darrion Williams      30.8  12.0   6.5   3.0   0.0   0.0   0.0   0.0   0.0   1.5
+  Quadir Copeland       21.1   9.1   3.4   3.8   0.0   0.0   0.0   0.0   0.0   0.3
+
+[EDGES]
+    Darrion Williams   reb+ast    higher 7.5   (LEAN)
+      Probability: 62.3% | mean_source=ESPN | confidence=UNVERIFIED | signal=OK | spread=MISSING
+      TRACE: lambda=9.4113 (ESPN/OK)
+             raw=None adj_mult=0.95 adj=0.622593
+             caps: stat_cap=0.7 global_cap=0.79 cap_hit=None final=0.622593
+      [AI Math] Model projects 9.4 reb+ast (line: 7.5) | Line is 1.9 BELOW projection (20% gap) | P(higher 7.5) = 62.3% | z = -0.96σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency.
+      [DeepSeek AI] This line is set exactly at his recent average, but the 62.3% hit probability suggests the model sees a slight matchup or role-based advantage pushing him over. The primary risk is the "UNKNOWN" stability and tier, indicating insufficient data to trust the projection confidently, especially in a high
+
+  * Quadir Copeland    pra        lower 25.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.127
+      TRACE: lambda=16.3214 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.846375
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 16.3 pra (line: 25.5) | Line is 9.2 ABOVE projection (56% gap) | P(lower 25.5) = 68.0% | z = +4.59σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, but the 68% hit probability suggests the market is overvaluing his consistency given the unknown stability and tier. Miami's disciplined defense could limit his peripheral contributions, making the UNDER appealing despite the lack of a clear statistical edge. The primary risk is
+
+  * Quadir Copeland    points     lower 13.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.209
+      TRACE: lambda=9.0804 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.79074
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 9.1 points (line: 13.5) | Line is 4.4 ABOVE projection (49% gap) | P(lower 13.5) = 75.0% | z = +2.21σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at Copeland's recent average, offering no statistical edge, and the unknown stability suggests his role is too volatile to trust. The matchup against Miami's disciplined defense further pressures his scoring, making the under the sharper side despite the high hit probability.
+
+
+============================================================
+ KSU @ HOU  [21:00 ET]
+============================================================
+[MATCHUP ANALYSIS]
+  - RANKING: KSU (UR) @ HOU (#3)
+
+  ROSTER SNAPSHOT - HOU
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Kingston Flemings     31.1  16.6   3.5   5.4   0.0   0.0   0.0   0.0   0.0   1.1
+  Emanuel Sharp         25.0  11.6   2.9   1.0   0.0   0.0   0.0   0.0   0.0   2.1
+  Chris Cenac           24.7   9.7   7.5   0.8   0.0   0.0   0.0   0.0   0.0   0.9
+
+  ROSTER SNAPSHOT - KSU
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  P.J. Haggerty         33.4  20.8   5.2   3.7   0.0   0.0   0.0   0.0   0.0   1.0
+  Nate Johnson          26.1   9.3   3.9   2.5   0.0   0.0   0.0   0.0   0.0   1.0
+
+[EDGES]
+  * Nate Johnson       assists    lower 4.5   (STRONG)
+      Probability: 70.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.170
+      TRACE: lambda=2.5345 (ESPN/OK)
+             raw=None adj_mult=0.95 adj=0.78027
+             caps: stat_cap=0.7 global_cap=0.79 cap_hit=stat_cap final=0.7
+      [AI Math] Model projects 2.5 assists (line: 4.5) | Line is 2.0 ABOVE projection (78% gap) | P(lower 4.5) = 70.0% | z = +0.99σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility data, making the 70% hit probability highly questionable. Houston's elite perimeter defense will aggressively pressure Johnson, likely disrupting his playmaking and forcing turnovers rather than assists. The risk of a blowout reducing his minutes further tilts this toward
+
+    P.J. Haggerty      assists    higher 2.5   (LEAN)
+      Probability: 60.4% | mean_source=ESPN | confidence=UNVERIFIED | signal=OK | spread=MISSING
+      TRACE: lambda=3.6875 (ESPN/OK)
+             raw=None adj_mult=0.95 adj=0.604
+             caps: stat_cap=0.7 global_cap=0.79 cap_hit=None final=0.604
+      [AI Math] Model projects 3.7 assists (line: 2.5) | Line is 1.2 BELOW projection (32% gap) | P(higher 2.5) = 60.4% | z = -0.59σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency.
+      [DeepSeek AI] This line is set at his exact average with no deviation, indicating the market sees no clear edge, but the 60% hit probability suggests slight value. The matchup against Houston's elite defense, which forces turnovers and limits ball movement, is a major risk factor that could suppress his assist opportunities. Given
+
+    Chris Cenac        pra        lower 21.5  (LEAN)
+      Probability: 63.6% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.321
+      TRACE: lambda=18.0417 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.636095
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.636095
+      [AI Math] Model projects 18.0 pra (line: 21.5) | Line is 3.5 ABOVE projection (19% gap) | P(lower 21.5) = 63.6% | z = +1.73σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] The line is set exactly at his recent average, but the 63.6% hit probability suggests the model sees value in the under, likely due to a tough matchup against KSU's defense suppressing his production. The primary risk is his unknown stability and role, meaning a slight uptick in minutes
+
+    Kingston Flemings  pra        lower 28.5  (LEAN)
+      Probability: 61.8% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.339
+      TRACE: lambda=25.4583 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.617537
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.617537
+      [AI Math] Model projects 25.5 pra (line: 28.5) | Line is 3.0 ABOVE projection (12% gap) | P(lower 28.5) = 61.8% | z = +1.52σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility data, making the 61.8% hit probability questionable and likely based on limited or flawed modeling. The matchup provides no clear analytical edge, and the "UNKNOWN" stability and tier flags indicate insufficient data for a reliable bet. Avoid
+
+  * Emanuel Sharp      pra        lower 22.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.190
+      TRACE: lambda=15.5344 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.776571
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 15.5 pra (line: 22.5) | Line is 7.0 ABOVE projection (45% gap) | P(lower 22.5) = 68.0% | z = +3.49σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at Sharp's recent average, but the 68% hit probability suggests the market is overvaluing his consistency given the unknown stability and tier. The matchup against KSU's perimeter defense may not provide a significant boost, and his role lacks the usage to reliably exceed this number
+
+    Kingston Flemings  points     lower 18.5  (LEAN)
+      Probability: 65.2% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.348
+      TRACE: lambda=16.5833 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.652024
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.652024
+      [AI Math] Model projects 16.6 points (line: 18.5) | Line is 1.9 ABOVE projection (12% gap) | P(lower 18.5) = 65.2% | z = +0.96σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility, making the 65% hit probability overly reliant on a single data point rather than true matchup analysis. The unknown stability and tier suggest insufficient data, so the perceived edge is likely statistical noise, not a sharp value. Avoid this prop due
+
+
+============================================================
+ TTU @ ARIZ  [23:30 ET]
+============================================================
+[MATCHUP ANALYSIS]
+  - PACE: FAST (Projected Total: 156.5) - Expect higher possession count
+  - SPREAD: ARIZ -9.5
+  - RANKING: TTU (#16) @ ARIZ (#1)
+
+  ROSTER SNAPSHOT - ARIZ
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Jaden Bradley         25.5   9.4   2.9   3.2   0.0   0.0   0.0   0.0   0.0   0.5
+
+  ROSTER SNAPSHOT - TTU
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  JT Toppin             28.8  16.8   9.6   1.2   0.0   0.0   0.0   0.0   0.0   0.5
+  Christian Anderson    33.7  14.0   3.1   4.4   0.0   0.0   0.0   0.0   0.0   2.6
+  LeJuan Watts          27.6  11.8   6.0   3.0   0.0   0.0   0.0   0.0   0.0   0.7
+  Donovan Atwell        24.6  10.1   2.5   0.6   0.0   0.0   0.0   0.0   0.0   2.5
+
+[EDGES]
+    LeJuan Watts       assists    higher 1.5   (LEAN)
+      Probability: 64.2% | mean_source=ESPN | confidence=UNVERIFIED | signal=OK | spread=MISSING
+      TRACE: lambda=2.9775 (ESPN/OK)
+             raw=None adj_mult=0.95 adj=0.641785
+             caps: stat_cap=0.7 global_cap=0.79 cap_hit=None final=0.641785
+      [AI Math] Model projects 3.0 assists (line: 1.5) | Line is 1.5 BELOW projection (50% gap) | P(higher 1.5) = 64.2% | z = -0.74σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency.
+      [DeepSeek AI] This line is set at his exact recent average with no volatility, but the hit probability suggests a slight edge due to matchup context—likely Arizona's up-tempo pace creating more assist opportunities. The primary risk is his undefined role and low baseline; a minor dip in minutes or usage against Arizona's defense
+
+  * JT Toppin          pra        lower 32.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.261
+      TRACE: lambda=27.5435 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.699964
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.699964
+      [AI Math] Model projects 27.5 pra (line: 32.5) | Line is 5.0 ABOVE projection (18% gap) | P(lower 32.5) = 68.0% | z = +2.48σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, but the 68% hit probability suggests the market is overvaluing his consistency against a strong Arizona defense. The primary risk is that Arizona's pace and defensive pressure could disrupt his rhythm, making the UNDER more reliant on game flow than a clear statistical
+
+    Donovan Atwell     pra        lower 15.5  (LEAN)
+      Probability: 67.2% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.328
+      TRACE: lambda=13.2458 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.672255
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.672255
+      [AI Math] Model projects 13.2 pra (line: 15.5) | Line is 2.2 ABOVE projection (17% gap) | P(lower 15.5) = 67.2% | z = +1.12σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility data, making the 67% hit probability misleading—it's essentially a coin flip with no clear edge. The matchup against Arizona's strong defense could suppress his production, but without stability metrics, the risk outweighs any perceived value.
+
+  * Christian Anderson pra        lower 27.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.222
+      TRACE: lambda=21.4828 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.741859
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.741859
+      [AI Math] Model projects 21.5 pra (line: 27.5) | Line is 6.0 ABOVE projection (28% gap) | P(lower 27.5) = 68.0% | z = +3.01σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility, making it a pure 50/50 proposition despite the inflated hit probability—there’s no statistical edge here. The matchup against ARIZ’s defense could suppress his production, but with unknown stability and role, the risk outweigh
+
+  * Jaden Bradley      pra        lower 22.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.189
+      TRACE: lambda=15.4925 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.778038
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 15.5 pra (line: 22.5) | Line is 7.0 ABOVE projection (45% gap) | P(lower 22.5) = 68.0% | z = +3.50σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at Bradley's recent average with no volatility, making it a pure matchup play. The high hit probability suggests the market is pricing in Texas Tech's strong perimeter defense limiting his production. The main risk is Bradley's role expanding in a competitive game, but the tight line offers little
+
+  * JT Toppin          points     lower 19.5  (STRONG)
+      Probability: 69.4% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.306
+      TRACE: lambda=16.7609 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.693971
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.693971
+      [AI Math] Model projects 16.8 points (line: 19.5) | Line is 2.7 ABOVE projection (16% gap) | P(lower 19.5) = 69.4% | z = +1.37σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility, making the under reliant solely on a tough defensive matchup against Arizona suppressing his output. Given Arizona's strong interior defense and the potential for a slower-paced, physical game, the under holds value despite the lack of statistical edge. The key risk
+
+  * Christian Anderson points     lower 17.5  (STRONG)
+      Probability: 73.7% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.263
+      TRACE: lambda=13.9828 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.737296
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.737296
+      [AI Math] Model projects 14.0 points (line: 17.5) | Line is 3.5 ABOVE projection (25% gap) | P(lower 17.5) = 73.7% | z = +1.76σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility, making the under heavily dependent on a tough defensive matchup against Arizona suppressing his scoring. The high hit probability suggests the market expects Arizona's defense to limit him, but the unknown stability and tier indicate significant risk if his role or shot volume unexpectedly
+
+    Donovan Atwell     points     lower 11.5  (LEAN)
+      Probability: 65.4% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.346
+      TRACE: lambda=10.0932 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.654294
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.654294
+      [AI Math] Model projects 10.1 points (line: 11.5) | Line is 1.4 ABOVE projection (14% gap) | P(lower 11.5) = 65.4% | z = +0.71σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility data, making the 65% hit probability misleading—it’s essentially a coin flip with no clear edge. Arizona’s strong perimeter defense could suppress his scoring, but the unknown stability and lack of deviation in his recent performances make this
+
+
+============================================================
+ DUQ
+============================================================
+  ROSTER SNAPSHOT - DUQ
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Tarence Guinyard      30.1  16.4   4.1   3.5   0.0   0.0   0.0   0.0   0.0   1.9
+  Jimmie Williams       22.8  11.3   3.6   1.9   0.0   0.0   0.0   0.0   0.0   1.4
+
+[EDGES]
+    Tarence Guinyard   assists    lower 4.5   (LEAN)
+      Probability: 61.7% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.279
+      TRACE: lambda=3.5091 (ESPN/OK)
+             raw=None adj_mult=0.95 adj=0.670977
+             caps: stat_cap=0.7 global_cap=0.79 cap_hit=None final=0.670977
+      [AI Math] Model projects 3.5 assists (line: 4.5) | Line is 1.0 ABOVE projection (28% gap) | P(lower 4.5) = 61.7% | z = +0.50σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no clear matchup or role change, making the 61.7% hit probability appear speculative and lacking a strong statistical edge. The unknown stability and tier suggest insufficient data to trust the projection, while a neutral game script offers no clear catalyst for him to
+
+  * Jimmie Williams    points     lower 16.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.191
+      TRACE: lambda=11.3148 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.808788
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 11.3 points (line: 16.5) | Line is 5.2 ABOVE projection (46% gap) | P(lower 16.5) = 75.0% | z = +2.59σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility, making the UNDER a pure fade on his consistency—especially against SBU's defense, which could tighten up in a slower-paced conference matchup. The 75% hit probability suggests the market is overvaluing his floor, but the unknown
+
+
+============================================================
+ TEX
+============================================================
+  ROSTER SNAPSHOT - TEX
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Matas Vokietaitis     20.6  12.3   6.0   0.4   0.0   0.0   0.0   0.0   0.0   0.0
+  Tramon Mark           27.0  11.4   3.9   1.9   0.0   0.0   0.0   0.0   0.0   1.0
+  Dailyn Swain          26.1  10.6   5.2   2.4   0.0   0.0   0.0   0.0   0.0   0.4
+
+[EDGES]
+  * Dailyn Swain       assists    lower 3.5   (STRONG)
+      Probability: 70.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.237
+      TRACE: lambda=2.3908 (ESPN/OK)
+             raw=None adj_mult=0.95 adj=0.713415
+             caps: stat_cap=0.7 global_cap=0.79 cap_hit=stat_cap final=0.7
+      [AI Math] Model projects 2.4 assists (line: 3.5) | Line is 1.1 ABOVE projection (46% gap) | P(lower 3.5) = 70.0% | z = +0.55σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at Swain's recent average with no statistical edge, making it a pure coin flip despite the high listed probability. The unknown stability and tier suggest insufficient data, so any lean would rely heavily on the specific defensive matchup and game flow against Mizzou. Given the lack of
+
+  * Dailyn Swain       pra        lower 29.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.081
+      TRACE: lambda=18.1379 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.899356
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 18.1 pra (line: 29.5) | Line is 11.4 ABOVE projection (63% gap) | P(lower 29.5) = 68.0% | z = +5.68σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at Swain's recent average with no volatility data, making the 68% hit probability unreliable and likely overstating confidence. Without matchup context or stability metrics, the edge appears statistical noise rather than a true value opportunity. Avoid this prop due to insufficient information and unknown risk
+
+    Matas Vokietaitis  pra        lower 22.5  (LEAN)
+      Probability: 65.3% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.305
+      TRACE: lambda=18.6552 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.653028
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.653028
+      [AI Math] Model projects 18.7 pra (line: 22.5) | Line is 3.8 ABOVE projection (21% gap) | P(lower 22.5) = 65.3% | z = +1.92σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility data, making the 65% hit probability questionable and likely unreliable. Without stability metrics or matchup context, this bet relies entirely on a projection that can't be verified. Avoid this prop due to insufficient information and no clear edge.
+
+    Tramon Mark        pra        lower 21.5  (LEAN)
+      Probability: 67.5% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.284
+      TRACE: lambda=17.1375 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.675234
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.675234
+      [AI Math] Model projects 17.1 pra (line: 21.5) | Line is 4.4 ABOVE projection (25% gap) | P(lower 21.5) = 67.5% | z = +2.18σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, but the high hit probability suggests the market may be overvaluing his consistency against a Missouri defense that can be exploited. The primary risk is Missouri's poor perimeter defense potentially inflating his assist opportunities, but his scoring volatility keeps the under in play.
+
+  * Dailyn Swain       points     lower 17.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.139
+      TRACE: lambda=10.5747 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.860881
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 10.6 points (line: 17.5) | Line is 6.9 ABOVE projection (66% gap) | P(lower 17.5) = 75.0% | z = +3.46σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at Swain's recent average, offering no statistical edge, but the 75% hit probability suggests the market may be overvaluing his scoring consistency. Given the unknown stability and tier, the primary risk is that any slight uptick in usage or favorable game script against M
+
+
+============================================================
+ MIA
+============================================================
+  ROSTER SNAPSHOT - MIA
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Malik Reneau          23.3  13.1   5.3   1.9   0.0   0.0   0.0   0.0   0.0   0.3
+  Tre Donaldson         23.2   8.7   2.7   3.5   0.0   0.0   0.0   0.0   0.0   1.1
+
+[EDGES]
+  * Malik Reneau       rebounds   lower 7.5   (STRONG)
+      Probability: 72.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.218
+      TRACE: lambda=5.339 (ESPN/OK)
+             raw=None adj_mult=0.98 adj=0.761732
+             caps: stat_cap=0.72 global_cap=0.79 cap_hit=stat_cap final=0.72
+      [AI Math] Model projects 5.3 rebounds (line: 7.5) | Line is 2.2 ABOVE projection (40% gap) | P(lower 7.5) = 72.0% | z = +1.08σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, but the high hit probability suggests the market is overvaluing his consistency in a neutral matchup. NC State's slower pace and Miami's balanced rebounding reduce his ceiling, making the under appealing despite the unknown stability. The main risk is his minutes seeing
+
+  * Tre Donaldson      rebounds   lower 4.5   (STRONG)
+      Probability: 72.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.205
+      TRACE: lambda=2.7266 (ESPN/OK)
+             raw=None adj_mult=0.98 adj=0.77446
+             caps: stat_cap=0.72 global_cap=0.79 cap_hit=stat_cap final=0.72
+      [AI Math] Model projects 2.7 rebounds (line: 4.5) | Line is 1.8 ABOVE projection (65% gap) | P(lower 4.5) = 72.0% | z = +0.89σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility data, offering no statistical edge despite the high hit probability. The key risk is Miami's backcourt rotation being unpredictable, and a slower-paced game against NC State could limit his rebounding opportunities. With no clear matchup advantage or role stability,
+
+  * Malik Reneau       pra        lower 27.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.183
+      TRACE: lambda=20.3051 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.784545
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 20.3 pra (line: 27.5) | Line is 7.2 ABOVE projection (35% gap) | P(lower 27.5) = 68.0% | z = +3.60σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] The line is set exactly at his recent average with no volatility data, making this a pure matchup read. NC State's interior defense is vulnerable, which could push Reneau over this number if Miami establishes him early. However, the unknown stability and lack of clear edge suggest this is a pass without
+
+  * Tre Donaldson      pra        lower 24.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.130
+      TRACE: lambda=14.9375 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.869909
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 14.9 pra (line: 24.5) | Line is 9.6 ABOVE projection (64% gap) | P(lower 24.5) = 68.0% | z = +4.78σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility data, making the 68% hit probability questionable. The unknown stability and tier suggest limited sample size, so any slight role change or matchup adjustment could easily push him over. Avoid this prop due to insufficient data and no clear edge.
+
+  * Tre Donaldson      points     lower 14.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.165
+      TRACE: lambda=8.7031 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.835119
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 8.7 points (line: 14.5) | Line is 5.8 ABOVE projection (67% gap) | P(lower 14.5) = 75.0% | z = +2.90σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at Donaldson's recent average, offering no statistical edge, and the 75% hit probability is misleading given the lack of variance (σ = 0.0) in the sample. The primary risk is that a single outlier performance easily clears this low total, especially in
+
+  * Malik Reneau       points     lower 18.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.188
+      TRACE: lambda=13.1017 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.812373
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 13.1 points (line: 18.5) | Line is 5.4 ABOVE projection (41% gap) | P(lower 18.5) = 75.0% | z = +2.70σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, offering no statistical edge, and the 75% hit probability is misleading given the lack of volatility (σ = 0.0) in the sample. The primary risk is that a single outlier performance easily clears this total, as the "stability
+
+
+============================================================
+ PUR @ IOWA  [22:00 ET]
+============================================================
+[MATCHUP ANALYSIS]
+  - RANKING: PUR (#13) @ IOWA (UR)
+
+  ROSTER SNAPSHOT - IOWA
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Tavion Banks          21.0  10.4   4.8   1.1   0.0   0.0   0.0   0.0   0.0   0.3
+
+  ROSTER SNAPSHOT - PUR
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Braden Smith          33.8  13.0   4.7   7.2   0.0   0.0   0.0   0.0   0.0   1.6
+  Oscar Cluff           23.6  11.6   7.9   1.8   0.0   0.0   0.0   0.0   0.0   0.1
+  Trey Kaufman-Renn     21.0  10.6   4.9   1.5   0.0   0.0   0.0   0.0   0.0   0.1
+  C.J. Cox              20.9   6.8   2.7   1.0   0.0   0.0   0.0   0.0   0.0   1.1
+
+[EDGES]
+    Oscar Cluff        rebounds   higher 6.5   (LEAN)
+      Probability: 63.1% | mean_source=ESPN | confidence=UNVERIFIED | signal=OK | spread=MISSING
+      TRACE: lambda=7.8989 (ESPN/OK)
+             raw=None adj_mult=0.98 adj=0.630799
+             caps: stat_cap=0.72 global_cap=0.79 cap_hit=None final=0.630799
+      [AI Math] Model projects 7.9 rebounds (line: 6.5) | Line is 1.4 BELOW projection (18% gap) | P(higher 6.5) = 63.1% | z = -0.70σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency.
+      [DeepSeek AI] This line is set exactly at Cluff's recent average, but the 63% hit probability suggests the model sees a slight matchup advantage against Iowa's weaker interior defense. The risk is high given his low stability and unknown role consistency, making this a volatile bet despite the statistical lean.
+
+  * Trey Kaufman-Renn  rebounds   lower 8.5   (STRONG)
+      Probability: 72.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.128
+      TRACE: lambda=4.9091 (ESPN/OK)
+             raw=None adj_mult=0.98 adj=0.851955
+             caps: stat_cap=0.72 global_cap=0.79 cap_hit=stat_cap final=0.72
+      [AI Math] Model projects 4.9 rebounds (line: 8.5) | Line is 3.6 ABOVE projection (73% gap) | P(lower 8.5) = 72.0% | z = +1.79σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility data, offering no statistical edge despite the high hit probability. Iowa's fast pace and poor interior defense could inflate his rebounding chances, but his role and minutes remain a major unknown. Proceed with caution—this is a pure guess
+
+  * Trey Kaufman-Renn  pra        lower 24.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.176
+      TRACE: lambda=17.0833 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.792099
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 17.1 pra (line: 24.5) | Line is 7.4 ABOVE projection (43% gap) | P(lower 24.5) = 68.0% | z = +3.71σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility, making the 68% hit probability misleading—it's essentially a coin flip with no statistical edge. Iowa's fast pace and poor defense could inflate his counting stats, while any foul trouble or limited minutes in a potential blowout are
+
+  * C.J. Cox           pra        lower 12.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.320
+      TRACE: lambda=10.5333 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.68014
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.68014
+      [AI Math] Model projects 10.5 pra (line: 12.5) | Line is 2.0 ABOVE projection (19% gap) | P(lower 12.5) = 68.0% | z = +0.99σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility, but the 68% hit probability suggests the model sees a slight matchup or role advantage pushing him under. Given the unknown stability and tier, the edge is likely too thin to trust without clearer data on his minutes or Iowa's defensive scheme
+
+    Tavion Banks       pra        lower 19.5  (LEAN)
+      Probability: 62.1% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.335
+      TRACE: lambda=16.3793 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.621079
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.621079
+      [AI Math] Model projects 16.4 pra (line: 19.5) | Line is 3.1 ABOVE projection (19% gap) | P(lower 19.5) = 62.1% | z = +1.56σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility, making the 62% hit probability misleading—it's likely a stale line based on limited data. Purdue's elite defense will challenge Iowa's offense, potentially suppressing Banks' production in a tough road matchup. The unknown stability and tier suggest
+
+    Braden Smith       points     lower 14.5  (LEAN)
+      Probability: 64.4% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.356
+      TRACE: lambda=12.9627 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.644377
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.644377
+      [AI Math] Model projects 13.0 points (line: 14.5) | Line is 1.5 ABOVE projection (12% gap) | P(lower 14.5) = 64.4% | z = +0.77σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, but the 64.4% hit probability suggests the model sees slight value on the UNDER due to Iowa's poor defense (ranked 12th in the Big Ten), which could lead to a more balanced scoring effort from Purdue rather than heavy reliance
+
+    Trey Kaufman-Renn  points     lower 12.5  (LEAN)
+      Probability: 67.4% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.326
+      TRACE: lambda=10.6364 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.673834
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.673834
+      [AI Math] Model projects 10.6 points (line: 12.5) | Line is 1.9 ABOVE projection (17% gap) | P(lower 12.5) = 67.4% | z = +0.93σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility data, making the 67% hit probability unreliable. Iowa's weak interior defense could push him over, but his undefined role and lack of stability make this a pass.
+
+
+============================================================
+ WVU
+============================================================
+  ROSTER SNAPSHOT - WVU
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Treysen Eaglestaff    26.9  13.1   2.9   1.8   0.0   0.0   0.0   0.0   0.0   2.2
+
+[EDGES]
+  * Treysen Eaglestaff rebounds   lower 4.5   (STRONG)
+      Probability: 72.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.227
+      TRACE: lambda=2.9426 (ESPN/OK)
+             raw=None adj_mult=0.98 adj=0.753177
+             caps: stat_cap=0.72 global_cap=0.79 cap_hit=stat_cap final=0.72
+      [AI Math] Model projects 2.9 rebounds (line: 4.5) | Line is 1.6 ABOVE projection (53% gap) | P(lower 4.5) = 72.0% | z = +0.78σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility data, offering no statistical edge despite the high hit probability. The key risk is that UCF allows above-average offensive rebounds, which could provide Eaglestaff extra opportunities if he sees extended minutes. Given the unknown stability and matchup context,
+
+    Treysen Eaglestaff points     higher 10.5  (LEAN)
+      Probability: 61.2% | mean_source=ESPN | confidence=UNVERIFIED | signal=OK | spread=MISSING | dedupe_dropped=lower@0.388
+      TRACE: lambda=13.1148 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.611995
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.611995
+      [AI Math] Model projects 13.1 points (line: 10.5) | Line is 2.6 BELOW projection (20% gap) | P(higher 10.5) = 61.2% | z = -1.30σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency.
+      [DeepSeek AI] This line is set exactly at his recent average, but the 61.2% hit probability suggests a slight statistical edge based on the model's assessment of the matchup. The primary risk is his unknown stability and role, meaning a minor dip in usage or minutes could easily push him under.
+
+
+============================================================
+ SDSU
+============================================================
+  ROSTER SNAPSHOT - SDSU
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Miles Byrd            22.5   8.4   3.5   2.0   0.0   0.0   0.0   0.0   0.0   1.2
+
+[EDGES]
+    Miles Byrd         rebounds   lower 4.5   (LEAN)
+      Probability: 64.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.284
+      TRACE: lambda=3.4725 (ESPN/OK)
+             raw=None adj_mult=0.98 adj=0.695512
+             caps: stat_cap=0.72 global_cap=0.79 cap_hit=None final=0.695512
+      [AI Math] Model projects 3.5 rebounds (line: 4.5) | Line is 1.0 ABOVE projection (30% gap) | P(lower 4.5) = 64.0% | z = +0.51σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility data, offering no statistical edge despite the implied probability. The key risk is Nevada's slower pace and physical frontcourt potentially limiting rebounding opportunities for a role player like Byrd. Given the unknown stability and lack of clear matchup advantage, this is
+
+  * Miles Byrd         points     lower 11.5  (STRONG)
+      Probability: 74.6% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.255
+      TRACE: lambda=8.4066 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.745532
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.745532
+      [AI Math] Model projects 8.4 points (line: 11.5) | Line is 3.1 ABOVE projection (37% gap) | P(lower 11.5) = 74.6% | z = +1.54σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, but the high hit probability suggests the market is overvaluing a slight negative matchup or minutes risk. The unknown stability and tier are major red flags—this bet relies heavily on a static projection without accounting for potential role changes or defensive adjustments. Proceed
+
+
+============================================================
+ MINN
+============================================================
+  ROSTER SNAPSHOT - MINN
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Cade Tyson            25.4  12.5   4.1   1.2   0.0   0.0   0.0   0.0   0.0   1.6
+
+[EDGES]
+  * Cade Tyson         rebounds   lower 5.5   (STRONG)
+      Probability: 71.1% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.269
+      TRACE: lambda=4.1304 (ESPN/OK)
+             raw=None adj_mult=0.98 adj=0.711133
+             caps: stat_cap=0.72 global_cap=0.79 cap_hit=None final=0.711133
+      [AI Math] Model projects 4.1 rebounds (line: 5.5) | Line is 1.4 ABOVE projection (33% gap) | P(lower 5.5) = 71.1% | z = +0.69σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set at Cade Tyson's exact recent average, offering no statistical edge despite the high hit probability—suggesting the market is accurately pricing his limited role. The matchup against Washington's weak interior defense could inflate his rebounding opportunities, but his low usage and unknown stability make this
+
+  * Cade Tyson         pra        lower 23.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.234
+      TRACE: lambda=17.8348 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.728298
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.728298
+      [AI Math] Model projects 17.8 pra (line: 23.5) | Line is 5.7 ABOVE projection (32% gap) | P(lower 23.5) = 68.0% | z = +2.84σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set at Cade Tyson's exact recent average with no statistical edge, making it a pure matchup play. Washington's league-worst defense and high pace create a strong environment for him to exceed his typical output, but the "UNKNOWN" stability rating indicates high volatility in his role and
+
+  * Cade Tyson         points     lower 16.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.239
+      TRACE: lambda=12.5217 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.760923
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 12.5 points (line: 16.5) | Line is 4.0 ABOVE projection (32% gap) | P(lower 16.5) = 75.0% | z = +1.99σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, but the high hit probability suggests the market is pricing in a tough matchup against Washington's surprisingly solid perimeter defense. The main risk is game script, as Minnesota's slower pace and potential for a blowout could limit his scoring opportunities if he sits late.
+
+
+============================================================
+ NEV
+============================================================
+  ROSTER SNAPSHOT - NEV
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Corey Camper          29.8  11.4   3.4   1.8   0.0   0.0   0.0   0.0   0.0   1.3
+
+[EDGES]
+  * Corey Camper       rebounds   lower 4.5   (STRONG)
+      Probability: 70.7% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.274
+      TRACE: lambda=3.3765 (ESPN/OK)
+             raw=None adj_mult=0.98 adj=0.706548
+             caps: stat_cap=0.72 global_cap=0.79 cap_hit=None final=0.706548
+      [AI Math] Model projects 3.4 rebounds (line: 4.5) | Line is 1.1 ABOVE projection (33% gap) | P(lower 4.5) = 70.7% | z = +0.56σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility, making the 70.7% hit probability misleading as it lacks statistical support. The matchup against a physical SDSU team could push him over against stronger rebounders, especially if Nevada's guards struggle to contain penetration. Given the unknown stability
+
+  * Corey Camper       pra        lower 23.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.189
+      TRACE: lambda=16.4941 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.777983
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 16.5 pra (line: 23.5) | Line is 7.0 ABOVE projection (43% gap) | P(lower 23.5) = 68.0% | z = +3.51σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at Camper's recent average with no volatility, suggesting the market is pricing him perfectly; the 68% hit probability likely stems from SDSU's strong defense suppressing his production. However, with stability unknown and no clear edge, this is a pure coin flip—avoid unless
+
+  * Corey Camper       points     lower 16.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.193
+      TRACE: lambda=11.3647 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.80699
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 11.4 points (line: 16.5) | Line is 5.1 ABOVE projection (45% gap) | P(lower 16.5) = 75.0% | z = +2.57σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at Camper's recent average, offering no statistical edge, but the 75% hit probability suggests the market is overvaluing his scoring consistency. Facing a tough SDSU defense likely suppresses his output, making the under a sharp lean despite the unknown stability. The primary
+
+
+============================================================
+ GONZ @ SCU  [03:30 ET]
+============================================================
+[MATCHUP ANALYSIS]
+  - PACE: FAST (Projected Total: 158.5) - Expect higher possession count
+  - SPREAD: GONZ -4.5
+  - RANKING: GONZ (#12) @ SCU (UR)
+
+  ROSTER SNAPSHOT - GONZ
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Graham Ike            26.3  17.5   7.9   1.4   0.0   0.0   0.0   0.0   0.0   0.3
+  Jalen Warley          23.5   6.3   3.0   2.7   0.0   0.0   0.0   0.0   0.0   0.2
+
+  ROSTER SNAPSHOT - SCU
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Allen Graves          22.7  11.3   7.0   2.0   0.0   0.0   0.0   0.0   0.0   1.0
+  Christian Hammond     22.3  11.0   2.5   1.8   0.0   0.0   0.0   0.0   0.0   1.0
+
+[EDGES]
+  * Jalen Warley       rebounds   lower 4.5   (STRONG)
+      Probability: 72.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.232
+      TRACE: lambda=2.9918 (ESPN/OK)
+             raw=None adj_mult=0.98 adj=0.748156
+             caps: stat_cap=0.72 global_cap=0.79 cap_hit=stat_cap final=0.72
+      [AI Math] Model projects 3.0 rebounds (line: 4.5) | Line is 1.5 ABOVE projection (51% gap) | P(lower 4.5) = 72.0% | z = +0.75σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set at his exact recent average with no statistical edge, making it a pure matchup and game script read. Gonzaga's significant size advantage over Santa Clara should create ample rebounding opportunities, but Warley's guard role and potential for a blowout limiting his minutes are key risks. The
+
+  * Graham Ike         pra        lower 33.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.197
+      TRACE: lambda=26.7664 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.768331
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 26.8 pra (line: 33.5) | Line is 6.7 ABOVE projection (25% gap) | P(lower 33.5) = 68.0% | z = +3.37σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, but the 68% hit probability suggests the market is undervaluing Gonzaga's likely dominance over a weaker SCU defense, which should allow Ike to operate efficiently. The main risk is blowout potential—if Gonzaga builds a big lead early
+
+  * Christian Hammond  pra        lower 20.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.251
+      TRACE: lambda=15.2889 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.710296
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.710296
+      [AI Math] Model projects 15.3 pra (line: 20.5) | Line is 5.2 ABOVE projection (34% gap) | P(lower 20.5) = 68.0% | z = +2.61σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, but the 68% hit probability suggests the market is underestimating Gonzaga's defensive pressure, which should suppress his counting stats. The main risk is a high-paced game or SCU playing from behind forcing Hammond into higher usage, but Gonzaga
+
+  * Jalen Warley       pra        lower 15.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.276
+      TRACE: lambda=11.9918 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.724072
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.724072
+      [AI Math] Model projects 12.0 pra (line: 15.5) | Line is 3.5 ABOVE projection (29% gap) | P(lower 15.5) = 68.0% | z = +1.75σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility, making the 68% hit probability questionable given the lack of data stability. The primary risk is that any minor increase in role or minutes against a weaker SCU defense could easily push him over this low total. With no discernible edge
+
+  * Christian Hammond  points     lower 15.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.215
+      TRACE: lambda=11.0222 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.784881
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 11.0 points (line: 15.5) | Line is 4.5 ABOVE projection (41% gap) | P(lower 15.5) = 75.0% | z = +2.24σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his average with no volatility data, making the 75% hit probability unreliable. Gonzaga's strong defense likely suppresses his scoring, but the unknown stability and potential for a blowout script create significant risk. Avoid this prop due to insufficient data; the apparent edge is likely
+
+  * Graham Ike         points     lower 22.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.206
+      TRACE: lambda=17.4672 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.793598
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 17.5 points (line: 22.5) | Line is 5.0 ABOVE projection (29% gap) | P(lower 22.5) = 75.0% | z = +2.52σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, but the 75% hit probability suggests the market is overvaluing his scoring floor. Gonzaga's pace and Santa Clara's interior defense create a favorable environment, but the lack of volatility data makes this a risky play despite the high probability. The
+
+    Allen Graves       points     lower 12.5  (LEAN)
+      Probability: 63.3% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.367
+      TRACE: lambda=11.3333 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.633053
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.633053
+      [AI Math] Model projects 11.3 points (line: 12.5) | Line is 1.2 ABOVE projection (10% gap) | P(lower 12.5) = 63.3% | z = +0.58σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his average with no volatility data, making the 63.3% hit probability misleading—it’s essentially a coin flip with no clear edge. Gonzaga’s strong defense and the potential for a blowout could limit his minutes and scoring opportunities, leaning slightly toward
+
+
+============================================================
+ COLO @ BYU  [21:00 ET]
+============================================================
+[MATCHUP ANALYSIS]
+  - RANKING: COLO (UR) @ BYU (#22)
+
+  ROSTER SNAPSHOT - BYU
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Richie Saunders       24.1  12.2   4.1   1.4   0.0   0.0   0.0   0.0   0.0   1.6
+
+  ROSTER SNAPSHOT - COLO
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Barrington Hargres    31.7  15.7   2.5   4.3   0.0   0.0   0.0   0.0   0.0   1.5
+
+[EDGES]
+    Barrington Hargress pra        higher 19.5  (LEAN)
+      Probability: 61.4% | mean_source=ESPN | confidence=UNVERIFIED | signal=OK | spread=MISSING | dedupe_dropped=lower@0.342
+      TRACE: lambda=22.4516 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.613489
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.613489
+      [AI Math] Model projects 22.4 pra (line: 19.5) | Line is 2.9 BELOW projection (13% gap) | P(higher 19.5) = 61.4% | z = -1.47σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency.
+      [DeepSeek AI] This line is set exactly at his recent average, but the 61.4% hit probability suggests the model sees a slight matchup or role-based advantage. The primary risk is the "UNKNOWN" stability rating, indicating high variance and making this a volatile play despite the implied edge.
+
+  * Richie Saunders    pra        lower 28.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.091
+      TRACE: lambda=17.6378 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.888594
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 17.6 pra (line: 28.5) | Line is 10.9 ABOVE projection (62% gap) | P(lower 28.5) = 68.0% | z = +5.43σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility, making it a pure projection of his role—likely a low-usage bench player in a neutral matchup. The high hit probability suggests the market expects limited minutes and low usage, but with stability unknown, any slight increase in role or game
+
+  * Richie Saunders    points     lower 18.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.157
+      TRACE: lambda=12.1575 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.843268
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 12.2 points (line: 18.5) | Line is 6.3 ABOVE projection (52% gap) | P(lower 18.5) = 75.0% | z = +3.17σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set at Saunders' exact season average, offering no statistical edge, and the unknown stability and tier suggest limited data or a volatile role. The 75% hit probability is misleading without context, as any minor fluctuation in minutes or shot volume against Colorado's defense could easily push him over.
+
+
+============================================================
+ LOU @ BAY  [21:00 ET]
+============================================================
+[MATCHUP ANALYSIS]
+  - RANKING: LOU (#24) @ BAY (UR)
+
+  ROSTER SNAPSHOT - BAY
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Obi Agbim             33.8  14.8   2.8   3.4   0.0   0.0   0.0   0.0   0.0   2.7
+  Cameron Carr          21.3  12.3   3.7   1.8   0.0   0.0   0.0   0.0   0.0   1.5
+
+  ROSTER SNAPSHOT - LOU
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Ryan Conwell          29.1  14.1   3.9   2.4   0.0   0.0   0.0   0.0   0.0   2.5
+
+[EDGES]
+  * Ryan Conwell       pra        lower 25.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.251
+      TRACE: lambda=20.2992 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.70988
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.70988
+      [AI Math] Model projects 20.3 pra (line: 25.5) | Line is 5.2 ABOVE projection (26% gap) | P(lower 25.5) = 68.0% | z = +2.60σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility data, making the 68% hit probability questionable—it's likely an overestimation due to insufficient sample size. Against Baylor's strong perimeter defense, Conwell could struggle to meet this number, but the lack of stability metrics makes this
+
+    Obi Agbim          pra        higher 17.5  (LEAN)
+      Probability: 64.0% | mean_source=ESPN | confidence=UNVERIFIED | signal=OK | spread=MISSING | dedupe_dropped=lower@0.317
+      TRACE: lambda=21.0385 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.639629
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.639629
+      [AI Math] Model projects 21.0 pra (line: 17.5) | Line is 3.5 BELOW projection (17% gap) | P(higher 17.5) = 64.0% | z = -1.77σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility data, making the 64% hit probability questionable; the matchup offers no clear edge without knowing his role stability or BAY/LOU defensive tendencies. The primary risk is his undefined usage—any minor rotation shift could push him under this
+
+  * Cameron Carr       points     lower 19.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.133
+      TRACE: lambda=12.2857 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.866695
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 12.3 points (line: 19.5) | Line is 7.2 ABOVE projection (59% gap) | P(lower 19.5) = 75.0% | z = +3.61σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility data, making the 75% hit probability unreliable—it's essentially a coin flip with no true edge. The unknown stability and tier suggest limited data, so any perceived value is likely noise rather than a sharp opportunity. Avoid this prop due
+
+
+============================================================
+ SBU
+============================================================
+  ROSTER SNAPSHOT - SBU
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Darryl Simmons        25.4  11.7   1.9   1.8   0.0   0.0   0.0   0.0   0.0   1.8
+  Frank Mitchell        25.5  10.7   8.7   1.6   0.0   0.0   0.0   0.0   0.0   0.0
+
+[EDGES]
+  * Frank Mitchell     pra        lower 26.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.241
+      TRACE: lambda=21.0238 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.720872
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.720872
+      [AI Math] Model projects 21.0 pra (line: 26.5) | Line is 5.5 ABOVE projection (26% gap) | P(lower 26.5) = 68.0% | z = +2.74σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility data, making the 68% hit probability questionable—it suggests the model may be overfitting to limited or static data. Without matchup context on pace, defense, or role stability, this bet relies entirely on Mitchell repeating an exact performance against
+
+  * Darryl Simmons     points     lower 16.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.205
+      TRACE: lambda=11.7011 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.794466
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 11.7 points (line: 16.5) | Line is 4.8 ABOVE projection (41% gap) | P(lower 16.5) = 75.0% | z = +2.40σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, but the 75% hit probability suggests the market is overvaluing Simmons' consistency against a tough DUQ defense. The key risk is his unknown stability, meaning a single hot shooting night could easily push him over against a defense that may force him
+
+  * Frank Mitchell     points     lower 14.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.240
+      TRACE: lambda=10.7143 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.759634
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 10.7 points (line: 14.5) | Line is 3.8 ABOVE projection (35% gap) | P(lower 14.5) = 75.0% | z = +1.89σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility data, making the 75% hit probability misleading—it's essentially a coin flip with no clear edge. The unknown stability and tier suggest insufficient data to trust the projection, especially against a tough DUQ defense that could suppress scoring. Avoid
+
+
+============================================================
+ WYO
+============================================================
+  ROSTER SNAPSHOT - WYO
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Leland Walker         26.2  11.9   2.6   3.7   0.0   0.0   0.0   0.0   0.0   1.0
+  Khaden Bennett        21.6   8.2   3.9   1.7   0.0   0.0   0.0   0.0   0.0   1.0
+
+[EDGES]
+    Leland Walker      pra        lower 22.5  (LEAN)
+      Probability: 67.3% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.286
+      TRACE: lambda=18.192 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.672923
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.672923
+      [AI Math] Model projects 18.2 pra (line: 22.5) | Line is 4.3 ABOVE projection (24% gap) | P(lower 22.5) = 67.3% | z = +2.15σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, offering no statistical edge, and the unknown stability/tier suggests unreliable data. With a hit probability of 67.3%, the market may be overvaluing a small sample or not accounting for a tougher defensive matchup against CSU. The lack of
+
+  * Khaden Bennett     pra        lower 17.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.280
+      TRACE: lambda=13.8493 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.719847
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.719847
+      [AI Math] Model projects 13.8 pra (line: 17.5) | Line is 3.7 ABOVE projection (26% gap) | P(lower 17.5) = 68.0% | z = +1.83σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility, making the 68% hit probability misleading as it suggests a consistent edge that isn't supported by the data. The unknown stability and tier indicate insufficient information to trust the projection, especially against a rival like CSU where roles can shift.
+
+  * Leland Walker      points     lower 15.5  (STRONG)
+      Probability: 74.9% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.251
+      TRACE: lambda=11.864 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.74901
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.74901
+      [AI Math] Model projects 11.9 points (line: 15.5) | Line is 3.6 ABOVE projection (31% gap) | P(lower 15.5) = 74.9% | z = +1.82σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, but the high hit probability suggests the market is overvaluing his consistency against a tough CSU defense. The main risk is his unknown stability and role, making this a volatile prop despite the statistical lean.
+
+
+============================================================
+ SJSU
+============================================================
+  ROSTER SNAPSHOT - SJSU
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Colby Garland         26.6  11.3   2.9   3.5   0.0   0.0   0.0   0.0   0.0   0.6
+
+[EDGES]
+  * Colby Garland      pra        lower 27.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.114
+      TRACE: lambda=17.747 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.861833
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 17.8 pra (line: 27.5) | Line is 9.8 ABOVE projection (55% gap) | P(lower 27.5) = 68.0% | z = +4.88σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility, suggesting the market is heavily weighting his consistency, but the 68% hit probability indicates the UNDER holds value due to the matchup. The primary risk is that his role is so stable and central that any slight uptick in pace or usage
+
+  * Colby Garland      points     lower 20.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.091
+      TRACE: lambda=11.2892 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.90921
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 11.3 points (line: 20.5) | Line is 9.2 ABOVE projection (82% gap) | P(lower 20.5) = 75.0% | z = +4.61σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility, making the under a pure fade on his consistency in a new matchup. The 75% hit probability suggests the market may be overvaluing his floor, but with unknown stability and tier, the risk is high due to potential role or
+
+
+============================================================
+ UCF
+============================================================
+  ROSTER SNAPSHOT - UCF
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Riley Kugel           24.0  10.4   3.2   1.6   0.0   0.0   0.0   0.0   0.0   1.3
+
+[EDGES]
+    Riley Kugel        pra        lower 18.5  (LEAN)
+      Probability: 63.1% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.325
+      TRACE: lambda=15.1488 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.631353
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.631353
+      [AI Math] Model projects 15.2 pra (line: 18.5) | Line is 3.3 ABOVE projection (22% gap) | P(lower 18.5) = 63.1% | z = +1.67σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility, making the 63% hit probability misleading—it’s essentially a coin flip with no demonstrated edge. West Virginia’s slower pace and physical defense could suppress his counting stats, but without stability data or a clear role change, there
+
+  * Riley Kugel        points     lower 12.5  (STRONG)
+      Probability: 68.8% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.312
+      TRACE: lambda=10.3802 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.688083
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.688083
+      [AI Math] Model projects 10.4 points (line: 12.5) | Line is 2.1 ABOVE projection (20% gap) | P(lower 12.5) = 68.8% | z = +1.06σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, but the high hit probability suggests the market is overvaluing his consistency against a tough WVU defense that can limit scoring opportunities. The main risk is his role volatility in a potentially slower-paced game, making the under a lean but not a strong play
+
+
+============================================================
+ MSST
+============================================================
+  ROSTER SNAPSHOT - MSST
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Josh Hubbard          30.9  18.8   2.2   2.7   0.0   0.0   0.0   0.0   0.0   3.0
+
+[EDGES]
+    Josh Hubbard       pra        lower 27.5  (LEAN)
+      Probability: 65.3% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.305
+      TRACE: lambda=23.6559 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.652996
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.652996
+      [AI Math] Model projects 23.7 pra (line: 27.5) | Line is 3.8 ABOVE projection (16% gap) | P(lower 27.5) = 65.3% | z = +1.92σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, offering no statistical edge, but the high hit probability suggests his role is capped in a tough SEC matchup. Mississippi's defense will pressure him, and the game's slower pace limits scoring opportunities, making the UNDER more likely. The main risk is Hubbard forcing
+
+    Josh Hubbard       points     lower 20.5  (LEAN)
+      Probability: 63.8% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.362
+      TRACE: lambda=18.7527 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.637656
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.637656
+      [AI Math] Model projects 18.8 points (line: 20.5) | Line is 1.8 ABOVE projection (9% gap) | P(lower 20.5) = 63.8% | z = +0.88σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at Hubbard's recent average, but the high hit probability suggests the market is accounting for a tough defensive matchup against Ole Miss, which ranks 4th in the SEC in defensive efficiency. The primary risk is Hubbard's high usage and shot volume, as he can exceed this total
+
+
+============================================================
+ GTWN @ CONN  [01:00 ET]
+============================================================
+[MATCHUP ANALYSIS]
+  - PACE: MODERATE (Projected Total: 138.5)
+  - SPREAD: CONN -16.5 (BLOWOUT RISK) - Late game variance possible
+  - RANKING: GTWN (UR) @ CONN (#6)
+
+  ROSTER SNAPSHOT - CONN
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Silas Demary Jr.      29.2  11.4   4.0   3.7   0.0   0.0   0.0   0.0   0.0   1.1
+  Tarris Reed Jr.       20.6   8.5   6.4   0.9   0.0   0.0   0.0   0.0   0.0   0.0
+
+  ROSTER SNAPSHOT - GTWN
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  KJ Lewis              24.1  10.1   4.2   2.5   0.0   0.0   0.0   0.0   0.0   0.5
+
+[EDGES]
+  * Tarris Reed Jr.    pra        lower 25.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.113
+      TRACE: lambda=15.7025 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.862984
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 15.7 pra (line: 25.5) | Line is 9.8 ABOVE projection (62% gap) | P(lower 25.5) = 68.0% | z = +4.90σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility data, making the 68% hit probability questionable and likely based on insufficient sample size. Georgetown’s weak interior defense could allow Reed to exceed this number, especially if UConn establishes a dominant inside game early. The lack of stability and
+
+    KJ Lewis           pra        lower 19.5  (LEAN)
+      Probability: 60.3% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.353
+      TRACE: lambda=16.7835 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.602863
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.602863
+      [AI Math] Model projects 16.8 pra (line: 19.5) | Line is 2.7 ABOVE projection (16% gap) | P(lower 19.5) = 60.3% | z = +1.36σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, but the 60% hit probability suggests the market may be overvaluing his consistency against a top-tier UConn defense that can force him into a passive role. The primary risk is Georgetown's reliance on him in a likely blowout, where extended
+
+  * Silas Demary Jr.   pra        lower 24.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.244
+      TRACE: lambda=19.0947 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.718061
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.718061
+      [AI Math] Model projects 19.1 pra (line: 24.5) | Line is 5.4 ABOVE projection (28% gap) | P(lower 24.5) = 68.0% | z = +2.71σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility data, making the 68% hit probability misleading—it's more a reflection of his consistency than a true edge. Georgetown's weak perimeter defense could push him over, but his limited offensive role caps his upside. Lean UNDER only if you
+
+  * Tarris Reed Jr.    points     lower 13.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.186
+      TRACE: lambda=8.4545 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.814209
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 8.4 points (line: 13.5) | Line is 5.1 ABOVE projection (60% gap) | P(lower 13.5) = 75.0% | z = +2.53σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, offering no statistical edge, but the 75% hit probability suggests the market may be overvaluing his scoring consistency. Georgetown’s weak interior defense could inflate his output, making the under risky despite the probability. The primary risk is a favorable
+
+
+============================================================
+ USU
+============================================================
+  ROSTER SNAPSHOT - USU
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Mason Falslev         30.4  13.9   5.4   3.0   0.0   0.0   0.0   0.0   0.0   1.2
+  Drake Allen           26.2   9.4   2.9   4.1   0.0   0.0   0.0   0.0   0.0   0.6
+  MJ Collins            26.0   8.6   2.4   1.6   0.0   0.0   0.0   0.0   0.0   1.1
+
+[EDGES]
+    Mason Falslev      pra        lower 26.5  (LEAN)
+      Probability: 66.7% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.291
+      TRACE: lambda=22.3261 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.667211
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.667211
+      [AI Math] Model projects 22.3 pra (line: 26.5) | Line is 4.2 ABOVE projection (19% gap) | P(lower 26.5) = 66.7% | z = +2.09σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, offering no statistical edge, and the unknown stability makes it a pure guess. With no matchup or usage data provided, this bet relies entirely on game script variance, which is too speculative to trust.
+
+    Drake Allen        pra        lower 19.5  (LEAN)
+      Probability: 62.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.336
+      TRACE: lambda=16.3934 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.620447
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.620447
+      [AI Math] Model projects 16.4 pra (line: 19.5) | Line is 3.1 ABOVE projection (19% gap) | P(lower 19.5) = 62.0% | z = +1.55σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, but the 62% hit probability suggests the market may be overvaluing a slight positive matchup. With no stability data and an unknown tier, the primary risk is his role being less secure than the line implies, making any minor rotation shift a threat
+
+  * MJ Collins         pra        lower 20.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.161
+      TRACE: lambda=12.6311 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.839065
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 12.6 pra (line: 20.5) | Line is 7.9 ABOVE projection (62% gap) | P(lower 20.5) = 68.0% | z = +3.93σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility data, making the 68% hit probability questionable and likely based on insufficient sample size. The unknown stability and tier suggest high risk, as any minor role or matchup shift could push him over against a Memphis defense that may dictate the game's
+
+  * MJ Collins         points     lower 15.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.138
+      TRACE: lambda=8.6393 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.862531
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 8.6 points (line: 15.5) | Line is 6.9 ABOVE projection (79% gap) | P(lower 15.5) = 75.0% | z = +3.43σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, offering no statistical edge, and the high hit probability is misleading without volatility data. The key risk is that a single made basket pushes this over, making it a pure coin flip despite the probability projection. With no stability metric, this bet relies entirely on
+
+  * Mason Falslev      points     lower 17.5  (STRONG)
+      Probability: 74.1% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.260
+      TRACE: lambda=13.913 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.740539
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.740539
+      [AI Math] Model projects 13.9 points (line: 17.5) | Line is 3.6 ABOVE projection (26% gap) | P(lower 17.5) = 74.1% | z = +1.79σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility data, making the 74.1% hit probability questionable and likely based on insufficient sample size. The UNKNOWN stability and tier are major red flags, indicating this projection lacks reliable context on his role, minutes, or matchup against MEM.
+
+
+============================================================
+ AUB @ ARK  [01:30 ET]
+============================================================
+[MATCHUP ANALYSIS]
+  - PACE: FAST (Projected Total: 164.5) - Expect higher possession count
+  - SPREAD: ARK -8.5
+  - RANKING: AUB (UR) @ ARK (#21)
+
+  ROSTER SNAPSHOT - ARK
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Meleek Thomas         27.9  15.2   3.4   2.7   0.0   0.0   0.0   0.0   0.0   2.3
+  Trevon Brazile        24.3   8.7   5.8   0.8   0.0   0.0   0.0   0.0   0.0   0.8
+
+  ROSTER SNAPSHOT - AUB
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Tahaad Pettiford      26.2  12.6   2.5   3.2   0.0   0.0   0.0   0.0   0.0   1.8
+  Kevin Overton         27.0  10.3   3.4   1.0   0.0   0.0   0.0   0.0   0.0   1.5
+
+[EDGES]
+  * Tahaad Pettiford   pra        lower 25.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.179
+      TRACE: lambda=18.1935 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.788364
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 18.2 pra (line: 25.5) | Line is 7.3 ABOVE projection (40% gap) | P(lower 25.5) = 68.0% | z = +3.65σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set at his exact average with no deviation, suggesting the market is pricing him perfectly, but the 68% hit probability indicates the UNDER benefits from a tighter distribution than the average implies. The key risk is the unknown stability and tier, meaning his role could be volatile in this specific matchup
+
+  * Kevin Overton      pra        lower 19.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.247
+      TRACE: lambda=14.7368 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.752943
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 14.7 pra (line: 19.5) | Line is 4.8 ABOVE projection (32% gap) | P(lower 19.5) = 68.0% | z = +2.38σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility, making the 68% hit probability overly optimistic and likely unreliable. The unknown stability and tier suggest insufficient data, so this edge is more noise than value—avoid betting without clearer matchup or role insights.
+
+  * Trevon Brazile     pra        lower 23.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.156
+      TRACE: lambda=15.4103 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.814048
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 15.4 pra (line: 23.5) | Line is 8.1 ABOVE projection (52% gap) | P(lower 23.5) = 68.0% | z = +4.04σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, but the 68% hit probability suggests the market is overvaluing his consistency against a tough Auburn defense that will challenge him physically. The lack of stability data and the high-variance nature of a rivalry game make this a risky under, despite the
+
+    Meleek Thomas      points     lower 16.5  (LEAN)
+      Probability: 62.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.380
+      TRACE: lambda=15.25 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.619619
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.619619
+      [AI Math] Model projects 15.2 points (line: 16.5) | Line is 1.2 ABOVE projection (8% gap) | P(lower 16.5) = 62.0% | z = +0.62σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, but the 62% hit probability suggests the model sees slight value on the UNDER, likely due to a tough defensive matchup against Auburn. Auburn's elite perimeter defense will challenge his scoring efficiency, making it difficult for him to exceed his average. The main
+
+  * Tahaad Pettiford   points     lower 17.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.203
+      TRACE: lambda=12.5645 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.797283
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 12.6 points (line: 17.5) | Line is 4.9 ABOVE projection (39% gap) | P(lower 17.5) = 75.0% | z = +2.47σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility data, making the 75% hit probability unreliable and likely based on insufficient sample size. Arkansas' defense is mediocre, but without clear evidence of a usage spike or matchup advantage, the under offers no statistical edge. The unknown stability and tier
+
+  * Kevin Overton      points     lower 13.5  (STRONG)
+      Probability: 73.9% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.261
+      TRACE: lambda=10.2737 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.738809
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.738809
+      [AI Math] Model projects 10.3 points (line: 13.5) | Line is 3.2 ABOVE projection (31% gap) | P(lower 13.5) = 73.9% | z = +1.62σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility data, making the high hit probability misleading—it’s purely a coin flip based on recent output. Against Arkansas’s weak perimeter defense, Overton could easily exceed this number if his shot volume increases, so the under offers minimal value
+
+
+============================================================
+ PAC
+============================================================
+  ROSTER SNAPSHOT - PAC
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  TJ Wainwright         23.0   9.5   2.4   1.3   0.0   0.0   0.0   0.0   0.0   1.3
+
+[EDGES]
+  * TJ Wainwright      pra        lower 18.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.224
+      TRACE: lambda=13.1379 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.77593
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 13.1 pra (line: 18.5) | Line is 5.4 ABOVE projection (41% gap) | P(lower 18.5) = 68.0% | z = +2.68σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, but the 68% hit probability suggests the market may be underestimating the defensive pressure from SMC, which could limit his production. The primary risk is his unknown stability and role consistency, making this a volatile bet despite the favorable probability.
+
+  * TJ Wainwright      points     lower 13.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.225
+      TRACE: lambda=9.4741 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.774657
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 9.5 points (line: 13.5) | Line is 4.0 ABOVE projection (43% gap) | P(lower 13.5) = 75.0% | z = +2.01σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility, making the under reliant solely on a slight negative game script. The risk is high given the unknown stability and tier, suggesting the market lacks confidence in his role consistency.
+
+
+============================================================
+ HALL
+============================================================
+  ROSTER SNAPSHOT - HALL
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Tajuan Simpkins       27.7  12.8   3.3   2.1   0.0   0.0   0.0   0.0   0.0   1.1
+
+[EDGES]
+    Tajuan Simpkins    pra        higher 15.5  (LEAN)
+      Probability: 60.4% | mean_source=ESPN | confidence=UNVERIFIED | signal=OK | spread=MISSING | dedupe_dropped=lower@0.351
+      TRACE: lambda=18.2407 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.603962
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.603962
+      [AI Math] Model projects 18.2 pra (line: 15.5) | Line is 2.7 BELOW projection (15% gap) | P(higher 15.5) = 60.4% | z = -1.37σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency.
+      [DeepSeek AI] The edge here is minimal—Simpkins’ recent average sits exactly on the line, so the probability boost likely stems from a favorable matchup against BUT’s defense. However, with zero volatility in his recent performances and unknown stability, any slight deviation in role or game flow could easily push this under
+
+
+============================================================
+ CSU
+============================================================
+  ROSTER SNAPSHOT - CSU
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Josh Pascarelli       30.1  12.6   3.2   1.8   0.0   0.0   0.0   0.0   0.0   2.4
+
+[EDGES]
+    Josh Pascarelli    pra        higher 14.5  (LEAN)
+      Probability: 62.1% | mean_source=ESPN | confidence=UNVERIFIED | signal=OK | spread=MISSING | dedupe_dropped=lower@0.335
+      TRACE: lambda=17.6235 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.621206
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.621206
+      [AI Math] Model projects 17.6 pra (line: 14.5) | Line is 3.1 BELOW projection (18% gap) | P(higher 14.5) = 62.1% | z = -1.56σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency.
+      [DeepSeek AI] This line is set exactly at his recent average, but the 62% hit probability suggests the matchup or role offers a slight upside. The unknown stability and tier are major red flags, indicating his production is highly volatile and untested against this level of competition. Given the lack of reliable data, this
+
+    Josh Pascarelli    points     higher 9.5   (LEAN)
+      Probability: 64.5% | mean_source=ESPN | confidence=UNVERIFIED | signal=OK | spread=MISSING | dedupe_dropped=lower@0.355
+      TRACE: lambda=12.6353 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.644772
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.644772
+      [AI Math] Model projects 12.6 points (line: 9.5) | Line is 3.1 BELOW projection (25% gap) | P(higher 9.5) = 64.5% | z = -1.57σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency.
+      [DeepSeek AI] This line is set exactly at his average with no volatility data, making the 64.5% hit probability highly questionable and likely unreliable. Without a clear matchup advantage or role change, this bet relies on pure variance, offering no sharp value.
+
+
+============================================================
+ FRES
+============================================================
+  ROSTER SNAPSHOT - FRES
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  DeShawn Gory          27.3  12.5   5.8   1.8   0.0   0.0   0.0   0.0   0.0   0.9
+  Zaon Collins          33.6  12.3   3.8   4.6   0.0   0.0   0.0   0.0   0.0   0.8
+
+[EDGES]
+  * DeShawn Gory       pra        lower 27.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.178
+      TRACE: lambda=20.1667 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.789279
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 20.2 pra (line: 27.5) | Line is 7.3 ABOVE projection (36% gap) | P(lower 27.5) = 68.0% | z = +3.66σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] The line is set exactly at his recent average, but the 68% hit probability suggests the market may be underestimating the defensive pressure from AFA, which could limit his production. The primary risk is his unknown stability and role, meaning any minor shift in game script or minutes could push this
+
+    Zaon Collins       points     lower 13.5  (LEAN)
+      Probability: 63.2% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.368
+      TRACE: lambda=12.2549 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.632064
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.632064
+      [AI Math] Model projects 12.2 points (line: 13.5) | Line is 1.2 ABOVE projection (10% gap) | P(lower 13.5) = 63.2% | z = +0.62σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at Collins' recent average, but the 63.2% hit probability suggests the model sees a slight matchup or role-based lean toward the under. The primary risk is the unknown stability of his role and minutes, making this a low-confidence play despite the implied edge.
+
+
+============================================================
+ PEPP
+============================================================
+  ROSTER SNAPSHOT - PEPP
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Styles Phipps         22.6   8.3   4.0   3.1   0.0   0.0   0.0   0.0   0.0   0.3
+
+[EDGES]
+  * Styles Phipps      pra        lower 24.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.129
+      TRACE: lambda=15.3913 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.844419
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 15.4 pra (line: 24.5) | Line is 9.1 ABOVE projection (59% gap) | P(lower 24.5) = 68.0% | z = +4.55σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility, making the 68% hit probability overly reliant on a single data point and not trustworthy. The unknown stability and tier suggest insufficient data, so any perceived edge is likely noise rather than a true mismatch. Avoid this prop due to the lack
+
+
+============================================================
+ LMU
+============================================================
+  ROSTER SNAPSHOT - LMU
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Rodney Brown Jr.      20.4   7.3   1.8   1.4   0.0   0.0   0.0   0.0   0.0   1.5
+
+[EDGES]
+  * Rodney Brown Jr.   pra        lower 20.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.118
+      TRACE: lambda=10.4474 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.882108
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 10.4 pra (line: 20.5) | Line is 10.1 ABOVE projection (96% gap) | P(lower 20.5) = 68.0% | z = +5.03σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, but the 68% hit probability suggests the market is undervaluing a tough matchup against Pepperdine's defense, which likely suppresses his counting stats. The unknown stability and tier are significant red flags, making this a risky play despite the apparent edge
+
+
+============================================================
+ TENN
+============================================================
+  ROSTER SNAPSHOT - TENN
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Ja'Kobi Gillespie     29.4  14.6   2.8   4.4   0.0   0.0   0.0   0.0   0.0   1.9
+
+[EDGES]
+  * Ja'Kobi Gillespie  pra        lower 26.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.270
+      TRACE: lambda=21.7949 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.689601
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.689601
+      [AI Math] Model projects 21.8 pra (line: 26.5) | Line is 4.7 ABOVE projection (22% gap) | P(lower 26.5) = 68.0% | z = +2.36σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, but the 68% hit probability suggests the market is overvaluing his consistency in a tougher defensive matchup against LSU. The key risk is his unknown stability and role, making this a pure fade of the market's confidence rather than a strong statistical edge
+
+  * Ja'Kobi Gillespie  points     lower 18.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.247
+      TRACE: lambda=14.5897 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.752792
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 14.6 points (line: 18.5) | Line is 3.9 ABOVE projection (27% gap) | P(lower 18.5) = 75.0% | z = +1.96σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his average, but the 75% hit probability suggests the model sees a strong matchup advantage against LSU's perimeter defense. However, the unknown stability and tier are major red flags, indicating insufficient data to trust the projection with confidence.
+
+
+============================================================
+ MISS
+============================================================
+  ROSTER SNAPSHOT - MISS
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  AJ Storr              22.6  11.4   2.7   1.0   0.0   0.0   0.0   0.0   0.0   1.1
+  Patton Pinkins        22.7   8.9   1.9   0.8   0.0   0.0   0.0   0.0   0.0   1.3
+
+[EDGES]
+  * AJ Storr           pra        lower 21.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.208
+      TRACE: lambda=15.0866 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.756689
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 15.1 pra (line: 21.5) | Line is 6.4 ABOVE projection (42% gap) | P(lower 21.5) = 68.0% | z = +3.21σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at Storr's recent average, but the 68% hit probability suggests the market is overvaluing his consistency against a tough Mississippi State defense that ranks top-50 in adjusted defensive efficiency. The primary risk is Storr's high usage as Mississippi's leading scorer, which
+
+    Patton Pinkins     points     lower 10.5  (LEAN)
+      Probability: 67.6% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.324
+      TRACE: lambda=8.875 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.675602
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.675602
+      [AI Math] Model projects 8.9 points (line: 10.5) | Line is 1.6 ABOVE projection (18% gap) | P(lower 10.5) = 67.6% | z = +0.81σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] The zero standard deviation on his recent average suggests limited data, making the 67.6% hit probability unreliable. With no clear edge and unknown stability, this bet relies heavily on a low-scoring game script, which is plausible given the in-state rivalry but lacks statistical backing. The primary risk is
+
+
+============================================================
+ SMC
+============================================================
+  ROSTER SNAPSHOT - SMC
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Paulius Murauskas     22.6  11.6   5.7   1.3   0.0   0.0   0.0   0.0   0.0   0.9
+  Mikey Lewis           20.0  10.1   2.1   1.2   0.0   0.0   0.0   0.0   0.0   1.8
+
+[EDGES]
+  * Paulius Murauskas  pra        lower 26.5  (STRONG)
+      Probability: 68.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.161
+      TRACE: lambda=18.5833 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.808546
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 18.6 pra (line: 26.5) | Line is 7.9 ABOVE projection (43% gap) | P(lower 26.5) = 68.0% | z = +3.96σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no deviation, indicating the market is pricing him perfectly based on recent output. The 68% hit probability suggests a slight statistical lean to the under, but with unknown stability and tier, the edge is minimal and unreliable. Given the lack of matchup context
+
+  * Paulius Murauskas  points     lower 17.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.169
+      TRACE: lambda=11.5833 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.831512
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 11.6 points (line: 17.5) | Line is 5.9 ABOVE projection (51% gap) | P(lower 17.5) = 75.0% | z = +2.96σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at Murauskas's recent average, offering no statistical edge, and the 75% hit probability is unreliable given the unknown stability and tier of the projection. The matchup context is critical but missing; without knowing defensive ratings, pace, or his role security, this is a
+
+    Mikey Lewis        points     lower 11.5  (LEAN)
+      Probability: 65.1% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.349
+      TRACE: lambda=10.1475 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.651049
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.651049
+      [AI Math] Model projects 10.2 points (line: 11.5) | Line is 1.3 ABOVE projection (13% gap) | P(lower 11.5) = 65.1% | z = +0.67σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, but the high hit probability suggests the market is overvaluing a slight dip in scoring. The matchup against PAC, a team with a strong perimeter defense, supports the under, but the unknown stability and tier make this a volatile bet. Proceed cautiously
+
+
+============================================================
+ VCU
+============================================================
+  ROSTER SNAPSHOT - VCU
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Lazar Djokovic        21.5   8.0   5.0   0.9   0.0   0.0   0.0   0.0   0.0   0.3
+
+[EDGES]
+  * Lazar Djokovic     points     lower 16.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.102
+      TRACE: lambda=7.963 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.897703
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+      [AI Math] Model projects 8.0 points (line: 16.5) | Line is 8.5 ABOVE projection (107% gap) | P(lower 16.5) = 75.0% | z = +4.27σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his average with no volatility data, making it a pure coin flip despite the high hit probability. The matchup against Richmond offers no clear defensive edge to push him under, and his role as VCU's primary scorer creates significant risk in a competitive rivalry game. Without stability metrics
+
+
+============================================================
+ WASH
+============================================================
+  ROSTER SNAPSHOT - WASH
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Hannes Steinbach      33.7  17.6  11.4   1.5   1.0   1.0   2.0   0.0   0.0   0.6
+
+[EDGES]
+    Hannes Steinbach   points     lower 18.5  (LEAN)
+      Probability: 60.5% | mean_source=DIRECTIONAL_FALLBACK | confidence=UNVERIFIED | signal=OK | spread=MISSING | dedupe_dropped=higher@0.535
+      TRACE: lambda=17.39 (DIRECTIONAL_FALLBACK/UNVERIFIED)
+             raw=None adj_mult=1.0 adj=0.605217
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.605217
+      [AI Math] Model projects 17.4 points (line: 18.5) | Line is 1.1 ABOVE projection (6% gap) | P(lower 18.5) = 60.5% | z = +0.55σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at Steinbach's recent average with no volatility, making it a pure coin flip despite the implied probability. The unknown stability and tier suggest insufficient data, so any perceived edge is likely noise rather than a reliable mismatch. Avoid this prop due to the complete lack of predictive confidence;
+
+
+============================================================
+ RICH
+============================================================
+  ROSTER SNAPSHOT - RICH
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  AJ Lopez              23.9  11.4   1.9   0.9   0.0   0.0   0.0   0.0   0.0   1.3
+
+[EDGES]
+  * AJ Lopez           points     lower 14.5  (STRONG)
+      Probability: 72.8% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.272
+      TRACE: lambda=11.3895 (ESPN/OK)
+             raw=None adj_mult=1.0 adj=0.728394
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.728394
+      [AI Math] Model projects 11.4 points (line: 14.5) | Line is 3.1 ABOVE projection (27% gap) | P(lower 14.5) = 72.8% | z = +1.55σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, but the high hit probability suggests the market is factoring in a tough defensive matchup against VCU. The main risk is that Lopez's role as RICH's primary scorer could force volume even against a strong defense, making the under reliant on inefficient shooting.
+
+
+============================================================
+ UVA @ OSU  [01:00 ET]
+============================================================
+[MATCHUP ANALYSIS]
+  - PACE: MODERATE (Projected Total: 145.5)
+  - SPREAD: UVA -5.5
+  - RANKING: UVA (#15) @ OSU (UR)
+
+  ROSTER SNAPSHOT - OSU
+  PLAYER                 MIN   PTS   REB   AST   STL   BLK    TO   FG%   3P%   3PM
+  ----------------------------------------------------------------------------------
+  Bruce Thornton        33.9  15.5   3.7   4.0   1.1   0.1   1.3   0.0   0.0   1.6
+
+[EDGES]
+    Bruce Thornton     points     lower 18.5  (LEAN)
+      Probability: 60.5% | mean_source=DIRECTIONAL_FALLBACK | confidence=UNVERIFIED | signal=OK | spread=MISSING | dedupe_dropped=higher@0.535
+      TRACE: lambda=17.39 (DIRECTIONAL_FALLBACK/UNVERIFIED)
+             raw=None adj_mult=1.0 adj=0.605217
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.605217
+      [AI Math] Model projects 17.4 points (line: 18.5) | Line is 1.1 ABOVE projection (6% gap) | P(lower 18.5) = 60.5% | z = +0.55σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average, offering no statistical edge, and the unknown stability and tier suggest high volatility. UVA's notoriously slow pace and elite pack-line defense will severely limit scoring opportunities, making the under the sharper side despite the neutral projection. The primary risk is Thornton's usage
+
+------------------------------
+Skipped 647 plays (low confidence / blowout)
+
+=================================================================
+[i] CBB = PRODUCTION - 12% market gate, L10 stats, stricter caps than NBA
+=================================================================

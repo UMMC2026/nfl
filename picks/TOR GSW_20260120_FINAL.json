@@ -1,0 +1,40 @@
+{
+  "date": "2026-01-20",
+  "timestamp": "2026-01-20T22:38:40.080479",
+  "slate": "TOR GSW",
+  "source_file": "TOR GSW_RISK_FIRST_20260120_FROM_UD.json",
+  "summary": {
+    "play_count": 3,
+    "lean_count": 0,
+    "total": 3
+  },
+  "picks": [
+    {
+      "player": "Brandon Ingram",
+      "team": "TOR",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 75
+    },
+    {
+      "player": "Immanuel Quickley",
+      "team": "TOR",
+      "stat": "points",
+      "line": 31.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 75
+    },
+    {
+      "player": "Draymond Green",
+      "team": "GSW",
+      "stat": "points",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 73.3
+    }
+  ]
+}

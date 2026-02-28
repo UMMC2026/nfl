@@ -1,0 +1,58 @@
+{
+  "date": "2026-02-06",
+  "timestamp": "2026-02-06T14:35:40.330728",
+  "slate": "SCRAPED_20260206",
+  "source_file": "SCRAPED_20260206_RISK_FIRST_20260206_FROM_UD.json",
+  "summary": {
+    "play_count": 2,
+    "lean_count": 3,
+    "total": 5
+  },
+  "picks": [
+    {
+      "player": "Ausar Thompson",
+      "team": "UNK",
+      "stat": "points",
+      "line": 16.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 74.2
+    },
+    {
+      "player": "Kawhi Leonard",
+      "team": "UNK",
+      "stat": "points",
+      "line": 16.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 67.7
+    },
+    {
+      "player": "Anthony Edwards",
+      "team": "UNK",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 72.0
+    },
+    {
+      "player": "Jaden McDaniels",
+      "team": "UNK",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 58.9
+    },
+    {
+      "player": "Jalen Brunson",
+      "team": "UNK",
+      "stat": "points",
+      "line": 26.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 58.1
+    }
+  ]
+}

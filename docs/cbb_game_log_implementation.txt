@@ -1,0 +1,189 @@
+"""
+CBB GAME LOG FETCHING — Implementation Blueprint
+═══════════════════════════════════════════════════════════════
+
+OBJECTIVE: Add ESPN game log fetching to CBBDataProvider so variance 
+           calculations use real player-specific data instead of static table.
+
+FILES TO MODIFY:
+1. sports/cbb/ingest/cbb_data_provider.py (CBBDataProvider class)
+2. sports/cbb/cbb_main.py (compute_cbb_probability function)
+
+═══════════════════════════════════════════════════════════════
+STEP 1: Extend CBBDataProvider to Fetch Game Logs
+═══════════════════════════════════════════════════════════════
+
+FILE: sports/cbb/ingest/cbb_data_provider.py
+
+EXISTING METHOD (line ~240):
+    def get_player_stats(self, player_id: str) -> Optional[CBBPlayer]:
+        # Currently returns season averages only
+
+ADD NEW METHOD:
+    def get_player_game_logs(self, player_id: str, last_n: int = 10) -> List[Dict]:
+        '''Fetch last N games for a player from ESPN.
+        
+        Returns:
+            List of game dicts with fields:
+            - date: ISO format
+            - opponent: Team abbreviation
+            - minutes: Float
+            - points, rebounds, assists, etc.
+        '''
+        try:
+            # Use self.espn.get_player_game_log(player_id, season_year)
+            # ESPN API endpoint: /players/{player_id}/gamelog/{season_year}
+            # Parse response and extract stat lines
+            pass
+        except Exception as e:
+            print(f"   [WARN] Game log fetch failed for {player_id}: {e}")
+            return []
+
+UPDATE get_player_stats() TO INCLUDE GAME LOGS:
+    def get_player_stats(self, player_id: str) -> Optional[Dict]:
+        '''Get player stats with game logs.
+        
+        Returns:
+            {
+                'points': 15.2,      # Season average
+                'rebounds': 5.3,
+                'assists': 3.1,
+                'game_logs': [       # NEW FIELD
+                    {'date': '2026-02-18', 'points': 18, 'rebounds': 6, ...},
+                    {'date': '2026-02-15', 'points': 12, 'rebounds': 4, ...},
+                    ...
+                ]
+            }
+        '''
+        # Get season averages from cache
+        stats = self.cache.get_player_stats(player_name, team_abbr)
+        
+        # Fetch game logs from ESPN
+        game_logs = self.get_player_game_logs(player_id, last_n=15)
+        if game_logs:
+            stats['game_logs'] = game_logs
+        
+        return stats
+
+═══════════════════════════════════════════════════════════════
+STEP 2: Update compute_cbb_probability to Use Real Variance
+═══════════════════════════════════════════════════════════════
+
+FILE: sports/cbb/cbb_main.py (line ~1100-1350)
+
+CURRENT CODE (line 1107):
+    _raw_game_logs = None  # Stored for hybrid router
+
+CHANGE TO:
+    _raw_game_logs = []    # Will be populated from provider
+
+CURRENT CODE (line 1147):
+    if game_logs and isinstance(game_logs, dict) and game_logs.get("game_logs"):
+        _raw_game_logs = game_logs["game_logs"]  # Save for hybrid router
+
+VALIDATED — This already extracts game logs IF they exist.
+
+CURRENT CODE (line 1276-1323):
+    # v3.0: DISTRIBUTION-AWARE SIGMA — Use actual game-log variance when available
+    if _raw_game_logs and len(_raw_game_logs) >= 5:
+        # ... code attempts to calculate real variance ...
+
+PROBLEM: This code path NEVER executes because _raw_game_logs is always None.
+
+FIX: After CBBDataProvider returns game_logs in Step 1, this code will
+     automatically start working!
+
+ADD VALIDATION:
+    # After calculating cbb_sigma (line ~1280)
+    if cbb_sigma == 0 or cbb_sigma is None:
+        raise ValueError(f"Sigma cannot be zero for {player_name} {stat}")
+
+═══════════════════════════════════════════════════════════════
+STEP 3: Add ESPN Game Log API Integration
+═══════════════════════════════════════════════════════════════
+
+FILE: sports/cbb/ingest/espn_cbb_api.py (if it exists)
+      OR create new file: sports/cbb/ingest/game_log_fetcher.py
+
+REFERENCE: NBA system already does this in nba_statsapi.py
+           Copy pattern for CBB.
+
+ESPN CBB API ENDPOINTS:
+- Player info: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/athletes/{player_id}
+- Game log: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/athletes/{player_id}/gamelog/{season}
+
+EXAMPLE IMPLEMENTATION:
+    def fetch_cbb_game_log(player_id: str, season: int = 2026) -> List[Dict]:
+        url = f"https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/athletes/{player_id}/gamelog/{season}"
+        resp = requests.get(url, timeout=10)
+        resp.raise_for_status()
+        data = resp.json()
+        
+        games = []
+        for event in data.get('events', []):
+            game = {
+                'date': event.get('date'),
+                'opponent': event.get('opponent', {}).get('abbreviation'),
+                'minutes': event.get('stats', {}).get('minutes', 0),
+                'points': event.get('stats', {}).get('points', 0),
+                'rebounds': event.get('stats', {}).get('rebounds', 0),
+                'assists': event.get('stats', {}).get('assists', 0),
+                # ... other stats
+            }
+            games.append(game)
+        
+        return games
+
+═══════════════════════════════════════════════════════════════
+STEP 4: Testing & Validation
+═══════════════════════════════════════════════════════════════
+
+UNIT TEST: sports/cbb/tests/test_game_log_variance.py
+
+    def test_variance_calculation():
+        provider = CBBDataProvider()
+        stats = provider.get_player_stats("Player Name", "DUKE")
+        
+        assert 'game_logs' in stats, "Game logs missing"
+        assert len(stats['game_logs']) > 0, "No game logs returned"
+        
+        # Test variance calculation
+        from sports.cbb.cbb_distribution import get_distribution_for_player
+        game_values = [g['points'] for g in stats['game_logs']]
+        dist = get_distribution_for_player('points', game_values)
+        
+        assert dist['variance'] > 0, "Variance should be > 0"
+        assert dist['confidence'] in ['HIGH', 'MEDIUM', 'LOW']
+
+INTEGRATION TEST:
+    1. Run OddsAPI ingestion (menu [8])
+    2. Check cbb_report — look for ROSTER SNAPSHOT section
+    3. Verify σ values are player-specific (not all 6.5 for PTS)
+    4. Verify report shows "Game log variance: HIGH CONFIDENCE"
+
+EXPECTED OUTPUT CHANGE:
+    BEFORE:
+        Model projects 15.2 pts (line: 14.5) | z = +0.11σ
+        σ = 6.5 (static table)
+    
+    AFTER:
+        Model projects 15.2 pts (line: 14.5) | z = +0.11σ
+        σ = 4.2 (from 12-game variance, HIGH confidence)
+
+═══════════════════════════════════════════════════════════════
+ESTIMATED EFFORT: 4 hours
+═══════════════════════════════════════════════════════════════
+- Step 1: 90 minutes (add game log fetching to provider)
+- Step 2: 30 minutes (wire to probability engine)
+- Step 3: 60 minutes (ESPN API integration)
+- Step 4: 60 minutes (testing & validation)
+
+═══════════════════════════════════════════════════════════════
+SUCCESS CRITERIA:
+═══════════════════════════════════════════════════════════════
+✓ CBBDataProvider returns game_logs array
+✓ _raw_game_logs is populated in compute_cbb_probability
+✓ Variance calculation uses real data (not static table)
+✓ Report shows player-specific σ values
+✓ No σ=0.0 errors in production
+"""

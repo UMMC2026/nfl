@@ -1,0 +1,49 @@
+
+===========================================================================
+  TENNIS PROPS CHEATSHEET
+  Surface: HARD
+  Generated: Wednesday, February 11, 2026 at 08:38 AM
+===========================================================================
+
+  SUMMARY
+  -----------------------------------
+  Total Playable:    14
+  SLAM (70%+):       4
+  STRONG (62-70%):   6
+  LEAN (55-62%):     4
+
+  [SLAM] *** (4 picks)
+  ---------------------------------------------------------------------------
+  PLAYER                   PICK                   LINE    PROB    n
+  ---------------------------------------------------------------------------
+  Qinwen Zheng             HIGHER games_won       8.5     82%     12 [CORR]
+  Qinwen Zheng             HIGHER aces            4.5     94%     12 [CORR]
+  Elena Rybakina           HIGHER games_played    20.5    98%     3 [CORR]
+  Elena Rybakina           HIGHER sets_played     2.5     99%     3 [CORR]
+
+  [STRONG] ** (6 picks)
+  ---------------------------------------------------------------------------
+  PLAYER                   PICK                   LINE    PROB    n
+  ---------------------------------------------------------------------------
+  Qinwen Zheng             HIGHER 1st_set_games_  3.5     78%     12 [CORR]
+  Qinwen Zheng             HIGHER sets_won        0.5     74%     12
+  Elena Rybakina           HIGHER games_won       12.5    80%     3 [CORR]
+  Elena Rybakina           HIGHER aces            6.5     79%     3 [CORR]
+  Elena Rybakina           HIGHER tiebreakers     0.5     100%     3
+  Qinwen Zheng             HIGHER double_faults   3.5     79%     12 [CORR]
+
+  [LEAN] * (4 picks)
+  ---------------------------------------------------------------------------
+  PLAYER                   PICK                   LINE    PROB    n
+  ---------------------------------------------------------------------------
+  Elena Rybakina           HIGHER 1st_set_games   8.5     67%     3
+  Qinwen Zheng             HIGHER breakpoints_wo  1.5     64%     12
+  Elena Rybakina           LOWER breakpoints_won  3.5     64%     3
+  Elena Rybakina           HIGHER double_faults   2.5     59%     3 [CORR]
+
+===========================================================================
+  RULES (SOP v2.1)
+  - One player, one bet per match
+  - [CORR] = Correlated stats - don't combine in parlays
+  - Probabilities from 2,000 Monte Carlo simulations
+===========================================================================

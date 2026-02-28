@@ -1,0 +1,168 @@
+{
+  "timestamp": "2026-02-07T07:53:02.467692",
+  "sites": [
+    "oddsapi"
+  ],
+  "total_props": 0,
+  "parsed_props": 0,
+  "players": 0,
+  "props": [],
+  "oddsapi_meta": {
+    "sport": "SOCCER_MLS",
+    "sport_key": "soccer_usa_mls",
+    "regions": "us_dfs",
+    "markets": "player_shots,player_shots_on_target,player_assists",
+    "bookmakers": "betr_us_dfs,pick6,prizepicks,underdog",
+    "event_count": 15,
+    "quota": {
+      "events_list": {
+        "remaining": 229,
+        "used": 271,
+        "last_cost": 0
+      },
+      "last_event_odds": {
+        "remaining": 229,
+        "used": 271,
+        "last_cost": 0
+      }
+    },
+    "raw_event_odds": [
+      {
+        "id": "1f4f8a3c3e3dd3c1481ecb3816c5cc5d",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2026-02-21T19:30:00Z",
+        "home_team": "St. Louis City SC",
+        "away_team": "Charlotte FC",
+        "bookmakers": []
+      },
+      {
+        "id": "80e57d93b9d2d903c47f560e548a637e",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2026-02-21T21:45:00Z",
+        "home_team": "FC Cincinnati",
+        "away_team": "Atlanta United FC",
+        "bookmakers": []
+      },
+      {
+        "id": "3f246fa4fbc67da10c5b6376bd3af0a8",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2026-02-22T00:30:00Z",
+        "home_team": "D.C. United",
+        "away_team": "Philadelphia Union",
+        "bookmakers": []
+      },
+      {
+        "id": "ad15f1a30d62a7abb9d2887a1ac9af19",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2026-02-22T00:30:00Z",
+        "home_team": "Orlando City SC",
+        "away_team": "New York Red Bulls",
+        "bookmakers": []
+      },
+      {
+        "id": "87ecdf52712f12f8b3161a4450b7d4ad",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2026-02-22T00:30:00Z",
+        "home_team": "Vancouver Whitecaps FC",
+        "away_team": "Real Salt Lake",
+        "bookmakers": []
+      },
+      {
+        "id": "ac2c4c63fe3c03e7ac2ea7b51dbb9926",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2026-02-22T01:30:00Z",
+        "home_team": "Austin FC",
+        "away_team": "Minnesota United FC",
+        "bookmakers": []
+      },
+      {
+        "id": "30214827e460f040a5edb41da95b9b3c",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2026-02-22T01:30:00Z",
+        "home_team": "Houston Dynamo",
+        "away_team": "Chicago Fire",
+        "bookmakers": []
+      },
+      {
+        "id": "670c3f24ba332f8a3f98e5045e04b137",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2026-02-22T01:30:00Z",
+        "home_team": "FC Dallas",
+        "away_team": "Toronto FC",
+        "bookmakers": []
+      },
+      {
+        "id": "3b1f3ecb2cd12ba4a038da965fb6b75e",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2026-02-22T01:30:00Z",
+        "home_team": "Nashville SC",
+        "away_team": "New England Revolution",
+        "bookmakers": []
+      },
+      {
+        "id": "3b26717c68c4a78fe8e9570dec9d9ca4",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2026-02-22T02:30:00Z",
+        "home_team": "Los Angeles FC",
+        "away_team": "Inter Miami CF",
+        "bookmakers": []
+      },
+      {
+        "id": "02db5eab2a594b154c54fa1e31f24e29",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2026-02-22T03:30:00Z",
+        "home_team": "San Diego FC",
+        "away_team": "CF Montreal",
+        "bookmakers": []
+      },
+      {
+        "id": "4296c6d6e5c17c10e4f49fa899adee14",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2026-02-22T03:30:00Z",
+        "home_team": "Portland Timbers",
+        "away_team": "Columbus Crew SC",
+        "bookmakers": []
+      },
+      {
+        "id": "fff4c0526c31942ba2d09d50a256922e",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2026-02-22T03:30:00Z",
+        "home_team": "San Jose Earthquakes",
+        "away_team": "Sporting Kansas City",
+        "bookmakers": []
+      },
+      {
+        "id": "b79b2875b6c2520d557f18cf5912f411",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2026-02-23T00:00:00Z",
+        "home_team": "LA Galaxy",
+        "away_team": "New York City FC",
+        "bookmakers": []
+      },
+      {
+        "id": "088f3788bb56116d37897dbf35a9c4f5",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2026-02-23T02:15:00Z",
+        "home_team": "Seattle Sounders FC",
+        "away_team": "Colorado Rapids",
+        "bookmakers": []
+      }
+    ]
+  },
+  "run_id": "819467fce0753398"
+}

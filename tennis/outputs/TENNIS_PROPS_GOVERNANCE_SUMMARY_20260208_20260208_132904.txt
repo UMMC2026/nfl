@@ -1,0 +1,40 @@
+==============================================================================
+GOVERNANCE SUMMARY - TENNIS_PROPS - 20260208
+==============================================================================
+Created (UTC): 2026-02-08T19:29:04.783859+00:00
+
+COUNTS
+------------------------------------------------------------------------------
+Total results : 7
+Allowed edges : 5
+Blocked edges : 2
+Decision breakdown:
+  - PLAY: 3
+  - BLOCKED: 2
+  - LEAN: 2
+
+TOP BLOCK REASONS
+------------------------------------------------------------------------------
+    2x - pick_state=REJECTED
+
+TOP PLAY PICKS
+------------------------------------------------------------------------------
+ 1. Calin Teodor Stirbu () games_won HIGHER 9.5
+    eff=87.1% model=87.1% edge=? z=?
+ 2. Calin Teodor Stirbu () 1st_set_games_won HIGHER 4.5
+    eff=72.2% model=72.2% edge=? z=?
+ 3. Ryan Fishback () 1st_set_games HIGHER 8.5
+    eff=70.5% model=70.5% edge=? z=?
+
+TOP LEANS
+------------------------------------------------------------------------------
+ 1. Ryan Fishback () games_played HIGHER 20.5
+    eff=64.6% model=64.6% edge=? z=?
+ 2. Ryan Fishback () games_won LOWER 12.5
+    eff=58.5% model=58.5% edge=? z=?
+
+FILES
+------------------------------------------------------------------------------
+- outputs/governance_config.json
+- outputs/allowed_edges.json
+... (truncated)

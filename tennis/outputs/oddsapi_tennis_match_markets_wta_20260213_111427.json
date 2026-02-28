@@ -1,0 +1,94 @@
+{
+  "sport": "TENNIS",
+  "tour": "WTA",
+  "ingested_at": "2026-02-13T17:14:27.512895Z",
+  "sport_key": "tennis_wta_qatar_open",
+  "regions": "us",
+  "markets": "totals,spreads,h2h",
+  "total_props": 4,
+  "props": [
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Maria Sakkari vs Karolina Muchova",
+      "stat": "total_games",
+      "line": 22.5,
+      "direction": "higher",
+      "raw": {
+        "event_id": "674fa712a67a67efbe85f9a4df1c5e7f",
+        "commence_time": "2026-02-13T16:43:00Z",
+        "home_team": "Maria Sakkari",
+        "away_team": "Karolina Muchova",
+        "bookmaker_key": "betrivers",
+        "market_key": "totals",
+        "price": -115
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Maria Sakkari vs Karolina Muchova",
+      "stat": "total_games",
+      "line": 22.5,
+      "direction": "lower",
+      "raw": {
+        "event_id": "674fa712a67a67efbe85f9a4df1c5e7f",
+        "commence_time": "2026-02-13T16:43:00Z",
+        "home_team": "Maria Sakkari",
+        "away_team": "Karolina Muchova",
+        "bookmaker_key": "betrivers",
+        "market_key": "totals",
+        "price": -118
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Karolina Muchova",
+      "stat": "game_spread",
+      "line": -3.5,
+      "direction": "lower",
+      "raw": {
+        "event_id": "674fa712a67a67efbe85f9a4df1c5e7f",
+        "commence_time": "2026-02-13T16:43:00Z",
+        "home_team": "Maria Sakkari",
+        "away_team": "Karolina Muchova",
+        "bookmaker_key": "betrivers",
+        "market_key": "spreads",
+        "price": -118,
+        "opponent": "Maria Sakkari"
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Maria Sakkari",
+      "stat": "game_spread",
+      "line": 3.5,
+      "direction": "higher",
+      "raw": {
+        "event_id": "674fa712a67a67efbe85f9a4df1c5e7f",
+        "commence_time": "2026-02-13T16:43:00Z",
+        "home_team": "Maria Sakkari",
+        "away_team": "Karolina Muchova",
+        "bookmaker_key": "betrivers",
+        "market_key": "spreads",
+        "price": -115,
+        "opponent": "Karolina Muchova"
+      }
+    }
+  ],
+  "meta": {
+    "sport": "TENNIS",
+    "tour": "WTA",
+    "sport_key": "tennis_wta_qatar_open",
+    "regions": "us",
+    "markets": "totals,spreads,h2h",
+    "event_count": 1,
+    "props_extracted": 4,
+    "quota": {
+      "remaining": 18207,
+      "used": 1793
+    }
+  }
+}

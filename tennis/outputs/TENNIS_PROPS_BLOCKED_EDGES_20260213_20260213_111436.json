@@ -1,0 +1,150 @@
+{
+  "created_at_utc": "2026-02-13T17:14:36.364809+00:00",
+  "edges": [
+    {
+      "edge_id": "204afca95813b27c",
+      "player": "Maria Sakkari",
+      "team": "",
+      "opponent": "",
+      "stat": "game_spread",
+      "line": 3.5,
+      "direction": "higher",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 98.4,
+      "effective_confidence": 98.4,
+      "mu": 10.091644925751755,
+      "sigma": 2.970316778912068,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 3,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=VETTED",
+      "gate_details": [
+        {
+          "pick_id": "Maria Sakkari_GAME_SPREAD_higher_3.5",
+          "state": "VETTED",
+          "original_probability": 98.4,
+          "final_probability": 98.4,
+          "adjustments": [],
+          "rejection_reason": null,
+          "vetted_reason": "FRAGILE_FLAG",
+          "flags_detected": [
+            "FRAGILE"
+          ],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "GATE_2_USAGE_VOLATILITY",
+            "GATE_3_SPECIALIST_REJECTS",
+            "GATE_4_FRAGILE",
+            "VETTED: FRAGILE flag (visible, not optimizable)"
+          ],
+          "is_optimizable": false,
+          "is_visible": true
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "8790dcbbeaa8a22d",
+      "player": "Karolina Muchova",
+      "team": "",
+      "opponent": "",
+      "stat": "total_games",
+      "line": 22.5,
+      "direction": "higher",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 56.00000000000001,
+      "effective_confidence": 56.00000000000001,
+      "mu": 24.719,
+      "sigma": 5.844409085508936,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 10,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "tier=AVOID",
+      "gate_details": [
+        {
+          "pick_id": "Karolina Muchova_TOTAL_GAMES_higher_22.5",
+          "state": "OPTIMIZABLE",
+          "original_probability": 56.00000000000001,
+          "final_probability": 56.00000000000001,
+          "adjustments": [],
+          "rejection_reason": null,
+          "vetted_reason": null,
+          "flags_detected": [],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "GATE_2_USAGE_VOLATILITY",
+            "GATE_3_SPECIALIST_REJECTS",
+            "GATE_4_FRAGILE",
+            "GATE_5_MATCHUP_DECAY",
+            "GATE_6_COMPOSITE",
+            "PASSED_ALL_GATES"
+          ],
+          "is_optimizable": true,
+          "is_visible": true
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "74a772f5e669c9e0",
+      "player": "Karolina Muchova",
+      "team": "",
+      "opponent": "",
+      "stat": "game_spread",
+      "line": -3.5,
+      "direction": "lower",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 0.0,
+      "effective_confidence": 0.0,
+      "mu": 10.0179759478398,
+      "sigma": 3.020578373928845,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 6,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=REJECTED",
+      "gate_details": [
+        {
+          "pick_id": "Karolina Muchova_GAME_SPREAD_lower_-3.5",
+          "state": "REJECTED",
+          "original_probability": 0.0,
+          "final_probability": 0.0,
+          "adjustments": [],
+          "rejection_reason": "LOW_PROBABILITY",
+          "vetted_reason": null,
+          "flags_detected": [],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "REJECTED: prob 0.0% < 55.0%"
+          ],
+          "is_optimizable": false,
+          "is_visible": false
+        }
+      ],
+      "stat_adjustment": null
+    }
+  ]
+}

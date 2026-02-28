@@ -1,0 +1,31 @@
+{
+  "date": "2026-01-19",
+  "timestamp": "2026-01-19T18:45:28.934784",
+  "slate": "PHI_IND_GOBLIN_LIVE",
+  "source_file": "PHI_IND_GOBLIN_LIVE_RISK_FIRST_20260119_FROM_UD.json",
+  "summary": {
+    "play_count": 1,
+    "lean_count": 1,
+    "total": 2
+  },
+  "picks": [
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "stat": "points",
+      "line": 29.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 70.1
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "stat": "points",
+      "line": 10.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 69.1
+    }
+  ]
+}

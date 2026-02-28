@@ -1,0 +1,779 @@
+============================================================
+  NHL PROFESSIONAL REPORT
+  Generated: 2026-02-03 15:45
+  Slate Date: 2026-02-03
+============================================================
+
++----------------------------------------------------------+
+|  SLATE SUMMARY                                           |
++----------------------------------------------------------+
+|  Total Props Analyzed: 313                               |
+|  Playable Picks:       145                               |
+|  [STRONG]:             142                               |
+|  [LEAN]:               10                                |
+|  Players Covered:      125 skaters                       |
++----------------------------------------------------------+
+
++==========================================================+
+|               TOP 5 NHL PICKS                            |
++==========================================================+
+|  #1 [STRONG] Marc Gatcomb (NYI)                          |
+|     Hits LESS 4.5                                        |
+|     Confidence: 85.0% | Edge: 35.0%                      |
+|----------------------------------------------------------|
+|  #2 [STRONG] Alex Tuch (BUF)                             |
+|     Points MORE 0.5                                      |
+|     Confidence: 85.0% | Edge: 35.0%                      |
+|----------------------------------------------------------|
+|  #3 [STRONG] Jakob Chychrun (WSH)                        |
+|     Points MORE 0.5                                      |
+|     Confidence: 85.0% | Edge: 35.0%                      |
+|----------------------------------------------------------|
+|  #4 [STRONG] Jordan Eberle (SEA)                         |
+|     Points MORE 0.5                                      |
+|     Confidence: 85.0% | Edge: 35.0%                      |
+|----------------------------------------------------------|
+|  #5 [STRONG] Jacob Melanson (SEA)                        |
+|     Hits LESS 6.0                                        |
+|     Confidence: 85.0% | Edge: 35.0%                      |
++==========================================================+
+
++----------------------------------------------------------+
+|  MODEL & GOVERNANCE                                      |
++----------------------------------------------------------+
+|  Model: Poisson Distribution with Real Season Stats      |
+|  Data-Driven Calibration (SDG): DISABLED                 |
+|  SLAM Tier: DISABLED (hockey volatility)                 |
+|  Minimum Edge: 2%                                        |
+|  Goalie Gate: MANDATORY for saves props                  |
++----------------------------------------------------------+
+
+============================================================
+  [STRONG] PICKS (142)
+============================================================
+  Marc Gatcomb (NYI) vs PIT
+    Hits LESS 4.5
+    Confidence: 85.0% | Edge: 35.0%
+
+  Alex Tuch (BUF) vs TB
+    Points MORE 0.5
+    Confidence: 85.0% | Edge: 35.0%
+
+  Jakob Chychrun (WSH) vs PHI
+    Points MORE 0.5
+    Confidence: 85.0% | Edge: 35.0%
+
+  Jordan Eberle (SEA) vs ANA
+    Points MORE 0.5
+    Confidence: 85.0% | Edge: 35.0%
+
+  Jacob Melanson (SEA) vs ANA
+    Hits LESS 6.0
+    Confidence: 85.0% | Edge: 35.0%
+
+  Claude Giroux (OTT) vs CAR
+    Points MORE 0.5
+    Confidence: 85.0% | Edge: 35.0%
+
+  William Nylander (TOR) vs EDM
+    SOG MORE 1.5 | Season Avg: 3.2
+    Confidence: 85.0% | Edge: 35.0%
+
+  Sam Reinhart (FLA) vs BOS
+    SOG MORE 1.5 | Season Avg: 3.2
+    Confidence: 85.0% | Edge: 35.0%
+
+  Zach Werenski (CBJ) vs NJ
+    TOI LESS 25.0
+    Confidence: 80.4% | Edge: 30.4%
+
+  Alex Ovechkin (WSH) vs PHI
+    SOG MORE 2.5 | Season Avg: 3.8
+    Confidence: 78.3% | Edge: 28.3%
+
+  Kirill Kaprizov (MIN) vs NSH
+    SOG MORE 2.5 | Season Avg: 3.8
+    Confidence: 78.3% | Edge: 28.3%
+
+  Beck Malenstyn (BUF) vs TB
+    Hits LESS 4.0
+    Confidence: 75.8% | Edge: 25.8%
+
+  Tage Thompson (BUF) vs TB
+    SOG MORE 2.5 | Season Avg: 3.5
+    Confidence: 72.7% | Edge: 22.7%
+
+  Cole Caufield (MTL) vs WPG
+    SOG MORE 2.5 | Season Avg: 3.5
+    Confidence: 72.7% | Edge: 22.7%
+
+  Cale Makar (COL) vs SJ
+    SOG MORE 2.5 | Season Avg: 3.5
+    Confidence: 72.7% | Edge: 22.7%
+
+  Brandon Bussi (CAR) vs OTT
+    Saves MORE 21.5
+    Confidence: 72.2% | Edge: 22.2%
+    Flags: GOALIE_VOLATILE, GOALIE_VOLATILE
+
+  Dan Vladar (PHI) vs WSH
+    Saves MORE 19.5
+    Confidence: 72.2% | Edge: 22.2%
+    Flags: GOALIE_VOLATILE, GOALIE_VOLATILE
+
+  Kyle Connor (WPG) vs MTL
+    SOG MORE 2.5 | Season Avg: 3.4
+    Confidence: 70.7% | Edge: 20.7%
+
+  Brady Tkachuk (OTT) vs CAR
+    SOG MORE 1.5 | Season Avg: 3.0
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:47%, HIGH_CV:47%
+
+  Anthony Mantha (PIT) vs NYI
+    SOG MORE 1.5 | Season Avg: 2.2
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Andrei Svechnikov (CAR) vs OTT
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Nikolaj Ehlers (CAR) vs OTT
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Sebastian Aho (CAR) vs OTT
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Drake Batherson (OTT) vs CAR
+    SOG MORE 1.5 | Season Avg: 2.8
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:46%, HIGH_CV:46%
+
+  Dylan Cozens (OTT) vs CAR
+    SOG MORE 1.5 | Season Avg: 2.4
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Logan Stankoven (CAR) vs OTT
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Taylor Hall (CAR) vs OTT
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Travis Konecny (PHI) vs WSH
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Aliaksei Protas (WSH) vs PHI
+    SOG MORE 1.5 | Season Avg: 2.2
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Dylan Strome (WSH) vs PHI
+    SOG MORE 1.5 | Season Avg: 2.4
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:46%, HIGH_CV:46%
+
+  Matvei Michkov (PHI) vs WSH
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Christian Dvorak (PHI) vs WSH
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Ryan Leonard (WSH) vs PHI
+    SOG MORE 1.5 | Season Avg: 2.2
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Trevor Zegras (PHI) vs WSH
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Jesper Bratt (NJ) vs CBJ
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Arseny Gritsyuk (NJ) vs CBJ
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Boone Jenner (CBJ) vs NJ
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Dawson Mercer (NJ) vs CBJ
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Charlie Coyle (CBJ) vs NJ
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Cody Glass (NJ) vs CBJ
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Connor Brown (NJ) vs CBJ
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Mason Marchment (CBJ) vs NJ
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Lenni Hameenaho (NJ) vs CBJ
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Alex Tuch (BUF) vs TB
+    SOG MORE 1.5 | Season Avg: 2.6
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:46%, HIGH_CV:46%
+
+  Jack Quinn (BUF) vs TB
+    SOG MORE 1.5 | Season Avg: 2.2
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Josh Doan (BUF) vs TB
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Oliver Bjorkstrand (TB) vs BUF
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Yanni Gourde (TB) vs BUF
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Dominic James (TB) vs BUF
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Pontus Holmberg (TB) vs BUF
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Bryan Rust (PIT) vs NYI
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Anders Lee (NYI) vs PIT
+    SOG MORE 1.5 | Season Avg: 2.6
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:46%, HIGH_CV:46%
+
+  Erik Karlsson (PIT) vs NYI
+    SOG MORE 1.5 | Season Avg: 2.2
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:55%, HIGH_CV:55%
+
+  Evgeni Malkin (PIT) vs NYI
+    SOG MORE 1.5 | Season Avg: 2.4
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Mathew Barzal (NYI) vs PIT
+    SOG MORE 1.5 | Season Avg: 2.4
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:46%, HIGH_CV:46%
+
+  Sidney Crosby (PIT) vs NYI
+    SOG MORE 1.5 | Season Avg: 2.8
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:46%, HIGH_CV:46%
+
+  Yegor Chinakhov (PIT) vs NYI
+    SOG MORE 1.5 | Season Avg: 2.4
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  John Tavares (TOR) vs EDM
+    SOG MORE 1.5 | Season Avg: 2.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:48%, HIGH_CV:48%
+
+  Bobby McMann (TOR) vs EDM
+    SOG MORE 1.5 | Season Avg: 2.2
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Matthew Knies (TOR) vs EDM
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Max Domi (TOR) vs EDM
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Ryan Nugent-Hopkins (EDM) vs TOR
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Kasperi Kapanen (EDM) vs TOR
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Beckett Sennecke (ANA) vs SEA
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Jared McCann (SEA) vs ANA
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Mason McTavish (ANA) vs SEA
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Chris Kreider (ANA) vs SEA
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Eeli Tolvanen (SEA) vs ANA
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Mikael Granlund (ANA) vs SEA
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Troy Terry (ANA) vs SEA
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Alex Killorn (ANA) vs SEA
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Jaden Schwartz (SEA) vs ANA
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Jordan Eberle (SEA) vs ANA
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Matty Beniers (SEA) vs ANA
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Juraj Slafkovský (MTL) vs WPG
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Nick Suzuki (MTL) vs WPG
+    SOG MORE 1.5 | Season Avg: 2.6
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:46%, HIGH_CV:46%
+
+  Mark Scheifele (WPG) vs MTL
+    SOG MORE 1.5 | Season Avg: 2.8
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:46%, HIGH_CV:46%
+
+  Carter Verhaeghe (FLA) vs BOS
+    SOG MORE 1.5 | Season Avg: 2.4
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:46%, HIGH_CV:46%
+
+  Viktor Arvidsson (BOS) vs FLA
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Morgan Geekie (BOS) vs FLA
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Adam Fantilli (CBJ) vs CHI
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Frank Nazar (CHI) vs CBJ
+    SOG MORE 1.5 | Season Avg: 2.2
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Tyler Bertuzzi (CHI) vs CBJ
+    SOG MORE 1.5 | Season Avg: 2.4
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Joel Ek (MIN) vs NSH
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Matt Boldy (MIN) vs NSH
+    SOG MORE 1.5 | Season Avg: 2.6
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:46%, HIGH_CV:46%
+
+  Jonathan Marchessault (NSH) vs MIN
+    SOG MORE 1.5 | Season Avg: 2.8
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:46%, HIGH_CV:46%
+
+  Michael Bunting (NSH) vs MIN
+    SOG MORE 1.5 | Season Avg: 2.2
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Steven Stamkos (NSH) vs MIN
+    SOG MORE 1.5 | Season Avg: 2.6
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:46%, HIGH_CV:46%
+
+  Ryan Hartman (MIN) vs NSH
+    SOG MORE 1.5 | Season Avg: 2.2
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Clayton Keller (UTA) vs DET
+    SOG MORE 1.5 | Season Avg: 2.8
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:46%, HIGH_CV:46%
+
+  Nick Schmaltz (UTA) vs DET
+    SOG MORE 1.5 | Season Avg: 2.2
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  JJ Peterka (UTA) vs DET
+    SOG MORE 1.5 | Season Avg: 2.4
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Lucas Raymond (DET) vs UTA
+    SOG MORE 1.5 | Season Avg: 2.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:48%, HIGH_CV:48%
+
+  Patrick Kane (DET) vs UTA
+    SOG MORE 1.5 | Season Avg: 2.3
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:48%, HIGH_CV:48%
+
+  Artturi Lehkonen (COL) vs SJ
+    SOG MORE 1.5 | Season Avg: 2.2
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Brock Nelson (COL) vs SJ
+    SOG MORE 1.5 | Season Avg: 2.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:48%, HIGH_CV:48%
+
+  Valeri Nichushkin (COL) vs SJ
+    SOG MORE 1.5 | Season Avg: 2.6
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Brent Burns (COL) vs SJ
+    SOG MORE 1.5 | Season Avg: 2.1
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:57%, HIGH_CV:57%
+
+  Kiefer Sherwood (SJ) vs COL
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Tyler Toffoli (SJ) vs COL
+    SOG MORE 1.5 | Season Avg: 2.6
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:46%, HIGH_CV:46%
+
+  Will Smith (SJ) vs COL
+    SOG MORE 1.5 | Season Avg: 2.2
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Leon Draisaitl (EDM) vs CGY
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Matt Coronato (CGY) vs EDM
+    SOG MORE 1.5 | Season Avg: 2.4
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:46%, HIGH_CV:46%
+
+  Nazem Kadri (CGY) vs EDM
+    SOG MORE 1.5 | Season Avg: 2.6
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:46%, HIGH_CV:46%
+
+  Zach Hyman (EDM) vs CGY
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Yegor Sharangovich (CGY) vs EDM
+    SOG MORE 1.5 | Season Avg: 2.2
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Tom Wilson (WSH) vs PHI
+    SOG MORE 1.5 | Season Avg: 2.0
+    Confidence: 67.4% | Edge: 17.4%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Rasmus Dahlin (BUF) vs TB
+    SOG MORE 1.5 | Season Avg: 2.0
+    Confidence: 67.4% | Edge: 17.4%
+    Flags: HIGH_CV:55%, HIGH_CV:55%
+
+  Jason Zucker (BUF) vs TB
+    SOG MORE 1.5 | Season Avg: 2.0
+    Confidence: 67.4% | Edge: 17.4%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Emil Heineman (NYI) vs PIT
+    SOG MORE 1.5 | Season Avg: 2.0
+    Confidence: 67.4% | Edge: 17.4%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Evan Rodrigues (FLA) vs BOS
+    SOG MORE 1.5 | Season Avg: 2.0
+    Confidence: 67.4% | Edge: 17.4%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Quinn Hughes (MIN) vs NSH
+    SOG MORE 1.5 | Season Avg: 2.0
+    Confidence: 67.4% | Edge: 17.4%
+    Flags: HIGH_CV:55%, HIGH_CV:55%
+
+  Mats Zuccarello (MIN) vs NSH
+    SOG MORE 1.5 | Season Avg: 2.0
+    Confidence: 67.4% | Edge: 17.4%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Luke Evangelista (NSH) vs MIN
+    SOG MORE 1.5 | Season Avg: 2.0
+    Confidence: 67.4% | Edge: 17.4%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  William Eklund (SJ) vs COL
+    SOG MORE 1.5 | Season Avg: 2.0
+    Confidence: 67.4% | Edge: 17.4%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Mikael Backlund (CGY) vs EDM
+    SOG MORE 1.5 | Season Avg: 2.0
+    Confidence: 67.4% | Edge: 17.4%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Connor Bedard (CHI) vs CBJ
+    SOG MORE 2.5 | Season Avg: 3.2
+    Confidence: 66.4% | Edge: 16.4%
+
+  Filip Forsberg (NSH) vs MIN
+    SOG MORE 2.5 | Season Avg: 3.2
+    Confidence: 66.4% | Edge: 16.4%
+
+  Alex DeBrincat (DET) vs UTA
+    SOG MORE 2.5 | Season Avg: 3.2
+    Confidence: 66.4% | Edge: 16.4%
+
+  Darren Raddysh (TB) vs BUF
+    SOG LESS 2.5
+    Confidence: 66.1% | Edge: 16.1%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Ryan Lindgren (SEA) vs ANA
+    SOG LESS 2.5
+    Confidence: 66.1% | Edge: 16.1%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Stuart Skinner (PIT) vs NYI
+    Saves MORE 23.5
+    Confidence: 64.4% | Edge: 14.4%
+    Flags: GOALIE_VOLATILE, GOALIE_VOLATILE
+
+  Ilya Sorokin (NYI) vs PIT
+    Saves MORE 23.5
+    Confidence: 63.5% | Edge: 13.5%
+    Flags: GOALIE_VOLATILE, GOALIE_VOLATILE
+
+  Nathan MacKinnon (COL) vs SJ
+    SOG MORE 3.5 | Season Avg: 4.2
+    Confidence: 63.5% | Edge: 13.5%
+
+  Shane Pinto (OTT) vs CAR
+    SOG MORE 0.5
+    Confidence: 63.0% | Edge: 13.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Jackson Blake (CAR) vs OTT
+    SOG MORE 0.5
+    Confidence: 63.0% | Edge: 13.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  John Carlson (WSH) vs PHI
+    SOG MORE 0.5 | Season Avg: 1.8
+    Confidence: 63.0% | Edge: 13.0%
+    Flags: HIGH_CV:56%, HIGH_CV:56%
+
+  Bobby Brink (PHI) vs WSH
+    SOG MORE 0.5
+    Confidence: 63.0% | Edge: 13.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Sean Couturier (PHI) vs WSH
+    SOG MORE 0.5
+    Confidence: 63.0% | Edge: 13.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Denver Barkey (PHI) vs WSH
+    SOG MORE 0.5
+    Confidence: 63.0% | Edge: 13.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Timo Meier (NJ) vs CBJ
+    SOG LESS 3.5
+    Confidence: 63.0% | Edge: 13.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Kent Johnson (CBJ) vs NJ
+    SOG MORE 0.5
+    Confidence: 63.0% | Edge: 13.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Simon Nemec (NJ) vs CBJ
+    SOG MORE 0.5
+    Confidence: 63.0% | Edge: 13.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Victor Hedman (TB) vs BUF
+    SOG MORE 0.5
+    Confidence: 63.0% | Edge: 13.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Owen Power (BUF) vs TB
+    SOG MORE 0.5 | Season Avg: 1.6
+    Confidence: 63.0% | Edge: 13.0%
+    Flags: HIGH_CV:56%, HIGH_CV:56%
+
+  Connor McDavid (EDM) vs TOR
+    SOG LESS 3.5
+    Confidence: 63.0% | Edge: 13.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Oliver Ekman-Larsson (TOR) vs EDM
+    SOG MORE 0.5
+    Confidence: 63.0% | Edge: 13.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Shane Wright (SEA) vs ANA
+    SOG MORE 0.5
+    Confidence: 63.0% | Edge: 13.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Kaapo Kakko (SEA) vs ANA
+    SOG MORE 0.5
+    Confidence: 63.0% | Edge: 13.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Fraser Minten (BOS) vs FLA
+    SOG MORE 0.5
+    Confidence: 63.0% | Edge: 13.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Teuvo Teravainen (CHI) vs CBJ
+    SOG MORE 0.5 | Season Avg: 2.0
+    Confidence: 63.0% | Edge: 13.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+  Dmitry Orlov (SJ) vs COL
+    SOG MORE 0.5
+    Confidence: 63.0% | Edge: 13.0%
+    Flags: HIGH_CV:50%, HIGH_CV:50%
+
+
+============================================================
+  [LEAN] PICKS (10)
+============================================================
+  Dylan Guenther (UTA): SOG MORE 2.5 | Avg: 3.0
+    61.8% confidence
+  Macklin Celebrini (SJ): SOG MORE 2.5 | Avg: 3.0
+    61.8% confidence
+  Ryan McDonagh (TB): Blocked Shots MORE 0.5
+    61.2% confidence
+  Brett Kulak (PIT): Blocked Shots MORE 0.5
+    61.2% confidence
+  Thomas Chabot (OTT): SOG MORE 1.5 | Avg: 1.8
+    60.9% confidence
+  Noah Dobson (MTL): SOG MORE 1.5 | Avg: 1.8
+    60.9% confidence
+  Mikhail Sergachev (UTA): SOG MORE 1.5 | Avg: 1.8
+    60.9% confidence
+  Ryan McLeod (BUF): FOW MORE 9.0
+    59.9% confidence
+  Auston Matthews (TOR): SOG MORE 3.5 | Avg: 4.0
+    59.5% confidence
+  Ben Kindel (PIT): SOG LESS 1.5 | Avg: 1.5
+    58.6% confidence
+
+============================================================
+  RISK WARNINGS
+============================================================
+  * NO SLAM TIER - Hockey has inherent volatility
+  * Goalie confirmation REQUIRED before playing saves
+  * Back-to-back games reduce goalie reliability
+  * High CV props flagged for caution
+
+============================================================
+  Risk-First Quant Engine | NHL v2.0
+============================================================

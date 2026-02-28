@@ -1,0 +1,73 @@
+======================================================================
+MONTE CARLO ENTRY OPTIMIZATION
+Generated: 2026-01-24T18:10:51.002070
+======================================================================
+
+STAT KEY (basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made (aka 3PT/3PTS) | STOCKS=STL+BLK | PRA=PTS+REB+AST
+
+RUN CONTEXT:
+   League inferred: NBA
+   Picks: 16 qualifying (from 72 analyzed)
+   Filter pass: UNFILTERED_DIRECT
+   Constraints: max_same_game=1, max_primary_per_game=1
+
+BEST POWER ENTRY:
+   3L POWER | EV=-0.03 | Sharpe=-0.02 | P(profit)=16.1% | Josh Giddey 3PM >0.5; Marcus Smart 3PM >0.5; Svi Mykhailiuk 3PM >0.5
+   Kelly stake: 0.0% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=54.4%, min p_hit=54.4%
+   Stat mix: 3PM:3
+   Same-game buckets: BOS@CHI:1, LAL@UNK:1, MIA@UTA:1
+   LEGS (what each pick is):
+    1. Josh Giddey 3PM >0.5 (CHI vs BOS) | p_hit=54.4% | FRAGILE
+    2. Marcus Smart 3PM >0.5 (LAL vs UNK) | p_hit=54.4% | FRAGILE
+    3. Svi Mykhailiuk 3PM >0.5 (UTA vs MIA) | p_hit=54.4% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST FLEX ENTRY:
+   4L FLEX | EV=-0.13 | Sharpe=-0.09 | P(profit)=37.9% | Dean Wade 3PM >0.5; Josh Giddey 3PM >0.5; Marcus Smart 3PM >0.5; Svi Mykhailiuk 3PM >0.5
+   Kelly stake: 0.0% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=54.3%, min p_hit=53.9%
+   Stat mix: 3PM:4
+   Same-game buckets: BOS@CHI:1, CLE@UNK:1, LAL@UNK:1, MIA@UTA:1
+   LEGS (what each pick is):
+    1. Dean Wade 3PM >0.5 (CLE vs UNK) | p_hit=53.9% | FRAGILE
+    2. Josh Giddey 3PM >0.5 (CHI vs BOS) | p_hit=54.4% | FRAGILE
+    3. Marcus Smart 3PM >0.5 (LAL vs UNK) | p_hit=54.4% | FRAGILE
+    4. Svi Mykhailiuk 3PM >0.5 (UTA vs MIA) | p_hit=54.4% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST RISK-ADJUSTED (Sharpe):
+   3L POWER | EV=-0.03 | Sharpe=-0.02 | P(profit)=16.1% | Josh Giddey 3PM >0.5; Marcus Smart 3PM >0.5; Svi Mykhailiuk 3PM >0.5
+   ENTRY SNAPSHOT: avg p_hit=54.4%, min p_hit=54.4%
+   Stat mix: 3PM:3
+   Same-game buckets: BOS@CHI:1, LAL@UNK:1, MIA@UTA:1
+   LEGS (what each pick is):
+    1. Josh Giddey 3PM >0.5 (CHI vs BOS) | p_hit=54.4% | FRAGILE
+    2. Marcus Smart 3PM >0.5 (LAL vs UNK) | p_hit=54.4% | FRAGILE
+    3. Svi Mykhailiuk 3PM >0.5 (UTA vs MIA) | p_hit=54.4% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+----------------------------------------------------------------------
+TOP 10 ENTRIES BY EV:
+----------------------------------------------------------------------
+ 1. 3L POWER | EV=-0.03 | Sharpe=-0.02 | P(profit)=16.1% | Josh Giddey 3PM >0.5; Marcus Smart 3PM >0.5; Svi Mykhailiuk 3PM >0.5
+ 2. 3L POWER | EV=-0.03 | Sharpe=-0.02 | P(profit)=16.1% | Josh Giddey 3PM >0.5; Gabe Vincent 3PM >0.5; Svi Mykhailiuk 3PM >0.5
+ 3. 3L POWER | EV=-0.04 | Sharpe=-0.02 | P(profit)=16.0% | Dean Wade 3PM >0.5; Josh Giddey 3PM >0.5; Marcus Smart 3PM >0.5
+ 4. 3L POWER | EV=-0.04 | Sharpe=-0.02 | P(profit)=16.0% | Dean Wade 3PM >0.5; Josh Giddey 3PM >0.5; Gabe Vincent 3PM >0.5
+ 5. 3L POWER | EV=-0.04 | Sharpe=-0.02 | P(profit)=16.0% | Dean Wade 3PM >0.5; Josh Giddey 3PM >0.5; Svi Mykhailiuk 3PM >0.5
+ 6. 3L POWER | EV=-0.04 | Sharpe=-0.02 | P(profit)=16.0% | Dean Wade 3PM >0.5; Marcus Smart 3PM >0.5; Svi Mykhailiuk 3PM >0.5
+ 7. 3L POWER | EV=-0.04 | Sharpe=-0.02 | P(profit)=16.0% | Dean Wade 3PM >0.5; Gabe Vincent 3PM >0.5; Svi Mykhailiuk 3PM >0.5
+ 8. 3L POWER | EV=-0.05 | Sharpe=-0.02 | P(profit)=15.9% | Josh Giddey 3PM >0.5; Luka Dončić 3PM >2.5; Svi Mykhailiuk 3PM >0.5
+ 9. 3L POWER | EV=-0.06 | Sharpe=-0.03 | P(profit)=15.7% | Dean Wade 3PM >0.5; Josh Giddey 3PM >0.5; Luka Dončić 3PM >2.5
+10. 3L POWER | EV=-0.06 | Sharpe=-0.03 | P(profit)=15.7% | Dean Wade 3PM >0.5; Luka Dončić 3PM >2.5; Svi Mykhailiuk 3PM >0.5

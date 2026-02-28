@@ -1,0 +1,221 @@
+
+--------------------------------------------------
+======================================================================
+POR_MEM - RISK-FIRST ANALYSIS
+======================================================================
+Total props in slate: 69
+Config: Gates=soft | Prob=gmm | Bayes=aggressive | Edge=z_score | MC=exact | StatAdj=ON
+======================================================================
+
+[STATS] Warnings during NBA API refresh:
+  - NBA API: empty game log for 'Scotty Pippen'
+[STATS] Daily refresh: mode=L10/L5 blend(0.65) refreshed=True applied=741 source=outputs\stats_cache\nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-06.json
+
+============================================================
+PRE-FLIGHT STATS CHECK
+============================================================
+  STATS_DICT players: 116
+  Cache file exists:  True (2026-02-06)
+  Sample checks:      10 passed, 0 failed
+
+OK: All checks passed - stats pipeline is healthy
+============================================================
+
+Enriched 69 NBA props with usage/minutes estimates
+NBA ROLE & SCHEME NORMALIZATION
+   Normalized 69 NBA picks with role/scheme adjustments
+
+
+======================================================================
+RISK-FIRST ANALYSIS SUMMARY
+======================================================================
+Slate Quality: [A] A (86/100)
+   Drivers: Low directional clarity (2.9% >=55%)
+----------------------------------------------------------------------
+Total Props Analyzed: 69
+Skipped (No Data):    8
+BLOCKED:              39
+NO PLAY:              20
+LEAN (55-64%):        1
+STRONG (65-79%):      1
+PLAY/SLAM (>=80%):    0
+======================================================================
+
+[STRONG] PICKS (65-79% Effective Confidence):
+
+1. GG Jackson - POINTS LOWER 14.5
+   Confidence: 69.5% | Edge: +2.3 (+0.39sigma) [MODERATE] MODERATE
+   Stats: mu=12.2, sigma=5.9 | Kelly: $90
+   WARNING: WARN SDG: medium penalty (z=0.39, line~=mu)
+   WARNING: ? Data-driven: direction_adjustment
+   WARNING: Calibration fix: 70.8%->69.5%
+
+
+[LEAN] PICKS (55-64% Effective Confidence):
+
+1. Shaedon Sharpe - 3PM HIGHER 1.5
+   Confidence: 57.2% | Edge: +1.1 (+0.64sigma) STRONG | Kelly: $25
+
+
+TOP BLOCK REASONS:
+
+   32x - BLOCKED: Bench player with unreliable opportunity
+   2x - BLOCKED: Player 'MoreCam Spencer' not classified
+   1x - BLOCKED: Player 'MoreJerami Grant' not classified
+   1x - BANNED: Toumani Camara 3pm (99 recent fails) - Auto-ban due to NBA API hydration failure
+   1x - BANNED: Donovan Clingan 3pm (99 recent fails) - Auto-ban due to NBA API hydration failure
+
+----------------------------------------------------------------------
+KELLY SIZING GUIDE (25% Fractional Kelly @ 1.91 odds)
+----------------------------------------------------------------------
+ò Kelly = optimal bet size based on edge vs odds
+ò Amounts shown assume $1000 bankroll (adjustable)
+ò SLAM picks: Higher Kelly | LEAN picks: Lower Kelly
+ò Cap: Max 25% of bankroll per bet
+======================================================================
+
+[STAT-RANKINGS] Injected Top-5 rankings for 5 stats
+
+Full results saved to: outputs\POR_MEM_RISK_FIRST_20260206_FROM_UD.json
+
+AI report: disabled (set GENERATE_AI_REPORT=1 to enable).
+
+======================================================================
+QUANT MODULES - ADVANCED ANALYSIS
+======================================================================
+
+[BACKTEST] Calibration report: C:\Users\hiday\UNDERDOG ANANLYSIS\outputs\calibration_report_20260206.txt
+[MC][GOVERNANCE] Eligibility Gate: 2 OPTIMIZABLE, 0 VETTED (excluded), 67 REJECTED
+[MC] Converting 2 picks to Pick objects...
+[MC][NBA] League inferred=NBA | filter_pass=NBA_LEGACY_FALLBACK | max_same_game=1 | nba_min_conf=65.0
+[MC] Found 2 qualifying picks
+[MC] Evaluating entries (exact hit distribution ù fast, no 10k-loop sims)...
+[MONTE CARLO] Evaluated 1 combinations, found 1 entries after EV/Kelly filters
+
+[MC] Monte Carlo optimization: C:\Users\hiday\UNDERDOG ANANLYSIS\outputs\monte_carlo_entries_20260206_2029.txt
+======================================================================
+MONTE CARLO ENTRY OPTIMIZATION
+Generated: 2026-02-06T20:29:23.647107
+======================================================================
+
+STAT KEY (basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made (aka 3PT/3PTS) | STOCKS=STL+BLK | PRA=PTS+REB+AST
+
+RUN CONTEXT:
+   League inferred: NBA
+   Picks: 2 qualifying (from 2 analyzed)
+   Filter pass: NBA_LEGACY_FALLBACK ù fallback: include PLAY/LEAN or >= min_confidence (broadest)
+   Filter attempts (qualifying picks): NBA_STRICT_PRIMARY=0, NBA_PRIMARY_ONLY=0, NBA_PLAYLEAN_ANY_NO_COMPOSITES=0, NBA_LEGACY_FALLBACK=2
+   Constraints: max_same_game=1, max_primary_per_game=1
+   NBA min confidence: 65.0
+   NBA flags: primary_only=1, playlean_only=1
+
+BEST POWER ENTRY:
+   2L POWER | EV=+0.19 | Sharpe=0.13 | P(profit)=39.8% | GG Jackson PTS <14.5; Shaedon Sharpe 3PM >1.5
+   Kelly stake: 2.2% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=63.4%, min p_hit=57.2%
+   Stat mix: 3PM:1, PTS:1
+   Same-game buckets: MEM@POR:1, MEM@UNK:1
+   LEGS (what each pick is):
+    1. GG Jackson PTS <14.5 (MEM vs UNK) | mu=12.2 | sigma=5.9 | p_hit=69.5% | PRIMARY_SAFE
+    2. Shaedon Sharpe 3PM >1.5 (POR vs MEM) | mu=2.6 | sigma=1.7 | p_hit=57.2% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST RISK-ADJUSTED (Sharpe):
+   2L POWER | EV=+0.19 | Sharpe=0.13 | P(profit)=39.8% | GG Jackson PTS <14.5; Shaedon Sharpe 3PM >1.5
+   ENTRY SNAPSHOT: avg p_hit=63.4%, min p_hit=57.2%
+   Stat mix: 3PM:1, PTS:1
+   Same-game buckets: MEM@POR:1, MEM@UNK:1
+   LEGS (what each pick is):
+    1. GG Jackson PTS <14.5 (MEM vs UNK) | mu=12.2 | sigma=5.9 | p_hit=69.5% | PRIMARY_SAFE
+    2. Shaedon Sharpe 3PM >1.5 (POR vs MEM) | mu=2.6 | sigma=1.7 | p_hit=57.2% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+----------------------------------------------------------------------
+TOP 10 ENTRIES BY EV:
+----------------------------------------------------------------------
+ 1. 2L POWER | EV=+0.19 | Sharpe=0.13 | P(profit)=39.8% | GG Jackson PTS <14.5; Shaedon Sharpe 3PM >1.5
+[MC][RAW] Evaluating entries (exact hit distribution)à
+[MONTE CARLO] Evaluated 4 combinations, found 1 entries after EV/Kelly filters
+
+[MC] Monte Carlo (unfiltered): C:\Users\hiday\UNDERDOG ANANLYSIS\outputs\monte_carlo_raw_20260206_2029.txt
+======================================================================
+MONTE CARLO ENTRY OPTIMIZATION
+Generated: 2026-02-06T20:29:23.652093
+======================================================================
+
+STAT KEY (basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made (aka 3PT/3PTS) | STOCKS=STL+BLK | PRA=PTS+REB+AST
+
+RUN CONTEXT:
+   League inferred: NBA
+   Picks: 4 qualifying (from 69 analyzed)
+   Filter pass: UNFILTERED_DIRECT
+   Constraints: max_same_game=1, max_primary_per_game=1
+
+BEST POWER ENTRY:
+   2L POWER | EV=+0.19 | Sharpe=0.13 | P(profit)=39.8% | GG Jackson PTS <14.5; Shaedon Sharpe 3PM >1.5
+   Kelly stake: 2.2% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=63.4%, min p_hit=57.2%
+   Stat mix: 3PM:1, PTS:1
+   Same-game buckets: MEM@POR:1, MEM@UNK:1
+   LEGS (what each pick is):
+    1. GG Jackson PTS <14.5 (MEM vs UNK) | p_hit=69.5% | PRIMARY_SAFE
+    2. Shaedon Sharpe 3PM >1.5 (POR vs MEM) | p_hit=57.2% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST RISK-ADJUSTED (Sharpe):
+   2L POWER | EV=+0.19 | Sharpe=0.13 | P(profit)=39.8% | GG Jackson PTS <14.5; Shaedon Sharpe 3PM >1.5
+   ENTRY SNAPSHOT: avg p_hit=63.4%, min p_hit=57.2%
+   Stat mix: 3PM:1, PTS:1
+   Same-game buckets: MEM@POR:1, MEM@UNK:1
+   LEGS (what each pick is):
+    1. GG Jackson PTS <14.5 (MEM vs UNK) | p_hit=69.5% | PRIMARY_SAFE
+    2. Shaedon Sharpe 3PM >1.5 (POR vs MEM) | p_hit=57.2% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+----------------------------------------------------------------------
+TOP 10 ENTRIES BY EV:
+----------------------------------------------------------------------
+ 1. 2L POWER | EV=+0.19 | Sharpe=0.13 | P(profit)=39.8% | GG Jackson PTS <14.5; Shaedon Sharpe 3PM >1.5
+
+[BAYES] Bayesian tuning report: C:\Users\hiday\UNDERDOG ANANLYSIS\outputs\bayesian_tuning_20260206_2029.txt
+======================================================================
+BAYESIAN GATE TUNING ANALYSIS
+Generated: 2026-02-06T20:29:23.655085
+Total Samples: 595 (Resolved: 183)
+======================================================================
+
+TIER HIT RATES (Posterior Estimates):
+----------------------------------------
+   PLAY       | 63.6% +/- 13.9% (n=9)
+   LEAN       | 52.8% +/- 5.8% (n=70)
+
+STAT HIT RATES (Top/Bottom 5):
+----------------------------------------
+   3pm             | 68.0% (n=23)
+   BLK+STL         | 66.7% (n=1)
+   FG Made         | 66.7% (n=1)
+   Aces            | 66.7% (n=1)
+   REB+AST         | 66.7% (n=1)
+   ...
+   reb+ast         | 33.3% (n=1)
+   pts+reb         | 33.3% (n=1)
+   assists         | 25.0% (n=6)
+
+
+No threshold changes recommended at this time.

@@ -1,0 +1,36 @@
+==============================================================================
+GOVERNANCE SUMMARY - TENNIS_PROPS - 20260210
+==============================================================================
+Created (UTC): 2026-02-10T21:28:24.378715+00:00
+
+COUNTS
+------------------------------------------------------------------------------
+Total results : 4
+Allowed edges : 2
+Blocked edges : 2
+Decision breakdown:
+  - BLOCKED: 2
+  - LEAN: 1
+  - PLAY: 1
+
+TOP BLOCK REASONS
+------------------------------------------------------------------------------
+    1x - pick_state=REJECTED
+    1x - pick_state=VETTED
+
+TOP PLAY PICKS
+------------------------------------------------------------------------------
+ 1. Matteo Berrettini () games_played HIGHER 19.5
+    eff=86.2% model=86.2% edge=? z=?
+
+TOP LEANS
+------------------------------------------------------------------------------
+ 1. Matteo Berrettini () breakpoints_won LOWER 3.5
+    eff=61.0% model=61.0% edge=? z=?
+
+FILES
+------------------------------------------------------------------------------
+- outputs/governance_config.json
+- outputs/allowed_edges.json
+- outputs/blocked_edges.json
+(These are the stable 'latest' artifacts.)

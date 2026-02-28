@@ -1,0 +1,121 @@
+{
+  "date": "2026-01-20",
+  "timestamp": "2026-01-20T19:53:59.937358",
+  "slate": "MIN UTAH",
+  "source_file": "MIN UTAH_RISK_FIRST_20260120_FROM_UD.json",
+  "summary": {
+    "play_count": 9,
+    "lean_count": 3,
+    "total": 12
+  },
+  "picks": [
+    {
+      "player": "Keyonte George",
+      "team": "UTA",
+      "stat": "assists",
+      "line": 5.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 82
+    },
+    {
+      "player": "Jusuf Nurki\u0107",
+      "team": "UTA",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 82
+    },
+    {
+      "player": "Rudy Gobert",
+      "team": "MIN",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 82
+    },
+    {
+      "player": "Keyonte George",
+      "team": "UTA",
+      "stat": "rebounds",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 77.2
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "team": "MIN",
+      "stat": "assists",
+      "line": 5.0,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 76.6
+    },
+    {
+      "player": "Svi Mykhailiuk",
+      "team": "UTA",
+      "stat": "rebounds",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 76.3
+    },
+    {
+      "player": "Naz Reid",
+      "team": "MIN",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 73.0
+    },
+    {
+      "player": "Jusuf Nurki\u0107",
+      "team": "UTA",
+      "stat": "points",
+      "line": 12.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 72.4
+    },
+    {
+      "player": "Ace Bailey",
+      "team": "UTA",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 71.9
+    },
+    {
+      "player": "Cody Williams",
+      "team": "UTA",
+      "stat": "points",
+      "line": 8.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 69.7
+    },
+    {
+      "player": "Walter Clayton",
+      "team": "UTA",
+      "stat": "points",
+      "line": 10.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.7
+    },
+    {
+      "player": "Anthony Edwards",
+      "team": "MIN",
+      "stat": "assists",
+      "line": 4.0,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 65.6
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "date": "2026-01-22",
+  "timestamp": "2026-01-22T10:27:13.434800",
+  "slate": "ALL REBOUND1222026",
+  "source_file": "ALL REBOUND1222026_RISK_FIRST_20260122_FROM_UD.json",
+  "summary": {
+    "play_count": 1,
+    "lean_count": 7,
+    "total": 8
+  },
+  "picks": [
+    {
+      "player": "James Harden",
+      "team": "LAC",
+      "stat": "rebounds",
+      "line": 4.0,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 79.6
+    },
+    {
+      "player": "Svi Mykhailiuk",
+      "team": "UTA",
+      "stat": "rebounds",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 79.0
+    },
+    {
+      "player": "Desmond Bane",
+      "team": "ORL",
+      "stat": "rebounds",
+      "line": 4.0,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 77.6
+    },
+    {
+      "player": "Alperen Sengun",
+      "team": "HOU",
+      "stat": "rebounds",
+      "line": 8.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 74.3
+    },
+    {
+      "player": "Anthony Black",
+      "team": "ORL",
+      "stat": "rebounds",
+      "line": 4.0,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 73.9
+    },
+    {
+      "player": "Keyonte George",
+      "team": "UTA",
+      "stat": "rebounds",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 72.8
+    },
+    {
+      "player": "Coby White",
+      "team": "CHI",
+      "stat": "rebounds",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 71.9
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 71.7
+    }
+  ]
+}

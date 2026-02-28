@@ -1,0 +1,58 @@
+{
+  "date": "2026-01-25",
+  "timestamp": "2026-01-25T00:10:44.386604",
+  "slate": "MEM_DEN",
+  "source_file": "MEM_DEN_RISK_FIRST_20260125_FROM_UD.json",
+  "summary": {
+    "play_count": 1,
+    "lean_count": 4,
+    "total": 5
+  },
+  "picks": [
+    {
+      "player": "Jonas Valanciunas",
+      "team": "DEN",
+      "stat": "rebounds",
+      "line": 9.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 79.6
+    },
+    {
+      "player": "Peyton Watson",
+      "team": "DEN",
+      "stat": "rebounds",
+      "line": 6.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 71.8
+    },
+    {
+      "player": "Jonas Valanciunas",
+      "team": "DEN",
+      "stat": "pra",
+      "line": 27.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Jonas Valanciunas",
+      "team": "DEN",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 63.8
+    },
+    {
+      "player": "Jalen Pickett",
+      "team": "DEN",
+      "stat": "points",
+      "line": 10.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 61.4
+    }
+  ]
+}

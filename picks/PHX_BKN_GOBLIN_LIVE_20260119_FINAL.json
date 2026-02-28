@@ -1,0 +1,40 @@
+{
+  "date": "2026-01-19",
+  "timestamp": "2026-01-19T18:45:06.288539",
+  "slate": "PHX_BKN_GOBLIN_LIVE",
+  "source_file": "PHX_BKN_GOBLIN_LIVE_RISK_FIRST_20260119_FROM_UD.json",
+  "summary": {
+    "play_count": 1,
+    "lean_count": 2,
+    "total": 3
+  },
+  "picks": [
+    {
+      "player": "Royce O'Neale",
+      "team": "PHX",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 78
+    },
+    {
+      "player": "Grayson Allen",
+      "team": "PHX",
+      "stat": "rebounds",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 69.1
+    },
+    {
+      "player": "Jordan Goodwin",
+      "team": "PHX",
+      "stat": "rebounds",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.9
+    }
+  ]
+}

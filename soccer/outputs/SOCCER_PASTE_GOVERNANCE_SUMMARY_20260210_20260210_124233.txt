@@ -1,0 +1,40 @@
+==============================================================================
+GOVERNANCE SUMMARY - SOCCER_PASTE - 20260210
+==============================================================================
+Created (UTC): 2026-02-10T18:42:33.737612+00:00
+
+COUNTS
+------------------------------------------------------------------------------
+Total results : 24
+Allowed edges : 10
+Blocked edges : 14
+Decision breakdown:
+  - BLOCKED: 14
+  - PLAY: 9
+  - LEAN: 1
+
+TOP BLOCK REASONS
+------------------------------------------------------------------------------
+   12x - pick_state=VETTED
+    2x - pick_state=REJECTED
+
+TOP PLAY PICKS
+------------------------------------------------------------------------------
+ 1. Jacob Ramsey (Newcastle) shots_on_target LOWER 1.5
+    eff=92.0% model=92.0% edge=? z=?
+ 2. Bruno Guimarães (Newcastle) shots_on_target LOWER 1.5
+    eff=87.8% model=87.8% edge=? z=?
+ 3. Conor Gallagher (Spurs) shots_on_target LOWER 1.5
+    eff=87.8% model=87.8% edge=? z=?
+ 4. Bruno Guimarães (Newcastle) passes HIGHER 49.5
+    eff=84.3% model=84.3% edge=? z=?
+ 5. Xavi Simons () passes LOWER 44.5
+    eff=80.4% model=80.4% edge=? z=?
+ 6. Xavi Simons (Spurs) shots_on_target LOWER 1.5
+    eff=73.6% model=73.6% edge=? z=?
+ 7. Xavi Simons (Spurs) shots HIGHER 1.5
+    eff=69.2% model=69.2% edge=? z=?
+ 8. Malick Thiaw (Newcastle) shots_on_target LOWER 0.5
+    eff=67.0% model=67.0% edge=? z=?
+ 9. Sven Botman (Newcastle) shots_on_target LOWER 0.5
+... (truncated)

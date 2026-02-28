@@ -1,0 +1,30 @@
+# CBB Unit Sizing Policy — Capital Preservation
+
+NORMAL:
+  unit_mult: 1.00
+  daily_risk_pct: 3.0
+  max_daily_units: 5
+  stop_after_loss: false
+  lock_unders_after_loss: false
+
+CONSERVATIVE:
+  unit_mult: 0.75
+  daily_risk_pct: 2.0
+  max_daily_units: 3
+  stop_after_loss: false
+  lock_unders_after_loss: true
+
+MARCH:
+  unit_mult: 0.60
+  daily_risk_pct: 1.25
+  max_daily_units: 2
+  stop_after_loss: true
+  lock_unders_after_loss: true
+
+RECOVERY:
+  # After consecutive losses
+  unit_mult: 0.50
+  daily_risk_pct: 1.0
+  max_daily_units: 1
+  stop_after_loss: true
+  lock_unders_after_loss: true

@@ -1,0 +1,37 @@
+==============================================================================
+GOVERNANCE SUMMARY - SOCCER_EPL - 20260211
+==============================================================================
+Created (UTC): 2026-02-12T05:32:59.753382+00:00
+
+COUNTS
+------------------------------------------------------------------------------
+Total results : 4
+Allowed edges : 3
+Blocked edges : 1
+Decision breakdown:
+  - LEAN: 2
+  - BLOCKED: 1
+  - PLAY: 1
+
+TOP BLOCK REASONS
+------------------------------------------------------------------------------
+    1x - pick_state=VETTED
+
+TOP PLAY PICKS
+------------------------------------------------------------------------------
+ 1. Viktor Gyokeres (Sporting Lisbon) shots HIGHER 2.0
+    eff=76.2% model=76.2% edge=? z=?
+
+TOP LEANS
+------------------------------------------------------------------------------
+ 1. Kai Havertz (Arsenal) shots LOWER 2.0
+    eff=57.0% model=57.0% edge=? z=?
+ 2. Noni Madueke (Chelsea) shots LOWER 2.0
+    eff=57.0% model=57.0% edge=? z=?
+
+FILES
+------------------------------------------------------------------------------
+- outputs/governance_config.json
+- outputs/allowed_edges.json
+- outputs/blocked_edges.json
+(These are the stable 'latest' artifacts.)

@@ -1,0 +1,55 @@
+======================================================================
+MONTE CARLO ENTRY OPTIMIZATION
+Generated: 2026-02-05T21:07:00.368166
+======================================================================
+
+STAT KEY (basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made (aka 3PT/3PTS) | STOCKS=STL+BLK | PRA=PTS+REB+AST
+
+RUN CONTEXT:
+   League inferred: NBA
+   Picks: 12 qualifying (from 75 analyzed)
+   Filter pass: UNFILTERED_DIRECT
+   Constraints: max_same_game=1, max_primary_per_game=1
+
+BEST POWER ENTRY:
+   2L POWER | EV=+0.37 | Sharpe=0.25 | P(profit)=45.8% | Collin Gillespie 3PM >2.5; Al Horford 3PM >0.5
+   Kelly stake: 4.2% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=67.7%, min p_hit=67.7%
+   Stat mix: 3PM:2
+   Same-game buckets: GSW@PHX:1, GSW@UNK:1
+   LEGS (what each pick is):
+    1. Collin Gillespie 3PM >2.5 (PHX vs GSW) | p_hit=67.7% | FRAGILE
+    2. Al Horford 3PM >0.5 (GSW vs UNK) | p_hit=67.7% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST RISK-ADJUSTED (Sharpe):
+   2L POWER | EV=+0.37 | Sharpe=0.25 | P(profit)=45.8% | Collin Gillespie 3PM >2.5; Al Horford 3PM >0.5
+   ENTRY SNAPSHOT: avg p_hit=67.7%, min p_hit=67.7%
+   Stat mix: 3PM:2
+   Same-game buckets: GSW@PHX:1, GSW@UNK:1
+   LEGS (what each pick is):
+    1. Collin Gillespie 3PM >2.5 (PHX vs GSW) | p_hit=67.7% | FRAGILE
+    2. Al Horford 3PM >0.5 (GSW vs UNK) | p_hit=67.7% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+----------------------------------------------------------------------
+TOP 10 ENTRIES BY EV:
+----------------------------------------------------------------------
+ 1. 2L POWER | EV=+0.37 | Sharpe=0.25 | P(profit)=45.8% | Collin Gillespie 3PM >2.5; Al Horford 3PM >0.5
+ 2. 2L POWER | EV=+0.35 | Sharpe=0.23 | P(profit)=45.0% | Al Horford 3PM >0.5; Ryan Dunn AST >0.5
+ 3. 2L POWER | EV=+0.33 | Sharpe=0.22 | P(profit)=44.2% | Collin Gillespie 3PM >2.5; Al Horford AST >1.5
+ 4. 2L POWER | EV=+0.30 | Sharpe=0.20 | P(profit)=43.4% | Al Horford AST >1.5; Ryan Dunn AST >0.5
+ 5. 2L POWER | EV=+0.27 | Sharpe=0.18 | P(profit)=42.4% | Al Horford 3PM >0.5; Mark Williams AST >0.5
+ 6. 2L POWER | EV=+0.23 | Sharpe=0.15 | P(profit)=40.9% | Al Horford AST >1.5; Mark Williams AST >0.5
+ 7. 2L POWER | EV=+0.21 | Sharpe=0.15 | P(profit)=40.5% | Collin Gillespie 3PM >2.5; Draymond Green AST >3.5
+ 8. 2L POWER | EV=+0.19 | Sharpe=0.13 | P(profit)=39.7% | Draymond Green AST >3.5; Ryan Dunn AST >0.5
+ 9. 2L POWER | EV=+0.12 | Sharpe=0.09 | P(profit)=37.5% | Draymond Green AST >3.5; Mark Williams AST >0.5
+10. 2L POWER | EV=+0.11 | Sharpe=0.07 | P(profit)=36.8% | Collin Gillespie 3PM >2.5; De'Anthony Melton AST >2.5

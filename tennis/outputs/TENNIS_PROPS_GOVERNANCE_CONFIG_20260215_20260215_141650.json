@@ -1,0 +1,165 @@
+{
+  "schema_version": "governance_artifacts.v1",
+  "created_at_utc": "2026-02-15T20:16:50.472957+00:00",
+  "slug": "TENNIS_PROPS",
+  "stamp": "20260215",
+  "pipeline_steps_executed": [
+    "raw_txt (inputs/*.txt)",
+    "parse_underdog_slate -> parsed JSON",
+    "risk_first_analyzer.analyze_slate (probability + gates + context gates)",
+    "export: governance_config.json",
+    "export: allowed_edges.json",
+    "export: blocked_edges.json"
+  ],
+  "counts": {
+    "total_results": 18,
+    "allowed_edges": 8,
+    "blocked_edges": 10
+  },
+  "run_settings": {},
+  "source": {
+    "ingest": "underdog_paste",
+    "surface": "Hard"
+  },
+  "by_player": [
+    {
+      "player": "Carlos Alcaraz",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won"
+      ],
+      "blocked_stats": [
+        "aces",
+        "double_faults"
+      ],
+      "block_reasons": {
+        "double_faults": "tier=AVOID",
+        "aces": "pick_state=REJECTED"
+      },
+      "prediction_allowed": true
+    },
+    {
+      "player": "Eliot Spizzirri",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Francisco Cerundolo",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Luciano Darderi",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Matteo Berrettini",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "tier=AVOID"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Miomir Kecmanovic",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "double_faults",
+        "games_won"
+      ],
+      "blocked_stats": [
+        "aces"
+      ],
+      "block_reasons": {
+        "aces": "pick_state=REJECTED"
+      },
+      "prediction_allowed": true
+    },
+    {
+      "player": "Shilin Xu",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Tommy Paul",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "aces",
+        "double_faults",
+        "games_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Victoria Mboko",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Zizou Bergs",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "double_faults"
+      ],
+      "blocked_stats": [
+        "aces",
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "tier=AVOID",
+        "aces": "pick_state=REJECTED"
+      },
+      "prediction_allowed": true
+    }
+  ]
+}

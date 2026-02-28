@@ -1,0 +1,38 @@
+# Copilot instructions — UNDERDOG ANALYSIS / NFL_AUTONOMOUS
+
+## Non‑negotiables (governance + safety)
+- **NFL_AUTONOMOUS v1.0 is FROZEN**: see `AGENT_DIRECTIVE.md` + `VERSION.lock`. Do **not** change stage order, validation gates, audit semantics, calibration logic, or scheduler behavior without explicit v1.1 authorization.
+- **Protected surfaces**: treat `.github/`, `.vscode/`, `.git/`, and `.env*` as governance/secrets control planes. Edit only when a human explicitly asks.
+- Compliance: **no Underdog scraping**; props/lines are manual inputs. Prefer permitted data sources as already implemented (see `README.md`).
+
+## Big picture (what lives where)
+- **UFA (manual-line props engine)**: `ufa/`
+  - Probability + governance caps/regime gating: `ufa/analysis/prob.py` (`STAT_CLASS`, `CONFIDENCE_CAPS`)
+  - Entry EV enumeration + correlation hooks: `ufa/optimizer/entry_builder.py` (supports NFL correlation engine)
+  - CLI (Typer + Rich) with a **hard roster gate**: `python -m ufa.cli ...` (see `data_center/guards/roster_gate.py`)
+  - API: `ufa/api/main.py` (FastAPI)
+- **NFL_AUTONOMOUS (hard-gated research pipeline)**: `run_autonomous.py` orchestrates `ingest/` → `pipeline/` → `edges/` → `validate/` and writes audit artifacts under `audit/`.
+- **Daily truth path w/ hard gates** (separate orchestrator): `daily_pipeline.py` (schedule gate → roster gate → dedupe/collapse → score → resolve primaries → bias gate → render gate → write output).
+- **Dynamic Truth + LLM evidence**: `truth_engine/` + `llm_adapters/` (LLMs produce structured evidence only).
+
+## Workflows (Windows-friendly)
+- Prefer VS Code tasks in `.vscode/tasks.json`:
+  - **Run NFL Daily (full)** → produces `outputs/signals_latest.json`
+  - **Validate Output (HARD GATE)** → runs `scripts/validate_output.py --edges outputs/signals_latest.json`
+  - **NFL_AUTONOMOUS_RUN_v1.0** → runs `run_autonomous.py`
+  - **VALIDATION — Run Operational Validation Harness** → `python -m diagnostics.operational_validation`
+- UFA quick usage: `python -m ufa.cli rank --demo` and `python -m ufa.cli build --demo --format power --legs 3`.
+
+## Output + validation conventions
+- Treat files under `outputs/` + `audit/` as governed artifacts.
+- `scripts/validate_output.py` enforces edge schema + policy:
+  - Required keys include `edge_id`, `sport`, `game_id`, `entity`, `market`, `probability`, `tier`, `data_sources`, `injury_verified`, `correlated`, `snap_pct`.
+  - Requires **≥2** `data_sources`, `injury_verified=True`, probability caps by market, and tier consistency via implied thresholds.
+  - Ensures **one primary edge per (game_id, entity)**.
+
+## LLM boundary (don’t contaminate truth)
+- LLMs are **evidence interpreters**, not decision makers. If you add/modify LLM usage, emit `EvidenceBundle`-style structured outputs and keep Monte Carlo/probabilities deterministic and downstream-locked.
+
+## Git control surfaces (interactive rebase)
+- If editing a rebase todo or commit buffer, write **only executable git content** (valid rebase commands like `pick|squash|fixup|reword|drop|edit`) — never prose/markdown.
+

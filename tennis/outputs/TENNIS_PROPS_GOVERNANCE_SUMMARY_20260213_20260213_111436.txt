@@ -1,0 +1,25 @@
+==============================================================================
+GOVERNANCE SUMMARY - TENNIS_PROPS - 20260213
+==============================================================================
+Created (UTC): 2026-02-13T17:14:36.364809+00:00
+
+COUNTS
+------------------------------------------------------------------------------
+Total results : 3
+Allowed edges : 0
+Blocked edges : 3
+Decision breakdown:
+  - BLOCKED: 3
+
+TOP BLOCK REASONS
+------------------------------------------------------------------------------
+    1x - pick_state=REJECTED
+    1x - pick_state=VETTED
+    1x - tier=AVOID
+
+FILES
+------------------------------------------------------------------------------
+- outputs/governance_config.json
+- outputs/allowed_edges.json
+- outputs/blocked_edges.json
+(These are the stable 'latest' artifacts.)

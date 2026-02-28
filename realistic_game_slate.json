@@ -1,0 +1,46 @@
+{
+  "games": [
+    {
+      "away": "KC",
+      "home": "TB",
+      "datetime": "Sun 1:00PM CST"
+    }
+  ],
+  "props": [
+    {
+      "player": "Patrick Mahomes",
+      "team": "KC",
+      "stat": "pass_yds",
+      "line": 260.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Travis Kelce",
+      "team": "KC",
+      "stat": "rec_yds",
+      "line": 55.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Mike Evans",
+      "team": "TB",
+      "stat": "rec_yds",
+      "line": 65.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Leonard Fournette",
+      "team": "TB",
+      "stat": "rush_yds",
+      "line": 45.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Chris Jones",
+      "team": "KC",
+      "stat": "pass_yds",
+      "line": 250.5,
+      "direction": "lower"
+    }
+  ]
+}

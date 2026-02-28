@@ -1,0 +1,40 @@
+==============================================================================
+GOVERNANCE SUMMARY - SOCCER_SCRAPED - 20260215
+==============================================================================
+Created (UTC): 2026-02-15T19:13:53.760833+00:00
+
+COUNTS
+------------------------------------------------------------------------------
+Total results : 27
+Allowed edges : 11
+Blocked edges : 16
+Decision breakdown:
+  - BLOCKED: 16
+  - PLAY: 7
+  - LEAN: 4
+
+TOP BLOCK REASONS
+------------------------------------------------------------------------------
+    9x - pick_state=REJECTED
+    7x - pick_state=VETTED
+
+TOP PLAY PICKS
+------------------------------------------------------------------------------
+ 1. Lamine Yamal (Barcelona) shots LOWER 4.5
+    eff=89.1% model=89.1% edge=? z=?
+ 2. Rasmus Hojlund (Manchester United) assists LOWER 0.5
+    eff=88.7% model=88.7% edge=? z=?
+ 3. Robert Lewandowski (Barcelona) assists LOWER 0.5
+    eff=81.9% model=81.9% edge=? z=?
+ 4. Lamine Yamal (Barcelona) goals LOWER 0.5
+    eff=74.1% model=74.1% edge=? z=?
+ 5. Lamine Yamal (Barcelona) shots_on_target LOWER 1.5
+    eff=73.6% model=73.6% edge=? z=?
+ 6. Rasmus Hojlund (Manchester United) goals LOWER 0.5
+    eff=70.5% model=70.5% edge=? z=?
+ 7. Rasmus Hojlund (Manchester United) shots_on_target HIGHER 0.5
+    eff=69.9% model=69.9% edge=? z=?
+
+TOP LEANS
+------------------------------------------------------------------------------
+... (truncated)

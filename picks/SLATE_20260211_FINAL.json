@@ -1,0 +1,67 @@
+{
+  "date": "2026-02-11",
+  "timestamp": "2026-02-11T23:19:29.732837",
+  "slate": "SLATE",
+  "source_file": "SLATE_RISK_FIRST_20260211_FROM_UD.json",
+  "summary": {
+    "play_count": 0,
+    "lean_count": 6,
+    "total": 6
+  },
+  "picks": [
+    {
+      "player": "Marcus Smart",
+      "team": "LAL",
+      "stat": "3PM",
+      "line": 1.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 64.3
+    },
+    {
+      "player": "AJ Green",
+      "team": "MIL",
+      "stat": "3PM",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 62.7
+    },
+    {
+      "player": "P.J. Washington",
+      "team": "DAL",
+      "stat": "3PM",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 62.6
+    },
+    {
+      "player": "LeBron James",
+      "team": "LAL",
+      "stat": "3PM",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 61.2
+    },
+    {
+      "player": "Austin Reaves",
+      "team": "LAL",
+      "stat": "3PM",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 58.4
+    },
+    {
+      "player": "Jake LaRavia",
+      "team": "LAL",
+      "stat": "3PM",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 55.7
+    }
+  ]
+}

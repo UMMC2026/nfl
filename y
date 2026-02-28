@@ -1,0 +1,359 @@
+
+=================================================================
+[CBB] COLLEGE BASKETBALL STRATEGIC REPORT
+   Generated: 2026-01-27 14:56:47
+   Total edges: 54 | Actionable: 28
+=================================================================
+
+
+============================================================
+ WAKE
+============================================================
+  ROSTER SNAPSHOT - WAKE
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Juke Harris           24.4  11.8   4.2   0.8   1.4
+
+[EDGES]
+  * Juke Harris        points     lower 20.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.010
+      TRACE: lambda=11.8039 (ESPN/OK)
+             raw=0.99018 adj_mult=1.0 adj=0.99018
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+
+============================================================
+ PITT
+============================================================
+  ROSTER SNAPSHOT - PITT
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Barry Dunning         21.0   9.0   4.3   1.0   0.9
+
+[EDGES]
+  * Barry Dunning      points     lower 12.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.125
+      TRACE: lambda=9.012 (ESPN/OK)
+             raw=0.874895 adj_mult=1.0 adj=0.874895
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+
+============================================================
+ NEB @ MICH  [00:00 ET]
+============================================================
+[MATCHUP ANALYSIS]
+  - PACE: FAST (Projected Total: 156.5) - Expect higher possession count
+  - SPREAD: MICH -11.5
+  - RANKING: NEB (#5) @ MICH (#3)
+
+  ROSTER SNAPSHOT - MICH
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Elliot Cadeau         25.5   8.7   2.6   5.2   0.8
+
+  ROSTER SNAPSHOT - NEB
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Jamarques Lawrence    24.3   7.9   2.4   2.3   1.4
+  Sam Hoiberg           21.4   4.7   2.9   1.9   0.6
+
+[EDGES]
+  * Elliot Cadeau      points     lower 11.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.172
+      TRACE: lambda=8.7312 (ESPN/OK)
+             raw=0.828284 adj_mult=1.0 adj=0.828284
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+  * Jamarques Lawrence points     lower 11.0  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.102
+      TRACE: lambda=7.8584 (ESPN/OK)
+             raw=0.829687 adj_mult=1.0 adj=0.829687
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+  * Sam Hoiberg        points     lower 9.5   (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.022
+      TRACE: lambda=4.7 (ESPN/OK)
+             raw=0.977794 adj_mult=1.0 adj=0.977794
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+
+============================================================
+ ARK @ OU  [00:00 ET]
+============================================================
+[MATCHUP ANALYSIS]
+  - PACE: FAST (Projected Total: 167.5) - Expect higher possession count
+  - SPREAD: ARK -2.5 (TIGHT) - High leverage minutes expected
+  - RANKING: ARK (#15) @ OU (UR)
+
+  ROSTER SNAPSHOT - ARK
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Darius Acuff          33.1  19.6   2.9   6.2   2.3
+  Trevon Brazile        23.8   8.6   5.7   0.8   0.8
+
+[EDGES]
+    Darius Acuff       points     lower 21.5  (LEAN)
+      Probability: 67.5% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.326
+      TRACE: lambda=19.6316 (ESPN/OK)
+             raw=0.674546 adj_mult=1.0 adj=0.674546
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.674546
+
+  * Trevon Brazile     points     lower 11.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.157
+      TRACE: lambda=8.5625 (ESPN/OK)
+             raw=0.843282 adj_mult=1.0 adj=0.843282
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+
+============================================================
+ OKLA
+============================================================
+  ROSTER SNAPSHOT - OKLA
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Xzayvier Brown        33.0  15.3   4.2   3.7   1.9
+  Nijel Pack            32.1  14.5   3.2   3.0   2.6
+  Tae Davis             24.4   9.8   4.7   1.4   0.3
+  Derrion Reid          20.0   8.6   3.7   0.9   0.7
+
+[EDGES]
+    Nijel Pack         points     lower 15.5  (LEAN)
+      Probability: 62.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.380
+      TRACE: lambda=14.493 (ESPN/OK)
+             raw=0.619878 adj_mult=1.0 adj=0.619878
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.619878
+
+  * Xzayvier Brown     points     lower 18.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.206
+      TRACE: lambda=15.3448 (ESPN/OK)
+             raw=0.794303 adj_mult=1.0 adj=0.794303
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+  * Tae Davis          points     lower 13.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.119
+      TRACE: lambda=9.7607 (ESPN/OK)
+             raw=0.88128 adj_mult=1.0 adj=0.88128
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+  * Derrion Reid       points     lower 13.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.055
+      TRACE: lambda=8.5909 (ESPN/OK)
+             raw=0.944911 adj_mult=1.0 adj=0.944911
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+
+============================================================
+ NCST
+============================================================
+  ROSTER SNAPSHOT - NCST
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Darrion Williams      30.8  11.8   6.5   3.0   1.4
+  Ven-Allen Lubin       22.4   9.8   5.7   0.5   0.2
+  Quadir Copeland       20.7   8.9   3.4   3.5   0.3
+
+[EDGES]
+  * Quadir Copeland    points     lower 15.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.020
+      TRACE: lambda=8.8972 (ESPN/OK)
+             raw=0.979894 adj_mult=1.0 adj=0.979894
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+  * Ven-Allen Lubin    points     lower 14.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.071
+      TRACE: lambda=9.7568 (ESPN/OK)
+             raw=0.928596 adj_mult=1.0 adj=0.928596
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+  * Darrion Williams   points     lower 13.5  (STRONG)
+      Probability: 70.2% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.298
+      TRACE: lambda=11.8067 (ESPN/OK)
+             raw=0.701765 adj_mult=1.0 adj=0.701765
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.701765
+
+
+============================================================
+ SYR
+============================================================
+  ROSTER SNAPSHOT - SYR
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  J.J. Starling         32.3  13.5   3.2   2.0   1.2
+
+[EDGES]
+    J.J. Starling      points     higher 11.5  (LEAN)
+      Probability: 69.5% | mean_source=ESPN | confidence=UNVERIFIED | signal=OK | spread=MISSING | dedupe_dropped=lower@0.304
+      TRACE: lambda=13.5 (ESPN/OK)
+             raw=0.695547 adj_mult=1.0 adj=0.695547
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.695547
+
+
+============================================================
+ PROV @ CONN  [00:30 ET]
+============================================================
+[MATCHUP ANALYSIS]
+  - PACE: FAST (Projected Total: 152.5) - Expect higher possession count
+  - SPREAD: CONN -15.5
+  - RANKING: PROV (UR) @ CONN (#2)
+
+  ROSTER SNAPSHOT - CONN
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Solo Ball             22.8   9.8   2.5   1.0   1.7
+  Tarris Reed           20.4   8.2   6.4   0.8   0.0
+
+  ROSTER SNAPSHOT - PROV
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Stefan Vaaks          31.1  15.3   2.6   3.3   2.7
+
+[EDGES]
+  * Solo Ball          points     lower 16.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.023
+      TRACE: lambda=9.8065 (ESPN/OK)
+             raw=0.97692 adj_mult=1.0 adj=0.97692
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+  * Tarris Reed        points     lower 15.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.011
+      TRACE: lambda=8.2241 (ESPN/OK)
+             raw=0.989538 adj_mult=1.0 adj=0.989538
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+    Stefan Vaaks       points     higher 13.5  (LEAN)
+      Probability: 66.5% | mean_source=ESPN | confidence=UNVERIFIED | signal=OK | spread=MISSING | dedupe_dropped=lower@0.335
+      TRACE: lambda=15.3 (ESPN/OK)
+             raw=0.664874 adj_mult=1.0 adj=0.664874
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.664874
+
+
+============================================================
+ MIZ @ ALA  [01:00 ET]
+============================================================
+[MATCHUP ANALYSIS]
+  - PACE: FAST (Projected Total: 166.5) - Expect higher possession count
+  - SPREAD: ALA -10.5
+  - RANKING: MIZ (UR) @ ALA (#23)
+
+  ROSTER SNAPSHOT - ALA
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Labaron Philon        26.3  14.4   3.4   4.2   1.4
+  Latrell Wrightsell    27.3  10.6   3.1   1.9   1.7
+
+[EDGES]
+  * Labaron Philon     points     lower 22.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.022
+      TRACE: lambda=14.4 (ESPN/OK)
+             raw=0.977853 adj_mult=1.0 adj=0.977853
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+    Latrell Wrightsell points     lower 11.5  (LEAN)
+      Probability: 63.2% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.368
+      TRACE: lambda=10.5574 (ESPN/OK)
+             raw=0.631947 adj_mult=1.0 adj=0.631947
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.631947
+
+
+============================================================
+ WVU
+============================================================
+  ROSTER SNAPSHOT - WVU
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Honor Huff            33.3  14.6   2.0   2.2   3.0
+  Treysen Eaglestaff    26.7  13.3   2.8   1.8   2.2
+
+[EDGES]
+    Honor Huff         points     lower 15.5  (LEAN)
+      Probability: 60.8% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.392
+      TRACE: lambda=14.6098 (ESPN/OK)
+             raw=0.607996 adj_mult=1.0 adj=0.607996
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.607996
+
+  * Treysen Eaglestaff points     lower 15.5  (STRONG)
+      Probability: 73.5% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.265
+      TRACE: lambda=13.3136 (ESPN/OK)
+             raw=0.735226 adj_mult=1.0 adj=0.735226
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.735226
+
+
+============================================================
+ KSU
+============================================================
+  ROSTER SNAPSHOT - KSU
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Nate Johnson          25.8   9.3   3.9   2.4   1.0
+
+[EDGES]
+  * Nate Johnson       points     lower 11.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.224
+      TRACE: lambda=9.2679 (ESPN/OK)
+             raw=0.776275 adj_mult=1.0 adj=0.776275
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+
+============================================================
+ PUR @ IU  [02:00 ET]
+============================================================
+[MATCHUP ANALYSIS]
+  - PACE: FAST (Projected Total: 150.5) - Expect higher possession count
+  - SPREAD: PUR -4.5
+  - RANKING: PUR (#12) @ IU (UR)
+
+  ROSTER SNAPSHOT - PUR
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Braden Smith          33.7  12.9   4.7   7.3   1.6
+  Trey Kaufman-Renn     20.7  10.6   4.8   1.5   0.1
+  C.J. Cox              20.6   6.9   2.7   0.9   1.1
+
+[EDGES]
+  * Braden Smith       points     lower 17.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.104
+      TRACE: lambda=12.9077 (ESPN/OK)
+             raw=0.895467 adj_mult=1.0 adj=0.895467
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+  * Trey Kaufman-Renn  points     lower 12.5  (STRONG)
+      Probability: 73.2% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.268
+      TRACE: lambda=10.5938 (ESPN/OK)
+             raw=0.732222 adj_mult=1.0 adj=0.732222
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.732222
+
+  * C.J. Cox           points     lower 9.5   (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.164
+      TRACE: lambda=6.9464 (ESPN/OK)
+             raw=0.835886 adj_mult=1.0 adj=0.835886
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+
+============================================================
+ IND
+============================================================
+  ROSTER SNAPSHOT - IND
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Tucker DeVries        32.7  17.3   5.5   2.6   2.5
+  Lamar Wilkerson       28.2  14.9   3.5   1.5   2.3
+
+[EDGES]
+  * Lamar Wilkerson    points     lower 17.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.239
+      TRACE: lambda=14.8609 (ESPN/OK)
+             raw=0.760537 adj_mult=1.0 adj=0.760537
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+    Tucker DeVries     points     higher 14.5  (LEAN)
+      Probability: 73.9% | mean_source=ESPN | confidence=UNVERIFIED | signal=OK | spread=MISSING | dedupe_dropped=lower@0.261
+      TRACE: lambda=17.2576 (ESPN/OK)
+             raw=0.739291 adj_mult=1.0 adj=0.739291
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.739291
+
+------------------------------
+Skipped 26 plays (low confidence / blowout)
+
+=================================================================
+[i] CBB = PRODUCTION - 12% market gate, L10 stats, stricter caps than NBA
+=================================================================

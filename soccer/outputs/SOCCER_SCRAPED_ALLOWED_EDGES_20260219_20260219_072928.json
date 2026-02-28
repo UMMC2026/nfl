@@ -1,0 +1,55 @@
+{
+  "created_at_utc": "2026-02-19T13:29:28.118291+00:00",
+  "edges": [
+    {
+      "edge_id": "ae715b743978bae8",
+      "player": "Ayyoub Bouaddi",
+      "team": "Lille",
+      "opponent": "",
+      "stat": "shots_on_target",
+      "line": 0.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "status": "PLAY",
+      "model_confidence": 67.57,
+      "effective_confidence": 67.57,
+      "mu": 0.4,
+      "sigma": 0.6324555320336759,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "poisson",
+      "sample_n": 18,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": null,
+      "gate_details": [
+        {
+          "pick_id": "Ayyoub Bouaddi_SHOTS ON TARGET_lower_0.5",
+          "state": "OPTIMIZABLE",
+          "original_probability": 67.57,
+          "final_probability": 67.57,
+          "adjustments": [],
+          "rejection_reason": null,
+          "vetted_reason": null,
+          "flags_detected": [],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "GATE_2_USAGE_VOLATILITY",
+            "GATE_3_SPECIALIST_REJECTS",
+            "GATE_4_FRAGILE",
+            "GATE_5_MATCHUP_DECAY",
+            "GATE_6_COMPOSITE",
+            "PASSED_ALL_GATES"
+          ],
+          "is_optimizable": true,
+          "is_visible": true
+        }
+      ],
+      "stat_adjustment": null
+    }
+  ]
+}

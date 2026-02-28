@@ -1,0 +1,56 @@
+
+===========================================================================
+  TENNIS PROPS CHEATSHEET
+  Surface: HARD
+  Generated: Tuesday, February 03, 2026 at 12:30 PM
+===========================================================================
+
+  SUMMARY
+  -----------------------------------
+  Total Playable:    12
+  SLAM (70%+):       9
+  STRONG (62-70%):   2
+  LEAN (55-62%):     1
+
+  [SLAM] *** (9 picks)
+  -----------------------------------------------------------------
+  PLAYER                   PICK               LINE    PROB    n
+  -----------------------------------------------------------------
+  Ugo Blanchet             HIGHER games_won   5.5     73%     93 [CORR]
+  Murphy Cassone           HIGHER games_won   5.5     95%     36 [CORR]
+  Quinn Vandecasteele      HIGHER games_won   4.5     77%     36 [CORR]
+  Ugo Blanchet             HIGHER games_play  10.5    100%     93 [CORR]
+  Ugo Blanchet             HIGHER sets_playe  2.5     99%     93 [CORR]
+  Murphy Cassone           HIGHER games_play  10.5    100%     36 [CORR]
+  Murphy Cassone           HIGHER sets_playe  2.5     99%     36 [CORR]
+  Ugo Blanchet             HIGHER sets_won    0.5     75%     93
+  Quinn Vandecasteele      HIGHER sets_won    0.5     70%     36
+
+  [STRONG] ** (2 picks)
+  -----------------------------------------------------------------
+  PLAYER                   PICK               LINE    PROB    n
+  -----------------------------------------------------------------
+  Ugo Blanchet             HIGHER tiebreaker  0.5     100%     93
+  Murphy Cassone           HIGHER tiebreaker  0.5     100%     36
+
+  [LEAN] * (1 picks)
+  -----------------------------------------------------------------
+  PLAYER                   PICK               LINE    PROB    n
+  -----------------------------------------------------------------
+  Murphy Cassone           HIGHER games_play  21.5    62%     36 [CORR]
+
+  [AVOID] (6 props below 55%)
+  ----------------------------------------
+    Murphy Cassone: games_won (46%)
+    Ugo Blanchet: aces (30%)
+    Ugo Blanchet: double_faults (25%)
+    Quinn Vandecasteele: games_won (16%)
+    Ugo Blanchet: games_won (13%)
+    ... and 1 more
+
+===========================================================================
+  RULES (SOP v2.1)
+  - One player, one bet per match
+  - [CORR] = Correlated stats - don't combine in parlays
+  - Probabilities from 10,000 Monte Carlo simulations
+===========================================================================

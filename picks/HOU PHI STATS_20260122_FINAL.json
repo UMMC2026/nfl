@@ -1,0 +1,40 @@
+{
+  "date": "2026-01-22",
+  "timestamp": "2026-01-22T13:07:11.292069",
+  "slate": "HOU PHI STATS",
+  "source_file": "HOU PHI STATS_RISK_FIRST_20260122_FROM_UD.json",
+  "summary": {
+    "play_count": 1,
+    "lean_count": 2,
+    "total": 3
+  },
+  "picks": [
+    {
+      "player": "Dorian Finney-Smith",
+      "team": "HOU",
+      "stat": "rebounds",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 79.6
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 71.7
+    },
+    {
+      "player": "Josh Okogie",
+      "team": "HOU",
+      "stat": "pts+ast",
+      "line": 32.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 71.4
+    }
+  ]
+}

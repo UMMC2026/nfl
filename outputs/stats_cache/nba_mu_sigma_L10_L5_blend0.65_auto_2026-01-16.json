@@ -1,0 +1,5195 @@
+{
+  "date": "2026-01-16",
+  "season": "2025-26",
+  "last_n_games": 10,
+  "short_n_games": 5,
+  "mode": "blend",
+  "blend_weight": 0.65,
+  "auto_adjust_blend_weight": true,
+  "source": "nba_api.playergamelog",
+  "teams": [
+    {
+      "player": "Alperen Sengun",
+      "team": "HOU"
+    },
+    {
+      "player": "Amen Thompson",
+      "team": "HOU"
+    },
+    {
+      "player": "Bones Hyland",
+      "team": "MIN"
+    },
+    {
+      "player": "Bub Carrington",
+      "team": "WAS"
+    },
+    {
+      "player": "Corey Kispert",
+      "team": "ATL"
+    },
+    {
+      "player": "De Aaron Fox",
+      "team": "SAS"
+    },
+    {
+      "player": "DeMar DeRozan",
+      "team": "SAC"
+    },
+    {
+      "player": "Dennis Schroder",
+      "team": "SAC"
+    },
+    {
+      "player": "Domantas Sabonis",
+      "team": "SAC"
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "team": "MIN"
+    },
+    {
+      "player": "Dorian Finney-Smith",
+      "team": "HOU"
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "team": "HOU"
+    },
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN"
+    },
+    {
+      "player": "Jaylen Clark",
+      "team": "MIN"
+    },
+    {
+      "player": "Jonas Valanciunas",
+      "team": "DEN"
+    },
+    {
+      "player": "Jordan Poole",
+      "team": "NOP"
+    },
+    {
+      "player": "Julius Randle",
+      "team": "MIN"
+    },
+    {
+      "player": "Justin Champagnie",
+      "team": "WAS"
+    },
+    {
+      "player": "Keegan Murray",
+      "team": "SAC"
+    },
+    {
+      "player": "Kevin Durant",
+      "team": "HOU"
+    },
+    {
+      "player": "Kevin Huerter",
+      "team": "CHI"
+    },
+    {
+      "player": "Kyle Kuzma",
+      "team": "MIL"
+    },
+    {
+      "player": "Kyshawn George",
+      "team": "WAS"
+    },
+    {
+      "player": "Malik Monk",
+      "team": "SAC"
+    },
+    {
+      "player": "Mike Conley",
+      "team": "MIN"
+    },
+    {
+      "player": "Naz Reid",
+      "team": "MIN"
+    },
+    {
+      "player": "Precious Achiuwa",
+      "team": "SAC"
+    },
+    {
+      "player": "Reed Sheppard",
+      "team": "HOU"
+    },
+    {
+      "player": "Rudy Gobert",
+      "team": "MIN"
+    },
+    {
+      "player": "Tari Eason",
+      "team": "HOU"
+    },
+    {
+      "player": "Tre Johnson",
+      "team": "WAS"
+    },
+    {
+      "player": "Zach LaVine",
+      "team": "SAC"
+    }
+  ],
+  "minutes": [
+    {
+      "player": "Alperen Sengun",
+      "cv": 0.3602415240185685
+    },
+    {
+      "player": "Amen Thompson",
+      "cv": 0.08576936737597012
+    },
+    {
+      "player": "Bones Hyland",
+      "cv": 0.2646158443683922
+    },
+    {
+      "player": "Bub Carrington",
+      "cv": 0.21313061912657266
+    },
+    {
+      "player": "Corey Kispert",
+      "cv": 0.42105263157894735
+    },
+    {
+      "player": "De Aaron Fox",
+      "cv": 0.12512799976927957
+    },
+    {
+      "player": "DeMar DeRozan",
+      "cv": 0.12063850444068201
+    },
+    {
+      "player": "Dennis Schroder",
+      "cv": 0.17214222480467023
+    },
+    {
+      "player": "Domantas Sabonis",
+      "cv": 0.14071777552556566
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "cv": 0.14571263982081042
+    },
+    {
+      "player": "Dorian Finney-Smith",
+      "cv": 0.09782608695652173
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "cv": 0.11735986383692532
+    },
+    {
+      "player": "Jaden McDaniels",
+      "cv": 0.20156495097305271
+    },
+    {
+      "player": "Jaylen Clark",
+      "cv": 0.4247152996873213
+    },
+    {
+      "player": "Jonas Valanciunas",
+      "cv": 0.26016742637679624
+    },
+    {
+      "player": "Jordan Poole",
+      "cv": 0.31515594937407343
+    },
+    {
+      "player": "Julius Randle",
+      "cv": 0.13572227871302286
+    },
+    {
+      "player": "Justin Champagnie",
+      "cv": 0.1680148168058295
+    },
+    {
+      "player": "Keegan Murray",
+      "cv": 0.2410623178719739
+    },
+    {
+      "player": "Kevin Durant",
+      "cv": 0.08669192836235796
+    },
+    {
+      "player": "Kevin Huerter",
+      "cv": 0.17021913166291444
+    },
+    {
+      "player": "Kyle Kuzma",
+      "cv": 0.1697592584797923
+    },
+    {
+      "player": "Kyshawn George",
+      "cv": 0.16144909100958663
+    },
+    {
+      "player": "Malik Monk",
+      "cv": 0.4929335329402563
+    },
+    {
+      "player": "Mike Conley",
+      "cv": 0.35376588148703636
+    },
+    {
+      "player": "Naz Reid",
+      "cv": 0.1292779820215978
+    },
+    {
+      "player": "Precious Achiuwa",
+      "cv": 0.46499502739293236
+    },
+    {
+      "player": "Reed Sheppard",
+      "cv": 0.24831842114757954
+    },
+    {
+      "player": "Rudy Gobert",
+      "cv": 0.08650339187882533
+    },
+    {
+      "player": "Tari Eason",
+      "cv": 0.2709320897705355
+    },
+    {
+      "player": "Tre Johnson",
+      "cv": 0.08350040726294576
+    },
+    {
+      "player": "Zach LaVine",
+      "cv": 0.2578814663688775
+    }
+  ],
+  "stats": [
+    {
+      "player": "Alperen Sengun",
+      "stat": "3pm",
+      "mu": 0.165,
+      "sigma": 0.75
+    },
+    {
+      "player": "Alperen Sengun",
+      "stat": "assists",
+      "mu": 5.2,
+      "sigma": 3.629391372093377
+    },
+    {
+      "player": "Alperen Sengun",
+      "stat": "blocks",
+      "mu": 0.87,
+      "sigma": 0.75
+    },
+    {
+      "player": "Alperen Sengun",
+      "stat": "points",
+      "mu": 15.934999999999999,
+      "sigma": 8.958058618119793
+    },
+    {
+      "player": "Alperen Sengun",
+      "stat": "rebounds",
+      "mu": 7.550000000000001,
+      "sigma": 4.1346685158886185
+    },
+    {
+      "player": "Alperen Sengun",
+      "stat": "steals",
+      "mu": 0.94,
+      "sigma": 1.0336671289721546
+    },
+    {
+      "player": "Alperen Sengun",
+      "stat": "turnovers",
+      "mu": 2.3499999999999996,
+      "sigma": 2.0
+    },
+    {
+      "player": "Amen Thompson",
+      "stat": "3pm",
+      "mu": 0.435,
+      "sigma": 0.75
+    },
+    {
+      "player": "Amen Thompson",
+      "stat": "assists",
+      "mu": 4.140000000000001,
+      "sigma": 1.8154828377059036
+    },
+    {
+      "player": "Amen Thompson",
+      "stat": "blocks",
+      "mu": 0.47,
+      "sigma": 0.8438776741499453
+    },
+    {
+      "player": "Amen Thompson",
+      "stat": "points",
+      "mu": 22.23,
+      "sigma": 6.110032733134581
+    },
+    {
+      "player": "Amen Thompson",
+      "stat": "rebounds",
+      "mu": 9.32,
+      "sigma": 3.075708233940597
+    },
+    {
+      "player": "Amen Thompson",
+      "stat": "steals",
+      "mu": 1.3299999999999998,
+      "sigma": 0.978730022688228
+    },
+    {
+      "player": "Amen Thompson",
+      "stat": "turnovers",
+      "mu": 2.5650000000000004,
+      "sigma": 1.6546858783684526
+    },
+    {
+      "player": "Bones Hyland",
+      "stat": "3pm",
+      "mu": 1.755,
+      "sigma": 1.7390905920355952
+    },
+    {
+      "player": "Bones Hyland",
+      "stat": "assists",
+      "mu": 3.7199999999999998,
+      "sigma": 2.507562359611577
+    },
+    {
+      "player": "Bones Hyland",
+      "stat": "blocks",
+      "mu": 0.2,
+      "sigma": 0.75
+    },
+    {
+      "player": "Bones Hyland",
+      "stat": "points",
+      "mu": 9.69,
+      "sigma": 7.478512006648327
+    },
+    {
+      "player": "Bones Hyland",
+      "stat": "rebounds",
+      "mu": 1.625,
+      "sigma": 0.8758681715648289
+    },
+    {
+      "player": "Bones Hyland",
+      "stat": "steals",
+      "mu": 0.4,
+      "sigma": 0.75
+    },
+    {
+      "player": "Bones Hyland",
+      "stat": "turnovers",
+      "mu": 0.6,
+      "sigma": 0.75
+    },
+    {
+      "player": "Bub Carrington",
+      "stat": "3pm",
+      "mu": 1.9050000000000002,
+      "sigma": 2.117862405860203
+    },
+    {
+      "player": "Bub Carrington",
+      "stat": "assists",
+      "mu": 5.625,
+      "sigma": 1.5911109284691383
+    },
+    {
+      "player": "Bub Carrington",
+      "stat": "blocks",
+      "mu": 0.4,
+      "sigma": 0.8438776741499453
+    },
+    {
+      "player": "Bub Carrington",
+      "stat": "points",
+      "mu": 9.879999999999999,
+      "sigma": 5.319773349499419
+    },
+    {
+      "player": "Bub Carrington",
+      "stat": "rebounds",
+      "mu": 4.295,
+      "sigma": 1.1396736928035307
+    },
+    {
+      "player": "Bub Carrington",
+      "stat": "steals",
+      "mu": 0.6,
+      "sigma": 0.75
+    },
+    {
+      "player": "Bub Carrington",
+      "stat": "turnovers",
+      "mu": 2.34,
+      "sigma": 2.2696572362781247
+    },
+    {
+      "player": "Corey Kispert",
+      "stat": "3pm",
+      "mu": 1.4699999999999998,
+      "sigma": 1.2415582734034083
+    },
+    {
+      "player": "Corey Kispert",
+      "stat": "assists",
+      "mu": 1.4349999999999998,
+      "sigma": 1.5632443456957152
+    },
+    {
+      "player": "Corey Kispert",
+      "stat": "blocks",
+      "mu": 0.034999999999999996,
+      "sigma": 0.75
+    },
+    {
+      "player": "Corey Kispert",
+      "stat": "points",
+      "mu": 9.41,
+      "sigma": 7.2698764108945415
+    },
+    {
+      "player": "Corey Kispert",
+      "stat": "rebounds",
+      "mu": 1.48,
+      "sigma": 1.0388037640777323
+    },
+    {
+      "player": "Corey Kispert",
+      "stat": "steals",
+      "mu": 0.54,
+      "sigma": 0.8091278042154386
+    },
+    {
+      "player": "Corey Kispert",
+      "stat": "turnovers",
+      "mu": 1.3900000000000001,
+      "sigma": 1.1100464200007507
+    },
+    {
+      "player": "De Aaron Fox",
+      "stat": "3pm",
+      "mu": 1.2349999999999999,
+      "sigma": 1.1795354669940241
+    },
+    {
+      "player": "De Aaron Fox",
+      "stat": "assists",
+      "mu": 4.87,
+      "sigma": 1.0910441892265492
+    },
+    {
+      "player": "De Aaron Fox",
+      "stat": "blocks",
+      "mu": 0.034999999999999996,
+      "sigma": 0.75
+    },
+    {
+      "player": "De Aaron Fox",
+      "stat": "points",
+      "mu": 16.255000000000003,
+      "sigma": 4.267559289703853
+    },
+    {
+      "player": "De Aaron Fox",
+      "stat": "rebounds",
+      "mu": 5.52,
+      "sigma": 2.586179397835886
+    },
+    {
+      "player": "De Aaron Fox",
+      "stat": "steals",
+      "mu": 0.94,
+      "sigma": 0.8489784456460255
+    },
+    {
+      "player": "De Aaron Fox",
+      "stat": "turnovers",
+      "mu": 2.39,
+      "sigma": 1.0179043692735719
+    },
+    {
+      "player": "DeMar DeRozan",
+      "stat": "3pm",
+      "mu": 0.895,
+      "sigma": 1.1281233207222126
+    },
+    {
+      "player": "DeMar DeRozan",
+      "stat": "assists",
+      "mu": 4.825,
+      "sigma": 1.2699864066749638
+    },
+    {
+      "player": "DeMar DeRozan",
+      "stat": "blocks",
+      "mu": 0.2,
+      "sigma": 0.75
+    },
+    {
+      "player": "DeMar DeRozan",
+      "stat": "points",
+      "mu": 23.555,
+      "sigma": 5.531306784602256
+    },
+    {
+      "player": "DeMar DeRozan",
+      "stat": "rebounds",
+      "mu": 3.08,
+      "sigma": 1.8268336569352503
+    },
+    {
+      "player": "DeMar DeRozan",
+      "stat": "steals",
+      "mu": 1.695,
+      "sigma": 1.187635173208987
+    },
+    {
+      "player": "DeMar DeRozan",
+      "stat": "turnovers",
+      "mu": 0.6799999999999999,
+      "sigma": 0.9177454080070014
+    },
+    {
+      "player": "Dennis Schroder",
+      "stat": "3pm",
+      "mu": 1.3299999999999998,
+      "sigma": 1.1384663748527224
+    },
+    {
+      "player": "Dennis Schroder",
+      "stat": "assists",
+      "mu": 5.305,
+      "sigma": 2.798288811804785
+    },
+    {
+      "player": "Dennis Schroder",
+      "stat": "blocks",
+      "mu": 0.034999999999999996,
+      "sigma": 0.75
+    },
+    {
+      "player": "Dennis Schroder",
+      "stat": "points",
+      "mu": 13.695,
+      "sigma": 3.3623888755033704
+    },
+    {
+      "player": "Dennis Schroder",
+      "stat": "rebounds",
+      "mu": 2.54,
+      "sigma": 1.148142371552864
+    },
+    {
+      "player": "Dennis Schroder",
+      "stat": "steals",
+      "mu": 0.87,
+      "sigma": 0.9127614109334601
+    },
+    {
+      "player": "Dennis Schroder",
+      "stat": "turnovers",
+      "mu": 1.505,
+      "sigma": 0.7756454108219977
+    },
+    {
+      "player": "Domantas Sabonis",
+      "stat": "3pm",
+      "mu": 0.4,
+      "sigma": 0.75
+    },
+    {
+      "player": "Domantas Sabonis",
+      "stat": "assists",
+      "mu": 3.61,
+      "sigma": 1.2360887731450232
+    },
+    {
+      "player": "Domantas Sabonis",
+      "stat": "blocks",
+      "mu": 0.2,
+      "sigma": 0.75
+    },
+    {
+      "player": "Domantas Sabonis",
+      "stat": "points",
+      "mu": 19.455,
+      "sigma": 7.9046063402041575
+    },
+    {
+      "player": "Domantas Sabonis",
+      "stat": "rebounds",
+      "mu": 10.805,
+      "sigma": 3.6026841844328548
+    },
+    {
+      "player": "Domantas Sabonis",
+      "stat": "steals",
+      "mu": 1.2349999999999999,
+      "sigma": 1.2182687795913274
+    },
+    {
+      "player": "Domantas Sabonis",
+      "stat": "turnovers",
+      "mu": 2.4699999999999998,
+      "sigma": 1.4582377981240886
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "stat": "3pm",
+      "mu": 3.8500000000000005,
+      "sigma": 1.4142610100792634
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "stat": "assists",
+      "mu": 5.095000000000001,
+      "sigma": 2.0783491722501215
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "stat": "blocks",
+      "mu": 0.365,
+      "sigma": 0.75
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "stat": "points",
+      "mu": 14.610000000000001,
+      "sigma": 4.851796564648745
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "stat": "rebounds",
+      "mu": 4.505000000000001,
+      "sigma": 2.8020441611616596
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "stat": "steals",
+      "mu": 1.27,
+      "sigma": 1.2583220394483878
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "stat": "turnovers",
+      "mu": 1.6600000000000001,
+      "sigma": 1.3749315300944798
+    },
+    {
+      "player": "Dorian Finney-Smith",
+      "stat": "3pm",
+      "mu": 0.7907777777777778,
+      "sigma": 0.75
+    },
+    {
+      "player": "Dorian Finney-Smith",
+      "stat": "assists",
+      "mu": 0.46455555555555555,
+      "sigma": 0.75
+    },
+    {
+      "player": "Dorian Finney-Smith",
+      "stat": "blocks",
+      "mu": 0.20922222222222223,
+      "sigma": 0.75
+    },
+    {
+      "player": "Dorian Finney-Smith",
+      "stat": "points",
+      "mu": 3.0247777777777776,
+      "sigma": 1.2089574035248196
+    },
+    {
+      "player": "Dorian Finney-Smith",
+      "stat": "rebounds",
+      "mu": 3.3048888888888888,
+      "sigma": 1.0893934734561284
+    },
+    {
+      "player": "Dorian Finney-Smith",
+      "stat": "steals",
+      "mu": 0.0922222222222222,
+      "sigma": 0.75
+    },
+    {
+      "player": "Dorian Finney-Smith",
+      "stat": "turnovers",
+      "mu": 0.7446666666666667,
+      "sigma": 0.8006961155224341
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "stat": "3pm",
+      "mu": 1.4100000000000001,
+      "sigma": 1.2777417206833457
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "stat": "assists",
+      "mu": 1.045,
+      "sigma": 0.9218722246542743
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "stat": "blocks",
+      "mu": 1.0,
+      "sigma": 1.200229354837271
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "stat": "points",
+      "mu": 12.985,
+      "sigma": 5.072114811913522
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "stat": "rebounds",
+      "mu": 7.305000000000001,
+      "sigma": 2.0534791462667124
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "stat": "steals",
+      "mu": 1.095,
+      "sigma": 0.8063290172471491
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "stat": "turnovers",
+      "mu": 1.6600000000000001,
+      "sigma": 1.8024674104312681
+    },
+    {
+      "player": "Jaden McDaniels",
+      "stat": "3pm",
+      "mu": 1.495,
+      "sigma": 1.6489063665452621
+    },
+    {
+      "player": "Jaden McDaniels",
+      "stat": "assists",
+      "mu": 2.245,
+      "sigma": 1.6742904576851174
+    },
+    {
+      "player": "Jaden McDaniels",
+      "stat": "blocks",
+      "mu": 1.095,
+      "sigma": 1.2326730397914585
+    },
+    {
+      "player": "Jaden McDaniels",
+      "stat": "points",
+      "mu": 15.87,
+      "sigma": 5.975859152319316
+    },
+    {
+      "player": "Jaden McDaniels",
+      "stat": "rebounds",
+      "mu": 3.965,
+      "sigma": 1.8582960186535853
+    },
+    {
+      "player": "Jaden McDaniels",
+      "stat": "steals",
+      "mu": 1.2,
+      "sigma": 1.1093916732949987
+    },
+    {
+      "player": "Jaden McDaniels",
+      "stat": "turnovers",
+      "mu": 1.07,
+      "sigma": 0.75
+    },
+    {
+      "player": "Jaylen Clark",
+      "stat": "3pm",
+      "mu": 0.165,
+      "sigma": 0.75
+    },
+    {
+      "player": "Jaylen Clark",
+      "stat": "assists",
+      "mu": 0.765,
+      "sigma": 0.9146014841621322
+    },
+    {
+      "player": "Jaylen Clark",
+      "stat": "blocks",
+      "mu": 0.105,
+      "sigma": 0.75
+    },
+    {
+      "player": "Jaylen Clark",
+      "stat": "points",
+      "mu": 3.5,
+      "sigma": 2.4165560929697305
+    },
+    {
+      "player": "Jaylen Clark",
+      "stat": "rebounds",
+      "mu": 2.4250000000000003,
+      "sigma": 2.4411122166009314
+    },
+    {
+      "player": "Jaylen Clark",
+      "stat": "steals",
+      "mu": 0.74,
+      "sigma": 1.0179043692735719
+    },
+    {
+      "player": "Jaylen Clark",
+      "stat": "turnovers",
+      "mu": 0.365,
+      "sigma": 0.75
+    },
+    {
+      "player": "Jonas Valanciunas",
+      "stat": "3pm",
+      "mu": 0.034999999999999996,
+      "sigma": 0.75
+    },
+    {
+      "player": "Jonas Valanciunas",
+      "stat": "assists",
+      "mu": 1.495,
+      "sigma": 1.2428389781399012
+    },
+    {
+      "player": "Jonas Valanciunas",
+      "stat": "blocks",
+      "mu": 0.765,
+      "sigma": 1.2182687795913276
+    },
+    {
+      "player": "Jonas Valanciunas",
+      "stat": "points",
+      "mu": 8.030000000000001,
+      "sigma": 5.410620697432373
+    },
+    {
+      "player": "Jonas Valanciunas",
+      "stat": "rebounds",
+      "mu": 4.54,
+      "sigma": 2.989223875122602
+    },
+    {
+      "player": "Jonas Valanciunas",
+      "stat": "steals",
+      "mu": 0.235,
+      "sigma": 0.75
+    },
+    {
+      "player": "Jonas Valanciunas",
+      "stat": "turnovers",
+      "mu": 1.565,
+      "sigma": 0.8788204791095244
+    },
+    {
+      "player": "Jordan Poole",
+      "stat": "3pm",
+      "mu": 3.46,
+      "sigma": 2.447470015193887
+    },
+    {
+      "player": "Jordan Poole",
+      "stat": "assists",
+      "mu": 2.315,
+      "sigma": 1.2864750378523169
+    },
+    {
+      "player": "Jordan Poole",
+      "stat": "blocks",
+      "mu": 0.13999999999999999,
+      "sigma": 0.75
+    },
+    {
+      "player": "Jordan Poole",
+      "stat": "points",
+      "mu": 13.385000000000002,
+      "sigma": 9.45325539038203
+    },
+    {
+      "player": "Jordan Poole",
+      "stat": "rebounds",
+      "mu": 0.975,
+      "sigma": 0.9146014841621322
+    },
+    {
+      "player": "Jordan Poole",
+      "stat": "steals",
+      "mu": 0.86,
+      "sigma": 1.1342162904822863
+    },
+    {
+      "player": "Jordan Poole",
+      "stat": "turnovers",
+      "mu": 2.755,
+      "sigma": 1.319136107738597
+    },
+    {
+      "player": "Julius Randle",
+      "stat": "3pm",
+      "mu": 1.73,
+      "sigma": 1.540522977532461
+    },
+    {
+      "player": "Julius Randle",
+      "stat": "assists",
+      "mu": 5.68,
+      "sigma": 2.395157768932342
+    },
+    {
+      "player": "Julius Randle",
+      "stat": "blocks",
+      "mu": 0.165,
+      "sigma": 0.75
+    },
+    {
+      "player": "Julius Randle",
+      "stat": "points",
+      "mu": 20.945,
+      "sigma": 6.3288587309208495
+    },
+    {
+      "player": "Julius Randle",
+      "stat": "rebounds",
+      "mu": 7.91,
+      "sigma": 2.9670621817742315
+    },
+    {
+      "player": "Julius Randle",
+      "stat": "steals",
+      "mu": 0.6699999999999999,
+      "sigma": 0.75
+    },
+    {
+      "player": "Julius Randle",
+      "stat": "turnovers",
+      "mu": 2.225,
+      "sigma": 1.0317170523477168
+    },
+    {
+      "player": "Justin Champagnie",
+      "stat": "3pm",
+      "mu": 1.0350000000000001,
+      "sigma": 1.5761724031175417
+    },
+    {
+      "player": "Justin Champagnie",
+      "stat": "assists",
+      "mu": 1.72,
+      "sigma": 1.5442455907155588
+    },
+    {
+      "player": "Justin Champagnie",
+      "stat": "blocks",
+      "mu": 0.87,
+      "sigma": 0.8296028205718533
+    },
+    {
+      "player": "Justin Champagnie",
+      "stat": "points",
+      "mu": 10.315,
+      "sigma": 4.571743721088511
+    },
+    {
+      "player": "Justin Champagnie",
+      "stat": "rebounds",
+      "mu": 6.515000000000001,
+      "sigma": 2.4318947646175504
+    },
+    {
+      "player": "Justin Champagnie",
+      "stat": "steals",
+      "mu": 0.505,
+      "sigma": 0.75
+    },
+    {
+      "player": "Justin Champagnie",
+      "stat": "turnovers",
+      "mu": 0.9650000000000001,
+      "sigma": 0.7939582625198196
+    },
+    {
+      "player": "Keegan Murray",
+      "stat": "3pm",
+      "mu": 1.0350000000000001,
+      "sigma": 1.181260893519647
+    },
+    {
+      "player": "Keegan Murray",
+      "stat": "assists",
+      "mu": 1.53,
+      "sigma": 1.396599534498745
+    },
+    {
+      "player": "Keegan Murray",
+      "stat": "blocks",
+      "mu": 1.54,
+      "sigma": 1.0542646974029188
+    },
+    {
+      "player": "Keegan Murray",
+      "stat": "points",
+      "mu": 11.98,
+      "sigma": 7.551498650813056
+    },
+    {
+      "player": "Keegan Murray",
+      "stat": "rebounds",
+      "mu": 4.41,
+      "sigma": 3.041871661009764
+    },
+    {
+      "player": "Keegan Murray",
+      "stat": "steals",
+      "mu": 0.505,
+      "sigma": 0.7756454108219977
+    },
+    {
+      "player": "Keegan Murray",
+      "stat": "turnovers",
+      "mu": 1.1749999999999998,
+      "sigma": 1.393141055812943
+    },
+    {
+      "player": "Kevin Durant",
+      "stat": "3pm",
+      "mu": 2.165,
+      "sigma": 1.5817819982081434
+    },
+    {
+      "player": "Kevin Durant",
+      "stat": "assists",
+      "mu": 3.9949999999999997,
+      "sigma": 2.4471595087051403
+    },
+    {
+      "player": "Kevin Durant",
+      "stat": "blocks",
+      "mu": 0.835,
+      "sigma": 0.8918791413512628
+    },
+    {
+      "player": "Kevin Durant",
+      "stat": "points",
+      "mu": 27.574999999999996,
+      "sigma": 6.404720703807195
+    },
+    {
+      "player": "Kevin Durant",
+      "stat": "rebounds",
+      "mu": 7.155,
+      "sigma": 3.356543081046447
+    },
+    {
+      "player": "Kevin Durant",
+      "stat": "steals",
+      "mu": 0.495,
+      "sigma": 1.204105665542598
+    },
+    {
+      "player": "Kevin Durant",
+      "stat": "turnovers",
+      "mu": 2.34,
+      "sigma": 1.0442732643361174
+    },
+    {
+      "player": "Kevin Huerter",
+      "stat": "3pm",
+      "mu": 1.1749999999999998,
+      "sigma": 1.0624789556921528
+    },
+    {
+      "player": "Kevin Huerter",
+      "stat": "assists",
+      "mu": 2.67,
+      "sigma": 2.3870587487870853
+    },
+    {
+      "player": "Kevin Huerter",
+      "stat": "blocks",
+      "mu": 0.47,
+      "sigma": 0.75
+    },
+    {
+      "player": "Kevin Huerter",
+      "stat": "points",
+      "mu": 10.245,
+      "sigma": 2.73991377773549
+    },
+    {
+      "player": "Kevin Huerter",
+      "stat": "rebounds",
+      "mu": 3.795,
+      "sigma": 1.3675410343968184
+    },
+    {
+      "player": "Kevin Huerter",
+      "stat": "steals",
+      "mu": 1.06,
+      "sigma": 1.20897475832237
+    },
+    {
+      "player": "Kevin Huerter",
+      "stat": "turnovers",
+      "mu": 1.295,
+      "sigma": 1.0891641504185534
+    },
+    {
+      "player": "Kyle Kuzma",
+      "stat": "3pm",
+      "mu": 1.59,
+      "sigma": 1.8405917939067349
+    },
+    {
+      "player": "Kyle Kuzma",
+      "stat": "assists",
+      "mu": 1.775,
+      "sigma": 1.0004043240581981
+    },
+    {
+      "player": "Kyle Kuzma",
+      "stat": "blocks",
+      "mu": 0.365,
+      "sigma": 0.75
+    },
+    {
+      "player": "Kyle Kuzma",
+      "stat": "points",
+      "mu": 10.945,
+      "sigma": 5.843964817252384
+    },
+    {
+      "player": "Kyle Kuzma",
+      "stat": "rebounds",
+      "mu": 3.08,
+      "sigma": 2.093434074199497
+    },
+    {
+      "player": "Kyle Kuzma",
+      "stat": "steals",
+      "mu": 0.4,
+      "sigma": 0.75
+    },
+    {
+      "player": "Kyle Kuzma",
+      "stat": "turnovers",
+      "mu": 0.445,
+      "sigma": 0.8355501241041137
+    },
+    {
+      "player": "Kyshawn George",
+      "stat": "3pm",
+      "mu": 1.7650000000000001,
+      "sigma": 1.3156190411235849
+    },
+    {
+      "player": "Kyshawn George",
+      "stat": "assists",
+      "mu": 4.289999999999999,
+      "sigma": 1.7690212578199187
+    },
+    {
+      "player": "Kyshawn George",
+      "stat": "blocks",
+      "mu": 0.7050000000000001,
+      "sigma": 0.8438776741499453
+    },
+    {
+      "player": "Kyshawn George",
+      "stat": "points",
+      "mu": 13.915,
+      "sigma": 9.291919853167597
+    },
+    {
+      "player": "Kyshawn George",
+      "stat": "rebounds",
+      "mu": 4.245,
+      "sigma": 1.97302463325192
+    },
+    {
+      "player": "Kyshawn George",
+      "stat": "steals",
+      "mu": 0.54,
+      "sigma": 0.75
+    },
+    {
+      "player": "Kyshawn George",
+      "stat": "turnovers",
+      "mu": 2.895,
+      "sigma": 1.9515953163833344
+    },
+    {
+      "player": "Malik Monk",
+      "stat": "3pm",
+      "mu": 1.73,
+      "sigma": 2.7312259099380563
+    },
+    {
+      "player": "Malik Monk",
+      "stat": "assists",
+      "mu": 2.85,
+      "sigma": 2.682968191770013
+    },
+    {
+      "player": "Malik Monk",
+      "stat": "blocks",
+      "mu": 0.33,
+      "sigma": 0.75
+    },
+    {
+      "player": "Malik Monk",
+      "stat": "points",
+      "mu": 10.69,
+      "sigma": 8.887221107092245
+    },
+    {
+      "player": "Malik Monk",
+      "stat": "rebounds",
+      "mu": 1.9300000000000002,
+      "sigma": 1.4885366515777918
+    },
+    {
+      "player": "Malik Monk",
+      "stat": "steals",
+      "mu": 0.305,
+      "sigma": 0.75
+    },
+    {
+      "player": "Malik Monk",
+      "stat": "turnovers",
+      "mu": 1.375,
+      "sigma": 1.2350912660907802
+    },
+    {
+      "player": "Mike Conley",
+      "stat": "3pm",
+      "mu": 1.2599999999999998,
+      "sigma": 1.1100464200007507
+    },
+    {
+      "player": "Mike Conley",
+      "stat": "assists",
+      "mu": 2.755,
+      "sigma": 1.2642068948517733
+    },
+    {
+      "player": "Mike Conley",
+      "stat": "blocks",
+      "mu": 0.06999999999999999,
+      "sigma": 0.75
+    },
+    {
+      "player": "Mike Conley",
+      "stat": "points",
+      "mu": 4.885,
+      "sigma": 2.7618783518695076
+    },
+    {
+      "player": "Mike Conley",
+      "stat": "rebounds",
+      "mu": 1.46,
+      "sigma": 1.1025924719604654
+    },
+    {
+      "player": "Mike Conley",
+      "stat": "steals",
+      "mu": 0.175,
+      "sigma": 0.75
+    },
+    {
+      "player": "Mike Conley",
+      "stat": "turnovers",
+      "mu": 0.53,
+      "sigma": 0.75
+    },
+    {
+      "player": "Naz Reid",
+      "stat": "3pm",
+      "mu": 2.7649999999999997,
+      "sigma": 1.5287737076403114
+    },
+    {
+      "player": "Naz Reid",
+      "stat": "assists",
+      "mu": 2.365,
+      "sigma": 0.7756454108219977
+    },
+    {
+      "player": "Naz Reid",
+      "stat": "blocks",
+      "mu": 0.9650000000000001,
+      "sigma": 0.75
+    },
+    {
+      "player": "Naz Reid",
+      "stat": "points",
+      "mu": 17.01,
+      "sigma": 7.030957299839559
+    },
+    {
+      "player": "Naz Reid",
+      "stat": "rebounds",
+      "mu": 6.13,
+      "sigma": 2.7084963878524557
+    },
+    {
+      "player": "Naz Reid",
+      "stat": "steals",
+      "mu": 0.825,
+      "sigma": 0.75
+    },
+    {
+      "player": "Naz Reid",
+      "stat": "turnovers",
+      "mu": 2.095,
+      "sigma": 1.3831324532306888
+    },
+    {
+      "player": "Precious Achiuwa",
+      "stat": "3pm",
+      "mu": 0.73,
+      "sigma": 0.8389749321961979
+    },
+    {
+      "player": "Precious Achiuwa",
+      "stat": "assists",
+      "mu": 1.27,
+      "sigma": 1.2583220394483878
+    },
+    {
+      "player": "Precious Achiuwa",
+      "stat": "blocks",
+      "mu": 1.2249999999999999,
+      "sigma": 0.887835936669765
+    },
+    {
+      "player": "Precious Achiuwa",
+      "stat": "points",
+      "mu": 8.995000000000001,
+      "sigma": 6.565808271148848
+    },
+    {
+      "player": "Precious Achiuwa",
+      "stat": "rebounds",
+      "mu": 6.735,
+      "sigma": 4.6718702977427355
+    },
+    {
+      "player": "Precious Achiuwa",
+      "stat": "steals",
+      "mu": 1.165,
+      "sigma": 1.2326730397914585
+    },
+    {
+      "player": "Precious Achiuwa",
+      "stat": "turnovers",
+      "mu": 0.9299999999999999,
+      "sigma": 0.7635837232113154
+    },
+    {
+      "player": "Reed Sheppard",
+      "stat": "3pm",
+      "mu": 1.835,
+      "sigma": 1.266522962584597
+    },
+    {
+      "player": "Reed Sheppard",
+      "stat": "assists",
+      "mu": 2.48,
+      "sigma": 1.6213754304259378
+    },
+    {
+      "player": "Reed Sheppard",
+      "stat": "blocks",
+      "mu": 0.305,
+      "sigma": 0.8276388605326426
+    },
+    {
+      "player": "Reed Sheppard",
+      "stat": "points",
+      "mu": 10.325000000000001,
+      "sigma": 5.436326786352767
+    },
+    {
+      "player": "Reed Sheppard",
+      "stat": "rebounds",
+      "mu": 1.635,
+      "sigma": 1.1469396593693817
+    },
+    {
+      "player": "Reed Sheppard",
+      "stat": "steals",
+      "mu": 0.845,
+      "sigma": 1.0105519413340642
+    },
+    {
+      "player": "Reed Sheppard",
+      "stat": "turnovers",
+      "mu": 0.645,
+      "sigma": 0.9065266499082527
+    },
+    {
+      "player": "Rudy Gobert",
+      "stat": "3pm",
+      "mu": 0.0,
+      "sigma": 0.75
+    },
+    {
+      "player": "Rudy Gobert",
+      "stat": "assists",
+      "mu": 1.6600000000000001,
+      "sigma": 1.2902151850999175
+    },
+    {
+      "player": "Rudy Gobert",
+      "stat": "blocks",
+      "mu": 2.035,
+      "sigma": 1.7553886589319818
+    },
+    {
+      "player": "Rudy Gobert",
+      "stat": "points",
+      "mu": 10.085,
+      "sigma": 5.437977078865767
+    },
+    {
+      "player": "Rudy Gobert",
+      "stat": "rebounds",
+      "mu": 13.24,
+      "sigma": 1.751929810742029
+    },
+    {
+      "player": "Rudy Gobert",
+      "stat": "steals",
+      "mu": 0.835,
+      "sigma": 0.8063290172471491
+    },
+    {
+      "player": "Rudy Gobert",
+      "stat": "turnovers",
+      "mu": 1.2599999999999998,
+      "sigma": 1.1100464200007507
+    },
+    {
+      "player": "Tari Eason",
+      "stat": "3pm",
+      "mu": 1.9300000000000002,
+      "sigma": 0.7635837232113154
+    },
+    {
+      "player": "Tari Eason",
+      "stat": "assists",
+      "mu": 1.695,
+      "sigma": 1.1245182804488687
+    },
+    {
+      "player": "Tari Eason",
+      "stat": "blocks",
+      "mu": 0.6699999999999999,
+      "sigma": 0.75
+    },
+    {
+      "player": "Tari Eason",
+      "stat": "points",
+      "mu": 13.085,
+      "sigma": 4.578281834508252
+    },
+    {
+      "player": "Tari Eason",
+      "stat": "rebounds",
+      "mu": 7.97,
+      "sigma": 3.557976722745312
+    },
+    {
+      "player": "Tari Eason",
+      "stat": "steals",
+      "mu": 1.4349999999999998,
+      "sigma": 0.8655432074071252
+    },
+    {
+      "player": "Tari Eason",
+      "stat": "turnovers",
+      "mu": 1.825,
+      "sigma": 1.0280432074071253
+    },
+    {
+      "player": "Tre Johnson",
+      "stat": "3pm",
+      "mu": 1.975,
+      "sigma": 1.2083870971009778
+    },
+    {
+      "player": "Tre Johnson",
+      "stat": "assists",
+      "mu": 3.06,
+      "sigma": 1.1093916732949987
+    },
+    {
+      "player": "Tre Johnson",
+      "stat": "blocks",
+      "mu": 0.034999999999999996,
+      "sigma": 0.75
+    },
+    {
+      "player": "Tre Johnson",
+      "stat": "points",
+      "mu": 13.75,
+      "sigma": 5.7279011535483315
+    },
+    {
+      "player": "Tre Johnson",
+      "stat": "rebounds",
+      "mu": 2.8600000000000003,
+      "sigma": 1.8592942591324082
+    },
+    {
+      "player": "Tre Johnson",
+      "stat": "steals",
+      "mu": 1.3299999999999998,
+      "sigma": 1.0627418305298784
+    },
+    {
+      "player": "Tre Johnson",
+      "stat": "turnovers",
+      "mu": 2.13,
+      "sigma": 0.75
+    },
+    {
+      "player": "Zach LaVine",
+      "stat": "3pm",
+      "mu": 2.7649999999999997,
+      "sigma": 1.7732377112610889
+    },
+    {
+      "player": "Zach LaVine",
+      "stat": "assists",
+      "mu": 1.835,
+      "sigma": 1.1310659746649687
+    },
+    {
+      "player": "Zach LaVine",
+      "stat": "blocks",
+      "mu": 0.4,
+      "sigma": 0.75
+    },
+    {
+      "player": "Zach LaVine",
+      "stat": "points",
+      "mu": 19.154999999999998,
+      "sigma": 5.989231695902954
+    },
+    {
+      "player": "Zach LaVine",
+      "stat": "rebounds",
+      "mu": 3.39,
+      "sigma": 1.2628632210643906
+    },
+    {
+      "player": "Zach LaVine",
+      "stat": "steals",
+      "mu": 0.435,
+      "sigma": 0.8438776741499453
+    },
+    {
+      "player": "Zach LaVine",
+      "stat": "turnovers",
+      "mu": 2.095,
+      "sigma": 1.0771883916113973
+    }
+  ],
+  "series": [
+    {
+      "player": "Alperen Sengun",
+      "stat": "3pm",
+      "values": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Alperen Sengun",
+      "stat": "assists",
+      "values": [
+        5.0,
+        11.0,
+        4.0,
+        0.0,
+        6.0,
+        4.0,
+        7.0,
+        3.0,
+        4.0,
+        8.0
+      ]
+    },
+    {
+      "player": "Alperen Sengun",
+      "stat": "blocks",
+      "values": [
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        2.0,
+        1.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Alperen Sengun",
+      "stat": "points",
+      "values": [
+        14.0,
+        23.0,
+        19.0,
+        0.0,
+        20.0,
+        14.0,
+        19.0,
+        28.0,
+        8.0,
+        28.0
+      ]
+    },
+    {
+      "player": "Alperen Sengun",
+      "stat": "rebounds",
+      "values": [
+        13.0,
+        7.0,
+        9.0,
+        1.0,
+        6.0,
+        12.0,
+        11.0,
+        6.0,
+        6.0,
+        11.0
+      ]
+    },
+    {
+      "player": "Alperen Sengun",
+      "stat": "steals",
+      "values": [
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        2.0,
+        1.0,
+        2.0,
+        2.0,
+        1.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Alperen Sengun",
+      "stat": "turnovers",
+      "values": [
+        5.0,
+        3.0,
+        1.0,
+        0.0,
+        1.0,
+        6.0,
+        3.0,
+        4.0,
+        5.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Amen Thompson",
+      "stat": "3pm",
+      "values": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Amen Thompson",
+      "stat": "assists",
+      "values": [
+        3.0,
+        2.0,
+        6.0,
+        3.0,
+        6.0,
+        6.0,
+        4.0,
+        3.0,
+        7.0,
+        4.0
+      ]
+    },
+    {
+      "player": "Amen Thompson",
+      "stat": "blocks",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Amen Thompson",
+      "stat": "points",
+      "values": [
+        13.0,
+        23.0,
+        31.0,
+        24.0,
+        24.0,
+        17.0,
+        20.0,
+        23.0,
+        20.0,
+        13.0
+      ]
+    },
+    {
+      "player": "Amen Thompson",
+      "stat": "rebounds",
+      "values": [
+        9.0,
+        5.0,
+        13.0,
+        9.0,
+        12.0,
+        7.0,
+        12.0,
+        4.0,
+        8.0,
+        9.0
+      ]
+    },
+    {
+      "player": "Amen Thompson",
+      "stat": "steals",
+      "values": [
+        2.0,
+        2.0,
+        0.0,
+        2.0,
+        1.0,
+        0.0,
+        3.0,
+        2.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Amen Thompson",
+      "stat": "turnovers",
+      "values": [
+        0.0,
+        3.0,
+        5.0,
+        3.0,
+        2.0,
+        3.0,
+        2.0,
+        1.0,
+        3.0,
+        3.0
+      ]
+    },
+    {
+      "player": "Bones Hyland",
+      "stat": "3pm",
+      "values": [
+        5.0,
+        2.0,
+        2.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Bones Hyland",
+      "stat": "assists",
+      "values": [
+        5.0,
+        0.0,
+        7.0,
+        3.0,
+        5.0,
+        5.0,
+        3.0,
+        1.0,
+        1.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Bones Hyland",
+      "stat": "blocks",
+      "values": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Bones Hyland",
+      "stat": "points",
+      "values": [
+        23.0,
+        10.0,
+        12.0,
+        2.0,
+        6.0,
+        7.0,
+        4.0,
+        0.0,
+        12.0,
+        4.0
+      ]
+    },
+    {
+      "player": "Bones Hyland",
+      "stat": "rebounds",
+      "values": [
+        2.0,
+        1.0,
+        2.0,
+        1.0,
+        3.0,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Bones Hyland",
+      "stat": "steals",
+      "values": [
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Bones Hyland",
+      "stat": "turnovers",
+      "values": [
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Bub Carrington",
+      "stat": "3pm",
+      "values": [
+        0.0,
+        1.0,
+        3.0,
+        5.0,
+        0.0,
+        1.0,
+        1.0,
+        6.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Bub Carrington",
+      "stat": "assists",
+      "values": [
+        7.0,
+        7.0,
+        4.0,
+        7.0,
+        4.0,
+        4.0,
+        4.0,
+        5.0,
+        4.0,
+        7.0
+      ]
+    },
+    {
+      "player": "Bub Carrington",
+      "stat": "blocks",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Bub Carrington",
+      "stat": "points",
+      "values": [
+        4.0,
+        9.0,
+        11.0,
+        18.0,
+        6.0,
+        7.0,
+        7.0,
+        20.0,
+        10.0,
+        12.0
+      ]
+    },
+    {
+      "player": "Bub Carrington",
+      "stat": "rebounds",
+      "values": [
+        5.0,
+        4.0,
+        5.0,
+        3.0,
+        5.0,
+        0.0,
+        5.0,
+        5.0,
+        5.0,
+        4.0
+      ]
+    },
+    {
+      "player": "Bub Carrington",
+      "stat": "steals",
+      "values": [
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Bub Carrington",
+      "stat": "turnovers",
+      "values": [
+        1.0,
+        1.0,
+        2.0,
+        6.0,
+        1.0,
+        1.0,
+        3.0,
+        2.0,
+        1.0,
+        8.0
+      ]
+    },
+    {
+      "player": "Corey Kispert",
+      "stat": "3pm",
+      "values": [
+        1.0,
+        3.0,
+        0.0,
+        2.0,
+        1.0,
+        4.0,
+        3.0,
+        2.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Corey Kispert",
+      "stat": "assists",
+      "values": [
+        0.0,
+        1.0,
+        3.0,
+        0.0,
+        3.0,
+        1.0,
+        5.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Corey Kispert",
+      "stat": "blocks",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Corey Kispert",
+      "stat": "points",
+      "values": [
+        3.0,
+        19.0,
+        2.0,
+        13.0,
+        9.0,
+        19.0,
+        20.0,
+        9.0,
+        0.0,
+        4.0
+      ]
+    },
+    {
+      "player": "Corey Kispert",
+      "stat": "rebounds",
+      "values": [
+        2.0,
+        0.0,
+        2.0,
+        1.0,
+        1.0,
+        3.0,
+        5.0,
+        3.0,
+        1.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Corey Kispert",
+      "stat": "steals",
+      "values": [
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        3.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Corey Kispert",
+      "stat": "turnovers",
+      "values": [
+        2.0,
+        2.0,
+        1.0,
+        3.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "player": "De Aaron Fox",
+      "stat": "3pm",
+      "values": [
+        3.0,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        2.0,
+        2.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "player": "De Aaron Fox",
+      "stat": "assists",
+      "values": [
+        4.0,
+        5.0,
+        4.0,
+        6.0,
+        5.0,
+        8.0,
+        4.0,
+        4.0,
+        7.0,
+        3.0
+      ]
+    },
+    {
+      "player": "De Aaron Fox",
+      "stat": "blocks",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "De Aaron Fox",
+      "stat": "points",
+      "values": [
+        18.0,
+        14.0,
+        12.0,
+        21.0,
+        14.0,
+        9.0,
+        19.0,
+        24.0,
+        26.0,
+        14.0
+      ]
+    },
+    {
+      "player": "De Aaron Fox",
+      "stat": "rebounds",
+      "values": [
+        4.0,
+        5.0,
+        8.0,
+        9.0,
+        3.0,
+        5.0,
+        6.0,
+        7.0,
+        1.0,
+        2.0
+      ]
+    },
+    {
+      "player": "De Aaron Fox",
+      "stat": "steals",
+      "values": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        3.0,
+        1.0,
+        3.0,
+        1.0
+      ]
+    },
+    {
+      "player": "De Aaron Fox",
+      "stat": "turnovers",
+      "values": [
+        4.0,
+        2.0,
+        2.0,
+        2.0,
+        3.0,
+        2.0,
+        0.0,
+        3.0,
+        0.0,
+        2.0
+      ]
+    },
+    {
+      "player": "DeMar DeRozan",
+      "stat": "3pm",
+      "values": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        3.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "player": "DeMar DeRozan",
+      "stat": "assists",
+      "values": [
+        5.0,
+        6.0,
+        6.0,
+        3.0,
+        5.0,
+        3.0,
+        3.0,
+        6.0,
+        3.0,
+        5.0
+      ]
+    },
+    {
+      "player": "DeMar DeRozan",
+      "stat": "blocks",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "player": "DeMar DeRozan",
+      "stat": "points",
+      "values": [
+        27.0,
+        32.0,
+        22.0,
+        24.0,
+        21.0,
+        11.0,
+        13.0,
+        25.0,
+        8.0,
+        22.0
+      ]
+    },
+    {
+      "player": "DeMar DeRozan",
+      "stat": "rebounds",
+      "values": [
+        6.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        4.0,
+        2.0,
+        5.0,
+        7.0,
+        4.0
+      ]
+    },
+    {
+      "player": "DeMar DeRozan",
+      "stat": "steals",
+      "values": [
+        1.0,
+        3.0,
+        0.0,
+        3.0,
+        2.0,
+        1.0,
+        2.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "player": "DeMar DeRozan",
+      "stat": "turnovers",
+      "values": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        0.0,
+        2.0,
+        3.0
+      ]
+    },
+    {
+      "player": "Dennis Schroder",
+      "stat": "3pm",
+      "values": [
+        1.0,
+        0.0,
+        2.0,
+        1.0,
+        3.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        3.0
+      ]
+    },
+    {
+      "player": "Dennis Schroder",
+      "stat": "assists",
+      "values": [
+        3.0,
+        9.0,
+        5.0,
+        2.0,
+        7.0,
+        4.0,
+        7.0,
+        5.0,
+        3.0,
+        10.0
+      ]
+    },
+    {
+      "player": "Dennis Schroder",
+      "stat": "blocks",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Dennis Schroder",
+      "stat": "points",
+      "values": [
+        15.0,
+        11.0,
+        13.0,
+        12.0,
+        18.0,
+        11.0,
+        11.0,
+        10.0,
+        10.0,
+        24.0
+      ]
+    },
+    {
+      "player": "Dennis Schroder",
+      "stat": "rebounds",
+      "values": [
+        3.0,
+        1.0,
+        3.0,
+        2.0,
+        3.0,
+        3.0,
+        2.0,
+        2.0,
+        2.0,
+        7.0
+      ]
+    },
+    {
+      "player": "Dennis Schroder",
+      "stat": "steals",
+      "values": [
+        1.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        3.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Dennis Schroder",
+      "stat": "turnovers",
+      "values": [
+        1.0,
+        1.0,
+        1.0,
+        2.0,
+        2.0,
+        3.0,
+        2.0,
+        1.0,
+        3.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Domantas Sabonis",
+      "stat": "3pm",
+      "values": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Domantas Sabonis",
+      "stat": "assists",
+      "values": [
+        5.0,
+        3.0,
+        2.0,
+        4.0,
+        3.0,
+        5.0,
+        6.0,
+        6.0,
+        3.0,
+        3.0
+      ]
+    },
+    {
+      "player": "Domantas Sabonis",
+      "stat": "blocks",
+      "values": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Domantas Sabonis",
+      "stat": "points",
+      "values": [
+        17.0,
+        34.0,
+        12.0,
+        19.0,
+        20.0,
+        13.0,
+        24.0,
+        18.0,
+        10.0,
+        10.0
+      ]
+    },
+    {
+      "player": "Domantas Sabonis",
+      "stat": "rebounds",
+      "values": [
+        13.0,
+        11.0,
+        5.0,
+        8.0,
+        13.0,
+        17.0,
+        13.0,
+        11.0,
+        18.0,
+        14.0
+      ]
+    },
+    {
+      "player": "Domantas Sabonis",
+      "stat": "steals",
+      "values": [
+        3.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        3.0
+      ]
+    },
+    {
+      "player": "Domantas Sabonis",
+      "stat": "turnovers",
+      "values": [
+        3.0,
+        2.0,
+        4.0,
+        0.0,
+        3.0,
+        2.0,
+        3.0,
+        2.0,
+        5.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "stat": "3pm",
+      "values": [
+        3.0,
+        5.0,
+        3.0,
+        6.0,
+        4.0,
+        1.0,
+        1.0,
+        2.0,
+        4.0,
+        3.0
+      ]
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "stat": "assists",
+      "values": [
+        7.0,
+        7.0,
+        6.0,
+        4.0,
+        2.0,
+        3.0,
+        4.0,
+        7.0,
+        3.0,
+        6.0
+      ]
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "stat": "blocks",
+      "values": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "stat": "points",
+      "values": [
+        11.0,
+        19.0,
+        15.0,
+        22.0,
+        12.0,
+        5.0,
+        11.0,
+        6.0,
+        12.0,
+        11.0
+      ]
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "stat": "rebounds",
+      "values": [
+        4.0,
+        9.0,
+        3.0,
+        1.0,
+        5.0,
+        4.0,
+        8.0,
+        2.0,
+        6.0,
+        5.0
+      ]
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "stat": "steals",
+      "values": [
+        0.0,
+        3.0,
+        2.0,
+        1.0,
+        0.0,
+        3.0,
+        2.0,
+        1.0,
+        0.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "stat": "turnovers",
+      "values": [
+        2.0,
+        2.0,
+        4.0,
+        1.0,
+        0.0,
+        1.0,
+        2.0,
+        1.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Dorian Finney-Smith",
+      "stat": "3pm",
+      "values": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        2.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Dorian Finney-Smith",
+      "stat": "assists",
+      "values": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        2.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Dorian Finney-Smith",
+      "stat": "blocks",
+      "values": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Dorian Finney-Smith",
+      "stat": "points",
+      "values": [
+        4.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        0.0,
+        6.0,
+        3.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Dorian Finney-Smith",
+      "stat": "rebounds",
+      "values": [
+        3.0,
+        3.0,
+        3.0,
+        4.0,
+        5.0,
+        3.0,
+        2.0,
+        3.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Dorian Finney-Smith",
+      "stat": "steals",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Dorian Finney-Smith",
+      "stat": "turnovers",
+      "values": [
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "stat": "3pm",
+      "values": [
+        3.0,
+        2.0,
+        0.0,
+        0.0,
+        1.0,
+        3.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0
+      ]
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "stat": "assists",
+      "values": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        1.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "stat": "blocks",
+      "values": [
+        1.0,
+        0.0,
+        1.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        3.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "stat": "points",
+      "values": [
+        17.0,
+        18.0,
+        9.0,
+        13.0,
+        6.0,
+        17.0,
+        7.0,
+        14.0,
+        21.0,
+        15.0
+      ]
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "stat": "rebounds",
+      "values": [
+        10.0,
+        7.0,
+        7.0,
+        8.0,
+        4.0,
+        7.0,
+        9.0,
+        6.0,
+        10.0,
+        7.0
+      ]
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "stat": "steals",
+      "values": [
+        2.0,
+        0.0,
+        1.0,
+        2.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "stat": "turnovers",
+      "values": [
+        5.0,
+        0.0,
+        2.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        3.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Jaden McDaniels",
+      "stat": "3pm",
+      "values": [
+        4.0,
+        0.0,
+        0.0,
+        3.0,
+        1.0,
+        0.0,
+        1.0,
+        2.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Jaden McDaniels",
+      "stat": "assists",
+      "values": [
+        5.0,
+        1.0,
+        1.0,
+        1.0,
+        2.0,
+        5.0,
+        3.0,
+        2.0,
+        3.0,
+        4.0
+      ]
+    },
+    {
+      "player": "Jaden McDaniels",
+      "stat": "blocks",
+      "values": [
+        2.0,
+        3.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        2.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Jaden McDaniels",
+      "stat": "points",
+      "values": [
+        17.0,
+        12.0,
+        12.0,
+        26.0,
+        19.0,
+        12.0,
+        5.0,
+        8.0,
+        7.0,
+        16.0
+      ]
+    },
+    {
+      "player": "Jaden McDaniels",
+      "stat": "rebounds",
+      "values": [
+        6.0,
+        5.0,
+        1.0,
+        5.0,
+        3.0,
+        5.0,
+        2.0,
+        4.0,
+        5.0,
+        3.0
+      ]
+    },
+    {
+      "player": "Jaden McDaniels",
+      "stat": "steals",
+      "values": [
+        0.0,
+        2.0,
+        0.0,
+        2.0,
+        2.0,
+        3.0,
+        2.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Jaden McDaniels",
+      "stat": "turnovers",
+      "values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        2.0,
+        2.0,
+        0.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Jaylen Clark",
+      "stat": "3pm",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Jaylen Clark",
+      "stat": "assists",
+      "values": [
+        2.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Jaylen Clark",
+      "stat": "blocks",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Jaylen Clark",
+      "stat": "points",
+      "values": [
+        4.0,
+        2.0,
+        1.0,
+        5.0,
+        2.0,
+        12.0,
+        2.0,
+        3.0,
+        11.0,
+        6.0
+      ]
+    },
+    {
+      "player": "Jaylen Clark",
+      "stat": "rebounds",
+      "values": [
+        6.0,
+        0.0,
+        3.0,
+        0.0,
+        4.0,
+        2.0,
+        0.0,
+        0.0,
+        4.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Jaylen Clark",
+      "stat": "steals",
+      "values": [
+        2.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        3.0,
+        0.0,
+        1.0,
+        3.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Jaylen Clark",
+      "stat": "turnovers",
+      "values": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Jonas Valanciunas",
+      "stat": "3pm",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Jonas Valanciunas",
+      "stat": "assists",
+      "values": [
+        4.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Jonas Valanciunas",
+      "stat": "blocks",
+      "values": [
+        3.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Jonas Valanciunas",
+      "stat": "points",
+      "values": [
+        17.0,
+        6.0,
+        4.0,
+        2.0,
+        8.0,
+        12.0,
+        10.0,
+        10.0,
+        8.0,
+        15.0
+      ]
+    },
+    {
+      "player": "Jonas Valanciunas",
+      "stat": "rebounds",
+      "values": [
+        9.0,
+        4.0,
+        4.0,
+        4.0,
+        1.0,
+        11.0,
+        1.0,
+        5.0,
+        3.0,
+        6.0
+      ]
+    },
+    {
+      "player": "Jonas Valanciunas",
+      "stat": "steals",
+      "values": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Jonas Valanciunas",
+      "stat": "turnovers",
+      "values": [
+        1.0,
+        2.0,
+        3.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Jordan Poole",
+      "stat": "3pm",
+      "values": [
+        2.0,
+        4.0,
+        6.0,
+        0.0,
+        6.0,
+        0.0,
+        2.0,
+        4.0,
+        4.0,
+        4.0
+      ]
+    },
+    {
+      "player": "Jordan Poole",
+      "stat": "assists",
+      "values": [
+        2.0,
+        2.0,
+        2.0,
+        1.0,
+        3.0,
+        1.0,
+        8.0,
+        6.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Jordan Poole",
+      "stat": "blocks",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Jordan Poole",
+      "stat": "points",
+      "values": [
+        7.0,
+        16.0,
+        21.0,
+        0.0,
+        21.0,
+        0.0,
+        8.0,
+        16.0,
+        26.0,
+        26.0
+      ]
+    },
+    {
+      "player": "Jordan Poole",
+      "stat": "rebounds",
+      "values": [
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        3.0,
+        3.0
+      ]
+    },
+    {
+      "player": "Jordan Poole",
+      "stat": "steals",
+      "values": [
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        3.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Jordan Poole",
+      "stat": "turnovers",
+      "values": [
+        1.0,
+        3.0,
+        4.0,
+        3.0,
+        4.0,
+        3.0,
+        3.0,
+        2.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Julius Randle",
+      "stat": "3pm",
+      "values": [
+        4.0,
+        0.0,
+        1.0,
+        3.0,
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Julius Randle",
+      "stat": "assists",
+      "values": [
+        6.0,
+        4.0,
+        4.0,
+        8.0,
+        5.0,
+        4.0,
+        4.0,
+        2.0,
+        14.0,
+        11.0
+      ]
+    },
+    {
+      "player": "Julius Randle",
+      "stat": "blocks",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Julius Randle",
+      "stat": "points",
+      "values": [
+        29.0,
+        15.0,
+        20.0,
+        28.0,
+        15.0,
+        22.0,
+        23.0,
+        19.0,
+        17.0,
+        13.0
+      ]
+    },
+    {
+      "player": "Julius Randle",
+      "stat": "rebounds",
+      "values": [
+        8.0,
+        8.0,
+        4.0,
+        11.0,
+        11.0,
+        3.0,
+        10.0,
+        7.0,
+        5.0,
+        3.0
+      ]
+    },
+    {
+      "player": "Julius Randle",
+      "stat": "steals",
+      "values": [
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Julius Randle",
+      "stat": "turnovers",
+      "values": [
+        2.0,
+        2.0,
+        2.0,
+        4.0,
+        2.0,
+        0.0,
+        3.0,
+        1.0,
+        0.0,
+        3.0
+      ]
+    },
+    {
+      "player": "Justin Champagnie",
+      "stat": "3pm",
+      "values": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        4.0,
+        0.0,
+        2.0,
+        1.0,
+        1.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Justin Champagnie",
+      "stat": "assists",
+      "values": [
+        1.0,
+        0.0,
+        4.0,
+        2.0,
+        3.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Justin Champagnie",
+      "stat": "blocks",
+      "values": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        2.0,
+        1.0,
+        2.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Justin Champagnie",
+      "stat": "points",
+      "values": [
+        7.0,
+        8.0,
+        12.0,
+        6.0,
+        17.0,
+        6.0,
+        20.0,
+        12.0,
+        11.0,
+        10.0
+      ]
+    },
+    {
+      "player": "Justin Champagnie",
+      "stat": "rebounds",
+      "values": [
+        8.0,
+        6.0,
+        9.0,
+        5.0,
+        3.0,
+        6.0,
+        7.0,
+        9.0,
+        6.0,
+        12.0
+      ]
+    },
+    {
+      "player": "Justin Champagnie",
+      "stat": "steals",
+      "values": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Justin Champagnie",
+      "stat": "turnovers",
+      "values": [
+        1.0,
+        1.0,
+        0.0,
+        2.0,
+        1.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Keegan Murray",
+      "stat": "3pm",
+      "values": [
+        0.0,
+        3.0,
+        1.0,
+        1.0,
+        0.0,
+        3.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Keegan Murray",
+      "stat": "assists",
+      "values": [
+        0.0,
+        2.0,
+        4.0,
+        1.0,
+        1.0,
+        0.0,
+        2.0,
+        2.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Keegan Murray",
+      "stat": "blocks",
+      "values": [
+        2.0,
+        1.0,
+        1.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        4.0,
+        5.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Keegan Murray",
+      "stat": "points",
+      "values": [
+        12.0,
+        23.0,
+        7.0,
+        11.0,
+        2.0,
+        26.0,
+        15.0,
+        17.0,
+        10.0,
+        15.0
+      ]
+    },
+    {
+      "player": "Keegan Murray",
+      "stat": "rebounds",
+      "values": [
+        3.0,
+        9.0,
+        6.0,
+        2.0,
+        1.0,
+        4.0,
+        6.0,
+        3.0,
+        8.0,
+        6.0
+      ]
+    },
+    {
+      "player": "Keegan Murray",
+      "stat": "steals",
+      "values": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        2.0,
+        0.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Keegan Murray",
+      "stat": "turnovers",
+      "values": [
+        2.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        2.0,
+        4.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Kevin Durant",
+      "stat": "3pm",
+      "values": [
+        0.0,
+        1.0,
+        4.0,
+        4.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Kevin Durant",
+      "stat": "assists",
+      "values": [
+        3.0,
+        4.0,
+        6.0,
+        4.0,
+        0.0,
+        4.0,
+        7.0,
+        11.0,
+        5.0,
+        7.0
+      ]
+    },
+    {
+      "player": "Kevin Durant",
+      "stat": "blocks",
+      "values": [
+        1.0,
+        0.0,
+        0.0,
+        2.0,
+        1.0,
+        1.0,
+        3.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Kevin Durant",
+      "stat": "points",
+      "values": [
+        19.0,
+        28.0,
+        23.0,
+        30.0,
+        37.0,
+        26.0,
+        34.0,
+        22.0,
+        30.0,
+        30.0
+      ]
+    },
+    {
+      "player": "Kevin Durant",
+      "stat": "rebounds",
+      "values": [
+        7.0,
+        10.0,
+        4.0,
+        12.0,
+        4.0,
+        10.0,
+        5.0,
+        5.0,
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "player": "Kevin Durant",
+      "stat": "steals",
+      "values": [
+        3.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Kevin Durant",
+      "stat": "turnovers",
+      "values": [
+        2.0,
+        3.0,
+        1.0,
+        2.0,
+        3.0,
+        1.0,
+        2.0,
+        6.0,
+        3.0,
+        3.0
+      ]
+    },
+    {
+      "player": "Kevin Huerter",
+      "stat": "3pm",
+      "values": [
+        2.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        1.0,
+        4.0,
+        2.0,
+        2.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Kevin Huerter",
+      "stat": "assists",
+      "values": [
+        1.0,
+        2.0,
+        6.0,
+        4.0,
+        0.0,
+        7.0,
+        2.0,
+        1.0,
+        1.0,
+        4.0
+      ]
+    },
+    {
+      "player": "Kevin Huerter",
+      "stat": "blocks",
+      "values": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        2.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Kevin Huerter",
+      "stat": "points",
+      "values": [
+        10.0,
+        11.0,
+        13.0,
+        8.0,
+        8.0,
+        9.0,
+        20.0,
+        13.0,
+        8.0,
+        7.0
+      ]
+    },
+    {
+      "player": "Kevin Huerter",
+      "stat": "rebounds",
+      "values": [
+        3.0,
+        4.0,
+        3.0,
+        3.0,
+        3.0,
+        11.0,
+        4.0,
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    {
+      "player": "Kevin Huerter",
+      "stat": "steals",
+      "values": [
+        0.0,
+        2.0,
+        3.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Kevin Huerter",
+      "stat": "turnovers",
+      "values": [
+        2.0,
+        0.0,
+        1.0,
+        3.0,
+        1.0,
+        0.0,
+        2.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Kyle Kuzma",
+      "stat": "3pm",
+      "values": [
+        5.0,
+        0.0,
+        1.0,
+        1.0,
+        2.0,
+        0.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Kyle Kuzma",
+      "stat": "assists",
+      "values": [
+        2.0,
+        2.0,
+        0.0,
+        2.0,
+        2.0,
+        4.0,
+        1.0,
+        2.0,
+        2.0,
+        4.0
+      ]
+    },
+    {
+      "player": "Kyle Kuzma",
+      "stat": "blocks",
+      "values": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Kyle Kuzma",
+      "stat": "points",
+      "values": [
+        18.0,
+        2.0,
+        11.0,
+        13.0,
+        13.0,
+        3.0,
+        18.0,
+        5.0,
+        6.0,
+        12.0
+      ]
+    },
+    {
+      "player": "Kyle Kuzma",
+      "stat": "rebounds",
+      "values": [
+        3.0,
+        0.0,
+        6.0,
+        3.0,
+        2.0,
+        4.0,
+        6.0,
+        5.0,
+        5.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Kyle Kuzma",
+      "stat": "steals",
+      "values": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Kyle Kuzma",
+      "stat": "turnovers",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Kyshawn George",
+      "stat": "3pm",
+      "values": [
+        2.0,
+        1.0,
+        3.0,
+        3.0,
+        0.0,
+        0.0,
+        3.0,
+        0.0,
+        2.0,
+        3.0
+      ]
+    },
+    {
+      "player": "Kyshawn George",
+      "stat": "assists",
+      "values": [
+        4.0,
+        4.0,
+        2.0,
+        3.0,
+        6.0,
+        7.0,
+        7.0,
+        7.0,
+        9.0,
+        3.0
+      ]
+    },
+    {
+      "player": "Kyshawn George",
+      "stat": "blocks",
+      "values": [
+        0.0,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Kyshawn George",
+      "stat": "points",
+      "values": [
+        23.0,
+        5.0,
+        15.0,
+        23.0,
+        2.0,
+        14.0,
+        28.0,
+        11.0,
+        9.0,
+        15.0
+      ]
+    },
+    {
+      "player": "Kyshawn George",
+      "stat": "rebounds",
+      "values": [
+        5.0,
+        2.0,
+        5.0,
+        6.0,
+        2.0,
+        4.0,
+        7.0,
+        6.0,
+        8.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Kyshawn George",
+      "stat": "steals",
+      "values": [
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Kyshawn George",
+      "stat": "turnovers",
+      "values": [
+        0.0,
+        6.0,
+        3.0,
+        3.0,
+        3.0,
+        2.0,
+        4.0,
+        1.0,
+        3.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Malik Monk",
+      "stat": "3pm",
+      "values": [
+        0.0,
+        7.0,
+        2.0,
+        0.0,
+        0.0,
+        1.0,
+        3.0,
+        1.0,
+        2.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Malik Monk",
+      "stat": "assists",
+      "values": [
+        3.0,
+        8.0,
+        3.0,
+        1.0,
+        1.0,
+        0.0,
+        2.0,
+        3.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Malik Monk",
+      "stat": "blocks",
+      "values": [
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Malik Monk",
+      "stat": "points",
+      "values": [
+        9.0,
+        26.0,
+        15.0,
+        8.0,
+        0.0,
+        3.0,
+        11.0,
+        7.0,
+        9.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Malik Monk",
+      "stat": "rebounds",
+      "values": [
+        3.0,
+        1.0,
+        4.0,
+        2.0,
+        0.0,
+        2.0,
+        2.0,
+        3.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Malik Monk",
+      "stat": "steals",
+      "values": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        2.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Malik Monk",
+      "stat": "turnovers",
+      "values": [
+        2.0,
+        2.0,
+        0.0,
+        2.0,
+        0.0,
+        5.0,
+        2.0,
+        2.0,
+        2.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Mike Conley",
+      "stat": "3pm",
+      "values": [
+        3.0,
+        1.0,
+        1.0,
+        0.0,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Mike Conley",
+      "stat": "assists",
+      "values": [
+        5.0,
+        2.0,
+        2.0,
+        3.0,
+        3.0,
+        3.0,
+        0.0,
+        1.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Mike Conley",
+      "stat": "blocks",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Mike Conley",
+      "stat": "points",
+      "values": [
+        9.0,
+        4.0,
+        3.0,
+        3.0,
+        7.0,
+        5.0,
+        2.0,
+        2.0,
+        0.0,
+        8.0
+      ]
+    },
+    {
+      "player": "Mike Conley",
+      "stat": "rebounds",
+      "values": [
+        3.0,
+        0.0,
+        1.0,
+        2.0,
+        2.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Mike Conley",
+      "stat": "steals",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Mike Conley",
+      "stat": "turnovers",
+      "values": [
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Naz Reid",
+      "stat": "3pm",
+      "values": [
+        2.0,
+        3.0,
+        5.0,
+        2.0,
+        2.0,
+        0.0,
+        4.0,
+        0.0,
+        6.0,
+        3.0
+      ]
+    },
+    {
+      "player": "Naz Reid",
+      "stat": "assists",
+      "values": [
+        2.0,
+        2.0,
+        3.0,
+        3.0,
+        2.0,
+        3.0,
+        3.0,
+        1.0,
+        3.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Naz Reid",
+      "stat": "blocks",
+      "values": [
+        0.0,
+        1.0,
+        2.0,
+        1.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Naz Reid",
+      "stat": "points",
+      "values": [
+        19.0,
+        17.0,
+        25.0,
+        9.0,
+        14.0,
+        9.0,
+        29.0,
+        6.0,
+        33.0,
+        13.0
+      ]
+    },
+    {
+      "player": "Naz Reid",
+      "stat": "rebounds",
+      "values": [
+        3.0,
+        11.0,
+        5.0,
+        6.0,
+        6.0,
+        7.0,
+        4.0,
+        7.0,
+        7.0,
+        4.0
+      ]
+    },
+    {
+      "player": "Naz Reid",
+      "stat": "steals",
+      "values": [
+        1.0,
+        2.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Naz Reid",
+      "stat": "turnovers",
+      "values": [
+        2.0,
+        2.0,
+        3.0,
+        4.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Precious Achiuwa",
+      "stat": "3pm",
+      "values": [
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Precious Achiuwa",
+      "stat": "assists",
+      "values": [
+        2.0,
+        0.0,
+        3.0,
+        1.0,
+        0.0,
+        0.0,
+        3.0,
+        2.0,
+        2.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Precious Achiuwa",
+      "stat": "blocks",
+      "values": [
+        2.0,
+        2.0,
+        0.0,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Precious Achiuwa",
+      "stat": "points",
+      "values": [
+        20.0,
+        9.0,
+        10.0,
+        1.0,
+        9.0,
+        4.0,
+        3.0,
+        14.0,
+        0.0,
+        5.0
+      ]
+    },
+    {
+      "player": "Precious Achiuwa",
+      "stat": "rebounds",
+      "values": [
+        14.0,
+        7.0,
+        7.0,
+        0.0,
+        9.0,
+        3.0,
+        6.0,
+        3.0,
+        3.0,
+        3.0
+      ]
+    },
+    {
+      "player": "Precious Achiuwa",
+      "stat": "steals",
+      "values": [
+        2.0,
+        0.0,
+        3.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Precious Achiuwa",
+      "stat": "turnovers",
+      "values": [
+        2.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        2.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Reed Sheppard",
+      "stat": "3pm",
+      "values": [
+        1.0,
+        2.0,
+        1.0,
+        4.0,
+        1.0,
+        1.0,
+        2.0,
+        2.0,
+        1.0,
+        4.0
+      ]
+    },
+    {
+      "player": "Reed Sheppard",
+      "stat": "assists",
+      "values": [
+        3.0,
+        1.0,
+        2.0,
+        4.0,
+        1.0,
+        2.0,
+        5.0,
+        1.0,
+        3.0,
+        8.0
+      ]
+    },
+    {
+      "player": "Reed Sheppard",
+      "stat": "blocks",
+      "values": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Reed Sheppard",
+      "stat": "points",
+      "values": [
+        7.0,
+        8.0,
+        6.0,
+        20.0,
+        8.0,
+        11.0,
+        8.0,
+        14.0,
+        13.0,
+        18.0
+      ]
+    },
+    {
+      "player": "Reed Sheppard",
+      "stat": "rebounds",
+      "values": [
+        2.0,
+        1.0,
+        0.0,
+        3.0,
+        2.0,
+        3.0,
+        0.0,
+        2.0,
+        1.0,
+        3.0
+      ]
+    },
+    {
+      "player": "Reed Sheppard",
+      "stat": "steals",
+      "values": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        2.0,
+        0.0,
+        1.0,
+        2.0,
+        5.0
+      ]
+    },
+    {
+      "player": "Reed Sheppard",
+      "stat": "turnovers",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        4.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Rudy Gobert",
+      "stat": "3pm",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Rudy Gobert",
+      "stat": "assists",
+      "values": [
+        3.0,
+        2.0,
+        3.0,
+        1.0,
+        0.0,
+        1.0,
+        3.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Rudy Gobert",
+      "stat": "blocks",
+      "values": [
+        1.0,
+        3.0,
+        0.0,
+        2.0,
+        4.0,
+        0.0,
+        0.0,
+        4.0,
+        1.0,
+        6.0
+      ]
+    },
+    {
+      "player": "Rudy Gobert",
+      "stat": "points",
+      "values": [
+        2.0,
+        8.0,
+        11.0,
+        13.0,
+        18.0,
+        13.0,
+        6.0,
+        9.0,
+        6.0,
+        9.0
+      ]
+    },
+    {
+      "player": "Rudy Gobert",
+      "stat": "rebounds",
+      "values": [
+        14.0,
+        12.0,
+        13.0,
+        16.0,
+        14.0,
+        12.0,
+        11.0,
+        10.0,
+        8.0,
+        12.0
+      ]
+    },
+    {
+      "player": "Rudy Gobert",
+      "stat": "steals",
+      "values": [
+        1.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        2.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Rudy Gobert",
+      "stat": "turnovers",
+      "values": [
+        0.0,
+        2.0,
+        1.0,
+        3.0,
+        1.0,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Tari Eason",
+      "stat": "3pm",
+      "values": [
+        1.0,
+        2.0,
+        2.0,
+        3.0,
+        2.0,
+        1.0,
+        2.0,
+        1.0,
+        1.0,
+        3.0
+      ]
+    },
+    {
+      "player": "Tari Eason",
+      "stat": "assists",
+      "values": [
+        2.0,
+        3.0,
+        2.0,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        2.0,
+        0.0,
+        3.0
+      ]
+    },
+    {
+      "player": "Tari Eason",
+      "stat": "blocks",
+      "values": [
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Tari Eason",
+      "stat": "points",
+      "values": [
+        6.0,
+        15.0,
+        12.0,
+        19.0,
+        15.0,
+        13.0,
+        9.0,
+        13.0,
+        7.0,
+        16.0
+      ]
+    },
+    {
+      "player": "Tari Eason",
+      "stat": "rebounds",
+      "values": [
+        3.0,
+        13.0,
+        8.0,
+        10.0,
+        9.0,
+        8.0,
+        6.0,
+        3.0,
+        5.0,
+        3.0
+      ]
+    },
+    {
+      "player": "Tari Eason",
+      "stat": "steals",
+      "values": [
+        2.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0,
+        1.0,
+        2.0,
+        4.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Tari Eason",
+      "stat": "turnovers",
+      "values": [
+        3.0,
+        3.0,
+        1.0,
+        2.0,
+        1.0,
+        2.0,
+        2.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Tre Johnson",
+      "stat": "3pm",
+      "values": [
+        2.0,
+        3.0,
+        2.0,
+        2.0,
+        0.0,
+        1.0,
+        2.0,
+        4.0,
+        5.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Tre Johnson",
+      "stat": "assists",
+      "values": [
+        3.0,
+        3.0,
+        2.0,
+        3.0,
+        5.0,
+        3.0,
+        1.0,
+        2.0,
+        2.0,
+        4.0
+      ]
+    },
+    {
+      "player": "Tre Johnson",
+      "stat": "blocks",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Tre Johnson",
+      "stat": "points",
+      "values": [
+        10.0,
+        19.0,
+        12.0,
+        20.0,
+        6.0,
+        13.0,
+        12.0,
+        14.0,
+        24.0,
+        14.0
+      ]
+    },
+    {
+      "player": "Tre Johnson",
+      "stat": "rebounds",
+      "values": [
+        2.0,
+        5.0,
+        1.0,
+        5.0,
+        2.0,
+        3.0,
+        5.0,
+        2.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Tre Johnson",
+      "stat": "steals",
+      "values": [
+        1.0,
+        0.0,
+        3.0,
+        1.0,
+        2.0,
+        1.0,
+        2.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Tre Johnson",
+      "stat": "turnovers",
+      "values": [
+        2.0,
+        2.0,
+        2.0,
+        3.0,
+        2.0,
+        2.0,
+        2.0,
+        1.0,
+        3.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Zach LaVine",
+      "stat": "3pm",
+      "values": [
+        5.0,
+        3.0,
+        3.0,
+        1.0,
+        2.0,
+        2.0,
+        1.0,
+        2.0,
+        8.0,
+        0.0
+      ]
+    },
+    {
+      "player": "Zach LaVine",
+      "stat": "assists",
+      "values": [
+        1.0,
+        1.0,
+        1.0,
+        3.0,
+        3.0,
+        4.0,
+        1.0,
+        3.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Zach LaVine",
+      "stat": "blocks",
+      "values": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Zach LaVine",
+      "stat": "points",
+      "values": [
+        25.0,
+        19.0,
+        18.0,
+        15.0,
+        20.0,
+        20.0,
+        10.0,
+        16.0,
+        42.0,
+        2.0
+      ]
+    },
+    {
+      "player": "Zach LaVine",
+      "stat": "rebounds",
+      "values": [
+        5.0,
+        4.0,
+        2.0,
+        3.0,
+        4.0,
+        3.0,
+        1.0,
+        2.0,
+        5.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Zach LaVine",
+      "stat": "steals",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "player": "Zach LaVine",
+      "stat": "turnovers",
+      "values": [
+        3.0,
+        1.0,
+        3.0,
+        2.0,
+        2.0,
+        0.0,
+        2.0,
+        5.0,
+        0.0,
+        1.0
+      ]
+    }
+  ]
+}

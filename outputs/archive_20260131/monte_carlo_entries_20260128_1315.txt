@@ -1,0 +1,78 @@
+======================================================================
+MONTE CARLO ENTRY OPTIMIZATION
+Generated: 2026-01-28T13:15:57.668206
+======================================================================
+
+STAT KEY (basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made (aka 3PT/3PTS) | STOCKS=STL+BLK | PRA=PTS+REB+AST
+
+RUN CONTEXT:
+   League inferred: NBA
+   Picks: 111 qualifying (from 666 analyzed)
+   Filter pass: NBA_LEGACY_FALLBACK — fallback: include PLAY/LEAN or >= min_confidence (broadest)
+   Filter attempts (qualifying picks): NBA_STRICT_PRIMARY=0, NBA_PRIMARY_ONLY=0, NBA_PLAYLEAN_ANY_NO_COMPOSITES=0, NBA_LEGACY_FALLBACK=111
+   Constraints: max_same_game=1, max_primary_per_game=1
+   NBA min confidence: 65.0
+   NBA flags: primary_only=1, playlean_only=1
+
+BEST POWER ENTRY:
+   4L POWER | EV=+1.60 | Sharpe=0.36 | P(profit)=26.0% | Norman Powell PA <24.5; Jusuf Nurkic PA >21.5; Amen Thompson PA >21.5; Derrick White PA <23.5
+   Kelly stake: 2.1% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=71.4%, min p_hit=71.3%
+   Stat mix: PA:4
+   Same-game buckets: ATL@BOS:1, GSW@UTA:1, HOU@SAS:1, MIA@ORL:1
+   LEGS (what each pick is):
+    1. Norman Powell PA <24.5 (MIA vs ORL) | p_hit=71.4% | FRAGILE
+    2. Jusuf Nurkic PA >21.5 (UTA vs GSW) | p_hit=71.4% | FRAGILE
+    3. Amen Thompson PA >21.5 (HOU vs SAS) | p_hit=71.4% | FRAGILE
+    4. Derrick White PA <23.5 (BOS vs ATL) | p_hit=71.3% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST FLEX ENTRY:
+   4L FLEX | EV=+0.92 | Sharpe=0.48 | P(profit)=67.6% | Norman Powell PA <24.5; Jusuf Nurkic PA >21.5; Amen Thompson PA >21.5; Derrick White PA <23.5
+   Kelly stake: 6.2% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=71.4%, min p_hit=71.3%
+   Stat mix: PA:4
+   Same-game buckets: ATL@BOS:1, GSW@UTA:1, HOU@SAS:1, MIA@ORL:1
+   LEGS (what each pick is):
+    1. Norman Powell PA <24.5 (MIA vs ORL) | p_hit=71.4% | FRAGILE
+    2. Jusuf Nurkic PA >21.5 (UTA vs GSW) | p_hit=71.4% | FRAGILE
+    3. Amen Thompson PA >21.5 (HOU vs SAS) | p_hit=71.4% | FRAGILE
+    4. Derrick White PA <23.5 (BOS vs ATL) | p_hit=71.3% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST RISK-ADJUSTED (Sharpe):
+   4L FLEX | EV=+0.92 | Sharpe=0.48 | P(profit)=67.6% | Norman Powell PA <24.5; Jusuf Nurkic PA >21.5; Amen Thompson PA >21.5; Derrick White PA <23.5
+   ENTRY SNAPSHOT: avg p_hit=71.4%, min p_hit=71.3%
+   Stat mix: PA:4
+   Same-game buckets: ATL@BOS:1, GSW@UTA:1, HOU@SAS:1, MIA@ORL:1
+   LEGS (what each pick is):
+    1. Norman Powell PA <24.5 (MIA vs ORL) | p_hit=71.4% | FRAGILE
+    2. Jusuf Nurkic PA >21.5 (UTA vs GSW) | p_hit=71.4% | FRAGILE
+    3. Amen Thompson PA >21.5 (HOU vs SAS) | p_hit=71.4% | FRAGILE
+    4. Derrick White PA <23.5 (BOS vs ATL) | p_hit=71.3% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+----------------------------------------------------------------------
+TOP 10 ENTRIES BY EV:
+----------------------------------------------------------------------
+ 1. 4L POWER | EV=+1.60 | Sharpe=0.36 | P(profit)=26.0% | Desmond Bane PA <23.5; Jusuf Nurkic PA >21.5; Amen Thompson PA >21.5; Derrick White PA <23.5
+ 2. 4L POWER | EV=+1.60 | Sharpe=0.36 | P(profit)=26.0% | Norman Powell PA <24.5; Jusuf Nurkic PA >21.5; Amen Thompson PA >21.5; Derrick White PA <23.5
+ 3. 4L POWER | EV=+1.48 | Sharpe=0.34 | P(profit)=24.8% | Desmond Bane PA <23.5; Jusuf Nurkic PA >21.5; Amen Thompson PA >21.5; Dean Wade PRA <15.5
+ 4. 4L POWER | EV=+1.48 | Sharpe=0.34 | P(profit)=24.8% | Desmond Bane PA <23.5; Jusuf Nurkic PA >21.5; Amen Thompson PA >21.5; Amari Williams PRA <11.5
+ 5. 4L POWER | EV=+1.48 | Sharpe=0.34 | P(profit)=24.8% | Desmond Bane PA <23.5; Jusuf Nurkic PA >21.5; Amen Thompson PA >21.5; GG Jackson PRA >12.5
+ 6. 4L POWER | EV=+1.48 | Sharpe=0.34 | P(profit)=24.8% | Desmond Bane PA <23.5; Jusuf Nurkic PA >21.5; Amen Thompson PA >21.5; Jarrett Allen PRA <26.5
+ 7. 4L POWER | EV=+1.48 | Sharpe=0.34 | P(profit)=24.8% | Desmond Bane PA <23.5; Jusuf Nurkic PA >21.5; Amen Thompson PA >21.5; Matas Buzelis PRA >21.5
+ 8. 4L POWER | EV=+1.48 | Sharpe=0.34 | P(profit)=24.8% | Desmond Bane PA <23.5; Jusuf Nurkic PA >21.5; Amen Thompson PA >21.5; Sam Hauser PRA >17.5
+ 9. 4L POWER | EV=+1.48 | Sharpe=0.34 | P(profit)=24.8% | Desmond Bane PA <23.5; Jusuf Nurkic PA >21.5; Amen Thompson PA >21.5; Jaren Jackson Jr. PRA >26.5
+10. 4L POWER | EV=+1.48 | Sharpe=0.34 | P(profit)=24.8% | Desmond Bane PA <23.5; Jusuf Nurkic PA >21.5; Amen Thompson PA >21.5; Miles Bridges PRA <24.5

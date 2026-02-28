@@ -1,0 +1,31 @@
+{
+  "sport": "TENNIS",
+  "generated_at": "2026-01-21T03:45:56.836343",
+  "match_count": 2,
+  "matches": [
+    {
+      "match_id": "ATP_HARD_R1_SWI_BOU_20260121",
+      "tour": "ATP",
+      "surface": "HARD",
+      "round": "R1",
+      "player_a": "Swiatek",
+      "player_b": "Bouzkova - Thu :AM CST",
+      "line_a": null,
+      "line_b": null,
+      "market": "match_winner",
+      "ingested_at": "2026-01-21T03:45:56.831392"
+    },
+    {
+      "match_id": "ATP_HARD_R1_HON_JOV_20260121",
+      "tour": "ATP",
+      "surface": "HARD",
+      "round": "R1",
+      "player_a": "Hon",
+      "player_b": "Jovic - :AM CST",
+      "line_a": null,
+      "line_b": null,
+      "market": "match_winner",
+      "ingested_at": "2026-01-21T03:45:56.831392"
+    }
+  ]
+}

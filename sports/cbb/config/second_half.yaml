@@ -1,0 +1,36 @@
+# Second-Half-Only Unders Module
+# Second halves concentrate pace collapse + ref tightening.
+# This module suppresses pregame overs and allows only 2H unders when conditions qualify.
+
+ENABLE: true
+
+# Minimum triggers required to activate 2H-only mode
+MIN_TRIGGERS: 2
+
+TRIGGERS:
+  # Pace has dropped below expected
+  pace_ratio_below: 0.92
+  
+  # Fouls per minute below baseline (refs letting them play)
+  foul_rate_below_mult: 0.90
+  
+  # Minimum lead margin (one team controlling pace)
+  lead_margin_min: 6
+
+# What happens when 2H-only activates
+ACTIONS:
+  block_pregame_overs: true
+  allow_2h_unders: true
+  allow_1h_unders: false  # Too early, not enough signal
+  unit_reduction: 0.80    # Reduce units by 20%
+
+# Additional conditions for 2H unders
+SECOND_HALF_UNDERS:
+  # Only if at halftime or later
+  min_elapsed_minutes: 20
+  
+  # Don't chase if already lost on this game
+  block_after_loss: true
+  
+  # Max units on 2H unders
+  max_units: 0.5

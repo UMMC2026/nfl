@@ -1,0 +1,179 @@
+╔═══════════════════════════════════════════════════════════════════════╗
+║           NBA ROLE LAYER FILTER - FILE COMPATIBILITY                 ║
+║                    Quick Reference Guide                              ║
+╚═══════════════════════════════════════════════════════════════════════╝
+
+═══════════════════════════════════════════════════════════════════════
+ 🎯 ISSUE DIAGNOSED
+═══════════════════════════════════════════════════════════════════════
+
+When selecting file #6 (MONDAYRUN_RISK_FIRST_20260125_FROM_UD.json):
+  ✗ Filter exits immediately with no output
+  ✗ File has NO NBA Role Layer data (created before enrichment)
+
+═══════════════════════════════════════════════════════════════════════
+ ✅ COMPATIBLE FILES (Work with NBA Role Layer Filter)
+═══════════════════════════════════════════════════════════════════════
+
+File #1: PHI_CHA8_RISK_FIRST_20260126_FROM_UD.json
+  Modified: Jan 26, 2026 15:10
+  NBA Data: 159/159 picks (100%)
+  Archetypes: ✅ | Specialist Flags: ⚠️ (needs re-run)
+  Status: ✅ RECOMMENDED
+
+File #2: PHI_CHA1262026_RISK_FIRST_20260126_FROM_UD.json
+  Modified: Jan 26, 2026 14:05
+  NBA Data: 150/150 picks (100%)
+  Archetypes: ✅ | Specialist Flags: ⚠️ (needs re-run)
+  Status: ✅ COMPATIBLE
+
+File #3: TEST_NBA_ROLE_RISK_FIRST_20260126_FROM_UD.json
+  Modified: Jan 26, 2026 13:15
+  NBA Data: 29/29 picks (100%)
+  Archetypes: ✅ | Specialist Flags: ⚠️ (needs re-run)
+  Status: ✅ COMPATIBLE
+
+═══════════════════════════════════════════════════════════════════════
+ ❌ INCOMPATIBLE FILES (Do NOT work with filter)
+═══════════════════════════════════════════════════════════════════════
+
+File #4: IND_ATL_POP_RISK_FIRST_20260126_FROM_UD.json
+  Modified: Jan 26, 2026 12:41 (BEFORE NBA API enrichment)
+  NBA Data: 0/29 picks (0%)
+  Status: ❌ INCOMPATIBLE
+
+File #5: IND_ATL1262026_RISK_FIRST_20260126_FROM_UD.json
+  Modified: Jan 26, 2026 12:41 (BEFORE NBA API enrichment)
+  NBA Data: 0/109 picks (0%)
+  Status: ❌ INCOMPATIBLE
+
+File #6: MONDAYRUN_RISK_FIRST_20260125_FROM_UD.json ← YOUR SELECTION
+  Modified: Jan 25, 2026 21:20 (BEFORE NBA API enrichment)
+  NBA Data: 0/104 picks (0%)
+  Status: ❌ INCOMPATIBLE - This is why filter failed!
+
+═══════════════════════════════════════════════════════════════════════
+ 🔧 SOLUTION
+═══════════════════════════════════════════════════════════════════════
+
+Option 1: Select a Compatible File
+  Menu → [L] → Select file #1, #2, or #3 instead
+
+Option 2: Re-Generate with NBA Enrichment
+  Menu → [2] Run Analysis → Use same slate
+  This creates new file WITH NBA Role Layer data
+
+Option 3: Quick Check Before Using Filter
+  Run: python check_nba_file_compatibility.py
+  Shows which files are compatible
+
+═══════════════════════════════════════════════════════════════════════
+ 📋 WHAT YOU SEE WHEN FILTER FAILS
+═══════════════════════════════════════════════════════════════════════
+
+Menu shows:
+  [*] Running NBA Role Layer filter on: MONDAYRUN_RISK_FIRST_...
+  ======================================================================
+
+Filter shows:
+  ======================================================================
+  ❌ NO NBA ROLE LAYER DATA FOUND
+  ======================================================================
+
+  This file was generated BEFORE NBA API enrichment was added.
+
+  To use NBA Role Layer filter:
+    1. Run Menu → [2] to analyze a slate
+    2. Select a file with timestamp AFTER January 26, 2026
+    3. Or re-run analysis on this slate to regenerate with NBA data
+
+  Press Enter to continue...
+
+Menu shows:
+  ⚠️  Filter exited with code 1
+
+  [INFO] This usually means the file lacks NBA Role Layer data.
+         Files generated before Jan 26, 2026 don't have NBA API enrichment.
+
+  [TIP] Select a newer file or re-run analysis on this slate.
+
+  Press Enter to continue...
+
+═══════════════════════════════════════════════════════════════════════
+ 📅 TIMELINE
+═══════════════════════════════════════════════════════════════════════
+
+Jan 25, 2026 21:20 - MONDAYRUN created (NO NBA data)
+Jan 26, 2026 12:41 - IND_ATL files created (NO NBA data)
+Jan 26, 2026 13:30 - NBA API enrichment added to system ← CUTOFF
+Jan 26, 2026 13:15 - TEST_NBA file created (WITH NBA data)
+Jan 26, 2026 14:05 - PHI_CHA file created (WITH NBA data)
+Jan 26, 2026 15:10 - PHI_CHA8 file created (WITH NBA data) ← LATEST
+
+═══════════════════════════════════════════════════════════════════════
+ 💡 BEST PRACTICES
+═══════════════════════════════════════════════════════════════════════
+
+1. Always use Menu → [L] with file #1 (latest)
+   - Most recent analysis
+   - Guaranteed to have NBA data
+   - Press Enter to auto-select
+
+2. Check file timestamp before selecting
+   - Must be AFTER Jan 26, 2026 13:30
+   - Earlier files won't work
+
+3. Re-run old slates if needed
+   - Menu → [2] Run Analysis
+   - Re-analyze Monday slate to get NBA data
+   - New file will be compatible
+
+4. Quick compatibility check
+   - Run: python check_nba_file_compatibility.py
+   - Shows all compatible/incompatible files
+   - Updated automatically
+
+═══════════════════════════════════════════════════════════════════════
+ ✅ RECOMMENDED WORKFLOW
+═══════════════════════════════════════════════════════════════════════
+
+Step 1: Run analysis for today's slate
+  Menu → [2] → Enter slate identifier
+
+Step 2: Wait for completion
+  Look for: "NBA API: 147 players | Estimates: 3 players"
+
+Step 3: Launch filter on latest file
+  Menu → [L] → Press Enter (auto-selects #1)
+
+Step 4: Choose filter mode
+  [1] OPTIMAL - Safest picks
+  [2] RISKY - Avoid these
+  [7] SPECIALIST - Stat experts (after re-run)
+
+═══════════════════════════════════════════════════════════════════════
+ 🚨 ERROR PREVENTION
+═══════════════════════════════════════════════════════════════════════
+
+Don't select files older than Jan 26, 2026 13:30
+  ✗ MONDAYRUN (Jan 25)
+  ✗ IND_ATL files (Jan 26 12:41)
+
+Always verify timestamp in file list
+  ✅ 2026-01-26 15:10 - WORKS
+  ✅ 2026-01-26 14:05 - WORKS
+  ✅ 2026-01-26 13:15 - WORKS
+  ✗ 2026-01-26 12:41 - TOO OLD
+  ✗ 2026-01-25 21:20 - TOO OLD
+
+When in doubt, press Enter for latest
+  - Menu auto-selects file #1
+  - Always most recent
+  - Always compatible
+
+═══════════════════════════════════════════════════════════════════════
+
+Last Updated: January 26, 2026 15:30
+Issue: MONDAYRUN file selected (#6) - no NBA data
+Status: ✅ RESOLVED - Error message shown, user informed
+Action: Select file #1, #2, or #3 instead

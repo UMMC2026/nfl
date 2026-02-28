@@ -1,0 +1,15 @@
+{
+  "_metadata": {
+    "last_updated": "2026-02-05T00:00:00",
+    "description": "Tennis player surface performance statistics",
+    "instructions": "Run 'python tennis/surface_momentum.py --ingest' after adding match data"
+  },
+  "_surfaces": ["hard", "clay", "grass"],
+  "_thresholds": {
+    "DOMINANT": 0.75,
+    "STRONG": 0.65,
+    "AVERAGE": 0.50,
+    "WEAK": 0.40,
+    "STRUGGLE": 0.30
+  }
+}

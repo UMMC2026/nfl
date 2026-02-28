@@ -1,0 +1,256 @@
+============================================================
+Γ¢│ GOLF DAILY PIPELINE ΓÇö 2026-01-31
+   Status: DEVELOPMENT
+============================================================
+
+[1/5] Loading slate...
+      Γ£ô Loaded 38 props from slate.txt
+
+[2/5] Loading player database...
+      Γ£ô 18 players in database
+
+[3/5] Generating edges...
+[COURSE_CONFIG] Loaded JSON config: 5 courses
+[HARD STOP] Justin Rose birdies 3.5 lower: OVERCONFIDENT_UNDER
+[STAT LOADER WARNING] Fallback to line inference for Justin Rose fairways_hit 8.5.
+[FAIL FAST] Justin Rose fairways_hit 8.5: Invalid projection (mu_raw <= 0)
+[FAIL FAST] Si Woo Kim finishing_position 5.5: Coin-flip probability
+[STAT LOADER WARNING] Fallback to line inference for Si Woo Kim fairways_hit 8.5.
+[FAIL FAST] Si Woo Kim fairways_hit 8.5: Invalid projection (mu_raw <= 0)
+[HARD STOP] Hideki Matsuyama round_strokes 71.5 lower: OVERCONFIDENT_UNDER
+[FAIL FAST] Hideki Matsuyama finishing_position 10.5: Coin-flip probability
+[STAT LOADER WARNING] Fallback to line inference for Hideki Matsuyama fairways_hit 7.5.
+[FAIL FAST] Hideki Matsuyama fairways_hit 7.5: Invalid projection (mu_raw <= 0)
+[FAIL FAST] Jason Day finishing_position 20.5: Coin-flip probability
+[STAT LOADER WARNING] Fallback to line inference for Jason Day fairways_hit 7.5.
+[FAIL FAST] Jason Day fairways_hit 7.5: Invalid projection (mu_raw <= 0)
+[HARD STOP] Stephan Jaeger round_strokes 72.5 lower: OVERCONFIDENT_UNDER
+[FAIL FAST] Stephan Jaeger finishing_position 10.5: Coin-flip probability
+[HARD STOP] Stephan Jaeger birdies 3.5 lower: OVERCONFIDENT_UNDER
+[STAT LOADER WARNING] Fallback to line inference for Stephan Jaeger fairways_hit 6.5.
+[FAIL FAST] Stephan Jaeger fairways_hit 6.5: Invalid projection (mu_raw <= 0)
+[GOVERNANCE] Joel Dahmen: UNVERIFIED player (auto-seeded), betting blocked
+[FAIL FAST] Joel Dahmen finishing_position 5.5: Coin-flip probability
+[GOVERNANCE] Joel Dahmen: UNVERIFIED player (auto-seeded), betting blocked
+[STAT LOADER WARNING] Fallback to line inference for Joel Dahmen fairways_hit 8.5.
+[FAIL FAST] Joel Dahmen fairways_hit 8.5: Invalid projection (mu_raw <= 0)
+[GOVERNANCE] Ryo Hisatsune: UNVERIFIED player (auto-seeded), betting blocked
+[FAIL FAST] Ryo Hisatsune finishing_position 5.5: Coin-flip probability
+[GOVERNANCE] Ryo Hisatsune: UNVERIFIED player (auto-seeded), betting blocked
+[STAT LOADER WARNING] Fallback to line inference for Ryo Hisatsune fairways_hit 7.5.
+[FAIL FAST] Ryo Hisatsune fairways_hit 7.5: Invalid projection (mu_raw <= 0)
+[FAIL FAST] Brooks Koepka round_strokes 71.5: Coin-flip probability
+[GOVERNANCE] Brooks Koepka: UNVERIFIED player (auto-seeded), betting blocked
+[STAT LOADER WARNING] Fallback to line inference for Brooks Koepka fairways_hit 7.5.
+[FAIL FAST] Brooks Koepka fairways_hit 7.5: Invalid projection (mu_raw <= 0)
+[FAIL FAST] Chris Gotterup round_strokes 71.5: Coin-flip probability
+[FAIL FAST] Chris Gotterup finishing_position 20.5: Coin-flip probability
+[HARD STOP] Chris Gotterup birdies 3.5 lower: OVERCONFIDENT_UNDER
+[STAT LOADER WARNING] Fallback to line inference for Chris Gotterup fairways_hit 7.5.
+[FAIL FAST] Chris Gotterup fairways_hit 7.5: Invalid projection (mu_raw <= 0)
+[FAIL FAST] Jake Knapp round_strokes 71.5: Coin-flip probability
+[FAIL FAST] Jake Knapp finishing_position 20.5: Coin-flip probability
+[HARD STOP] Jake Knapp birdies 3.5 lower: OVERCONFIDENT_UNDER
+[STAT LOADER WARNING] Fallback to line inference for Jake Knapp fairways_hit 7.5.
+[FAIL FAST] Jake Knapp fairways_hit 7.5: Invalid projection (mu_raw <= 0)
+      Γ£ô Generated 17 raw edges
+
+[4/5] Running Monte Carlo simulations...
+[GOVERNANCE] Joel Dahmen: UNVERIFIED player (auto-seeded), betting blocked
+[GOVERNANCE] Ryo Hisatsune: UNVERIFIED player (auto-seeded), betting blocked
+[GOVERNANCE] Brooks Koepka: UNVERIFIED player (auto-seeded), betting blocked
+      Γ£ô 7 edges OPTIMIZABLE
+
+[5/5] Generating output...
+============================================================
+Γ¢│ GOLF ANALYSIS REPORT ΓÇö Farmers Insurance Open
+   Generated: 2026-01-31 23:06
+============================================================
+
+≡ƒôè SUMMARY
+   Total Props: 17
+   Optimizable: 7
+   STRONG Tier: 1
+   LEAN Tier: 9
+
+============================================================
+≡ƒÄ» TOP PICKS (OPTIMIZABLE)
+============================================================
+
+Γ¢│ Jake Knapp
+   Birdies: 3.5 LOWER
+   Probability: 73.5% | Tier: STRONG
+   Player Avg: 2.6
+   [AI Math] Model projects 2.6 birdies (line: 3.5) | Line is 0.9 ABOVE projection (33% gap) | P(lower 3.5) = 50.0% | Z-score: +0.00
+
+   [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+   [DeepSeek AI] This edge exists because Knapp's recent birdie average is well below the line, and the unknown matchup likely hasn't been priced into a tougher defensive course or conditions. The key risk is his volatility (╧â=1.5) and the unknown tier/stability, meaning one hot streak could easily
+
+Γ¢│ Chris Gotterup
+   Birdies: 3.5 LOWER
+   Probability: 71.6% | Tier: LEAN
+   Player Avg: 2.7
+   [AI Math] Model projects 2.7 birdies (line: 3.5) | Line is 0.8 ABOVE projection (30% gap) | P(lower 3.5) = 50.0% | Z-score: +0.00
+
+   [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+   [DeepSeek AI] This edge exists because Gotterup's recent birdie average of 2.7 is well below the 3.5 line, and the high standard deviation (1.5) indicates volatility that the market may be overpricing. The key risk is his unknown matchup and course conditions, which
+
+Γ¢│ Stephan Jaeger
+   Birdies: 3.5 LOWER
+   Probability: 68.8% | Tier: LEAN
+   Player Avg: 2.8
+   [AI Math] Model projects 2.8 birdies (line: 3.5) | Line is 0.7 ABOVE projection (23% gap) | P(lower 3.5) = 50.0% | Z-score: +0.00
+
+   [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+   [DeepSeek AI] This edge exists because Jaeger's recent birdie average (2.8) is well below the line of 3.5, and the course setup or his current form likely limits his scoring opportunities. The key risk is his volatility (╧â=1.5), meaning a single hot stretch could
+
+Γ¢│ Justin Rose
+   Birdies: 3.5 LOWER
+   Probability: 66.9% | Tier: LEAN
+   Player Avg: 2.9
+   [AI Math] Model projects 2.9 birdies (line: 3.5) | Line is 0.6 ABOVE projection (20% gap) | P(lower 3.5) = 50.0% | Z-score: +0.00
+
+   [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+   [DeepSeek AI] This edge exists because Rose's recent birdie average (2.9) is well below the line, and his high variance (╧â=1.5) is being undervalued by the market, creating line value. The main risk is his volatilityΓÇöwhile the probability favors the under, his
+
+Γ¢│ Jason Day
+   Birdies: 3.5 LOWER
+   Probability: 64.5% | Tier: LEAN
+   Player Avg: 3.0
+   [AI Math] Model projects 3.0 birdies (line: 3.5) | Line is 0.5 ABOVE projection (17% gap) | P(lower 3.5) = 50.0% | Z-score: +0.00
+
+   [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+   [DeepSeek AI] This edge likely exists because the line is set slightly too high relative to Day's recent birdie average, offering value on the under. The main risk is Day's volatility (╧â=1.5) and unknown matchup conditions, which could lead to an outlier performance.
+
+Γ¢│ Hideki Matsuyama
+   Birdies: 3.5 LOWER
+   Probability: 62.6% | Tier: LEAN
+   Player Avg: 3.1
+   [AI Math] Model projects 3.1 birdies (line: 3.5) | Line is 0.4 ABOVE projection (14% gap) | P(lower 3.5) = 50.0% | Z-score: +0.00
+
+   [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+   [DeepSeek AI] This edge likely exists due to Matsuyama's consistent scoring profile, where his recent average of 3.1 birdies sits comfortably below the 3.5 line, offering clear statistical value. The primary risk is his volatility (╧â=1.5), meaning a single hot stretch on the
+
+Γ¢│ Si Woo Kim
+   Birdies: 3.5 LOWER
+   Probability: 62.3% | Tier: LEAN
+   Player Avg: 3.2
+   [AI Math] Model projects 3.2 birdies (line: 3.5) | Line is 0.3 ABOVE projection (11% gap) | P(lower 3.5) = 50.0% | Z-score: +0.00
+
+   [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+   [DeepSeek AI] This edge likely exists because the line is set slightly too high relative to Kim's recent average, offering value on the under. However, the lack of matchup and stability data is a significant risk, as a favorable course or hot putting round could easily push him over this low total. Proceed with caution
+
+============================================================
+≡ƒôï ALL EDGES BY PLAYER
+============================================================
+
+Brooks Koepka
+  Γùï birdies: 3.5 lower ΓåÆ 61.4% [LEAN]
+    [AI Math] Model projects 3.2 birdies (line: 3.5) | Line is 0.3 ABOVE projection (11% gap) | P(lower 3.5) = 50.0% | Z-score: +0.00
+
+    [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+    [DeepSeek AI] This edge likely exists due to the line being set slightly too high given Koepka's recent average of 3.2 birdies, creating value on the under. The key risk is the unknown matchup and course conditions, which could significantly alter his scoring opportunities and make this a volatile prop despite the
+
+Chris Gotterup
+  Γ£ô birdies: 3.5 lower ΓåÆ 71.6% [LEAN]
+    [AI Math] Model projects 2.7 birdies (line: 3.5) | Line is 0.8 ABOVE projection (30% gap) | P(lower 3.5) = 50.0% | Z-score: +0.00
+
+    [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+    [DeepSeek AI] This edge exists because Gotterup's recent birdie average (2.7) is well below the line of 3.5, creating significant line value despite the high variance typical for birdie props. The main risk is the unknown matchup and course conditions, which could elevate scoring opportunities unpredictably
+
+Hideki Matsuyama
+  Γùï round_strokes: 71.5 lower ΓåÆ 36.5% [AVOID]
+    [AI Math] Model projects 70.6 round_strokes (line: 71.5) | Line is 0.9 ABOVE projection (1% gap) | P(lower 71.5) = 50.0% | Z-score: +0.00
+
+    [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+    [DeepSeek AI] This line appears mispriced given MatsuyamaΓÇÖs recent scoring average, but the extremely low hit probability and unknown stability make it a high-variance bet. The edge likely stems from a soft matchup or favorable course conditions, but the lack of tier and stability data suggests significant volatility. Proceed
+  Γ£ô birdies: 3.5 lower ΓåÆ 62.6% [LEAN]
+    [AI Math] Model projects 3.1 birdies (line: 3.5) | Line is 0.4 ABOVE projection (14% gap) | P(lower 3.5) = 50.0% | Z-score: +0.00
+
+    [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+    [DeepSeek AI] This edge exists because MatsuyamaΓÇÖs recent birdie average (3.1) is well below the line, and his scoring volatility (╧â=1.5) suggests he frequently lands at 3 or fewer. The main risk is a hot putting round on a favorable course, but the
+
+Jake Knapp
+  Γ£ô birdies: 3.5 lower ΓåÆ 73.5% [STRONG]
+    [AI Math] Model projects 2.6 birdies (line: 3.5) | Line is 0.9 ABOVE projection (33% gap) | P(lower 3.5) = 50.0% | Z-score: +0.00
+
+    [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+    [DeepSeek AI] This edge exists because Knapp's recent birdie average is well below the line, and the line hasn't adjusted to his current form, creating clear value on the under. The main risk is his high volatility (╧â=1.5), meaning a single hot streak could push him over despite the
+
+Jason Day
+  Γùï round_strokes: 71.5 lower ΓåÆ 27.2% [AVOID]
+    [AI Math] Model projects 71.1 round_strokes (line: 71.5) | Line is 0.4 ABOVE projection (1% gap) | P(lower 71.5) = 50.0% | Z-score: +0.00
+
+    [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+    [DeepSeek AI] This edge is likely driven by the line being set slightly too high relative to Day's recent average, but the extremely low hit probability of 27.2% is a major red flag, indicating the market expects a volatile performance. The lack of matchup and stability data makes this a high-risk proposition,
+  Γ£ô birdies: 3.5 lower ΓåÆ 64.5% [LEAN]
+    [AI Math] Model projects 3.0 birdies (line: 3.5) | Line is 0.5 ABOVE projection (17% gap) | P(lower 3.5) = 50.0% | Z-score: +0.00
+
+    [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+    [DeepSeek AI] This edge likely exists due to the line being set slightly high relative to Day's recent average, offering value on the under. However, the unknown matchup and tournament conditions introduce significant volatility, making the bet's stability a major risk despite the favorable probability.
+
+Joel Dahmen
+  Γùï round_strokes: 72.5 lower ΓåÆ 37.0% [AVOID]
+    [AI Math] Model projects 71.6 round_strokes (line: 72.5) | Line is 0.9 ABOVE projection (1% gap) | P(lower 72.5) = 50.0% | Z-score: +0.00
+
+    [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+    [DeepSeek AI] This edge likely exists due to the line being set slightly too high given Dahmen's recent scoring average, but the low 37% hit probability indicates the bet is actually mispriced against you. With no matchup or stability data, the risk is high due to unpredictable variance in his performance. Avoid
+  Γùï birdies: 3.5 lower ΓåÆ 61.7% [LEAN]
+    [AI Math] Model projects 3.2 birdies (line: 3.5) | Line is 0.3 ABOVE projection (11% gap) | P(lower 3.5) = 50.0% | Z-score: +0.00
+
+    [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+    [DeepSeek AI] This edge likely exists due to the line being set slightly too high given Dahmen's recent average of 3.2 birdies, creating value on the under. However, with stability unknown and no specific matchup details provided, the risk is high due to potential variance in course conditions or his current form
+
+Justin Rose
+  Γùï round_strokes: 71.5 lower ΓåÆ 29.0% [AVOID]
+    [AI Math] Model projects 71.0 round_strokes (line: 71.5) | Line is 0.5 ABOVE projection (1% gap) | P(lower 71.5) = 50.0% | Z-score: +0.00
+
+    [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+    [DeepSeek AI] This edge exists because Rose's recent average is slightly below the line, but the low hit probability (29%) suggests the line is accurately set or even sharpΓÇöthere's no real value here. The unknown matchup and lack of stability data make this a highly speculative bet with significant variance risk. Avoid this
+  Γ£ô birdies: 3.5 lower ΓåÆ 66.9% [LEAN]
+    [AI Math] Model projects 2.9 birdies (line: 3.5) | Line is 0.6 ABOVE projection (20% gap) | P(lower 3.5) = 50.0% | Z-score: +0.00
+
+    [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+    [DeepSeek AI] This edge likely exists because the line is set too high relative to Rose's recent birdie average of 2.9, offering clear value on the under. The primary risk is his high volatility (╧â=1.5), meaning a single hot stretch on the course could easily push him over.
+
+Ryo Hisatsune
+  Γùï round_strokes: 72.5 lower ΓåÆ 37.1% [AVOID]
+    [AI Math] Model projects 71.6 round_strokes (line: 72.5) | Line is 0.9 ABOVE projection (1% gap) | P(lower 72.5) = 50.0% | Z-score: +0.00
+
+    [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+    [DeepSeek AI] This edge likely exists because the line is set conservatively high for a player averaging well under it, but the low 37.1% hit probability indicates the bet is actually a poor value despite the average. The high variance (╧â=3.1) means Hisatsune's scores fluctuate significantly
+  Γùï birdies: 3.5 lower ΓåÆ 61.7% [LEAN]
+    [AI Math] Model projects 3.2 birdies (line: 3.5) | Line is 0.3 ABOVE projection (11% gap) | P(lower 3.5) = 50.0% | Z-score: +0.00
+
+    [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+    [DeepSeek AI] This edge likely exists due to the line being set slightly too high relative to Hisatsune's recent average of 3.2 birdies, offering value on the under. The primary risk is his high variance (╧â=1.5), meaning his performance is volatile and he can easily exceed this
+
+Si Woo Kim
+  Γùï round_strokes: 71.5 lower ΓåÆ 30.4% [AVOID]
+    [AI Math] Model projects 70.9 round_strokes (line: 71.5) | Line is 0.6 ABOVE projection (1% gap) | P(lower 71.5) = 50.0% | Z-score: +0.00
+
+    [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+    [DeepSeek AI] This edge likely exists due to the line being set slightly too high relative to Si Woo Kim's recent scoring average, but the low 30.4% hit probability indicates the market is accurately pricing significant downside risk. The unknown matchup and lack of stability data make this a volatile proposition, as course conditions
+  Γ£ô birdies: 3.5 lower ΓåÆ 62.3% [LEAN]
+    [AI Math] Model projects 3.2 birdies (line: 3.5) | Line is 0.3 ABOVE projection (11% gap) | P(lower 3.5) = 50.0% | Z-score: +0.00
+
+    [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+    [DeepSeek AI] This edge likely exists because Si Woo Kim's recent birdie average (3.2) is already below the line, and the line is set at a key number (4) where his variance (╧â=1.5) makes the under a solid statistical play. The main risk is a hot
+
+Stephan Jaeger
+  Γùï round_strokes: 72.5 lower ΓåÆ 42.0% [AVOID]
+    [AI Math] Model projects 71.3 round_strokes (line: 72.5) | Line is 1.2 ABOVE projection (2% gap) | P(lower 72.5) = 50.0% | Z-score: +0.00
+
+    [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+    [DeepSeek AI] This edge likely exists due to the line being set too high relative to Jaeger's recent form, but the unknown matchup and lack of stability data make it speculative. The key risk is the high variance (╧â=3.1) and unknown course conditions, which could easily push his score over this
+  Γ£ô birdies: 3.5 lower ΓåÆ 68.8% [LEAN]
+    [AI Math] Model projects 2.8 birdies (line: 3.5) | Line is 0.7 ABOVE projection (23% gap) | P(lower 3.5) = 50.0% | Z-score: +0.00
+
+    [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+    [DeepSeek AI] This edge exists because Jaeger's recent birdie average (2.8) is well below the line of 3.5, creating significant line value in a matchup where his scoring opportunities may be limited. The key risk is his volatility (╧â=1.5), meaning a single hot stretch
+
+      [DRY RUN] Skipping file output
+
+============================================================
+Pipeline complete: SUCCESS
+============================================================

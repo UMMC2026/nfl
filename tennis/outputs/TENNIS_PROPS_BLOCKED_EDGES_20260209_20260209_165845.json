@@ -1,0 +1,523 @@
+{
+  "created_at_utc": "2026-02-09T22:58:45.830326+00:00",
+  "edges": [
+    {
+      "edge_id": "c1b045fd70f1fb03",
+      "player": "Frances Tiafoe",
+      "team": "",
+      "opponent": "",
+      "stat": "breakpoints_won",
+      "line": 2.5,
+      "direction": "lower",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 56.35,
+      "effective_confidence": 56.35,
+      "mu": 2.317304284030277,
+      "sigma": 1.416751629056274,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 21,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "tier=AVOID",
+      "gate_details": [
+        {
+          "pick_id": "Frances Tiafoe_BREAKPOINTS_WON_LOWER_2.5",
+          "state": "OPTIMIZABLE",
+          "original_probability": 56.35,
+          "final_probability": 56.35,
+          "adjustments": [],
+          "rejection_reason": null,
+          "vetted_reason": null,
+          "flags_detected": [],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "GATE_2_USAGE_VOLATILITY",
+            "GATE_3_SPECIALIST_REJECTS",
+            "GATE_4_FRAGILE",
+            "GATE_5_MATCHUP_DECAY",
+            "GATE_6_COMPOSITE",
+            "PASSED_ALL_GATES"
+          ],
+          "is_optimizable": true,
+          "is_visible": true
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "e7d1ec48a6ea1cb9",
+      "player": "Terence Atmane",
+      "team": "",
+      "opponent": "",
+      "stat": "breakpoints_won",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 81.6,
+      "effective_confidence": 81.6,
+      "mu": 1.9520246696134838,
+      "sigma": 1.3957512551668938,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 3,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=VETTED",
+      "gate_details": [
+        {
+          "pick_id": "Terence Atmane_BREAKPOINTS_WON_HIGHER_0.5",
+          "state": "VETTED",
+          "original_probability": 81.6,
+          "final_probability": 81.6,
+          "adjustments": [],
+          "rejection_reason": null,
+          "vetted_reason": "FRAGILE_FLAG",
+          "flags_detected": [
+            "FRAGILE"
+          ],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "GATE_2_USAGE_VOLATILITY",
+            "GATE_3_SPECIALIST_REJECTS",
+            "GATE_4_FRAGILE",
+            "VETTED: FRAGILE flag (visible, not optimizable)"
+          ],
+          "is_optimizable": false,
+          "is_visible": true
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "76f56de9992fcf2a",
+      "player": "Frances Tiafoe",
+      "team": "",
+      "opponent": "",
+      "stat": "games_played",
+      "line": 22.5,
+      "direction": "higher",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 54.55,
+      "effective_confidence": 54.55,
+      "mu": 24.77,
+      "sigma": 5.911139550492163,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 21,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=REJECTED",
+      "gate_details": [
+        {
+          "pick_id": "Frances Tiafoe_GAMES_PLAYED_HIGHER_22.5",
+          "state": "REJECTED",
+          "original_probability": 54.55,
+          "final_probability": 54.55,
+          "adjustments": [],
+          "rejection_reason": "LOW_PROBABILITY",
+          "vetted_reason": null,
+          "flags_detected": [],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "REJECTED: prob 54.5% < 55.0%"
+          ],
+          "is_optimizable": false,
+          "is_visible": false
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "cd93be49d86d7f7d",
+      "player": "Frances Tiafoe",
+      "team": "",
+      "opponent": "",
+      "stat": "double_faults",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 52.65,
+      "effective_confidence": 52.65,
+      "mu": 2.815,
+      "sigma": 1.7867207911682217,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 21,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=REJECTED",
+      "gate_details": [
+        {
+          "pick_id": "Frances Tiafoe_DOUBLE_FAULTS_HIGHER_2.5",
+          "state": "REJECTED",
+          "original_probability": 52.65,
+          "final_probability": 52.65,
+          "adjustments": [],
+          "rejection_reason": "LOW_PROBABILITY",
+          "vetted_reason": null,
+          "flags_detected": [],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "REJECTED: prob 52.6% < 55.0%"
+          ],
+          "is_optimizable": false,
+          "is_visible": false
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "c7a96d39e22c3857",
+      "player": "Frances Tiafoe",
+      "team": "",
+      "opponent": "",
+      "stat": "sets_played",
+      "line": 2.5,
+      "direction": "lower",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 52.2,
+      "effective_confidence": 52.2,
+      "mu": 2.478,
+      "sigma": 0.4996406913074686,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 21,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=REJECTED",
+      "gate_details": [
+        {
+          "pick_id": "Frances Tiafoe_SETS_PLAYED_LOWER_2.5",
+          "state": "REJECTED",
+          "original_probability": 52.2,
+          "final_probability": 52.2,
+          "adjustments": [],
+          "rejection_reason": "LOW_PROBABILITY",
+          "vetted_reason": null,
+          "flags_detected": [],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "REJECTED: prob 52.2% < 55.0%"
+          ],
+          "is_optimizable": false,
+          "is_visible": false
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "46d318f6e91972cb",
+      "player": "Terence Atmane",
+      "team": "",
+      "opponent": "",
+      "stat": "sets_won",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 56.599999999999994,
+      "effective_confidence": 56.599999999999994,
+      "mu": 0.814,
+      "sigma": 0.8048154222751736,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 3,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=VETTED",
+      "gate_details": [
+        {
+          "pick_id": "Terence Atmane_SETS_WON_HIGHER_0.5",
+          "state": "VETTED",
+          "original_probability": 56.599999999999994,
+          "final_probability": 56.599999999999994,
+          "adjustments": [],
+          "rejection_reason": null,
+          "vetted_reason": "FRAGILE_FLAG",
+          "flags_detected": [
+            "FRAGILE"
+          ],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "GATE_2_USAGE_VOLATILITY",
+            "GATE_3_SPECIALIST_REJECTS",
+            "GATE_4_FRAGILE",
+            "VETTED: FRAGILE flag (visible, not optimizable)"
+          ],
+          "is_optimizable": false,
+          "is_visible": true
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "e11c6508c74e2b5e",
+      "player": "Terence Atmane",
+      "team": "",
+      "opponent": "",
+      "stat": "games_won",
+      "line": 10.5,
+      "direction": "higher",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 53.7,
+      "effective_confidence": 53.7,
+      "mu": 10.9465,
+      "sigma": 4.045840105723475,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 3,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=REJECTED",
+      "gate_details": [
+        {
+          "pick_id": "Terence Atmane_GAMES_WON_HIGHER_10.5",
+          "state": "REJECTED",
+          "original_probability": 53.7,
+          "final_probability": 53.7,
+          "adjustments": [],
+          "rejection_reason": "LOW_PROBABILITY",
+          "vetted_reason": null,
+          "flags_detected": [
+            "FRAGILE"
+          ],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "REJECTED: prob 53.7% < 55.0%"
+          ],
+          "is_optimizable": false,
+          "is_visible": false
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "9dc15a147e2ef5be",
+      "player": "Terence Atmane",
+      "team": "",
+      "opponent": "",
+      "stat": "double_faults",
+      "line": 3.5,
+      "direction": "higher",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 51.5,
+      "effective_confidence": 51.5,
+      "mu": 3.7985,
+      "sigma": 2.159219503531824,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 3,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=REJECTED",
+      "gate_details": [
+        {
+          "pick_id": "Terence Atmane_DOUBLE_FAULTS_HIGHER_3.5",
+          "state": "REJECTED",
+          "original_probability": 51.5,
+          "final_probability": 51.5,
+          "adjustments": [],
+          "rejection_reason": "LOW_PROBABILITY",
+          "vetted_reason": null,
+          "flags_detected": [
+            "FRAGILE"
+          ],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "REJECTED: prob 51.5% < 55.0%"
+          ],
+          "is_optimizable": false,
+          "is_visible": false
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "a7fd12f387d545c6",
+      "player": "Terence Atmane",
+      "team": "",
+      "opponent": "",
+      "stat": "1st_set_games_won",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 50.6,
+      "effective_confidence": 50.6,
+      "mu": 4.5145,
+      "sigma": 1.8175371992714118,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 3,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=REJECTED",
+      "gate_details": [
+        {
+          "pick_id": "Terence Atmane_1ST_SET_GAMES_WON_HIGHER_4.5",
+          "state": "REJECTED",
+          "original_probability": 50.6,
+          "final_probability": 50.6,
+          "adjustments": [],
+          "rejection_reason": "LOW_PROBABILITY",
+          "vetted_reason": null,
+          "flags_detected": [
+            "FRAGILE"
+          ],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "REJECTED: prob 50.6% < 55.0%"
+          ],
+          "is_optimizable": false,
+          "is_visible": false
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "194049482034e017",
+      "player": "Terence Atmane",
+      "team": "",
+      "opponent": "",
+      "stat": "aces",
+      "line": 11.5,
+      "direction": "higher",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 40.25,
+      "effective_confidence": 40.25,
+      "mu": 10.6995,
+      "sigma": 4.169639396440437,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 3,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=REJECTED",
+      "gate_details": [
+        {
+          "pick_id": "Terence Atmane_ACES_HIGHER_11.5",
+          "state": "REJECTED",
+          "original_probability": 40.25,
+          "final_probability": 40.25,
+          "adjustments": [],
+          "rejection_reason": "LOW_PROBABILITY",
+          "vetted_reason": null,
+          "flags_detected": [
+            "FRAGILE"
+          ],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "REJECTED: prob 40.2% < 55.0%"
+          ],
+          "is_optimizable": false,
+          "is_visible": false
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "70f35c62c4b24730",
+      "player": "Frances Tiafoe",
+      "team": "",
+      "opponent": "",
+      "stat": "aces",
+      "line": 8.5,
+      "direction": "higher",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 26.6,
+      "effective_confidence": 26.6,
+      "mu": 6.824,
+      "sigma": 3.112212546319215,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 21,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=REJECTED",
+      "gate_details": [
+        {
+          "pick_id": "Frances Tiafoe_ACES_HIGHER_8.5",
+          "state": "REJECTED",
+          "original_probability": 26.6,
+          "final_probability": 26.6,
+          "adjustments": [],
+          "rejection_reason": "LOW_PROBABILITY",
+          "vetted_reason": null,
+          "flags_detected": [],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "REJECTED: prob 26.6% < 55.0%"
+          ],
+          "is_optimizable": false,
+          "is_visible": false
+        }
+      ],
+      "stat_adjustment": null
+    }
+  ]
+}

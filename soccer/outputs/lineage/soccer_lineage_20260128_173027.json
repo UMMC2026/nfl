@@ -1,0 +1,404 @@
+{
+  "session_id": "20260128_173026",
+  "timestamp": "2026-01-28T17:30:27.050842",
+  "lineage_count": 13,
+  "lineages": {
+    "SOC_EPL_EPL_ARS_LIV_20260127_OVER_UNDER_OVER_0.5": {
+      "edge_id": "SOC_EPL_EPL_ARS_LIV_20260127_OVER_UNDER_OVER_0.5",
+      "player_id": "ARS vs LIV",
+      "stat_type": "OVER_UNDER",
+      "line": 0.5,
+      "direction": "OVER",
+      "entries": [
+        {
+          "timestamp": "2026-01-28T17:30:27.037026",
+          "source": "baseline",
+          "input_prob": 0.0,
+          "output_prob": 0.9343976916304039,
+          "adjustment_factor": 1.0,
+          "confidence": 0.9,
+          "reason": "scoreline_probs",
+          "metadata": {}
+        },
+        {
+          "timestamp": "2026-01-28T17:30:27.037026",
+          "source": "gate_cap",
+          "input_prob": 0.9343976916304039,
+          "output_prob": 0.78,
+          "adjustment_factor": 0.834762336194346,
+          "confidence": 0.95,
+          "reason": "global_cap",
+          "metadata": {}
+        }
+      ],
+      "initial_prob": 0.0,
+      "final_prob": 0.78,
+      "total_adjustment": 0.834762336194346,
+      "adjustment_count": 2,
+      "max_single_adjustment": 0.16523766380565397,
+      "avg_confidence": 0.925,
+      "was_capped": true,
+      "cap_applied": 0.78,
+      "has_manual_override": false,
+      "lineage_hash": "8a832707351d"
+    },
+    "SOC_EPL_EPL_ARS_LIV_20260127_OVER_UNDER_UNDER_0.5": {
+      "edge_id": "SOC_EPL_EPL_ARS_LIV_20260127_OVER_UNDER_UNDER_0.5",
+      "player_id": "ARS vs LIV",
+      "stat_type": "OVER_UNDER",
+      "line": 0.5,
+      "direction": "UNDER",
+      "entries": [
+        {
+          "timestamp": "2026-01-28T17:30:27.044853",
+          "source": "baseline",
+          "input_prob": 0.0,
+          "output_prob": 0.06560230836959606,
+          "adjustment_factor": 1.0,
+          "confidence": 0.9,
+          "reason": "scoreline_probs",
+          "metadata": {}
+        }
+      ],
+      "initial_prob": 0.0,
+      "final_prob": 0.06560230836959606,
+      "total_adjustment": 1.0,
+      "adjustment_count": 1,
+      "max_single_adjustment": 0.0,
+      "avg_confidence": 0.9,
+      "was_capped": false,
+      "cap_applied": null,
+      "has_manual_override": false,
+      "lineage_hash": "2d5230b3ddea"
+    },
+    "SOC_EPL_EPL_ARS_LIV_20260127_OVER_UNDER_OVER_1.5": {
+      "edge_id": "SOC_EPL_EPL_ARS_LIV_20260127_OVER_UNDER_OVER_1.5",
+      "player_id": "ARS vs LIV",
+      "stat_type": "OVER_UNDER",
+      "line": 1.5,
+      "direction": "OVER",
+      "entries": [
+        {
+          "timestamp": "2026-01-28T17:30:27.045857",
+          "source": "baseline",
+          "input_prob": 0.0,
+          "output_prob": 0.7578506365928642,
+          "adjustment_factor": 1.0,
+          "confidence": 0.9,
+          "reason": "scoreline_probs",
+          "metadata": {}
+        },
+        {
+          "timestamp": "2026-01-28T17:30:27.045857",
+          "source": "gate_cap",
+          "input_prob": 0.7578506365928642,
+          "output_prob": 0.75,
+          "adjustment_factor": 0.9896409183897251,
+          "confidence": 0.95,
+          "reason": "over_under_cap",
+          "metadata": {}
+        }
+      ],
+      "initial_prob": 0.0,
+      "final_prob": 0.75,
+      "total_adjustment": 0.9896409183897251,
+      "adjustment_count": 2,
+      "max_single_adjustment": 0.010359081610274878,
+      "avg_confidence": 0.925,
+      "was_capped": true,
+      "cap_applied": 0.75,
+      "has_manual_override": false,
+      "lineage_hash": "37e93f1b9ea3"
+    },
+    "SOC_EPL_EPL_ARS_LIV_20260127_OVER_UNDER_UNDER_1.5": {
+      "edge_id": "SOC_EPL_EPL_ARS_LIV_20260127_OVER_UNDER_UNDER_1.5",
+      "player_id": "ARS vs LIV",
+      "stat_type": "OVER_UNDER",
+      "line": 1.5,
+      "direction": "UNDER",
+      "entries": [
+        {
+          "timestamp": "2026-01-28T17:30:27.045857",
+          "source": "baseline",
+          "input_prob": 0.0,
+          "output_prob": 0.24214936340713566,
+          "adjustment_factor": 1.0,
+          "confidence": 0.9,
+          "reason": "scoreline_probs",
+          "metadata": {}
+        }
+      ],
+      "initial_prob": 0.0,
+      "final_prob": 0.24214936340713566,
+      "total_adjustment": 1.0,
+      "adjustment_count": 1,
+      "max_single_adjustment": 0.0,
+      "avg_confidence": 0.9,
+      "was_capped": false,
+      "cap_applied": null,
+      "has_manual_override": false,
+      "lineage_hash": "e3e9e721775d"
+    },
+    "SOC_EPL_EPL_ARS_LIV_20260127_OVER_UNDER_OVER_2.5": {
+      "edge_id": "SOC_EPL_EPL_ARS_LIV_20260127_OVER_UNDER_OVER_2.5",
+      "player_id": "ARS vs LIV",
+      "stat_type": "OVER_UNDER",
+      "line": 2.5,
+      "direction": "OVER",
+      "entries": [
+        {
+          "timestamp": "2026-01-28T17:30:27.045857",
+          "source": "baseline",
+          "input_prob": 0.0,
+          "output_prob": 0.5132039169351792,
+          "adjustment_factor": 1.0,
+          "confidence": 0.9,
+          "reason": "scoreline_probs",
+          "metadata": {}
+        }
+      ],
+      "initial_prob": 0.0,
+      "final_prob": 0.5132039169351792,
+      "total_adjustment": 1.0,
+      "adjustment_count": 1,
+      "max_single_adjustment": 0.0,
+      "avg_confidence": 0.9,
+      "was_capped": false,
+      "cap_applied": null,
+      "has_manual_override": false,
+      "lineage_hash": "83a341c62a8e"
+    },
+    "SOC_EPL_EPL_ARS_LIV_20260127_OVER_UNDER_UNDER_2.5": {
+      "edge_id": "SOC_EPL_EPL_ARS_LIV_20260127_OVER_UNDER_UNDER_2.5",
+      "player_id": "ARS vs LIV",
+      "stat_type": "OVER_UNDER",
+      "line": 2.5,
+      "direction": "UNDER",
+      "entries": [
+        {
+          "timestamp": "2026-01-28T17:30:27.045857",
+          "source": "baseline",
+          "input_prob": 0.0,
+          "output_prob": 0.4867960830648207,
+          "adjustment_factor": 1.0,
+          "confidence": 0.9,
+          "reason": "scoreline_probs",
+          "metadata": {}
+        }
+      ],
+      "initial_prob": 0.0,
+      "final_prob": 0.4867960830648207,
+      "total_adjustment": 1.0,
+      "adjustment_count": 1,
+      "max_single_adjustment": 0.0,
+      "avg_confidence": 0.9,
+      "was_capped": false,
+      "cap_applied": null,
+      "has_manual_override": false,
+      "lineage_hash": "fc02f15b7d6b"
+    },
+    "SOC_EPL_EPL_ARS_LIV_20260127_OVER_UNDER_OVER_3.5": {
+      "edge_id": "SOC_EPL_EPL_ARS_LIV_20260127_OVER_UNDER_OVER_3.5",
+      "player_id": "ARS vs LIV",
+      "stat_type": "OVER_UNDER",
+      "line": 3.5,
+      "direction": "OVER",
+      "entries": [
+        {
+          "timestamp": "2026-01-28T17:30:27.045857",
+          "source": "baseline",
+          "input_prob": 0.0,
+          "output_prob": 0.29201480174133815,
+          "adjustment_factor": 1.0,
+          "confidence": 0.9,
+          "reason": "scoreline_probs",
+          "metadata": {}
+        }
+      ],
+      "initial_prob": 0.0,
+      "final_prob": 0.29201480174133815,
+      "total_adjustment": 1.0,
+      "adjustment_count": 1,
+      "max_single_adjustment": 0.0,
+      "avg_confidence": 0.9,
+      "was_capped": false,
+      "cap_applied": null,
+      "has_manual_override": false,
+      "lineage_hash": "e80b60c8de84"
+    },
+    "SOC_EPL_EPL_ARS_LIV_20260127_OVER_UNDER_UNDER_3.5": {
+      "edge_id": "SOC_EPL_EPL_ARS_LIV_20260127_OVER_UNDER_UNDER_3.5",
+      "player_id": "ARS vs LIV",
+      "stat_type": "OVER_UNDER",
+      "line": 3.5,
+      "direction": "UNDER",
+      "entries": [
+        {
+          "timestamp": "2026-01-28T17:30:27.045857",
+          "source": "baseline",
+          "input_prob": 0.0,
+          "output_prob": 0.7079851982586617,
+          "adjustment_factor": 1.0,
+          "confidence": 0.9,
+          "reason": "scoreline_probs",
+          "metadata": {}
+        }
+      ],
+      "initial_prob": 0.0,
+      "final_prob": 0.7079851982586617,
+      "total_adjustment": 1.0,
+      "adjustment_count": 1,
+      "max_single_adjustment": 0.0,
+      "avg_confidence": 0.9,
+      "was_capped": false,
+      "cap_applied": null,
+      "has_manual_override": false,
+      "lineage_hash": "df50429d8590"
+    },
+    "SOC_EPL_EPL_ARS_LIV_20260127_BTTS_YES_NA": {
+      "edge_id": "SOC_EPL_EPL_ARS_LIV_20260127_BTTS_YES_NA",
+      "player_id": "ARS vs LIV",
+      "stat_type": "BTTS",
+      "line": 0.0,
+      "direction": "YES",
+      "entries": [
+        {
+          "timestamp": "2026-01-28T17:30:27.045857",
+          "source": "baseline",
+          "input_prob": 0.0,
+          "output_prob": 0.55215993042333,
+          "adjustment_factor": 1.0,
+          "confidence": 0.9,
+          "reason": "scoreline_probs",
+          "metadata": {}
+        }
+      ],
+      "initial_prob": 0.0,
+      "final_prob": 0.55215993042333,
+      "total_adjustment": 1.0,
+      "adjustment_count": 1,
+      "max_single_adjustment": 0.0,
+      "avg_confidence": 0.9,
+      "was_capped": false,
+      "cap_applied": null,
+      "has_manual_override": false,
+      "lineage_hash": "82a993a62994"
+    },
+    "SOC_EPL_EPL_ARS_LIV_20260127_BTTS_NO_NA": {
+      "edge_id": "SOC_EPL_EPL_ARS_LIV_20260127_BTTS_NO_NA",
+      "player_id": "ARS vs LIV",
+      "stat_type": "BTTS",
+      "line": 0.0,
+      "direction": "NO",
+      "entries": [
+        {
+          "timestamp": "2026-01-28T17:30:27.045857",
+          "source": "baseline",
+          "input_prob": 0.0,
+          "output_prob": 0.4478400695766699,
+          "adjustment_factor": 1.0,
+          "confidence": 0.9,
+          "reason": "scoreline_probs",
+          "metadata": {}
+        }
+      ],
+      "initial_prob": 0.0,
+      "final_prob": 0.4478400695766699,
+      "total_adjustment": 1.0,
+      "adjustment_count": 1,
+      "max_single_adjustment": 0.0,
+      "avg_confidence": 0.9,
+      "was_capped": false,
+      "cap_applied": null,
+      "has_manual_override": false,
+      "lineage_hash": "a90fb41da2ea"
+    },
+    "SOC_EPL_EPL_ARS_LIV_20260127_MATCH_RESULT_HOME_NA": {
+      "edge_id": "SOC_EPL_EPL_ARS_LIV_20260127_MATCH_RESULT_HOME_NA",
+      "player_id": "ARS vs LIV",
+      "stat_type": "MATCH_RESULT",
+      "line": 0.0,
+      "direction": "HOME",
+      "entries": [
+        {
+          "timestamp": "2026-01-28T17:30:27.045857",
+          "source": "baseline",
+          "input_prob": 0.0,
+          "output_prob": 0.42049288441202615,
+          "adjustment_factor": 1.0,
+          "confidence": 0.9,
+          "reason": "scoreline_probs",
+          "metadata": {}
+        }
+      ],
+      "initial_prob": 0.0,
+      "final_prob": 0.42049288441202615,
+      "total_adjustment": 1.0,
+      "adjustment_count": 1,
+      "max_single_adjustment": 0.0,
+      "avg_confidence": 0.9,
+      "was_capped": false,
+      "cap_applied": null,
+      "has_manual_override": false,
+      "lineage_hash": "ca32c68553f2"
+    },
+    "SOC_EPL_EPL_ARS_LIV_20260127_MATCH_RESULT_DRAW_NA": {
+      "edge_id": "SOC_EPL_EPL_ARS_LIV_20260127_MATCH_RESULT_DRAW_NA",
+      "player_id": "ARS vs LIV",
+      "stat_type": "MATCH_RESULT",
+      "line": 0.0,
+      "direction": "DRAW",
+      "entries": [
+        {
+          "timestamp": "2026-01-28T17:30:27.046854",
+          "source": "baseline",
+          "input_prob": 0.0,
+          "output_prob": 0.2577475524800745,
+          "adjustment_factor": 1.0,
+          "confidence": 0.9,
+          "reason": "scoreline_probs",
+          "metadata": {}
+        }
+      ],
+      "initial_prob": 0.0,
+      "final_prob": 0.2577475524800745,
+      "total_adjustment": 1.0,
+      "adjustment_count": 1,
+      "max_single_adjustment": 0.0,
+      "avg_confidence": 0.9,
+      "was_capped": false,
+      "cap_applied": null,
+      "has_manual_override": false,
+      "lineage_hash": "2ffa2f20eeab"
+    },
+    "SOC_EPL_EPL_ARS_LIV_20260127_MATCH_RESULT_AWAY_NA": {
+      "edge_id": "SOC_EPL_EPL_ARS_LIV_20260127_MATCH_RESULT_AWAY_NA",
+      "player_id": "ARS vs LIV",
+      "stat_type": "MATCH_RESULT",
+      "line": 0.0,
+      "direction": "AWAY",
+      "entries": [
+        {
+          "timestamp": "2026-01-28T17:30:27.046854",
+          "source": "baseline",
+          "input_prob": 0.0,
+          "output_prob": 0.32175956310789927,
+          "adjustment_factor": 1.0,
+          "confidence": 0.9,
+          "reason": "scoreline_probs",
+          "metadata": {}
+        }
+      ],
+      "initial_prob": 0.0,
+      "final_prob": 0.32175956310789927,
+      "total_adjustment": 1.0,
+      "adjustment_count": 1,
+      "max_single_adjustment": 0.0,
+      "avg_confidence": 0.9,
+      "was_capped": false,
+      "cap_applied": null,
+      "has_manual_override": false,
+      "lineage_hash": "d499a8ed96a6"
+    }
+  }
+}

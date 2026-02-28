@@ -1,0 +1,37 @@
+{
+  "sport": "TENNIS",
+  "enabled": true,
+  "markets": ["match_winner"],
+  "tours": ["ATP", "WTA"],
+  "version": "1.0",
+  
+  "risk_gates": {
+    "min_rest_hours": 24,
+    "max_matches_7d": 4,
+    "min_surface_matches_90d": 2,
+    "block_if_retired_last": true,
+    "block_unknown_opponent": true
+  },
+  
+  "probability": {
+    "min_probability": 0.50,
+    "max_probability": 0.80,
+    "elo_weight": 0.50,
+    "serve_weight": 0.25,
+    "return_weight": 0.15,
+    "fatigue_weight": 0.10
+  },
+  
+  "tiers": {
+    "STRONG": 0.65,
+    "LEAN": 0.58,
+    "NO_PLAY": 0.00
+  },
+  
+  "surfaces": ["HARD", "CLAY", "GRASS", "INDOOR"],
+  
+  "edge_definition": {
+    "unique_by": ["player", "opponent", "surface", "round", "tour"],
+    "one_edge_one_bet": true
+  }
+}

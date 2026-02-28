@@ -1,0 +1,176 @@
+======================================================================
+[SOCCER] PROP ANALYSIS - RISK-FIRST REPORT
+======================================================================
+
+[DATA] Sources: 23 from DATABASE | 11 from ESTIMATES
+[!] ESTIMATES are position-based averages - treat with caution!
+
+
+[STRONG] (66%+) - HIGH CONFIDENCE
+--------------------------------------------------
+  [EST] Michele Di Gregorio
+     saves UNDER 2.5 - 67.7%
+     Avg: 2.0/game | GP: EST
+     [!] Platform offered opposite -- model says UNDER
+
+  [DB] Vinicius Junior (Real Madrid)
+     shots on target OVER 0.5 - 75.3%
+     Avg: 1.4/game | GP: 18
+
+  [DB] Vinicius Junior (Real Madrid)
+     assists UNDER 0.5 - 67.0%
+     Avg: 0.4/game | GP: 18
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Kenan Yildiz
+     shots attempted UNDER 2.5 - 72.0%
+     Avg: 1.2/game | GP: EST
+     [!] Platform offered opposite -- model says UNDER
+
+  [DB] Ousmane Dembele (PSG)
+     shots on target UNDER 1.5 - 66.3%
+     Avg: 1.2/game | GP: 22
+     [!] Platform offered opposite -- model says UNDER
+
+  [DB] Ousmane Dembele (PSG)
+     goals UNDER 0.5 - 70.5%
+     Avg: 0.3/game | GP: 22
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Anatoliy Trubin
+     saves UNDER 3.5 - 72.0%
+     Avg: 2.0/game | GP: EST
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Weston McKennie
+     shots attempted UNDER 1.5 - 66.3%
+     Avg: 1.2/game | GP: EST
+     [!] Platform offered opposite -- model says UNDER
+
+
+[LEAN] (56%+) - ACTIONABLE
+--------------------------------------------------
+  [DB] Kylian Mbappe (Real Madrid)
+     shots attempted OVER 3.5 - 56.7%
+     Avg: 4.0/game | GP: 22
+
+  [DB] Kylian Mbappe (Real Madrid)
+     goals+assists OVER 0.5 - 59.3%
+     Avg: 0.9/game | GP: 22
+
+  [DB] Victor Osimhen (Napoli)
+     goals+assists OVER 0.5 - 56.8%
+     Avg: 0.8/game | GP: 18
+
+  [DB] Vinicius Junior (Real Madrid)
+     shots attempted OVER 2.5 - 62.0%
+     Avg: 3.2/game | GP: 18
+
+  [DB] Vinicius Junior (Real Madrid)
+     goals+assists OVER 0.5 - 61.3%
+     Avg: 1.0/game | GP: 18
+
+  [DB] Vinicius Junior (Real Madrid)
+     goals UNDER 0.5 - 57.7%
+     Avg: 0.6/game | GP: 18
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Kenan Yildiz
+     shots on target UNDER 0.5 - 60.7%
+     Avg: 0.5/game | GP: EST
+     [!] Platform offered opposite -- model says UNDER
+
+  [DB] Ousmane Dembele (PSG)
+     shots attempted UNDER 3.5 - 64.7%
+     Avg: 3.0/game | GP: 22
+     [!] Platform offered opposite -- model says UNDER
+
+  [DB] Ousmane Dembele (PSG)
+     assists UNDER 0.5 - 63.8%
+     Avg: 0.5/game | GP: 22
+     [!] Platform offered opposite -- model says UNDER
+
+  [DB] Serhou Guirassy (Borussia Dortmund)
+     shots attempted UNDER 3.5 - 60.3%
+     Avg: 3.2/game | GP: 19
+     [!] Platform offered opposite -- model says UNDER
+
+  [DB] Serhou Guirassy (Borussia Dortmund)
+     shots on target UNDER 1.5 - 59.2%
+     Avg: 1.4/game | GP: 19
+     [!] Platform offered opposite -- model says UNDER
+
+  [DB] Serhou Guirassy (Borussia Dortmund)
+     goals UNDER 0.5 - 57.7%
+     Avg: 0.6/game | GP: 19
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Weston McKennie
+     shots on target UNDER 0.5 - 60.7%
+     Avg: 0.5/game | GP: EST
+     [!] Platform offered opposite -- model says UNDER
+
+
+[AVOID] (below LEAN threshold) - SKIP
+--------------------------------------------------
+  [X] Kylian Mbappe - shots on target OVER 1.5 - 53.7%  [NO EDGE]
+       OVER: 53.7% | UNDER: 46.3% -- coin flip
+  [X] Kylian Mbappe - goals UNDER 0.5 - 52.2%  [WRONG DIR]
+       Platform offered: OVER | Model best: UNDER
+       -> Flip UNDER also weak: 52.2%
+  [X] Victor Osimhen - shots attempted UNDER 3.5 - 53.7%  [WRONG DIR]
+       Platform offered: OVER | Model best: UNDER
+       -> Flip UNDER also weak: 53.7%
+  [X] Victor Osimhen - shots on target UNDER 1.5 - 55.8%  [WRONG DIR]
+       Platform offered: OVER | Model best: UNDER
+       -> Flip UNDER also weak: 55.8%
+  [X] Victor Osimhen - goals OVER 0.5 - 51.3%  [NO EDGE]
+       OVER: 51.3% | UNDER: 48.7% -- coin flip
+  [X] Kenan Yildiz - goals+assists UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Kenan Yildiz - goals UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Thibaut Courtois - saves OVER 2.5 - 53.1%  [NO EDGE]
+       OVER: 53.1% | UNDER: 46.9% -- coin flip
+  [X] Ousmane Dembele - goals+assists OVER 0.5 - 55.1%  [NO EDGE]
+       OVER: 55.1% | UNDER: 44.9% -- coin flip
+  [X] Serhou Guirassy - goals+assists OVER 0.5 - 51.8%  [NO EDGE]
+       OVER: 51.8% | UNDER: 48.2% -- coin flip
+  [X] Weston McKennie - goals+assists UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Weston McKennie - goals UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Weston McKennie - assists UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+
+======================================================================
+[SUMMARY] ACTIONABLE PICKS: 21
+   SLAM: 0 | STRONG: 8 | LEAN: 13
+
+[!] NOTE: Some picks use ESTIMATES. Prioritize DATABASE picks.
+
+======================================================================
+[CHEAT SHEET] - Copy/Paste Ready
+======================================================================
+** Michele Di Gregorio saves UNDER 2.5 (68%)
+** Vinicius Junior shots on target OVER 0.5 (75%)
+** Vinicius Junior assists UNDER 0.5 (67%)
+** Kenan Yildiz shots attempted UNDER 2.5 (72%)
+** Ousmane Dembele shots on target UNDER 1.5 (66%)
+** Ousmane Dembele goals UNDER 0.5 (70%)
+** Anatoliy Trubin saves UNDER 3.5 (72%)
+** Weston McKennie shots attempted UNDER 1.5 (66%)
+* Kylian Mbappe shots attempted OVER 3.5 (57%)
+* Kylian Mbappe goals+assists OVER 0.5 (59%)
+* Victor Osimhen goals+assists OVER 0.5 (57%)
+* Vinicius Junior shots attempted OVER 2.5 (62%)
+* Vinicius Junior goals+assists OVER 0.5 (61%)
+* Vinicius Junior goals UNDER 0.5 (58%)
+* Kenan Yildiz shots on target UNDER 0.5 (61%)
+* Ousmane Dembele shots attempted UNDER 3.5 (65%)
+* Ousmane Dembele assists UNDER 0.5 (64%)
+* Serhou Guirassy shots attempted UNDER 3.5 (60%)
+* Serhou Guirassy shots on target UNDER 1.5 (59%)
+* Serhou Guirassy goals UNDER 0.5 (58%)
+* Weston McKennie shots on target UNDER 0.5 (61%)
+======================================================================

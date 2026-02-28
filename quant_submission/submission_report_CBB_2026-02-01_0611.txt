@@ -1,0 +1,163 @@
+
+================================================================================
+    QUANTITATIVE SPORTS BETTING MODEL - SUBMISSION REPORT
+    Sport: CBB
+    Generated: 2026-02-01 06:11:10
+================================================================================
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  EXECUTIVE SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  This model evaluates player prop bets for CBB using a probability-based
+  framework with Monte Carlo simulation and empirical calibration.
+
+  KEY METRICS:
+  ┌──────────────────────────────────────────────────────────────────────────┐
+  │  Total Picks Evaluated:        97                                       │
+  │  Brier Score:                0.2597  (target: < 0.24)               │
+  │  Hit Rate:                    48.4%  (target: > 52.5%)               │
+  │  ROI:                         -7.5%  (target: > 0%)                   │
+  │  Profit/Loss:                 -7.27 units                           │
+  └──────────────────────────────────────────────────────────────────────────┘
+
+  OVERALL ASSESSMENT: UNPROFITABLE
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1. PROBABILITY CALIBRATION (Brier Score Decomposition)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Brier Score = Reliability - Resolution + Uncertainty
+  
+  ┌─────────────────────────────────────────────────────────────────────────┐
+  │  Component       Value    Description                                  │
+  ├─────────────────────────────────────────────────────────────────────────┤
+  │  Reliability     0.0208  How well probabilities match outcomes     │
+  │  Resolution      0.0108  How well model distinguishes outcomes     │
+  │  Uncertainty     0.2498  Base rate variance (irreducible)         │
+  │  ─────────────────────────────────────────────────────────────────────  │
+  │  Brier Score     0.2598  (lower is better)                       │
+  └─────────────────────────────────────────────────────────────────────────┘
+
+  INTERPRETATION:
+  • Reliability 0.0208 indicates OVERCONFIDENT predictions
+  • Resolution 0.0108 shows limited discrimination ability
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  2. CALIBRATION CURVE (Predicted vs Observed)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Bucket              N    Predicted     Observed        Error   Status
+  --------------------------------------------------------------------
+  0.1-0.2             1        11.6%       100.0%       -88.4%        ✗
+  0.3-0.4             1        37.0%       100.0%       -63.0%        ✗
+  0.4-0.5             1        42.4%         0.0%       +42.4%        ✗
+  0.5-0.6            93        55.0%        47.3%        +7.7%        ✗
+  0.6-0.7             1        67.7%       100.0%       -32.3%        ✗
+
+
+  CALIBRATION INTERPRETATION:
+  • Model predicts 54.4% average probability
+  • Actual hit rate is 48.4%
+  • CALIBRATION DRIFT: 5.9% overconfident
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  3. FINANCIAL PERFORMANCE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Assumptions: Standard -110 lines, flat betting
+
+  ┌─────────────────────────────────────────────────────────────────────────┐
+  │  Metric                Value                                           │
+  ├─────────────────────────────────────────────────────────────────────────┤
+  │  Total Picks:              97                                           │
+  │  Wins:                     47 (48.4%)                                  │
+  │  ROI:                   -7.5%                                            │
+  │  Profit/Loss:           -7.27 units                                     │
+  │  Expected Value:       +3.81% per pick                                │
+  │  Kelly Fraction:        -8.2%                                          │
+  └─────────────────────────────────────────────────────────────────────────┘
+
+  BREAK-EVEN ANALYSIS:
+  • At -110, break-even hit rate = 52.38%
+  • Current hit rate: 48.4%
+  • BELOW break-even by 3.9%
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  4. BREAKDOWN BY TIER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Tier                   N     Hits     Hit Rate      Brier
+  -------------------------------------------------------
+  USER                  97       47        48.4%     0.2597
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  5. BREAKDOWN BY STAT TYPE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Stat                   N     Hits     Hit Rate      Brier
+  -------------------------------------------------------
+  PTS                   20       10        50.0%     0.2525
+  PRA                   18        9        50.0%     0.2527
+  3PM                   15        8        53.3%     0.2807
+  REB                   14        7        50.0%     0.2525
+  PTS+AST                8        3        37.5%     0.2740
+  AST                    5        3        60.0%     0.2425
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  6. BREAKDOWN BY DIRECTION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Direction              N     Hits     Hit Rate      Brier
+  -------------------------------------------------------
+  OVER                  64       30        46.9%     0.2641
+  UNDER                 33       17        51.5%     0.2511
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  7. METHODOLOGY SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  PROBABILITY ENGINE:
+  • Monte Carlo simulation with 10,000 iterations
+  • Log-normal/Gaussian mixture distributions
+  • Sample size weighting (min 10 games required)
+  • Matchup-specific adjustments when available
+
+  CALIBRATION APPROACH:
+  • Empirical calibration curve from historical outcomes
+  • Temperature scaling adjustment (T = 1.18)
+  • Tier-specific thresholds based on calibrated probabilities
+
+  EDGE QUALIFICATION (SDG):
+  • Z-score thresholds: PTS ≥ 0.80, REB ≥ 0.75, PRA ≥ 0.85
+  • Minimum edge requirements: 2.0-4.0% depending on stat
+  • Variance penalties for high-volatility players
+  • Sample size gates (50%+ min games)
+
+  RISK MANAGEMENT:
+  • Fixed flat betting (no Kelly scaling)
+  • Tier-based selection (STRONG > 67% only)
+  • Correlation limits for parlay construction
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  8. QUALITY CHECKLIST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    [F] Brier Score < 0.24            (actual: 0.2597)
+    [F] Hit Rate > 52.5%             (actual: 48.4%)
+    [F] Positive ROI                  (actual: -7.5%)
+    [F] Reliability < 0.02           (actual: 0.0208)
+
+
+================================================================================
+    END OF SUBMISSION REPORT
+================================================================================

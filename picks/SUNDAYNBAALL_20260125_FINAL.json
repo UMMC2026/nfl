@@ -1,0 +1,472 @@
+{
+  "date": "2026-01-25",
+  "timestamp": "2026-01-25T03:45:17.750962",
+  "slate": "SUNDAYNBAALL",
+  "source_file": "SUNDAYNBAALL_RISK_FIRST_20260125_FROM_UD.json",
+  "summary": {
+    "play_count": 4,
+    "lean_count": 47,
+    "total": 51
+  },
+  "picks": [
+    {
+      "player": "Jeremiah Fears",
+      "team": "NOP",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 90.2
+    },
+    {
+      "player": "Max Christie",
+      "team": "DAL",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 90.2
+    },
+    {
+      "player": "Ryan Rollins",
+      "team": "MIL",
+      "stat": "assists",
+      "line": 7.0,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 84.7
+    },
+    {
+      "player": "Collin Gillespie",
+      "team": "PHX",
+      "stat": "assists",
+      "line": 5.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 84.0
+    },
+    {
+      "player": "Stephen Curry",
+      "team": "GSW",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 84.5
+    },
+    {
+      "player": "Zion Williamson",
+      "team": "NOP",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 77.4
+    },
+    {
+      "player": "Ausar Thompson",
+      "team": "DET",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 76.5
+    },
+    {
+      "player": "RJ Barrett",
+      "team": "TOR",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 75.8
+    },
+    {
+      "player": "Derik Queen",
+      "team": "NOP",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 74.1
+    },
+    {
+      "player": "Nic Claxton",
+      "team": "BKN",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 73.2
+    },
+    {
+      "player": "Julius Randle",
+      "team": "MIN",
+      "stat": "assists",
+      "line": 5.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 72.1
+    },
+    {
+      "player": "Russell Westbrook",
+      "team": "SAC",
+      "stat": "pts+ast",
+      "line": 18.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Duncan Robinson",
+      "team": "DET",
+      "stat": "pts+ast",
+      "line": 12.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Jonas Valan\u010di\u016bnas",
+      "team": "DEN",
+      "stat": "pts+ast",
+      "line": 17.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "stat": "pts+ast",
+      "line": 18.0,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Julian Champagnie",
+      "team": "SAS",
+      "stat": "pts+ast",
+      "line": 12.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Keldon Johnson",
+      "team": "SAS",
+      "stat": "pts+ast",
+      "line": 9.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Yves Missi",
+      "team": "NOP",
+      "stat": "pts+ast",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Ryan Rollins",
+      "team": "MIL",
+      "stat": "pts+ast",
+      "line": 26.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Naji Marshall",
+      "team": "DAL",
+      "stat": "pts+ast",
+      "line": 21.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Kyle Kuzma",
+      "team": "MIL",
+      "stat": "pts+ast",
+      "line": 18.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Cole Anthony",
+      "team": "MIL",
+      "stat": "pts+ast",
+      "line": 16.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "P.J. Washington",
+      "team": "DAL",
+      "stat": "pts+ast",
+      "line": 13.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Scottie Barnes",
+      "team": "TOR",
+      "stat": "pts+ast",
+      "line": 23.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "RJ Barrett",
+      "team": "TOR",
+      "stat": "pts+ast",
+      "line": 15.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Collin Murray-Boyles",
+      "team": "TOR",
+      "stat": "pts+ast",
+      "line": 12.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Collin Gillespie",
+      "team": "PHX",
+      "stat": "pts+ast",
+      "line": 22.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Kawhi Leonard",
+      "team": "LAC",
+      "stat": "pts+ast",
+      "line": 26.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Russell Westbrook",
+      "team": "SAC",
+      "stat": "pra",
+      "line": 23.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Duncan Robinson",
+      "team": "DET",
+      "stat": "pra",
+      "line": 14.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Jonas Valan\u010di\u016bnas",
+      "team": "DEN",
+      "stat": "pra",
+      "line": 27.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "stat": "pra",
+      "line": 21.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Ryan Rollins",
+      "team": "MIL",
+      "stat": "pra",
+      "line": 31.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Naji Marshall",
+      "team": "DAL",
+      "stat": "pra",
+      "line": 26.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Kyle Kuzma",
+      "team": "MIL",
+      "stat": "pra",
+      "line": 24.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Cole Anthony",
+      "team": "MIL",
+      "stat": "pra",
+      "line": 19.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "RJ Barrett",
+      "team": "TOR",
+      "stat": "pra",
+      "line": 19.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Collin Gillespie",
+      "team": "PHX",
+      "stat": "pra",
+      "line": 27.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Kawhi Leonard",
+      "team": "LAC",
+      "stat": "pra",
+      "line": 32.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Julian Champagnie",
+      "team": "SAS",
+      "stat": "points",
+      "line": 11.0,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 63.8
+    },
+    {
+      "player": "Kawhi Leonard",
+      "team": "LAC",
+      "stat": "points",
+      "line": 23.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 63.8
+    },
+    {
+      "player": "Jamal Murray",
+      "team": "DEN",
+      "stat": "steals",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 63.0
+    },
+    {
+      "player": "Peyton Watson",
+      "team": "DEN",
+      "stat": "steals",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 63.0
+    },
+    {
+      "player": "Brandin Podziemski",
+      "team": "GSW",
+      "stat": "steals",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 63.0
+    },
+    {
+      "player": "Rudy Gobert",
+      "team": "MIN",
+      "stat": "steals",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 63.0
+    },
+    {
+      "player": "Zion Williamson",
+      "team": "NOP",
+      "stat": "steals",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 63.0
+    },
+    {
+      "player": "James Harden",
+      "team": "LAC",
+      "stat": "steals",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 63.0
+    },
+    {
+      "player": "Cole Anthony",
+      "team": "MIL",
+      "stat": "points",
+      "line": 10.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 62.9
+    },
+    {
+      "player": "Ryan Rollins",
+      "team": "MIL",
+      "stat": "points",
+      "line": 19.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 62.2
+    },
+    {
+      "player": "Jalen Pickett",
+      "team": "DEN",
+      "stat": "points",
+      "line": 10.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 61.4
+    },
+    {
+      "player": "Kyle Kuzma",
+      "team": "MIL",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 60.2
+    }
+  ]
+}

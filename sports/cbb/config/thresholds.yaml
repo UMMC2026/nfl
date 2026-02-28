@@ -1,0 +1,35 @@
+# CBB Thresholds — Governance Enforced
+
+tiers:
+  # SLAM is DISABLED for CBB
+  STRONG:
+    min_probability: 0.70
+  LEAN:
+    min_probability: 0.60
+  NO_PLAY:
+    min_probability: 0.00
+
+confidence_caps:
+  core: 0.70
+  volume_micro: 0.65
+  event_binary: 0.55
+
+edge_gates:
+  min_minutes_avg: 20
+  min_games_played: 5
+  max_blowout_probability: 0.25
+  variance_penalty_factor: 0.60
+  variance_confidence_cap: 0.65
+
+blocked_stats:
+  - "pts+reb"
+  - "pts+ast"
+  - "pts+reb+ast"
+  - "reb+ast"
+  - "pra"
+  - "fantasy_points"
+
+data_requirements:
+  min_data_sources: 1
+  require_final_games: true
+  early_season_cutoff_date: "12-01"

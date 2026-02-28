@@ -1,0 +1,40 @@
+{
+  "date": "2026-01-27",
+  "timestamp": "2026-01-27T06:51:14.165565",
+  "slate": "NBATUESDAYPTS",
+  "source_file": "NBATUESDAYPTS_RISK_FIRST_20260127_FROM_UD.json",
+  "summary": {
+    "play_count": 0,
+    "lean_count": 3,
+    "total": 3
+  },
+  "picks": [
+    {
+      "player": "Isaiah Stewart",
+      "team": "DET",
+      "stat": "points",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 63.4
+    },
+    {
+      "player": "Isaiah Collier",
+      "team": "UTA",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 62.4
+    },
+    {
+      "player": "Jonas Valan\u010di\u016bnas",
+      "team": "DEN",
+      "stat": "points",
+      "line": 12.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 62.1
+    }
+  ]
+}

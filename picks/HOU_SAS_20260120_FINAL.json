@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-20",
+  "timestamp": "2026-01-20T11:00:06.145094",
+  "slate": "HOU_SAS",
+  "source_file": "HOU_SAS_RISK_FIRST_20260120_FROM_UD.json",
+  "summary": {
+    "play_count": 0,
+    "lean_count": 1,
+    "total": 1
+  },
+  "picks": [
+    {
+      "player": "Dorian Finney-Smith",
+      "team": "HOU",
+      "stat": "points",
+      "line": 4.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 69.7
+    }
+  ]
+}

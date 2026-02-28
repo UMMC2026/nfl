@@ -1,0 +1,43 @@
+{
+  "teams": {
+    "ANA": {"name": "Anaheim Ducks", "conference": "Western", "division": "Pacific", "timezone": "America/Los_Angeles"},
+    "ARI": {"name": "Arizona Coyotes", "conference": "Western", "division": "Central", "timezone": "America/Phoenix"},
+    "BOS": {"name": "Boston Bruins", "conference": "Eastern", "division": "Atlantic", "timezone": "America/New_York"},
+    "BUF": {"name": "Buffalo Sabres", "conference": "Eastern", "division": "Atlantic", "timezone": "America/New_York"},
+    "CGY": {"name": "Calgary Flames", "conference": "Western", "division": "Pacific", "timezone": "America/Denver"},
+    "CAR": {"name": "Carolina Hurricanes", "conference": "Eastern", "division": "Metropolitan", "timezone": "America/New_York"},
+    "CHI": {"name": "Chicago Blackhawks", "conference": "Western", "division": "Central", "timezone": "America/Chicago"},
+    "COL": {"name": "Colorado Avalanche", "conference": "Western", "division": "Central", "timezone": "America/Denver"},
+    "CBJ": {"name": "Columbus Blue Jackets", "conference": "Eastern", "division": "Metropolitan", "timezone": "America/New_York"},
+    "DAL": {"name": "Dallas Stars", "conference": "Western", "division": "Central", "timezone": "America/Chicago"},
+    "DET": {"name": "Detroit Red Wings", "conference": "Eastern", "division": "Atlantic", "timezone": "America/Detroit"},
+    "EDM": {"name": "Edmonton Oilers", "conference": "Western", "division": "Pacific", "timezone": "America/Edmonton"},
+    "FLA": {"name": "Florida Panthers", "conference": "Eastern", "division": "Atlantic", "timezone": "America/New_York"},
+    "LAK": {"name": "Los Angeles Kings", "conference": "Western", "division": "Pacific", "timezone": "America/Los_Angeles"},
+    "MIN": {"name": "Minnesota Wild", "conference": "Western", "division": "Central", "timezone": "America/Chicago"},
+    "MTL": {"name": "Montreal Canadiens", "conference": "Eastern", "division": "Atlantic", "timezone": "America/Montreal"},
+    "NSH": {"name": "Nashville Predators", "conference": "Western", "division": "Central", "timezone": "America/Chicago"},
+    "NJD": {"name": "New Jersey Devils", "conference": "Eastern", "division": "Metropolitan", "timezone": "America/New_York"},
+    "NYI": {"name": "New York Islanders", "conference": "Eastern", "division": "Metropolitan", "timezone": "America/New_York"},
+    "NYR": {"name": "New York Rangers", "conference": "Eastern", "division": "Metropolitan", "timezone": "America/New_York"},
+    "OTT": {"name": "Ottawa Senators", "conference": "Eastern", "division": "Atlantic", "timezone": "America/Toronto"},
+    "PHI": {"name": "Philadelphia Flyers", "conference": "Eastern", "division": "Metropolitan", "timezone": "America/New_York"},
+    "PIT": {"name": "Pittsburgh Penguins", "conference": "Eastern", "division": "Metropolitan", "timezone": "America/New_York"},
+    "SJS": {"name": "San Jose Sharks", "conference": "Western", "division": "Pacific", "timezone": "America/Los_Angeles"},
+    "SEA": {"name": "Seattle Kraken", "conference": "Western", "division": "Pacific", "timezone": "America/Los_Angeles"},
+    "STL": {"name": "St. Louis Blues", "conference": "Western", "division": "Central", "timezone": "America/Chicago"},
+    "TBL": {"name": "Tampa Bay Lightning", "conference": "Eastern", "division": "Atlantic", "timezone": "America/New_York"},
+    "TOR": {"name": "Toronto Maple Leafs", "conference": "Eastern", "division": "Atlantic", "timezone": "America/Toronto"},
+    "UTA": {"name": "Utah Hockey Club", "conference": "Western", "division": "Central", "timezone": "America/Denver"},
+    "VAN": {"name": "Vancouver Canucks", "conference": "Western", "division": "Pacific", "timezone": "America/Vancouver"},
+    "VGK": {"name": "Vegas Golden Knights", "conference": "Western", "division": "Pacific", "timezone": "America/Los_Angeles"},
+    "WSH": {"name": "Washington Capitals", "conference": "Eastern", "division": "Metropolitan", "timezone": "America/New_York"},
+    "WPG": {"name": "Winnipeg Jets", "conference": "Western", "division": "Central", "timezone": "America/Winnipeg"}
+  },
+  "league_averages": {
+    "sv_pct": 0.905,
+    "goals_per_game": 3.1,
+    "shots_per_game": 30.5,
+    "xg_per_game": 2.8
+  }
+}

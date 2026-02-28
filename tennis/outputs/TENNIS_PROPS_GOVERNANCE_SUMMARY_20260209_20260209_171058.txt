@@ -1,0 +1,40 @@
+==============================================================================
+GOVERNANCE SUMMARY - TENNIS_PROPS - 20260209
+==============================================================================
+Created (UTC): 2026-02-09T23:10:58.570937+00:00
+
+COUNTS
+------------------------------------------------------------------------------
+Total results : 42
+Allowed edges : 21
+Blocked edges : 21
+Decision breakdown:
+  - BLOCKED: 21
+  - PLAY: 12
+  - LEAN: 9
+
+TOP BLOCK REASONS
+------------------------------------------------------------------------------
+   14x - pick_state=REJECTED
+    7x - pick_state=VETTED
+
+TOP PLAY PICKS
+------------------------------------------------------------------------------
+ 1. Emma Navarro () game_spread HIGHER 1.5
+    eff=99.8% model=99.8% edge=? z=?
+ 2. Camila Osorio () game_spread HIGHER 2.5
+    eff=99.4% model=99.4% edge=? z=?
+ 3. Magdalena Frech () game_spread HIGHER 3.0
+    eff=98.7% model=98.7% edge=? z=?
+ 4. Tereza Valentova () game_spread HIGHER 3.5
+    eff=98.5% model=98.5% edge=? z=?
+ 5. Dayana Yastremska () game_spread HIGHER 5.0
+    eff=95.3% model=95.3% edge=? z=?
+ 6. Vera Zvonareva () game_spread HIGHER 6.0
+    eff=90.7% model=90.7% edge=? z=?
+ 7. Iga Swiatek () total_games HIGHER 17.5
+    eff=90.0% model=90.0% edge=? z=?
+ 8. Janice Tjen () game_spread HIGHER 6.5
+    eff=88.2% model=88.2% edge=? z=?
+ 9. Coco Gauff () total_games HIGHER 18.5
+... (truncated)

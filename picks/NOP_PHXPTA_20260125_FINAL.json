@@ -1,0 +1,40 @@
+{
+  "date": "2026-01-25",
+  "timestamp": "2026-01-25T18:46:09.781797",
+  "slate": "NOP_PHXPTA",
+  "source_file": "NOP_PHXPTA_RISK_FIRST_20260125_FROM_UD.json",
+  "summary": {
+    "play_count": 0,
+    "lean_count": 3,
+    "total": 3
+  },
+  "picks": [
+    {
+      "player": "Dillon Brooks",
+      "team": "PHX",
+      "stat": "pts+ast",
+      "line": 24.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Collin Gillespie",
+      "team": "PHX",
+      "stat": "pts+ast",
+      "line": 23.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Andrew Wiggins",
+      "team": "MIA",
+      "stat": "pts+ast",
+      "line": 16.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 71.4
+    }
+  ]
+}

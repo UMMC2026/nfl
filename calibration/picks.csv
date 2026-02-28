@@ -1,0 +1,843 @@
+pick_id,date,sport,player,stat,line,direction,probability,tier,actual,hit,brier,team,opponent,game_id,lambda_player,lambda_calculation,gap,z_score,prob_raw,prob_stat_capped,prob_global_capped,cap_applied,model_version,edge,edge_type
+35eb3fab-5e11-4240-808e-5bb198e61d7c,2026-02-07T19:18:36.402719,nba,Tyrese Maxey,points,27.5,lower,28.5,,29.0,False,0.08122499999999999,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,28.5,28.5,28.5,unknown,pre_v2.1.4,0.0,MIGRATED
+846b5a0c-df24-47a2-87a3-7f1fbe04fb35,2026-02-07T19:18:36.402719,nba,Evan Mobley,blocks,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+08bc639b-68e4-4777-8f0e-c45645e380c9,2026-02-07T19:18:36.402719,nba,Vince Edgecombe,steals,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+da585579-dbc2-4cd9-98aa-14e338accd60,2026-02-07T19:18:36.402719,nba,DeAndre Hunter,assists,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+e250b5a7-ae26-405b-a656-b41d7e67fbf3,2026-02-07T19:18:36.402719,nba,Evan Mobley,3pm,1.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+d3818bae-80fc-4f6e-a531-f34877c4fb28,2026-02-07T19:18:36.402719,nba,Joel Embiid,3pm,1.5,lower,0.0,,4.0,False,0.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+b57cd233-049e-4519-a282-d9a3ca68e3de,2026-02-07T19:18:36.402719,nba,Kelly Oubre,3pm,1.5,lower,0.0,,3.0,False,0.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+e75a2a7c-85f8-4eb7-852b-409ebb8d6116,2026-02-07T19:18:36.402719,nba,Julius Randle,points,23.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+77f9dc9b-a426-44d6-8421-b72db4f5555c,2026-02-07T19:18:36.402719,nba,Bones Hyland,points,11.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+90f3276e-b033-4b34-a836-c8328c7fd938,2026-02-07T19:18:36.402719,nba,Rudy Gobert,rebounds,10.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+1e95cfd1-1ebd-412b-98bf-92483c4423ad,2026-02-07T19:18:36.402719,nba,Kevin Durant,points,25.5,higher,0.0,,20.0,False,0.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+c6357825-cf95-4450-b356-90b049b237aa,2026-02-07T19:18:36.402719,nba,Amen Thompson,points,17.5,higher,37.2,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,37.2,37.2,37.2,unknown,pre_v2.1.4,0.0,MIGRATED
+c93b799e-0e6b-46e6-9333-33f776c7f860,2026-02-07T19:18:36.402719,nba,Lu Dort,3pm,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+d688f22d-1446-44b2-b45e-0b334516f344,2026-02-07T19:18:36.402719,nba,Amen Thompson,3pm,0.5,higher,28.3,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,28.3,28.3,28.3,unknown,pre_v2.1.4,0.0,MIGRATED
+da193702-d4e8-430d-870f-59860d344ad4,2026-02-07T19:18:36.402719,nba,Shai Gilgeous-Alexander,rebounds,3.5,higher,56.5,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,56.5,56.5,56.5,unknown,pre_v2.1.4,0.0,MIGRATED
+008a92e5-fce3-4726-a60b-66bcb57e4587,2026-02-07T19:18:36.402719,nba,Jalen Williams,3pm,0.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+98e15fd5-2599-45d4-8459-88437dc4f5b4,2026-02-07T19:18:36.402719,nba,Kevin Durant,3pm,2.5,higher,0.0,,2.0,False,0.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+72ccdfb0-8636-4a74-b99c-41ea4b92444e,2026-02-07T19:18:36.402719,nba,Royce ONeale,points,9.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+7704c798-c2b7-4189-b243-42fe9fbe15e9,2026-02-07T19:18:36.402719,nba,Dillon Brooks,points,21.5,higher,0.0,,28.0,True,1.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+34ae3bab-45e0-464e-9a0c-5f33d3000429,2026-02-07T19:18:36.402719,nba,Collin Gillespie,points,14.5,lower,0.0,,6.0,True,1.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+1a87d805-b2c7-4366-814e-312e696965d9,2026-02-07T19:18:36.402719,nba,Tobias Harris,3pm,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+0d66eb2e-ab3a-4d68-ba89-233f3c9aced9,2026-02-07T19:18:36.402719,nba,Jaren Jackson Jr,points,19.5,higher,0.0,,22.0,True,1.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+75e6b311-8925-4453-b795-2f61512aa8b2,2026-02-07T19:18:36.402719,nba,Desmond Bane,3pm,1.5,lower,0.0,,2.0,False,0.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+4cb1bbaa-97ca-4db3-a392-1928c4394841,2026-02-07T19:18:36.402719,nba,Franz Wagner,pts+reb+ast,23.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+303bf7c5-20be-4c0c-ae12-f00d1fd7cd31,2026-02-07T19:18:36.402719,nba,Anthony Black,points,15.5,higher,0.0,,21.0,True,1.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+8e265aaa-7cee-41e9-a36c-7baccc81b4a6,2026-02-07T19:18:36.402719,nba,Jalen Brunson,rebounds,3.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+e405f72c-a3a3-4941-955b-5528283938b5,2026-02-07T19:18:36.402719,nba,DeMar DeRozan,pts+reb+ast,26.5,higher,0.0,,18.0,False,0.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+c1fdc3e9-ff53-4389-a1e3-c02f04707af8,2026-02-07T19:18:36.402719,nba,Jamal Murray,points,25.5,higher,0.0,,28.0,True,1.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+e9ff4eb8-0dad-401e-bcd7-aa5663010063,2026-02-07T19:18:36.402719,nba,Karl-Anthony Towns,points,20.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+9bfd6f14-1fdc-4d17-85df-9f0d849d0493,2026-02-07T19:18:36.402719,nba,Paul George,assists,3.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+3f7fb1d3-0ae4-44f9-89ae-2da2dbd077ed,2026-02-07T19:18:36.402719,nba,Brandon Ingram,assists,3.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+8479f800-8492-4558-bd90-f1bad8515ddd,2026-02-07T19:18:36.403745,nba,Joel Embiid,rebounds,8.5,higher,0.0,,9.0,True,1.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+2afc4ff9-c195-4a87-9729-b16870cec8b8,2026-02-07T19:18:36.403745,nba,Nic Claxton,rebounds,7.5,higher,0.0,,5.0,False,0.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+3d9a1a60-3374-4821-99d9-49f9166fced2,2026-02-07T19:18:36.403745,nba,Stephen Curry,rebounds,3.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+72bfd475-8420-4002-bebb-0f635792ef21,2026-02-07T19:18:36.403745,nba,Bam Adebayo,assists,2.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+abadd598-a2a9-4284-8bdb-4ae749a9e86f,2026-02-07T19:18:36.403745,nba,Zion Williamson,assists,4.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+1bdf5c6e-0771-439a-b642-9996037b2047,2026-02-07T19:18:36.403745,nba,Chet Holmgren,assists,1.5,higher,0.0,,0.0,False,0.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+b0efda7b-1303-491e-af5a-1afbe7cd25d2,2026-02-07T19:18:36.403745,nba,Andrew Wiggins,points,13.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+759abcb1-51d4-4ea8-89d0-87507501e900,2026-02-07T19:18:36.403745,nba,Joel Embiid,rebounds,8.5,higher,0.0,,9.0,True,1.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+d46d59d0-cfc4-445a-830e-c9414888aadc,2026-02-07T19:18:36.403745,nba,James Harden,assists,8.5,higher,0.0,,8.0,False,0.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+a7e94279-4cee-42e4-a2c4-a7391523f2b0,2026-02-07T19:18:36.403745,nba,Stephen Curry,points,28.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+e91eaa54-8bb9-488b-a7b0-b5ad5ae429b1,2026-02-07T19:18:36.403745,nba,Giannis Antetokounmpo,points,30.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+ca884767-8251-491d-b435-7fe699c73758,2026-02-07T19:18:36.403745,nba,Anthony Davis,points,12.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+e6caa8e0-1e58-431a-9f00-b1549ade8556,2026-02-07T19:18:36.403745,nba,Cooper Flagg,3pm,0.5,higher,55.3,,2.0,True,0.19980900000000007,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,55.3,55.3,55.3,unknown,pre_v2.1.4,0.0,MIGRATED
+1662c41b-80a2-4d6d-acf7-9896739425f4,2026-02-07T19:18:36.403745,nba,Julius Randle,rebounds,7.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+d8fbea44-8bf7-4835-abca-504b8e6234db,2026-02-07T19:18:36.403745,nba,LaMelo Ball,assists,6.5,higher,0.0,,9.0,True,1.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+06af4e40-f996-4680-a4b2-ae8c79a683ba,2026-02-07T19:18:36.403745,nba,Anthony Edwards,assists,3.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+315e0172-28a4-4586-849f-0e9003e38d2a,2026-02-07T19:18:36.403745,nba,Kevin Durant,pts+reb+ast,38.5,higher,0.0,,25.0,False,0.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+e55d6310-85b8-4ddb-ab57-71062fe1848a,2026-02-07T19:18:36.403745,nba,Al Horford,assists,1.5,higher,0.0,,0.0,False,0.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+06abfb63-1a70-43c5-acd2-1da3a4a11746,2026-02-07T19:18:36.403745,nba,Dorian Finney-Smith,points,3.5,higher,0.0,,3.0,False,0.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+54b1a607-1cba-4879-a3df-9ca9f76da12c,2026-02-07T19:18:36.403745,nba,Deni Avdija,3pm,2.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+4d74057e-83e2-4af1-a3a3-8051deaed091,2026-02-07T19:18:36.403745,nba,F. R Gobert,rebounds,10.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+642e80b9-bf45-4f1f-89a6-82fc91def3d9,2026-02-07T19:18:36.403745,nba,K. Durant,points,25.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+64eaae8e-3479-4aa9-9862-e686b434018a,2026-02-07T19:18:36.403745,nba,A. Thompson,points,17.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+7e45736a-1c36-4d4a-95f1-fa9aa2e1308c,2026-02-07T19:18:36.403745,nba,J Clarkson,points,8.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+805480b8-f3c0-4f8c-806f-d3eb02e29e77,2026-02-07T19:18:36.403745,nba,S. Curry,pts+reb+ast,37.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+fda95f2a-580f-4106-9d17-c09a80cc041d,2026-02-07T19:18:36.403745,nba,M Bridges,3pm,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+c141b186-7624-431b-aa5a-221a15fc16d9,2026-02-07T19:18:36.403745,nba,J. Randle,rebounds,7.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+7800424d-aba6-4d93-980e-10bf0d085209,2026-02-07T19:18:36.403745,nba,n K Durant,pts+reb+ast,38.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+7d2774bf-48e9-4b8d-93b6-18421f8946f2,2026-02-07T19:18:36.403745,nba,D Avdija,3pm,2.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+1dafcc03-e07e-4e00-82eb-907257b21090,2026-02-07T19:18:36.403745,nba,A. Green,rebounds,2.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+98875adc-bb9b-487c-b408-d4849321a9e2,2026-02-07T19:18:36.403745,nba,L Dort,3pm,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+731c9d2f-b3b5-42d2-a260-e7a5e5f67cea,2026-02-07T19:18:36.403745,nba,Neale,points,9.5,higher,0.0,,14.0,True,1.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+c25874db-797e-4bab-8c76-f1ae9d119c7a,2026-02-07T19:18:36.403745,nba,D Brooks,points,21.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+7b4348ad-6f1a-4592-8606-e4d29c1abbe4,2026-02-07T19:18:36.403745,nba,C. Gillespie,points,14.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+b076c3a5-3881-43fe-91f1-ef685c0f0b17,2026-02-07T19:18:36.403745,nba,J. Jackson,points,19.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+e33d2670-9424-43cd-837d-4a080be8e7cf,2026-02-07T19:18:36.403745,nba,F. Wagner,pts+reb+ast,23.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+197734fa-1df6-4385-90b5-61f13037f551,2026-02-07T19:18:36.403745,nba,A. Black,points,15.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+f02d53d8-c7d0-494d-8593-e9cf66fc389f,2026-02-07T19:18:36.403745,nba,D DeRozan,pts+reb+ast,26.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+6a1bb9c7-361b-40bc-b566-cbb9b0742200,2026-02-07T19:18:36.403745,nba,J. Murray,points,25.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+001d76c1-81cc-485c-8918-eef2bfdc92eb,2026-02-07T19:18:36.403745,nba,K. Towns,points,20.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+05bb31d9-f0e1-4ff6-aba6-351300c59dd3,2026-02-07T19:18:36.403745,nba,P. George,assists,3.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+46851e34-4665-41ae-8639-148fd2a855b4,2026-02-07T19:18:36.403745,nba,B. Ingram,assists,3.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+3feadf66-0ec0-41f5-bf8a-c42f95df1eec,2026-02-07T19:18:36.404742,nba,Z. Williamson,assists,3.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+d83df3be-fc12-4edb-a2f1-189f78d1b565,2026-02-07T19:18:36.404742,nba,K. Towns,points,21.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+28352491-9bc0-45cd-b8af-97920de29729,2026-02-07T19:18:36.404742,nba,S. Curry,rebounds,3.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+c20f7a19-14c4-4d7b-9a04-d79a9c45789d,2026-02-07T19:18:36.404742,nba,B. Adebayo,assists,2.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+9a6985ca-41b1-4fa7-964e-85541df81009,2026-02-07T19:18:36.404742,nba,Z. Williamson,assists,4.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+e25d230f-3409-40ba-806b-ea90f62354cb,2026-02-07T19:18:36.404742,nba,S. Curry,points,28.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+470718c6-48a7-4b94-99f9-2dc93642bd82,2026-02-07T19:18:36.404742,nba,Gs Antetokounmpo,points,30.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+63de8e5c-e456-4cd4-aaeb-dcc4ac5f3d0e,2026-02-07T19:18:36.404742,nba,A. Davis,1h_points,12.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+89641093-791d-4bdd-a93d-1a87c4c8d3f3,2026-02-07T19:18:36.404742,nba,C.Flagg,3pm,0.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+01ca5119-e5ea-4613-aa01-77b6abb35e6c,2026-02-07T19:18:36.404742,nba,L Ball,assists,6.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+c61f6068-1161-46c2-947c-6623d34ccedb,2026-02-07T19:18:36.404742,nba,A. Horford,points,11.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+d4c2b3f5-c9ed-4aca-b941-7869a6fde35a,2026-02-07T19:18:36.404742,nba,S. Curry,3pm,4.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+04cd49e4-0f49-4d71-82cb-c6ac294d10ef,2026-02-07T19:18:36.404742,nba,L Ball,assists,6.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+6a3c1a64-9cb6-45cd-9208-e27fb8b4f11e,2026-02-07T19:18:36.404742,nba,C.Holmgren,assists,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+88775b1d-2d5a-4771-b81b-29877d959755,2026-02-07T19:18:36.404742,nba,A. Sarr,pts+reb+ast,27.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+0a49bc0e-0a9e-4ef0-bec4-3d7e07c2abf8,2026-02-07T19:18:36.404742,nba,J. Murray,pts+reb+ast,41.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+28e901bd-f61f-409c-8212-272e42581492,2026-02-07T19:18:36.404742,nba,D. Fox,points,22.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+c83e8043-6f77-4d86-8875-b18bd3a8b9ea,2026-02-07T19:18:36.404742,nba,V. Wembanyama,points,21.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+5905dbfc-077a-44dd-8aae-4de44e531a8b,2026-02-07T19:18:36.404742,nba,K. Towns,points,24.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+a3087a13-1839-4f48-aac0-698f89362be8,2026-02-07T19:18:36.404742,nba,D. Brooks,pts+reb+ast,24.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+a48b74c1-4136-49c0-89c5-4938ca9debbc,2026-02-07T19:18:36.404742,nba,L James,pts+reb+ast,43.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+b4f69ebb-4a66-4436-897b-ef6f8a80aa6f,2026-02-07T19:18:36.404742,nba,J LaRavia,pts+reb+ast,23.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+42f23a7a-72c9-4f20-8c84-855d73af4079,2026-02-07T19:18:36.404742,nba,S. Sharpe,points,24.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+7153a99f-d406-4dc5-8e74-e8faf64fd7e7,2026-02-07T19:18:36.404742,nba,K. Porter,pts+reb+ast,28.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+17198b42-d08b-4bf3-842c-0e6b8665ab3a,2026-02-07T19:18:36.404742,nba,B. Portis,points,11.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+463ce443-783a-4de1-8808-f3da47834b8d,2026-02-07T19:18:36.404742,nba,G. Antetokounmpo,pts+reb+ast,46.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+13de860b-12d0-42d9-a253-5934452899b2,2026-02-07T19:18:36.404742,nba,R. Rollins,rebounds,4.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+826d92b1-30a2-4a2e-b49f-5c87a62234f2,2026-02-07T19:18:36.404742,nba,J Johnson,pts+reb+ast,39.5,higher,0.0,,1.0,False,0.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+95aed6b2-c185-41cd-88b2-68f1b9c9415e,2026-02-07T19:18:36.404742,nba,K. Porter,pts+reb+ast,28.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+2eb6da79-bbd2-42c7-93ac-99e1a0b10ebc,2026-02-07T19:18:36.404742,nba,B. Portis,points,11.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+fd4200f0-5196-465b-8e5c-96ac4217a6a0,2026-02-07T19:18:36.404742,nba,Russell Westbrook,pts+ast,18.5,higher,0.0,,30.0,True,1.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+e4ff2764-4559-4ace-8745-c2c18a473fdf,2026-02-07T19:18:36.404742,nba,Duncan Robinson,pts+ast,12.5,higher,36.6,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,36.6,36.6,36.6,unknown,pre_v2.1.4,0.0,MIGRATED
+a99cb5bc-0f43-41d1-a66a-8730792562d8,2026-02-07T19:18:36.404742,nba,Jaden McDaniels,pts+ast,18.0,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+b62a8970-0e93-473b-99c3-2d9fbb82dd46,2026-02-07T19:18:36.404742,nba,Ausar Thompson,assists,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+2f4a79e6-bbc0-4180-ae3a-3ae4794d7ce0,2026-02-07T19:18:36.404742,nba,Julius Randle,assists,5.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+199fa823-d6c9-4366-9669-6999ee247be7,2026-02-07T19:18:36.404742,nba,Stephen Curry,assists,4.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+21577a7e-b221-4894-b4fb-e396408a591a,2026-02-07T19:18:36.404742,nba,Brandin Podziemski,steals,0.5,higher,0.0,,2.0,True,1.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+c670a7a4-49c2-4f2c-a058-51c857ef80d9,2026-02-07T19:18:36.404742,nba,Rudy Gobert,steals,0.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+d6976f27-d89b-4e45-8149-3ac285a63a9a,2026-02-07T19:18:36.404742,nba,Jaden McDaniels,rebounds,4.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+fa433da7-755a-4076-8fa1-844fc635d085,2026-02-07T19:18:36.404742,nba,Draymond Green,reb+ast,11.5,lower,0.0,,10.0,True,1.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+f553d433-22d2-4094-a2e9-2bee07ccda95,2026-02-07T19:18:36.404742,nba,Jaden McDaniels,reb+ast,7.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+dd6f050e-ba79-4928-9d71-f749fb2634a8,2026-02-07T19:18:36.404742,nba,Duncan Robinson,pts+ast,12.5,higher,36.6,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,36.6,36.6,36.6,unknown,pre_v2.1.4,0.0,MIGRATED
+b34a31a6-36b8-491a-8bdc-4c28834c9e8f,2026-02-07T19:18:36.404742,nba,Lauri Markkanen,pts+ast,24.5,higher,0.0,,28.0,True,1.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+b790d047-508c-4893-a2a3-3698e8414f21,2026-02-07T19:18:36.404742,nba,Isaiah Collier,pts+ast,22.5,lower,0.0,,30.0,False,0.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+a1cb7ab8-9e53-459a-86ae-19dcdfe5523e,2026-02-07T19:18:36.405739,nba,Kyle Filipowski,pts+ast,15.5,lower,0.0,,9.0,True,1.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+347803f6-f517-42e1-a208-07c224c9d525,2026-02-07T19:18:36.405739,nba,Kris Dunn,reb+ast,14.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+65e6cdfa-b97d-4712-9139-9f7399f57a40,2026-02-07T19:18:36.405739,nba,Jalen Pickett,reb+ast,8.0,higher,0.0,,0.0,False,0.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+d7763e00-9f26-4e1e-9d3a-71f7d4a324fd,2026-02-07T19:18:36.405739,nba,Peyton Watson,reb+ast,6.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+c1bafe36-159c-4ede-9e30-53dff4b94f70,2026-02-07T19:18:36.405739,nba,Isaiah Stewart,reb+ast,5.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+e505917a-0f56-437a-812e-33f1c4b5b8b6,2026-02-07T19:18:36.405739,nba,Cam Thomas,reb+ast,3.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+175213c9-6727-4b99-b368-df57ea5d0726,2026-02-07T19:18:36.405739,nba,Isaiah Collier,reb+ast,12.5,lower,0.0,,12.0,True,1.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+e37153f6-98f8-4a39-989c-90e3308a2bfc,2026-02-07T19:18:36.405739,nba,Donovan Clingan,reb+ast,11.5,higher,0.0,,22.0,True,1.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+fd5a264a-7bd6-44fc-a9df-ceafa799a1be,2026-02-07T19:18:36.405739,nba,Mikal Bridges,reb+ast,8.0,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+f89e7c8c-fbd7-4928-9417-d21eaabc2c2b,2026-02-07T19:18:36.405739,nba,Precious Achiuwa,reb+ast,4.5,higher,0.0,,4.0,False,0.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+a9cda582-c921-4ebc-9f40-b6f692b7b06f,2026-02-07T19:18:36.405739,nba,Miles McBride,reb+ast,4.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+05d63694-c749-4008-be80-6554ac196041,2026-02-07T19:18:36.405739,nba,Ryan Rollins,reb+ast,11.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+f9179a6d-2bcc-474c-90ea-df2fe8c3a6ed,2026-02-07T19:18:36.405739,nba,Myles Turner,reb+ast,8.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+fa03907e-3f6b-44ad-a1df-7da5e8fe208a,2026-02-07T19:18:36.405739,nba,Caleb Love,rebounds,2.5,higher,0.0,,0.0,False,0.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+740da5e6-be14-4d3c-830e-f2661cb59950,2026-02-07T19:18:36.405739,nba,Miles McBride,rebounds,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+bf2ff330-ae4e-4d56-b1ce-23f0c6f1ee22,2026-02-07T19:18:36.405739,nba,Kyle Kuzma,rebounds,6.0,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+d9d2110c-c35c-4e48-b51a-756de219b29c,2026-02-07T19:18:36.405739,nba,Jeremiah Fears,rebounds,2.5,higher,65.1,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,65.1,65.1,65.1,unknown,pre_v2.1.4,0.0,MIGRATED
+6d65f2a0-3206-4f2e-941a-ea15464891e0,2026-02-07T19:18:36.405739,nba,Isaiah Stewart,points,4.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+5d92fbaa-1b4f-488e-9a26-7671ab74f9e7,2026-02-07T19:18:36.405739,nba,Isaiah Collier,points,13.5,lower,0.0,,20.0,False,0.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+4da76790-a591-4784-b279-4b7b8caf2d0f,2026-02-07T19:18:36.405739,nba,J. McDaniels,points,16.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+8662f60a-0f41-4289-b0e6-46d26a882fb8,2026-02-07T19:18:36.405739,nba,M Buzelis,3pm,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+6727c98b-d47b-466c-a77a-45aa0a47e313,2026-02-07T19:18:36.405739,nba,M. Smart,points,9.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+b8670f17-fef7-4582-b8df-d928336f10ee,2026-02-07T19:18:36.405739,nba,A. Thompson,points,23.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+28c7623a-65ca-4464-81a9-938fca3f4d05,2026-02-07T19:18:36.405739,nba,R. Gobert,rebounds,11.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+611a9f20-f7c6-48b5-a184-b042010022a0,2026-02-07T19:18:36.405739,nba,A. Sengun,points,25.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+5f26fc15-a396-4819-b09e-3eb5dc912145,2026-02-07T19:18:36.405739,nba,J. McDaniels,points,16.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+1307c74c-091a-4a97-aa40-6fe191006c9e,2026-02-07T19:18:36.405739,nba,M Buzelis,3pm,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+79c279ea-7068-4909-a4a1-e467ebc8120f,2026-02-07T19:18:36.405739,nba,M. Smart,points,9.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+9101f968-44d8-4b7b-be54-298c226cd5f6,2026-02-07T19:18:36.405739,nba,A. Thompson,points,23.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+f8d27898-e6ce-4249-b396-e631b90b7946,2026-02-07T19:18:36.405739,nba,R. Gobert,rebounds,11.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+52678b65-9acc-4998-a218-352d41ec668b,2026-02-07T19:18:36.405739,nba,A. Sengun,points,25.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+d70cdb18-85a0-4f21-9dc2-4d0c0768b987,2026-02-07T19:18:36.405739,nba,D Sabonis,pts+reb+ast,31.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+9b0c3d9e-e65f-4799-9bf6-8e96dadaede5,2026-02-07T19:18:36.405739,nba,K. Kuzma,rebounds,5.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+f5743314-3caf-4533-bc91-42c752c319fb,2026-02-07T19:18:36.405739,nba,R. Rollins,pts+reb+ast,32.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+919298d8-eb03-433b-8b52-6a9e51ff2a97,2026-02-07T19:18:36.405739,nba,J. Fears,rebounds,2.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+ca3ee449-5b4c-4bb4-8155-aee1419da4f8,2026-02-07T19:18:36.405739,nba,D Sabonis,pts+reb+ast,31.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+6b5c4131-6e51-4d20-bda8-1b5c23cecaaa,2026-02-07T19:18:36.405739,nba,K. Kuzma,rebounds,5.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+356e5d45-7cd9-433d-872b-31abf1591f01,2026-02-07T19:18:36.405739,nba,R. Rollins,pts+reb+ast,32.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+7d3e38e8-e99a-41b0-a948-4bca8614753c,2026-02-07T19:18:36.405739,nba,J. Fears,rebounds,2.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+e135ab5a-d995-4edf-8b14-5d5e1ce55165,2026-02-07T19:18:36.405739,nba,J. Fears,rebounds,2.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+18fa04d3-0481-430b-b25e-0b2e802883f2,2026-02-07T19:18:36.405739,nba,R. Rollins,pts+reb+ast,32.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+60ca86b8-04e8-4b04-86b8-9c30c456d4df,2026-02-07T19:18:36.405739,nba,J. Fears,rebounds,2.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+6fcb0805-45c7-4cbe-9fe4-354b772dab04,2026-02-07T19:18:36.405739,nba,R. Rollins,pts+reb+ast,32.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+ff714d8e-f10b-48fd-9ddc-20023091f699,2026-02-07T19:18:36.405739,nba,A. Wiggins,rebounds,3.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+7f31e821-0b61-4f89-bdf2-bd5a224f5cce,2026-02-07T19:18:36.405739,nba,J. Ivey,3pm,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+251d3925-66f5-4d15-98ee-0bb4435b58d3,2026-02-07T19:18:36.405739,nba,F. K Oubre,rebounds,5.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+88670b40-5947-406f-aac2-d69d90fbd13d,2026-02-07T19:18:36.405739,nba,B. Portis,rebounds,8.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+3b85ee24-8be5-43d6-ac65-2ce1d30749b7,2026-02-07T19:18:36.406736,nba,A. Wiggins,rebounds,3.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+68d59955-edca-48b7-b158-01cc9e5cb449,2026-02-07T19:18:36.406736,nba,J. Ivey,3pm,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+4dbceb1a-14d8-4128-8aad-5b6793f49b39,2026-02-07T19:18:36.406736,nba,F. K Oubre,rebounds,5.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+12b508f7-7324-423e-abc0-9933d23567bc,2026-02-07T19:18:36.406736,nba,B. Portis,rebounds,8.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+28b7fe42-3e6f-499e-9fec-04a5e74678a8,2026-02-07T19:18:36.406736,nba,K. Porter,pts+reb+ast,28.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+946132b3-1eb7-4fc1-83c1-9a428ee94616,2026-02-07T19:18:36.406736,nba,B. Portis,points,11.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+b2e29d90-b8e0-46e0-a391-0bc6b5a6346f,2026-02-07T19:18:36.406736,nba,K. Porter,pts+reb+ast,28.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+d5d276ee-45f8-43b1-95a1-c3607c650d37,2026-02-07T19:18:36.406736,nba,B. Portis,points,11.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+2e49b88d-7206-4bee-83d8-7c5bd0828a81,2026-02-07T19:18:36.406736,nba,G. Antetokounmpo,pts+reb+ast,46.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+fe73888b-5d71-43d2-8f2e-0290641efaea,2026-02-07T19:18:36.406736,nba,R. Rollins,rebounds,4.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+1d27b8d4-3dbb-4e27-8cef-8b7ae787a896,2026-02-07T19:18:36.406736,nba,J Johnson,pts+reb+ast,39.5,higher,0.0,,1.0,False,0.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+4243e5d4-03a8-49b0-a22d-00f4d9fcbf91,2026-02-07T19:18:36.406736,nba,G. Antetokounmpo,pts+reb+ast,46.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+2bce3d06-60e6-4c56-8489-93b60e7fd94c,2026-02-07T19:18:36.406736,nba,R. Rollins,rebounds,4.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+bb738fa8-1028-41f7-9c62-d1e158b749ac,2026-02-07T19:18:36.406736,nba,J Johnson,pts+reb+ast,39.5,higher,0.0,,1.0,False,0.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+8b233eef-3fe6-4357-a8a8-c299a34199cb,2026-02-07T19:18:36.406736,nba,C.Holmgren,assists,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+c747ea50-7d92-4cb0-939a-8ed056484b41,2026-02-07T19:18:36.406736,nba,A. Sarr,pts+reb+ast,27.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+3f0a76bb-a5ab-420e-90d6-d59eab8ff3bd,2026-02-07T19:18:36.406736,nba,J. Murray,pts+reb+ast,41.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+fd2fd6eb-4aac-4d60-bee6-9ea59c2e5ed4,2026-02-07T19:18:36.406736,nba,D. Fox,points,22.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+25f4e7bc-bab2-43d3-af53-8ccad64eb8fa,2026-02-07T19:18:36.406736,nba,V. Wembanyama,points,21.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+b3a0b7b2-0915-477f-9e70-92b5ed5c55c8,2026-02-07T19:18:36.406736,nba,C.Holmgren,assists,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+3e33a0c6-f0d7-449f-b38d-3c41263efe36,2026-02-07T19:18:36.406736,nba,A. Sarr,pts+reb+ast,27.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+a8f52e6f-d78d-4f85-a46d-714d5eae9ee0,2026-02-07T19:18:36.406736,nba,J. Murray,pts+reb+ast,41.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+d91e4778-b1bf-4c8e-9a7d-b51be82b14bf,2026-02-07T19:18:36.406736,nba,D. Fox,points,22.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+92f576fb-6350-43df-96c0-c975e01c6f48,2026-02-07T19:18:36.406736,nba,V. Wembanyama,points,21.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+80dcdc0c-8c51-4bfe-8fbc-fc70a47536b0,2026-02-07T19:18:36.406736,nba,A. Horford,points,11.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+06ab895e-20b1-41bd-a9a6-1d1aac5fab18,2026-02-07T19:18:36.406736,nba,S. Curry,3pm,4.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+68116d3a-f9d9-4082-bc11-a8a7ef6294ee,2026-02-07T19:18:36.406736,nba,L Ball,assists,6.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+d70e0ba9-8e9b-4abc-9cb5-d8cd1c85f2ed,2026-02-07T19:18:36.406736,nba,A. Horford,points,11.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+f5b553d7-2dec-44c7-9a49-2b06257169dc,2026-02-07T19:18:36.406736,nba,S. Curry,3pm,4.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+8c5df7a6-08b1-4bd6-8c9b-2d7ab486cae2,2026-02-07T19:18:36.406736,nba,L Ball,assists,6.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+9f8d6b23-9632-4199-9514-65468d962eec,2026-02-07T19:18:36.406736,nba,L James,pts+reb+ast,43.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+eb250ee1-807d-4e0e-b25b-03107e3580c2,2026-02-07T19:18:36.406736,nba,J LaRavia,pts+reb+ast,23.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+9a1f9268-433b-4c65-b9a5-0d6b425f123d,2026-02-07T19:18:36.406736,nba,S. Sharpe,points,24.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+f2683a41-14b3-4494-aefe-ea18e6e2bd6f,2026-02-07T19:18:36.406736,nba,L James,pts+reb+ast,43.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+8a9b372c-aee3-4fbc-b3cf-9d56958638b3,2026-02-07T19:18:36.406736,nba,J LaRavia,pts+reb+ast,23.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+0b02481b-c87d-4127-bb67-19d4acd54e01,2026-02-07T19:18:36.406736,nba,S. Sharpe,points,24.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+9b1cd6d2-5dc4-4ced-910e-247536bf3cc8,2026-02-07T19:18:36.406736,nba,J. Valanciunas,points,12.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+0de2856a-fb5c-43d0-9427-17c10eecb803,2026-02-07T19:18:36.406736,nba,J. Valanciunas,points,12.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+6244a75d-e2ec-4759-9b06-c46f2d57cc23,2026-02-07T19:18:36.406736,nba,K. Towns,points,24.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+4c5f096a-adfb-4cb2-8bcd-b3b038013c6c,2026-02-07T19:18:36.406736,nba,D. Brooks,pts+reb+ast,24.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+20634a92-68d2-4e27-8121-abb649f6864f,2026-02-07T19:18:36.406736,nba,K. Towns,points,24.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+dd66c37e-b507-4bf4-b0a6-f1f5debd765e,2026-02-07T19:18:36.406736,nba,D. Brooks,pts+reb+ast,24.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+03697765-68d6-4e32-b58b-ce1204c7522d,2026-02-07T19:18:36.406736,nba,N. Marshall,rebounds,6.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+60768d6f-fc88-439e-a066-155e597dcd35,2026-02-07T19:18:36.406736,nba,B. Williams,assists,4.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+b0c8fba7-175b-46cd-a93f-be496d516c6a,2026-02-07T19:18:36.406736,nba,N. Marshall,rebounds,6.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+cfc94888-dfed-4681-83d2-da2d55e50174,2026-02-07T19:18:36.406736,nba,B. Williams,assists,4.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+bf1c33a6-3fd2-4a38-b695-e609ce6845df,2026-02-07T19:18:36.407734,nba,J. Randle,rebounds,7.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+0c0db05a-6aaf-4115-8a8d-e2bffff09d8f,2026-02-07T19:18:36.407734,nba,J. Randle,rebounds,7.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+3218b69f-9ccf-413d-aa14-f89a41326ac6,2026-02-07T19:18:36.407734,nba,n K Durant,pts+reb+ast,38.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+e7b107e3-5c01-4e53-9d24-2f4fd27f9d6a,2026-02-07T19:18:36.407734,nba,D Avdija,3pm,2.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+de56b0eb-30a2-4576-a391-b62fc02897b6,2026-02-07T19:18:36.407734,nba,A. Green,rebounds,2.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+582158c1-51b1-49db-b961-118d4a5e306f,2026-02-07T19:18:36.407734,nba,n K Durant,pts+reb+ast,38.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+fc33c148-2445-4d8c-b96c-6f20bdae2d8e,2026-02-07T19:18:36.407734,nba,D Avdija,3pm,2.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+3f7cab6d-01b4-4b26-a257-2d829e06d72b,2026-02-07T19:18:36.407734,nba,A. Green,rebounds,2.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+e48acf77-9ca7-47c6-a321-7a05681bc509,2026-02-07T19:18:36.407734,nba,A. Davis,1h_points,12.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+b45addd6-520a-4612-9233-f3c4a7954ba9,2026-02-07T19:18:36.407734,nba,C.Flagg,3pm,0.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+33fed100-1fd0-4513-83f7-3d7a6d3f50be,2026-02-07T19:18:36.407734,nba,J. Randle,rebounds,7.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+0747a7a4-ebf4-4a17-9e15-e3aaba379581,2026-02-07T19:18:36.407734,nba,L Ball,assists,6.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+7fb5113c-8c22-4bad-a888-ccd68985c7cc,2026-02-07T19:18:36.407734,nba,A. Davis,1h_points,12.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+70d6f5eb-e54b-4f23-9170-45432c15d01c,2026-02-07T19:18:36.407734,nba,C.Flagg,3pm,0.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+ba2889f6-683f-4b2f-bc32-84d20526ff01,2026-02-07T19:18:36.407734,nba,J. Randle,rebounds,7.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+68edc259-183b-4567-9646-decc34c92683,2026-02-07T19:18:36.407734,nba,L Ball,assists,6.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+dba3e308-400b-4d13-8c4a-2cf219bf2b19,2026-02-07T19:18:36.407734,nba,Z. Williamson,points,24.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+67a04b7a-89ad-46f0-9a28-9319f5b7df01,2026-02-07T19:18:36.407734,nba,F. K Towns,rebounds,11.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+f89cbf2d-4d78-421e-88cc-64e96a24ce98,2026-02-07T19:18:36.407734,nba,S. Curry,points,28.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+429f86b8-66fd-4d57-a2c8-1acbe0d008b7,2026-02-07T19:18:36.407734,nba,Z. Williamson,points,24.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+91633950-2939-42aa-ac87-bb1bc38bc756,2026-02-07T19:18:36.407734,nba,F. K Towns,rebounds,11.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+86a99f93-c33c-4062-8a8f-306b0f270e45,2026-02-07T19:18:36.407734,nba,S. Curry,points,28.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+560b39c5-3acd-489e-9d56-f52aa112b0ae,2026-02-07T19:18:36.407734,nba,S. Curry,points,28.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+05e51e59-dcea-4d97-b3b0-2cfeeb4eefe9,2026-02-07T19:18:36.407734,nba,Gs Antetokounmpo,points,30.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+6ce65391-cf5f-4b15-8b92-62028149c510,2026-02-07T19:18:36.407734,nba,S. Curry,points,28.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+8682e2b1-3b4f-4fdc-aeab-6d1a50293b39,2026-02-07T19:18:36.407734,nba,Gs Antetokounmpo,points,30.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+afefc5c5-6ed1-460d-96db-bcdfc08e60d2,2026-02-07T19:18:36.407734,nba,K. K Filipowski,points,15.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+c34653ea-95d9-4f5a-b96a-de6a210038ac,2026-02-07T19:18:36.407734,nba,KDunn,points,9.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+76b98eb5-86f1-4282-b29d-5484b3a54976,2026-02-07T19:18:36.407734,nba,J. Valanciunas,assists,10.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+3b87623c-2157-4f8b-8518-c060e29169df,2026-02-07T19:18:36.407734,nba,K. K Filipowski,points,15.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+8e6ca229-848a-4a41-9b8d-a8673135bda5,2026-02-07T19:18:36.407734,nba,KDunn,points,9.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+ea39fd97-2f17-41d3-a7a2-bda8a92a7f92,2026-02-07T19:18:36.407734,nba,J. Valanciunas,assists,10.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+42c0d36c-c5e6-4321-b117-2049d83bc1fb,2026-02-07T19:18:36.407734,nba,D DeRozan,pts+reb+ast,26.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+28183cf7-b124-4591-bc54-f06c780b996e,2026-02-07T19:18:36.407734,nba,J. Murray,points,25.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+bc175dc9-3afa-4005-8e0d-7dc6cb388ff9,2026-02-07T19:18:36.407734,nba,K. Towns,points,20.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+e5867d1f-9635-4946-8408-261a5f30edfe,2026-02-07T19:18:36.407734,nba,D DeRozan,pts+reb+ast,26.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+f9ea6335-3839-4a9b-a1b1-96eb98a48ef1,2026-02-07T19:18:36.407734,nba,J. Murray,points,25.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+7e0fa751-bf17-409b-9686-859aff126c94,2026-02-07T19:18:36.407734,nba,K. Towns,points,20.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+0cff5251-71cf-4dd7-9699-61ece02306f1,2026-02-07T19:18:36.407734,nba,P. George,assists,3.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+c8af5f40-8c29-4147-8b83-98ac16e9dd04,2026-02-07T19:18:36.408703,nba,B. Ingram,assists,3.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+eae6eab8-d8d4-4d7b-baae-8afbdc9fdc89,2026-02-07T19:18:36.409701,nba,Z. Williamson,assists,3.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+cc9eafdd-ab98-4abb-a821-129b6687cfa7,2026-02-07T19:18:36.409701,nba,K. Towns,points,21.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+9f190150-50c6-4988-8127-8064344edfdf,2026-02-07T19:18:36.409701,nba,P. George,assists,3.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+2a30c45c-268d-47f4-8f9b-53b1c60a5246,2026-02-07T19:18:36.409701,nba,B. Ingram,assists,3.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+db67433e-35c5-45bb-bda6-6dd4e1988c81,2026-02-07T19:18:36.409701,nba,Z. Williamson,assists,3.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+07a0c04b-7376-46aa-ba93-be49171ff7c1,2026-02-07T19:18:36.409701,nba,K. Towns,points,21.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+1dec3d71-6a3d-429c-82e3-78041058991a,2026-02-07T19:18:36.409701,nba,S. Curry,rebounds,3.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+8dc65e67-39cb-4688-8126-8c1a84d25cd6,2026-02-07T19:18:36.409701,nba,B. Adebayo,assists,2.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+ca97f380-ea47-4633-ac00-cd3425ebcab0,2026-02-07T19:18:36.409701,nba,Z. Williamson,assists,4.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+13c880c3-f24f-4dad-8edf-056ec7af676f,2026-02-07T19:18:36.409701,nba,S. Curry,rebounds,3.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+0167ec79-2c0d-4b93-8fff-f2b8dedc8430,2026-02-07T19:18:36.409701,nba,B. Adebayo,assists,2.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+14b44b35-888b-4902-bde5-46146ab24adf,2026-02-07T19:18:36.409701,nba,Z. Williamson,assists,4.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+f9482c97-1da6-4e80-869b-370d1d490331,2026-02-07T19:18:36.409701,nba,J. Jackson,points,19.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+c15a4dce-4412-4c28-bec5-5e5e3e8ce58f,2026-02-07T19:18:36.409701,nba,F. Wagner,pts+reb+ast,23.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+bf0df044-3738-4f74-8677-f1a09a58cb3f,2026-02-07T19:18:36.409701,nba,A. Black,points,15.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+d506c0fc-5719-485e-b588-1c591e121e74,2026-02-07T19:18:36.409701,nba,J. Jackson,points,19.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+06088ada-bbd5-4720-9c64-1123d078b59b,2026-02-07T19:18:36.409701,nba,F. Wagner,pts+reb+ast,23.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+9ba46914-b866-42c8-b06a-5ed9d2c5b5d1,2026-02-07T19:18:36.409701,nba,A. Black,points,15.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+158a15ba-89b7-46cb-a1b3-d7794f86d508,2026-02-07T19:18:36.409701,nba,Neale,points,9.5,higher,0.0,,14.0,True,1.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+a001b1c8-5f2e-4d18-bef3-f40d504a33c3,2026-02-07T19:18:36.409701,nba,D Brooks,points,21.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+075371ce-0098-48e7-b68f-27376122d000,2026-02-07T19:18:36.409701,nba,C. Gillespie,points,14.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+af5fed97-62ae-4b74-9e25-e1ee424e381d,2026-02-07T19:18:36.409701,nba,Neale,points,9.5,higher,0.0,,14.0,True,1.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+9182a66c-0c89-461e-bb78-a2f3c1c0bd0f,2026-02-07T19:18:36.409701,nba,D Brooks,points,21.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+1fce9f2b-e1ef-4647-885e-c05ffa0a5a93,2026-02-07T19:18:36.409701,nba,C. Gillespie,points,14.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+b1a467fb-8ab9-4051-8cfa-869dd217114b,2026-02-07T19:18:36.409701,nba,L Dort,3pm,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+3d994157-839f-42ae-b7a5-e118386daaa7,2026-02-07T19:18:36.409701,nba,L Dort,3pm,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+7611100a-4b57-498d-a9f9-14a7d20f31ef,2026-02-07T19:18:36.409701,nba,F. R Gobert,rebounds,10.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+198c586f-b241-4582-b94f-16246f19c6db,2026-02-07T19:18:36.409701,nba,K. Durant,points,25.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+f9a63f0d-4f6e-43c8-ab39-b6be144d2aa7,2026-02-07T19:18:36.409701,nba,A. Thompson,points,17.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+b884547a-76d4-4526-aa68-940e0430ebbf,2026-02-07T19:18:36.409701,nba,F. R Gobert,rebounds,10.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+a3ad15af-a47f-4d10-ba23-9e2a0141b706,2026-02-07T19:18:36.409701,nba,K. Durant,points,25.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+7c842e3e-fca1-4a07-9e5e-1aef3132cbcb,2026-02-07T19:18:36.409701,nba,A. Thompson,points,17.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+af6565d2-5619-4de8-a361-78276d42db9c,2026-02-07T19:18:36.409701,nba,J Clarkson,points,8.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+f299c3cf-a66a-459a-b942-af711cc916b8,2026-02-07T19:18:36.409701,nba,S. Curry,pts+reb+ast,37.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+74ab6057-f678-40e7-a054-9058b06ecac8,2026-02-07T19:18:36.409701,nba,M Bridges,3pm,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+8498ebd8-5c07-4cf4-aace-dc460a3e001c,2026-02-07T19:18:36.410728,nba,J Clarkson,points,8.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+c053c747-a53e-4522-87b9-de97e4487d0f,2026-02-07T19:18:36.410728,nba,S. Curry,pts+reb+ast,37.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+c02a439f-f3e0-4d7a-893e-315deb578b3f,2026-02-07T19:18:36.410728,nba,M Bridges,3pm,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+89dfd834-187d-4336-9406-05e424a589b0,2026-02-07T19:18:36.410728,nba,D. Hunter,assists,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+c80c4332-f7b9-4e8a-8429-3b78467487e6,2026-02-07T19:18:36.410728,nba,J. Embiid,3pm,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+e2f0fe29-bb0c-457e-a7ed-1cf1b7bf9c0c,2026-02-07T19:18:36.410728,nba,T.Maxey,points,27.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+8ed20210-816d-4d86-a661-639078a1b4e9,2026-02-07T19:18:36.410728,nba,D. Hunter,assists,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+44ee7160-7090-4cd1-b9c4-8967c60d773b,2026-02-07T19:18:36.410728,nba,J. Embiid,3pm,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+db30b81a-721d-4251-b271-1b7c5dea6b3a,2026-02-07T19:18:36.410728,nba,T.Maxey,points,27.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+42f3f9bf-d002-49de-9df1-79563d80654c,2026-02-07T19:18:36.410728,nba,T.Maxey,points,27.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+b482308f-302b-4fae-9383-56c640b03bf6,2026-02-07T19:18:36.410728,nba,E. Mobley,blocks,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+456a91b4-3560-49d9-93d8-54ebed0824a7,2026-02-07T19:18:36.410728,nba,T.Maxey,points,27.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+7b90bfd6-a16b-47de-8fd6-154b914413bd,2026-02-07T19:18:36.410728,nba,E. Mobley,blocks,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+a5f78a87-3206-4047-8041-d12718afb2a7,2026-02-07T19:18:36.410728,nba,Z. Williamson,points,24.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+93a57a22-7c04-498b-a80a-0a0b1164bf36,2026-02-07T19:18:36.410728,nba,F. K Towns,rebounds,11.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+a8adc64f-781d-4239-a2e4-0cb7d85536a6,2026-02-07T19:18:36.410728,nba,S. Curry,points,28.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+d3f723d9-b8b2-4500-bf2e-c4f7c9bbd88c,2026-02-07T19:18:36.410728,nba,Z. Williamson,points,24.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+a34b95c6-1d89-4c03-bced-7992cf8e849b,2026-02-07T19:18:36.410728,nba,F. K Towns,rebounds,11.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+35474352-ad9f-4d24-96b6-47351b9d5826,2026-02-07T19:18:36.410728,nba,S. Curry,points,28.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+c49e8b35-1ed1-41c9-aeda-2a7a46e13dd3,2026-02-07T19:18:36.410728,nba,S. Curry,rebounds,3.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+338069ab-1e33-4c1f-9dbe-a2bf4a9bc8a5,2026-02-07T19:18:36.410728,nba,B. Adebayo,assists,2.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+9b42cc82-10ee-49c8-a6c7-02e9e4797980,2026-02-07T19:18:36.410728,nba,S. Curry,rebounds,3.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+e2336d6b-3650-4335-ad1a-2a1c06e6b0bb,2026-02-07T19:18:36.410728,nba,B. Adebayo,assists,2.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+e5dd33bb-935c-45dc-ba14-0e78e83a60d7,2026-02-07T19:18:36.410728,nba,S. Curry,points,28.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+7aef0058-3708-4a2b-a350-e40e03598a34,2026-02-07T19:18:36.410728,nba,Gs Antetokounmpo,points,30.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+927f2b1d-0983-47cf-8fec-aee071b3c686,2026-02-07T19:18:36.410728,nba,S. Curry,points,28.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+b5e3b464-970f-4ecf-bbf0-25142a6a025f,2026-02-07T19:18:36.410728,nba,Gs Antetokounmpo,points,30.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+e88153d5-d5dc-4fef-93f3-3c3e626c6340,2026-02-07T19:18:36.410728,nba,D DeRozan,pts+reb+ast,26.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+516e32ae-9ad8-4630-9459-5edfa205f69f,2026-02-07T19:18:36.410728,nba,J. Murray,points,25.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+ca9726f3-3171-47f4-8188-f6a396c80bf6,2026-02-07T19:18:36.410728,nba,K. Towns,points,20.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+866b8f44-1d88-4743-ac4c-597db8b77f75,2026-02-07T19:18:36.410728,nba,D DeRozan,pts+reb+ast,26.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+1a87d653-aec4-4044-8b0f-9f563bfa2ad7,2026-02-07T19:18:36.410728,nba,J. Murray,points,25.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+cab28d8f-0994-4d61-a0bf-5d610ad490eb,2026-02-07T19:18:36.410728,nba,K. Towns,points,20.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+edc2563d-4682-4fb7-b871-bb96bddffa6c,2026-02-07T19:18:36.410728,nba,Jaylen Brown,3pm,1.0,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+7bc7f45a-8da7-4d26-897a-72a72ce126c6,2026-02-07T19:18:36.410728,nba,Jaden McDaniels,pts+ast,16.5,higher,37.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,37.0,37.0,37.0,unknown,pre_v2.1.4,0.0,MIGRATED
+0e7cb07d-4f2f-4fc1-8460-03abf32ad203,2026-02-07T19:18:36.410728,nba,Matas Buzelis,3pm,1.5,higher,67.7,,4.0,True,0.10432899999999996,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,67.7,67.7,67.7,unknown,pre_v2.1.4,0.0,MIGRATED
+1c0558b4-d21c-429f-9369-c5dbad8f0e88,2026-02-07T19:18:36.410728,nba,Marcus Smart,points,9.5,higher,0.0,,15.0,True,1.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+3d01f633-ac4e-4b82-bee0-84988cf49a2e,2026-02-07T19:18:36.410728,nba,Amen Thompson,pts+ast,23.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+91d0030e-ae59-4c14-b674-6166b30b6e43,2026-02-07T19:18:36.410728,nba,Rudy Gobert,rebounds,11.5,lower,41.3,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,41.3,41.3,41.3,unknown,pre_v2.1.4,0.0,MIGRATED
+3bb44a09-4db3-460d-874e-07197c2dcfc0,2026-02-07T19:18:36.410728,nba,Alperen Sengun,pts+ast,25.5,lower,0.0,,28.0,False,0.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+13018719-e8df-4ffc-8388-a41286fd88cb,2026-02-07T19:18:36.411695,nba,Domantas Sabonis,pts+reb+ast,31.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+1e043cf4-0bca-4381-87ab-aad5fb582a15,2026-02-07T19:18:36.411695,nba,Kyle Kuzma,rebounds,5.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+987519ca-bbdf-4cc8-956b-f3fdcdbc6b0c,2026-02-07T19:18:36.411695,nba,Ryan Rollins,pts+reb+ast,32.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+0ea376fd-d47f-4581-a00c-3421178b7c0b,2026-02-07T19:18:36.411695,nba,Jeremiah Fears,rebounds,2.5,higher,65.1,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,65.1,65.1,65.1,unknown,pre_v2.1.4,0.0,MIGRATED
+42e7ac53-d14d-4f37-bb83-c79e4ee58179,2026-02-07T19:18:36.411695,nba,Aaron Wiggins,rebounds,3.5,higher,0.0,,2.0,False,0.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+e501d46a-437c-4243-8cb3-1b77b30442d1,2026-02-07T19:18:36.411695,nba,Jaden Ivey,3pm,1.5,higher,0.0,,2.0,True,1.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+d8c3b0e0-5a4a-461b-b2fe-6f5aa95090c5,2026-02-07T19:18:36.411695,nba,Kelly Oubre Jr.,rebounds,5.5,lower,0.0,,6.0,False,0.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+b84f3c9e-afee-4c74-8670-16f9b60a5e46,2026-02-07T19:18:36.411695,nba,Bobby Portis,rebounds,8.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+54b2d51c-887a-456c-a3c3-64e7eb657a20,2026-02-07T19:18:36.411695,nba,Tobias Harris,3pm,1.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+8e99528d-e7a2-4beb-ae2b-385f63485f5a,2026-02-07T19:18:36.411695,nba,Duncan Robinson,3pm,2.5,higher,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+d1c541f7-b263-465d-9d05-f51b91ef1b36,2026-02-07T19:18:36.411695,nba,Isaiah Collier,points,13.5,lower,0.0,,20.0,False,0.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+27cd4696-2d6f-4e56-939c-da526bc42d7d,2026-02-07T19:18:36.411695,nba,Isaiah Stewart,points,7.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+938c0a8c-569c-41b1-bd49-831f5d013567,2026-02-07T19:18:36.411695,nba,Jonas Valanciunas,points,12.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+ec96140e-5e89-4dc6-b501-08dd436fdd68,2026-02-07T19:18:36.411695,nba,Kyle Filipowski,pts+ast,15.5,lower,0.0,,9.0,True,1.0,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+5faf68f8-7101-41a6-b5c0-e3474b77ae54,2026-02-07T19:18:36.411695,nba,Kris Dunn,pts+ast,9.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+598db838-8fe0-40a4-be3a-9f12dca08ff6,2026-02-07T19:18:36.411695,nba,Lauri Markkanen,pts+ast,25.5,higher,42.4,,28.0,True,0.33177600000000007,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,42.4,42.4,42.4,unknown,pre_v2.1.4,0.0,MIGRATED
+f273b794-e9b3-434e-bd2b-8bdefb97de84,2026-02-07T19:18:36.411695,nba,Jonas Valanciunas,ast+reb,10.5,lower,0.0,,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_ayo_dosunmu_3pm_under,2026-01-29,nba,Ayo Dosunmu,3PM,1.5,under,0.55,USER,2.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_coby_white_3pm_under,2026-01-29,nba,Coby White,3PM,2.5,under,0.55,USER,5.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_cody_williams_3pm_under,2026-01-29,nba,Cody Williams,3PM,0.5,under,0.55,USER,0.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_alperen_sengun_pra_under,2026-01-29,nba,Alperen Sengun,PRA,34.5,under,0.55,USER,25.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_cade_cunningham_pra_under,2026-01-29,nba,Cade Cunningham,PRA,38.5,under,53.7,USER,21.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,53.7,53.7,53.7,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_jaden_ivey_pra_under,2026-01-29,nba,Jaden Ivey,PRA,12.5,under,0.55,USER,11.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_evan_mobley_pra_under,2026-01-29,nba,Evan Mobley,PRA,31.5,under,0.55,USER,49.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_precious_achiuwa_pra_under,2026-01-29,nba,Precious Achiuwa,PRA,13.5,under,0.55,USER,14.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_zach_lavine_pra_under,2026-01-29,nba,Zach LaVine,PRA,23.5,under,56.0,USER,10.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,56.0,56.0,56.0,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_ausar_thompson_reb_over,2026-01-29,nba,Ausar Thompson,REB,5.5,over,0.55,USER,5.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_domantas_sabonis_blk_stl_over,2026-01-29,nba,Domantas Sabonis,BLK+STL,1.5,over,0.55,USER,2.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_duncan_robinson_pra_over,2026-01-29,nba,Duncan Robinson,PRA,16.5,over,0.55,USER,14.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_malik_monk_3pm_over,2026-01-29,nba,Malik Monk,3PM,2.5,over,0.55,USER,3.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_derik_queen_ast_over,2026-01-29,nba,Derik Queen,AST,4.5,over,0.55,USER,1.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_jeremiah_fears_reb_over,2026-01-29,nba,Jeremiah Fears,REB,2.5,over,0.55,USER,3.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_julian_champagnie_pts_over,2026-01-29,nba,Julian Champagnie,PTS,11.0,over,0.55,USER,13.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_saddiq_bey_reb_over,2026-01-29,nba,Saddiq Bey,REB,3.5,over,0.55,USER,10.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_zion_williamson_ast_over,2026-01-29,nba,Zion Williamson,AST,2.5,over,0.55,USER,4.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_jaden_mcdaniels_pra_over,2026-01-29,nba,Jaden McDaniels,PRA,25.5,over,0.55,USER,7.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_kyren_williams_recs_over,2026-01-29,nfl,Kyren Williams,Recs,2.5,over,0.55,USER,2.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_matthew_stafford_rush yards_over,2026-01-29,nfl,Matthew Stafford,Rush Yards,0.5,over,0.55,USER,16.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_tyler_higbee_rec yards_over,2026-01-29,nfl,Tyler Higbee,Rec Yards,19.5,over,0.55,USER,12.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_scottie_barnes_2-pt att_over,2026-01-29,nba,Scottie Barnes,2-PT Att,12.5,over,0.55,USER,6.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_kayshon_boutte_rec yards_over,2026-01-29,nfl,Kayshon Boutte,Rec Yards,31.5,over,0.55,USER,6.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_rj_harvey_rush yards_over,2026-01-29,nfl,RJ Harvey,Rush Yards,40.5,over,0.55,USER,37.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_ausar_thompson_pra_over,2026-01-29,nba,Ausar Thompson,PRA,20.5,over,0.55,USER,16.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_demar_derozan_pts_ast_over,2026-01-29,nba,DeMar DeRozan,PTS+AST,24.5,over,0.55,USER,20.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_domantas_sabonis_pra_over,2026-01-29,nba,Domantas Sabonis,PRA,33.5,over,0.55,USER,27.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_tobias_harris_pra_over,2026-01-29,nba,Tobias Harris,PRA,21.5,over,0.55,USER,21.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_cooper_kupp_recs_under,2026-01-29,nfl,Cooper Kupp,Recs,3.0,under,0.55,USER,4.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_blake_corum_rec yards_over,2026-01-29,nfl,Blake Corum,Rec Yards,0.5,over,0.55,USER,24.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_colby_parkinson_recs_over,2026-01-29,nfl,Colby Parkinson,Recs,1.5,over,0.55,USER,3.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_terrance_ferguson_recs_over,2026-01-29,nfl,Terrance Ferguson,Recs,0.5,over,0.55,USER,0.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_dylan_harper_pts_over,2026-01-29,nba,Dylan Harper,PTS,11.5,over,0.55,USER,5.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_dylan_harper_reb_over,2026-01-29,nba,Dylan Harper,REB,3.5,over,0.55,USER,6.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_harrison_barnes_2-pt made_over,2026-01-29,nba,Harrison Barnes,2-PT Made,1.5,over,0.55,USER,0.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_luke_kornet_pts_ast_over,2026-01-29,nba,Luke Kornet,PTS+AST,9.5,over,0.55,USER,6.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_victor_wembanyama_3pm_over,2026-01-29,nba,Victor Wembanyama,3PM,2.5,over,0.55,USER,2.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_yves_missi_fg made_over,2026-01-29,nba,Yves Missi,FG Made,2.5,over,0.55,USER,4.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_dailyn_swain_pts_under,2026-01-29,cbb,Dailyn Swain,PTS,14.5,under,0.55,USER,29.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_otega_oweh_pts_under,2026-01-29,cbb,Otega Oweh,PTS,17.5,under,0.55,USER,18.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_tramon_mark_pts_under,2026-01-29,cbb,Tramon Mark,PTS,14.5,under,0.55,USER,12.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_cayden_vasko_reb_under,2026-01-29,cbb,Cayden Vasko,REB,4.5,under,0.55,USER,2.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_dylan_faulkner_reb_under,2026-01-29,cbb,Dylan Faulkner,REB,7.5,under,0.55,USER,4.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_kahmare_holmes_reb_over,2026-01-29,cbb,Kahmare Holmes,REB,5.5,over,0.55,USER,4.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_nils_machowski_reb_over,2026-01-29,cbb,Nils Machowski,REB,4.5,over,0.55,USER,4.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_madison_keys_total games_over,2026-01-29,tennis,Madison Keys,Total Games,20.5,over,0.55,USER,19.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_paula_badosa_aces_over,2026-01-29,tennis,Paula Badosa,Aces,3.5,over,0.55,USER,4.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_amen_thompson_pra_over,2026-01-29,nba,Amen Thompson,PRA,24.5,over,0.55,USER,32.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_clint_capela_pra_under,2026-01-29,nba,Clint Capela,PRA,8.5,under,0.55,USER,8.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_deaaron_fox_ast_over,2026-01-29,nba,De'Aaron Fox,AST,3.5,over,0.55,USER,5.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_kevin_durant_pts_over,2026-01-29,nba,Kevin Durant,PTS,24.5,over,0.55,USER,18.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_tari_eason_pra_over,2026-01-29,nba,Tari Eason,PRA,15.5,over,0.55,USER,13.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_anfernee_simons_pts_over,2026-01-29,nba,Anfernee Simons,PTS,13.5,over,0.55,USER,9.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_jaylen_brown_pts_over,2026-01-29,nba,Jaylen Brown,PTS,24.5,over,0.55,USER,30.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_neemias_queta_pts_over,2026-01-29,nba,Neemias Queta,PTS,8.5,over,0.55,USER,17.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_cj_mccollum_pts_over,2026-01-29,nba,CJ McCollum,PTS,16.5,over,0.55,USER,15.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_ausar_thompson_pts_under,2026-01-29,nba,Ausar Thompson,PTS,10.5,under,0.55,USER,12.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_yves_missi_pts_over,2026-01-29,nba,Yves Missi,PTS,4.5,over,0.55,USER,4.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_aj_green_3pm_over,2026-01-29,nba,AJ Green,3PM,1.5,over,55.9,USER,6.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,55.9,55.9,55.9,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_corey_kispert_3pm_over,2026-01-29,nba,Corey Kispert,3PM,0.5,over,0.55,USER,0.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_kyle_kuzma_3pm_over,2026-01-29,nba,Kyle Kuzma,3PM,0.5,over,11.6,USER,1.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,11.6,11.6,11.6,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_bobby_portis_pts_over,2026-01-29,nba,Bobby Portis,PTS,11.5,over,0.55,USER,19.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_cj_mccollum_3pm_over,2026-01-29,nba,CJ McCollum,3PM,1.5,over,0.55,USER,2.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_duncan_robinson_pts_over,2026-01-29,nba,Duncan Robinson,PTS,10.5,over,0.55,USER,15.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_bam_adebayo_ast_over,2026-01-29,nba,Bam Adebayo,AST,3.5,over,0.55,USER,3.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_al_horford_pra_over,2026-01-29,nba,Al Horford,PRA,9.5,over,0.55,USER,20.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_bam_adebayo_reb_ast_over,2026-01-29,nba,Bam Adebayo,REB+AST,11.5,over,0.55,USER,15.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_jimmy_butler_pts_over,2026-01-29,nba,Jimmy Butler,PTS,19.5,over,0.55,USER,17.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_norman_powell_3pm_over,2026-01-29,nba,Norman Powell,3PM,2.5,over,0.55,USER,2.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_jalen_johnson_ast_under,2026-01-29,nba,Jalen Johnson,AST,7.5,under,0.55,USER,6.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_kevin_porter_pra_under,2026-01-29,nba,Kevin Porter,PRA,28.5,under,0.55,USER,22.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260129_nickeil_alexander-walker_pts_over,2026-01-29,nba,Nickeil Alexander-Walker,PTS,19.5,over,0.55,USER,32.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260128_jaylen_brown_3pm_over,2026-01-28,nba,Jaylen Brown,3PM,1.0,over,0.55,USER,1.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260128_jaden_mcdaniels_pts_ast_over,2026-01-28,nba,Jaden McDaniels,PTS+AST,16.5,over,37.0,USER,17.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,37.0,37.0,37.0,unknown,pre_v2.1.4,0.0,MIGRATED
+20260128_matas_buzelis_3pm_over,2026-01-28,nba,Matas Buzelis,3PM,1.5,over,67.7,USER,2.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,67.7,67.7,67.7,unknown,pre_v2.1.4,0.0,MIGRATED
+20260128_marcus_smart_pts_over,2026-01-28,nba,Marcus Smart,PTS,9.5,over,0.55,USER,12.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260128_amen_thompson_pts_ast_under,2026-01-28,nba,Amen Thompson,PTS+AST,23.5,under,0.55,USER,22.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260128_rudy_gobert_reb_under,2026-01-28,nba,Rudy Gobert,REB,11.5,under,0.55,USER,17.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260128_alperen_sengun_pts_ast_under,2026-01-28,nba,Alperen Sengun,PTS+AST,25.5,under,0.55,USER,39.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260128_domantas_sabonis_pra_under,2026-01-28,nba,Domantas Sabonis,PRA,31.5,under,0.55,USER,30.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260128_kyle_kuzma_reb_under,2026-01-28,nba,Kyle Kuzma,REB,5.5,under,0.55,USER,8.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260128_ryan_rollins_pra_under,2026-01-28,nba,Ryan Rollins,PRA,32.5,under,0.55,USER,36.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260128_aaron_wiggins_reb_over,2026-01-28,nba,Aaron Wiggins,REB,3.5,over,0.55,USER,5.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260128_jaden_ivey_3pm_over,2026-01-28,nba,Jaden Ivey,3PM,1.5,over,0.55,USER,2.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260128_kelly_oubre_jr._reb_under,2026-01-28,nba,Kelly Oubre Jr.,REB,5.5,under,0.55,USER,4.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260128_bobby_portis_reb_under,2026-01-28,nba,Bobby Portis,REB,8.5,under,0.55,USER,12.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260128_tobias_harris_3pm_over,2026-01-28,nba,Tobias Harris,3PM,1.5,over,0.55,USER,0.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260128_duncan_robinson_3pm_over,2026-01-28,nba,Duncan Robinson,3PM,2.5,over,0.55,USER,0.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260128_isaiah_collier_pts_under,2026-01-28,nba,Isaiah Collier,PTS,13.5,under,0.55,USER,12.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260128_isaiah_stewart_pts_under,2026-01-28,nba,Isaiah Stewart,PTS,7.5,under,0.55,USER,7.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260128_jonas_valanciunas_pts_under,2026-01-28,nba,Jonas Valanciunas,PTS,12.5,under,0.55,USER,16.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260128_kyle_filipowski_pts_ast_under,2026-01-28,nba,Kyle Filipowski,PTS+AST,15.5,under,0.55,USER,10.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260128_kris_dunn_pts_ast_under,2026-01-28,nba,Kris Dunn,PTS+AST,9.5,under,0.55,USER,16.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260128_lauri_markkanen_pts_ast_over,2026-01-28,nba,Lauri Markkanen,PTS+AST,25.5,over,42.4,USER,23.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,42.4,42.4,42.4,unknown,pre_v2.1.4,0.0,MIGRATED
+20260128_jonas_valanciunas_ast_reb_under,2026-01-28,nba,Jonas Valanciunas,AST+REB,10.5,under,0.55,USER,17.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+20260128_jeremiah_fears_reb_over,2026-01-28,nba,Jeremiah Fears,REB,2.5,over,0.55,USER,2.0,False,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.55,0.55,0.55,unknown,pre_v2.1.4,0.0,MIGRATED
+mc_456935f2,2026-01-29,nba,Isaiah Hartenstein,rebounds,6.5,higher,76.0308,STRONG,,,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,76.0308,76.0308,76.0308,unknown,pre_v2.1.4,0.0,MIGRATED
+FEB01-01,2026-02-01,nba,Isaac Okoro,3pm,1.5,lower,65.0,STRONG,1.0,True,,CLE,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,65.0,65.0,65.0,unknown,pre_v2.1.4,0.0,MIGRATED
+FEB01-02,2026-02-01,nba,Ayo Dosunmu,3pm,1.5,higher,62.0,STRONG,2.0,True,,CHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,62.0,62.0,62.0,unknown,pre_v2.1.4,0.0,MIGRATED
+FEB01-03,2026-02-01,nba,Jaylen Brown,3pm,2.5,lower,64.0,STRONG,2.0,True,,BOS,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,64.0,64.0,64.0,unknown,pre_v2.1.4,0.0,MIGRATED
+FEB01-04,2026-02-01,nba,Shai Gilgeous-Alexander,3pm,1.5,lower,68.0,STRONG,1.0,True,,OKC,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,68.0,68.0,68.0,unknown,pre_v2.1.4,0.0,MIGRATED
+FEB01-05,2026-02-01,nhl,Jackson LaCombe,points,0.5,higher,58.0,LEAN,1.0,True,,ANA,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,58.0,58.0,58.0,unknown,pre_v2.1.4,0.0,MIGRATED
+FEB01-06,2026-02-01,nhl,Jordan Eberle,points,0.5,higher,60.0,LEAN,1.0,True,,SEA,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,60.0,60.0,60.0,unknown,pre_v2.1.4,0.0,MIGRATED
+FEB01-07,2026-02-01,nhl,Cale Makar,blocks,1.5,higher,59.0,LEAN,2.0,True,,COL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,59.0,59.0,59.0,unknown,pre_v2.1.4,0.0,MIGRATED
+FEB01-08,2026-02-01,nhl,William Nylander,sog,2.5,higher,62.0,STRONG,3.0,True,,TOR,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,62.0,62.0,62.0,unknown,pre_v2.1.4,0.0,MIGRATED
+FEB01-09,2026-02-02,tennis,Novak Djokovic,games_won,18.5,lower,66.0,STRONG,16.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,66.0,66.0,66.0,unknown,pre_v2.1.4,0.0,MIGRATED
+FEB01-10,2026-02-02,tennis,Carlos Alcaraz,aces,10.5,lower,64.0,STRONG,8.0,True,,,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,64.0,64.0,64.0,unknown,pre_v2.1.4,0.0,MIGRATED
+FEB02-01,2026-02-02,nba,Coby White,pra,30.5,higher,58.0,LEAN,34.0,False,,CHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,58.0,58.0,58.0,unknown,pre_v2.1.4,0.0,MIGRATED
+FEB02-03,2026-02-02,nba,Naji Marshall,pra,27.5,higher,55.0,LEAN,22.0,False,,DAL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,55.0,55.0,55.0,unknown,pre_v2.1.4,0.0,MIGRATED
+FEB03-02,2026-02-03,nba,Duncan Robinson,pra,14.5,higher,54.0,LEAN,12.0,False,,MIA,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,54.0,54.0,54.0,unknown,pre_v2.1.4,0.0,MIGRATED
+FEB03-03,2026-02-03,nba,Deni Avdija,pra,35.5,higher,55.0,LEAN,28.0,False,,POR,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,55.0,55.0,55.0,unknown,pre_v2.1.4,0.0,MIGRATED
+FEB02-02,2026-02-02,nba,Matas Buzelis,3pm,2.5,lower,60.0,LEAN,5.0,False,,CHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,60.0,60.0,60.0,unknown,pre_v2.1.4,0.0,MIGRATED
+FEB02-04,2026-02-02,nba,Jarrett Allen,rebounds,8.5,lower,57.0,LEAN,17.0,False,,CLE,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,57.0,57.0,57.0,unknown,pre_v2.1.4,0.0,MIGRATED
+FEB03-01,2026-02-03,cbb,Johnny Furphy,points,11.5,lower,56.0,LEAN,14.0,False,,IND,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,56.0,56.0,56.0,unknown,pre_v2.1.4,0.0,MIGRATED
+f3be0586-b80e-4fbb-8950-b02b37a36a97,2026-02-07T19:18:36.412720,nba,Collin Gillespie,3pm,2.5,higher,0.0,,2.0,False,0.0,PHX,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+9227a226-a10b-49d5-a8a8-99ccf4030729,2026-02-07T19:18:36.413718,nba,Dillon Brooks,3pm,1.5,higher,0.0,,2.0,True,1.0,PHX,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+92fa596f-d206-42ab-8f44-76091e69b745,2026-02-07T19:18:36.413718,nba,Royce O'Neale,3pm,1.5,higher,0.0,,4.0,True,1.0,PHX,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+0ef20cb6-bb71-423a-b2dd-ecf516d3d487,2026-02-07T19:18:36.413718,nba,Al Horford,3pm,0.5,higher,0.0,,0.0,False,0.0,GSW,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+cee3d0f9-e211-42f9-bee4-8942901fe348,2026-02-07T19:18:36.413718,nba,Draymond Green,3pm,0.5,higher,0.0,,2.0,True,1.0,GSW,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+7beaea00-e73a-4025-9e37-e6c8ba00d443,2026-02-07T19:18:36.413718,nba,Draymond Green,assists,3.5,higher,0.0,,6.0,True,1.0,GSW,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+19ab3bc9-fa44-4b94-bbbf-157c63de6060,2026-02-07T19:18:36.413718,nba,Brandin Podziemski,assists,3.5,higher,0.0,,4.0,True,1.0,GSW,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+a9764b9e-53a4-46d0-950f-d5278a92cd7e,2026-02-07T19:18:36.413718,nba,De'Anthony Melton,assists,2.5,higher,0.0,,1.0,False,0.0,GSW,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+7f0a8a5c-83bc-4a8a-94c3-c9861f7b41cd,2026-02-07T19:18:36.413718,nba,Dillon Brooks,assists,1.5,higher,0.0,,2.0,True,1.0,PHX,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+4114363d-8f40-476f-836a-50ffa05f6e59,2026-02-07T19:18:36.413718,nba,Mark Williams,assists,0.5,higher,0.0,,2.0,True,1.0,PHX,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+0a89258d-a0a9-4281-ae47-6e84ed244889,2026-02-07T19:18:36.413718,nba,Tyrese Maxey,points,27.5,lower,0.0,,29.0,False,0.0,PHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+5efad184-51a3-417b-b4d3-216fb9ec2d71,2026-02-07T19:18:36.413718,nba,Austin Reaves,points,15.5,higher,0.0,,16.0,True,1.0,LAL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+9969e56c-6001-4967-bd7f-bd5500ed7816,2026-02-07T19:18:36.413718,nba,Austin Reaves,3pm,1.5,higher,0.0,,0.0,False,0.0,LAL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+8ec00c61-36c0-4e09-ad1c-c9a9fa9a6989,2026-02-07T19:18:36.413718,nba,VJ Edgecombe,rebounds,4.5,higher,0.0,,6.0,True,1.0,PHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+13f7ea5b-82ed-4a34-81fe-cec1176c7dea,2026-02-07T19:18:36.413718,nba,VJ Edgecombe,3pm,1.5,higher,0.0,,1.0,False,0.0,PHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+0bf13866-8546-4510-87fc-f5190b604e0e,2026-02-07T19:18:36.413718,nba,LeBron James,pra,32.5,lower,0.0,,37.0,False,0.0,LAL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+2649a217-cbfc-46db-9789-9bc40fa669b0,2026-02-07T19:18:36.413718,nba,Joel Embiid,points,28.5,lower,0.0,,33.0,False,0.0,PHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+7df30c4e-141d-432d-aecf-146e9cb3fee9,2026-02-07T19:18:36.413718,nba,Joel Embiid,pra,42.5,higher,0.0,,45.0,True,1.0,PHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+53d80a79-39c0-447e-8af0-559bedeab0a7,2026-02-07T19:18:36.413718,nba,Kelly Oubre,3pm,1.5,higher,0.0,,3.0,True,1.0,UNK,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+fa4c6a59-70ed-42cd-bfdf-5e2e60a3a253,2026-02-07T19:18:36.413718,nba,Marcus Smart,assists,1.5,higher,0.0,,4.0,True,1.0,LAL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+7e685e65-188a-443f-9f04-a8b892428aab,2026-02-07T19:18:36.413718,nba,LeBron James,rebounds,5.5,lower,0.0,,7.0,False,0.0,LAL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+cd78b752-0f98-4b6d-acaf-15e94589dc5d,2026-02-07T19:18:36.413718,nba,Tyrese Maxey,points,26.5,lower,0.0,,29.0,False,0.0,PHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+f88aef3a-040a-420c-b051-5fb97cd9fba5,2026-02-07T19:18:36.413718,nba,Cooper Flagg,pra,35.5,higher,0.0,,22.0,False,0.0,DAL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+71952bfc-e454-49aa-bf2b-3735a4c091dc,2026-02-07T19:18:36.413718,nba,Cooper Flagg,reb+ast,11.5,higher,0.0,,8.0,False,0.0,DAL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+154b0c86-8556-46f2-bd78-9d3761c587cc,2026-02-07T19:18:36.413718,nba,Cade Cunningham,points,24.5,lower,0.0,,,,,DET,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+7113a1a1-a916-4b27-8bf3-51a5dc22fefb,2026-02-07T19:18:36.413718,nba,Cade Cunningham,pra,39.5,lower,0.0,,,,,DET,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+3341c8a0-dc1a-4ff9-bad0-3485492eb5c5,2026-02-07T19:18:36.413718,nba,Cade Cunningham,pts+reb,29.5,lower,0.0,,,,,DET,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+6dedd246-4f56-48bc-b1d7-117615255109,2026-02-07T19:18:36.413718,nba,Bub Carrington,3pm,2.5,higher,0.0,,2.0,False,0.0,WAS,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+934b0b90-5ae6-41c0-be55-6e4b4fff8709,2026-02-07T19:18:36.413718,nba,Isaiah Stewart,3pm,0.5,lower,0.0,,,,,DET,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+02116f03-d63b-4222-a124-8ec60c7a9e2d,2026-02-07T19:18:36.413718,nba,Justin Champagnie,3pm,0.5,higher,0.0,,1.0,True,1.0,WAS,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+9db7c50e-283a-4597-889e-61b5fbea2347,2026-02-07T19:18:36.413718,nba,Grant Williams,3pm,0.5,higher,0.0,,2.0,True,1.0,CHA,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+8f6a28c7-e857-460d-8ee3-8d51f7590693,2026-02-07T19:18:36.413718,nba,Keldon Johnson,3pm,0.5,higher,0.0,,0.0,False,0.0,SAS,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+b69bd723-af85-4006-97d7-4d83ff96dccd,2026-02-07T19:18:36.413718,nba,Desmond Bane,3pm,1.5,higher,0.0,,2.0,True,1.0,ORL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+444aaf6f-fd13-4dc9-ae79-c50252c2ce1c,2026-02-07T19:18:36.413718,nba,Duncan Robinson,3pm,2.5,higher,0.0,,,,,DET,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+08c84273-5dcb-4dd3-8d8c-9caa20e04a33,2026-02-07T19:18:36.413718,nba,Duncan Robinson,3pm,1.5,higher,0.0,,,,,DET,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+292e725c-ecfe-4eaa-bfcf-eda44e1ab67e,2026-02-07T19:18:36.413718,nba,Corey Kispert,3pm,1.5,higher,0.0,,2.0,True,1.0,ATL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+8838b1b7-41e5-4f2e-8767-dca81818e374,2026-02-07T19:18:36.413718,nba,Jalen Smith,3pm,1.5,higher,0.0,,,,,CHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+ff2847b6-b15b-411f-8b3f-d94004780893,2026-02-07T19:18:36.413718,nba,Matas Buzelis,pts+ast,22.5,lower,0.0,,24.0,False,0.0,CHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+5069f288-0858-49ad-a3a9-7a58f2903859,2026-02-07T19:18:36.413718,nba,LaMelo Ball,pts+ast,26.5,lower,0.0,,28.0,False,0.0,CHA,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+c5cc65c1-c3b2-4171-af68-4192638075f4,2026-02-07T19:18:36.413718,nba,Brandon Miller,pts+ast,24.5,higher,0.0,,20.0,False,0.0,CHA,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+bbb4d59b-9e88-4171-92b8-6aa065ba424f,2026-02-07T19:18:36.413718,nba,Stephon Castle,pts+ast,23.5,lower,0.0,,52.0,False,0.0,SAS,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+acbcc348-8c8a-4516-bacb-ee31f2b9a29b,2026-02-07T19:18:36.413718,nba,Day'Ron Sharpe,rebounds,6.5,higher,0.0,,9.0,True,1.0,BKN,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+79b3dbd7-e741-4757-8054-4513c618c52e,2026-02-07T19:18:36.414687,nba,Alperen Sengun,rebounds,8.5,higher,0.0,,12.0,True,1.0,HOU,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+d3a9095c-3a60-483b-8ac5-582fe3006ad9,2026-02-07T19:18:36.414687,nba,Ryan Kalkbrenner,rebounds,3.5,higher,0.0,,5.0,True,1.0,CHA,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+7756e6e5-3958-41fb-8b18-ef7246336e66,2026-02-07T19:18:36.414687,nba,Ausar Thompson,rebounds,5.5,higher,0.0,,,,,DET,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+8525e003-fd04-4366-ad5f-bb5b45c2b57b,2026-02-07T19:18:36.414687,nba,Zaccharie Risacher,rebounds,3.5,higher,0.0,,3.0,False,0.0,ATL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+c7ea16df-fafa-4176-8fb3-a53b32384c38,2026-02-07T19:18:36.414687,nba,Sion James,rebounds,2.5,higher,0.0,,3.0,True,1.0,CHA,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+c341d437-2841-49ba-aca5-1a0260639b36,2026-02-07T19:18:36.414687,nba,Ausar Thompson,pra,20.5,lower,0.0,,,,,DET,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+9341ba94-1a3b-4ab6-89fe-26e7506af3c5,2026-02-07T19:18:36.414687,nba,Scottie Barnes,pra,35.5,lower,0.0,,,,,TOR,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+01ea0d8f-6e3a-4a6a-af4f-ff9918a9685a,2026-02-07T19:18:36.414687,nba,Isaac Okoro,pra,16.5,lower,0.0,,18.0,False,0.0,CHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+35f922d9-4963-4d7f-aa36-6eb2f7bd67a4,2026-02-07T19:18:36.414687,nba,Klay Thompson,pra,16.5,lower,0.0,,22.0,False,0.0,DAL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+71b4f1e0-6d2f-4b61-9929-6bbd8b553108,2026-02-07T19:18:36.414687,nba,Royce O'Neale,pra,17.5,lower,0.0,,28.0,False,0.0,PHX,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+06d3bde2-b05f-476c-82bc-03ed161a8e53,2026-02-07T19:18:36.414687,nba,Bub Carrington,pra,21.5,lower,0.0,,17.0,True,1.0,WAS,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+107a19af-18ea-4ea0-b699-d79c110a32f9,2026-02-07T19:18:36.414687,nba,Patrick Williams,pra,18.5,lower,0.0,,12.0,True,1.0,CHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+afcb2b24-6738-431b-8009-b3970a8ab08c,2026-02-07T19:18:36.414687,nba,LaMelo Ball,pra,31.5,lower,0.0,,29.0,True,1.0,CHA,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+ea24d2bd-ae02-4b9b-80db-ed4238a76b7d,2026-02-07T19:18:36.414687,nba,Harrison Barnes,pra,14.5,lower,0.0,,11.0,True,1.0,SAS,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+b5be6a90-f400-491a-8bb3-cdd8befc422c,2026-02-07T19:18:36.414687,nba,Patrick Williams,points,11.5,lower,0.0,,8.0,True,1.0,CHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+6aebefda-ab98-4a02-a2e9-2c34476a99ac,2026-02-07T19:18:36.414687,nba,Brandon Miller,points,20.5,higher,0.0,,16.0,False,0.0,CHA,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+07ecd85d-d7d8-466a-a49d-5c5041b93ddd,2026-02-07T19:18:36.414687,nba,Dylan Harper,points,9.5,higher,0.0,,11.0,True,1.0,SAS,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+9c8e52cb-950a-4088-a719-cc3f36b7ef0c,2026-02-07T19:18:36.414687,nba,Jarred Vanderbilt,points,3.5,higher,0.0,,13.0,True,1.0,LAL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+0c1509ed-4e3c-41dd-8d0f-75845882310a,2026-02-07T19:18:36.414687,nba,Nic Claxton,points,10.5,lower,0.0,,11.0,False,0.0,BKN,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+ec3d568c-dab5-4f23-818d-347acea9c09c,2026-02-07T19:18:36.414687,nba,Nolan Traore,points,6.5,higher,0.0,,15.0,True,1.0,BKN,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+83d22f0f-4e1f-4000-8d45-6d4bafa9cefa,2026-02-07T19:18:36.414687,nba,Ausar Thompson,points,10.5,lower,0.0,,,,,DET,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+90afab68-1c83-4ec5-b238-67971f868bfc,2026-02-07T19:18:36.414687,nba,Jalen Smith,points,12.5,higher,0.0,,,,,CHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+8adee675-058d-4f5c-b696-856b0d53e9bf,2026-02-07T19:18:36.414687,nba,Isaac Okoro,points,11.5,lower,0.0,,13.0,False,0.0,CHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+6b79a745-df62-46f6-8102-3dd4ab1e0ab1,2026-02-07T19:18:36.414687,nba,LaMelo Ball,points,19.5,lower,0.0,,19.0,True,1.0,CHA,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+7f530e95-adca-44b7-b9c9-1d687654e195,2026-02-07T19:18:36.414687,nba,Ryan Kalkbrenner,points,5.5,higher,0.0,,6.0,True,1.0,CHA,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+22aa5d3f-e44a-493c-8ab8-a7c5e166c23b,2026-02-07T19:18:36.414687,nba,Julian Champagnie,points,9.5,higher,0.0,,5.0,False,0.0,SAS,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+4cdc1271-0268-423e-8716-d2a8492b9338,2026-02-07T19:18:36.414687,nba,Trendon Watford,points,5.5,lower,0.0,,6.0,False,0.0,PHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,0.0,0.0,0.0,unknown,pre_v2.1.4,0.0,MIGRATED
+d5591424-f14c-4837-b7a6-d7736de276b5,2026-02-05,nba,Collin Gillespie,3pm,2.5,higher,67.68,PLAY,3.0,True,,PHX,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,67.68,67.68,67.68,unknown,pre_v2.1.4,0.0,MIGRATED
+73d4fbee-4cf7-4aa1-8d98-dbee91cbec32,2026-02-05,nba,Dillon Brooks,3pm,1.5,higher,52.1,LEAN,2.0,True,,PHX,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,52.1,52.1,52.1,unknown,pre_v2.1.4,0.0,MIGRATED
+7180eee6-7926-47be-a8d5-3859fdf0e544,2026-02-05,nba,Royce O'Neale,3pm,1.5,higher,48.87,LEAN,3.0,True,,PHX,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,48.87,48.87,48.87,unknown,pre_v2.1.4,0.0,MIGRATED
+c581ea11-a55d-482b-a4de-7360c33543b1,2026-02-05,nba,Al Horford,3pm,0.5,higher,67.68,PLAY,2.0,True,,GSW,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,67.68,67.68,67.68,unknown,pre_v2.1.4,0.0,MIGRATED
+16df636c-8267-4e8d-b4b5-16a2188d6acc,2026-02-05,nba,Draymond Green,3pm,0.5,higher,50.24,LEAN,1.0,True,,GSW,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,50.24,50.24,50.24,unknown,pre_v2.1.4,0.0,MIGRATED
+00ea7122-e09c-4b98-a48c-5d4659e694d6,2026-02-05,nba,Draymond Green,assists,3.5,higher,59.8,LEAN,1.0,False,,GSW,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,59.8,59.8,59.8,unknown,pre_v2.1.4,0.0,MIGRATED
+a427fc39-d2ae-49b5-8058-05a32457b832,2026-02-05,nba,Brandin Podziemski,assists,3.5,higher,54.13,LEAN,1.0,False,,GSW,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,54.13,54.13,54.13,unknown,pre_v2.1.4,0.0,MIGRATED
+8f51a270-435c-407a-884f-33cc149f697f,2026-02-05,nba,De'Anthony Melton,assists,2.5,higher,54.43,LEAN,1.0,False,,GSW,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,54.43,54.43,54.43,unknown,pre_v2.1.4,0.0,MIGRATED
+253cc32d-1e93-435b-aeac-6d06b578eeea,2026-02-05,nba,Dillon Brooks,assists,1.5,higher,54.3,LEAN,1.0,False,,PHX,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,54.3,54.3,54.3,unknown,pre_v2.1.4,0.0,MIGRATED
+c8cee606-e94e-48e5-9dcb-479bcec384c7,2026-02-05,nba,Mark Williams,assists,0.5,higher,62.68,LEAN,0.0,False,,PHX,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,62.68,62.68,62.68,unknown,pre_v2.1.4,0.0,MIGRATED
+60378df0-0881-4e29-b160-eba518aa43a8,2026-02-05,nba,Tyrese Maxey,points,27.5,lower,49.62,LEAN,26.0,True,,PHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,49.62,49.62,49.62,unknown,pre_v2.1.4,0.0,MIGRATED
+d8715d81-796c-4b0c-a80b-482834e4d72e,2026-02-05,nba,Austin Reaves,points,15.5,higher,44.38,LEAN,35.0,True,,LAL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,44.38,44.38,44.38,unknown,pre_v2.1.4,0.0,MIGRATED
+099383d8-cc72-4e31-9340-147bb1f9a053,2026-02-05,nba,Austin Reaves,3pm,1.5,higher,66.52,PLAY,5.0,True,,LAL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,66.52,66.52,66.52,unknown,pre_v2.1.4,0.0,MIGRATED
+f72d74a4-d50e-4843-97f2-1cd2b7e522ca,2026-02-05,nba,VJ Edgecombe,rebounds,4.5,higher,52.36,LEAN,10.0,True,,PHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,52.36,52.36,52.36,unknown,pre_v2.1.4,0.0,MIGRATED
+87138cb3-b4e6-4c90-80e6-1f82d375dfd3,2026-02-05,nba,VJ Edgecombe,3pm,1.5,higher,56.81,LEAN,3.0,True,,PHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,56.81,56.81,56.81,unknown,pre_v2.1.4,0.0,MIGRATED
+123df9ed-f4ce-4a15-b804-63d0446c775f,2026-02-05,nba,LeBron James,pra,32.5,lower,53.29,LEAN,31.0,True,,LAL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,53.29,53.29,53.29,unknown,pre_v2.1.4,0.0,MIGRATED
+32555b15-975f-442d-bbaa-1b00afe741c4,2026-02-05,nba,Joel Embiid,points,28.5,lower,54.09,LEAN,35.0,False,,PHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,54.09,54.09,54.09,unknown,pre_v2.1.4,0.0,MIGRATED
+9649f767-83b4-4e98-94f3-1c3d275e7bf4,2026-02-05,nba,Joel Embiid,pra,42.5,higher,46.56,LEAN,49.0,True,,PHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,46.56,46.56,46.56,unknown,pre_v2.1.4,0.0,MIGRATED
+fbc542b4-e2bd-454d-b1ba-8114c3dc67a4,2026-02-05,nba,Kelly Oubre,3pm,1.5,higher,52.42,LEAN,0.0,False,,UNK,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,52.42,52.42,52.42,unknown,pre_v2.1.4,0.0,MIGRATED
+9035bf0c-dd5a-4a72-a17d-1efe305cb9e9,2026-02-05,nba,Marcus Smart,assists,1.5,higher,58.55,LEAN,5.0,True,,LAL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,58.55,58.55,58.55,unknown,pre_v2.1.4,0.0,MIGRATED
+2dc87285-2784-40bd-b615-c0d066a2ef3a,2026-02-05,nba,LeBron James,rebounds,5.5,lower,51.43,LEAN,4.0,True,,LAL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,51.43,51.43,51.43,unknown,pre_v2.1.4,0.0,MIGRATED
+ce4f6d0c-8502-446a-af84-e5c9ab4a52e3,2026-02-05,nba,Tyrese Maxey,points,26.5,lower,48.73,LEAN,26.0,True,,PHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,48.73,48.73,48.73,unknown,pre_v2.1.4,0.0,MIGRATED
+e67cfeb0-d10f-4f80-8ea6-002282ea92ef,2026-02-05,nba,Cooper Flagg,pra,35.5,higher,47.88,LEAN,42.0,True,,DAL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,47.88,47.88,47.88,unknown,pre_v2.1.4,0.0,MIGRATED
+1c1f4e80-30bc-4e36-9846-3a74d0254a56,2026-02-05,nba,Cooper Flagg,reb+ast,11.5,higher,42.69,LEAN,10.0,False,,DAL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,42.69,42.69,42.69,unknown,pre_v2.1.4,0.0,MIGRATED
+4e805bc7-7526-4f60-8eb2-cd4a52500092,2026-02-05,nba,Cade Cunningham,points,24.5,lower,54.15,LEAN,30.0,False,,DET,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,54.15,54.15,54.15,unknown,pre_v2.1.4,0.0,MIGRATED
+b5c269f9-968f-426d-91d2-e7c041930514,2026-02-05,nba,Cade Cunningham,pra,39.5,lower,54.64,LEAN,46.0,False,,DET,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,54.64,54.64,54.64,unknown,pre_v2.1.4,0.0,MIGRATED
+0aa57581-8a66-458d-9fc5-41c251d88a0b,2026-02-05,nba,Cade Cunningham,pts+reb,29.5,lower,55.26,LEAN,38.0,False,,DET,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,55.26,55.26,55.26,unknown,pre_v2.1.4,0.0,MIGRATED
+8827ce9a-0282-45c0-ac2b-4888765eda54,2026-02-05,nba,Bub Carrington,3pm,2.5,higher,54.82,LEAN,2.0,False,,WAS,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,54.82,54.82,54.82,unknown,pre_v2.1.4,0.0,MIGRATED
+7f6f76f7-64c7-438b-bbd3-ca0fc656d634,2026-02-05,nba,Isaiah Stewart,3pm,0.5,lower,74.16,PLAY,0.0,True,,DET,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,74.16,74.16,74.16,unknown,pre_v2.1.4,0.0,MIGRATED
+195c5d96-f53a-405d-b73c-39bb605e2281,2026-02-05,nba,Justin Champagnie,3pm,0.5,higher,53.27,LEAN,3.0,True,,WAS,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,53.27,53.27,53.27,unknown,pre_v2.1.4,0.0,MIGRATED
+7f031215-a984-4de8-b740-fa3e62b84970,2026-02-05,nba,Grant Williams,3pm,0.5,higher,51.49,LEAN,0.0,False,,CHA,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,51.49,51.49,51.49,unknown,pre_v2.1.4,0.0,MIGRATED
+011343a0-ace9-4e29-9d73-d0ef972d1a62,2026-02-05,nba,Keldon Johnson,3pm,0.5,higher,52.76,LEAN,0.0,False,,SAS,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,52.76,52.76,52.76,unknown,pre_v2.1.4,0.0,MIGRATED
+2d1dc21a-c7ee-4bb6-93be-f9241eff3b3c,2026-02-05,nba,Desmond Bane,3pm,1.5,higher,51.26,LEAN,1.0,False,,ORL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,51.26,51.26,51.26,unknown,pre_v2.1.4,0.0,MIGRATED
+96579a98-51b6-4d01-9025-df26a7eb0364,2026-02-05,nba,Duncan Robinson,3pm,2.5,higher,54.71,LEAN,6.0,True,,DET,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,54.71,54.71,54.71,unknown,pre_v2.1.4,0.0,MIGRATED
+02181ed2-667e-4599-abf2-5563b06fc353,2026-02-05,nba,Duncan Robinson,3pm,1.5,higher,67.68,PLAY,6.0,True,,DET,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,67.68,67.68,67.68,unknown,pre_v2.1.4,0.0,MIGRATED
+58ac72df-49a3-43c3-bc06-3824bbbbeb0d,2026-02-05,nba,Corey Kispert,3pm,1.5,higher,50.09,LEAN,2.0,True,,ATL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,50.09,50.09,50.09,unknown,pre_v2.1.4,0.0,MIGRATED
+62f7c3b0-5723-4c7f-9a1d-2661e25fbb66,2026-02-05,nba,Jalen Smith,3pm,1.5,higher,67.68,PLAY,0.0,False,,CHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,67.68,67.68,67.68,unknown,pre_v2.1.4,0.0,MIGRATED
+0f6053a4-88c6-4810-be1e-1650b45ae646,2026-02-05,nba,Matas Buzelis,pts+ast,22.5,lower,48.53,LEAN,21.0,True,,CHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,48.53,48.53,48.53,unknown,pre_v2.1.4,0.0,MIGRATED
+69dc5754-cdc7-4d4e-8810-3a73e47ca893,2026-02-05,nba,LaMelo Ball,pts+ast,26.5,lower,45.88,LEAN,24.0,True,,CHA,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,45.88,45.88,45.88,unknown,pre_v2.1.4,0.0,MIGRATED
+3ae32c98-3a90-47b7-981f-3f633a446520,2026-02-05,nba,Brandon Miller,pts+ast,24.5,higher,42.56,LEAN,12.0,False,,CHA,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,42.56,42.56,42.56,unknown,pre_v2.1.4,0.0,MIGRATED
+89d0a4d5-b8db-4ee0-a104-5520043ca03d,2026-02-05,nba,Stephon Castle,pts+ast,23.5,lower,49.13,LEAN,24.0,False,,SAS,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,49.13,49.13,49.13,unknown,pre_v2.1.4,0.0,MIGRATED
+473c818b-3d93-4ee5-a2f7-7b2fae782533,2026-02-05,nba,Day'Ron Sharpe,rebounds,6.5,higher,47.34,LEAN,5.0,False,,BKN,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,47.34,47.34,47.34,unknown,pre_v2.1.4,0.0,MIGRATED
+a50c10ea-c1f3-419a-b2de-a955a926c233,2026-02-05,nba,Alperen Sengun,rebounds,8.5,higher,48.12,LEAN,9.0,True,,HOU,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,48.12,48.12,48.12,unknown,pre_v2.1.4,0.0,MIGRATED
+2bfe6458-7e88-478a-a149-fe0c7313e7af,2026-02-05,nba,Ryan Kalkbrenner,rebounds,3.5,higher,62.17,PLAY,4.0,True,,CHA,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,62.17,62.17,62.17,unknown,pre_v2.1.4,0.0,MIGRATED
+e2c4c6cf-abc3-4405-a2f1-cb54f6c45954,2026-02-05,nba,Ausar Thompson,rebounds,5.5,higher,50.78,LEAN,9.0,True,,DET,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,50.78,50.78,50.78,unknown,pre_v2.1.4,0.0,MIGRATED
+499e24be-06d0-46dd-b771-751f3d50afd8,2026-02-05,nba,Zaccharie Risacher,rebounds,3.5,higher,49.8,LEAN,6.0,True,,ATL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,49.8,49.8,49.8,unknown,pre_v2.1.4,0.0,MIGRATED
+65279760-c946-45eb-9e7a-d55090e0c5cc,2026-02-05,nba,Sion James,rebounds,2.5,higher,49.59,LEAN,2.0,False,,CHA,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,49.59,49.59,49.59,unknown,pre_v2.1.4,0.0,MIGRATED
+ebe44b44-e1c0-4932-b4b5-3e7b04569ea6,2026-02-05,nba,Ausar Thompson,pra,20.5,lower,55.51,LEAN,25.0,False,,DET,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,55.51,55.51,55.51,unknown,pre_v2.1.4,0.0,MIGRATED
+c65a88be-bd7c-446c-8c9d-8d2f71e8c36d,2026-02-05,nba,Scottie Barnes,pra,35.5,lower,55.47,LEAN,26.0,True,,TOR,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,55.47,55.47,55.47,unknown,pre_v2.1.4,0.0,MIGRATED
+5b21b9ed-fb80-4545-b1ae-4b9cf493224c,2026-02-05,nba,Isaac Okoro,pra,16.5,lower,55.78,LEAN,13.0,True,,CHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,55.78,55.78,55.78,unknown,pre_v2.1.4,0.0,MIGRATED
+23509027-18bd-47f0-9fbb-4723e0ed09ec,2026-02-05,nba,Klay Thompson,pra,16.5,lower,55.41,LEAN,8.0,True,,DAL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,55.41,55.41,55.41,unknown,pre_v2.1.4,0.0,MIGRATED
+fc6abdc7-121a-4a83-bf12-52429064922d,2026-02-05,nba,Royce O'Neale,pra,17.5,lower,55.19,LEAN,15.0,True,,PHX,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,55.19,55.19,55.19,unknown,pre_v2.1.4,0.0,MIGRATED
+133fd272-66f3-457c-9620-f34517a2bd86,2026-02-05,nba,Bub Carrington,pra,21.5,lower,55.47,LEAN,16.0,True,,WAS,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,55.47,55.47,55.47,unknown,pre_v2.1.4,0.0,MIGRATED
+94d61418-d620-42b4-a980-8e25dc40ed58,2026-02-05,nba,Patrick Williams,pra,18.5,lower,55.66,LEAN,12.0,True,,CHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,55.66,55.66,55.66,unknown,pre_v2.1.4,0.0,MIGRATED
+344e1a7c-0ac4-47d8-8d92-23bba84404d4,2026-02-05,nba,LaMelo Ball,pra,31.5,lower,53.16,LEAN,30.0,True,,CHA,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,53.16,53.16,53.16,unknown,pre_v2.1.4,0.0,MIGRATED
+edb26202-4054-4413-9345-c4158a97dc68,2026-02-05,nba,Harrison Barnes,pra,14.5,lower,54.63,LEAN,23.0,False,,SAS,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,54.63,54.63,54.63,unknown,pre_v2.1.4,0.0,MIGRATED
+54f58cad-4b57-4261-8fc1-e1858c4d51eb,2026-02-05,nba,Patrick Williams,points,11.5,lower,57.44,LEAN,9.0,True,,CHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,57.44,57.44,57.44,unknown,pre_v2.1.4,0.0,MIGRATED
+25ecea77-2457-45bb-8e9d-d5e5ad6f436d,2026-02-05,nba,Brandon Miller,points,20.5,higher,64.29,PLAY,11.0,False,,CHA,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,64.29,64.29,64.29,unknown,pre_v2.1.4,0.0,MIGRATED
+09ec4812-4402-431e-884c-04fe10f4a081,2026-02-05,nba,Dylan Harper,points,9.5,higher,45.17,LEAN,9.0,False,,SAS,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,45.17,45.17,45.17,unknown,pre_v2.1.4,0.0,MIGRATED
+113a8c69-e22e-4e4a-ab80-420f1cc59a5f,2026-02-05,nba,Jarred Vanderbilt,points,3.5,higher,44.7,LEAN,6.0,True,,LAL,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,44.7,44.7,44.7,unknown,pre_v2.1.4,0.0,MIGRATED
+87aec8b1-9643-445a-a8f6-b064aa8464aa,2026-02-05,nba,Nic Claxton,points,10.5,lower,57.7,LEAN,14.0,False,,BKN,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,57.7,57.7,57.7,unknown,pre_v2.1.4,0.0,MIGRATED
+8ade6542-40ea-4573-98c7-0fc3ff0f969e,2026-02-05,nba,Nolan Traore,points,6.5,higher,49.93,LEAN,21.0,True,,BKN,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,49.93,49.93,49.93,unknown,pre_v2.1.4,0.0,MIGRATED
+b8fcdd9c-f72d-4c51-bac7-9eab86b6eee2,2026-02-05,nba,Ausar Thompson,points,10.5,lower,60.26,LEAN,13.0,False,,DET,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,60.26,60.26,60.26,unknown,pre_v2.1.4,0.0,MIGRATED
+31a670f3-a8e4-4c1c-9cca-29a7ac4a79e4,2026-02-05,nba,Jalen Smith,points,12.5,higher,43.99,LEAN,13.0,True,,CHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,43.99,43.99,43.99,unknown,pre_v2.1.4,0.0,MIGRATED
+443f1238-efac-4e6a-8aaf-988dd5c38135,2026-02-05,nba,Isaac Okoro,points,11.5,lower,54.71,LEAN,10.0,True,,CHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,54.71,54.71,54.71,unknown,pre_v2.1.4,0.0,MIGRATED
+bb5f52c2-49b3-4e87-83eb-a32475f645e8,2026-02-05,nba,LaMelo Ball,points,19.5,lower,54.17,LEAN,20.0,False,,CHA,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,54.17,54.17,54.17,unknown,pre_v2.1.4,0.0,MIGRATED
+aef16c5d-dfdb-4daf-b5b4-d0d61070b950,2026-02-05,nba,Ryan Kalkbrenner,points,5.5,higher,62.17,PLAY,2.0,False,,CHA,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,62.17,62.17,62.17,unknown,pre_v2.1.4,0.0,MIGRATED
+abf36aca-4784-4b32-9cd2-c251696b66db,2026-02-05,nba,Julian Champagnie,points,9.5,higher,51.17,LEAN,14.0,True,,SAS,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,51.17,51.17,51.17,unknown,pre_v2.1.4,0.0,MIGRATED
+d6880f32-6673-4d9d-ad89-1d11be6e67c0,2026-02-05,nba,Trendon Watford,points,5.5,lower,54.33,LEAN,6.0,False,,PHI,,,0.0,MIGRATED_FROM_OLD_SCHEMA,0.0,0.0,54.33,54.33,54.33,unknown,pre_v2.1.4,0.0,MIGRATED
+soccer_2026-02-10_Xavi_Simons_Passes_Attempted_44.5,2026-02-10,soccer,Xavi Simons,Passes Attempted,44.5,Lower,80.37972606928689,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-10_Bruno_Guimarães_Passes_Attempted_49.5,2026-02-10,soccer,Bruno Guimarães,Passes Attempted,49.5,Higher,84.32882545094508,SLAM,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-10_Xavi_Simons_Shots_1.5,2026-02-10,soccer,Xavi Simons,Shots,1.5,Higher,69.15589588159975,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-10_Dominic_Solanke_SOT_0.5,2026-02-10,soccer,Dominic Solanke,SOT,0.5,Higher,63.212055882855765,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-10_Harvey_Barnes_SOT_0.5,2026-02-10,soccer,Harvey Barnes,SOT,0.5,Lower,60.653065971263345,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-10_Wilson_Odobert_SOT_1.5,2026-02-10,soccer,Wilson Odobert,SOT,1.5,Lower,62.68231239782289,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-10_Xavi_Simons_SOT_1.5,2026-02-10,soccer,Xavi Simons,SOT,1.5,Lower,73.57588823428847,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-10_Anthony_Elanga_SOT_1.5,2026-02-10,soccer,Anthony Elanga,SOT,1.5,Lower,62.68231239782289,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-10_Bruno_Guimarães_SOT_1.5,2026-02-10,soccer,Bruno Guimarães,SOT,1.5,Lower,87.80986177504424,SLAM,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-10_Pape_Sarr_SOT_1.5,2026-02-10,soccer,Pape Sarr,SOT,1.5,Lower,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-10_Conor_Gallagher_SOT_1.5,2026-02-10,soccer,Conor Gallagher,SOT,1.5,Lower,87.80986177504424,SLAM,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-10_Jacob_Ramsey_SOT_1.5,2026-02-10,soccer,Jacob Ramsey,SOT,1.5,Lower,92.0,SLAM,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-10_Joe_Willock_SOT_1.5,2026-02-10,soccer,Joe Willock,SOT,1.5,Lower,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-10_Archie_Gray_SOT_0.5,2026-02-10,soccer,Archie Gray,SOT,0.5,Lower,60.653065971263345,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-10_Dan_Burn_SOT_0.5,2026-02-10,soccer,Dan Burn,SOT,0.5,Lower,67.03200460356393,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-10_Djed_Spence_SOT_0.5,2026-02-10,soccer,Djed Spence,SOT,0.5,Lower,67.03200460356393,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-10_Kieran_Trippier_SOT_0.5,2026-02-10,soccer,Kieran Trippier,SOT,0.5,Lower,67.03200460356393,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-10_Malick_Thiaw_SOT_0.5,2026-02-10,soccer,Malick Thiaw,SOT,0.5,Lower,67.03200460356393,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-10_Micky_Ven_SOT_0.5,2026-02-10,soccer,Micky Ven,SOT,0.5,Lower,67.03200460356393,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-10_Sven_Botman_SOT_0.5,2026-02-10,soccer,Sven Botman,SOT,0.5,Lower,67.03200460356393,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-10_Yves_Bissouma_SOT_0.5,2026-02-10,soccer,Yves Bissouma,SOT,0.5,Lower,60.653065971263345,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-10_Radu_Dragusin_SOT_0.5,2026-02-10,soccer,Radu Dragusin,SOT,0.5,Lower,67.03200460356393,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+tennis_2026-02-17_Alexei_Popyrin_games_won_6.5_Higher,2026-02-17,tennis,Alexei Popyrin,games_won,6.5,Higher,97.0,SLAM,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Arthur_Rinderknech_games_won_6.5_Higher,2026-02-17,tennis,Arthur Rinderknech,games_won,6.5,Higher,92.45,SLAM,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Daria_Kasatkina_games_won_7.5_Higher,2026-02-17,tennis,Daria Kasatkina,games_won,7.5,Higher,88.25,SLAM,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Anastasia_Zakharova_games_won_11.5_Higher,2026-02-17,tennis,Anastasia Zakharova,games_won,11.5,Higher,92.85,SLAM,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Shintaro_Mochizuki_games_won_7.5_Higher,2026-02-17,tennis,Shintaro Mochizuki,games_won,7.5,Higher,100.0,SLAM,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Giulio_Zeppieri_games_won_12.5_Higher,2026-02-17,tennis,Giulio Zeppieri,games_won,12.5,Higher,100.0,SLAM,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Jacob_Fearnley_games_won_12.5_Higher,2026-02-17,tennis,Jacob Fearnley,games_won,12.5,Higher,100.0,SLAM,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Kimberly_Birrell_games_won_5.5_Higher,2026-02-17,tennis,Kimberly Birrell,games_won,5.5,Higher,99.8,SLAM,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Dane_Sweeny_games_won_12.5_Higher,2026-02-17,tennis,Dane Sweeny,games_won,12.5,Higher,98.3,SLAM,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Benjamin_Bonzi_games_won_12.5_Higher,2026-02-17,tennis,Benjamin Bonzi,games_won,12.5,Higher,96.85000000000001,SLAM,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Lloyd_Harris_games_won_12.5_Higher,2026-02-17,tennis,Lloyd Harris,games_won,12.5,Higher,98.85000000000001,SLAM,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Jannik_Sinner_games_won_12.5_Higher,2026-02-17,tennis,Jannik Sinner,games_won,12.5,Higher,79.7,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Andrey_Rublev_games_won_12.5_Higher,2026-02-17,tennis,Andrey Rublev,games_won,12.5,Higher,69.45,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Tomas_Martin_Etcheverry_games_won_12.5_Higher,2026-02-17,tennis,Tomas Martin Etcheverry,games_won,12.5,Higher,78.2,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Hady_Habib_games_won_8.5_Higher,2026-02-17,tennis,Hady Habib,games_won,8.5,Higher,80.15,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Kanon_Sawashiro_games_won_5.5_Higher,2026-02-17,tennis,Kanon Sawashiro,games_won,5.5,Higher,79.80000000000001,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_David_Jorda_Sanchis_games_won_9.5_Higher,2026-02-17,tennis,David Jorda Sanchis,games_won,9.5,Higher,74.1,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Tomas_Barrios_Vera_games_won_9.5_Higher,2026-02-17,tennis,Tomas Barrios Vera,games_won,9.5,Higher,73.0,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Emma_Navarro_games_won_11.5_Higher,2026-02-17,tennis,Emma Navarro,games_won,11.5,Higher,73.2,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Miomir_Kecmanovic_games_won_12.5_Higher,2026-02-17,tennis,Miomir Kecmanovic,games_won,12.5,Higher,68.89999999999999,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Elena_Rybakina_games_won_12.5_Higher,2026-02-17,tennis,Elena Rybakina,games_won,12.5,Higher,81.3,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Mackenzie_Mcdonald_games_won_10.5_Higher,2026-02-17,tennis,Mackenzie Mcdonald,games_won,10.5,Higher,81.69999999999999,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Francisco_Comesana_games_won_11.5_Higher,2026-02-17,tennis,Francisco Comesana,games_won,11.5,Higher,81.39999999999999,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Ekaterina_Alexandrova_games_won_12.5_Higher,2026-02-17,tennis,Ekaterina Alexandrova,games_won,12.5,Higher,69.25,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Jesper_De_Jong_games_won_8.5_Higher,2026-02-17,tennis,Jesper De Jong,games_won,8.5,Higher,68.5,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Ugo_Humbert_games_won_12.5_Higher,2026-02-17,tennis,Ugo Humbert,games_won,12.5,Higher,67.35,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Tommy_Paul_games_won_12.5_Higher,2026-02-17,tennis,Tommy Paul,games_won,12.5,Higher,66.60000000000001,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Carlos_Alcaraz_games_won_12.5_Higher,2026-02-17,tennis,Carlos Alcaraz,games_won,12.5,Higher,64.60000000000001,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Francisco_Cerundolo_games_won_12.5_Higher,2026-02-17,tennis,Francisco Cerundolo,games_won,12.5,Higher,67.4,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Stefanos_Tsitsipas_games_won_12.5_Higher,2026-02-17,tennis,Stefanos Tsitsipas,games_won,12.5,Higher,62.849999999999994,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Lorenzo_Sonego_games_won_11.5_Higher,2026-02-17,tennis,Lorenzo Sonego,games_won,11.5,Higher,66.0,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Karen_Khachanov_games_won_12.5_Higher,2026-02-17,tennis,Karen Khachanov,games_won,12.5,Higher,61.5,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Juan_Manuel_Cerundolo_games_won_10.5_Higher,2026-02-17,tennis,Juan Manuel Cerundolo,games_won,10.5,Higher,65.0,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Iva_Jovic_games_won_12.5_Higher,2026-02-17,tennis,Iva Jovic,games_won,12.5,Higher,67.95,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Filip_Misolic_games_won_11.5_Higher,2026-02-17,tennis,Filip Misolic,games_won,11.5,Higher,67.60000000000001,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Janice_Tjen_games_won_10.5_Higher,2026-02-17,tennis,Janice Tjen,games_won,10.5,Higher,63.449999999999996,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Quentin_Halys_games_won_12.5_Higher,2026-02-17,tennis,Quentin Halys,games_won,12.5,Higher,64.60000000000001,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Luis_Guto_Miguel_games_won_7.5_Higher,2026-02-17,tennis,Luis Guto Miguel,games_won,7.5,Higher,64.9,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Fabian_Marozsan_games_won_12.5_Higher,2026-02-17,tennis,Fabian Marozsan,games_won,12.5,Higher,58.45,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Brandon_Nakashima_games_won_12.5_Higher,2026-02-17,tennis,Brandon Nakashima,games_won,12.5,Higher,59.5,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Mattia_Bellucci_games_won_11.5_Higher,2026-02-17,tennis,Mattia Bellucci,games_won,11.5,Higher,63.5,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Zizou_Bergs_games_won_13.5_Higher,2026-02-17,tennis,Zizou Bergs,games_won,13.5,Higher,58.25,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Thiago_Monteiro_games_won_10.5_Higher,2026-02-17,tennis,Thiago Monteiro,games_won,10.5,Higher,58.95,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Sorana_Cirstea_games_won_12.5_Higher,2026-02-17,tennis,Sorana Cirstea,games_won,12.5,Higher,58.15,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Arthur_Rinderknech_aces_4.5_Higher,2026-02-17,tennis,Arthur Rinderknech,aces,4.5,Higher,83.5,SLAM,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Daria_Kasatkina_aces_2.5_Higher,2026-02-17,tennis,Daria Kasatkina,aces,2.5,Higher,66.05,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-17_Matteo_Berrettini_aces_9.5_Higher,2026-02-17,tennis,Matteo Berrettini,aces,9.5,Higher,59.550000000000004,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Alexei_Popyrin_games_won_5.5_Higher,2026-02-18,tennis,Alexei Popyrin,games_won,5.5,Higher,98.9,SLAM,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Alexei_Popyrin_aces_4.5_Higher,2026-02-18,tennis,Alexei Popyrin,aces,4.5,Higher,85.15,SLAM,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Antonia_Ruzic_games_won_6.5_Higher,2026-02-18,tennis,Antonia Ruzic,games_won,6.5,Higher,91.85,SLAM,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Jannik_Sinner_games_won_12.5_Higher,2026-02-18,tennis,Jannik Sinner,games_won,12.5,Higher,78.8,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Elena_Rybakina_games_won_12.5_Higher,2026-02-18,tennis,Elena Rybakina,games_won,12.5,Higher,81.39999999999999,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Alexei_Popyrin_double_faults_2.5_Higher,2026-02-18,tennis,Alexei Popyrin,double_faults,2.5,Higher,63.7,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Karen_Khachanov_games_won_12.5_Higher,2026-02-18,tennis,Karen Khachanov,games_won,12.5,Higher,58.099999999999994,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+1ac30721-1dae-41cc-9842-6850f66f0ea5,2026-02-18T15:59:08.497475,NBA,LeBron James,points,25.5,higher,68.5,STRONG,28.0,True,0.09922499999999997,LAL,BOS,,27.3,mu_raw=28.1 * factors=0.97 = 27.3,6.6,0.35,72.3,70.0,68.5,global_cap,nba_props_v2.1.4_test,1.8,PRIMARY
+tennis_2026-02-18_Alexandr_Binda_games_won_9.5_Higher,2026-02-18,tennis,Alexandr Binda,games_won,9.5,Higher,75.3,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Casper_Ruud_games_won_12.5_Higher,2026-02-18,tennis,Casper Ruud,games_won,12.5,Higher,67.55,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Ilya_Ivashka_1st_set_games_won_4.5_Higher,2026-02-18,tennis,Ilya Ivashka,1st_set_games_won,4.5,Higher,95.85000000000001,SLAM,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Rafael_Jodar_games_won_10.5_Lower,2026-02-18,tennis,Rafael Jodar,games_won,10.5,Lower,82.5,SLAM,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Alejandro_Tabilo_aces_3.5_Higher,2026-02-18,tennis,Alejandro Tabilo,aces,3.5,Higher,91.85,SLAM,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Alexandr_Binda_1st_set_games_won_4.5_Higher,2026-02-18,tennis,Alexandr Binda,1st_set_games_won,4.5,Higher,96.35000000000001,SLAM,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Adam_Walton_games_won_8.5_Higher,2026-02-18,tennis,Adam Walton,games_won,8.5,Higher,82.75,SLAM,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Matteo_Berrettini_aces_4.5_Higher,2026-02-18,tennis,Matteo Berrettini,aces,4.5,Higher,93.5,SLAM,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Alexandr_Binda_sets_won_0.5_Higher,2026-02-18,tennis,Alexandr Binda,sets_won,0.5,Higher,83.25,SLAM,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Beibit_Zhukayev_games_won_12.5_Lower,2026-02-18,tennis,Beibit Zhukayev,games_won,12.5,Lower,88.55,SLAM,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Moise_Kouame_games_won_12.5_Lower,2026-02-18,tennis,Moise Kouame,games_won,12.5,Lower,85.25,SLAM,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Ilya_Ivashka_games_won_11.5_Lower,2026-02-18,tennis,Ilya Ivashka,games_won,11.5,Lower,80.45,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Taylor_Fritz_games_won_13.5_Higher,2026-02-18,tennis,Taylor Fritz,games_won,13.5,Higher,69.8,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Andrey_Rublev_games_won_12.5_Higher,2026-02-18,tennis,Andrey Rublev,games_won,12.5,Higher,70.19999999999999,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Ilya_Ivashka_sets_won_0.5_Higher,2026-02-18,tennis,Ilya Ivashka,sets_won,0.5,Higher,74.25,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Alejandro_Tabilo_games_won_12.5_Lower,2026-02-18,tennis,Alejandro Tabilo,games_won,12.5,Lower,74.05000000000001,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Casper_Ruud_1st_set_games_10.5_Lower,2026-02-18,tennis,Casper Ruud,1st_set_games,10.5,Lower,72.45,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Casper_Ruud_1st_set_games_won_5.5_Higher,2026-02-18,tennis,Casper Ruud,1st_set_games_won,5.5,Higher,81.10000000000001,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Tomas_Martin_Etcheverry_aces_4.5_Higher,2026-02-18,tennis,Tomas Martin Etcheverry,aces,4.5,Higher,81.45,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Alvaro_Guillen_Meza_games_won_12.5_Lower,2026-02-18,tennis,Alvaro Guillen Meza,games_won,12.5,Lower,80.4,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Genaro_Alberto_Olivieri_games_won_12.5_Lower,2026-02-18,tennis,Genaro Alberto Olivieri,games_won,12.5,Lower,80.30000000000001,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Juan_Manuel_La_Serna_games_won_9.5_Higher,2026-02-18,tennis,Juan Manuel La Serna,games_won,9.5,Higher,72.6,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Anna_Frey_games_won_5.5_Higher,2026-02-18,tennis,Anna Frey,games_won,5.5,Higher,80.05,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Gonzalo_Bueno_games_won_12.5_Lower,2026-02-18,tennis,Gonzalo Bueno,games_won,12.5,Lower,81.25,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Nicolas_Kicker_games_won_12.5_Lower,2026-02-18,tennis,Nicolas Kicker,games_won,12.5,Lower,80.60000000000001,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Joel_Schwaerzler_games_won_11.5_Lower,2026-02-18,tennis,Joel Schwaerzler,games_won,11.5,Lower,74.9,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Sebastian_Korda_1st_set_games_10.5_Lower,2026-02-18,tennis,Sebastian Korda,1st_set_games,10.5,Lower,70.39999999999999,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Franco_Roncadelli_games_won_11.5_Higher,2026-02-18,tennis,Franco Roncadelli,games_won,11.5,Higher,70.05,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Felix_Gill_1st_set_games_10.5_Lower,2026-02-18,tennis,Felix Gill,1st_set_games,10.5,Lower,74.7,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Jay_Clarke_1st_set_games_8.5_Higher,2026-02-18,tennis,Jay Clarke,1st_set_games,8.5,Higher,72.5,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Michael_Geerts_1st_set_games_10.5_Lower,2026-02-18,tennis,Michael Geerts,1st_set_games,10.5,Lower,74.15,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Oliver_Crawford_1st_set_games_8.5_Higher,2026-02-18,tennis,Oliver Crawford,1st_set_games,8.5,Higher,71.6,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Daniel_Michalski_sets_won_0.5_Higher,2026-02-18,tennis,Daniel Michalski,sets_won,0.5,Higher,80.60000000000001,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Kayla_Day_games_won_12.5_Lower,2026-02-18,tennis,Kayla Day,games_won,12.5,Lower,80.4,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Damir_Dzumhur_games_won_12.5_Lower,2026-02-18,tennis,Damir Dzumhur,games_won,12.5,Lower,73.65,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Clara_Tauson_games_won_10.5_Higher,2026-02-18,tennis,Clara Tauson,games_won,10.5,Higher,70.5,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Amanda_Anisimova_games_won_12.5_Lower,2026-02-18,tennis,Amanda Anisimova,games_won,12.5,Lower,69.19999999999999,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Tommy_Paul_games_won_12.5_Higher,2026-02-18,tennis,Tommy Paul,games_won,12.5,Higher,67.7,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Jiri_Lehecka_aces_7.5_Higher,2026-02-18,tennis,Jiri Lehecka,aces,7.5,Higher,67.2,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Alejandro_Tabilo_1st_set_games_10.5_Lower,2026-02-18,tennis,Alejandro Tabilo,1st_set_games,10.5,Lower,67.65,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Marcos_Giron_games_won_12.5_Lower,2026-02-18,tennis,Marcos Giron,games_won,12.5,Lower,66.45,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Jay_Clarke_games_played_20.5_Higher,2026-02-18,tennis,Jay Clarke,games_played,20.5,Higher,66.60000000000001,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Alejandro_Tabilo_1st_set_games_won_5.5_Lower,2026-02-18,tennis,Alejandro Tabilo,1st_set_games_won,5.5,Lower,64.55,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Stefanos_Tsitsipas_games_won_12.5_Higher,2026-02-18,tennis,Stefanos Tsitsipas,games_won,12.5,Higher,61.1,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Zachary_Svajda_games_won_12.5_Lower,2026-02-18,tennis,Zachary Svajda,games_won,12.5,Lower,67.30000000000001,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Sebastian_Korda_1st_set_games_won_5.5_Higher,2026-02-18,tennis,Sebastian Korda,1st_set_games_won,5.5,Higher,61.7,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Jiri_Lehecka_games_won_12.5_Higher,2026-02-18,tennis,Jiri Lehecka,games_won,12.5,Higher,60.099999999999994,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Hanyu_Guo_aces_2.5_Higher,2026-02-18,tennis,Hanyu Guo,aces,2.5,Higher,62.150000000000006,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Daniel_Michalski_1st_set_games_won_5.5_Higher,2026-02-18,tennis,Daniel Michalski,1st_set_games_won,5.5,Higher,62.1,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Sebastian_Korda_games_played_22.5_Higher,2026-02-18,tennis,Sebastian Korda,games_played,22.5,Higher,60.45,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Sebastian_Korda_games_won_13.5_Lower,2026-02-18,tennis,Sebastian Korda,games_won,13.5,Lower,60.199999999999996,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Mirra_Andreeva_games_won_12.5_Lower,2026-02-18,tennis,Mirra Andreeva,games_won,12.5,Lower,63.4,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Casper_Ruud_games_played_23.5_Lower,2026-02-18,tennis,Casper Ruud,games_played,23.5,Lower,58.099999999999994,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Oliver_Crawford_games_played_21.5_Higher,2026-02-18,tennis,Oliver Crawford,games_played,21.5,Higher,61.050000000000004,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Francesco_Passaro_aces_4.5_Higher,2026-02-18,tennis,Francesco Passaro,aces,4.5,Higher,63.949999999999996,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Carlos_Maria_Zarate_games_won_7.5_Higher,2026-02-18,tennis,Carlos Maria Zarate,games_won,7.5,Higher,60.0,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Francesco_Passaro_games_won_12.5_Higher,2026-02-18,tennis,Francesco Passaro,games_won,12.5,Higher,61.650000000000006,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Rei_Sakamoto_games_won_12.5_Higher,2026-02-18,tennis,Rei Sakamoto,games_won,12.5,Higher,58.75,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Martin_Landaluce_games_won_12.5_Higher,2026-02-18,tennis,Martin Landaluce,games_won,12.5,Higher,58.699999999999996,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-18_Joao_Fonseca_games_won_12.5_Higher,2026-02-18,tennis,Joao Fonseca,games_won,12.5,Higher,58.3,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+soccer_2026-02-18_Marcos_Alonso_Passes_Attempted_70.5,2026-02-18,soccer,Marcos Alonso,Passes Attempted,70.5,Lower,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Yoann_Barbet_Passes_Attempted_43.5,2026-02-18,soccer,Yoann Barbet,Passes Attempted,43.5,Higher,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Aïssa_Mandi_Passes_Attempted_72.5,2026-02-18,soccer,Aïssa Mandi,Passes Attempted,72.5,Lower,70.87,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Juan_Miranda_Passes_Attempted_57.5,2026-02-18,soccer,Juan Miranda,Passes Attempted,57.5,Higher,71.34,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Soualiho_Meïté_Passes_Attempted_37.5,2026-02-18,soccer,Soualiho Meïté,Passes Attempted,37.5,Higher,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Borja_Iglesias_Shots_2.0,2026-02-18,soccer,Borja Iglesias,Shots,2.0,Higher,67.335,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Juan_Pablo_Cozzani_Goalie_Saves_3.5,2026-02-18,soccer,Juan Pablo Cozzani,Goalie Saves,3.5,Lower,65.0,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Rade_Krunic_Passes_Attempted_43.5,2026-02-18,soccer,Rade Krunic,Passes Attempted,43.5,Higher,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Ermedin_Demirovic_Shots_2.0,2026-02-18,soccer,Ermedin Demirovic,Shots,2.0,Higher,67.35,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Tozé_Passes_Attempted_33.5,2026-02-18,soccer,Tozé,Passes Attempted,33.5,Higher,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_John_Buckley_Passes_Attempted_44.5,2026-02-18,soccer,John Buckley,Passes Attempted,44.5,Higher,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Iago_Aspas_Shots_2.0,2026-02-18,soccer,Iago Aspas,Shots,2.0,Higher,67.45,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Yoann_Barbet_Clearances_5.5,2026-02-18,soccer,Yoann Barbet,Clearances,5.5,Lower,61.61,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Ramiro_Enrique_Passes_Attempted_17.5,2026-02-18,soccer,Ramiro Enrique,Passes Attempted,17.5,Higher,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Ionut_Radu_Goalie_Saves_3.0,2026-02-18,soccer,Ionut Radu,Goalie Saves,3.0,Lower,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Mathias_Dyngeland_Goalie_Saves_3.5,2026-02-18,soccer,Mathias Dyngeland,Goalie Saves,3.5,Lower,64.42999999999999,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Lukasz_Skorupski_Goalie_Saves_2.5,2026-02-18,soccer,Lukasz Skorupski,Goalie Saves,2.5,Higher,56.31,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Federico_Ravaglia_Goalie_Saves_1.5,2026-02-18,soccer,Federico Ravaglia,Goalie Saves,1.5,Higher,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Hendrik_Crombrugge_Goalie_Saves_2.5,2026-02-18,soccer,Hendrik Crombrugge,Goalie Saves,2.5,Higher,56.31,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Ivan_Filipovic_Goalie_Saves_1.5,2026-02-18,soccer,Ivan Filipovic,Goalie Saves,1.5,Higher,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Ivan_Nevistic_Goalie_Saves_1.5,2026-02-18,soccer,Ivan Nevistic,Goalie Saves,1.5,Higher,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Ederson_Goalie_Saves_3.0,2026-02-18,soccer,Ederson,Goalie Saves,3.0,Lower,57.92,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Mert_Günok_Goalie_Saves_2.5,2026-02-18,soccer,Mert Günok,Goalie Saves,2.5,Higher,56.940000000000005,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Matz_Sels_Goalie_Saves_2.5,2026-02-18,soccer,Matz Sels,Goalie Saves,2.5,Higher,57.66,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Stefan_Ortega_Goalie_Saves_2.5,2026-02-18,soccer,Stefan Ortega,Goalie Saves,2.5,Higher,56.87,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Matheus_Goalie_Saves_3.5,2026-02-18,soccer,Matheus,Goalie Saves,3.5,Lower,64.75999999999999,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Berke_Özer_Goalie_Saves_2.0,2026-02-18,soccer,Berke Özer,Goalie Saves,2.0,Higher,66.91,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Alban_Lafont_Goalie_Saves_1.5,2026-02-18,soccer,Alban Lafont,Goalie Saves,1.5,Higher,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Florian_Wiegele_Goalie_Saves_2.5,2026-02-18,soccer,Florian Wiegele,Goalie Saves,2.5,Higher,56.89999999999999,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Konstantinos_Kotsaris_Goalie_Saves_1.5,2026-02-18,soccer,Konstantinos Kotsaris,Goalie Saves,1.5,Higher,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Marián_Tvrdon_Goalie_Saves_2.5,2026-02-18,soccer,Marián Tvrdon,Goalie Saves,2.5,Higher,56.54,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Sergio_Padt_Goalie_Saves_2.5,2026-02-18,soccer,Sergio Padt,Goalie Saves,2.5,Higher,57.32000000000001,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Ádám_Varga_Goalie_Saves_2.5,2026-02-18,soccer,Ádám Varga,Goalie Saves,2.5,Higher,57.02,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Arnaud_Bodart_Goalie_Saves_1.5,2026-02-18,soccer,Arnaud Bodart,Goalie Saves,1.5,Higher,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Omri_Glazer_Goalie_Saves_2.5,2026-02-18,soccer,Omri Glazer,Goalie Saves,2.5,Higher,56.26,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Alexander_Nübel_Goalie_Saves_2.5,2026-02-18,soccer,Alexander Nübel,Goalie Saves,2.5,Higher,56.830000000000005,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Fabian_Bredlow_Goalie_Saves_1.5,2026-02-18,soccer,Fabian Bredlow,Goalie Saves,1.5,Higher,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Kasper_Schmeichel_Goalie_Saves_3.5,2026-02-18,soccer,Kasper Schmeichel,Goalie Saves,3.5,Lower,64.49000000000001,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Thijs_Dallinga_Shots_on_Target_1.5,2026-02-18,soccer,Thijs Dallinga,Shots on Target,1.5,Lower,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Neco_Williams_Shots_on_Target_0.5,2026-02-18,soccer,Neco Williams,Shots on Target,0.5,Lower,62.519999999999996,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Nadir_Zortea_Shots_on_Target_0.5,2026-02-18,soccer,Nadir Zortea,Shots on Target,0.5,Lower,61.67,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Miha_Zajc_Shots_on_Target_0.5,2026-02-18,soccer,Miha Zajc,Shots on Target,0.5,Lower,62.18,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Konstantinos_Karetsas_Shots_on_Target_0.5,2026-02-18,soccer,Konstantinos Karetsas,Shots on Target,0.5,Lower,61.59,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Junya_Ito_Shots_on_Target_0.5,2026-02-18,soccer,Junya Ito,Shots on Target,0.5,Lower,61.9,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Daan_Heymans_Shots_on_Target_0.5,2026-02-18,soccer,Daan Heymans,Shots on Target,0.5,Lower,61.919999999999995,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Kerem_Akturkoglu_Shots_on_Target_0.5,2026-02-18,soccer,Kerem Akturkoglu,Shots on Target,0.5,Lower,62.79,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Arber_Hoxha_Shots_on_Target_0.5,2026-02-18,soccer,Arber Hoxha,Shots on Target,0.5,Lower,61.870000000000005,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Riccardo_Orsolini_Shots_on_Target_0.5,2026-02-18,soccer,Riccardo Orsolini,Shots on Target,0.5,Lower,61.51,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Ermedin_Demirovic_Shots_on_Target_1.5,2026-02-18,soccer,Ermedin Demirovic,Shots on Target,1.5,Lower,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Deniz_Undav_Shots_on_Target_1.5,2026-02-18,soccer,Deniz Undav,Shots on Target,1.5,Lower,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Kieran_Tierney_Shots_on_Target_0.5,2026-02-18,soccer,Kieran Tierney,Shots on Target,0.5,Lower,62.67,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Maximilian_Mittelstadt_Shots_on_Target_0.5,2026-02-18,soccer,Maximilian Mittelstadt,Shots on Target,0.5,Lower,62.150000000000006,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Benjamin_Andre_Shots_on_Target_0.5,2026-02-18,soccer,Benjamin Andre,Shots on Target,0.5,Lower,62.38,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Callum_McGregor_Shots_on_Target_0.5,2026-02-18,soccer,Callum McGregor,Shots on Target,0.5,Lower,62.4,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Cheick_Oumar_Souare_Shots_on_Target_0.5,2026-02-18,soccer,Cheick Oumar Souare,Shots on Target,0.5,Lower,62.760000000000005,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Vicente_Taborda_Shots_on_Target_0.5,2026-02-18,soccer,Vicente Taborda,Shots on Target,0.5,Lower,62.580000000000005,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Kristoffer_Zachariassen_Shots_on_Target_0.5,2026-02-18,soccer,Kristoffer Zachariassen,Shots on Target,0.5,Lower,61.28,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Marcus_Erick_Shots_on_Target_0.5,2026-02-18,soccer,Marcus Erick,Shots on Target,0.5,Lower,62.86000000000001,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Hakon_Haraldsson_Shots_on_Target_0.5,2026-02-18,soccer,Hakon Haraldsson,Shots on Target,0.5,Lower,62.61,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Marko_Arnautovic_Shots_on_Target_0.5,2026-02-18,soccer,Marko Arnautovic,Shots on Target,0.5,Lower,62.519999999999996,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Jamie_Leweling_Shots_on_Target_0.5,2026-02-18,soccer,Jamie Leweling,Shots on Target,0.5,Lower,62.41,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Felix_Correia_Shots_on_Target_0.5,2026-02-18,soccer,Felix Correia,Shots on Target,0.5,Lower,61.79,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Matias_Fernandez-Pardo_Shots_on_Target_0.5,2026-02-18,soccer,Matias Fernandez-Pardo,Shots on Target,0.5,Lower,62.660000000000004,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Karol_Swiderski_Shots_on_Target_0.5,2026-02-18,soccer,Karol Swiderski,Shots on Target,0.5,Lower,61.19,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Ryan_Yates_Shots_on_Target_0.5,2026-02-18,soccer,Ryan Yates,Shots on Target,0.5,Lower,62.5,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Matteo_Guendouzi_Shots_on_Target_0.5,2026-02-18,soccer,Matteo Guendouzi,Shots on Target,0.5,Lower,61.73,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Nicolas_Dominguez_Shots_on_Target_0.5,2026-02-18,soccer,Nicolas Dominguez,Shots on Target,0.5,Lower,62.74999999999999,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Lewis_Ferguson_Shots_on_Target_0.5,2026-02-18,soccer,Lewis Ferguson,Shots on Target,0.5,Lower,62.11,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_James_McAtee_Shots_on_Target_0.5,2026-02-18,soccer,James McAtee,Shots on Target,0.5,Lower,61.339999999999996,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Dan_Ndoye_Shots_on_Target_0.5,2026-02-18,soccer,Dan Ndoye,Shots on Target,0.5,Lower,62.23,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Marco_Asensio_Shots_on_Target_0.5,2026-02-18,soccer,Marco Asensio,Shots on Target,0.5,Lower,61.4,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Jens_Odgaard_Shots_on_Target_0.5,2026-02-18,soccer,Jens Odgaard,Shots on Target,0.5,Lower,61.86000000000001,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Monsef_Bakrar_Shots_on_Target_0.5,2026-02-18,soccer,Monsef Bakrar,Shots on Target,0.5,Lower,60.85,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Franko_Kovacevic_Shots_on_Target_1.5,2026-02-18,soccer,Franko Kovacevic,Shots on Target,1.5,Lower,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Olivier_Giroud_Shots_on_Target_1.5,2026-02-18,soccer,Olivier Giroud,Shots on Target,1.5,Lower,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Lukas_Cerv_Shots_on_Target_0.5,2026-02-18,soccer,Lukas Cerv,Shots on Target,0.5,Lower,62.760000000000005,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Lorenz_Assignon_Shots_on_Target_0.5,2026-02-18,soccer,Lorenz Assignon,Shots on Target,0.5,Lower,61.029999999999994,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Gavriel_Kanichowsky_Shots_on_Target_0.5,2026-02-18,soccer,Gavriel Kanichowsky,Shots on Target,0.5,Lower,62.35000000000001,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Ayyoub_Bouaddi_Shots_on_Target_0.5,2026-02-18,soccer,Ayyoub Bouaddi,Shots on Target,0.5,Lower,67.7,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Reo_Hatate_Shots_on_Target_0.5,2026-02-18,soccer,Reo Hatate,Shots on Target,0.5,Lower,61.970000000000006,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Jonathan_Levi_Shots_on_Target_0.5,2026-02-18,soccer,Jonathan Levi,Shots on Target,0.5,Lower,61.86000000000001,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Tomas_Ladra_Shots_on_Target_0.5,2026-02-18,soccer,Tomas Ladra,Shots on Target,0.5,Lower,61.96,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Anass_Zaroury_Shots_on_Target_0.5,2026-02-18,soccer,Anass Zaroury,Shots on Target,0.5,Lower,62.029999999999994,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Sebastian_Tounekti_Shots_on_Target_0.5,2026-02-18,soccer,Sebastian Tounekti,Shots on Target,0.5,Lower,61.67,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Chris_Fuhrich_Shots_on_Target_0.5,2026-02-18,soccer,Chris Fuhrich,Shots on Target,0.5,Lower,62.71,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Tomas_Cvancara_Shots_on_Target_0.5,2026-02-18,soccer,Tomas Cvancara,Shots on Target,0.5,Lower,61.550000000000004,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Bamidele_Yusuf_Shots_on_Target_0.5,2026-02-18,soccer,Bamidele Yusuf,Shots on Target,0.5,Lower,61.529999999999994,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Daizen_Maeda_Shots_on_Target_0.5,2026-02-18,soccer,Daizen Maeda,Shots on Target,0.5,Lower,61.6,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Caio_Vidal_Shots_on_Target_0.5,2026-02-18,soccer,Caio Vidal,Shots on Target,0.5,Lower,61.71,LEAN,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Andrei_Radu_Saves_3.5,2026-02-18,soccer,Andrei Radu,Saves,3.5,Lower,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Stefan_Ortega_Saves_3.5,2026-02-18,soccer,Stefan Ortega,Saves,3.5,Lower,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Tobias_Lawal_Saves_3.5,2026-02-18,soccer,Tobias Lawal,Saves,3.5,Lower,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Lukasz_Skorupski_Saves_2.5,2026-02-18,soccer,Lukasz Skorupski,Saves,2.5,Lower,67.75999999999999,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Kasper_Schmeichel_Saves_3.5,2026-02-18,soccer,Kasper Schmeichel,Saves,3.5,Lower,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Alexander_Nubel_Saves_2.5,2026-02-18,soccer,Alexander Nubel,Saves,2.5,Lower,67.93,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Hendrik_Bonmann_Saves_2.5,2026-02-18,soccer,Hendrik Bonmann,Saves,2.5,Lower,68.65,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Berke_Ozer_Saves_2.5,2026-02-18,soccer,Berke Ozer,Saves,2.5,Lower,67.84,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Antonis_Tsiftsis_Saves_2.5,2026-02-18,soccer,Antonis Tsiftsis,Saves,2.5,Lower,67.17,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Mathias_Dyngeland_Saves_3.5,2026-02-18,soccer,Mathias Dyngeland,Saves,3.5,Lower,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Dominik_Livakovic_Saves_2.5,2026-02-18,soccer,Dominik Livakovic,Saves,2.5,Lower,68.66,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Matheus_Saves_3.5,2026-02-18,soccer,Matheus,Saves,3.5,Lower,72.0,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Alban_Lafont_Saves_2.5,2026-02-18,soccer,Alban Lafont,Saves,2.5,Lower,67.60000000000001,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_David_Grof_Saves_2.5,2026-02-18,soccer,David Grof,Saves,2.5,Lower,68.33,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+soccer_2026-02-18_Florian_Wiegele_Saves_2.5,2026-02-18,soccer,Florian Wiegele,Saves,2.5,Lower,67.43,STRONG,,,,UNK,UNK,,0.0,,0.0,0.0,0.0,0.0,0.0,none,unknown,0.0,PRIMARY
+tennis_2026-02-19_Casper_Ruud_games_won_12.5_Higher,2026-02-19,tennis,Casper Ruud,games_won,12.5,Higher,68.55,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-19_Casper_Ruud_double_faults_1.5_Higher,2026-02-19,tennis,Casper Ruud,double_faults,1.5,Higher,71.15,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-19_Sebastian_Korda_double_faults_1.5_Higher,2026-02-19,tennis,Sebastian Korda,double_faults,1.5,Higher,70.0,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-19_Jessica_Pegula_double_faults_1.5_Higher,2026-02-19,tennis,Jessica Pegula,double_faults,1.5,Higher,80.85,STRONG,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-19_Carlos_Alcaraz_games_won_12.5_Higher,2026-02-19,tennis,Carlos Alcaraz,games_won,12.5,Higher,63.05,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY
+tennis_2026-02-19_Coco_Gauff_aces_2.5_Higher,2026-02-19,tennis,Coco Gauff,aces,2.5,Higher,59.3,LEAN,,,,N/A,TBD,,0.0,,0.0,0.0,0.0,0.0,0.0,none,calibrated_props_v1,0.0,PRIMARY

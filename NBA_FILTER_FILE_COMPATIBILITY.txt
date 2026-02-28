@@ -1,0 +1,145 @@
+╔═══════════════════════════════════════════════════════════════════════╗
+║              NBA ROLE LAYER FILTER - FILE COMPATIBILITY               ║
+╚═══════════════════════════════════════════════════════════════════════╝
+
+ISSUE DIAGNOSED:
+  Selected file has NO NBA Role Layer data (generated before Jan 26, 2026)
+
+═══════════════════════════════════════════════════════════════════════
+ FILE STATUS CHECK
+═══════════════════════════════════════════════════════════════════════
+
+✅ FILES WITH NBA DATA (Compatible with Filter):
+
+  [1] PHI_CHA8_RISK_FIRST_20260126_FROM_UD.json
+      Modified: 2026-01-26 15:10
+      NBA Data: 159/159 picks (100%)
+      → Use this file for filter testing
+
+  [2] PHI_CHA1262026_RISK_FIRST_20260126_FROM_UD.json
+      Modified: 2026-01-26 14:05
+      NBA Data: 150/150 picks (100%)
+      → Compatible
+
+  [3] TEST_NBA_ROLE_RISK_FIRST_20260126_FROM_UD.json
+      Modified: 2026-01-26 13:15
+      NBA Data: 29/29 picks (100%)
+      → Compatible
+
+❌ FILES WITHOUT NBA DATA (Incompatible):
+
+  [4] IND_ATL_POP_RISK_FIRST_20260126_FROM_UD.json
+      Modified: 2026-01-26 12:41
+      NBA Data: 0/29 picks (0%)
+      → Generated BEFORE NBA API enrichment
+
+  [5] IND_ATL1262026_RISK_FIRST_20260126_FROM_UD.json
+      Modified: 2026-01-26 12:41
+      NBA Data: 0/109 picks (0%)
+      → Generated BEFORE NBA API enrichment
+
+  [6] MONDAYRUN_RISK_FIRST_20260125_FROM_UD.json ⚠️ YOUR SELECTION
+      Modified: 2026-01-25 21:20
+      NBA Data: 0/??? picks (0%)
+      → Generated BEFORE NBA API enrichment (Jan 25)
+
+═══════════════════════════════════════════════════════════════════════
+ WHY THIS HAPPENS
+═══════════════════════════════════════════════════════════════════════
+
+The NBA Role Layer system was added on January 26, 2026 at ~13:00.
+
+Files generated BEFORE this time:
+  ❌ No nba_role_archetype field
+  ❌ No specialist flags
+  ❌ No confidence cap adjustments
+  ❌ Filter exits with error code 1
+
+Files generated AFTER NBA API enrichment:
+  ✅ Full NBA Role Layer data
+  ✅ Archetype classification
+  ✅ Specialist detection (if player qualifies)
+  ✅ Filter works perfectly
+
+═══════════════════════════════════════════════════════════════════════
+ SOLUTION
+═══════════════════════════════════════════════════════════════════════
+
+Option 1: USE COMPATIBLE FILE (Immediate)
+  Menu → [L] → Select file [1], [2], or [3]
+  
+Option 2: RE-RUN ANALYSIS (Regenerate with NBA data)
+  1. Have the MONDAYRUN slate JSON in inputs/
+  2. Menu → [2] Analyze Slate
+  3. Select MONDAYRUN slate
+  4. New file will have NBA Role Layer data
+  5. Then use Menu → [L] to filter
+
+Option 3: VIEW WITHOUT FILTER (Read directly)
+  Open: outputs\MONDAYRUN_RISK_FIRST_20260125_FROM_UD.json
+  Read picks manually (no archetype filtering available)
+
+═══════════════════════════════════════════════════════════════════════
+ RECOMMENDED ACTION
+═══════════════════════════════════════════════════════════════════════
+
+Use file [1] for testing:
+  Menu → [L] → Press Enter (auto-selects latest)
+  OR
+  Menu → [L] → Type: 1
+
+This file has:
+  ✅ 159 NBA picks with full Role Layer data
+  ✅ 3 archetypes: CONNECTOR_STARTER (11), PRIMARY_USAGE_SCORER (33), SECONDARY_CREATOR (115)
+  ✅ Confidence cap adjustments applied
+  ⚠️  No specialist flags yet (needs re-run to populate)
+
+Expected Filter Results:
+  [1] OPTIMAL:      1 pick   (VJ Edgecombe REB 71.3%)
+  [2] RISKY:       33 picks  (All Maxey/Ball props)
+  [4] Distribution: 3 archetypes
+  [7] SPECIALIST:   0 picks  (awaiting specialist data)
+
+═══════════════════════════════════════════════════════════════════════
+ ERROR MESSAGE NOW IMPROVED
+═══════════════════════════════════════════════════════════════════════
+
+When selecting incompatible file, you'll now see:
+
+  ═══════════════════════════════════════════════════════════════
+  ❌ NO NBA ROLE LAYER DATA FOUND
+  ═══════════════════════════════════════════════════════════════
+
+  This file was generated BEFORE NBA API enrichment was added.
+
+  To use NBA Role Layer filter:
+    1. Run Menu → [2] to analyze a slate
+    2. Select a file with timestamp AFTER January 26, 2026
+    3. Or re-run analysis on this slate to regenerate with NBA data
+
+  File checked: outputs\MONDAYRUN_RISK_FIRST_20260125_FROM_UD.json
+
+  Press Enter to continue...
+
+Then returns to menu with helpful tip:
+
+  ⚠️  Filter exited with code 1
+
+  [INFO] This usually means the file lacks NBA Role Layer data.
+         Files generated before Jan 26, 2026 don't have NBA API enrichment.
+
+  [TIP] Select a newer file or re-run analysis on this slate.
+
+═══════════════════════════════════════════════════════════════════════
+ SUMMARY
+═══════════════════════════════════════════════════════════════════════
+
+❌ ISSUE:     Selected file #6 (MONDAYRUN) has no NBA Role Layer data
+✅ FIX:       Error handling improved to show clear message
+✅ SOLUTION:  Use file #1 (PHI_CHA8) or re-run analysis on MONDAYRUN slate
+✅ STATUS:    Filter system working perfectly on compatible files
+
+Next Time:
+  1. Check file timestamp (must be after Jan 26, 2026 13:00)
+  2. Or press Enter to auto-select latest file (always has NBA data)
+  3. Or re-run analysis to regenerate old slates with NBA data

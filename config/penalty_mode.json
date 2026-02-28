@@ -1,0 +1,36 @@
+{
+  "_comment": "PENALTY MODE CONFIGURATION - 2026-01-29 (MASTER SWITCH)",
+  "_description": "Controls whether the system applies penalties or uses simple edge logic",
+  "mode": "hybrid",
+  "modes": {
+    "full": {
+      "description": "All penalties active (original system - 10+ penalty layers)",
+      "master_penalties_off": false
+    },
+    "demon": {
+      "description": "ALL PENALTIES OFF - pure mu vs line (what your friends do)",
+      "master_penalties_off": true
+    },
+    "hybrid": {
+      "description": "DATA-DRIVEN penalties only - uses 97-pick calibration data",
+      "master_penalties_off": true,
+      "use_hybrid_confidence": true
+    }
+  },
+  "active_mode_settings": {
+    "master_penalties_off": true,
+    "use_hybrid_confidence": true,
+    "use_data_driven_penalties": true,
+    "use_calibration_fixer": true,
+    "variance_penalty": false,
+    "sample_penalty": false,
+    "stat_penalty": false,
+    "gate_penalties": false,
+    "bootstrap_guard": false,
+    "edge_gate": false,
+    "context_adjustment": false,
+    "stat_multipliers": false,
+    "confidence_compression": false,
+    "specialist_governance": false
+  }
+}

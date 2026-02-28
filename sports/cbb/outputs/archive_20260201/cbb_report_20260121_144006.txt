@@ -1,0 +1,45 @@
+
+=================================================================
+[CBB] COLLEGE BASKETBALL STRATEGIC REPORT
+   Generated: 2026-01-21 14:40:06
+   Total edges: 4 | Actionable: 4
+=================================================================
+
+
+============================================================
+ WOF
+============================================================
+  ROSTER SNAPSHOT — WOF
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Kahmare Holmes        30.0  18.5   6.8   0.0   0.0
+  Nils Machowski        30.0  16.5   5.5   0.0   0.0
+  Cayden Vasko          30.0  10.5   4.0   0.0   0.0
+
+[EDGES]
+    Kahmare Holmes     rebounds   higher 5.5   (LEAN)
+      Probability: 66.0%
+
+    Nils Machowski     rebounds   higher 4.5   (LEAN)
+      Probability: 63.0%
+
+    Cayden Vasko       rebounds   lower 4.5   (LEAN)
+      Probability: 61.6%
+
+
+============================================================
+ SAM
+============================================================
+  ROSTER SNAPSHOT — SAM
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Dylan Faulkner        30.0  17.5   6.2   0.0   0.0
+
+[EDGES]
+  ★ Dylan Faulkner     rebounds   lower 7.5   (STRONG)
+      Probability: 70.2%
+
+
+=================================================================
+[!] CBB = RESEARCH STATUS - Do NOT use for live betting
+=================================================================

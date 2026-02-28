@@ -1,0 +1,76 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                       UNDERDOG FANTASY PROPS ANALYZER                        ║
+║                       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━                        ║
+║                     DAILY SLATE REPORT: SCRAPED_20260206                     ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  Report Date:    February 06, 2026
+  Generated At:   06:55 PM
+  Data Source:    SCRAPED_20260206_RISK_FIRST_20260206_FROM_UD.json
+  Lens: UNDER-first enabled; Failure Lens enabled
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  ⚠️  DEFENSIVE MODE ACTIVE                                                   │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  Slate Quality: 80/100 (B)                                                   │
+│                                                                              │
+│  Drivers:                                                                    │
+│    • Low directional clarity (0.0% ≥55%)                                     │
+│                                                                              │
+│  Action:                                                                     │
+│    • Max tier allowed: STRONG                                                │
+│    • Capital deployment minimized                                            │
+│    • NO PLAY dominance expected                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  EXECUTIVE SUMMARY                                                           │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  Total Props Analyzed:  2             Actionable Plays:  0                   │
+│  ✓ PLAY Tier:           0             ○ LEAN Tier:        0                  │
+│  Directional Bias:      0 UNDERs / 0 OVERs                                   │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  DECISION GOVERNANCE                                                         │
+│  ✅ OPTIMIZABLE: 0       ⚠️ VETTED: 0       ❌ REJECTED: 2                     │
+│  ⚠️  No OPTIMIZABLE picks — Monte Carlo cannot build entries                 │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+
+════════════════════════════════════════════════════════════════════════════════
+  ⏭️ SKIP (2)
+  Blocked by governance gates or data quality issues
+════════════════════════════════════════════════════════════════════════════════
+
+  ┌─ #1 ────────────────────────────────────────────────────────────
+  │  Clear Picks (?)
+  │  POINTS ? 19.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 19.5, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #2 ────────────────────────────────────────────────────────────
+  │  Clear Picks (?)
+  │  REBOUNDS ? 7.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 7.5, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+════════════════════════════════════════════════════════════════════════════════

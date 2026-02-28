@@ -1,0 +1,73 @@
+======================================================================
+MONTE CARLO ENTRY OPTIMIZATION
+Generated: 2026-01-29T16:19:29.301678
+======================================================================
+
+STAT KEY (basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made (aka 3PT/3PTS) | STOCKS=STL+BLK | PRA=PTS+REB+AST
+
+RUN CONTEXT:
+   League inferred: NBA
+   Picks: 49 qualifying (from 475 analyzed)
+   Filter pass: UNFILTERED_DIRECT
+   Constraints: max_same_game=1, max_primary_per_game=1
+
+BEST POWER ENTRY:
+   4L POWER | EV=+0.97 | Sharpe=0.24 | P(profit)=19.7% | Isaiah Hartenstein REB >6.5; Jalen Johnson AST >6.5; Myles Turner REB <6.5; Royce O'Neale REB >4.5
+   Kelly stake: 1.5% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=66.9%, min p_hit=61.3%
+   Stat mix: REB:3, AST:1
+   Same-game buckets: ATL@HOU:1, DET@PHX:1, MIL@WAS:1, MIN@OKC:1
+   LEGS (what each pick is):
+    1. Isaiah Hartenstein REB >6.5 (OKC vs MIN) | p_hit=76.0% | PRIMARY_SAFE
+    2. Jalen Johnson AST >6.5 (ATL vs HOU) | p_hit=67.9% | FRAGILE
+    3. Myles Turner REB <6.5 (MIL vs WAS) | p_hit=62.3% | PRIMARY_SAFE
+    4. Royce O'Neale REB >4.5 (PHX vs DET) | p_hit=61.3% | PRIMARY_SAFE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST FLEX ENTRY:
+   4L FLEX | EV=+0.59 | Sharpe=0.32 | P(profit)=59.7% | Isaiah Hartenstein REB >6.5; Jalen Johnson AST >6.5; Myles Turner REB <6.5; Royce O'Neale REB >4.5
+   Kelly stake: 4.4% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=66.9%, min p_hit=61.3%
+   Stat mix: REB:3, AST:1
+   Same-game buckets: ATL@HOU:1, DET@PHX:1, MIL@WAS:1, MIN@OKC:1
+   LEGS (what each pick is):
+    1. Isaiah Hartenstein REB >6.5 (OKC vs MIN) | p_hit=76.0% | PRIMARY_SAFE
+    2. Jalen Johnson AST >6.5 (ATL vs HOU) | p_hit=67.9% | FRAGILE
+    3. Myles Turner REB <6.5 (MIL vs WAS) | p_hit=62.3% | PRIMARY_SAFE
+    4. Royce O'Neale REB >4.5 (PHX vs DET) | p_hit=61.3% | PRIMARY_SAFE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST RISK-ADJUSTED (Sharpe):
+   2L POWER | EV=+0.55 | Sharpe=0.37 | P(profit)=51.6% | Isaiah Hartenstein REB >6.5; Jalen Johnson AST >6.5
+   ENTRY SNAPSHOT: avg p_hit=72.0%, min p_hit=67.9%
+   Stat mix: AST:1, REB:1
+   Same-game buckets: ATL@HOU:1, MIN@OKC:1
+   LEGS (what each pick is):
+    1. Isaiah Hartenstein REB >6.5 (OKC vs MIN) | p_hit=76.0% | PRIMARY_SAFE
+    2. Jalen Johnson AST >6.5 (ATL vs HOU) | p_hit=67.9% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+----------------------------------------------------------------------
+TOP 10 ENTRIES BY EV:
+----------------------------------------------------------------------
+ 1. 4L POWER | EV=+0.97 | Sharpe=0.24 | P(profit)=19.7% | Isaiah Hartenstein REB >6.5; Jalen Johnson AST >6.5; Myles Turner REB <6.5; Royce O'Neale REB >4.5
+ 2. 4L POWER | EV=+0.95 | Sharpe=0.24 | P(profit)=19.5% | Isaiah Hartenstein REB >6.5; Jalen Johnson AST >6.5; Myles Turner REB <6.5; Josh Giddey AST >7.5
+ 3. 3L POWER | EV=+0.93 | Sharpe=0.33 | P(profit)=32.2% | Isaiah Hartenstein REB >6.5; Jalen Johnson AST >6.5; Myles Turner REB <6.5
+ 4. 4L POWER | EV=+0.93 | Sharpe=0.24 | P(profit)=19.3% | Isaiah Hartenstein REB >6.5; Jalen Johnson AST >6.5; Myles Turner REB <6.5; Cade Cunningham AST >9.5
+ 5. 4L POWER | EV=+0.92 | Sharpe=0.23 | P(profit)=19.2% | Isaiah Hartenstein REB >6.5; Jalen Johnson AST >6.5; Royce O'Neale REB >4.5; Josh Giddey AST >7.5
+ 6. 4L POWER | EV=+0.90 | Sharpe=0.23 | P(profit)=19.0% | Isaiah Hartenstein REB >6.5; Jalen Johnson AST >6.5; Myles Turner REB <6.5; Andrew Wiggins REB >4.5
+ 7. 3L POWER | EV=+0.90 | Sharpe=0.32 | P(profit)=31.7% | Isaiah Hartenstein REB >6.5; Jalen Johnson AST >6.5; Royce O'Neale REB >4.5
+ 8. 4L POWER | EV=+0.90 | Sharpe=0.23 | P(profit)=19.0% | Isaiah Hartenstein REB >6.5; Jalen Johnson AST >6.5; Myles Turner REB <6.5; Jaden Ivey REB >1.5
+ 9. 3L POWER | EV=+0.87 | Sharpe=0.31 | P(profit)=31.2% | Isaiah Hartenstein REB >6.5; Jalen Johnson AST >6.5; Josh Giddey AST >7.5
+10. 4L POWER | EV=+0.87 | Sharpe=0.22 | P(profit)=18.7% | Isaiah Hartenstein REB >6.5; Jalen Johnson AST >6.5; Josh Giddey AST >7.5; Cade Cunningham AST >9.5

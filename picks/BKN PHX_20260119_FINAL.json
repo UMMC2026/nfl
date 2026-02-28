@@ -1,0 +1,139 @@
+{
+  "date": "2026-01-19",
+  "timestamp": "2026-01-19T18:32:34.840464",
+  "slate": "BKN PHX",
+  "source_file": "BKN PHX_RISK_FIRST_20260119_FROM_UD.json",
+  "summary": {
+    "play_count": 4,
+    "lean_count": 10,
+    "total": 14
+  },
+  "picks": [
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "stat": "points",
+      "line": 9.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 73.5
+    },
+    {
+      "player": "Pascal Siakam",
+      "team": "IND",
+      "stat": "points",
+      "line": 28.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 71.7
+    },
+    {
+      "player": "Noah Clowney",
+      "team": "BKN",
+      "stat": "rebounds",
+      "line": 5.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 71.6
+    },
+    {
+      "player": "Quentin Grimes",
+      "team": "PHI",
+      "stat": "points",
+      "line": 8.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 70.8
+    },
+    {
+      "player": "Royce O'Neale",
+      "team": "PHX",
+      "stat": "rebounds",
+      "line": 5.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.8
+    },
+    {
+      "player": "Pascal Siakam",
+      "team": "IND",
+      "stat": "pra",
+      "line": 40.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "stat": "pra",
+      "line": 18.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Kelly Oubre",
+      "team": "PHI",
+      "stat": "pra",
+      "line": 22.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Nic Claxton",
+      "team": "BKN",
+      "stat": "pra",
+      "line": 23.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Royce O'Neale",
+      "team": "PHX",
+      "stat": "pra",
+      "line": 17.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Jarace Walker",
+      "team": "IND",
+      "stat": "rebounds",
+      "line": 5.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 67.6
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 67.4
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 66.9
+    },
+    {
+      "player": "Noah Clowney",
+      "team": "BKN",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 66.6
+    }
+  ]
+}

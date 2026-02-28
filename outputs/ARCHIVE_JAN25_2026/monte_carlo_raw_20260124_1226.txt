@@ -1,0 +1,70 @@
+======================================================================
+MONTE CARLO ENTRY OPTIMIZATION
+Generated: 2026-01-24T12:26:22.740098
+======================================================================
+
+STAT KEY (basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made (aka 3PT/3PTS) | STOCKS=STL+BLK | PRA=PTS+REB+AST
+
+RUN CONTEXT:
+   League inferred: NBA
+   Picks: 5 qualifying (from 8 analyzed)
+   Filter pass: UNFILTERED_DIRECT
+   Constraints: max_same_game=4, max_primary_per_game=4
+
+BEST POWER ENTRY:
+   2L POWER | EV=-0.13 | Sharpe=-0.09 | P(profit)=29.2% | Paul George AST >3.5; Tyrese Maxey AST >6.5
+   Kelly stake: 0.0% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=56.8%, min p_hit=55.8%
+   Stat mix: AST:2
+   Same-game buckets: NYK@PHI:2
+   LEGS (what each pick is):
+    1. Paul George AST >3.5 (PHI vs NYK) | p_hit=57.9% | FRAGILE
+    2. Tyrese Maxey AST >6.5 (PHI vs NYK) | p_hit=55.8% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST FLEX ENTRY:
+   3L FLEX | EV=-0.29 | Sharpe=-0.37 | P(profit)=47.6% | Paul George AST >3.5; Paul George AST <3.5; Tyrese Maxey AST >6.5
+   Kelly stake: 0.0% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=53.8%, min p_hit=47.7%
+   Stat mix: AST:3
+   Same-game buckets: NYK@PHI:3
+   LEGS (what each pick is):
+    1. Paul George AST >3.5 (PHI vs NYK) | p_hit=57.9% | FRAGILE
+    2. Paul George AST <3.5 (PHI vs NYK) | p_hit=47.7% | FRAGILE
+    3. Tyrese Maxey AST >6.5 (PHI vs NYK) | p_hit=55.8% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST RISK-ADJUSTED (Sharpe):
+   2L POWER | EV=-0.13 | Sharpe=-0.09 | P(profit)=29.2% | Paul George AST >3.5; Tyrese Maxey AST >6.5
+   ENTRY SNAPSHOT: avg p_hit=56.8%, min p_hit=55.8%
+   Stat mix: AST:2
+   Same-game buckets: NYK@PHI:2
+   LEGS (what each pick is):
+    1. Paul George AST >3.5 (PHI vs NYK) | p_hit=57.9% | FRAGILE
+    2. Tyrese Maxey AST >6.5 (PHI vs NYK) | p_hit=55.8% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+----------------------------------------------------------------------
+TOP 10 ENTRIES BY EV:
+----------------------------------------------------------------------
+ 1. 2L POWER | EV=-0.13 | Sharpe=-0.09 | P(profit)=29.2% | Paul George AST >3.5; Tyrese Maxey AST >6.5
+ 2. 2L POWER | EV=-0.25 | Sharpe=-0.19 | P(profit)=24.9% | Paul George AST >3.5; Paul George AST <3.5
+ 3. 2L POWER | EV=-0.26 | Sharpe=-0.20 | P(profit)=24.7% | Jalen Brunson AST >6.5; Paul George AST >3.5
+ 4. 2L POWER | EV=-0.28 | Sharpe=-0.22 | P(profit)=24.0% | Paul George AST <3.5; Tyrese Maxey AST >6.5
+ 5. 2L POWER | EV=-0.29 | Sharpe=-0.22 | P(profit)=23.8% | Jalen Brunson AST >6.5; Tyrese Maxey AST >6.5
+ 6. 2L POWER | EV=-0.29 | Sharpe=-0.23 | P(profit)=23.7% | Mikal Bridges AST >4.5; Paul George AST >3.5
+ 7. 3L FLEX | EV=-0.29 | Sharpe=-0.37 | P(profit)=47.6% | Paul George AST >3.5; Paul George AST <3.5; Tyrese Maxey AST >6.5
+ 8. 3L FLEX | EV=-0.30 | Sharpe=-0.37 | P(profit)=47.4% | Jalen Brunson AST >6.5; Paul George AST >3.5; Tyrese Maxey AST >6.5
+ 9. 3L FLEX | EV=-0.31 | Sharpe=-0.39 | P(profit)=46.6% | Mikal Bridges AST >4.5; Paul George AST >3.5; Tyrese Maxey AST >6.5
+10. 2L POWER | EV=-0.31 | Sharpe=-0.25 | P(profit)=22.9% | Mikal Bridges AST >4.5; Tyrese Maxey AST >6.5

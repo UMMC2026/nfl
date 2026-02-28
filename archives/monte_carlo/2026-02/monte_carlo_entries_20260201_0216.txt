@@ -1,0 +1,78 @@
+======================================================================
+MONTE CARLO ENTRY OPTIMIZATION
+Generated: 2026-02-01T02:16:28.067697
+======================================================================
+
+STAT KEY (basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made (aka 3PT/3PTS) | STOCKS=STL+BLK | PRA=PTS+REB+AST
+
+RUN CONTEXT:
+   League inferred: NBA
+   Picks: 5 qualifying (from 68 analyzed)
+   Filter pass: NBA_STRICT_PRIMARY — PLAY/LEAN only + min conf + primary-safe stats only (PTS/REB/STL/BLK)
+   Filter attempts (qualifying picks): NBA_STRICT_PRIMARY=5
+   Constraints: max_same_game=1, max_primary_per_game=1
+   NBA min confidence: 65.0
+   NBA flags: primary_only=1, playlean_only=1
+
+BEST POWER ENTRY:
+   4L POWER | EV=+1.05 | Sharpe=0.26 | P(profit)=20.5% | Jaylen Brown REB >5.5; Grayson Allen REB >2.5; Kris Dunn REB >1.5; Jarrett Allen REB <9
+   Kelly stake: 1.6% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=67.4%, min p_hit=65.8%
+   Stat mix: REB:4
+   Same-game buckets: BOS@MIL:1, CLE@UNK:1, LAC@PHX:1, LAC@UNK:1
+   LEGS (what each pick is):
+    1. Jaylen Brown REB >5.5 (BOS vs MIL) | μ=8.3 | σ=1.6 | p_hit=65.8% | PRIMARY_SAFE
+    2. Grayson Allen REB >2.5 (PHX vs LAC) | μ=3.8 | σ=1.7 | p_hit=65.8% | PRIMARY_SAFE
+    3. Kris Dunn REB >1.5 (LAC vs UNK) | μ=2.7 | σ=1.6 | p_hit=65.8% | PRIMARY_SAFE
+    4. Jarrett Allen REB <9 (CLE vs UNK) | μ=6.9 | σ=2.5 | p_hit=72.1% | PRIMARY_SAFE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST FLEX ENTRY:
+   4L FLEX | EV=+0.63 | Sharpe=0.34 | P(profit)=60.5% | Jaylen Brown REB >5.5; Grayson Allen REB >2.5; Kris Dunn REB >1.5; Jarrett Allen REB <9
+   Kelly stake: 4.6% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=67.4%, min p_hit=65.8%
+   Stat mix: REB:4
+   Same-game buckets: BOS@MIL:1, CLE@UNK:1, LAC@PHX:1, LAC@UNK:1
+   LEGS (what each pick is):
+    1. Jaylen Brown REB >5.5 (BOS vs MIL) | μ=8.3 | σ=1.6 | p_hit=65.8% | PRIMARY_SAFE
+    2. Grayson Allen REB >2.5 (PHX vs LAC) | μ=3.8 | σ=1.7 | p_hit=65.8% | PRIMARY_SAFE
+    3. Kris Dunn REB >1.5 (LAC vs UNK) | μ=2.7 | σ=1.6 | p_hit=65.8% | PRIMARY_SAFE
+    4. Jarrett Allen REB <9 (CLE vs UNK) | μ=6.9 | σ=2.5 | p_hit=72.1% | PRIMARY_SAFE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST RISK-ADJUSTED (Sharpe):
+   4L FLEX | EV=+0.63 | Sharpe=0.34 | P(profit)=60.5% | Jaylen Brown REB >5.5; Grayson Allen REB >2.5; Kris Dunn REB >1.5; Jarrett Allen REB <9
+   ENTRY SNAPSHOT: avg p_hit=67.4%, min p_hit=65.8%
+   Stat mix: REB:4
+   Same-game buckets: BOS@MIL:1, CLE@UNK:1, LAC@PHX:1, LAC@UNK:1
+   LEGS (what each pick is):
+    1. Jaylen Brown REB >5.5 (BOS vs MIL) | μ=8.3 | σ=1.6 | p_hit=65.8% | PRIMARY_SAFE
+    2. Grayson Allen REB >2.5 (PHX vs LAC) | μ=3.8 | σ=1.7 | p_hit=65.8% | PRIMARY_SAFE
+    3. Kris Dunn REB >1.5 (LAC vs UNK) | μ=2.7 | σ=1.6 | p_hit=65.8% | PRIMARY_SAFE
+    4. Jarrett Allen REB <9 (CLE vs UNK) | μ=6.9 | σ=2.5 | p_hit=72.1% | PRIMARY_SAFE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+----------------------------------------------------------------------
+TOP 10 ENTRIES BY EV:
+----------------------------------------------------------------------
+ 1. 4L POWER | EV=+1.05 | Sharpe=0.26 | P(profit)=20.5% | Derrick White REB >3.5; Grayson Allen REB >2.5; Kris Dunn REB >1.5; Jarrett Allen REB <9
+ 2. 4L POWER | EV=+1.05 | Sharpe=0.26 | P(profit)=20.5% | Jaylen Brown REB >5.5; Grayson Allen REB >2.5; Kris Dunn REB >1.5; Jarrett Allen REB <9
+ 3. 3L POWER | EV=+0.87 | Sharpe=0.31 | P(profit)=31.2% | Derrick White REB >3.5; Grayson Allen REB >2.5; Jarrett Allen REB <9
+ 4. 3L POWER | EV=+0.87 | Sharpe=0.31 | P(profit)=31.2% | Derrick White REB >3.5; Kris Dunn REB >1.5; Jarrett Allen REB <9
+ 5. 3L POWER | EV=+0.87 | Sharpe=0.31 | P(profit)=31.2% | Grayson Allen REB >2.5; Kris Dunn REB >1.5; Jarrett Allen REB <9
+ 6. 3L POWER | EV=+0.87 | Sharpe=0.31 | P(profit)=31.2% | Jaylen Brown REB >5.5; Grayson Allen REB >2.5; Jarrett Allen REB <9
+ 7. 3L POWER | EV=+0.87 | Sharpe=0.31 | P(profit)=31.2% | Jaylen Brown REB >5.5; Kris Dunn REB >1.5; Jarrett Allen REB <9
+ 8. 3L POWER | EV=+0.71 | Sharpe=0.26 | P(profit)=28.5% | Derrick White REB >3.5; Grayson Allen REB >2.5; Kris Dunn REB >1.5
+ 9. 3L POWER | EV=+0.71 | Sharpe=0.26 | P(profit)=28.5% | Jaylen Brown REB >5.5; Grayson Allen REB >2.5; Kris Dunn REB >1.5
+10. 4L FLEX | EV=+0.63 | Sharpe=0.34 | P(profit)=60.5% | Derrick White REB >3.5; Grayson Allen REB >2.5; Kris Dunn REB >1.5; Jarrett Allen REB <9

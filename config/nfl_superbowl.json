@@ -1,0 +1,29 @@
+{
+  "event": "Super Bowl LIX",
+  "date": "2026-02-09",
+  "location": "Caesars Superdome, New Orleans",
+  "venue_type": "dome",
+  "weather_impact": false,
+  "confidence_boosts": {
+    "playoff_experience": 0.03,
+    "super_bowl_experience": 0.05,
+    "prime_time_player": 0.02
+  },
+  "confidence_penalties": {
+    "first_super_bowl": 0.03,
+    "injury_uncertain": 0.1,
+    "backup_player": 0.15
+  },
+  "simulation_adjustments": {
+    "iterations": 20000,
+    "variance_multiplier": 1.2,
+    "use_playoff_stats": true,
+    "playoff_games_weight": 2.0
+  },
+  "tier_thresholds": {
+    "SLAM": 0.8,
+    "STRONG": 0.7,
+    "LEAN": 0.58,
+    "min_edge": 0.03
+  }
+}

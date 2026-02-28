@@ -1,0 +1,40 @@
+==============================================================================
+GOVERNANCE SUMMARY - TENNIS_PROPS - 20260211
+==============================================================================
+Created (UTC): 2026-02-11T14:38:31.836846+00:00
+
+COUNTS
+------------------------------------------------------------------------------
+Total results : 14
+Allowed edges : 6
+Blocked edges : 8
+Decision breakdown:
+  - BLOCKED: 8
+  - PLAY: 5
+  - LEAN: 1
+
+TOP BLOCK REASONS
+------------------------------------------------------------------------------
+    8x - pick_state=VETTED
+
+TOP PLAY PICKS
+------------------------------------------------------------------------------
+ 1. Qinwen Zheng () aces HIGHER 4.5
+    eff=93.7% model=93.7% edge=? z=?
+ 2. Qinwen Zheng () games_won HIGHER 8.5
+    eff=82.1% model=82.1% edge=? z=?
+ 3. Qinwen Zheng () double_faults HIGHER 3.5
+    eff=78.8% model=78.8% edge=? z=?
+ 4. Qinwen Zheng () 1st_set_games_won HIGHER 3.5
+    eff=77.8% model=77.8% edge=? z=?
+ 5. Qinwen Zheng () sets_won HIGHER 0.5
+    eff=73.7% model=73.7% edge=? z=?
+
+TOP LEANS
+------------------------------------------------------------------------------
+ 1. Qinwen Zheng () breakpoints_won HIGHER 1.5
+    eff=64.5% model=64.5% edge=? z=?
+
+FILES
+------------------------------------------------------------------------------
+... (truncated)

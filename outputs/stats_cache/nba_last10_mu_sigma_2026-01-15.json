@@ -1,0 +1,554 @@
+{
+  "date": "2026-01-15",
+  "season": "2025-26",
+  "last_n_games": 10,
+  "source": "nba_api.playergamelog",
+  "stats": [
+    {
+      "player": "Ajay Mitchell",
+      "stat": "3pm",
+      "mu": 1.1,
+      "sigma": 0.8755950357709131
+    },
+    {
+      "player": "Ajay Mitchell",
+      "stat": "assists",
+      "mu": 3.7,
+      "sigma": 1.636391694484477
+    },
+    {
+      "player": "Ajay Mitchell",
+      "stat": "blocks",
+      "mu": 0.5,
+      "sigma": 0.75
+    },
+    {
+      "player": "Ajay Mitchell",
+      "stat": "points",
+      "mu": 14.1,
+      "sigma": 3.984692933938295
+    },
+    {
+      "player": "Ajay Mitchell",
+      "stat": "rebounds",
+      "mu": 3.0,
+      "sigma": 1.8257418583505538
+    },
+    {
+      "player": "Ajay Mitchell",
+      "stat": "steals",
+      "mu": 1.4,
+      "sigma": 1.1737877907772674
+    },
+    {
+      "player": "Ajay Mitchell",
+      "stat": "turnovers",
+      "mu": 1.2,
+      "sigma": 1.2292725943057183
+    },
+    {
+      "player": "Alex Caruso",
+      "stat": "3pm",
+      "mu": 0.9,
+      "sigma": 0.8755950357709131
+    },
+    {
+      "player": "Alex Caruso",
+      "stat": "assists",
+      "mu": 1.6,
+      "sigma": 1.3498971154211057
+    },
+    {
+      "player": "Alex Caruso",
+      "stat": "blocks",
+      "mu": 0.4,
+      "sigma": 0.75
+    },
+    {
+      "player": "Alex Caruso",
+      "stat": "points",
+      "mu": 7.3,
+      "sigma": 4.90011337737313
+    },
+    {
+      "player": "Alex Caruso",
+      "stat": "rebounds",
+      "mu": 2.3,
+      "sigma": 2.263232692902394
+    },
+    {
+      "player": "Alex Caruso",
+      "stat": "steals",
+      "mu": 0.6,
+      "sigma": 0.75
+    },
+    {
+      "player": "Alex Caruso",
+      "stat": "turnovers",
+      "mu": 0.6,
+      "sigma": 0.75
+    },
+    {
+      "player": "Alperen Sengun",
+      "stat": "3pm",
+      "mu": 0.1,
+      "sigma": 0.75
+    },
+    {
+      "player": "Alperen Sengun",
+      "stat": "assists",
+      "mu": 5.7,
+      "sigma": 3.3681514877517675
+    },
+    {
+      "player": "Alperen Sengun",
+      "stat": "blocks",
+      "mu": 1.0,
+      "sigma": 0.75
+    },
+    {
+      "player": "Alperen Sengun",
+      "stat": "points",
+      "mu": 19.2,
+      "sigma": 9.897249898611006
+    },
+    {
+      "player": "Alperen Sengun",
+      "stat": "rebounds",
+      "mu": 7.9,
+      "sigma": 3.3482997343593826
+    },
+    {
+      "player": "Alperen Sengun",
+      "stat": "steals",
+      "mu": 1.4,
+      "sigma": 0.8432740427115678
+    },
+    {
+      "player": "Alperen Sengun",
+      "stat": "turnovers",
+      "mu": 2.9,
+      "sigma": 1.911950719959998
+    },
+    {
+      "player": "Amen Thompson",
+      "stat": "3pm",
+      "mu": 0.5,
+      "sigma": 0.75
+    },
+    {
+      "player": "Amen Thompson",
+      "stat": "assists",
+      "mu": 4.6,
+      "sigma": 1.6465452046971292
+    },
+    {
+      "player": "Amen Thompson",
+      "stat": "blocks",
+      "mu": 0.6,
+      "sigma": 0.75
+    },
+    {
+      "player": "Amen Thompson",
+      "stat": "points",
+      "mu": 22.1,
+      "sigma": 4.954235000930461
+    },
+    {
+      "player": "Amen Thompson",
+      "stat": "rebounds",
+      "mu": 8.6,
+      "sigma": 3.0258148581093915
+    },
+    {
+      "player": "Amen Thompson",
+      "stat": "steals",
+      "mu": 1.1,
+      "sigma": 1.1005049346146119
+    },
+    {
+      "player": "Amen Thompson",
+      "stat": "turnovers",
+      "mu": 2.7,
+      "sigma": 1.0593499054713802
+    },
+    {
+      "player": "Cason Wallace",
+      "stat": "3pm",
+      "mu": 1.1,
+      "sigma": 1.5238839267549948
+    },
+    {
+      "player": "Cason Wallace",
+      "stat": "assists",
+      "mu": 1.7,
+      "sigma": 1.4944341180973262
+    },
+    {
+      "player": "Cason Wallace",
+      "stat": "blocks",
+      "mu": 0.3,
+      "sigma": 0.75
+    },
+    {
+      "player": "Cason Wallace",
+      "stat": "points",
+      "mu": 5.6,
+      "sigma": 4.526465385804789
+    },
+    {
+      "player": "Cason Wallace",
+      "stat": "rebounds",
+      "mu": 3.3,
+      "sigma": 2.1628170930011112
+    },
+    {
+      "player": "Cason Wallace",
+      "stat": "steals",
+      "mu": 1.6,
+      "sigma": 1.349897115421106
+    },
+    {
+      "player": "Cason Wallace",
+      "stat": "turnovers",
+      "mu": 0.8,
+      "sigma": 1.0327955589886446
+    },
+    {
+      "player": "Chet Holmgren",
+      "stat": "3pm",
+      "mu": 1.0,
+      "sigma": 0.816496580927726
+    },
+    {
+      "player": "Chet Holmgren",
+      "stat": "assists",
+      "mu": 1.6,
+      "sigma": 1.07496769977314
+    },
+    {
+      "player": "Chet Holmgren",
+      "stat": "blocks",
+      "mu": 2.9,
+      "sigma": 1.66332999331662
+    },
+    {
+      "player": "Chet Holmgren",
+      "stat": "points",
+      "mu": 17.0,
+      "sigma": 6.616477747093069
+    },
+    {
+      "player": "Chet Holmgren",
+      "stat": "rebounds",
+      "mu": 10.3,
+      "sigma": 2.359378449224852
+    },
+    {
+      "player": "Chet Holmgren",
+      "stat": "steals",
+      "mu": 0.6,
+      "sigma": 0.75
+    },
+    {
+      "player": "Chet Holmgren",
+      "stat": "turnovers",
+      "mu": 1.8,
+      "sigma": 1.8737959096740262
+    },
+    {
+      "player": "Jabari Smith Jr",
+      "stat": "3pm",
+      "mu": 1.7,
+      "sigma": 1.1595018087284057
+    },
+    {
+      "player": "Jabari Smith Jr",
+      "stat": "assists",
+      "mu": 1.4,
+      "sigma": 1.1737877907772671
+    },
+    {
+      "player": "Jabari Smith Jr",
+      "stat": "blocks",
+      "mu": 1.0,
+      "sigma": 1.1547005383792515
+    },
+    {
+      "player": "Jabari Smith Jr",
+      "stat": "points",
+      "mu": 13.6,
+      "sigma": 4.9035134795822115
+    },
+    {
+      "player": "Jabari Smith Jr",
+      "stat": "rebounds",
+      "mu": 7.2,
+      "sigma": 1.6193277068654826
+    },
+    {
+      "player": "Jabari Smith Jr",
+      "stat": "steals",
+      "mu": 0.9,
+      "sigma": 0.75
+    },
+    {
+      "player": "Jabari Smith Jr",
+      "stat": "turnovers",
+      "mu": 0.9,
+      "sigma": 0.9944289260117534
+    },
+    {
+      "player": "Jalen Williams",
+      "stat": "3pm",
+      "mu": 0.3,
+      "sigma": 0.75
+    },
+    {
+      "player": "Jalen Williams",
+      "stat": "assists",
+      "mu": 5.8,
+      "sigma": 2.485513584307633
+    },
+    {
+      "player": "Jalen Williams",
+      "stat": "blocks",
+      "mu": 0.2,
+      "sigma": 0.75
+    },
+    {
+      "player": "Jalen Williams",
+      "stat": "points",
+      "mu": 17.9,
+      "sigma": 4.458450154232722
+    },
+    {
+      "player": "Jalen Williams",
+      "stat": "rebounds",
+      "mu": 4.6,
+      "sigma": 2.3664319132398464
+    },
+    {
+      "player": "Jalen Williams",
+      "stat": "steals",
+      "mu": 1.3,
+      "sigma": 1.0593499054713802
+    },
+    {
+      "player": "Jalen Williams",
+      "stat": "turnovers",
+      "mu": 2.4,
+      "sigma": 0.8432740427115678
+    },
+    {
+      "player": "Jaylin Williams",
+      "stat": "3pm",
+      "mu": 1.0,
+      "sigma": 0.9428090415820634
+    },
+    {
+      "player": "Jaylin Williams",
+      "stat": "assists",
+      "mu": 2.4,
+      "sigma": 2.065591117977289
+    },
+    {
+      "player": "Jaylin Williams",
+      "stat": "blocks",
+      "mu": 0.7,
+      "sigma": 0.8232726023485647
+    },
+    {
+      "player": "Jaylin Williams",
+      "stat": "points",
+      "mu": 6.5,
+      "sigma": 4.143267631552018
+    },
+    {
+      "player": "Jaylin Williams",
+      "stat": "rebounds",
+      "mu": 5.7,
+      "sigma": 2.3118054512532935
+    },
+    {
+      "player": "Jaylin Williams",
+      "stat": "steals",
+      "mu": 0.7,
+      "sigma": 0.75
+    },
+    {
+      "player": "Jaylin Williams",
+      "stat": "turnovers",
+      "mu": 0.9,
+      "sigma": 0.8755950357709132
+    },
+    {
+      "player": "Lu Dort",
+      "stat": "3pm",
+      "mu": 1.7,
+      "sigma": 1.2516655570345725
+    },
+    {
+      "player": "Lu Dort",
+      "stat": "assists",
+      "mu": 0.9,
+      "sigma": 1.449137674618944
+    },
+    {
+      "player": "Lu Dort",
+      "stat": "blocks",
+      "mu": 0.7,
+      "sigma": 0.8232726023485646
+    },
+    {
+      "player": "Lu Dort",
+      "stat": "points",
+      "mu": 8.1,
+      "sigma": 3.8427420765212266
+    },
+    {
+      "player": "Lu Dort",
+      "stat": "rebounds",
+      "mu": 3.8,
+      "sigma": 1.5491933384829668
+    },
+    {
+      "player": "Lu Dort",
+      "stat": "steals",
+      "mu": 1.1,
+      "sigma": 1.1005049346146119
+    },
+    {
+      "player": "Lu Dort",
+      "stat": "turnovers",
+      "mu": 0.8,
+      "sigma": 0.7888106377466155
+    },
+    {
+      "player": "Reed Sheppard",
+      "stat": "3pm",
+      "mu": 1.9,
+      "sigma": 1.1972189997378648
+    },
+    {
+      "player": "Reed Sheppard",
+      "stat": "assists",
+      "mu": 2.8,
+      "sigma": 2.2997584414213788
+    },
+    {
+      "player": "Reed Sheppard",
+      "stat": "blocks",
+      "mu": 0.5,
+      "sigma": 0.97182531580755
+    },
+    {
+      "player": "Reed Sheppard",
+      "stat": "points",
+      "mu": 11.9,
+      "sigma": 4.605552204797066
+    },
+    {
+      "player": "Reed Sheppard",
+      "stat": "rebounds",
+      "mu": 1.7,
+      "sigma": 1.1595018087284057
+    },
+    {
+      "player": "Reed Sheppard",
+      "stat": "steals",
+      "mu": 1.3,
+      "sigma": 1.4944341180973264
+    },
+    {
+      "player": "Reed Sheppard",
+      "stat": "turnovers",
+      "mu": 1.1,
+      "sigma": 1.1972189997378648
+    },
+    {
+      "player": "Shai Gilgeous-Alexander",
+      "stat": "3pm",
+      "mu": 1.3,
+      "sigma": 0.8232726023485646
+    },
+    {
+      "player": "Shai Gilgeous-Alexander",
+      "stat": "assists",
+      "mu": 5.9,
+      "sigma": 1.1005049346146119
+    },
+    {
+      "player": "Shai Gilgeous-Alexander",
+      "stat": "blocks",
+      "mu": 0.7,
+      "sigma": 1.2516655570345725
+    },
+    {
+      "player": "Shai Gilgeous-Alexander",
+      "stat": "points",
+      "mu": 30.3,
+      "sigma": 7.6890976208019515
+    },
+    {
+      "player": "Shai Gilgeous-Alexander",
+      "stat": "rebounds",
+      "mu": 3.5,
+      "sigma": 2.3213980461973533
+    },
+    {
+      "player": "Shai Gilgeous-Alexander",
+      "stat": "steals",
+      "mu": 1.1,
+      "sigma": 1.286683937707919
+    },
+    {
+      "player": "Shai Gilgeous-Alexander",
+      "stat": "turnovers",
+      "mu": 1.7,
+      "sigma": 1.3374935098492586
+    },
+    {
+      "player": "Steven Adams",
+      "stat": "3pm",
+      "mu": 0.0,
+      "sigma": 0.75
+    },
+    {
+      "player": "Steven Adams",
+      "stat": "assists",
+      "mu": 1.5,
+      "sigma": 1.2692955176439846
+    },
+    {
+      "player": "Steven Adams",
+      "stat": "blocks",
+      "mu": 0.4,
+      "sigma": 0.75
+    },
+    {
+      "player": "Steven Adams",
+      "stat": "points",
+      "mu": 5.1,
+      "sigma": 2.766867462592951
+    },
+    {
+      "player": "Steven Adams",
+      "stat": "rebounds",
+      "mu": 8.2,
+      "sigma": 2.6997942308422114
+    },
+    {
+      "player": "Steven Adams",
+      "stat": "steals",
+      "mu": 0.7,
+      "sigma": 0.9486832980505139
+    },
+    {
+      "player": "Steven Adams",
+      "stat": "turnovers",
+      "mu": 1.2,
+      "sigma": 1.0327955589886444
+    }
+  ]
+}

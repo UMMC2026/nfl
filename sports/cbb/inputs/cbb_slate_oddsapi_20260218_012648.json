@@ -1,0 +1,630 @@
+{
+  "timestamp": "20260218_012648",
+  "count": 78,
+  "props": [
+    {
+      "player": "Tariq Francis",
+      "team": "RUTG",
+      "stat": "PTS",
+      "line": 21.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tariq Francis",
+      "team": "RUTG",
+      "stat": "PTS",
+      "line": 21.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tariq Francis",
+      "team": "RUTG",
+      "stat": "PTS+AST",
+      "line": 25.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tariq Francis",
+      "team": "RUTG",
+      "stat": "PTS+REB",
+      "line": 24.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Kaden Powers",
+      "team": "RUTG",
+      "stat": "PRA",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Kaden Powers",
+      "team": "RUTG",
+      "stat": "PRA",
+      "line": 13.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tariq Francis",
+      "team": "RUTG",
+      "stat": "PRA",
+      "line": 28.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tariq Francis",
+      "team": "RUTG",
+      "stat": "PRA",
+      "line": 28.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Kaden Powers",
+      "team": "RUTG",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Kaden Powers",
+      "team": "RUTG",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Kaden Powers",
+      "team": "RUTG",
+      "stat": "PTS+AST",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Kaden Powers",
+      "team": "RUTG",
+      "stat": "PTS+AST",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tariq Francis",
+      "team": "RUTG",
+      "stat": "PTS+REB",
+      "line": 24.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Kaden Powers",
+      "team": "RUTG",
+      "stat": "PTS+REB",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Kaden Powers",
+      "team": "RUTG",
+      "stat": "PTS+REB",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tariq Francis",
+      "team": "RUTG",
+      "stat": "3PM",
+      "line": 1.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tariq Francis",
+      "team": "RUTG",
+      "stat": "3PM",
+      "line": 1.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Kaden Powers",
+      "team": "RUTG",
+      "stat": "3PM",
+      "line": 1.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Kaden Powers",
+      "team": "RUTG",
+      "stat": "3PM",
+      "line": 1.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "KJ Lewis",
+      "team": "GTWN",
+      "stat": "PTS",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "KJ Lewis",
+      "team": "GTWN",
+      "stat": "PTS",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Drayton Jones",
+      "team": "BUT",
+      "stat": "PTS",
+      "line": 6.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Drayton Jones",
+      "team": "BUT",
+      "stat": "PTS",
+      "line": 6.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "KJ Lewis",
+      "team": "GTWN",
+      "stat": "PTS+AST",
+      "line": 19.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Mack",
+      "team": "GTWN",
+      "stat": "PTS+AST",
+      "line": 19.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Michael Ajayi",
+      "team": "BUT",
+      "stat": "PTS+AST",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Mack",
+      "team": "GTWN",
+      "stat": "PTS+REB",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Michael Ajayi",
+      "team": "BUT",
+      "stat": "PTS+REB",
+      "line": 27.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Caleb Williams",
+      "team": "GTWN",
+      "stat": "PRA",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Caleb Williams",
+      "team": "GTWN",
+      "stat": "PRA",
+      "line": 13.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "KJ Lewis",
+      "team": "GTWN",
+      "stat": "PRA",
+      "line": 24.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "KJ Lewis",
+      "team": "GTWN",
+      "stat": "PRA",
+      "line": 24.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Mack",
+      "team": "GTWN",
+      "stat": "PRA",
+      "line": 22.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Mack",
+      "team": "GTWN",
+      "stat": "PRA",
+      "line": 22.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Michael Ajayi",
+      "team": "BUT",
+      "stat": "PRA",
+      "line": 30.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Michael Ajayi",
+      "team": "BUT",
+      "stat": "PRA",
+      "line": 30.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Drayton Jones",
+      "team": "BUT",
+      "stat": "PRA",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Drayton Jones",
+      "team": "BUT",
+      "stat": "PRA",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Caleb Williams",
+      "team": "GTWN",
+      "stat": "REB+AST",
+      "line": 6.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Mack",
+      "team": "GTWN",
+      "stat": "AST",
+      "line": 4.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Mack",
+      "team": "GTWN",
+      "stat": "AST",
+      "line": 4.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Michael Ajayi",
+      "team": "BUT",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Michael Ajayi",
+      "team": "BUT",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Mack",
+      "team": "GTWN",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Mack",
+      "team": "GTWN",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "KJ Lewis",
+      "team": "GTWN",
+      "stat": "PTS+AST",
+      "line": 19.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Mack",
+      "team": "GTWN",
+      "stat": "PTS+AST",
+      "line": 19.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Michael Ajayi",
+      "team": "BUT",
+      "stat": "PTS+AST",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Caleb Williams",
+      "team": "GTWN",
+      "stat": "PTS+AST",
+      "line": 8.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Caleb Williams",
+      "team": "GTWN",
+      "stat": "PTS+AST",
+      "line": 8.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Drayton Jones",
+      "team": "BUT",
+      "stat": "PTS+AST",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Drayton Jones",
+      "team": "BUT",
+      "stat": "PTS+AST",
+      "line": 7.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Michael Ajayi",
+      "team": "BUT",
+      "stat": "PTS+REB",
+      "line": 26.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Michael Ajayi",
+      "team": "BUT",
+      "stat": "PTS+REB",
+      "line": 26.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "KJ Lewis",
+      "team": "GTWN",
+      "stat": "PTS+REB",
+      "line": 21.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "KJ Lewis",
+      "team": "GTWN",
+      "stat": "PTS+REB",
+      "line": 21.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Mack",
+      "team": "GTWN",
+      "stat": "PTS+REB",
+      "line": 17.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Caleb Williams",
+      "team": "GTWN",
+      "stat": "PTS+REB",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Caleb Williams",
+      "team": "GTWN",
+      "stat": "PTS+REB",
+      "line": 12.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Caleb Williams",
+      "team": "GTWN",
+      "stat": "PTS+REB",
+      "line": 12.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Caleb Williams",
+      "team": "GTWN",
+      "stat": "PTS+REB",
+      "line": 12.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Drayton Jones",
+      "team": "BUT",
+      "stat": "PTS+REB",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Drayton Jones",
+      "team": "BUT",
+      "stat": "PTS+REB",
+      "line": 10.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Michael Ajayi",
+      "team": "BUT",
+      "stat": "REB",
+      "line": 11.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Michael Ajayi",
+      "team": "BUT",
+      "stat": "REB",
+      "line": 11.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "KJ Lewis",
+      "team": "GTWN",
+      "stat": "REB",
+      "line": 5.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "KJ Lewis",
+      "team": "GTWN",
+      "stat": "REB",
+      "line": 5.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Caleb Williams",
+      "team": "GTWN",
+      "stat": "REB",
+      "line": 5.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Caleb Williams",
+      "team": "GTWN",
+      "stat": "REB",
+      "line": 5.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Michael Ajayi",
+      "team": "BUT",
+      "stat": "REB+AST",
+      "line": 14.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Michael Ajayi",
+      "team": "BUT",
+      "stat": "REB+AST",
+      "line": 14.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "KJ Lewis",
+      "team": "GTWN",
+      "stat": "REB+AST",
+      "line": 8.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "KJ Lewis",
+      "team": "GTWN",
+      "stat": "REB+AST",
+      "line": 8.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Mack",
+      "team": "GTWN",
+      "stat": "REB+AST",
+      "line": 7.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Malik Mack",
+      "team": "GTWN",
+      "stat": "REB+AST",
+      "line": 7.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Caleb Williams",
+      "team": "GTWN",
+      "stat": "REB+AST",
+      "line": 6.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Michael Ajayi",
+      "team": "BUT",
+      "stat": "3PM",
+      "line": 0.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Michael Ajayi",
+      "team": "BUT",
+      "stat": "3PM",
+      "line": 0.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    }
+  ]
+}

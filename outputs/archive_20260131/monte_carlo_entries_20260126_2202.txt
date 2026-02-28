@@ -1,0 +1,76 @@
+======================================================================
+MONTE CARLO ENTRY OPTIMIZATION
+Generated: 2026-01-26T22:02:10.536177
+======================================================================
+
+STAT KEY (basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made (aka 3PT/3PTS) | STOCKS=STL+BLK | PRA=PTS+REB+AST
+
+RUN CONTEXT:
+   League inferred: NBA
+   Picks: 7 qualifying (from 110 analyzed)
+   Filter pass: NBA_LEGACY_FALLBACK — fallback: include PLAY/LEAN or >= min_confidence (broadest)
+   Filter attempts (qualifying picks): NBA_STRICT_PRIMARY=0, NBA_PRIMARY_ONLY=0, NBA_PLAYLEAN_ANY_NO_COMPOSITES=0, NBA_LEGACY_FALLBACK=7
+   Constraints: max_same_game=1, max_primary_per_game=1
+   NBA min confidence: 65.0
+   NBA flags: primary_only=1, playlean_only=1
+
+BEST POWER ENTRY:
+   3L POWER | EV=+0.45 | Sharpe=0.18 | P(profit)=24.2% | Tim Hardaway PTS >9.5; Isaiah Stewart PTS >4.5; James Harden PTS <25.5
+   Kelly stake: 1.7% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=62.3%, min p_hit=59.5%
+   Stat mix: PTS:3
+   Same-game buckets: DEN@DET:1, DET@UNK:1, LAC@UNK:1
+   LEGS (what each pick is):
+    1. Tim Hardaway PTS >9.5 (DEN vs DET) | p_hit=59.5% | PRIMARY_SAFE
+    2. Isaiah Stewart PTS >4.5 (DET vs UNK) | p_hit=63.7% | PRIMARY_SAFE
+    3. James Harden PTS <25.5 (LAC vs UNK) | p_hit=63.7% | PRIMARY_SAFE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST FLEX ENTRY:
+   4L FLEX | EV=+0.24 | Sharpe=0.14 | P(profit)=49.7% | Saddiq Bey PTS >15.5; Tim Hardaway PTS >9.5; Isaiah Stewart PTS >4.5; James Harden PTS <25.5
+   Kelly stake: 2.1% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=61.3%, min p_hit=58.1%
+   Stat mix: PTS:4
+   Same-game buckets: DEN@DET:1, DET@UNK:1, LAC@UNK:1, NOP@UNK:1
+   LEGS (what each pick is):
+    1. Saddiq Bey PTS >15.5 (NOP vs UNK) | p_hit=58.1% | PRIMARY_SAFE
+    2. Tim Hardaway PTS >9.5 (DEN vs DET) | p_hit=59.5% | PRIMARY_SAFE
+    3. Isaiah Stewart PTS >4.5 (DET vs UNK) | p_hit=63.7% | PRIMARY_SAFE
+    4. James Harden PTS <25.5 (LAC vs UNK) | p_hit=63.7% | PRIMARY_SAFE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST RISK-ADJUSTED (Sharpe):
+   3L POWER | EV=+0.45 | Sharpe=0.18 | P(profit)=24.2% | Tim Hardaway PTS >9.5; Isaiah Stewart PTS >4.5; James Harden PTS <25.5
+   ENTRY SNAPSHOT: avg p_hit=62.3%, min p_hit=59.5%
+   Stat mix: PTS:3
+   Same-game buckets: DEN@DET:1, DET@UNK:1, LAC@UNK:1
+   LEGS (what each pick is):
+    1. Tim Hardaway PTS >9.5 (DEN vs DET) | p_hit=59.5% | PRIMARY_SAFE
+    2. Isaiah Stewart PTS >4.5 (DET vs UNK) | p_hit=63.7% | PRIMARY_SAFE
+    3. James Harden PTS <25.5 (LAC vs UNK) | p_hit=63.7% | PRIMARY_SAFE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+----------------------------------------------------------------------
+TOP 10 ENTRIES BY EV:
+----------------------------------------------------------------------
+ 1. 3L POWER | EV=+0.45 | Sharpe=0.18 | P(profit)=24.2% | Tim Hardaway PTS >9.5; Isaiah Stewart PTS >4.5; James Harden PTS <25.5
+ 2. 3L POWER | EV=+0.42 | Sharpe=0.16 | P(profit)=23.6% | Saddiq Bey PTS >15.5; Isaiah Stewart PTS >4.5; James Harden PTS <25.5
+ 3. 4L POWER | EV=+0.40 | Sharpe=0.12 | P(profit)=14.0% | Saddiq Bey PTS >15.5; Tim Hardaway PTS >9.5; Isaiah Stewart PTS >4.5; James Harden PTS <25.5
+ 4. 3L POWER | EV=+0.40 | Sharpe=0.16 | P(profit)=23.4% | Tim Hardaway PTS >9.5; Duncan Robinson PTS >11.5; James Harden PTS <25.5
+ 5. 3L POWER | EV=+0.37 | Sharpe=0.15 | P(profit)=22.8% | Karl-Anthony Towns PTS <20.5; Isaiah Stewart PTS >4.5; James Harden PTS <25.5
+ 6. 3L POWER | EV=+0.37 | Sharpe=0.15 | P(profit)=22.8% | Saddiq Bey PTS >15.5; Duncan Robinson PTS >11.5; James Harden PTS <25.5
+ 7. 4L POWER | EV=+0.36 | Sharpe=0.10 | P(profit)=13.6% | Karl-Anthony Towns PTS <20.5; Tim Hardaway PTS >9.5; Isaiah Stewart PTS >4.5; James Harden PTS <25.5
+ 8. 4L POWER | EV=+0.36 | Sharpe=0.10 | P(profit)=13.6% | Saddiq Bey PTS >15.5; Tim Hardaway PTS >9.5; Duncan Robinson PTS >11.5; James Harden PTS <25.5
+ 9. 3L POWER | EV=+0.35 | Sharpe=0.14 | P(profit)=22.5% | Jonas Valančiūnas PTS <12.5; Isaiah Stewart PTS >4.5; James Harden PTS <25.5
+10. 4L POWER | EV=+0.33 | Sharpe=0.10 | P(profit)=13.3% | Karl-Anthony Towns PTS <20.5; Saddiq Bey PTS >15.5; Isaiah Stewart PTS >4.5; James Harden PTS <25.5

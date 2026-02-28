@@ -1,0 +1,2403 @@
+{
+  "timestamp": "2026-02-07T21:28:26.767812",
+  "sites": [
+    "oddsapi"
+  ],
+  "total_props": 52,
+  "parsed_props": 52,
+  "players": 25,
+  "props": [
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Dylan Andrews points 11.5 higher (Underdog/player_points)",
+      "player": "Dylan Andrews",
+      "stat": "points",
+      "line": 11.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.763841Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Dylan Andrews",
+        "stat": "points",
+        "line": 11.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "c11be15f853116a8d2332926837e23e1",
+          "commence_time": "2026-02-08T03:15:00Z",
+          "home_team": "New Mexico Lobos",
+          "away_team": "Boise State Broncos",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Dylan Andrews"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Dylan Andrews points 11.5 lower (Underdog/player_points)",
+      "player": "Dylan Andrews",
+      "stat": "points",
+      "line": 11.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.763841Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Dylan Andrews",
+        "stat": "points",
+        "line": 11.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "c11be15f853116a8d2332926837e23e1",
+          "commence_time": "2026-02-08T03:15:00Z",
+          "home_team": "New Mexico Lobos",
+          "away_team": "Boise State Broncos",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Dylan Andrews"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Drew Fielder points 13.5 higher (Underdog/player_points)",
+      "player": "Drew Fielder",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.763841Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Drew Fielder",
+        "stat": "points",
+        "line": 13.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "c11be15f853116a8d2332926837e23e1",
+          "commence_time": "2026-02-08T03:15:00Z",
+          "home_team": "New Mexico Lobos",
+          "away_team": "Boise State Broncos",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Drew Fielder"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Drew Fielder points 13.5 lower (Underdog/player_points)",
+      "player": "Drew Fielder",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.763841Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Drew Fielder",
+        "stat": "points",
+        "line": 13.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "c11be15f853116a8d2332926837e23e1",
+          "commence_time": "2026-02-08T03:15:00Z",
+          "home_team": "New Mexico Lobos",
+          "away_team": "Boise State Broncos",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Drew Fielder"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "AJ Dybantsa points 22.5 higher (PrizePicks/player_points)",
+      "player": "AJ Dybantsa",
+      "stat": "points",
+      "line": 22.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.763841Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "AJ Dybantsa",
+        "stat": "points",
+        "line": 22.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "2ca4a32f096ca4f8166140df3da0da94",
+          "commence_time": "2026-02-08T03:30:57Z",
+          "home_team": "BYU Cougars",
+          "away_team": "Houston Cougars",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "AJ Dybantsa"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "AJ Dybantsa points 22.5 lower (PrizePicks/player_points)",
+      "player": "AJ Dybantsa",
+      "stat": "points",
+      "line": 22.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.763841Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "AJ Dybantsa",
+        "stat": "points",
+        "line": 22.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "2ca4a32f096ca4f8166140df3da0da94",
+          "commence_time": "2026-02-08T03:30:57Z",
+          "home_team": "BYU Cougars",
+          "away_team": "Houston Cougars",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "AJ Dybantsa"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Richie Saunders points 18.5 higher (PrizePicks/player_points)",
+      "player": "Richie Saunders",
+      "stat": "points",
+      "line": 18.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.763841Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Richie Saunders",
+        "stat": "points",
+        "line": 18.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "2ca4a32f096ca4f8166140df3da0da94",
+          "commence_time": "2026-02-08T03:30:57Z",
+          "home_team": "BYU Cougars",
+          "away_team": "Houston Cougars",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Richie Saunders"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Richie Saunders points 18.5 lower (PrizePicks/player_points)",
+      "player": "Richie Saunders",
+      "stat": "points",
+      "line": 18.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.763841Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Richie Saunders",
+        "stat": "points",
+        "line": 18.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "2ca4a32f096ca4f8166140df3da0da94",
+          "commence_time": "2026-02-08T03:30:57Z",
+          "home_team": "BYU Cougars",
+          "away_team": "Houston Cougars",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Richie Saunders"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Kingston Flemings points 18.0 higher (PrizePicks/player_points)",
+      "player": "Kingston Flemings",
+      "stat": "points",
+      "line": 18.0,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.764821Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Kingston Flemings",
+        "stat": "points",
+        "line": 18.0,
+        "direction": "higher",
+        "raw": {
+          "event_id": "2ca4a32f096ca4f8166140df3da0da94",
+          "commence_time": "2026-02-08T03:30:57Z",
+          "home_team": "BYU Cougars",
+          "away_team": "Houston Cougars",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Kingston Flemings"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Kingston Flemings points 18.0 lower (PrizePicks/player_points)",
+      "player": "Kingston Flemings",
+      "stat": "points",
+      "line": 18.0,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.764821Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Kingston Flemings",
+        "stat": "points",
+        "line": 18.0,
+        "direction": "lower",
+        "raw": {
+          "event_id": "2ca4a32f096ca4f8166140df3da0da94",
+          "commence_time": "2026-02-08T03:30:57Z",
+          "home_team": "BYU Cougars",
+          "away_team": "Houston Cougars",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Kingston Flemings"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Emanuel Sharp points 15.5 higher (PrizePicks/player_points)",
+      "player": "Emanuel Sharp",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.764821Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Emanuel Sharp",
+        "stat": "points",
+        "line": 15.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "2ca4a32f096ca4f8166140df3da0da94",
+          "commence_time": "2026-02-08T03:30:57Z",
+          "home_team": "BYU Cougars",
+          "away_team": "Houston Cougars",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Emanuel Sharp"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Emanuel Sharp points 15.5 lower (PrizePicks/player_points)",
+      "player": "Emanuel Sharp",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.764821Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Emanuel Sharp",
+        "stat": "points",
+        "line": 15.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "2ca4a32f096ca4f8166140df3da0da94",
+          "commence_time": "2026-02-08T03:30:57Z",
+          "home_team": "BYU Cougars",
+          "away_team": "Houston Cougars",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Emanuel Sharp"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Robert Wright III points 14.5 higher (PrizePicks/player_points)",
+      "player": "Robert Wright III",
+      "stat": "points",
+      "line": 14.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.764821Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Robert Wright III",
+        "stat": "points",
+        "line": 14.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "2ca4a32f096ca4f8166140df3da0da94",
+          "commence_time": "2026-02-08T03:30:57Z",
+          "home_team": "BYU Cougars",
+          "away_team": "Houston Cougars",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Robert Wright III"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Robert Wright III points 14.5 lower (PrizePicks/player_points)",
+      "player": "Robert Wright III",
+      "stat": "points",
+      "line": 14.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.764821Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Robert Wright III",
+        "stat": "points",
+        "line": 14.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "2ca4a32f096ca4f8166140df3da0da94",
+          "commence_time": "2026-02-08T03:30:57Z",
+          "home_team": "BYU Cougars",
+          "away_team": "Houston Cougars",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Robert Wright III"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Milos Uzan points 12.5 higher (PrizePicks/player_points)",
+      "player": "Milos Uzan",
+      "stat": "points",
+      "line": 12.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.764821Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Milos Uzan",
+        "stat": "points",
+        "line": 12.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "2ca4a32f096ca4f8166140df3da0da94",
+          "commence_time": "2026-02-08T03:30:57Z",
+          "home_team": "BYU Cougars",
+          "away_team": "Houston Cougars",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Milos Uzan"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Milos Uzan points 12.5 lower (PrizePicks/player_points)",
+      "player": "Milos Uzan",
+      "stat": "points",
+      "line": 12.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.764821Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Milos Uzan",
+        "stat": "points",
+        "line": 12.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "2ca4a32f096ca4f8166140df3da0da94",
+          "commence_time": "2026-02-08T03:30:57Z",
+          "home_team": "BYU Cougars",
+          "away_team": "Houston Cougars",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Milos Uzan"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Chris Cenac Jr. points 10.5 higher (PrizePicks/player_points)",
+      "player": "Chris Cenac Jr.",
+      "stat": "points",
+      "line": 10.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.764821Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Chris Cenac Jr.",
+        "stat": "points",
+        "line": 10.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "2ca4a32f096ca4f8166140df3da0da94",
+          "commence_time": "2026-02-08T03:30:57Z",
+          "home_team": "BYU Cougars",
+          "away_team": "Houston Cougars",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Chris Cenac Jr."
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Chris Cenac Jr. points 10.5 lower (PrizePicks/player_points)",
+      "player": "Chris Cenac Jr.",
+      "stat": "points",
+      "line": 10.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.764821Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Chris Cenac Jr.",
+        "stat": "points",
+        "line": 10.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "2ca4a32f096ca4f8166140df3da0da94",
+          "commence_time": "2026-02-08T03:30:57Z",
+          "home_team": "BYU Cougars",
+          "away_team": "Houston Cougars",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Chris Cenac Jr."
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Keba Keita points 6.0 higher (PrizePicks/player_points)",
+      "player": "Keba Keita",
+      "stat": "points",
+      "line": 6.0,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.764821Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Keba Keita",
+        "stat": "points",
+        "line": 6.0,
+        "direction": "higher",
+        "raw": {
+          "event_id": "2ca4a32f096ca4f8166140df3da0da94",
+          "commence_time": "2026-02-08T03:30:57Z",
+          "home_team": "BYU Cougars",
+          "away_team": "Houston Cougars",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Keba Keita"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Keba Keita points 6.0 lower (PrizePicks/player_points)",
+      "player": "Keba Keita",
+      "stat": "points",
+      "line": 6.0,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.764821Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Keba Keita",
+        "stat": "points",
+        "line": 6.0,
+        "direction": "lower",
+        "raw": {
+          "event_id": "2ca4a32f096ca4f8166140df3da0da94",
+          "commence_time": "2026-02-08T03:30:57Z",
+          "home_team": "BYU Cougars",
+          "away_team": "Houston Cougars",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Keba Keita"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Kingston Flemings points 17.5 higher (Underdog/player_points)",
+      "player": "Kingston Flemings",
+      "stat": "points",
+      "line": 17.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.764821Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Kingston Flemings",
+        "stat": "points",
+        "line": 17.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "2ca4a32f096ca4f8166140df3da0da94",
+          "commence_time": "2026-02-08T03:30:57Z",
+          "home_team": "BYU Cougars",
+          "away_team": "Houston Cougars",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Kingston Flemings"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Kingston Flemings points 17.5 lower (Underdog/player_points)",
+      "player": "Kingston Flemings",
+      "stat": "points",
+      "line": 17.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.764821Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Kingston Flemings",
+        "stat": "points",
+        "line": 17.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "2ca4a32f096ca4f8166140df3da0da94",
+          "commence_time": "2026-02-08T03:30:57Z",
+          "home_team": "BYU Cougars",
+          "away_team": "Houston Cougars",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Kingston Flemings"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Ryan Beasley points 13.5 higher (Underdog/player_points)",
+      "player": "Ryan Beasley",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.764821Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Ryan Beasley",
+        "stat": "points",
+        "line": 13.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "7ccb8c4c268bdedfcc38285c67ce911d",
+          "commence_time": "2026-02-08T04:30:00Z",
+          "home_team": "Saint Mary's Gaels",
+          "away_team": "San Francisco Dons",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Ryan Beasley"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Ryan Beasley points 13.5 lower (Underdog/player_points)",
+      "player": "Ryan Beasley",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.764821Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Ryan Beasley",
+        "stat": "points",
+        "line": 13.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "7ccb8c4c268bdedfcc38285c67ce911d",
+          "commence_time": "2026-02-08T04:30:00Z",
+          "home_team": "Saint Mary's Gaels",
+          "away_team": "San Francisco Dons",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Ryan Beasley"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Tyrone Riley points 9.5 higher (Underdog/player_points)",
+      "player": "Tyrone Riley",
+      "stat": "points",
+      "line": 9.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.764821Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Tyrone Riley",
+        "stat": "points",
+        "line": 9.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "7ccb8c4c268bdedfcc38285c67ce911d",
+          "commence_time": "2026-02-08T04:30:00Z",
+          "home_team": "Saint Mary's Gaels",
+          "away_team": "San Francisco Dons",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Tyrone Riley"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Tyrone Riley points 9.5 lower (Underdog/player_points)",
+      "player": "Tyrone Riley",
+      "stat": "points",
+      "line": 9.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.764821Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Tyrone Riley",
+        "stat": "points",
+        "line": 9.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "7ccb8c4c268bdedfcc38285c67ce911d",
+          "commence_time": "2026-02-08T04:30:00Z",
+          "home_team": "Saint Mary's Gaels",
+          "away_team": "San Francisco Dons",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Tyrone Riley"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Paulius Murauskas points 18.5 higher (Underdog/player_points)",
+      "player": "Paulius Murauskas",
+      "stat": "points",
+      "line": 18.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.764821Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Paulius Murauskas",
+        "stat": "points",
+        "line": 18.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "7ccb8c4c268bdedfcc38285c67ce911d",
+          "commence_time": "2026-02-08T04:30:00Z",
+          "home_team": "Saint Mary's Gaels",
+          "away_team": "San Francisco Dons",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Paulius Murauskas"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Paulius Murauskas points 18.5 lower (Underdog/player_points)",
+      "player": "Paulius Murauskas",
+      "stat": "points",
+      "line": 18.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.764821Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Paulius Murauskas",
+        "stat": "points",
+        "line": 18.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "7ccb8c4c268bdedfcc38285c67ce911d",
+          "commence_time": "2026-02-08T04:30:00Z",
+          "home_team": "Saint Mary's Gaels",
+          "away_team": "San Francisco Dons",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Paulius Murauskas"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Mikey Lewis points 11.5 higher (Underdog/player_points)",
+      "player": "Mikey Lewis",
+      "stat": "points",
+      "line": 11.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.764821Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Mikey Lewis",
+        "stat": "points",
+        "line": 11.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "7ccb8c4c268bdedfcc38285c67ce911d",
+          "commence_time": "2026-02-08T04:30:00Z",
+          "home_team": "Saint Mary's Gaels",
+          "away_team": "San Francisco Dons",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Mikey Lewis"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Mikey Lewis points 11.5 lower (Underdog/player_points)",
+      "player": "Mikey Lewis",
+      "stat": "points",
+      "line": 11.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.764821Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Mikey Lewis",
+        "stat": "points",
+        "line": 11.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "7ccb8c4c268bdedfcc38285c67ce911d",
+          "commence_time": "2026-02-08T04:30:00Z",
+          "home_team": "Saint Mary's Gaels",
+          "away_team": "San Francisco Dons",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Mikey Lewis"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Joshua Dent points 12.5 higher (Underdog/player_points)",
+      "player": "Joshua Dent",
+      "stat": "points",
+      "line": 12.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.764821Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Joshua Dent",
+        "stat": "points",
+        "line": 12.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "7ccb8c4c268bdedfcc38285c67ce911d",
+          "commence_time": "2026-02-08T04:30:00Z",
+          "home_team": "Saint Mary's Gaels",
+          "away_team": "San Francisco Dons",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Joshua Dent"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Joshua Dent points 12.5 lower (Underdog/player_points)",
+      "player": "Joshua Dent",
+      "stat": "points",
+      "line": 12.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.764821Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Joshua Dent",
+        "stat": "points",
+        "line": 12.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "7ccb8c4c268bdedfcc38285c67ce911d",
+          "commence_time": "2026-02-08T04:30:00Z",
+          "home_team": "Saint Mary's Gaels",
+          "away_team": "San Francisco Dons",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Joshua Dent"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Dillan Shaw points 9.0 higher (PrizePicks/player_points)",
+      "player": "Dillan Shaw",
+      "stat": "points",
+      "line": 9.0,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.765815Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Dillan Shaw",
+        "stat": "points",
+        "line": 9.0,
+        "direction": "higher",
+        "raw": {
+          "event_id": "7ccb8c4c268bdedfcc38285c67ce911d",
+          "commence_time": "2026-02-08T04:30:00Z",
+          "home_team": "Saint Mary's Gaels",
+          "away_team": "San Francisco Dons",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Dillan Shaw"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Dillan Shaw points 9.0 lower (PrizePicks/player_points)",
+      "player": "Dillan Shaw",
+      "stat": "points",
+      "line": 9.0,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.765815Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Dillan Shaw",
+        "stat": "points",
+        "line": 9.0,
+        "direction": "lower",
+        "raw": {
+          "event_id": "7ccb8c4c268bdedfcc38285c67ce911d",
+          "commence_time": "2026-02-08T04:30:00Z",
+          "home_team": "Saint Mary's Gaels",
+          "away_team": "San Francisco Dons",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Dillan Shaw"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Ezra Ausar points 14.5 higher (Underdog/player_points)",
+      "player": "Ezra Ausar",
+      "stat": "points",
+      "line": 14.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.765815Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Ezra Ausar",
+        "stat": "points",
+        "line": 14.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "7f3a979131db946a0b3a6d4c3db25e83",
+          "commence_time": "2026-02-08T17:00:00Z",
+          "home_team": "Penn State Nittany Lions",
+          "away_team": "USC Trojans",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Ezra Ausar"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Ezra Ausar points 14.5 lower (Underdog/player_points)",
+      "player": "Ezra Ausar",
+      "stat": "points",
+      "line": 14.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.765815Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Ezra Ausar",
+        "stat": "points",
+        "line": 14.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "7f3a979131db946a0b3a6d4c3db25e83",
+          "commence_time": "2026-02-08T17:00:00Z",
+          "home_team": "Penn State Nittany Lions",
+          "away_team": "USC Trojans",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Ezra Ausar"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Jacob Cofie points 9.5 higher (PrizePicks/player_points)",
+      "player": "Jacob Cofie",
+      "stat": "points",
+      "line": 9.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.765815Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Jacob Cofie",
+        "stat": "points",
+        "line": 9.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "7f3a979131db946a0b3a6d4c3db25e83",
+          "commence_time": "2026-02-08T17:00:00Z",
+          "home_team": "Penn State Nittany Lions",
+          "away_team": "USC Trojans",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Jacob Cofie"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Jacob Cofie points 9.5 lower (PrizePicks/player_points)",
+      "player": "Jacob Cofie",
+      "stat": "points",
+      "line": 9.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.765815Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Jacob Cofie",
+        "stat": "points",
+        "line": 9.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "7f3a979131db946a0b3a6d4c3db25e83",
+          "commence_time": "2026-02-08T17:00:00Z",
+          "home_team": "Penn State Nittany Lions",
+          "away_team": "USC Trojans",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Jacob Cofie"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Elliot Cadeau points 11.5 higher (Underdog/player_points)",
+      "player": "Elliot Cadeau",
+      "stat": "points",
+      "line": 11.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.765815Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Elliot Cadeau",
+        "stat": "points",
+        "line": 11.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "b0bc6839ab23fe05c984f3302d9615f7",
+          "commence_time": "2026-02-08T18:00:00Z",
+          "home_team": "Ohio State Buckeyes",
+          "away_team": "Michigan Wolverines",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Elliot Cadeau"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Elliot Cadeau points 11.5 lower (Underdog/player_points)",
+      "player": "Elliot Cadeau",
+      "stat": "points",
+      "line": 11.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.766814Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Elliot Cadeau",
+        "stat": "points",
+        "line": 11.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "b0bc6839ab23fe05c984f3302d9615f7",
+          "commence_time": "2026-02-08T18:00:00Z",
+          "home_team": "Ohio State Buckeyes",
+          "away_team": "Michigan Wolverines",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Elliot Cadeau"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Bruce Thornton points 17.5 higher (Underdog/player_points)",
+      "player": "Bruce Thornton",
+      "stat": "points",
+      "line": 17.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.766814Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Bruce Thornton",
+        "stat": "points",
+        "line": 17.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "b0bc6839ab23fe05c984f3302d9615f7",
+          "commence_time": "2026-02-08T18:00:00Z",
+          "home_team": "Ohio State Buckeyes",
+          "away_team": "Michigan Wolverines",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Bruce Thornton"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Bruce Thornton points 17.5 lower (Underdog/player_points)",
+      "player": "Bruce Thornton",
+      "stat": "points",
+      "line": 17.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.766814Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Bruce Thornton",
+        "stat": "points",
+        "line": 17.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "b0bc6839ab23fe05c984f3302d9615f7",
+          "commence_time": "2026-02-08T18:00:00Z",
+          "home_team": "Ohio State Buckeyes",
+          "away_team": "Michigan Wolverines",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Bruce Thornton"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Yaxel Lendeborg points 15.5 higher (Underdog/player_points)",
+      "player": "Yaxel Lendeborg",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.766814Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Yaxel Lendeborg",
+        "stat": "points",
+        "line": 15.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "b0bc6839ab23fe05c984f3302d9615f7",
+          "commence_time": "2026-02-08T18:00:00Z",
+          "home_team": "Ohio State Buckeyes",
+          "away_team": "Michigan Wolverines",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Yaxel Lendeborg"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Yaxel Lendeborg points 15.5 lower (Underdog/player_points)",
+      "player": "Yaxel Lendeborg",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.766814Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Yaxel Lendeborg",
+        "stat": "points",
+        "line": 15.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "b0bc6839ab23fe05c984f3302d9615f7",
+          "commence_time": "2026-02-08T18:00:00Z",
+          "home_team": "Ohio State Buckeyes",
+          "away_team": "Michigan Wolverines",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Yaxel Lendeborg"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "John Mobley Jr. points 15.5 higher (Underdog/player_points)",
+      "player": "John Mobley Jr.",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.766814Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "John Mobley Jr.",
+        "stat": "points",
+        "line": 15.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "b0bc6839ab23fe05c984f3302d9615f7",
+          "commence_time": "2026-02-08T18:00:00Z",
+          "home_team": "Ohio State Buckeyes",
+          "away_team": "Michigan Wolverines",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "John Mobley Jr."
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "John Mobley Jr. points 15.5 lower (Underdog/player_points)",
+      "player": "John Mobley Jr.",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.766814Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "John Mobley Jr.",
+        "stat": "points",
+        "line": 15.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "b0bc6839ab23fe05c984f3302d9615f7",
+          "commence_time": "2026-02-08T18:00:00Z",
+          "home_team": "Ohio State Buckeyes",
+          "away_team": "Michigan Wolverines",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "John Mobley Jr."
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Devin Royal points 13.5 higher (Underdog/player_points)",
+      "player": "Devin Royal",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.766814Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Devin Royal",
+        "stat": "points",
+        "line": 13.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "b0bc6839ab23fe05c984f3302d9615f7",
+          "commence_time": "2026-02-08T18:00:00Z",
+          "home_team": "Ohio State Buckeyes",
+          "away_team": "Michigan Wolverines",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Devin Royal"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Devin Royal points 13.5 lower (Underdog/player_points)",
+      "player": "Devin Royal",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.766814Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Devin Royal",
+        "stat": "points",
+        "line": 13.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "b0bc6839ab23fe05c984f3302d9615f7",
+          "commence_time": "2026-02-08T18:00:00Z",
+          "home_team": "Ohio State Buckeyes",
+          "away_team": "Michigan Wolverines",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Devin Royal"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Morez Johnson Jr. points 12.5 higher (PrizePicks/player_points)",
+      "player": "Morez Johnson Jr.",
+      "stat": "points",
+      "line": 12.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.766814Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Morez Johnson Jr.",
+        "stat": "points",
+        "line": 12.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "b0bc6839ab23fe05c984f3302d9615f7",
+          "commence_time": "2026-02-08T18:00:00Z",
+          "home_team": "Ohio State Buckeyes",
+          "away_team": "Michigan Wolverines",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Morez Johnson Jr."
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Morez Johnson Jr. points 12.5 lower (PrizePicks/player_points)",
+      "player": "Morez Johnson Jr.",
+      "stat": "points",
+      "line": 12.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.767812Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Morez Johnson Jr.",
+        "stat": "points",
+        "line": 12.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "b0bc6839ab23fe05c984f3302d9615f7",
+          "commence_time": "2026-02-08T18:00:00Z",
+          "home_team": "Ohio State Buckeyes",
+          "away_team": "Michigan Wolverines",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Morez Johnson Jr."
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Christoph Tilly points 10.5 higher (PrizePicks/player_points)",
+      "player": "Christoph Tilly",
+      "stat": "points",
+      "line": 10.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T03:28:26.767812Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Christoph Tilly",
+        "stat": "points",
+        "line": 10.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "b0bc6839ab23fe05c984f3302d9615f7",
+          "commence_time": "2026-02-08T18:00:00Z",
+          "home_team": "Ohio State Buckeyes",
+          "away_team": "Michigan Wolverines",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Christoph Tilly"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Christoph Tilly points 10.5 lower (PrizePicks/player_points)",
+      "player": "Christoph Tilly",
+      "stat": "points",
+      "line": 10.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T03:28:26.767812Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Christoph Tilly",
+        "stat": "points",
+        "line": 10.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "b0bc6839ab23fe05c984f3302d9615f7",
+          "commence_time": "2026-02-08T18:00:00Z",
+          "home_team": "Ohio State Buckeyes",
+          "away_team": "Michigan Wolverines",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Christoph Tilly"
+        }
+      }
+    }
+  ],
+  "oddsapi_meta": {
+    "sport": "BASKETBALL_NCAAB",
+    "sport_key": "basketball_ncaab",
+    "regions": "us_dfs",
+    "markets": "player_points",
+    "bookmakers": "betr_us_dfs,pick6,prizepicks,underdog",
+    "event_count": 20,
+    "quota": {
+      "events_list": {
+        "remaining": 19902,
+        "used": 98,
+        "last_cost": 0
+      },
+      "last_event_odds": {
+        "remaining": 19897,
+        "used": 103,
+        "last_cost": 1
+      }
+    },
+    "raw_event_odds": [
+      {
+        "id": "e55fe92eb9e7aafeda738586c97aa100",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-07T19:00:00Z",
+        "home_team": "Michigan St Spartans",
+        "away_team": "Illinois Fighting Illini",
+        "bookmakers": []
+      },
+      {
+        "id": "b160c5dd80729492143e7504aac249d7",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T01:30:13Z",
+        "home_team": "Kentucky Wildcats",
+        "away_team": "Tennessee Volunteers",
+        "bookmakers": []
+      },
+      {
+        "id": "32fac721be49bb15a73c8852ee91d24c",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T01:30:39Z",
+        "home_team": "Texas A&M Aggies",
+        "away_team": "Florida Gators",
+        "bookmakers": []
+      },
+      {
+        "id": "a3347ce7f3c839e4203d9dba7dfeab66",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T02:02:43Z",
+        "home_team": "UTEP Miners",
+        "away_team": "New Mexico St Aggies",
+        "bookmakers": []
+      },
+      {
+        "id": "fbf3c8308c23cceba27a494f0e75cd5b",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T02:02:53Z",
+        "home_team": "Weber State Wildcats",
+        "away_team": "Northern Arizona Lumberjacks",
+        "bookmakers": []
+      },
+      {
+        "id": "0b57f4211b031890690236c7f3093139",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T02:03:21Z",
+        "home_team": "Loyola Marymount Lions",
+        "away_team": "San Diego Toreros",
+        "bookmakers": []
+      },
+      {
+        "id": "b2c99a34da99368f03efde51ddc20d03",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T02:05:34Z",
+        "home_team": "Colorado St Rams",
+        "away_team": "San José St Spartans",
+        "bookmakers": []
+      },
+      {
+        "id": "0bb8be6374a786981e64b88a11960f30",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T02:35:57Z",
+        "home_team": "Colorado Buffaloes",
+        "away_team": "Arizona St Sun Devils",
+        "bookmakers": []
+      },
+      {
+        "id": "df38349b3a858c2e73a1553e440000ac",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T03:00:50Z",
+        "home_team": "UCLA Bruins",
+        "away_team": "Washington Huskies",
+        "bookmakers": []
+      },
+      {
+        "id": "88972e6c0ba0a38d9388d72b9dd0511f",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T03:02:32Z",
+        "home_team": "Sacramento St Hornets",
+        "away_team": "Portland St Vikings",
+        "bookmakers": []
+      },
+      {
+        "id": "209473e8631dd0b53e6139441e9ee0c4",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T03:06:52Z",
+        "home_team": "Nevada Wolf Pack",
+        "away_team": "Fresno St Bulldogs",
+        "bookmakers": []
+      },
+      {
+        "id": "e9b3876ad53d63f93ccab47f381ab955",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T03:07:02Z",
+        "home_team": "UC Santa Barbara Gauchos",
+        "away_team": "UC Irvine Anteaters",
+        "bookmakers": []
+      },
+      {
+        "id": "c11be15f853116a8d2332926837e23e1",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T03:15:00Z",
+        "home_team": "New Mexico Lobos",
+        "away_team": "Boise State Broncos",
+        "bookmakers": [
+          {
+            "key": "underdog",
+            "title": "Underdog",
+            "markets": [
+              {
+                "key": "player_points",
+                "last_update": "2026-02-08T03:17:36Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Dylan Andrews",
+                    "price": -137,
+                    "point": 11.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Dylan Andrews",
+                    "price": -137,
+                    "point": 11.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Drew Fielder",
+                    "price": -137,
+                    "point": 13.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Drew Fielder",
+                    "price": -137,
+                    "point": 13.5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2ca4a32f096ca4f8166140df3da0da94",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T03:30:57Z",
+        "home_team": "BYU Cougars",
+        "away_team": "Houston Cougars",
+        "bookmakers": [
+          {
+            "key": "prizepicks",
+            "title": "PrizePicks",
+            "markets": [
+              {
+                "key": "player_points",
+                "last_update": "2026-02-08T03:27:36Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "AJ Dybantsa",
+                    "price": -137,
+                    "point": 22.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "AJ Dybantsa",
+                    "price": -137,
+                    "point": 22.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Richie Saunders",
+                    "price": -137,
+                    "point": 18.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Richie Saunders",
+                    "price": -137,
+                    "point": 18.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Kingston Flemings",
+                    "price": -137,
+                    "point": 18.0
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Kingston Flemings",
+                    "price": -137,
+                    "point": 18.0
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Emanuel Sharp",
+                    "price": -137,
+                    "point": 15.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Emanuel Sharp",
+                    "price": -137,
+                    "point": 15.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Robert Wright III",
+                    "price": -137,
+                    "point": 14.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Robert Wright III",
+                    "price": -137,
+                    "point": 14.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Milos Uzan",
+                    "price": -137,
+                    "point": 12.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Milos Uzan",
+                    "price": -137,
+                    "point": 12.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Chris Cenac Jr.",
+                    "price": -137,
+                    "point": 10.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Chris Cenac Jr.",
+                    "price": -137,
+                    "point": 10.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Keba Keita",
+                    "price": -137,
+                    "point": 6.0
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Keba Keita",
+                    "price": -137,
+                    "point": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "underdog",
+            "title": "Underdog",
+            "markets": [
+              {
+                "key": "player_points",
+                "last_update": "2026-02-08T03:28:00Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Emanuel Sharp",
+                    "price": -137,
+                    "point": 15.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Emanuel Sharp",
+                    "price": -137,
+                    "point": 15.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Chris Cenac Jr.",
+                    "price": -137,
+                    "point": 10.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Chris Cenac Jr.",
+                    "price": -137,
+                    "point": 10.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Kingston Flemings",
+                    "price": -137,
+                    "point": 17.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Kingston Flemings",
+                    "price": -137,
+                    "point": 17.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Milos Uzan",
+                    "price": -137,
+                    "point": 12.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Milos Uzan",
+                    "price": -137,
+                    "point": 12.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Robert Wright III",
+                    "price": -137,
+                    "point": 14.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Robert Wright III",
+                    "price": -137,
+                    "point": 14.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Richie Saunders",
+                    "price": -137,
+                    "point": 18.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Richie Saunders",
+                    "price": -137,
+                    "point": 18.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "AJ Dybantsa",
+                    "price": -137,
+                    "point": 22.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "AJ Dybantsa",
+                    "price": -137,
+                    "point": 22.5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7ccb8c4c268bdedfcc38285c67ce911d",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T04:30:00Z",
+        "home_team": "Saint Mary's Gaels",
+        "away_team": "San Francisco Dons",
+        "bookmakers": [
+          {
+            "key": "underdog",
+            "title": "Underdog",
+            "markets": [
+              {
+                "key": "player_points",
+                "last_update": "2026-02-08T03:27:36Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Ryan Beasley",
+                    "price": -137,
+                    "point": 13.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Ryan Beasley",
+                    "price": -137,
+                    "point": 13.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Tyrone Riley",
+                    "price": -137,
+                    "point": 9.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Tyrone Riley",
+                    "price": -137,
+                    "point": 9.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Paulius Murauskas",
+                    "price": -137,
+                    "point": 18.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Paulius Murauskas",
+                    "price": -137,
+                    "point": 18.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Mikey Lewis",
+                    "price": -137,
+                    "point": 11.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Mikey Lewis",
+                    "price": -137,
+                    "point": 11.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Joshua Dent",
+                    "price": -137,
+                    "point": 12.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Joshua Dent",
+                    "price": -137,
+                    "point": 12.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "prizepicks",
+            "title": "PrizePicks",
+            "markets": [
+              {
+                "key": "player_points",
+                "last_update": "2026-02-08T03:27:51Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Paulius Murauskas",
+                    "price": -137,
+                    "point": 18.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Paulius Murauskas",
+                    "price": -137,
+                    "point": 18.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Ryan Beasley",
+                    "price": -137,
+                    "point": 13.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Ryan Beasley",
+                    "price": -137,
+                    "point": 13.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Joshua Dent",
+                    "price": -137,
+                    "point": 12.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Joshua Dent",
+                    "price": -137,
+                    "point": 12.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Mikey Lewis",
+                    "price": -137,
+                    "point": 11.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Mikey Lewis",
+                    "price": -137,
+                    "point": 11.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Tyrone Riley",
+                    "price": -137,
+                    "point": 9.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Tyrone Riley",
+                    "price": -137,
+                    "point": 9.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Dillan Shaw",
+                    "price": -137,
+                    "point": 9.0
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Dillan Shaw",
+                    "price": -137,
+                    "point": 9.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "983658825b32ad8e170cda7640b581cf",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T04:59:00Z",
+        "home_team": "Hawai'i Rainbow Warriors",
+        "away_team": "UC San Diego Tritons",
+        "bookmakers": []
+      },
+      {
+        "id": "7f3a979131db946a0b3a6d4c3db25e83",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T17:00:00Z",
+        "home_team": "Penn State Nittany Lions",
+        "away_team": "USC Trojans",
+        "bookmakers": [
+          {
+            "key": "underdog",
+            "title": "Underdog",
+            "markets": [
+              {
+                "key": "player_points",
+                "last_update": "2026-02-08T03:27:55Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Ezra Ausar",
+                    "price": -137,
+                    "point": 14.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Ezra Ausar",
+                    "price": -137,
+                    "point": 14.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "prizepicks",
+            "title": "PrizePicks",
+            "markets": [
+              {
+                "key": "player_points",
+                "last_update": "2026-02-08T03:28:21Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Ezra Ausar",
+                    "price": -137,
+                    "point": 14.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Ezra Ausar",
+                    "price": -137,
+                    "point": 14.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Jacob Cofie",
+                    "price": -137,
+                    "point": 9.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Jacob Cofie",
+                    "price": -137,
+                    "point": 9.5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c49bdac95a0575b07541ac104eb6e78d",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T17:00:00Z",
+        "home_team": "South Florida Bulls",
+        "away_team": "Tulsa Golden Hurricane",
+        "bookmakers": []
+      },
+      {
+        "id": "8860c1811da28a12a5d204c313ab5302",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T18:00:00Z",
+        "home_team": "Furman Paladins",
+        "away_team": "UNC Greensboro Spartans",
+        "bookmakers": []
+      },
+      {
+        "id": "b0bc6839ab23fe05c984f3302d9615f7",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T18:00:00Z",
+        "home_team": "Ohio State Buckeyes",
+        "away_team": "Michigan Wolverines",
+        "bookmakers": [
+          {
+            "key": "underdog",
+            "title": "Underdog",
+            "markets": [
+              {
+                "key": "player_points",
+                "last_update": "2026-02-08T03:28:18Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Elliot Cadeau",
+                    "price": -137,
+                    "point": 11.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Elliot Cadeau",
+                    "price": -137,
+                    "point": 11.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Bruce Thornton",
+                    "price": -137,
+                    "point": 17.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Bruce Thornton",
+                    "price": -137,
+                    "point": 17.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Yaxel Lendeborg",
+                    "price": -137,
+                    "point": 15.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Yaxel Lendeborg",
+                    "price": -137,
+                    "point": 15.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "John Mobley Jr.",
+                    "price": -137,
+                    "point": 15.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "John Mobley Jr.",
+                    "price": -137,
+                    "point": 15.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Devin Royal",
+                    "price": -137,
+                    "point": 13.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Devin Royal",
+                    "price": -137,
+                    "point": 13.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "prizepicks",
+            "title": "PrizePicks",
+            "markets": [
+              {
+                "key": "player_points",
+                "last_update": "2026-02-08T03:27:51Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Bruce Thornton",
+                    "price": -137,
+                    "point": 17.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Bruce Thornton",
+                    "price": -137,
+                    "point": 17.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "John Mobley Jr.",
+                    "price": -137,
+                    "point": 15.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "John Mobley Jr.",
+                    "price": -137,
+                    "point": 15.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Yaxel Lendeborg",
+                    "price": -137,
+                    "point": 15.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Yaxel Lendeborg",
+                    "price": -137,
+                    "point": 15.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Devin Royal",
+                    "price": -137,
+                    "point": 13.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Devin Royal",
+                    "price": -137,
+                    "point": 13.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Morez Johnson Jr.",
+                    "price": -137,
+                    "point": 12.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Morez Johnson Jr.",
+                    "price": -137,
+                    "point": 12.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Elliot Cadeau",
+                    "price": -137,
+                    "point": 11.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Elliot Cadeau",
+                    "price": -137,
+                    "point": 11.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Christoph Tilly",
+                    "price": -137,
+                    "point": 10.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Christoph Tilly",
+                    "price": -137,
+                    "point": 10.5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "run_id": "aea6fd45ba91ec28"
+}

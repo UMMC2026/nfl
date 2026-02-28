@@ -1,0 +1,85 @@
+{
+  "date": "2026-01-26",
+  "timestamp": "2026-01-26T19:53:04.937716",
+  "slate": "GSW_MIN262026",
+  "source_file": "GSW_MIN262026_RISK_FIRST_20260126_FROM_UD.json",
+  "summary": {
+    "play_count": 0,
+    "lean_count": 8,
+    "total": 8
+  },
+  "picks": [
+    {
+      "player": "Rudy Gobert",
+      "team": "MIN",
+      "stat": "rebounds",
+      "line": 10.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 78.5
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "team": "MIN",
+      "stat": "pts+ast",
+      "line": 14.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "stat": "pts+ast",
+      "line": 14.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "team": "MIN",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 67.8
+    },
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 67.2
+    },
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "stat": "points",
+      "line": 11.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 63.8
+    },
+    {
+      "player": "Brandin Podziemski",
+      "team": "GSW",
+      "stat": "points",
+      "line": 16.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 60.4
+    },
+    {
+      "player": "Mike Conley",
+      "team": "MIN",
+      "stat": "points",
+      "line": 6.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 59.5
+    }
+  ]
+}

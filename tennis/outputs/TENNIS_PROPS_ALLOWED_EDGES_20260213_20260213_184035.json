@@ -1,0 +1,55 @@
+{
+  "created_at_utc": "2026-02-14T00:40:35.697600+00:00",
+  "edges": [
+    {
+      "edge_id": "f603b182df464821",
+      "player": "Karolina Muchova",
+      "team": "",
+      "opponent": "",
+      "stat": "game_spread",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "status": "PLAY",
+      "model_confidence": 99.95,
+      "effective_confidence": 99.95,
+      "mu": 10.077711460713504,
+      "sigma": 2.9086643102487444,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 6,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": null,
+      "gate_details": [
+        {
+          "pick_id": "Karolina Muchova_GAME_SPREAD_higher_0.5",
+          "state": "OPTIMIZABLE",
+          "original_probability": 99.95,
+          "final_probability": 99.95,
+          "adjustments": [],
+          "rejection_reason": null,
+          "vetted_reason": null,
+          "flags_detected": [],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "GATE_2_USAGE_VOLATILITY",
+            "GATE_3_SPECIALIST_REJECTS",
+            "GATE_4_FRAGILE",
+            "GATE_5_MATCHUP_DECAY",
+            "GATE_6_COMPOSITE",
+            "PASSED_ALL_GATES"
+          ],
+          "is_optimizable": true,
+          "is_visible": true
+        }
+      ],
+      "stat_adjustment": null
+    }
+  ]
+}

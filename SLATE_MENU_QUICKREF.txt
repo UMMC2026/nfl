@@ -1,0 +1,97 @@
+╔══════════════════════════════════════════════════════════════════════╗
+║                   SLATE MENU - QUICK REFERENCE                       ║
+╠══════════════════════════════════════════════════════════════════════╣
+║                                                                      ║
+║  🎯 INTERACTIVE MENU (Full Features)                                ║
+║  ────────────────────────────────────────────────────────────────   ║
+║     python slate_menu.py menu                                        ║
+║                                                                      ║
+║     • Paste Underdog slate from terminal                            ║
+║     • Paste PrizePicks slate from chat                              ║
+║     • Analyze combined slate                                         ║
+║     • Build optimal entries                                          ║
+║     • Save results                                                   ║
+║                                                                      ║
+║  ⚡ QUICK COMMANDS (One-Shot Analysis)                               ║
+║  ────────────────────────────────────────────────────────────────   ║
+║     Underdog only:                                                   ║
+║     python slate_menu.py quick-underdog <file.json>                  ║
+║                                                                      ║
+║     PrizePicks only:                                                 ║
+║     python slate_menu.py quick-prizepicks <file.json>                ║
+║                                                                      ║
+║     Combined analysis:                                               ║
+║     python slate_menu.py combined \                                  ║
+║       --underdog-file ud.json \                                      ║
+║       --prizepicks-file pp.json                                      ║
+║                                                                      ║
+║  📋 INPUT FORMATS                                                    ║
+║  ────────────────────────────────────────────────────────────────   ║
+║     Underdog (paste format):                                         ║
+║       Ryan Rollins                                                   ║
+║       MIL - G                                                        ║
+║       5.5                                                            ║
+║       Rebounds                                                       ║
+║       More                                                           ║
+║                                                                      ║
+║     PrizePicks (chat format):                                        ║
+║       LeBron James OVER 25.5 Points (LAL)                            ║
+║       Anthony Davis UNDER 12.5 Rebounds (LAL)                        ║
+║                                                                      ║
+║     JSON format (both platforms):                                    ║
+║       [{                                                             ║
+║         "player": "Giannis Antetokounmpo",                           ║
+║         "team": "MIL",                                               ║
+║         "stat": "points",                                            ║
+║         "line": 30.5,                                                ║
+║         "direction": "lower"                                         ║
+║       }]                                                             ║
+║                                                                      ║
+║  📊 EXAMPLE WORKFLOW                                                 ║
+║  ────────────────────────────────────────────────────────────────   ║
+║     1. Copy Underdog slate from website                              ║
+║     2. Run: python slate_menu.py menu                                ║
+║     3. Select option 1 (Paste Underdog)                              ║
+║     4. Paste slate, press Ctrl+Z (Windows) or Ctrl+D (Mac/Linux)     ║
+║     5. Select option 4 (Analyze all)                                 ║
+║     6. Select option 5 (View results)                                ║
+║     7. Select option 6 (Build entries)                               ║
+║        • Choose "power" or "flex"                                    ║
+║        • Choose 2-8 legs                                             ║
+║     8. Select option 7 (Save results)                                ║
+║                                                                      ║
+║  🎲 SUPPORTED STATS                                                  ║
+║  ────────────────────────────────────────────────────────────────   ║
+║     Single: points, rebounds, assists, 3pm, blocks, steals           ║
+║     Combo:  pts+reb+ast (PRA), pts+reb, pts+ast, reb+ast, stl+blk   ║
+║                                                                      ║
+║  ✅ CONFIDENCE LEVELS                                                ║
+║  ────────────────────────────────────────────────────────────────   ║
+║     ≥ 60%  = High confidence (GREEN)                                 ║
+║     50-60% = Medium confidence (YELLOW)                              ║
+║     < 50%  = Low confidence (RED) - Avoid                            ║
+║                                                                      ║
+║  💰 ENTRY FORMATS                                                    ║
+║  ────────────────────────────────────────────────────────────────   ║
+║     Power: All legs must hit (higher payout)                         ║
+║     Flex:  Partial payouts (safer)                                   ║
+║                                                                      ║
+║     Legs: 2-8 legs supported                                         ║
+║     Rules: Min 2 teams, max 1 prop per player                        ║
+║                                                                      ║
+║  📁 OUTPUT FILES                                                     ║
+║  ────────────────────────────────────────────────────────────────   ║
+║     outputs/combined_analysis_YYYYMMDD_HHMMSS.json                   ║
+║     • Full analysis with probabilities                               ║
+║     • Recent game values                                             ║
+║     • Source platform (PrizePicks/Underdog)                          ║
+║                                                                      ║
+║  🔧 TIPS                                                             ║
+║  ────────────────────────────────────────────────────────────────   ║
+║     • Focus on 60%+ picks for best edges                             ║
+║     • Combine both platforms for more options                        ║
+║     • Use 3-leg power entries for optimal risk/reward                ║
+║     • Save results for tracking performance                          ║
+║     • System hydrates last 10 games automatically                    ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝

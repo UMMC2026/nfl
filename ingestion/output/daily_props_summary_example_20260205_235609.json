@@ -1,0 +1,32 @@
+{
+  "date": "2026-02-05",
+  "total": 5,
+  "wins": 2,
+  "losses": 1,
+  "pending": 2,
+  "confirmed": 3,
+  "win_rate_confirmed": 0.6667,
+  "by_sport": {
+    "NBA": {
+      "WIN": 1,
+      "LOSS": 1
+    },
+    "GOLF": {
+      "PENDING": 1
+    },
+    "TENNIS": {
+      "WIN": 1,
+      "PENDING": 1
+    }
+  },
+  "counts": {
+    "CANCELLED": 0,
+    "LOSS": 1,
+    "PENDING": 2,
+    "PUSH": 0,
+    "UNKNOWN": 0,
+    "VOID": 0,
+    "WIN": 2
+  },
+  "generated_at": "2026-02-06T05:56:09.935043Z"
+}

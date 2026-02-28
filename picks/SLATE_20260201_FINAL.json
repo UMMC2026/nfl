@@ -1,0 +1,31 @@
+{
+  "date": "2026-02-01",
+  "timestamp": "2026-02-01T18:03:59.184791",
+  "slate": "SLATE",
+  "source_file": "SLATE_RISK_FIRST_20260201_FROM_UD.json",
+  "summary": {
+    "play_count": 1,
+    "lean_count": 1,
+    "total": 2
+  },
+  "picks": [
+    {
+      "player": "Mitchell Robinson",
+      "team": "NYK",
+      "stat": "rebounds",
+      "line": 8.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 63.5
+    },
+    {
+      "player": "Jalen Brunson",
+      "team": "NYK",
+      "stat": "points",
+      "line": 26.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 58.5
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "description": "TEST DATA - Compliant with SOP v2.1",
+  "generated_at": "2026-01-29T15:00:00Z",
+  "edges": [
+    {
+      "player_id": "jokic_001",
+      "player_name": "Nikola Jokic",
+      "game_id": "DEN_vs_BOS_20260129",
+      "stat_type": "points",
+      "direction": "OVER",
+      "projection": 27.3,
+      "std_dev": 4.2,
+      "confidence": 0.73,
+      "tier": "STRONG",
+      "primary_line": 25.5,
+      "correlated_lines": [],
+      "data_sources": ["nba_api", "espn"]
+    },
+    {
+      "player_id": "tatum_001",
+      "player_name": "Jayson Tatum",
+      "game_id": "DEN_vs_BOS_20260129",
+      "stat_type": "points",
+      "direction": "OVER",
+      "projection": 28.5,
+      "std_dev": 4.1,
+      "confidence": 0.64,
+      "tier": "LEAN",
+      "primary_line": 26.5,
+      "correlated_lines": [],
+      "data_sources": ["nba_api", "espn"]
+    },
+    {
+      "player_id": "murray_001",
+      "player_name": "Jamal Murray",
+      "game_id": "DEN_vs_BOS_20260129",
+      "stat_type": "assists",
+      "direction": "OVER",
+      "projection": 6.2,
+      "std_dev": 1.5,
+      "confidence": 0.68,
+      "tier": "STRONG",
+      "primary_line": 5.5,
+      "correlated_lines": [],
+      "data_sources": ["nba_api", "basketball_reference"]
+    },
+    {
+      "player_id": "brown_001",
+      "player_name": "Jaylen Brown",
+      "game_id": "DEN_vs_BOS_20260129",
+      "stat_type": "rebounds",
+      "direction": "UNDER",
+      "projection": 4.1,
+      "std_dev": 1.2,
+      "confidence": 0.61,
+      "tier": "LEAN",
+      "primary_line": 5.5,
+      "correlated_lines": [],
+      "data_sources": ["nba_api", "basketball_reference"]
+    },
+    {
+      "player_id": "white_001",
+      "player_name": "Derrick White",
+      "game_id": "DEN_vs_BOS_20260129",
+      "stat_type": "three_pointers",
+      "direction": "OVER",
+      "projection": 3.2,
+      "std_dev": 1.1,
+      "confidence": 0.76,
+      "tier": "SLAM",
+      "primary_line": 2.5,
+      "correlated_lines": [],
+      "data_sources": ["nba_api", "espn"]
+    }
+  ]
+}

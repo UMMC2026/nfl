@@ -1,0 +1,103 @@
+{
+  "date": "2026-02-05",
+  "timestamp": "2026-02-05T20:53:02.927985",
+  "slate": "LAL_PHI",
+  "source_file": "LAL_PHI_RISK_FIRST_20260205_FROM_UD.json",
+  "summary": {
+    "play_count": 1,
+    "lean_count": 9,
+    "total": 10
+  },
+  "picks": [
+    {
+      "player": "Austin Reaves",
+      "team": "LAL",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 66.5
+    },
+    {
+      "player": "Marcus Smart",
+      "team": "LAL",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 58.6
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 56.8
+    },
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "stat": "points",
+      "line": 28.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 54.1
+    },
+    {
+      "player": "LeBron James",
+      "team": "LAL",
+      "stat": "pra",
+      "line": 32.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 53.3
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 52.4
+    },
+    {
+      "player": "Kelly Oubre",
+      "team": "PHI",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 52.4
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "stat": "points",
+      "line": 27.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 49.6
+    },
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "stat": "pra",
+      "line": 42.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 46.6
+    },
+    {
+      "player": "Austin Reaves",
+      "team": "LAL",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 44.4
+    }
+  ]
+}

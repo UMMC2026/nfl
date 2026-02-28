@@ -1,0 +1,1666 @@
+{
+  "date": "2026-01-16",
+  "league": "NBA",
+  "plays": [
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "points",
+      "line": 26.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "points",
+      "line": 26.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pra",
+      "line": 38.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pra",
+      "line": 38.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "rebounds",
+      "line": 8.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "rebounds",
+      "line": 8.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "reb+ast",
+      "line": 12.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "reb+ast",
+      "line": 12.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pts+reb",
+      "line": 34.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pts+reb",
+      "line": 34.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pts+ast",
+      "line": 29.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pts+ast",
+      "line": 29.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "turnovers",
+      "line": 3.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "turnovers",
+      "line": 3.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Paul George",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Paul George",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Paul George",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pra",
+      "line": 24.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Paul George",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pra",
+      "line": 24.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Paul George",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "rebounds",
+      "line": 5.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Paul George",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "rebounds",
+      "line": 5.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Paul George",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Paul George",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Paul George",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "3pm",
+      "line": 2.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Paul George",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "3pm",
+      "line": 2.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Paul George",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "reb+ast",
+      "line": 9.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Paul George",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "reb+ast",
+      "line": 9.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Paul George",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pts+reb",
+      "line": 20.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Paul George",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pts+reb",
+      "line": 20.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Paul George",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pts+ast",
+      "line": 19.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Paul George",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pts+ast",
+      "line": 19.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "points",
+      "line": 14.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "points",
+      "line": 14.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pra",
+      "line": 23.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pra",
+      "line": 23.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "3pm",
+      "line": 2.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "3pm",
+      "line": 2.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "reb+ast",
+      "line": 9.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "reb+ast",
+      "line": 9.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pts+reb",
+      "line": 19.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pts+reb",
+      "line": 19.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pts+ast",
+      "line": 18.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pts+ast",
+      "line": 18.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Jarrett Allen",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Jarrett Allen",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Jarrett Allen",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "pra",
+      "line": 25.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Jarrett Allen",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "pra",
+      "line": 25.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Jarrett Allen",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "rebounds",
+      "line": 8.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Jarrett Allen",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "rebounds",
+      "line": 8.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Jarrett Allen",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Jarrett Allen",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Jarrett Allen",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "reb+ast",
+      "line": 11.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Jarrett Allen",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "reb+ast",
+      "line": 11.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Jarrett Allen",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "pts+reb",
+      "line": 22.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Jarrett Allen",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "pts+reb",
+      "line": 22.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Quentin Grimes",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "points",
+      "line": 9.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Quentin Grimes",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "points",
+      "line": 9.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Quentin Grimes",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pra",
+      "line": 14.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Quentin Grimes",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pra",
+      "line": 14.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Quentin Grimes",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Quentin Grimes",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Quentin Grimes",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Quentin Grimes",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Quentin Grimes",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Quentin Grimes",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Dominick Barlow",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "points",
+      "line": 6.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Dominick Barlow",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "points",
+      "line": 6.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Dominick Barlow",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pra",
+      "line": 11.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Dominick Barlow",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pra",
+      "line": 11.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Dominick Barlow",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Dominick Barlow",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Dominick Barlow",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Dominick Barlow",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Donovan Mitchell",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "points",
+      "line": 30.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Donovan Mitchell",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "points",
+      "line": 30.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Donovan Mitchell",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "pra",
+      "line": 41.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Donovan Mitchell",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "pra",
+      "line": 41.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Donovan Mitchell",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Donovan Mitchell",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Donovan Mitchell",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "assists",
+      "line": 6.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Donovan Mitchell",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "assists",
+      "line": 6.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Donovan Mitchell",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "3pm",
+      "line": 3.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Donovan Mitchell",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "3pm",
+      "line": 3.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Donovan Mitchell",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "reb+ast",
+      "line": 11.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Donovan Mitchell",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "reb+ast",
+      "line": 11.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Donovan Mitchell",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "pts+reb",
+      "line": 35.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Donovan Mitchell",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "pts+reb",
+      "line": 35.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Donovan Mitchell",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "pts+ast",
+      "line": 36.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Donovan Mitchell",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "pts+ast",
+      "line": 36.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Donovan Mitchell",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "turnovers",
+      "line": 3.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Donovan Mitchell",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "turnovers",
+      "line": 3.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "points",
+      "line": 19.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "points",
+      "line": 19.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "pra",
+      "line": 33.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "pra",
+      "line": 33.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "rebounds",
+      "line": 9.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "rebounds",
+      "line": 9.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "reb+ast",
+      "line": 13.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "reb+ast",
+      "line": 13.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "pts+reb",
+      "line": 28.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "pts+reb",
+      "line": 28.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "pts+ast",
+      "line": 23.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "pts+ast",
+      "line": 23.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "turnovers",
+      "line": 2.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "turnovers",
+      "line": 2.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "points",
+      "line": 26.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "points",
+      "line": 26.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pra",
+      "line": 36.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pra",
+      "line": 36.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "assists",
+      "line": 6.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "assists",
+      "line": 6.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "3pm",
+      "line": 3.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "3pm",
+      "line": 3.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "reb+ast",
+      "line": 10.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "reb+ast",
+      "line": 10.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pts+reb",
+      "line": 29.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pts+reb",
+      "line": 29.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pts+ast",
+      "line": 32.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "pts+ast",
+      "line": 32.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "turnovers",
+      "line": 2.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "opponent": "CLE",
+      "stat": "turnovers",
+      "line": 2.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "De'Andre Hunter",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "De'Andre Hunter",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "De'Andre Hunter",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "pra",
+      "line": 19.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "De'Andre Hunter",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "pra",
+      "line": 19.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "De'Andre Hunter",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "De'Andre Hunter",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "De'Andre Hunter",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "De'Andre Hunter",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Craig Porter Jr.",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "points",
+      "line": 6.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Craig Porter Jr.",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "points",
+      "line": 6.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Craig Porter Jr.",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "pra",
+      "line": 16.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Craig Porter Jr.",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "pra",
+      "line": 16.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Craig Porter Jr.",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Craig Porter Jr.",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Craig Porter Jr.",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Craig Porter Jr.",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Craig Porter Jr.",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Craig Porter Jr.",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Craig Porter Jr.",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "reb+ast",
+      "line": 9.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Craig Porter Jr.",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "reb+ast",
+      "line": 9.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Jaylon Tyson",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Jaylon Tyson",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Jaylon Tyson",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "pra",
+      "line": 21.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Jaylon Tyson",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "pra",
+      "line": 21.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Jaylon Tyson",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "rebounds",
+      "line": 5.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Jaylon Tyson",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "rebounds",
+      "line": 5.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Jaylon Tyson",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Jaylon Tyson",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Jaylon Tyson",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Jaylon Tyson",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Jaylon Tyson",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "reb+ast",
+      "line": 7.5,
+      "direction": "higher",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    },
+    {
+      "player": "Jaylon Tyson",
+      "team": "CLE",
+      "opponent": "PHI",
+      "stat": "reb+ast",
+      "line": 7.5,
+      "direction": "lower",
+      "matchup_away": "CLE",
+      "matchup_home": "PHI"
+    }
+  ]
+}

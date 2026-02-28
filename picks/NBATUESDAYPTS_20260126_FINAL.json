@@ -1,0 +1,49 @@
+{
+  "date": "2026-01-26",
+  "timestamp": "2026-01-26T22:05:56.778633",
+  "slate": "NBATUESDAYPTS",
+  "source_file": "NBATUESDAYPTS_RISK_FIRST_20260126_FROM_UD.json",
+  "summary": {
+    "play_count": 0,
+    "lean_count": 4,
+    "total": 4
+  },
+  "picks": [
+    {
+      "player": "Isaiah Stewart",
+      "team": "DET",
+      "stat": "points",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 63.8
+    },
+    {
+      "player": "James Harden",
+      "team": "LAC",
+      "stat": "points",
+      "line": 25.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 63.8
+    },
+    {
+      "player": "Kyle Filipowski",
+      "team": "UTA",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 63.8
+    },
+    {
+      "player": "Duncan Robinson",
+      "team": "DET",
+      "stat": "points",
+      "line": 11.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 61.6
+    }
+  ]
+}

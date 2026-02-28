@@ -1,0 +1,71 @@
+======================================================================
+MONTE CARLO ENTRY OPTIMIZATION
+Generated: 2026-01-25T16:27:38.346954
+======================================================================
+
+STAT KEY (basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made (aka 3PT/3PTS) | STOCKS=STL+BLK | PRA=PTS+REB+AST
+
+RUN CONTEXT:
+   League inferred: NBA
+   Picks: 24 qualifying (from 145 analyzed)
+   Filter pass: UNFILTERED_DIRECT
+   Constraints: max_same_game=1, max_primary_per_game=1
+
+BEST POWER ENTRY:
+   3L POWER | EV=+1.18 | Sharpe=0.41 | P(profit)=36.3% | Jaden McDaniels REB >4.5; Cade Cunningham AST >10.5; Shai Gilgeous-Alexander AST <6.5
+   Kelly stake: 3.5% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=71.7%, min p_hit=61.1%
+   Stat mix: AST:2, REB:1
+   Same-game buckets: GSW@MIN:1, OKC@TOR:1, UNK@UNK:1
+   LEGS (what each pick is):
+    1. Jaden McDaniels REB >4.5 (MIN vs GSW) | p_hit=75.6% | PRIMARY_SAFE
+    2. Cade Cunningham AST >10.5 (UNK vs UNK) | p_hit=61.1% | FRAGILE
+    3. Shai Gilgeous-Alexander AST <6.5 (OKC vs TOR) | p_hit=78.5% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST FLEX ENTRY:
+   3L FLEX | EV=+0.37 | Sharpe=0.47 | P(profit)=81.0% | Jaden McDaniels REB >4.5; Cade Cunningham AST >10.5; Shai Gilgeous-Alexander AST <6.5
+   Kelly stake: 14.6% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=71.7%, min p_hit=61.1%
+   Stat mix: AST:2, REB:1
+   Same-game buckets: GSW@MIN:1, OKC@TOR:1, UNK@UNK:1
+   LEGS (what each pick is):
+    1. Jaden McDaniels REB >4.5 (MIN vs GSW) | p_hit=75.6% | PRIMARY_SAFE
+    2. Cade Cunningham AST >10.5 (UNK vs UNK) | p_hit=61.1% | FRAGILE
+    3. Shai Gilgeous-Alexander AST <6.5 (OKC vs TOR) | p_hit=78.5% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST RISK-ADJUSTED (Sharpe):
+   2L POWER | EV=+0.78 | Sharpe=0.53 | P(profit)=59.4% | Jaden McDaniels REB >4.5; Shai Gilgeous-Alexander AST <6.5
+   ENTRY SNAPSHOT: avg p_hit=77.1%, min p_hit=75.6%
+   Stat mix: AST:1, REB:1
+   Same-game buckets: GSW@MIN:1, OKC@TOR:1
+   LEGS (what each pick is):
+    1. Jaden McDaniels REB >4.5 (MIN vs GSW) | p_hit=75.6% | PRIMARY_SAFE
+    2. Shai Gilgeous-Alexander AST <6.5 (OKC vs TOR) | p_hit=78.5% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+----------------------------------------------------------------------
+TOP 10 ENTRIES BY EV:
+----------------------------------------------------------------------
+ 1. 3L POWER | EV=+1.18 | Sharpe=0.41 | P(profit)=36.3% | Cade Cunningham AST >10.5; Shai Gilgeous-Alexander AST <6.5; Jaden McDaniels REB >4.5
+ 2. 3L POWER | EV=+1.18 | Sharpe=0.41 | P(profit)=36.3% | Cade Cunningham AST >10.5; Jaden McDaniels REB >4.5; Shai Gilgeous-Alexander AST <6.5
+ 3. 3L POWER | EV=+1.18 | Sharpe=0.41 | P(profit)=36.3% | Jaden McDaniels REB >4.5; Cade Cunningham AST >10.5; Shai Gilgeous-Alexander AST <6.5
+ 4. 3L POWER | EV=+1.18 | Sharpe=0.41 | P(profit)=36.3% | Jaden McDaniels REB >4.5; Cade Cunningham AST >10.5; Shai Gilgeous-Alexander AST <6.5
+ 5. 3L POWER | EV=+1.18 | Sharpe=0.41 | P(profit)=36.3% | Jaden McDaniels REB >4.5; Shai Gilgeous-Alexander AST <6.5; Cade Cunningham AST >10.5
+ 6. 3L POWER | EV=+1.18 | Sharpe=0.41 | P(profit)=36.3% | Jaden McDaniels REB >4.5; Cade Cunningham AST >10.5; Shai Gilgeous-Alexander AST <6.5
+ 7. 3L POWER | EV=+1.18 | Sharpe=0.41 | P(profit)=36.3% | Jaden McDaniels REB >4.5; Cade Cunningham AST >10.5; Shai Gilgeous-Alexander AST <6.5
+ 8. 3L POWER | EV=+1.18 | Sharpe=0.41 | P(profit)=36.3% | Shai Gilgeous-Alexander AST <6.5; Jaden McDaniels REB >4.5; Cade Cunningham AST >10.5
+ 9. 3L POWER | EV=+0.95 | Sharpe=0.34 | P(profit)=32.5% | Cade Cunningham AST >10.5; Shai Gilgeous-Alexander AST <6.5; Rudy Gobert REB >11.5
+10. 3L POWER | EV=+0.95 | Sharpe=0.34 | P(profit)=32.5% | Cade Cunningham AST >10.5; Rudy Gobert REB >11.5; Shai Gilgeous-Alexander AST <6.5

@@ -1,0 +1,104 @@
+{
+  "total_props": 2,
+  "blocked": 0,
+  "no_play": 0,
+  "lean": 0,
+  "strong": 0,
+  "play": 0,
+  "skip": 2,
+  "results": [
+    {
+      "player": "Clear Picks",
+      "stat": "points",
+      "line": 19.5,
+      "decision": "SKIP",
+      "reason": "No data for Clear Picks points",
+      "gates_passed": false,
+      "status": "SKIP",
+      "status_confidence": 0.0,
+      "team": "UNK"
+    },
+    {
+      "player": "Clear Picks",
+      "stat": "rebounds",
+      "line": 7.5,
+      "decision": "SKIP",
+      "reason": "No data for Clear Picks rebounds",
+      "gates_passed": false,
+      "status": "SKIP",
+      "status_confidence": 0.0,
+      "team": "UNK"
+    }
+  ],
+  "hq_options": {
+    "source": "file",
+    "source_path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\hq_options.local.json",
+    "reporting": {
+      "top_n_per_team": 5,
+      "include_status": [
+        "PLAY",
+        "LEAN",
+        "ANALYSIS_ONLY",
+        "SLAM",
+        "STRONG",
+        "SOLID",
+        "LEAN_TIER"
+      ]
+    }
+  },
+  "analysis_only": 0,
+  "top_5_by_stat": {
+    "PTS": [
+      {
+        "player": "Clear Picks",
+        "team": "UNK",
+        "opponent": "UNK",
+        "side": "UNDER",
+        "probability": 0.5,
+        "line": 19.5,
+        "mean": 19.5,
+        "std": 3.0,
+        "line_delta_pct": 0.0,
+        "ranking_score": 0.3173,
+        "role": "ROLE",
+        "why": "Standard edge",
+        "flags": []
+      }
+    ],
+    "REB": [
+      {
+        "player": "Clear Picks",
+        "team": "UNK",
+        "opponent": "UNK",
+        "side": "UNDER",
+        "probability": 0.5,
+        "line": 7.5,
+        "mean": 7.5,
+        "std": 3.0,
+        "line_delta_pct": 0.0,
+        "ranking_score": 0.4054,
+        "role": "ROLE",
+        "why": "Low variance stat",
+        "flags": []
+      }
+    ]
+  },
+  "stat_ranking_meta": {
+    "coverage_flags": {
+      "PTS": "LOW_COVERAGE (1/5)",
+      "REB": "LOW_COVERAGE (1/5)",
+      "AST": "NO_DATA",
+      "3PM": "NO_DATA",
+      "PRA": "NO_DATA",
+      "STL": "NO_DATA",
+      "BLK": "NO_DATA",
+      "STOCKS": "NO_DATA",
+      "TOV": "NO_DATA",
+      "PA": "NO_DATA",
+      "RA": "NO_DATA",
+      "PR": "NO_DATA"
+    },
+    "total_analyzed": 2,
+    "stats_with_data": 2
+  }
+}

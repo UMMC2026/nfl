@@ -1,0 +1,88 @@
+# Seed × Ref × Coach TRIPLE INTERACTION (Variance Governor)
+# Single priors miss interaction effects. This layer ONLY multiplies variance
+# (never mean) and CAPS confidence when interaction risk is high.
+
+DEFAULT:
+  variance_mult: 1.00
+  confidence_cap: 0.75
+
+INTERACTIONS:
+  # High-seed, whistle-heavy refs, freshman-heavy coaches
+  - when:
+      seed_role: HIGH
+      ref_profile: HIGH_FOUL
+      coach: John Calipari
+    apply:
+      variance_mult: 1.35
+      confidence_cap: 0.65
+    notes: "Calipari freshmen + high whistles = chaos"
+
+  # Low-seed grinders with low-foul refs (unders gold)
+  - when:
+      seed_role: LOW
+      ref_profile: LOW_FOUL
+      coach: Tony Bennett
+    apply:
+      variance_mult: 0.92
+      confidence_cap: 0.72
+    notes: "Pack-line + let-them-play = stable unders"
+
+  # Favored teams with late foul chaos risk
+  - when:
+      seed_role: HIGH
+      ref_profile: NEUTRAL
+      coach: Tom Izzo
+    apply:
+      variance_mult: 1.18
+      confidence_cap: 0.70
+    notes: "Izzo late-game foul variance"
+
+  # High-seed with Bruce Pearl aggression
+  - when:
+      seed_role: HIGH
+      ref_profile: HIGH_FOUL
+      coach: Bruce Pearl
+    apply:
+      variance_mult: 1.40
+      confidence_cap: 0.62
+    notes: "Pearl + whistles = foul trouble galore"
+
+  # Low-seed upset chaos with Calipari
+  - when:
+      seed_role: LOW
+      ref_profile: NEUTRAL
+      coach: John Calipari
+    apply:
+      variance_mult: 1.28
+      confidence_cap: 0.65
+    notes: "Underdog freshmen = wild swings"
+
+  # Stable mid-major grinder
+  - when:
+      seed_role: LOW
+      ref_profile: LOW_FOUL
+      coach: Mark Few
+    apply:
+      variance_mult: 0.95
+      confidence_cap: 0.72
+    notes: "Gonzaga efficiency + clean refs"
+
+  # High-variance fast teams
+  - when:
+      seed_role: HIGH
+      ref_profile: HIGH_FOUL
+      coach: Nate Oats
+    apply:
+      variance_mult: 1.32
+      confidence_cap: 0.64
+    notes: "Fastest tempo + high whistles"
+
+  # Bill Self underdog grind
+  - when:
+      seed_role: LOW
+      ref_profile: NEUTRAL
+      coach: Bill Self
+    apply:
+      variance_mult: 0.98
+      confidence_cap: 0.71
+    notes: "Self underdogs tend to overperform"

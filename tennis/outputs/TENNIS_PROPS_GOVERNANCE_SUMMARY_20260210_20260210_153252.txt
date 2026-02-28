@@ -1,0 +1,36 @@
+==============================================================================
+GOVERNANCE SUMMARY - TENNIS_PROPS - 20260210
+==============================================================================
+Created (UTC): 2026-02-10T21:32:52.742259+00:00
+
+COUNTS
+------------------------------------------------------------------------------
+Total results : 17
+Allowed edges : 2
+Blocked edges : 15
+Decision breakdown:
+  - BLOCKED: 15
+  - LEAN: 1
+  - PLAY: 1
+
+TOP BLOCK REASONS
+------------------------------------------------------------------------------
+   10x - pick_state=REJECTED
+    5x - pick_state=VETTED
+
+TOP PLAY PICKS
+------------------------------------------------------------------------------
+ 1. Taylor Fritz () sets_played HIGHER 2.5
+    eff=99.4% model=99.4% edge=? z=?
+
+TOP LEANS
+------------------------------------------------------------------------------
+ 1. Matteo Berrettini () breakpoints_won LOWER 3.5
+    eff=63.8% model=63.8% edge=? z=?
+
+FILES
+------------------------------------------------------------------------------
+- outputs/governance_config.json
+- outputs/allowed_edges.json
+- outputs/blocked_edges.json
+(These are the stable 'latest' artifacts.)

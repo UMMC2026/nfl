@@ -1,0 +1,439 @@
+======================================================================
+[SOCCER] PROP ANALYSIS - RISK-FIRST REPORT
+======================================================================
+[ENGINE] Monte Carlo (10,000 sims) | Distributions: mc_poisson, mc_zip
+
+[DATA] Sources: 16 from DATABASE | 69 from ESTIMATES
+[!] ESTIMATES are position-based averages - treat with caution!
+
+
+[SLAM] (82%+) - ELITE CONFIDENCE
+--------------------------------------------------
+  [DB] Sandro Tonali (Newcastle)
+     goals UNDER 0.5 - 88.4%
+     Avg: 0.1/game | GP: 12
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_zip]
+     [!] Platform offered opposite -- model says UNDER
+
+  [DB] Sandro Tonali (Newcastle)
+     assists UNDER 0.5 - 86.9%
+     Avg: 0.2/game | GP: 12
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_zip]
+     [!] Platform offered opposite -- model says UNDER
+
+[STRONG] (66%+) - HIGH CONFIDENCE
+--------------------------------------------------
+  [EST] Jack Eichel
+     shots on goal UNDER 3.5 - 72.0%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=2.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Brady Tkachuk
+     shots on goal UNDER 2.5 - 72.0%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=2.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Auston Matthews
+     shots on goal UNDER 3.5 - 72.0%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] William Nylander
+     shots on goal UNDER 3.5 - 72.0%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Darius Acuff
+     assists UNDER 5.5 - 72.0%
+     Avg: 0.1/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=0.0 [mc_zip]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Nate Ament
+     assists UNDER 2.5 - 72.0%
+     Avg: 0.1/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=0.0 [mc_zip]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Nate Ament
+     assists UNDER 4.5 - 72.0%
+     Avg: 0.1/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=0.0 [mc_zip]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Robert Wright
+     assists UNDER 4.5 - 72.0%
+     Avg: 0.1/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=0.0 [mc_zip]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Nijel Pack
+     assists UNDER 2.5 - 72.0%
+     Avg: 0.1/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=0.0 [mc_zip]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Labaron Philon
+     assists UNDER 5.5 - 72.0%
+     Avg: 0.1/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=0.0 [mc_zip]
+     [!] Platform offered opposite -- model says UNDER
+
+  [DB] Julian Alvarez (Atletico Madrid)
+     shots on target UNDER 1.5 - 73.0%
+     Avg: 1.0/game | GP: 21
+     Range: p10=0.0 | p50=1.0 | p90=2.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [DB] Julian Alvarez (Atletico Madrid)
+     goals UNDER 0.5 - 71.2%
+     Avg: 0.4/game | GP: 21
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_zip]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Jose Sa
+     saves UNDER 3.5 - 72.0%
+     Avg: 2.0/game | GP: EST
+     Range: p10=0.0 | p50=2.0 | p90=4.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [DB] Anthony Gordon (Newcastle)
+     shots attempted UNDER 2.5 - 68.3%
+     Avg: 2.0/game | GP: 22
+     Range: p10=0.0 | p50=2.0 | p90=4.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [DB] Anthony Gordon (Newcastle)
+     goals UNDER 0.5 - 80.5%
+     Avg: 0.2/game | GP: 22
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_zip]
+     [!] Platform offered opposite -- model says UNDER
+
+  [DB] Anthony Gordon (Newcastle)
+     assists UNDER 0.5 - 76.8%
+     Avg: 0.3/game | GP: 22
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_zip]
+     [!] Platform offered opposite -- model says UNDER
+
+  [DB] Sandro Tonali (Newcastle)
+     shots attempted UNDER 1.5 - 73.8%
+     Avg: 1.0/game | GP: 12
+     Range: p10=0.0 | p50=1.0 | p90=2.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [DB] Sandro Tonali (Newcastle)
+     shots on target UNDER 0.5 - 67.6%
+     Avg: 0.4/game | GP: 12
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [DB] Sandro Tonali (Newcastle)
+     goals+assists UNDER 0.5 - 81.7%
+     Avg: 0.2/game | GP: 12
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_zip]
+     [!] Platform offered opposite -- model says UNDER
+
+  [DB] David Raya (Arsenal)
+     saves OVER 1.5 - 79.4%
+     Avg: 3.0/game | GP: 22
+     Range: p10=1.0 | p50=3.0 | p90=5.0 [mc_poisson]
+
+  [EST] Mike Maignan
+     saves UNDER 2.5 - 67.9%
+     Avg: 2.0/game | GP: EST
+     Range: p10=0.0 | p50=2.0 | p90=4.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Jan Oblak
+     saves UNDER 2.5 - 68.2%
+     Avg: 2.0/game | GP: EST
+     Range: p10=0.0 | p50=2.0 | p90=4.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Lautaro Javier Martinez
+     shots attempted UNDER 3.5 - 72.0%
+     Avg: 1.2/game | GP: EST
+     Range: p10=0.0 | p50=1.0 | p90=3.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Lautaro Javier Martinez
+     shots on target UNDER 1.5 - 72.0%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Georges Mikautadze
+     shots attempted UNDER 4.5 - 72.0%
+     Avg: 1.2/game | GP: EST
+     Range: p10=0.0 | p50=1.0 | p90=3.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Georges Mikautadze
+     shots on target UNDER 1.5 - 72.0%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Alex Carpenter
+     shots on goal UNDER 4.5 - 72.0%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Hilary Knight
+     shots on goal UNDER 4.5 - 72.0%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Daryl Watts
+     shots on goal UNDER 2.5 - 72.0%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Sarah Fillier
+     shots on goal UNDER 4.5 - 72.0%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] First Goal Scorer
+     shots on goal UNDER 4.5 - 72.0%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Kendall Coyne Schofield
+     shots on goal UNDER 3.5 - 72.0%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Hannah Bilka
+     shots on goal UNDER 4.5 - 72.0%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Victor Wembanyama
+     assists UNDER 2.5 - 72.0%
+     Avg: 0.1/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=0.0 [mc_zip]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] James Harden
+     assists UNDER 8.5 - 72.0%
+     Avg: 0.1/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=0.0 [mc_zip]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Donovan Mitchell
+     assists UNDER 5.5 - 72.0%
+     Avg: 0.1/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=0.0 [mc_zip]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Joel Embiid
+     assists UNDER 4.5 - 72.0%
+     Avg: 0.1/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=0.0 [mc_zip]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Nikola Jokic
+     assists UNDER 9.5 - 72.0%
+     Avg: 0.1/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=0.0 [mc_zip]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Nikola Jokic
+     assists UNDER 7.5 - 72.0%
+     Avg: 0.1/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=0.0 [mc_zip]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Jaylen Brown
+     assists UNDER 4.5 - 72.0%
+     Avg: 0.1/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=0.0 [mc_zip]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Cade Cunningham
+     assists UNDER 8.5 - 72.0%
+     Avg: 0.1/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=0.0 [mc_zip]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Ryan Rollins
+     assists UNDER 4.5 - 72.0%
+     Avg: 0.1/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=0.0 [mc_zip]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Russell Westbrook
+     assists UNDER 5.5 - 72.0%
+     Avg: 0.1/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=0.0 [mc_zip]
+     [!] Platform offered opposite -- model says UNDER
+
+
+[LEAN] (56%+) - ACTIONABLE
+--------------------------------------------------
+  [DB] Julian Alvarez (Atletico Madrid)
+     goals+assists UNDER 0.5 - 66.0%
+     Avg: 0.6/game | GP: 21
+     Range: p10=0.0 | p50=0.0 | p90=2.0 [mc_zip]
+     [!] Platform offered opposite -- model says UNDER
+
+  [DB] Nick Pope (Newcastle)
+     saves OVER 2.5 - 61.6%
+     Avg: 3.2/game | GP: 18
+     Range: p10=1.0 | p50=3.0 | p90=6.0 [mc_poisson]
+
+  [DB] Anthony Gordon (Newcastle)
+     goals+assists UNDER 0.5 - 64.4%
+     Avg: 0.6/game | GP: 22
+     Range: p10=0.0 | p50=0.0 | p90=2.0 [mc_zip]
+     [!] Platform offered opposite -- model says UNDER
+
+
+[AVOID] (below LEAN threshold) - SKIP
+--------------------------------------------------
+  [X] Jack Eichel - goals UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Jack Eichel - assists UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Jake Guentzel - goals UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Jake Guentzel - assists UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Brady Tkachuk - goals UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Brady Tkachuk - assists UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Auston Matthews - goals UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Auston Matthews - assists UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] William Nylander - goals UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] William Nylander - assists UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Nick Martinelli - assists UNDER 1.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Marcus Hill - assists UNDER 1.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Trevon Brazile - assists UNDER 1.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Julian Alvarez - shots attempted UNDER 2.5 - 55.4%  [WRONG DIR]
+       Platform offered: OVER | Model best: UNDER
+       -> Flip UNDER also weak: 55.4%
+  [X] Anthony Gordon - shots on target OVER 0.5 - 54.0%  [NO EDGE]
+       OVER: 54.0% | UNDER: 46.0% -- coin flip
+  [X] Lautaro Javier Martinez - goals+assists UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Lautaro Javier Martinez - goals UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Lautaro Javier Martinez - assists UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Georges Mikautadze - goals+assists UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Georges Mikautadze - goals UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Georges Mikautadze - assists UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Alex Carpenter - goals UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Alex Carpenter - assists UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Hilary Knight - goals UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Hilary Knight - assists UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Daryl Watts - goals UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Daryl Watts - assists UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Sarah Fillier - goals UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Sarah Fillier - assists UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Julia Gosling - goals UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] First Goal Scorer - goals UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] First Goal Scorer - assists UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Kendall Coyne Schofield - goals UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Hannah Bilka - goals UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Taylor Heise - goals UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Abbey Murphy - goals UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+  [X] Abbey Murphy - assists UNDER 0.5 - 72.0%  [TRIVIAL (EST)]
+       Platform offered: OVER | Model best: UNDER
+
+======================================================================
+[SUMMARY] ACTIONABLE PICKS: 48
+   SLAM: 2 | STRONG: 43 | LEAN: 3
+
+[!] NOTE: Some picks use ESTIMATES. Prioritize DATABASE picks.
+
+======================================================================
+[CHEAT SHEET] - Copy/Paste Ready
+======================================================================
+** Sandro Tonali goals UNDER 0.5 (88%)
+** Sandro Tonali assists UNDER 0.5 (87%)
+** Jack Eichel shots on goal UNDER 3.5 (72%)
+** Brady Tkachuk shots on goal UNDER 2.5 (72%)
+** Auston Matthews shots on goal UNDER 3.5 (72%)
+** William Nylander shots on goal UNDER 3.5 (72%)
+** Darius Acuff assists UNDER 5.5 (72%)
+** Nate Ament assists UNDER 2.5 (72%)
+** Nate Ament assists UNDER 4.5 (72%)
+** Robert Wright assists UNDER 4.5 (72%)
+** Nijel Pack assists UNDER 2.5 (72%)
+** Labaron Philon assists UNDER 5.5 (72%)
+** Julian Alvarez shots on target UNDER 1.5 (73%)
+** Julian Alvarez goals UNDER 0.5 (71%)
+** Jose Sa saves UNDER 3.5 (72%)
+** Anthony Gordon shots attempted UNDER 2.5 (68%)
+** Anthony Gordon goals UNDER 0.5 (80%)
+** Anthony Gordon assists UNDER 0.5 (77%)
+** Sandro Tonali shots attempted UNDER 1.5 (74%)
+** Sandro Tonali shots on target UNDER 0.5 (68%)
+** Sandro Tonali goals+assists UNDER 0.5 (82%)
+** David Raya saves OVER 1.5 (79%)
+** Mike Maignan saves UNDER 2.5 (68%)
+** Jan Oblak saves UNDER 2.5 (68%)
+** Lautaro Javier Martinez shots attempted UNDER 3.5 (72%)
+** Lautaro Javier Martinez shots on target UNDER 1.5 (72%)
+** Georges Mikautadze shots attempted UNDER 4.5 (72%)
+** Georges Mikautadze shots on target UNDER 1.5 (72%)
+** Alex Carpenter shots on goal UNDER 4.5 (72%)
+** Hilary Knight shots on goal UNDER 4.5 (72%)
+** Daryl Watts shots on goal UNDER 2.5 (72%)
+** Sarah Fillier shots on goal UNDER 4.5 (72%)
+** First Goal Scorer shots on goal UNDER 4.5 (72%)
+** Kendall Coyne Schofield shots on goal UNDER 3.5 (72%)
+** Hannah Bilka shots on goal UNDER 4.5 (72%)
+** Victor Wembanyama assists UNDER 2.5 (72%)
+** James Harden assists UNDER 8.5 (72%)
+** Donovan Mitchell assists UNDER 5.5 (72%)
+** Joel Embiid assists UNDER 4.5 (72%)
+** Nikola Jokic assists UNDER 9.5 (72%)
+** Nikola Jokic assists UNDER 7.5 (72%)
+** Jaylen Brown assists UNDER 4.5 (72%)
+** Cade Cunningham assists UNDER 8.5 (72%)
+** Ryan Rollins assists UNDER 4.5 (72%)
+** Russell Westbrook assists UNDER 5.5 (72%)
+* Julian Alvarez goals+assists UNDER 0.5 (66%)
+* Nick Pope saves OVER 2.5 (62%)
+* Anthony Gordon goals+assists UNDER 0.5 (64%)
+======================================================================

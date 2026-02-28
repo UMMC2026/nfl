@@ -1,0 +1,216 @@
+{
+  "timestamp": "2026-02-08T13:57:18.101454",
+  "sites": [
+    "oddsapi"
+  ],
+  "total_props": 0,
+  "parsed_props": 0,
+  "players": 0,
+  "props": [],
+  "oddsapi_meta": {
+    "sport": "SOCCER_EPL",
+    "sport_key": "soccer_epl",
+    "regions": "us_dfs",
+    "markets": "player_shots,player_shots_on_target,player_assists",
+    "bookmakers": "betr_us_dfs,pick6,prizepicks,underdog",
+    "event_count": 20,
+    "invalid_markets_dropped": null,
+    "used_market_discovery": false,
+    "include_multipliers": true,
+    "quota": {
+      "events_list": {
+        "remaining": 19681,
+        "used": 319,
+        "last_cost": 0
+      },
+      "last_event_odds": {
+        "remaining": 19681,
+        "used": 319,
+        "last_cost": 0
+      }
+    },
+    "raw_event_odds": [
+      {
+        "id": "5b5fa92a38c5a46da05ac81d003f6f1e",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-10T19:30:00Z",
+        "home_team": "Everton",
+        "away_team": "Bournemouth",
+        "bookmakers": []
+      },
+      {
+        "id": "72774f6fb55af274c4982bcb62d4a765",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-10T19:30:00Z",
+        "home_team": "Chelsea",
+        "away_team": "Leeds United",
+        "bookmakers": []
+      },
+      {
+        "id": "7dbe188ba5a5b8a16e8d293c2afe1274",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-10T19:30:00Z",
+        "home_team": "Tottenham Hotspur",
+        "away_team": "Newcastle United",
+        "bookmakers": []
+      },
+      {
+        "id": "e52ffec43cce1bd9cea0f0ef8e9a0b7b",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-10T20:15:00Z",
+        "home_team": "West Ham United",
+        "away_team": "Manchester United",
+        "bookmakers": []
+      },
+      {
+        "id": "6eb455fd4d99ec4ccae4ec842f2f34fb",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-11T19:30:00Z",
+        "home_team": "Aston Villa",
+        "away_team": "Brighton and Hove Albion",
+        "bookmakers": []
+      },
+      {
+        "id": "0668597268dc436be07072656aeeebb6",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-11T19:30:00Z",
+        "home_team": "Crystal Palace",
+        "away_team": "Burnley",
+        "bookmakers": []
+      },
+      {
+        "id": "a02f032d38dce8c9449394eef35c9992",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-11T19:30:00Z",
+        "home_team": "Manchester City",
+        "away_team": "Fulham",
+        "bookmakers": []
+      },
+      {
+        "id": "f32339e73cc54282b92a96ab5ab00488",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-11T19:30:00Z",
+        "home_team": "Nottingham Forest",
+        "away_team": "Wolverhampton Wanderers",
+        "bookmakers": []
+      },
+      {
+        "id": "34bd80d2295adf2b26ae146f65f226be",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-11T20:15:00Z",
+        "home_team": "Sunderland",
+        "away_team": "Liverpool",
+        "bookmakers": []
+      },
+      {
+        "id": "c05ca60866c3224a6fa96c81a0eef68f",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-12T20:00:00Z",
+        "home_team": "Brentford",
+        "away_team": "Arsenal",
+        "bookmakers": []
+      },
+      {
+        "id": "5b648e6c89d56257cb38abb4a76cee72",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-18T20:00:00Z",
+        "home_team": "Wolverhampton Wanderers",
+        "away_team": "Arsenal",
+        "bookmakers": []
+      },
+      {
+        "id": "121455e2f00d446f83bf2939263ff388",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-21T15:00:00Z",
+        "home_team": "Aston Villa",
+        "away_team": "Leeds United",
+        "bookmakers": []
+      },
+      {
+        "id": "f38e853e6d4accab249a51501f2806ef",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-21T15:00:00Z",
+        "home_team": "Brentford",
+        "away_team": "Brighton and Hove Albion",
+        "bookmakers": []
+      },
+      {
+        "id": "7b0c7dd2f5e825fc904d669a946e3a74",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-21T15:00:00Z",
+        "home_team": "Chelsea",
+        "away_team": "Burnley",
+        "bookmakers": []
+      },
+      {
+        "id": "13c335daab252110beaa73f1dbf3ae1f",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-21T17:30:00Z",
+        "home_team": "West Ham United",
+        "away_team": "Bournemouth",
+        "bookmakers": []
+      },
+      {
+        "id": "cf641a7ccfddaeccd926ca123d72a4b5",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-21T20:00:00Z",
+        "home_team": "Manchester City",
+        "away_team": "Newcastle United",
+        "bookmakers": []
+      },
+      {
+        "id": "0674c077e5225c0795ebb7866e06ac4c",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-22T14:00:00Z",
+        "home_team": "Crystal Palace",
+        "away_team": "Wolverhampton Wanderers",
+        "bookmakers": []
+      },
+      {
+        "id": "9da0932d1255c3f7d4156ec7730ffa75",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-22T14:00:00Z",
+        "home_team": "Sunderland",
+        "away_team": "Fulham",
+        "bookmakers": []
+      },
+      {
+        "id": "55754da4f841e3997e766dd7ff5eafe2",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-22T14:00:00Z",
+        "home_team": "Nottingham Forest",
+        "away_team": "Liverpool",
+        "bookmakers": []
+      },
+      {
+        "id": "ea3c0df9b0c96cc6a4c80022bbf85720",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-22T16:30:00Z",
+        "home_team": "Tottenham Hotspur",
+        "away_team": "Arsenal",
+        "bookmakers": []
+      }
+    ]
+  },
+  "run_id": "2a9fcb014f41825e"
+}

@@ -1,0 +1,40 @@
+==============================================================================
+GOVERNANCE SUMMARY - TENNIS_PROPS - 20260211
+==============================================================================
+Created (UTC): 2026-02-12T03:13:46.062875+00:00
+
+COUNTS
+------------------------------------------------------------------------------
+Total results : 12
+Allowed edges : 4
+Blocked edges : 8
+Decision breakdown:
+  - BLOCKED: 8
+  - PLAY: 3
+  - LEAN: 1
+
+TOP BLOCK REASONS
+------------------------------------------------------------------------------
+    4x - pick_state=REJECTED
+    2x - pick_state=VETTED
+    2x - tier=AVOID
+
+TOP PLAY PICKS
+------------------------------------------------------------------------------
+ 1. Anna Kalinskaya () game_spread HIGHER 3.5
+    eff=98.7% model=98.7% edge=? z=?
+ 2. Victoria Mboko () game_spread HIGHER 4.5
+    eff=97.0% model=97.0% edge=? z=?
+ 3. Iga Swiatek () total_games HIGHER 18.5
+    eff=80.1% model=80.1% edge=? z=?
+
+TOP LEANS
+------------------------------------------------------------------------------
+ 1. Elena Rybakina () total_games LOWER 21.5
+    eff=59.1% model=59.1% edge=? z=?
+
+FILES
+------------------------------------------------------------------------------
+- outputs/governance_config.json
+- outputs/allowed_edges.json
+... (truncated)

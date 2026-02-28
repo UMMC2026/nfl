@@ -1,0 +1,40 @@
+{
+  "date": "2026-01-23",
+  "timestamp": "2026-01-23T05:14:53.819565",
+  "slate": "ALL_3PM1232026",
+  "source_file": "ALL_3PM1232026_RISK_FIRST_20260123_FROM_UD.json",
+  "summary": {
+    "play_count": 2,
+    "lean_count": 1,
+    "total": 3
+  },
+  "picks": [
+    {
+      "player": "CJ McCollum",
+      "team": "ATL",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 90.2
+    },
+    {
+      "player": "Pascal Siakam",
+      "team": "IND",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 82.9
+    },
+    {
+      "player": "Cade Cunningham",
+      "team": "DET",
+      "stat": "assists",
+      "line": 8.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 82.1
+    }
+  ]
+}

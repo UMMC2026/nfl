@@ -1,0 +1,14 @@
+{
+  "timestamp_utc": "2026-02-05T07:23:02.820542",
+  "dry_run": true,
+  "legacy_csv": "calibration_history.csv",
+  "db_path": "cache\\pick_history.db",
+  "stats": {
+    "total_rows": 457,
+    "inserted": 115,
+    "resolved": 114,
+    "updated_existing": 0,
+    "skipped_invalid": 342,
+    "skipped_unresolved": 1
+  }
+}

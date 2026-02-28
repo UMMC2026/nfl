@@ -1,0 +1,40 @@
+==============================================================================
+GOVERNANCE SUMMARY - TENNIS_PROPS - 20260217
+==============================================================================
+Created (UTC): 2026-02-17T07:06:33.822820+00:00
+
+COUNTS
+------------------------------------------------------------------------------
+Total results : 13
+Allowed edges : 8
+Blocked edges : 5
+Decision breakdown:
+  - BLOCKED: 5
+  - LEAN: 5
+  - PLAY: 3
+
+TOP BLOCK REASONS
+------------------------------------------------------------------------------
+    3x - pick_state=VETTED
+    1x - pick_state=REJECTED
+    1x - tier=AVOID
+
+TOP PLAY PICKS
+------------------------------------------------------------------------------
+ 1. Arthur Rinderknech () games_won HIGHER 6.5
+    eff=92.1% model=92.1% edge=? z=?
+ 2. Arthur Rinderknech () aces HIGHER 4.5
+    eff=83.5% model=83.5% edge=? z=?
+ 3. Miomir Kecmanovic () games_won HIGHER 12.5
+    eff=68.9% model=68.9% edge=? z=?
+
+TOP LEANS
+------------------------------------------------------------------------------
+ 1. Tommy Paul () games_won HIGHER 12.5
+    eff=66.0% model=66.0% edge=? z=?
+ 2. Carlos Alcaraz () games_won HIGHER 12.5
+    eff=64.1% model=64.1% edge=? z=?
+ 3. Stefanos Tsitsipas () games_won HIGHER 12.5
+    eff=62.8% model=62.8% edge=? z=?
+ 4. Karen Khachanov () games_won HIGHER 12.5
+... (truncated)

@@ -1,0 +1,44 @@
+================================================================================
+SITUATIONAL EDGES (EXTRACTED) — 2026-01-25 01:21
+================================================================================
+
+SAC vs DET — 4 edge(s)
+--------------------------------------------------------------------------------
+LEAN   Zach LaVine rebounds higher 1.5 | P=79.6% [Matchup: +6.3%, ✅ vs Weak D (#27), Away: -1.0%]
+        source: outputs/SAC_DET_BALANCED_20260124_FROM_UD.txt
+LEAN   Dennis Schroder rebounds higher 1.5 | P=77.4% [Matchup: +6.3%, ✅ vs Weak D (#27), Away: -1.0%]
+        source: outputs/SAC_DET_BALANCED_20260124_FROM_UD.txt
+LEAN   Russell Westbrook rebounds higher 3.5 | P=74.1% [Matchup: +6.3%, ✅ vs Weak D (#27), Away: -1.0%]
+        source: outputs/SAC_DET_BALANCED_20260124_FROM_UD.txt
+LEAN   Russell Westbrook pra higher 23.5 | P=68.0% [Matchup: +6.3%, ✅ vs Weak D (#27), Away: -2.0%]
+        source: outputs/SAC_DET_BALANCED_20260124_FROM_UD.txt
+
+DEN vs MEM — 5 edge(s)
+--------------------------------------------------------------------------------
+LEAN   Peyton Watson rebounds lower 6.5 | P=71.8% [Matchup: -6.3%, ⚠️ vs Elite D (#5), Home: +1.0%]
+        source: outputs/MEM_DEN_BALANCED_20260125_FROM_UD.txt
+LEAN   Jonas Valanciunas pra lower 27.5 | P=68.0% [Matchup: -6.3%, ⚠️ vs Elite D (#5), Home: +2.0%]
+        source: outputs/MEM_DEN_BALANCED_20260125_FROM_UD.txt
+LEAN   Jonas Valanciunas points lower 15.5 | P=63.8% [Matchup: -6.3%, ⚠️ vs Elite D (#5), Home: +2.0%]
+        source: outputs/MEM_DEN_BALANCED_20260125_FROM_UD.txt
+LEAN   Jalen Pickett points lower 10.5 | P=61.4% [Matchup: -6.3%, ⚠️ vs Elite D (#5), Home: +2.0%]
+        source: outputs/MEM_DEN_BALANCED_20260125_FROM_UD.txt
+PLAY   Jonas Valanciunas rebounds lower 9.5 | P=79.6% [Matchup: -6.3%, ⚠️ vs Elite D (#5), Home: +1.0%]
+        source: outputs/MEM_DEN_BALANCED_20260125_FROM_UD.txt
+
+DET vs SAC — 2 edge(s)
+--------------------------------------------------------------------------------
+LEAN   Ausar Thompson reb+ast higher 7.5 | P=71.4% [Home: +1.5%]
+        source: outputs/SAC_DET_BALANCED_20260124_FROM_UD.txt
+LEAN   Duncan Robinson pra higher 14.5 | P=68.0% [Home: +2.0%]
+        source: outputs/SAC_DET_BALANCED_20260124_FROM_UD.txt
+
+BOS vs UNK — 1 edge(s)
+--------------------------------------------------------------------------------
+LEAN   Sam Hauser pra higher 17.5 | P=68.0%
+        source: outputs/ALL_PRA_SAT_BALANCED_20260124_FROM_UD.txt
+
+MIA vs UNK — 1 edge(s)
+--------------------------------------------------------------------------------
+LEAN   Dru Smith pra lower 12.5 | P=68.0%
+        source: outputs/ALL_PRA_SAT_BALANCED_20260124_FROM_UD.txt

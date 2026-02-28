@@ -1,0 +1,1554 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                       UNDERDOG FANTASY PROPS ANALYZER                        ║
+║                       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━                        ║
+║                      DAILY SLATE REPORT: NBATUESDAYPTS                       ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  Report Date:    January 27, 2026
+  Generated At:   07:08 AM
+  Data Source:    NBATUESDAYPTS_RISK_FIRST_20260127_FROM_UD.json
+  Lens: UNDER-first enabled; Failure Lens enabled
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  EXECUTIVE SUMMARY                                                           │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  Total Props Analyzed:  110           Actionable Plays:  3                   │
+│  ✓ PLAY Tier:           0             ○ LEAN Tier:        3                  │
+│  Directional Bias:      2 UNDERs / 1 OVERs                                   │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+
+════════════════════════════════════════════════════════════════════════════════
+  📊 LEAN PLAYS (3)
+  Moderate confidence (65-74%) — consider for parlays
+════════════════════════════════════════════════════════════════════════════════
+
+  ┌─ #1 ────────────────────────────────────────────────────────────
+  │  Isaiah Stewart (DET)
+  │  POINTS OVER 4.5
+  │
+  │  Confidence:  63.4%
+  │  Edge:        +5.2%
+  │  Recent Avg:  9.7  (σ=6.0, n=40)
+  │  Line Gap:    +5.2 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 9.7 > Line 4.5, 63.4% confidence, +5.2% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #2 ────────────────────────────────────────────────────────────
+  │  Isaiah Collier (UTA)
+  │  POINTS UNDER 13.5
+  │
+  │  Confidence:  62.4%
+  │  Edge:        +2.3%
+  │  Recent Avg:  11.2  (σ=5.6, n=38)
+  │  Line Gap:    +2.3 pts
+  │  Context:     Matchup: -3.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 11.2 < Line 13.5, 62.4% confidence, +2.3% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #3 ────────────────────────────────────────────────────────────
+  │  Jonas Valančiūnas (DEN)
+  │  POINTS UNDER 12.5
+  │
+  │  Confidence:  62.1%
+  │  Edge:        +2.8%
+  │  Recent Avg:  9.7  (σ=8.0, n=34)
+  │  Line Gap:    +2.8 pts
+  │  Context:     Matchup: +6.3%, ✅ vs Weak D (#27)
+  │  Failure Lens:
+  │   • Math says: Recent Avg 9.7 < Line 12.5, 62.1% confidence, +2.8% edge
+  │   • Structural risk: High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+
+════════════════════════════════════════════════════════════════════════════════
+  ⛔ NO PLAY (91)
+  Below threshold — insufficient edge or confidence
+════════════════════════════════════════════════════════════════════════════════
+
+  ┌─ #1 ────────────────────────────────────────────────────────────
+  │  Tim Hardaway (DEN)
+  │  POINTS OVER 9.5
+  │
+  │  Confidence:  54.5%
+  │  Edge:        +4.9%
+  │  Recent Avg:  14.4  (σ=12.8, n=45)
+  │  Line Gap:    +4.9 pts
+  │  Context:     Matchup: +6.3%, ✅ vs Weak D (#27)
+  │  Failure Lens:
+  │   • Math says: Recent Avg 14.4 > Line 9.5, 54.5% confidence, +4.9% edge
+  │   • Structural risk: Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #2 ────────────────────────────────────────────────────────────
+  │  Luguentz Dort (OKC)
+  │  POINTS UNDER 10.5
+  │
+  │  Confidence:  52.7%
+  │  Edge:        -0.3%
+  │  Recent Avg:  10.8  (σ=9.7, n=37)
+  │  Line Gap:    -0.3 pts
+  │  Context:     Matchup: +4.1%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 10.8 > Line 10.5, 52.7% confidence, -0.3% edge
+  │   • Structural risk: High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #3 ────────────────────────────────────────────────────────────
+  │  Miles McBride (NYK)
+  │  POINTS OVER 9.5
+  │
+  │  Confidence:  52.2%
+  │  Edge:        +5.7%
+  │  Recent Avg:  15.2  (σ=9.6, n=34)
+  │  Line Gap:    +5.7 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 15.2 > Line 9.5, 52.2% confidence, +5.7% edge
+  │   • Structural risk: Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #4 ────────────────────────────────────────────────────────────
+  │  Bruce Brown (DEN)
+  │  POINTS OVER 4.5
+  │
+  │  Confidence:  51.8%
+  │  Edge:        +3.1%
+  │  Recent Avg:  7.6  (σ=4.8, n=46)
+  │  Line Gap:    +3.1 pts
+  │  Context:     Matchup: +6.3%, ✅ vs Weak D (#27)
+  │  Failure Lens:
+  │   • Math says: Recent Avg 7.6 > Line 4.5, 51.8% confidence, +3.1% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #5 ────────────────────────────────────────────────────────────
+  │  Nic Claxton (BKN)
+  │  POINTS OVER 10.5
+  │
+  │  Confidence:  51.8%
+  │  Edge:        -0.2%
+  │  Recent Avg:  10.3  (σ=6.1, n=42)
+  │  Line Gap:    -0.2 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 10.3 < Line 10.5, 51.8% confidence, -0.2% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #6 ────────────────────────────────────────────────────────────
+  │  Grayson Allen (PHX)
+  │  POINTS UNDER 18.5
+  │
+  │  Confidence:  51.6%
+  │  Edge:        +1.2%
+  │  Recent Avg:  17.3  (σ=3.7, n=29)
+  │  Line Gap:    +1.2 pts
+  │  Context:     Matchup: +3.6%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 17.3 < Line 18.5, 51.6% confidence, +1.2% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #7 ────────────────────────────────────────────────────────────
+  │  Chet Holmgren (OKC)
+  │  POINTS UNDER 19.5
+  │
+  │  Confidence:  49.9%
+  │  Edge:        +1.5%
+  │  Recent Avg:  18.0  (σ=8.8, n=41)
+  │  Line Gap:    +1.5 pts
+  │  Context:     Matchup: +4.1%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 18.0 < Line 19.5, 49.9% confidence, +1.5% edge
+  │   • Structural risk: High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #8 ────────────────────────────────────────────────────────────
+  │  Mitchell Robinson (NYK)
+  │  POINTS UNDER 5.5
+  │
+  │  Confidence:  48.4%
+  │  Edge:        -1.0%
+  │  Recent Avg:  6.5  (σ=4.4, n=32)
+  │  Line Gap:    -1.0 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 6.5 > Line 5.5, 48.4% confidence, -1.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #9 ────────────────────────────────────────────────────────────
+  │  Michael Porter (BKN)
+  │  POINTS OVER 22.5
+  │
+  │  Confidence:  47.4%
+  │  Edge:        -1.6%
+  │  Recent Avg:  20.9  (σ=10.2, n=36)
+  │  Line Gap:    -1.6 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 20.9 < Line 22.5, 47.4% confidence, -1.6% edge
+  │   • Structural risk: Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #10 ────────────────────────────────────────────────────────────
+  │  Dillon Brooks (PHX)
+  │  POINTS UNDER 21.5
+  │
+  │  Confidence:  47.4%
+  │  Edge:        +4.9%
+  │  Recent Avg:  16.6  (σ=11.4, n=40)
+  │  Line Gap:    +4.9 pts
+  │  Context:     Matchup: +3.6%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 16.6 < Line 21.5, 47.4% confidence, +4.9% edge
+  │   • Structural risk: High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #11 ────────────────────────────────────────────────────────────
+  │  OG Anunoby (NYK)
+  │  POINTS UNDER 16.5
+  │
+  │  Confidence:  47.1%
+  │  Edge:        -0.3%
+  │  Recent Avg:  16.8  (σ=9.6, n=35)
+  │  Line Gap:    -0.3 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 16.8 > Line 16.5, 47.1% confidence, -0.3% edge
+  │   • Structural risk: High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #12 ────────────────────────────────────────────────────────────
+  │  Drake Powell (BKN)
+  │  POINTS UNDER 6.5
+  │
+  │  Confidence:  46.9%
+  │  Edge:        +0.2%
+  │  Recent Avg:  6.3  (σ=4.2, n=33)
+  │  Line Gap:    +0.2 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 6.3 < Line 6.5, 46.9% confidence, +0.2% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #13 ────────────────────────────────────────────────────────────
+  │  Derik Queen (NOP)
+  │  POINTS OVER 9.5
+  │
+  │  Confidence:  46.5%
+  │  Edge:        -0.4%
+  │  Recent Avg:  9.1  (σ=5.9, n=47)
+  │  Line Gap:    -0.4 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 9.1 < Line 9.5, 46.5% confidence, -0.4% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #14 ────────────────────────────────────────────────────────────
+  │  Yves Missi (NOP)
+  │  POINTS OVER 4.5
+  │
+  │  Confidence:  45.9%
+  │  Edge:        +2.3%
+  │  Recent Avg:  6.8  (σ=4.5, n=40)
+  │  Line Gap:    +2.3 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 6.8 > Line 4.5, 45.9% confidence, +2.3% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #15 ────────────────────────────────────────────────────────────
+  │  Zach LaVine (SAC)
+  │  POINTS OVER 16.5
+  │
+  │  Confidence:  45.9%
+  │  Edge:        +0.3%
+  │  Recent Avg:  16.8  (σ=4.4, n=34)
+  │  Line Gap:    +0.3 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 16.8 > Line 16.5, 45.9% confidence, +0.3% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #16 ────────────────────────────────────────────────────────────
+  │  Precious Achiuwa (SAC)
+  │  POINTS OVER 5.5
+  │
+  │  Confidence:  45.5%
+  │  Edge:        +1.2%
+  │  Recent Avg:  6.7  (σ=5.8, n=40)
+  │  Line Gap:    +1.2 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 6.7 > Line 5.5, 45.5% confidence, +1.2% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #17 ────────────────────────────────────────────────────────────
+  │  Jamal Murray (DEN)
+  │  POINTS UNDER 26.5
+  │
+  │  Confidence:  44.9%
+  │  Edge:        -4.0%
+  │  Recent Avg:  30.5  (σ=10.1, n=41)
+  │  Line Gap:    -4.0 pts
+  │  Context:     Matchup: +6.3%, ✅ vs Weak D (#27)
+  │  Failure Lens:
+  │   • Math says: Recent Avg 30.5 > Line 26.5, 44.9% confidence, -4.0% edge
+  │   • Structural risk: High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #18 ────────────────────────────────────────────────────────────
+  │  Kawhi Leonard (LAC)
+  │  POINTS OVER 25.5
+  │
+  │  Confidence:  44.8%
+  │  Edge:        +3.6%
+  │  Recent Avg:  29.1  (σ=6.3, n=32)
+  │  Line Gap:    +3.6 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 29.1 > Line 25.5, 44.8% confidence, +3.6% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #19 ────────────────────────────────────────────────────────────
+  │  Herbert Jones (NOP)
+  │  POINTS OVER 7.5
+  │
+  │  Confidence:  44.8%
+  │  Edge:        -1.2%
+  │  Recent Avg:  6.2  (σ=6.1, n=25)
+  │  Line Gap:    -1.2 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 6.2 < Line 7.5, 44.8% confidence, -1.2% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #20 ────────────────────────────────────────────────────────────
+  │  Jordan Goodwin (PHX)
+  │  POINTS UNDER 8.5
+  │
+  │  Confidence:  44.4%
+  │  Edge:        +1.4%
+  │  Recent Avg:  7.1  (σ=7.7, n=43)
+  │  Line Gap:    +1.4 pts
+  │  Context:     Matchup: +3.6%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 7.1 < Line 8.5, 44.4% confidence, +1.4% edge
+  │   • Structural risk: High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #21 ────────────────────────────────────────────────────────────
+  │  Collin Gillespie (PHX)
+  │  POINTS UNDER 13.5
+  │
+  │  Confidence:  44.4%
+  │  Edge:        -0.6%
+  │  Recent Avg:  14.1  (σ=5.7, n=46)
+  │  Line Gap:    -0.6 pts
+  │  Context:     Matchup: +3.6%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 14.1 > Line 13.5, 44.4% confidence, -0.6% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #22 ────────────────────────────────────────────────────────────
+  │  Josh Hart (NYK)
+  │  POINTS OVER 10.5
+  │
+  │  Confidence:  44.0%
+  │  Edge:        -0.9%
+  │  Recent Avg:  9.6  (σ=3.5, n=34)
+  │  Line Gap:    -0.9 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 9.6 < Line 10.5, 44.0% confidence, -0.9% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #23 ────────────────────────────────────────────────────────────
+  │  Brook Lopez (LAC)
+  │  POINTS UNDER 5.5
+  │
+  │  Confidence:  44.0%
+  │  Edge:        +0.9%
+  │  Recent Avg:  4.6  (σ=4.6, n=38)
+  │  Line Gap:    +0.9 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 4.6 < Line 5.5, 44.0% confidence, +0.9% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #24 ────────────────────────────────────────────────────────────
+  │  Jaden Ivey (DET)
+  │  POINTS UNDER 8.5
+  │
+  │  Confidence:  43.8%
+  │  Edge:        +0.3%
+  │  Recent Avg:  8.2  (σ=3.0, n=29)
+  │  Line Gap:    +0.3 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 8.2 < Line 8.5, 43.8% confidence, +0.3% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #25 ────────────────────────────────────────────────────────────
+  │  Kris Dunn (LAC)
+  │  POINTS OVER 6.5
+  │
+  │  Confidence:  43.8%
+  │  Edge:        +0.0%
+  │  Recent Avg:  6.5  (σ=6.6, n=45)
+  │  Line Gap:    +0.0 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 6.5 > Line 6.5, 43.8% confidence, +0.0% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #26 ────────────────────────────────────────────────────────────
+  │  Russell Westbrook (SAC)
+  │  POINTS UNDER 15.5
+  │
+  │  Confidence:  43.8%
+  │  Edge:        -3.0%
+  │  Recent Avg:  18.5  (σ=6.6, n=47)
+  │  Line Gap:    -3.0 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 18.5 > Line 15.5, 43.8% confidence, -3.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #27 ────────────────────────────────────────────────────────────
+  │  Zion Williamson (NOP)
+  │  POINTS OVER 20.5
+  │
+  │  Confidence:  43.7%
+  │  Edge:        -0.2%
+  │  Recent Avg:  20.3  (σ=10.2, n=32)
+  │  Line Gap:    -0.2 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 20.3 < Line 20.5, 43.7% confidence, -0.2% edge
+  │   • Structural risk: Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #28 ────────────────────────────────────────────────────────────
+  │  Mikal Bridges (NYK)
+  │  POINTS OVER 14.5
+  │
+  │  Confidence:  43.7%
+  │  Edge:        -1.3%
+  │  Recent Avg:  13.2  (σ=5.9, n=45)
+  │  Line Gap:    -1.3 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 13.2 < Line 14.5, 43.7% confidence, -1.3% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #29 ────────────────────────────────────────────────────────────
+  │  Karl-Anthony Towns (NYK)
+  │  POINTS UNDER 20.5
+  │
+  │  Confidence:  43.6%
+  │  Edge:        +3.4%
+  │  Recent Avg:  17.1  (σ=6.7, n=42)
+  │  Line Gap:    +3.4 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 17.1 < Line 20.5, 43.6% confidence, +3.4% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #30 ────────────────────────────────────────────────────────────
+  │  Ivica Zubac (LAC)
+  │  POINTS UNDER 14.5
+  │
+  │  Confidence:  43.0%
+  │  Edge:        +0.6%
+  │  Recent Avg:  13.9  (σ=4.2, n=39)
+  │  Line Gap:    +0.6 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 13.9 < Line 14.5, 43.0% confidence, +0.6% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #31 ────────────────────────────────────────────────────────────
+  │  Mark Williams (PHX)
+  │  POINTS OVER 10.5
+  │
+  │  Confidence:  42.9%
+  │  Edge:        +0.2%
+  │  Recent Avg:  10.7  (σ=5.7, n=41)
+  │  Line Gap:    +0.2 pts
+  │  Context:     Matchup: +3.6%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 10.7 > Line 10.5, 42.9% confidence, +0.2% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #32 ────────────────────────────────────────────────────────────
+  │  Royce O'Neale (PHX)
+  │  POINTS OVER 9.5
+  │
+  │  Confidence:  42.7%
+  │  Edge:        +0.1%
+  │  Recent Avg:  9.6  (σ=3.1, n=46)
+  │  Line Gap:    +0.1 pts
+  │  Context:     Matchup: +3.6%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 9.6 > Line 9.5, 42.7% confidence, +0.1% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #33 ────────────────────────────────────────────────────────────
+  │  Shai Gilgeous-Alexander (OKC)
+  │  POINTS UNDER 33.5
+  │
+  │  Confidence:  42.6%
+  │  Edge:        -2.9%
+  │  Recent Avg:  36.4  (σ=10.2, n=45)
+  │  Line Gap:    -2.9 pts
+  │  Context:     Matchup: +4.1%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 36.4 > Line 33.5, 42.6% confidence, -2.9% edge
+  │   • Structural risk: High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #34 ────────────────────────────────────────────────────────────
+  │  James Harden (LAC)
+  │  POINTS UNDER 25.5
+  │
+  │  Confidence:  42.5%
+  │  Edge:        -0.1%
+  │  Recent Avg:  25.6  (σ=8.0, n=42)
+  │  Line Gap:    -0.1 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 25.6 > Line 25.5, 42.5% confidence, -0.1% edge
+  │   • Structural risk: High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #35 ────────────────────────────────────────────────────────────
+  │  Saddiq Bey (NOP)
+  │  POINTS UNDER 15.5
+  │
+  │  Confidence:  42.3%
+  │  Edge:        -5.9%
+  │  Recent Avg:  21.4  (σ=9.3, n=41)
+  │  Line Gap:    -5.9 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 21.4 > Line 15.5, 42.3% confidence, -5.9% edge
+  │   • Structural risk: High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #36 ────────────────────────────────────────────────────────────
+  │  Domantas Sabonis (SAC)
+  │  POINTS UNDER 15.5
+  │
+  │  Confidence:  42.2%
+  │  Edge:        +1.5%
+  │  Recent Avg:  14.0  (σ=9.4, n=16)
+  │  Line Gap:    +1.5 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 14.0 < Line 15.5, 42.2% confidence, +1.5% edge
+  │   • Structural risk: High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #37 ────────────────────────────────────────────────────────────
+  │  DeMar DeRozan (SAC)
+  │  POINTS OVER 17.5
+  │
+  │  Confidence:  41.7%
+  │  Edge:        +0.3%
+  │  Recent Avg:  17.8  (σ=6.9, n=47)
+  │  Line Gap:    +0.3 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 17.8 > Line 17.5, 41.7% confidence, +0.3% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #38 ────────────────────────────────────────────────────────────
+  │  Duncan Robinson (DET)
+  │  POINTS OVER 11.5
+  │
+  │  Confidence:  41.6%
+  │  Edge:        +2.2%
+  │  Recent Avg:  13.7  (σ=3.6, n=42)
+  │  Line Gap:    +2.2 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 13.7 > Line 11.5, 41.6% confidence, +2.2% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #39 ────────────────────────────────────────────────────────────
+  │  Egor Dëmin (BKN)
+  │  POINTS UNDER 9.5
+  │
+  │  Confidence:  41.4%
+  │  Edge:        +0.3%
+  │  Recent Avg:  9.2  (σ=4.6, n=39)
+  │  Line Gap:    +0.3 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 9.2 < Line 9.5, 41.4% confidence, +0.3% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #40 ────────────────────────────────────────────────────────────
+  │  Jalen Duren (DET)
+  │  POINTS UNDER 17.5
+  │
+  │  Confidence:  41.4%
+  │  Edge:        +0.3%
+  │  Recent Avg:  17.2  (σ=2.6, n=37)
+  │  Line Gap:    +0.3 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 17.2 < Line 17.5, 41.4% confidence, +0.3% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #41 ────────────────────────────────────────────────────────────
+  │  Cam Thomas (BKN)
+  │  POINTS OVER 13.5
+  │
+  │  Confidence:  41.3%
+  │  Edge:        -4.6%
+  │  Recent Avg:  8.9  (σ=5.9, n=20)
+  │  Line Gap:    -4.6 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 8.9 < Line 13.5, 41.3% confidence, -4.6% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #42 ────────────────────────────────────────────────────────────
+  │  Ausar Thompson (DET)
+  │  POINTS UNDER 10.5
+  │
+  │  Confidence:  41.3%
+  │  Edge:        +2.0%
+  │  Recent Avg:  8.5  (σ=3.8, n=40)
+  │  Line Gap:    +2.0 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 8.5 < Line 10.5, 41.3% confidence, +2.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #43 ────────────────────────────────────────────────────────────
+  │  Tobias Harris (DET)
+  │  POINTS UNDER 12.5
+  │
+  │  Confidence:  40.4%
+  │  Edge:        -0.1%
+  │  Recent Avg:  12.6  (σ=10.7, n=29)
+  │  Line Gap:    -0.1 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 12.6 > Line 12.5, 40.4% confidence, -0.1% edge
+  │   • Structural risk: High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #44 ────────────────────────────────────────────────────────────
+  │  Tobias Harris (DET)
+  │  POINTS OVER 12.5
+  │
+  │  Confidence:  40.3%
+  │  Edge:        +0.1%
+  │  Recent Avg:  12.6  (σ=10.7, n=29)
+  │  Line Gap:    +0.1 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 12.6 > Line 12.5, 40.3% confidence, +0.1% edge
+  │   • Structural risk: Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #45 ────────────────────────────────────────────────────────────
+  │  Ausar Thompson (DET)
+  │  POINTS OVER 10.5
+  │
+  │  Confidence:  39.4%
+  │  Edge:        -2.0%
+  │  Recent Avg:  8.5  (σ=3.8, n=40)
+  │  Line Gap:    -2.0 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 8.5 < Line 10.5, 39.4% confidence, -2.0% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #46 ────────────────────────────────────────────────────────────
+  │  Cam Thomas (BKN)
+  │  POINTS UNDER 13.5
+  │
+  │  Confidence:  39.4%
+  │  Edge:        +4.6%
+  │  Recent Avg:  8.9  (σ=5.9, n=20)
+  │  Line Gap:    +4.6 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 8.9 < Line 13.5, 39.4% confidence, +4.6% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #47 ────────────────────────────────────────────────────────────
+  │  Jalen Duren (DET)
+  │  POINTS OVER 17.5
+  │
+  │  Confidence:  39.3%
+  │  Edge:        -0.3%
+  │  Recent Avg:  17.2  (σ=2.6, n=37)
+  │  Line Gap:    -0.3 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 17.2 < Line 17.5, 39.3% confidence, -0.3% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #48 ────────────────────────────────────────────────────────────
+  │  Egor Dëmin (BKN)
+  │  POINTS OVER 9.5
+  │
+  │  Confidence:  39.3%
+  │  Edge:        -0.3%
+  │  Recent Avg:  9.2  (σ=4.6, n=39)
+  │  Line Gap:    -0.3 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 9.2 < Line 9.5, 39.3% confidence, -0.3% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #49 ────────────────────────────────────────────────────────────
+  │  Duncan Robinson (DET)
+  │  POINTS UNDER 11.5
+  │
+  │  Confidence:  39.2%
+  │  Edge:        -2.2%
+  │  Recent Avg:  13.7  (σ=3.6, n=42)
+  │  Line Gap:    -2.2 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 13.7 > Line 11.5, 39.2% confidence, -2.2% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #50 ────────────────────────────────────────────────────────────
+  │  DeMar DeRozan (SAC)
+  │  POINTS UNDER 17.5
+  │
+  │  Confidence:  39.0%
+  │  Edge:        -0.3%
+  │  Recent Avg:  17.8  (σ=6.9, n=47)
+  │  Line Gap:    -0.3 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 17.8 > Line 17.5, 39.0% confidence, -0.3% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #51 ────────────────────────────────────────────────────────────
+  │  Domantas Sabonis (SAC)
+  │  POINTS OVER 15.5
+  │
+  │  Confidence:  38.5%
+  │  Edge:        -1.5%
+  │  Recent Avg:  14.0  (σ=9.4, n=16)
+  │  Line Gap:    -1.5 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 14.0 < Line 15.5, 38.5% confidence, -1.5% edge
+  │   • Structural risk: Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #52 ────────────────────────────────────────────────────────────
+  │  Saddiq Bey (NOP)
+  │  POINTS OVER 15.5
+  │
+  │  Confidence:  38.4%
+  │  Edge:        +5.9%
+  │  Recent Avg:  21.4  (σ=9.3, n=41)
+  │  Line Gap:    +5.9 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 21.4 > Line 15.5, 38.4% confidence, +5.9% edge
+  │   • Structural risk: Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #53 ────────────────────────────────────────────────────────────
+  │  James Harden (LAC)
+  │  POINTS OVER 25.5
+  │
+  │  Confidence:  38.2%
+  │  Edge:        +0.1%
+  │  Recent Avg:  25.6  (σ=8.0, n=42)
+  │  Line Gap:    +0.1 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 25.6 > Line 25.5, 38.2% confidence, +0.1% edge
+  │   • Structural risk: Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #54 ────────────────────────────────────────────────────────────
+  │  Royce O'Neale (PHX)
+  │  POINTS UNDER 9.5
+  │
+  │  Confidence:  38.1%
+  │  Edge:        -0.1%
+  │  Recent Avg:  9.6  (σ=3.1, n=46)
+  │  Line Gap:    -0.1 pts
+  │  Context:     Matchup: +3.6%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 9.6 > Line 9.5, 38.1% confidence, -0.1% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #55 ────────────────────────────────────────────────────────────
+  │  Mark Williams (PHX)
+  │  POINTS UNDER 10.5
+  │
+  │  Confidence:  37.9%
+  │  Edge:        -0.2%
+  │  Recent Avg:  10.7  (σ=5.7, n=41)
+  │  Line Gap:    -0.2 pts
+  │  Context:     Matchup: +3.6%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 10.7 > Line 10.5, 37.9% confidence, -0.2% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #56 ────────────────────────────────────────────────────────────
+  │  Ivica Zubac (LAC)
+  │  POINTS OVER 14.5
+  │
+  │  Confidence:  37.7%
+  │  Edge:        -0.6%
+  │  Recent Avg:  13.9  (σ=4.2, n=39)
+  │  Line Gap:    -0.6 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 13.9 < Line 14.5, 37.7% confidence, -0.6% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #57 ────────────────────────────────────────────────────────────
+  │  Karl-Anthony Towns (NYK)
+  │  POINTS OVER 20.5
+  │
+  │  Confidence:  37.2%
+  │  Edge:        -3.4%
+  │  Recent Avg:  17.1  (σ=6.7, n=42)
+  │  Line Gap:    -3.4 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 17.1 < Line 20.5, 37.2% confidence, -3.4% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #58 ────────────────────────────────────────────────────────────
+  │  Jalen Green (PHX)
+  │  POINTS UNDER 12.5
+  │
+  │  Confidence:  37.2%
+  │  Edge:        +0.3%
+  │  Recent Avg:  12.2  (σ=18.4, n=4)
+  │  Line Gap:    +0.3 pts
+  │  Context:     Matchup: +3.6%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 12.2 < Line 12.5, 37.2% confidence, +0.3% edge
+  │   • Structural risk: High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #59 ────────────────────────────────────────────────────────────
+  │  Mikal Bridges (NYK)
+  │  POINTS UNDER 14.5
+  │
+  │  Confidence:  37.1%
+  │  Edge:        +1.3%
+  │  Recent Avg:  13.2  (σ=5.9, n=45)
+  │  Line Gap:    +1.3 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 13.2 < Line 14.5, 37.1% confidence, +1.3% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #60 ────────────────────────────────────────────────────────────
+  │  Zion Williamson (NOP)
+  │  POINTS UNDER 20.5
+  │
+  │  Confidence:  37.0%
+  │  Edge:        +0.2%
+  │  Recent Avg:  20.3  (σ=10.2, n=32)
+  │  Line Gap:    +0.2 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 20.3 < Line 20.5, 37.0% confidence, +0.2% edge
+  │   • Structural risk: High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #61 ────────────────────────────────────────────────────────────
+  │  Russell Westbrook (SAC)
+  │  POINTS OVER 15.5
+  │
+  │  Confidence:  37.0%
+  │  Edge:        +3.0%
+  │  Recent Avg:  18.5  (σ=6.6, n=47)
+  │  Line Gap:    +3.0 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 18.5 > Line 15.5, 37.0% confidence, +3.0% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #62 ────────────────────────────────────────────────────────────
+  │  Kris Dunn (LAC)
+  │  POINTS UNDER 6.5
+  │
+  │  Confidence:  36.9%
+  │  Edge:        -0.0%
+  │  Recent Avg:  6.5  (σ=6.6, n=45)
+  │  Line Gap:    -0.0 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 6.5 > Line 6.5, 36.9% confidence, -0.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #63 ────────────────────────────────────────────────────────────
+  │  Jaden Ivey (DET)
+  │  POINTS OVER 8.5
+  │
+  │  Confidence:  36.9%
+  │  Edge:        -0.3%
+  │  Recent Avg:  8.2  (σ=3.0, n=29)
+  │  Line Gap:    -0.3 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 8.2 < Line 8.5, 36.9% confidence, -0.3% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #64 ────────────────────────────────────────────────────────────
+  │  Brook Lopez (LAC)
+  │  POINTS OVER 5.5
+  │
+  │  Confidence:  36.8%
+  │  Edge:        -0.9%
+  │  Recent Avg:  4.6  (σ=4.6, n=38)
+  │  Line Gap:    -0.9 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 4.6 < Line 5.5, 36.8% confidence, -0.9% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #65 ────────────────────────────────────────────────────────────
+  │  Collin Gillespie (PHX)
+  │  POINTS OVER 13.5
+  │
+  │  Confidence:  36.4%
+  │  Edge:        +0.6%
+  │  Recent Avg:  14.1  (σ=5.7, n=46)
+  │  Line Gap:    +0.6 pts
+  │  Context:     Matchup: +3.6%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 14.1 > Line 13.5, 36.4% confidence, +0.6% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #66 ────────────────────────────────────────────────────────────
+  │  Jordan Goodwin (PHX)
+  │  POINTS OVER 8.5
+  │
+  │  Confidence:  36.4%
+  │  Edge:        -1.4%
+  │  Recent Avg:  7.1  (σ=7.7, n=43)
+  │  Line Gap:    -1.4 pts
+  │  Context:     Matchup: +3.6%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 7.1 < Line 8.5, 36.4% confidence, -1.4% edge
+  │   • Structural risk: Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #67 ────────────────────────────────────────────────────────────
+  │  Herbert Jones (NOP)
+  │  POINTS UNDER 7.5
+  │
+  │  Confidence:  35.9%
+  │  Edge:        +1.2%
+  │  Recent Avg:  6.2  (σ=6.1, n=25)
+  │  Line Gap:    +1.2 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 6.2 < Line 7.5, 35.9% confidence, +1.2% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #68 ────────────────────────────────────────────────────────────
+  │  Kawhi Leonard (LAC)
+  │  POINTS UNDER 25.5
+  │
+  │  Confidence:  35.9%
+  │  Edge:        -3.6%
+  │  Recent Avg:  29.1  (σ=6.3, n=32)
+  │  Line Gap:    -3.6 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 29.1 > Line 25.5, 35.9% confidence, -3.6% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #69 ────────────────────────────────────────────────────────────
+  │  Jamal Murray (DEN)
+  │  POINTS OVER 26.5
+  │
+  │  Confidence:  35.8%
+  │  Edge:        +4.0%
+  │  Recent Avg:  30.5  (σ=10.1, n=41)
+  │  Line Gap:    +4.0 pts
+  │  Context:     Matchup: +6.3%, ✅ vs Weak D (#27)
+  │  Failure Lens:
+  │   • Math says: Recent Avg 30.5 > Line 26.5, 35.8% confidence, +4.0% edge
+  │   • Structural risk: Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #70 ────────────────────────────────────────────────────────────
+  │  Precious Achiuwa (SAC)
+  │  POINTS UNDER 5.5
+  │
+  │  Confidence:  35.3%
+  │  Edge:        -1.2%
+  │  Recent Avg:  6.7  (σ=5.8, n=40)
+  │  Line Gap:    -1.2 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 6.7 > Line 5.5, 35.3% confidence, -1.2% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #71 ────────────────────────────────────────────────────────────
+  │  Zach LaVine (SAC)
+  │  POINTS UNDER 16.5
+  │
+  │  Confidence:  34.9%
+  │  Edge:        -0.3%
+  │  Recent Avg:  16.8  (σ=4.4, n=34)
+  │  Line Gap:    -0.3 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 16.8 > Line 16.5, 34.9% confidence, -0.3% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #72 ────────────────────────────────────────────────────────────
+  │  Derik Queen (NOP)
+  │  POINTS UNDER 9.5
+  │
+  │  Confidence:  34.3%
+  │  Edge:        +0.4%
+  │  Recent Avg:  9.1  (σ=5.9, n=47)
+  │  Line Gap:    +0.4 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 9.1 < Line 9.5, 34.3% confidence, +0.4% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #73 ────────────────────────────────────────────────────────────
+  │  Drake Powell (BKN)
+  │  POINTS OVER 6.5
+  │
+  │  Confidence:  33.8%
+  │  Edge:        -0.2%
+  │  Recent Avg:  6.3  (σ=4.2, n=33)
+  │  Line Gap:    -0.2 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 6.3 < Line 6.5, 33.8% confidence, -0.2% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #74 ────────────────────────────────────────────────────────────
+  │  OG Anunoby (NYK)
+  │  POINTS OVER 16.5
+  │
+  │  Confidence:  33.7%
+  │  Edge:        +0.3%
+  │  Recent Avg:  16.8  (σ=9.6, n=35)
+  │  Line Gap:    +0.3 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 16.8 > Line 16.5, 33.7% confidence, +0.3% edge
+  │   • Structural risk: Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #75 ────────────────────────────────────────────────────────────
+  │  Dillon Brooks (PHX)
+  │  POINTS OVER 21.5
+  │
+  │  Confidence:  33.4%
+  │  Edge:        -4.9%
+  │  Recent Avg:  16.6  (σ=11.4, n=40)
+  │  Line Gap:    -4.9 pts
+  │  Context:     Matchup: +3.6%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 16.6 < Line 21.5, 33.4% confidence, -4.9% edge
+  │   • Structural risk: Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #76 ────────────────────────────────────────────────────────────
+  │  Michael Porter (BKN)
+  │  POINTS UNDER 22.5
+  │
+  │  Confidence:  33.3%
+  │  Edge:        +1.6%
+  │  Recent Avg:  20.9  (σ=10.2, n=36)
+  │  Line Gap:    +1.6 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 20.9 < Line 22.5, 33.3% confidence, +1.6% edge
+  │   • Structural risk: High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #77 ────────────────────────────────────────────────────────────
+  │  Chet Holmgren (OKC)
+  │  POINTS OVER 19.5
+  │
+  │  Confidence:  30.8%
+  │  Edge:        -1.5%
+  │  Recent Avg:  18.0  (σ=8.8, n=41)
+  │  Line Gap:    -1.5 pts
+  │  Context:     Matchup: +4.1%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 18.0 < Line 19.5, 30.8% confidence, -1.5% edge
+  │   • Structural risk: Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #78 ────────────────────────────────────────────────────────────
+  │  Mitchell Robinson (NYK)
+  │  POINTS OVER 5.5
+  │
+  │  Confidence:  29.7%
+  │  Edge:        +1.0%
+  │  Recent Avg:  6.5  (σ=4.4, n=32)
+  │  Line Gap:    +1.0 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 6.5 > Line 5.5, 29.7% confidence, +1.0% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #79 ────────────────────────────────────────────────────────────
+  │  Grayson Allen (PHX)
+  │  POINTS OVER 18.5
+  │
+  │  Confidence:  29.1%
+  │  Edge:        -1.2%
+  │  Recent Avg:  17.3  (σ=3.7, n=29)
+  │  Line Gap:    -1.2 pts
+  │  Context:     Matchup: +3.6%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 17.3 < Line 18.5, 29.1% confidence, -1.2% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #80 ────────────────────────────────────────────────────────────
+  │  Nic Claxton (BKN)
+  │  POINTS UNDER 10.5
+  │
+  │  Confidence:  29.0%
+  │  Edge:        +0.2%
+  │  Recent Avg:  10.3  (σ=6.1, n=42)
+  │  Line Gap:    +0.2 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 10.3 < Line 10.5, 29.0% confidence, +0.2% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #81 ────────────────────────────────────────────────────────────
+  │  Shai Gilgeous-Alexander (OKC)
+  │  POINTS OVER 33.5
+  │
+  │  Confidence:  28.2%
+  │  Edge:        +2.9%
+  │  Recent Avg:  36.4  (σ=10.2, n=45)
+  │  Line Gap:    +2.9 pts
+  │  Context:     Matchup: +4.1%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 36.4 > Line 33.5, 28.2% confidence, +2.9% edge
+  │   • Structural risk: Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #82 ────────────────────────────────────────────────────────────
+  │  Luguentz Dort (OKC)
+  │  POINTS OVER 10.5
+  │
+  │  Confidence:  28.1%
+  │  Edge:        +0.3%
+  │  Recent Avg:  10.8  (σ=9.7, n=37)
+  │  Line Gap:    +0.3 pts
+  │  Context:     Matchup: +4.1%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 10.8 > Line 10.5, 28.1% confidence, +0.3% edge
+  │   • Structural risk: Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #83 ────────────────────────────────────────────────────────────
+  │  Jalen Pickett (DEN)
+  │  POINTS OVER 8.5
+  │
+  │  Confidence:  24.4%
+  │  Edge:        +0.3%
+  │  Recent Avg:  8.8  (σ=5.4, n=31)
+  │  Line Gap:    +0.3 pts
+  │  Context:     Matchup: +6.3%, ✅ vs Weak D (#27)
+  │  Failure Lens:
+  │   • Math says: Recent Avg 8.8 > Line 8.5, 24.4% confidence, +0.3% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #84 ────────────────────────────────────────────────────────────
+  │  Oso Ighodaro (PHX)
+  │  POINTS OVER 7.5
+  │
+  │  Confidence:  24.3%
+  │  Edge:        -0.8%
+  │  Recent Avg:  6.7  (σ=4.6, n=46)
+  │  Line Gap:    -0.8 pts
+  │  Context:     Matchup: +3.6%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 6.7 < Line 7.5, 24.3% confidence, -0.8% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #85 ────────────────────────────────────────────────────────────
+  │  Lauri Markkanen (UTA)
+  │  POINTS UNDER 22.5
+  │
+  │  Confidence:  23.6%
+  │  Edge:        -5.6%
+  │  Recent Avg:  28.1  (σ=5.2, n=33)
+  │  Line Gap:    -5.6 pts
+  │  Context:     Matchup: -3.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 28.1 > Line 22.5, 23.6% confidence, -5.6% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #86 ────────────────────────────────────────────────────────────
+  │  Peyton Watson (DEN)
+  │  POINTS OVER 19.5
+  │
+  │  Confidence:  22.0%
+  │  Edge:        +3.5%
+  │  Recent Avg:  23.0  (σ=9.3, n=43)
+  │  Line Gap:    +3.5 pts
+  │  Context:     Matchup: +6.3%, ✅ vs Weak D (#27)
+  │  Failure Lens:
+  │   • Math says: Recent Avg 23.0 > Line 19.5, 22.0% confidence, +3.5% edge
+  │   • Structural risk: Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #87 ────────────────────────────────────────────────────────────
+  │  Kyle Filipowski (UTA)
+  │  POINTS OVER 13.5
+  │
+  │  Confidence:  21.6%
+  │  Edge:        -4.0%
+  │  Recent Avg:  9.5  (σ=4.9, n=45)
+  │  Line Gap:    -4.0 pts
+  │  Context:     Matchup: -3.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 9.5 < Line 13.5, 21.6% confidence, -4.0% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #88 ────────────────────────────────────────────────────────────
+  │  Jalen Green (PHX)
+  │  POINTS OVER 12.5
+  │
+  │  Confidence:  20.3%
+  │  Edge:        -0.3%
+  │  Recent Avg:  12.2  (σ=18.4, n=4)
+  │  Line Gap:    -0.3 pts
+  │  Context:     Matchup: +3.6%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 12.2 < Line 12.5, 20.3% confidence, -0.3% edge
+  │   • Structural risk: Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #89 ────────────────────────────────────────────────────────────
+  │  Jonas Valančiūnas (DEN)
+  │  POINTS OVER 12.5
+  │
+  │  Confidence:  18.6%
+  │  Edge:        -2.8%
+  │  Recent Avg:  9.7  (σ=8.0, n=34)
+  │  Line Gap:    -2.8 pts
+  │  Context:     Matchup: +6.3%, ✅ vs Weak D (#27)
+  │  Failure Lens:
+  │   • Math says: Recent Avg 9.7 < Line 12.5, 18.6% confidence, -2.8% edge
+  │   • Structural risk: Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #90 ────────────────────────────────────────────────────────────
+  │  Isaiah Collier (UTA)
+  │  POINTS OVER 13.5
+  │
+  │  Confidence:  18.4%
+  │  Edge:        -2.3%
+  │  Recent Avg:  11.2  (σ=5.6, n=38)
+  │  Line Gap:    -2.3 pts
+  │  Context:     Matchup: -3.0%
+  │  Failure Lens:
+  │   • Math says: Recent Avg 11.2 < Line 13.5, 18.4% confidence, -2.3% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #91 ────────────────────────────────────────────────────────────
+  │  John Collins (LAC)
+  │  POINTS OVER 24.5
+  │
+  │  Confidence:  8.0%
+  │  Edge:        -9.8%
+  │  Recent Avg:  14.7  (σ=8.4, n=42)
+  │  Line Gap:    -9.8 pts
+  │  Failure Lens:
+  │   • Math says: Recent Avg 14.7 < Line 24.5, 8.0% confidence, -9.8% edge
+  │   • Structural risk: Over bias / market inflation, High variance (σ is elevated), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+
+════════════════════════════════════════════════════════════════════════════════
+  ⏭️ SKIP (4)
+  Blocked by governance gates or data quality issues
+════════════════════════════════════════════════════════════════════════════════
+
+  ┌─ #1 ────────────────────────────────────────────────────────────
+  │  Jeremiah Fears ()
+  │  POINTS UNDER 14.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Failure Lens:
+  │   • Math says: Model threshold passed
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #2 ────────────────────────────────────────────────────────────
+  │  Nolan Traore ()
+  │  POINTS UNDER 7.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Failure Lens:
+  │   • Math says: Model threshold passed
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #3 ────────────────────────────────────────────────────────────
+  │  Nolan Traore ()
+  │  POINTS UNDER 7.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Failure Lens:
+  │   • Math says: Model threshold passed
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #4 ────────────────────────────────────────────────────────────
+  │  Day'Ron Sharpe ()
+  │  POINTS UNDER 6.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Failure Lens:
+  │   • Math says: Model threshold passed
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  METHODOLOGY                                                                 │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  • Confidence = P(hit) via Normal CDF on recent performance data             │
+│  • Edge = (Confidence - Breakeven%) / Breakeven% × 100                       │
+│  • PLAY threshold: 75%+ confidence with positive edge                        │
+│  • LEAN threshold: 65-74% confidence with positive edge                      │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  DISCLAIMER                                                                  │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  This analysis is for informational purposes only. Past performance          │
+│  does not guarantee future results. Always gamble responsibly.               │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+════════════════════════════════════════════════════════════════════════════════
+  END OF REPORT
+════════════════════════════════════════════════════════════════════════════════

@@ -1,0 +1,940 @@
+{
+  "plays": [
+    {
+      "player": "Kevin Durant",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "points",
+      "line": 25.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Kevin Durant",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "points",
+      "line": 25.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Kevin Durant",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "pra",
+      "line": 35.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Kevin Durant",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "pra",
+      "line": 35.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Kevin Durant",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "rebounds",
+      "line": 5.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Kevin Durant",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "rebounds",
+      "line": 5.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Kevin Durant",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "assists",
+      "line": 4.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Kevin Durant",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "assists",
+      "line": 4.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Julius Randle",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "points",
+      "line": 23.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Julius Randle",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "points",
+      "line": 23.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Julius Randle",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "pra",
+      "line": 35.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Julius Randle",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "pra",
+      "line": 35.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Julius Randle",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "rebounds",
+      "line": 7.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Julius Randle",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "rebounds",
+      "line": 7.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Julius Randle",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "assists",
+      "line": 5.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Julius Randle",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "assists",
+      "line": 5.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "points",
+      "line": 14.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "points",
+      "line": 14.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "pra",
+      "line": 23.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "pra",
+      "line": 23.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "rebounds",
+      "line": 4.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "rebounds",
+      "line": 4.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "assists",
+      "line": 3.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "assists",
+      "line": 3.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "points",
+      "line": 15.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "points",
+      "line": 15.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "pra",
+      "line": 23.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "pra",
+      "line": 23.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "rebounds",
+      "line": 4.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "rebounds",
+      "line": 4.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "assists",
+      "line": 2.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "assists",
+      "line": 2.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Reed Sheppard",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "points",
+      "line": 9.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Reed Sheppard",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "points",
+      "line": 9.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Reed Sheppard",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "pra",
+      "line": 14.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Reed Sheppard",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "pra",
+      "line": 14.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Reed Sheppard",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "rebounds",
+      "line": 1.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Reed Sheppard",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "rebounds",
+      "line": 1.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Reed Sheppard",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "assists",
+      "line": 2.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Reed Sheppard",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "assists",
+      "line": 2.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Amen Thompson",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "points",
+      "line": 17.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Amen Thompson",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "points",
+      "line": 17.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Amen Thompson",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "pra",
+      "line": 30.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Amen Thompson",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "pra",
+      "line": 30.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Amen Thompson",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "rebounds",
+      "line": 7.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Amen Thompson",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "rebounds",
+      "line": 7.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Amen Thompson",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "assists",
+      "line": 5.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Amen Thompson",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "assists",
+      "line": 5.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Tari Eason",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "points",
+      "line": 10.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Tari Eason",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "points",
+      "line": 10.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Tari Eason",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "pra",
+      "line": 18.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Tari Eason",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "pra",
+      "line": 18.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Tari Eason",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "rebounds",
+      "line": 6.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Tari Eason",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "rebounds",
+      "line": 6.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Tari Eason",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "assists",
+      "line": 1.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Tari Eason",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "assists",
+      "line": 1.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Alperen Sengun",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "points",
+      "line": 20.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Alperen Sengun",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "points",
+      "line": 20.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Alperen Sengun",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "pra",
+      "line": 36.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Alperen Sengun",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "pra",
+      "line": 36.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Alperen Sengun",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "rebounds",
+      "line": 8.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Alperen Sengun",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "rebounds",
+      "line": 8.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Alperen Sengun",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "assists",
+      "line": 6.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Alperen Sengun",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "assists",
+      "line": 6.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Rudy Gobert",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "points",
+      "line": 10.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Rudy Gobert",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "points",
+      "line": 10.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Rudy Gobert",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "pra",
+      "line": 23.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Rudy Gobert",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "pra",
+      "line": 23.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Rudy Gobert",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "rebounds",
+      "line": 11.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Rudy Gobert",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "rebounds",
+      "line": 11.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Rudy Gobert",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "assists",
+      "line": 1.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Rudy Gobert",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "assists",
+      "line": 1.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "points",
+      "line": 14.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "points",
+      "line": 14.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "pra",
+      "line": 23.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "pra",
+      "line": 23.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "rebounds",
+      "line": 6.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "rebounds",
+      "line": 6.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "assists",
+      "line": 1.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "team": "HOU",
+      "opponent": "MIN",
+      "stat": "assists",
+      "line": 1.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Mike Conley",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "points",
+      "line": 6.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Mike Conley",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "points",
+      "line": 6.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Mike Conley",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "pra",
+      "line": 12.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Mike Conley",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "pra",
+      "line": 12.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Mike Conley",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "rebounds",
+      "line": 2.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Mike Conley",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "rebounds",
+      "line": 2.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Mike Conley",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "assists",
+      "line": 3.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Mike Conley",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "assists",
+      "line": 3.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Naz Reid",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "points",
+      "line": 14.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Naz Reid",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "points",
+      "line": 14.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Naz Reid",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "pra",
+      "line": 22.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Naz Reid",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "pra",
+      "line": 22.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Naz Reid",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "rebounds",
+      "line": 5.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Naz Reid",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "rebounds",
+      "line": 5.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Naz Reid",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "assists",
+      "line": 2.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Naz Reid",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "assists",
+      "line": 2.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Bones Hyland",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "points",
+      "line": 11.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Bones Hyland",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "points",
+      "line": 11.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Bones Hyland",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "pra",
+      "line": 17.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Bones Hyland",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "pra",
+      "line": 17.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Bones Hyland",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "rebounds",
+      "line": 1.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Bones Hyland",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "rebounds",
+      "line": 1.5,
+      "league": "NBA",
+      "direction": "lower"
+    },
+    {
+      "player": "Bones Hyland",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "assists",
+      "line": 3.5,
+      "league": "NBA",
+      "direction": "higher"
+    },
+    {
+      "player": "Bones Hyland",
+      "team": "MIN",
+      "opponent": "HOU",
+      "stat": "assists",
+      "line": 3.5,
+      "league": "NBA",
+      "direction": "lower"
+    }
+  ]
+}

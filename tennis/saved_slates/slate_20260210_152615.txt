@@ -1,0 +1,29 @@
+[WL] Run Match Winner Pipeline (use latest saved slate) 
+
+  --- ODDS API DFS PROPS (no-scrape; coverage varies) ---
+  [O] Ingest + Analyze DFS Tennis Props via Odds API
+
+  [0] Back to Main Menu
+
+  Select option (or paste props): o
+
+======================================================================
+TENNIS ODDS API (NO SCRAPE)
+======================================================================
+Ingests tennis lines from Odds API. Tries DFS player props first,
+then falls back to match-level markets (total games, spreads).
+Tour [ATP/WTA] (default WTA): ATP
+Surface [Hard/Clay/Grass/Indoor] (default Hard): 
+Max events (blank = default): 
+
+  DFS props check failed: Missing tennis Odds API sport_key mapping. Set ODDS_API_TENNIS_ATP_SPORT_KEY / ODDS_API_TENNIS_WTA_SPORT_KEY in .env
+
+  Player props not available -- fetching match-level markets (totals/spreads)...
+
+  Match markets also failed: Missing tennis Odds API sport_key mapping. Set ODDS_API_TENNIS_ATP_SPORT_KEY / ODDS_API_TENNIS_WTA_SPORT_KEY in .env
+
+Press Enter to continue...
+
+
+
+

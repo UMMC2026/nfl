@@ -1,0 +1,76 @@
+
+================================================================================
+RISK-FIRST ANALYSIS REPORT (Math-Only)
+================================================================================
+
+✅ QUALIFIED PICKS (2)
+
+================================================================================
+
+#1 | Mark Williams - REBOUNDS LOWER 8.5
+Edge: +1.7 (+1.10 sd) ELITE | Confidence: 72.1%
+Stats: μ=6.8, σ=1.5
+
+ANALYSIS:
+Model projects 6.8 rebounds (line: 8.5) | Line is 1.7 ABOVE projection (25% gap) | P(lower 8.5) = 72.1% | z = +1.10σ
+Raw 85% → Final 79% (−6% penalty) | Edge: +34.9% | Kelly stake: 17.4% | Decision: [STRONG]
+
+INFO: PHX vs UNK; role=BIG; minutes=LOW VAR; 📊 Multi-window projection: 6.8 | 📊 Hybrid: SLAM (edge: 31.7%)
+
+CONTEXT: [Based on 10 games | Historical hit rate: 80% | Moderate variance (CV=23%)]
+
+--------------------------------------------------------------------------------
+
+#2 | Collin Gillespie - 3PM HIGHER 2.5
+Edge: +1.2 (+1.22 sd) ELITE | Confidence: 67.7%
+Stats: μ=3.8, σ=1.0
+
+ANALYSIS:
+Model projects 3.8 3pm (line: 2.5) | Line is 1.2 BELOW projection (33% gap) | P(higher 2.5) = 67.7% | z = -1.22σ
+Raw 93% → Final 83% (−10% penalty) | Edge: +42.7% | Kelly stake: 21.3% | Decision: [SLAM]
+
+INFO: PHX vs UNK; role=SECONDARY_GUARD; minutes=LOW VAR; 📊 Multi-window projection: 3.8 | 📊 Hybrid: SLAM (edge: 38.2%)
+
+CONTEXT: [Based on 10 games | Historical hit rate: 90% | Moderate variance (CV=27%)]
+
+--------------------------------------------------------------------------------
+
+
+❌ BLOCKED PICKS (Sample of 10)
+
+================================================================================
+
+[BLOCK] Draymond Green TURNOVERS: Role gate - historical usage doesn't support this stat
+INFO: GSW vs PHI; role=ATHLETIC_WING; minutes=LOW VAR; 📊 Multi-window projection: 2.4
+
+[BLOCK] Moses Moody TURNOVERS: Bench gate - starter minutes not guaranteed
+INFO: GSW vs PHI; minutes=LOW VAR; 📊 Multi-window projection: 0.7
+
+[BLOCK] Gui Santos TURNOVERS: Bench gate - starter minutes not guaranteed
+INFO: GSW vs PHI; minutes=MED VAR; 📊 Multi-window projection: 0.9
+
+[BLOCK] Quentin Grimes TURNOVERS: Role gate - historical usage doesn't support this stat
+INFO: PHI vs UNK; role=ATHLETIC_WING; minutes=MED VAR; 📊 Multi-window projection: 0.8
+
+[BLOCK] Buddy Hield TURNOVERS: Role gate - historical usage doesn't support this stat
+INFO: GSW vs PHI; role=SCORER; minutes=HIGH VAR; 📊 Multi-window projection: 0.7 | 📊 Hybrid: LEAN (edge: 3.7%)
+
+[BLOCK] Quinten Post TURNOVERS: Bench gate - starter minutes not guaranteed
+INFO: GSW vs PHI; minutes=HIGH VAR; 📊 Multi-window projection: 0.6
+
+[BLOCK] Adem Bona TURNOVERS: Role gate - historical usage doesn't support this stat
+INFO: PHI vs UNK; role=ROLE_PLAYER; minutes=HIGH VAR; 📊 Multi-window projection: 0.8 | 📊 Hybrid: LEAN (edge: 5.7%)
+
+[BLOCK] Jared McCain TURNOVERS: Role gate - historical usage doesn't support this stat
+INFO: PHI vs UNK; role=ROLE_PLAYER; minutes=HIGH VAR; 📊 Multi-window projection: 1.1 | 📊 Hybrid: STRONG (edge: 10.0%)
+
+[BLOCK] Will Richard TURNOVERS: Bench gate - starter minutes not guaranteed
+INFO: GSW vs PHI; minutes=MED VAR; 📊 Multi-window projection: 0.9 | 📊 Hybrid: STRONG (edge: 12.9%)
+
+[BLOCK] Will Richard TURNOVERS: Bench gate - starter minutes not guaranteed
+INFO: GSW vs PHI; minutes=MED VAR; 📊 Multi-window projection: 0.9
+
+================================================================================
+SUMMARY: 2 PLAY | 74 BLOCKED
+Commentary: Math-only (no LLM speculation)
+================================================================================

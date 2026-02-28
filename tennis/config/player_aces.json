@@ -1,0 +1,40 @@
+{
+  "engine": "PLAYER_ACES_ENGINE",
+  "market": "PLAYER_ACES",
+  "version": "1.0.0",
+  
+  "edge_identity": ["player", "opponent", "surface", "aces_line"],
+  
+  "block_rules": {
+    "avg_aces_lt_60pct_of_line": true,
+    "wta_clay_and_line_gt_6_5": true,
+    "opponent_return_rank_top15": true,
+    "indoor_outdoor_unknown": true,
+    "non_elite_server_and_line_gte_15_5": true
+  },
+  
+  "features": [
+    "aces_per_service_game",
+    "opponent_return_pts_won",
+    "surface_ace_multiplier",
+    "expected_service_games"
+  ],
+  
+  "model": {
+    "type": "structural",
+    "formula": "exp_aces = service_games * aces_per_service_game * surface_mult * opp_return_adj; p_over = sigmoid(exp_aces - line)"
+  },
+  
+  "elite_server_threshold": {
+    "ATP": 0.85,
+    "WTA": 0.65
+  },
+  
+  "tiers": {
+    "STRONG": {"min": 0.67},
+    "LEAN": {"min": 0.59},
+    "NO_PLAY": {"max": 0.589}
+  },
+  
+  "max_plays": 2
+}

@@ -1,0 +1,1472 @@
+{
+  "picks": [
+    {
+      "edge_id": "cbb_IOWA_Tavion_Banks_3pm_0p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Tavion Banks",
+      "team": "IOWA",
+      "opponent": "UNK",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "probability": 0.2302,
+      "player_mean": 0.5,
+      "mean_source": "FALLBACK",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 0.5,
+          "mean_source": "FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "poisson": {
+          "raw_prob": 0.393469,
+          "direction": "higher",
+          "line": 0.5
+        },
+        "adjustment": {
+          "multiplier": 0.9,
+          "adjusted_prob": 0.354122
+        },
+        "caps": {
+          "stat_cap": 0.65,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.354122,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": true,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=20.6",
+        "games: GP=54",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=20.6"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=54"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 0.65,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.00<0.45",
+        "CV_PENALTY:65%",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.0,
+          "z_season": 0.0,
+          "z_threshold": 0.45,
+          "l10_mu": 0.5,
+          "season_mu": 0.5
+        },
+        "cv": {
+          "cv_ratio": 4.0,
+          "cv_threshold": 0.85,
+          "player_role": "SPECIALIST"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.3541,
+      "skip_reason": "BINARY_INSUFFICIENT_GAMES:0<10"
+    },
+    {
+      "edge_id": "cbb_IOWA_Bennett_Stirtz_points_18p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Bennett Stirtz",
+      "team": "IOWA",
+      "opponent": "UNK",
+      "stat": "points",
+      "line": 18.5,
+      "direction": "higher",
+      "probability": 0.5239,
+      "player_mean": 18.93,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 18.9273,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.523876,
+          "direction": "higher",
+          "line": 18.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.523876
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.523876,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=38.1",
+        "games: GP=55",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "lower",
+        "probability": 0.4761,
+        "kept": "higher",
+        "kept_probability": 0.5239
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=38.1"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=55"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.21<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.215,
+          "z_season": 0.215,
+          "z_threshold": 0.55,
+          "l10_mu": 18.93,
+          "season_mu": 18.93
+        },
+        "cv": {
+          "cv_ratio": 0.106,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5239,
+      "skip_reason": "SDG_FAIL: FAIL_L10_Z:0.21<0.55, PHASE_FAIL:CONFERENCE_PLAY"
+    },
+    {
+      "edge_id": "cbb_ORE_Kwame_Evans_pra_24p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Kwame Evans",
+      "team": "ORE",
+      "opponent": "IOWA",
+      "stat": "pra",
+      "line": 24.5,
+      "direction": "higher",
+      "probability": 0.008,
+      "player_mean": 14.57,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 14.5667,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.008008,
+          "direction": "higher",
+          "line": 24.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.008008
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.008008,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=21.7",
+        "games: GP=90",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=21.7"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=90"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "skip_reason": "BLOCKED_COMPOSITE:PRA"
+    },
+    {
+      "edge_id": "cbb_IOWA_Tavion_Banks_points_12p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Tavion Banks",
+      "team": "IOWA",
+      "opponent": "UNK",
+      "stat": "points",
+      "line": 12.5,
+      "direction": "higher",
+      "probability": 0.2523,
+      "player_mean": 10.44,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 10.4444,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.252324,
+          "direction": "higher",
+          "line": 12.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.252324
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.252324,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=20.6",
+        "games: GP=54",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=20.6"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=54"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 1.03,
+          "z_season": 1.03,
+          "z_threshold": 0.55,
+          "l10_mu": 10.44,
+          "season_mu": 10.44,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.192,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.2523,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 10.44,
+      "projected_sigma": 2.0,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_ORE_Kwame_Evans_points_15p0_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Kwame Evans",
+      "team": "ORE",
+      "opponent": "IOWA",
+      "stat": "points",
+      "line": 15.0,
+      "direction": "higher",
+      "probability": 0.0092,
+      "player_mean": 8.1,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 8.1,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.009174,
+          "direction": "higher",
+          "line": 15.0
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.009174
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.009174,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=21.7",
+        "games: GP=90",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=21.7"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=90"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 3.45,
+          "z_season": 3.45,
+          "z_threshold": 0.55,
+          "l10_mu": 8.1,
+          "season_mu": 8.1,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.247,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.0092,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 8.1,
+      "projected_sigma": 2.0,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_IOWA_Tavion_Banks_assists_1p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Tavion Banks",
+      "team": "IOWA",
+      "opponent": "UNK",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "probability": 0.1884,
+      "player_mean": 1.11,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 1.1111,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.305037,
+          "direction": "higher",
+          "line": 1.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.289785
+        },
+        "caps": {
+          "stat_cap": 0.7,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.289785,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": true,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=20.6",
+        "games: GP=54",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=20.6"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=54"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 0.65,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.19<0.55",
+        "CV_PENALTY:65%",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.195,
+          "z_season": 0.195,
+          "z_threshold": 0.55,
+          "l10_mu": 1.11,
+          "season_mu": 1.11
+        },
+        "cv": {
+          "cv_ratio": 1.802,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.2898,
+      "skip_reason": "SDG_FAIL: FAIL_L10_Z:0.19<0.55, CV_PENALTY:65%, PHASE_FAIL:CONFERENCE_PLAY"
+    },
+    {
+      "edge_id": "cbb_ORE_Kwame_Evans_rebounds_7p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Kwame Evans",
+      "team": "ORE",
+      "opponent": "IOWA",
+      "stat": "rebounds",
+      "line": 7.5,
+      "direction": "higher",
+      "probability": 0.1645,
+      "player_mean": 5.31,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 5.3111,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.167818,
+          "direction": "higher",
+          "line": 7.5
+        },
+        "adjustment": {
+          "multiplier": 0.98,
+          "adjusted_prob": 0.164462
+        },
+        "caps": {
+          "stat_cap": 0.72,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.164462,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=21.7",
+        "games: GP=90",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=21.7"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=90"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 1.095,
+          "z_season": 1.095,
+          "z_threshold": 0.55,
+          "l10_mu": 5.31,
+          "season_mu": 5.31,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.377,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.1645,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 5.31,
+      "projected_sigma": 2.0,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_IOWA_Tavion_Banks_pra_19p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Tavion Banks",
+      "team": "IOWA",
+      "opponent": "UNK",
+      "stat": "pra",
+      "line": 19.5,
+      "direction": "higher",
+      "probability": 0.2159,
+      "player_mean": 16.39,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 16.3889,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.215897,
+          "direction": "higher",
+          "line": 19.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.215897
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.215897,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=20.6",
+        "games: GP=54",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=20.6"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=54"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "skip_reason": "BLOCKED_COMPOSITE:PRA"
+    },
+    {
+      "edge_id": "cbb_IOWA_Bennett_Stirtz_pra_26p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Bennett Stirtz",
+      "team": "IOWA",
+      "opponent": "UNK",
+      "stat": "pra",
+      "line": 26.5,
+      "direction": "higher",
+      "probability": 0.599,
+      "player_mean": 27.98,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 27.9818,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.598986,
+          "direction": "higher",
+          "line": 26.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.598986
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.598986,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=38.1",
+        "games: GP=55",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "lower",
+        "probability": 0.401,
+        "kept": "higher",
+        "kept_probability": 0.599
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=38.1"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=55"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "skip_reason": "BLOCKED_COMPOSITE:PRA"
+    },
+    {
+      "edge_id": "cbb_IOWA_Bennett_Stirtz_3pm_1p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Bennett Stirtz",
+      "team": "IOWA",
+      "opponent": "UNK",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "probability": 0.3417,
+      "player_mean": 1.96,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 1.9636,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.584062,
+          "direction": "higher",
+          "line": 1.5
+        },
+        "adjustment": {
+          "multiplier": 0.9,
+          "adjusted_prob": 0.525656
+        },
+        "caps": {
+          "stat_cap": 0.65,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.525656,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": true,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=38.1",
+        "games: GP=55",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=38.1"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=55"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 0.65,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.23<0.45",
+        "CV_PENALTY:65%",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.23,
+          "z_season": 0.23,
+          "z_threshold": 0.45,
+          "l10_mu": 1.96,
+          "season_mu": 1.96
+        },
+        "cv": {
+          "cv_ratio": 1.02,
+          "cv_threshold": 0.85,
+          "player_role": "SPECIALIST"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5257,
+      "skip_reason": "BINARY_INSUFFICIENT_GAMES:0<10"
+    },
+    {
+      "edge_id": "cbb_ORE_Kwame_Evans_3pm_1p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Kwame Evans",
+      "team": "ORE",
+      "opponent": "IOWA",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "probability": 0.0735,
+      "player_mean": 0.61,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 0.6111,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.125573,
+          "direction": "higher",
+          "line": 1.5
+        },
+        "adjustment": {
+          "multiplier": 0.9,
+          "adjusted_prob": 0.113016
+        },
+        "caps": {
+          "stat_cap": 0.65,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.113016,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": true,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=21.7",
+        "games: GP=90",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=21.7"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=90"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 0.65,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.45<0.45",
+        "CV_PENALTY:65%",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.445,
+          "z_season": 0.445,
+          "z_threshold": 0.45,
+          "l10_mu": 0.61,
+          "season_mu": 0.61
+        },
+        "cv": {
+          "cv_ratio": 3.279,
+          "cv_threshold": 0.85,
+          "player_role": "SPECIALIST"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.113,
+      "skip_reason": "BINARY_INSUFFICIENT_GAMES:0<10"
+    },
+    {
+      "edge_id": "cbb_IOWA_Bennett_Stirtz_pts+ast_23p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Bennett Stirtz",
+      "team": "IOWA",
+      "opponent": "UNK",
+      "stat": "pts+ast",
+      "line": 23.5,
+      "direction": "higher",
+      "probability": 0.4765,
+      "player_mean": 23.5,
+      "mean_source": "FALLBACK",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 23.5,
+          "mean_source": "FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "poisson": {
+          "raw_prob": 0.486218,
+          "direction": "higher",
+          "line": 23.5
+        },
+        "adjustment": {
+          "multiplier": 0.98,
+          "adjusted_prob": 0.476494
+        },
+        "caps": {
+          "stat_cap": 0.72,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.476494,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=38.1",
+        "games: GP=55",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=38.1"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=55"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "skip_reason": "BLOCKED_COMPOSITE:PTS+AST"
+    },
+    {
+      "edge_id": "cbb_ORE_Kwame_Evans_pts+ast_16p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Kwame Evans",
+      "team": "ORE",
+      "opponent": "IOWA",
+      "stat": "pts+ast",
+      "line": 16.5,
+      "direction": "higher",
+      "probability": 0.4738,
+      "player_mean": 16.5,
+      "mean_source": "FALLBACK",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 16.5,
+          "mean_source": "FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "poisson": {
+          "raw_prob": 0.483519,
+          "direction": "higher",
+          "line": 16.5
+        },
+        "adjustment": {
+          "multiplier": 0.98,
+          "adjusted_prob": 0.473849
+        },
+        "caps": {
+          "stat_cap": 0.72,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.473849,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=21.7",
+        "games: GP=90",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=21.7"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=90"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "skip_reason": "BLOCKED_COMPOSITE:PTS+AST"
+    },
+    {
+      "edge_id": "cbb_IOWA_Tavion_Banks_pts+ast_13p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Tavion Banks",
+      "team": "IOWA",
+      "opponent": "UNK",
+      "stat": "pts+ast",
+      "line": 13.5,
+      "direction": "higher",
+      "probability": 0.4721,
+      "player_mean": 13.5,
+      "mean_source": "FALLBACK",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 13.5,
+          "mean_source": "FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "poisson": {
+          "raw_prob": 0.481753,
+          "direction": "higher",
+          "line": 13.5
+        },
+        "adjustment": {
+          "multiplier": 0.98,
+          "adjusted_prob": 0.472118
+        },
+        "caps": {
+          "stat_cap": 0.72,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.472118,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=20.6",
+        "games: GP=54",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=20.6"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=54"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "skip_reason": "BLOCKED_COMPOSITE:PTS+AST"
+    },
+    {
+      "edge_id": "cbb_ORE_Sean_Stewart_points_10p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Sean Stewart",
+      "team": "ORE",
+      "opponent": "IOWA",
+      "stat": "points",
+      "line": 10.5,
+      "direction": "higher",
+      "probability": 0.0122,
+      "player_mean": 4.92,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 4.9167,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.012246,
+          "direction": "higher",
+          "line": 10.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.012246
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.012246,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "games: GP=84",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [
+        "minutes: MPG=15.4 < 20.0"
+      ],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "FAIL",
+          "reason": "MPG=15.4 < 20.0"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=84"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: minutes: MPG=15.4 < 20.0"
+    }
+  ],
+  "generated": "2026-02-01T17:05:37.826038",
+  "source": "CBB_PIPELINE"
+}

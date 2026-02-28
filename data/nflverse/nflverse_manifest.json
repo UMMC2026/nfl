@@ -1,0 +1,2377 @@
+{
+  "repo": "nflverse/nflverse-data",
+  "generated_utc": "2026-01-13T06:52:05Z",
+  "dest": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse",
+  "seasons": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "tags": [
+    "pbp",
+    "player_stats",
+    "players",
+    "rosters",
+    "schedules",
+    "weekly_rosters"
+  ],
+  "file_type": "parquet",
+  "downloads": [
+    {
+      "tag": "pbp",
+      "name": "play_by_play_2018.parquet",
+      "size": 19072097,
+      "updated_at": "2025-04-30T06:39:20Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2018.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\pbp\\play_by_play_2018.parquet",
+      "sha256": "2e6f2dce7c7ebd46e985cabe0c17eb72b39a77f98cb4478409294f50b5820150",
+      "bytes_written": 19072097
+    },
+    {
+      "tag": "pbp",
+      "name": "play_by_play_2019.parquet",
+      "size": 19119729,
+      "updated_at": "2025-07-31T18:17:19Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2019.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\pbp\\play_by_play_2019.parquet",
+      "sha256": "60c3067017db2d28a78f66a79b657268be8578d9a5288e6a827efdcd7fe42540",
+      "bytes_written": 19119729
+    },
+    {
+      "tag": "pbp",
+      "name": "play_by_play_2020.parquet",
+      "size": 19311336,
+      "updated_at": "2025-04-30T08:01:51Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2020.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\pbp\\play_by_play_2020.parquet",
+      "sha256": "73b7dbf66fa8cb9356f58bf6b1f15a0fee197ecc10cf4983b640cb9679b15cb4",
+      "bytes_written": 19311336
+    },
+    {
+      "tag": "pbp",
+      "name": "play_by_play_2021.parquet",
+      "size": 20249925,
+      "updated_at": "2026-01-08T13:13:13Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2021.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\pbp\\play_by_play_2021.parquet",
+      "sha256": "333ad34378e5339d5172717cc83378e908daf02c8699416ab3e17c2ec10f78d8",
+      "bytes_written": 20249925
+    },
+    {
+      "tag": "pbp",
+      "name": "play_by_play_2022.parquet",
+      "size": 20425191,
+      "updated_at": "2025-04-30T06:39:44Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2022.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\pbp\\play_by_play_2022.parquet",
+      "sha256": "8573de78a0c390cb56d764d43276884eb71bbd8a23fb9a1f5eb32b72f1100f96",
+      "bytes_written": 20425191
+    },
+    {
+      "tag": "pbp",
+      "name": "play_by_play_2023.parquet",
+      "size": 20521255,
+      "updated_at": "2025-01-13T13:18:24Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2023.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\pbp\\play_by_play_2023.parquet",
+      "sha256": "f9478602f491f444365f230d66b452a66fa495e8f0c83d4252fff26cf5ca024b",
+      "bytes_written": 20521255
+    },
+    {
+      "tag": "pbp",
+      "name": "play_by_play_2024.parquet",
+      "size": 20576368,
+      "updated_at": "2025-09-03T09:25:07Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2024.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\pbp\\play_by_play_2024.parquet",
+      "sha256": "6d432dd4308329bfddaef633309ea119f9ca46d52cbb3c09f47172a2e8efcd01",
+      "bytes_written": 20576368
+    },
+    {
+      "tag": "pbp",
+      "name": "play_by_play_2025.parquet",
+      "size": 19817196,
+      "updated_at": "2026-01-13T05:58:49Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\pbp\\play_by_play_2025.parquet",
+      "sha256": "666f7ecec593675ff3ff430a6934586b156d2b2dcac203610955ae0dda7e46e5",
+      "bytes_written": 19817196
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_2021.parquet",
+      "size": 345691,
+      "updated_at": "2024-08-14T14:04:40Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_2021.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_2021.parquet",
+      "sha256": "0d38e64c08f10952abd437abaa295e1ecb5f2a33f027d3e63ed50ce4b003d3cb",
+      "bytes_written": 345691
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_kicking_season_2021.parquet",
+      "size": 31372,
+      "updated_at": "2024-08-14T14:05:00Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_kicking_season_2021.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_kicking_season_2021.parquet",
+      "sha256": "1c75449a4db63d5656da99a04b2c23f8e4aebf18f401790fa23f96ba77367dfd",
+      "bytes_written": 31372
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_season_2021.parquet",
+      "size": 158935,
+      "updated_at": "2024-08-14T14:05:14Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_season_2021.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_season_2021.parquet",
+      "sha256": "205d60d6c7980561309faaf7d1f5d663e0b106e50f34477fdc18d51a0a29740b",
+      "bytes_written": 158935
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_season_2020.parquet",
+      "size": 155606,
+      "updated_at": "2024-08-14T14:05:47Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_season_2020.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_season_2020.parquet",
+      "sha256": "a1750eb5bdf5d4e4cf82855e0faf942ca75768c9563cc01c139b280bb95ff5e6",
+      "bytes_written": 155606
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_2018.parquet",
+      "size": 325344,
+      "updated_at": "2024-08-14T14:12:11Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_2018.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_2018.parquet",
+      "sha256": "8d3b14f4677c1ffb889736ab28c63d7f59dcdf560eee374c6b4f8df159e35238",
+      "bytes_written": 325344
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_season_2018.parquet",
+      "size": 148462,
+      "updated_at": "2024-08-14T14:12:43Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_season_2018.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_season_2018.parquet",
+      "sha256": "11172f77e3bdb426eb72070b834de29d831bec04f491d18ab92aa7ad39899774",
+      "bytes_written": 148462
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_2022.parquet",
+      "size": 338789,
+      "updated_at": "2024-08-19T21:49:27Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_2022.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_2022.parquet",
+      "sha256": "0ac272e0aad73ca1feda8674b89b9a92e92489bbb7fe1dbfc68407099b195cbf",
+      "bytes_written": 338789
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_season_2022.parquet",
+      "size": 154058,
+      "updated_at": "2024-08-19T21:49:29Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_season_2022.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_season_2022.parquet",
+      "sha256": "a39233e05206524f087d35290bf86fa0fd6787c6aeaeb4e258856f3951563fce",
+      "bytes_written": 154058
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_week_2018.parquet",
+      "size": 104181,
+      "updated_at": "2024-11-18T16:12:45Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_week_2018.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_week_2018.parquet",
+      "sha256": "535fe749ad3c2ad78094f8307d16a289972696b6e2a18fca4eaa83aad8213289",
+      "bytes_written": 104181
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_reg_2018.parquet",
+      "size": 253137,
+      "updated_at": "2024-11-18T16:12:55Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_reg_2018.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_reg_2018.parquet",
+      "sha256": "65ae96f7d308d71824dc0287ea932dac1082155407065b64ba06ccde48b923e2",
+      "bytes_written": 253137
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_post_2018.parquet",
+      "size": 91793,
+      "updated_at": "2024-11-18T16:12:57Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_post_2018.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_post_2018.parquet",
+      "sha256": "46bc92f2b3acf510d6ed82423999f5da1d76885329f826d43eb30b8947e587aa",
+      "bytes_written": 91793
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_regpost_2018.parquet",
+      "size": 254741,
+      "updated_at": "2024-11-18T16:13:00Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_regpost_2018.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_regpost_2018.parquet",
+      "sha256": "cc3606f90dc3f312c822542f936646fb44cd2e22f1049f49b76a40f19dd35d38",
+      "bytes_written": 254741
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_reg_2018.parquet",
+      "size": 56431,
+      "updated_at": "2024-11-18T16:13:08Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_reg_2018.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_reg_2018.parquet",
+      "sha256": "efd616fb55c600d16328e905c78932120573b825aa9962a14f6147162c971f5e",
+      "bytes_written": 56431
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_post_2018.parquet",
+      "size": 47813,
+      "updated_at": "2024-11-18T16:13:10Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_post_2018.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_post_2018.parquet",
+      "sha256": "2a8aea9048b5a3ac483c2ff6aaf09e01857836acb7976f6bb3a7991ba0db199f",
+      "bytes_written": 47813
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_regpost_2018.parquet",
+      "size": 56721,
+      "updated_at": "2024-11-18T16:13:13Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_regpost_2018.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_regpost_2018.parquet",
+      "sha256": "8391afcfa7d4d9cd5a17d4adae01ab383f6c1c2fe2479b3f12e03e1e31b42710",
+      "bytes_written": 56721
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_week_2019.parquet",
+      "size": 103860,
+      "updated_at": "2024-11-18T16:13:40Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_week_2019.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_week_2019.parquet",
+      "sha256": "190debcaa1526d7af8089351a052bc34ec4381a75991d9ad45398dc1bacd7649",
+      "bytes_written": 103860
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_reg_2019.parquet",
+      "size": 253722,
+      "updated_at": "2024-11-18T16:13:50Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_reg_2019.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_reg_2019.parquet",
+      "sha256": "71174a8fdbe61481f5c0f342f15bcdcdbac12faefb99eb87e82b715e25ee13b4",
+      "bytes_written": 253722
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_post_2019.parquet",
+      "size": 93114,
+      "updated_at": "2024-11-18T16:13:53Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_post_2019.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_post_2019.parquet",
+      "sha256": "6f76b314b1f65c649b18cfcef0c8797c021f330c77d73142dc40b29da23053b4",
+      "bytes_written": 93114
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_regpost_2019.parquet",
+      "size": 255450,
+      "updated_at": "2024-11-18T16:13:56Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_regpost_2019.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_regpost_2019.parquet",
+      "sha256": "a01786c38e054424b45d150532eec5e38fb192021c2068008e35c675ab0495dd",
+      "bytes_written": 255450
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_reg_2019.parquet",
+      "size": 56574,
+      "updated_at": "2024-11-18T16:14:04Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_reg_2019.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_reg_2019.parquet",
+      "sha256": "ebe2791b67fa347136e2ab51958b46517d0d71a2c7f0df9e27078f2fdd0576ce",
+      "bytes_written": 56574
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_post_2019.parquet",
+      "size": 47702,
+      "updated_at": "2024-11-18T16:14:06Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_post_2019.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_post_2019.parquet",
+      "sha256": "16e076cefa12c193e34b54eb252c7b02f44339869c2a822efa3e94f22c58a322",
+      "bytes_written": 47702
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_regpost_2019.parquet",
+      "size": 56790,
+      "updated_at": "2024-11-18T16:14:08Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_regpost_2019.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_regpost_2019.parquet",
+      "sha256": "3ceae666d3e8151305c8ed6258d26a82b514b95b73ed250bb0e2cbc01142982d",
+      "bytes_written": 56790
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_week_2020.parquet",
+      "size": 104693,
+      "updated_at": "2024-11-18T16:14:36Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_week_2020.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_week_2020.parquet",
+      "sha256": "0e1eca322c7ad29b39225fcb8f90107f304f4c4579a9564cc50761e18c2ed4a8",
+      "bytes_written": 104693
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_reg_2020.parquet",
+      "size": 262387,
+      "updated_at": "2024-11-18T16:14:47Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_reg_2020.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_reg_2020.parquet",
+      "sha256": "33511adb66f311e2bff448fdf3f46fb0e7790ab5f2638a8269362be86fbb631e",
+      "bytes_written": 262387
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_post_2020.parquet",
+      "size": 99435,
+      "updated_at": "2024-11-18T16:14:49Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_post_2020.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_post_2020.parquet",
+      "sha256": "160df5df44d8607845aeb40977e8ca1dcbf0176c5783582ee3200d61c4bb8c87",
+      "bytes_written": 99435
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_regpost_2020.parquet",
+      "size": 264379,
+      "updated_at": "2024-11-18T16:14:53Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_regpost_2020.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_regpost_2020.parquet",
+      "sha256": "d7bd1ae7863f6abb74d675eb42ffa49e19a05093e69190bb92a88663366b87b8",
+      "bytes_written": 264379
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_reg_2020.parquet",
+      "size": 56534,
+      "updated_at": "2024-11-18T16:15:01Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_reg_2020.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_reg_2020.parquet",
+      "sha256": "baafd4015125c8c2b8c33b35daf172d29860ba1ab91905527ff9b5d66d39906d",
+      "bytes_written": 56534
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_post_2020.parquet",
+      "size": 48025,
+      "updated_at": "2024-11-18T16:15:03Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_post_2020.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_post_2020.parquet",
+      "sha256": "a2085ff01bd4ac13ded65bdcaff0400776cfcd28eb37e8d5e6547f3b46cbf659",
+      "bytes_written": 48025
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_regpost_2020.parquet",
+      "size": 56823,
+      "updated_at": "2024-11-18T16:15:06Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_regpost_2020.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_regpost_2020.parquet",
+      "sha256": "86445f423a19cff61cae7d24488c113a335ddb53e17600bc36c4f2779d0548bc",
+      "bytes_written": 56823
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_regpost_2021.parquet",
+      "size": 273871,
+      "updated_at": "2024-11-18T16:15:51Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_regpost_2021.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_regpost_2021.parquet",
+      "sha256": "d6b28e79005529ffc76917e9e8932ccb401181fcad0c819f53094bd0f1abb2d2",
+      "bytes_written": 273871
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_reg_2021.parquet",
+      "size": 56745,
+      "updated_at": "2024-11-18T16:15:59Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_reg_2021.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_reg_2021.parquet",
+      "sha256": "f8165b6f8304fc41fe11002c4476c6c778f95add4d3cc0fa0b430d3452159842",
+      "bytes_written": 56745
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_post_2021.parquet",
+      "size": 48190,
+      "updated_at": "2024-11-18T16:16:02Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_post_2021.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_post_2021.parquet",
+      "sha256": "aa407c7eb0910f8c5babc59e4080b1ff563a5aaa2911a331eb7b396e01027078",
+      "bytes_written": 48190
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_regpost_2021.parquet",
+      "size": 57026,
+      "updated_at": "2024-11-18T16:16:04Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_regpost_2021.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_regpost_2021.parquet",
+      "sha256": "dfffeae80a3c0ec89867411f4fed81edcb5283135d78b0543e2c0629fc53beea",
+      "bytes_written": 57026
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_week_2022.parquet",
+      "size": 107247,
+      "updated_at": "2024-11-18T16:16:33Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_week_2022.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_week_2022.parquet",
+      "sha256": "0e701418714d7c542ec26e586a69032fec342794538e9dd53a23d12ba2c7f7d4",
+      "bytes_written": 107247
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_reg_2022.parquet",
+      "size": 265166,
+      "updated_at": "2024-11-18T16:16:44Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_reg_2022.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_reg_2022.parquet",
+      "sha256": "07949baeb937c601cc36eea2834bfa0066a594f204a6fe88a5206b51e4c4ad7a",
+      "bytes_written": 265166
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_post_2022.parquet",
+      "size": 100249,
+      "updated_at": "2024-11-18T16:16:46Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_post_2022.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_post_2022.parquet",
+      "sha256": "283d980421d4368073df2c146629035c9ec8bc0f4744d6453a86c5cbcdc10518",
+      "bytes_written": 100249
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_regpost_2022.parquet",
+      "size": 267348,
+      "updated_at": "2024-11-18T16:16:49Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_regpost_2022.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_regpost_2022.parquet",
+      "sha256": "af9d8a84b14ddf3124dde951ed8da62fa9d0d4563fbd9cdd98a71b43449acb3c",
+      "bytes_written": 267348
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_reg_2022.parquet",
+      "size": 56795,
+      "updated_at": "2024-11-18T16:16:59Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_reg_2022.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_reg_2022.parquet",
+      "sha256": "d1a4c961fd28f3f09f8c87c93d39fcac0e940d213d0551bd89d939d65c05c670",
+      "bytes_written": 56795
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_post_2022.parquet",
+      "size": 48007,
+      "updated_at": "2024-11-18T16:17:01Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_post_2022.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_post_2022.parquet",
+      "sha256": "90e63139b4bf1ff7e05346a8d732901cf7cb16ee6d8397d1115d4a2838f2346a",
+      "bytes_written": 48007
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_regpost_2022.parquet",
+      "size": 57104,
+      "updated_at": "2024-11-18T16:17:04Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_regpost_2022.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_regpost_2022.parquet",
+      "sha256": "61b66c26a90269b87971a0eeed4b19a5f862519581ea457b97fea758cfed2e77",
+      "bytes_written": 57104
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_week_2023.parquet",
+      "size": 97476,
+      "updated_at": "2025-01-13T13:20:38Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_week_2023.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_week_2023.parquet",
+      "sha256": "ea828d3833b4215f334a5ee54b74fcb2218604b2fd1319bf157979ce23b450a0",
+      "bytes_written": 97476
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_reg_2023.parquet",
+      "size": 253608,
+      "updated_at": "2025-01-13T13:20:56Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_reg_2023.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_reg_2023.parquet",
+      "sha256": "6ced7f9219a1ea5bb6c5540784c0462f3eb9371835abc06a1cb94224d6dfd35f",
+      "bytes_written": 253608
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_post_2023.parquet",
+      "size": 89094,
+      "updated_at": "2025-01-13T13:20:58Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_post_2023.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_post_2023.parquet",
+      "sha256": "374b716e29a3687db5daabe619216a439e47405e732ce9006cf519650c732632",
+      "bytes_written": 89094
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_regpost_2023.parquet",
+      "size": 255670,
+      "updated_at": "2025-01-13T13:21:01Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_regpost_2023.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_regpost_2023.parquet",
+      "sha256": "fbd472c1d9cb2466b84095bcf922c2dc39f24a5f16fc697d3ce0ec172587e9d0",
+      "bytes_written": 255670
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_reg_2023.parquet",
+      "size": 47085,
+      "updated_at": "2025-01-13T13:21:14Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_reg_2023.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_reg_2023.parquet",
+      "sha256": "8e8273511e2999e3e906152a176d5696b3ecf67215322dc7b46f39a5046fd19f",
+      "bytes_written": 47085
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_post_2023.parquet",
+      "size": 38449,
+      "updated_at": "2025-01-13T13:21:17Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_post_2023.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_post_2023.parquet",
+      "sha256": "96d3bd474b7af6ae049a82ba3d3c6c9fbca682ab15086782e252bb7bf653e8f4",
+      "bytes_written": 38449
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_regpost_2023.parquet",
+      "size": 47248,
+      "updated_at": "2025-01-13T13:21:19Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_regpost_2023.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_regpost_2023.parquet",
+      "sha256": "8a7a6c3a255fb73cff1b48b00b246c067b4b9d5366f7b3837e8b3793936599b8",
+      "bytes_written": 47248
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_2023.parquet",
+      "size": 332923,
+      "updated_at": "2025-01-13T13:23:58Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_2023.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_2023.parquet",
+      "sha256": "94673091ea041bc4bddd7848f813abcf0f9be085540e3f187fb6dd1b1dacf2c9",
+      "bytes_written": 332923
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_season_2023.parquet",
+      "size": 142979,
+      "updated_at": "2025-01-13T13:24:00Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_season_2023.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_season_2023.parquet",
+      "sha256": "d6ec11eedba447316475e4b2d27f0ca61a8f0e685f5ba68e13138a64c89194b0",
+      "bytes_written": 142979
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_def_2024.parquet",
+      "size": 163380,
+      "updated_at": "2025-04-16T04:33:34Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_def_2024.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_def_2024.parquet",
+      "sha256": "8d4c00983e0c0c8acab2cb087c4518cc2f96b1e057154f0cde4a0ef38b470c12",
+      "bytes_written": 163380
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_def_season_2024.parquet",
+      "size": 134876,
+      "updated_at": "2025-04-16T04:33:36Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_def_season_2024.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_def_season_2024.parquet",
+      "sha256": "ff54c60c9f8355015ef41ce77492ed2a4ea28beec712f70ad48a5241a3214f75",
+      "bytes_written": 134876
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_reg_2024.parquet",
+      "size": 256837,
+      "updated_at": "2025-04-16T04:34:30Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_reg_2024.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_reg_2024.parquet",
+      "sha256": "5ebb348b4e7bdd0486ec350a543696f03edc06523fcbb885a70aa30ebca65c94",
+      "bytes_written": 256837
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_post_2024.parquet",
+      "size": 88860,
+      "updated_at": "2025-04-16T04:34:32Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_post_2024.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_post_2024.parquet",
+      "sha256": "09511b9168bdee51765d5b77376a90083b583672acd20b90b8f586f21dca28c3",
+      "bytes_written": 88860
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_regpost_2024.parquet",
+      "size": 258904,
+      "updated_at": "2025-04-16T04:34:35Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_regpost_2024.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_regpost_2024.parquet",
+      "sha256": "2f3055425f6e756e734ad12d7d8916c88b5105b9344bbd0e0e456558bd838a48",
+      "bytes_written": 258904
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_reg_2024.parquet",
+      "size": 47086,
+      "updated_at": "2025-04-16T04:34:49Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_reg_2024.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_reg_2024.parquet",
+      "sha256": "1160273623116405430f2b5b1a43cc07810b4f288d753ffe8c2e920000115116",
+      "bytes_written": 47086
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_post_2024.parquet",
+      "size": 38514,
+      "updated_at": "2025-04-16T04:34:51Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_post_2024.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_post_2024.parquet",
+      "sha256": "5fdd7672d79ee5471ccc3fd6e33052c35573aa43a7560193306efd084f573e64",
+      "bytes_written": 38514
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_regpost_2024.parquet",
+      "size": 47362,
+      "updated_at": "2025-04-16T04:34:53Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_regpost_2024.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_regpost_2024.parquet",
+      "sha256": "c067067a6d7b7c50f6cc2a4f73c12d019cc1e84bdd636c6e3ac534cfd3a74ab5",
+      "bytes_written": 47362
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_def_2020.parquet",
+      "size": 156536,
+      "updated_at": "2025-04-30T07:07:59Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_def_2020.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_def_2020.parquet",
+      "sha256": "3d4b150ab99946bc5cc44b74ca491d6054d29cead4ea46b8389f14d55a1e7e02",
+      "bytes_written": 156536
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_def_season_2020.parquet",
+      "size": 131297,
+      "updated_at": "2025-04-30T07:08:02Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_def_season_2020.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_def_season_2020.parquet",
+      "sha256": "54d6bd06a221f222ceed9c3d81fcfe1fca764d6d4e1936b7e8613f844e38a874",
+      "bytes_written": 131297
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_week_2018.parquet",
+      "size": 712529,
+      "updated_at": "2025-04-30T07:08:55Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_week_2018.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_week_2018.parquet",
+      "sha256": "512b4674eafa092fa0c5f3e6e4496c5a911a8c5bb7b53be232b6505a30509870",
+      "bytes_written": 712529
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_def_2021.parquet",
+      "size": 168141,
+      "updated_at": "2025-04-30T07:08:57Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_def_2021.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_def_2021.parquet",
+      "sha256": "c91c3ced66432c8009bc20f0e6b8835726eb06cda5415628678dd78d55f9d115",
+      "bytes_written": 168141
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_def_season_2021.parquet",
+      "size": 138844,
+      "updated_at": "2025-04-30T07:09:19Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_def_season_2021.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_def_season_2021.parquet",
+      "sha256": "90beb9c3984459d13e541f741f5246b02121d82c86788714f8f3abc7744a84b2",
+      "bytes_written": 138844
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_kicking_2019.parquet",
+      "size": 29854,
+      "updated_at": "2025-04-30T07:09:38Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_kicking_2019.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_kicking_2019.parquet",
+      "sha256": "61a9e94a886a6184d153e232d77e1f49e9f912028c9aefaecee9f436c601b7c5",
+      "bytes_written": 29854
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_kicking_season_2019.parquet",
+      "size": 25682,
+      "updated_at": "2025-04-30T07:09:52Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_kicking_season_2019.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_kicking_season_2019.parquet",
+      "sha256": "feef3c1e20c3f1909e3da8a912b432f5de9850e94436485ac53d7b49d15b52aa",
+      "bytes_written": 25682
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_kicking_2018.parquet",
+      "size": 29401,
+      "updated_at": "2025-04-30T07:10:51Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_kicking_2018.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_kicking_2018.parquet",
+      "sha256": "df2cde4325f723dc6b04e8277b45ff894521d057dd202e6bdf8102a2772f9a21",
+      "bytes_written": 29401
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_kicking_season_2018.parquet",
+      "size": 25713,
+      "updated_at": "2025-04-30T07:10:59Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_kicking_season_2018.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_kicking_season_2018.parquet",
+      "sha256": "eff7406e0f27dd2a1d3364d4bed4582ac71e24add543e62b5717d55545f84313",
+      "bytes_written": 25713
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_def_2023.parquet",
+      "size": 162380,
+      "updated_at": "2025-04-30T19:56:48Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_def_2023.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_def_2023.parquet",
+      "sha256": "9202ad69bc817f676eac64752d97a5b39e403f1e6b7740e3bf5a2e9ad4efd493",
+      "bytes_written": 162380
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_def_season_2023.parquet",
+      "size": 133055,
+      "updated_at": "2025-04-30T19:57:11Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_def_season_2023.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_def_season_2023.parquet",
+      "sha256": "f427776999734808a60e0bb1b027049b7c1d826668ccf9720dd81f06266a38fc",
+      "bytes_written": 133055
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_week_2020.parquet",
+      "size": 727069,
+      "updated_at": "2025-04-30T19:57:21Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_week_2020.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_week_2020.parquet",
+      "sha256": "a654cec0d3732db82944e5144bebe4f4aaf10650ec85a10698f3290ee9abac8e",
+      "bytes_written": 727069
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_def_2022.parquet",
+      "size": 163418,
+      "updated_at": "2025-05-06T16:32:13Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_def_2022.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_def_2022.parquet",
+      "sha256": "9c75e9f48c40741ae6b6c0c3bafb6b7f46606031464b6f46f34dd077f1acf6ab",
+      "bytes_written": 163418
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_kicking_2024.parquet",
+      "size": 30731,
+      "updated_at": "2025-05-06T16:32:21Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_kicking_2024.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_kicking_2024.parquet",
+      "sha256": "ac17025fb671b29a0af5670336e1b69bdcb0ec93807aaf238771fe6fcc547637",
+      "bytes_written": 30731
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_def_season_2022.parquet",
+      "size": 133677,
+      "updated_at": "2025-05-06T16:32:28Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_def_season_2022.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_def_season_2022.parquet",
+      "sha256": "d9ad61edca825f026b46677cb05bf3a87ec1d1fb0684375c7c77b2c54ffc0db5",
+      "bytes_written": 133677
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_kicking_season_2024.parquet",
+      "size": 26734,
+      "updated_at": "2025-05-06T16:33:05Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_kicking_season_2024.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_kicking_season_2024.parquet",
+      "sha256": "97e92aade551cf6e7d041f4b176d2f6aeb9f8e5c86bcbccede824d501ad8c4f0",
+      "bytes_written": 26734
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_week_2022.parquet",
+      "size": 755895,
+      "updated_at": "2025-05-06T16:33:08Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_week_2022.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_week_2022.parquet",
+      "sha256": "d077b2ac435c94f8e9168af5cdad91c5a42b56c8dcfa57d1d20cb42e7ee4f985",
+      "bytes_written": 755895
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_kicking_2022.parquet",
+      "size": 30476,
+      "updated_at": "2025-05-06T16:33:13Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_kicking_2022.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_kicking_2022.parquet",
+      "sha256": "2758106b930a2571027a7490c5c11a85cc88bd42d291a8bfd2452e7a0d0ecb27",
+      "bytes_written": 30476
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_kicking_season_2022.parquet",
+      "size": 26463,
+      "updated_at": "2025-05-06T16:33:15Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_kicking_season_2022.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_kicking_season_2022.parquet",
+      "sha256": "ba775abe4eebf242d80cb2d825411c5c89d4d2acd1b31cfbe7acb780ae48b57c",
+      "bytes_written": 26463
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_kicking_2020.parquet",
+      "size": 30235,
+      "updated_at": "2025-05-06T16:34:29Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_kicking_2020.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_kicking_2020.parquet",
+      "sha256": "bbdc92d96f587be0aa5e59fe34608adbe19b4692c1950871b058a1c82da368a9",
+      "bytes_written": 30235
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_kicking_season_2020.parquet",
+      "size": 26424,
+      "updated_at": "2025-05-06T16:34:32Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_kicking_season_2020.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_kicking_season_2020.parquet",
+      "sha256": "1c72cc94f7f8750acf17c3d0ce7d5fd120972c9708139fbad1e75fe6e4f76002",
+      "bytes_written": 26424
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_kicking_2023.parquet",
+      "size": 30568,
+      "updated_at": "2025-05-06T16:34:45Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_kicking_2023.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_kicking_2023.parquet",
+      "sha256": "3586811d37e5918aff0e105feca817c96cf542cf340a441f4b5300623a804fa5",
+      "bytes_written": 30568
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_kicking_season_2023.parquet",
+      "size": 25672,
+      "updated_at": "2025-05-06T16:34:47Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_kicking_season_2023.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_kicking_season_2023.parquet",
+      "sha256": "7030423a98a89a2fb288eab24ac778f3f17b5ed55fbf6e3953ff5f12f103113d",
+      "bytes_written": 25672
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_2024.parquet",
+      "size": 330816,
+      "updated_at": "2025-05-06T16:34:56Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_2024.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_2024.parquet",
+      "sha256": "5eb3f605108c6746a7d0ad222c66851c26b587b74b7468c69d0e46ad6c817e68",
+      "bytes_written": 330816
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_season_2024.parquet",
+      "size": 144779,
+      "updated_at": "2025-05-06T16:34:59Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_season_2024.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_season_2024.parquet",
+      "sha256": "6185311b5691e5ebfd70b7922b196d2d19dcd5374d494defe334eb9653614b23",
+      "bytes_written": 144779
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_def_2019.parquet",
+      "size": 159363,
+      "updated_at": "2025-05-06T16:35:09Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_def_2019.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_def_2019.parquet",
+      "sha256": "4793ceb024a9c375cac45f0f2165ba16730a5ba46441367ff5ab1791434cd76d",
+      "bytes_written": 159363
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_def_season_2019.parquet",
+      "size": 135741,
+      "updated_at": "2025-05-06T16:35:13Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_def_season_2019.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_def_season_2019.parquet",
+      "sha256": "531cc0fe8d7ba8e650354c833e552a7db3eded731e9630a6d2e266d0bca9e932",
+      "bytes_written": 135741
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_def_2018.parquet",
+      "size": 158929,
+      "updated_at": "2025-05-06T16:35:15Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_def_2018.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_def_2018.parquet",
+      "sha256": "a5cf7b17b3a2290b90a1cea41d50f1ab8f4b901545621f17d0ba9afc365de8e8",
+      "bytes_written": 158929
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_def_season_2018.parquet",
+      "size": 133155,
+      "updated_at": "2025-05-06T16:35:18Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_def_season_2018.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_def_season_2018.parquet",
+      "sha256": "a5bb4428c4b755c175cc950b0016ebc8add55c6c412fe14bfbde058787af664b",
+      "bytes_written": 133155
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_2020.parquet",
+      "size": 327982,
+      "updated_at": "2025-05-06T16:35:19Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_2020.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_2020.parquet",
+      "sha256": "461c1a83be048c139c5be7845433e94935bd91a9ad46458f89f8897c4325bcd4",
+      "bytes_written": 327982
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_week_2021.parquet",
+      "size": 768667,
+      "updated_at": "2025-05-06T16:35:24Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_week_2021.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_week_2021.parquet",
+      "sha256": "ef54a3119e486fb79ab4b4a029f3623f2f58fb2f9199b2278e45ce5de5ebe7be",
+      "bytes_written": 768667
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_week_2021.parquet",
+      "size": 96705,
+      "updated_at": "2025-05-06T16:35:27Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_week_2021.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_week_2021.parquet",
+      "sha256": "72dc82e009176a039111d9adb268eeca61f98f090e190c2c49f927a7ef92c6bf",
+      "bytes_written": 96705
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_week_2024.parquet",
+      "size": 757546,
+      "updated_at": "2025-05-06T16:35:37Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_week_2024.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_week_2024.parquet",
+      "sha256": "8631a3ec88f0732a26c1676630874b8e291f99da9c353bee22510cbb26f15a61",
+      "bytes_written": 757546
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_team_week_2024.parquet",
+      "size": 96615,
+      "updated_at": "2025-05-06T16:35:39Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_team_week_2024.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_team_week_2024.parquet",
+      "sha256": "e6260609dcfab0b8e091e2d9a71b1ea59cb2081efa405d8c52356cbe84d212d6",
+      "bytes_written": 96615
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_reg_2021.parquet",
+      "size": 265610,
+      "updated_at": "2025-05-06T16:35:47Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_reg_2021.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_reg_2021.parquet",
+      "sha256": "c4db11c2b7c9b257537c790d9d3a86e3d4d573a07b9f53b6f8330453ef87da88",
+      "bytes_written": 265610
+    },
+    {
+      "tag": "player_stats",
+      "name": "stats_player_week_2023.parquet",
+      "size": 754677,
+      "updated_at": "2025-05-06T16:35:50Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/stats_player_week_2023.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\stats_player_week_2023.parquet",
+      "sha256": "dc42bc73a4c4720efb34dbd37d2e463a8e0c79d1c38f92734ff1d5a4746ade9c",
+      "bytes_written": 754677
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_2019.parquet",
+      "size": 321410,
+      "updated_at": "2025-05-07T08:09:23Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_2019.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_2019.parquet",
+      "sha256": "926b676ba01f09beaedbd2d85bd9630350ad442f0d241e96f5dbf45c46db38d3",
+      "bytes_written": 321410
+    },
+    {
+      "tag": "player_stats",
+      "name": "player_stats_season_2019.parquet",
+      "size": 142153,
+      "updated_at": "2025-05-07T08:09:26Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_season_2019.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\player_stats\\player_stats_season_2019.parquet",
+      "sha256": "08f9449735e5bdce3ad25144329e00f8d170524160826e6cdd05095f4e6a4f5a",
+      "bytes_written": 142153
+    },
+    {
+      "tag": "players",
+      "name": "players.parquet",
+      "size": 3313149,
+      "updated_at": "2026-01-12T08:25:57Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/players/players.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\players\\players.parquet",
+      "sha256": "a62df41863299c296679fd5c203f2dd40f7f26d833a63501ddcf423b8bed1b78",
+      "bytes_written": 3313149
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1920.parquet",
+      "size": 35041,
+      "updated_at": "2023-09-13T04:12:51Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1920.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1920.parquet",
+      "sha256": "6e0b8feb049ce9efb9335aa22fe849c241f1875a33298846f85f29f3c62611c1",
+      "bytes_written": 35041
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1921.parquet",
+      "size": 39929,
+      "updated_at": "2023-09-13T04:13:24Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1921.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1921.parquet",
+      "sha256": "c11a93da7c3cb68b1d3acbb61a92809842e5c516964060032cdb617a743ae809",
+      "bytes_written": 39929
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1922.parquet",
+      "size": 37593,
+      "updated_at": "2023-09-13T04:13:57Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1922.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1922.parquet",
+      "sha256": "b2218d375bd2e3c62dbd8a49cea4f0a514e88329761142ed5c0680fff7085324",
+      "bytes_written": 37593
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1923.parquet",
+      "size": 38467,
+      "updated_at": "2023-09-13T04:14:30Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1923.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1923.parquet",
+      "sha256": "4b7da07ada374d428f8d63e47fec2eaa9cdcd987cfe2153238571789a6562db4",
+      "bytes_written": 38467
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1924.parquet",
+      "size": 37530,
+      "updated_at": "2023-09-13T04:15:04Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1924.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1924.parquet",
+      "sha256": "d5af5e12a73897a2cffbe3ecbd16f10b62c407e32dfe7d28c4c1f2f1223c9396",
+      "bytes_written": 37530
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1925.parquet",
+      "size": 41326,
+      "updated_at": "2023-09-13T04:15:36Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1925.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1925.parquet",
+      "sha256": "fa0dcd46be42cb5dd3dc5216bf68e2c9fa00658208c86323d31d29cfb86aaca6",
+      "bytes_written": 41326
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1926.parquet",
+      "size": 45072,
+      "updated_at": "2023-09-13T04:16:09Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1926.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1926.parquet",
+      "sha256": "f4e67b1ff787dd38539e0c48acb89677fd57bfecde88cadc8cfb9507ca89a8e1",
+      "bytes_written": 45072
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1927.parquet",
+      "size": 32344,
+      "updated_at": "2023-09-13T04:16:46Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1927.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1927.parquet",
+      "sha256": "325e8468673547416fc1ad58f81f86748a25ecc8a67d193f6bdff6b805170855",
+      "bytes_written": 32344
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1928.parquet",
+      "size": 27662,
+      "updated_at": "2023-09-13T04:17:17Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1928.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1928.parquet",
+      "sha256": "24535fca31c432652f9b5f0a47bdfb9eb0a0f7690291a896577ff7681a3c2c74",
+      "bytes_written": 27662
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1929.parquet",
+      "size": 31391,
+      "updated_at": "2023-09-13T04:17:49Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1929.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1929.parquet",
+      "sha256": "ec37d9a31b615840d159fbaed799e9ae28e2926dbcabb36eaf55a6e996c56fb6",
+      "bytes_written": 31391
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1930.parquet",
+      "size": 33194,
+      "updated_at": "2023-09-13T04:18:22Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1930.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1930.parquet",
+      "sha256": "6d2f7b9782df1a4d4c51d32367d5c6d65024be20896f82939feb73abf2d1152f",
+      "bytes_written": 33194
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1931.parquet",
+      "size": 30788,
+      "updated_at": "2023-09-13T04:18:55Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1931.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1931.parquet",
+      "sha256": "82abe3effe8b1ab4307bdee8e77cb5d065ef50c762fe050776a947e4bf5b8a7e",
+      "bytes_written": 30788
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1932.parquet",
+      "size": 27846,
+      "updated_at": "2023-09-13T04:19:26Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1932.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1932.parquet",
+      "sha256": "f2145bc52349745b21d0c921a70c947d68a9115d38e0e79085f41aec48eef2e9",
+      "bytes_written": 27846
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1933.parquet",
+      "size": 31386,
+      "updated_at": "2023-09-13T04:19:58Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1933.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1933.parquet",
+      "sha256": "deadadfeaad95f43e50faa03b6ab3f54373daa59d342fdce754384c90d220077",
+      "bytes_written": 31386
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1934.parquet",
+      "size": 32146,
+      "updated_at": "2023-09-13T04:20:32Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1934.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1934.parquet",
+      "sha256": "3c73f1df93e8252a7858c9cf33b3e69a246863bd18378935381df98aa5021d7a",
+      "bytes_written": 32146
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1935.parquet",
+      "size": 30400,
+      "updated_at": "2023-09-13T04:21:06Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1935.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1935.parquet",
+      "sha256": "93579b3669e4380bd70543e0b2ec6442b044641fa0a70d7692e8d5e149b64293",
+      "bytes_written": 30400
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1936.parquet",
+      "size": 29525,
+      "updated_at": "2023-09-13T04:21:40Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1936.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1936.parquet",
+      "sha256": "e637db43ec77f0207488668c1d896460c1d52d5bdf2815a16afc364e2a58a825",
+      "bytes_written": 29525
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1937.parquet",
+      "size": 31888,
+      "updated_at": "2023-09-13T04:22:14Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1937.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1937.parquet",
+      "sha256": "8a0c1b94e2ef39cc2c38f567851e73b6196bbc53971f7f82d22406cb5d5691f2",
+      "bytes_written": 31888
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1938.parquet",
+      "size": 33401,
+      "updated_at": "2023-09-13T04:22:49Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1938.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1938.parquet",
+      "sha256": "4f0d6a74145b2944fd6748b3fc0de1b0115f8fcbd7d64ff96046f52bf773f1bf",
+      "bytes_written": 33401
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1939.parquet",
+      "size": 34754,
+      "updated_at": "2023-09-13T04:23:21Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1939.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1939.parquet",
+      "sha256": "8d92c96fcbafda8d1a25ea09f5fdc411afd741ae7d948767930f2d781e824078",
+      "bytes_written": 34754
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1940.parquet",
+      "size": 34843,
+      "updated_at": "2023-09-13T04:23:56Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1940.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1940.parquet",
+      "sha256": "0effc81a0bb45260827ad10299eb695b6bf2cbb043383e6ccfbf59ff66cbe49e",
+      "bytes_written": 34843
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1941.parquet",
+      "size": 35116,
+      "updated_at": "2023-09-13T04:24:30Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1941.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1941.parquet",
+      "sha256": "4dbfbcaf8a22f4c032b82001fe7c3d623893dc1910f8124eb73687e7ca84d4b8",
+      "bytes_written": 35116
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1942.parquet",
+      "size": 34844,
+      "updated_at": "2023-09-13T04:25:04Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1942.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1942.parquet",
+      "sha256": "8c8f68d16282fa41fedaec00d9ad50863105e6f66416b07612264e901391032a",
+      "bytes_written": 34844
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1943.parquet",
+      "size": 28937,
+      "updated_at": "2023-09-13T04:25:36Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1943.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1943.parquet",
+      "sha256": "e68acada892426c2ec91896e475853e77223d947600eb70f603dbc47aea7e197",
+      "bytes_written": 28937
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1944.parquet",
+      "size": 32981,
+      "updated_at": "2023-09-13T04:26:08Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1944.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1944.parquet",
+      "sha256": "a064d4c3e6b10e9a84a5ae8936982218ed84392f5becb8cd2b35420016e07a15",
+      "bytes_written": 32981
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1945.parquet",
+      "size": 39221,
+      "updated_at": "2023-09-13T04:26:42Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1945.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1945.parquet",
+      "sha256": "f6047766039ff27a30f5cdc7afc4269e8733801d80a6476856ffcfb6a1f9a683",
+      "bytes_written": 39221
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1946.parquet",
+      "size": 52311,
+      "updated_at": "2023-09-13T04:27:15Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1946.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1946.parquet",
+      "sha256": "f2eb0aec7711d338ccf881c7fe1ca71dead8669de9989c7b14d04330cf82b321",
+      "bytes_written": 52311
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1947.parquet",
+      "size": 53818,
+      "updated_at": "2023-09-13T04:27:47Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1947.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1947.parquet",
+      "sha256": "0a76083160216450656ab4c11ced240ea387daee106bdef881ec26501f808fa9",
+      "bytes_written": 53818
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1948.parquet",
+      "size": 54400,
+      "updated_at": "2023-09-13T04:28:20Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1948.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1948.parquet",
+      "sha256": "65abedec3d4c3200f873e8b3391d79963621018388390d772606982dc750e9a9",
+      "bytes_written": 54400
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1949.parquet",
+      "size": 48718,
+      "updated_at": "2023-09-13T04:28:52Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1949.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1949.parquet",
+      "sha256": "8617268ec7a0b3f8daa6ab5e7fc9ca615c2eb5a7de9db403fec045cbf77d2818",
+      "bytes_written": 48718
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1950.parquet",
+      "size": 41038,
+      "updated_at": "2023-09-13T04:29:25Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1950.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1950.parquet",
+      "sha256": "0c9bd326371485946e7b6ad4bc224056fa00463e516280744ac33f66456dae91",
+      "bytes_written": 41038
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1951.parquet",
+      "size": 39774,
+      "updated_at": "2023-09-13T04:29:57Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1951.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1951.parquet",
+      "sha256": "363ffa4f7971928048cc28a67027993739244d7610c5fc523f96d83058439c74",
+      "bytes_written": 39774
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1952.parquet",
+      "size": 40282,
+      "updated_at": "2023-09-13T04:30:32Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1952.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1952.parquet",
+      "sha256": "4c5d79a595e2bce275fc4bb24ef20a10604974614c1e9219ab7ca66bf8b4a9ff",
+      "bytes_written": 40282
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1953.parquet",
+      "size": 39972,
+      "updated_at": "2023-09-13T04:31:05Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1953.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1953.parquet",
+      "sha256": "aeabf2c5bbd37b720392fbae71ed6e915c613c264ab44405386b412065bf6768",
+      "bytes_written": 39972
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1954.parquet",
+      "size": 40269,
+      "updated_at": "2023-09-13T04:31:37Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1954.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1954.parquet",
+      "sha256": "65153c8c4c4715d7683b70dd48f130523f50a8fef305e4a0c647ad8a767830d8",
+      "bytes_written": 40269
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1955.parquet",
+      "size": 40633,
+      "updated_at": "2023-09-13T04:32:10Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1955.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1955.parquet",
+      "sha256": "8006918754204b894b102cec70e0631e68f731b9b412c242b31b18a31488af54",
+      "bytes_written": 40633
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1956.parquet",
+      "size": 40918,
+      "updated_at": "2023-09-13T04:32:43Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1956.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1956.parquet",
+      "sha256": "ed942a180bd38be30af01d29be0012805f02047049759f8d816a7adbbec335d7",
+      "bytes_written": 40918
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1957.parquet",
+      "size": 40317,
+      "updated_at": "2023-09-13T04:33:18Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1957.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1957.parquet",
+      "sha256": "825ab4f0b047e425bb824089312c19ce7bf6a64731413a5c5eeac57bbe7ede77",
+      "bytes_written": 40317
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1958.parquet",
+      "size": 40447,
+      "updated_at": "2023-09-13T04:33:51Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1958.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1958.parquet",
+      "sha256": "663dfa81ab6705576a62b63a304671a200614c5426c1f96b1fd2c9812856a8f0",
+      "bytes_written": 40447
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1959.parquet",
+      "size": 40713,
+      "updated_at": "2023-09-13T04:34:26Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1959.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1959.parquet",
+      "sha256": "c0c891c14f04b5627703866c69e6ac82d22b33b5bf59559e1f5af2fe6f6ce460",
+      "bytes_written": 40713
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1960.parquet",
+      "size": 64226,
+      "updated_at": "2023-09-13T04:34:59Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1960.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1960.parquet",
+      "sha256": "55c12e2b20682aee6d7291cc689178fefe12dd159376b120f0d41cd4d609d59a",
+      "bytes_written": 64226
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1961.parquet",
+      "size": 64654,
+      "updated_at": "2023-09-13T04:35:33Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1961.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1961.parquet",
+      "sha256": "f32329e06c34c2e2bb6b4832c77b049e394e6e78a9142cad866b9fda024f2d4e",
+      "bytes_written": 64654
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1962.parquet",
+      "size": 64310,
+      "updated_at": "2023-09-13T04:36:07Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1962.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1962.parquet",
+      "sha256": "59ff5d30420806b0c6125ce7e218108b97039ce886a17015ddb049bc48b673b3",
+      "bytes_written": 64310
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1963.parquet",
+      "size": 65077,
+      "updated_at": "2023-09-13T04:36:40Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1963.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1963.parquet",
+      "sha256": "8de3d5fc4a03582f3281b1c6cfa42a25b31d1b9fdd5b8bb16df1530c0c5d5ad8",
+      "bytes_written": 65077
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1964.parquet",
+      "size": 66571,
+      "updated_at": "2023-09-13T04:37:13Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1964.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1964.parquet",
+      "sha256": "3f48a7d5bd9e143bc39903c7b8da90902bb2460819612a11471b73f1b00a6591",
+      "bytes_written": 66571
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1965.parquet",
+      "size": 69318,
+      "updated_at": "2023-09-13T04:37:47Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1965.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1965.parquet",
+      "sha256": "5350e60c2fc855ca842e56c7d71e4e53bdb874dfc0377d7a2321aab8dfc26b6b",
+      "bytes_written": 69318
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1966.parquet",
+      "size": 76959,
+      "updated_at": "2023-09-13T04:38:20Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1966.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1966.parquet",
+      "sha256": "c9c27d159dee8eb92a6985e2ee25adfff6ee1ccd6a72dda0b3669528c994c3e6",
+      "bytes_written": 76959
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1967.parquet",
+      "size": 80544,
+      "updated_at": "2023-09-13T04:38:55Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1967.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1967.parquet",
+      "sha256": "e1ee182fd0c43b9bdf684f93c1c2bf3c56c57ddc33c87b0ba1ff373bdc2ee708",
+      "bytes_written": 80544
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1968.parquet",
+      "size": 84092,
+      "updated_at": "2023-09-13T04:39:27Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1968.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1968.parquet",
+      "sha256": "b47f135e89bd17f2f64471bc5ecb42f2b3d6425d2b8ecf79240cf1d44aacf8d9",
+      "bytes_written": 84092
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1969.parquet",
+      "size": 82870,
+      "updated_at": "2023-09-13T04:40:01Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1969.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1969.parquet",
+      "sha256": "760bca4f5f4b35378ea3df930a4491d3c8f92ede03249f0ae8a7898ea56ffb66",
+      "bytes_written": 82870
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1970.parquet",
+      "size": 82947,
+      "updated_at": "2023-09-13T04:40:36Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1970.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1970.parquet",
+      "sha256": "491629183a559f6e723cb43e4213d4b40eaf4c468823a7fd6d5dce2d6fb3a1c4",
+      "bytes_written": 82947
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1971.parquet",
+      "size": 82901,
+      "updated_at": "2023-09-13T04:41:12Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1971.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1971.parquet",
+      "sha256": "e7d0a42b7f14570acbc0be10366e862b67acfc87dbe88d5a20d7bbc808a7723a",
+      "bytes_written": 82901
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1972.parquet",
+      "size": 84154,
+      "updated_at": "2023-09-13T04:41:46Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1972.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1972.parquet",
+      "sha256": "b9639a6bfc08360531fd8dd2f450f4cf767ad57642a5d394df7336ee804397c1",
+      "bytes_written": 84154
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1973.parquet",
+      "size": 84711,
+      "updated_at": "2023-09-13T04:42:20Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1973.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1973.parquet",
+      "sha256": "9909f3d9fdc054383d2206b17dd109e14f55b6260c9d53e107f2e1c77c6026ea",
+      "bytes_written": 84711
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1974.parquet",
+      "size": 89523,
+      "updated_at": "2023-09-13T04:42:54Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1974.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1974.parquet",
+      "sha256": "6e70bed90f771c4ae0a9ddcc76196756c83b28da4652b73a4ed88370477aa8b7",
+      "bytes_written": 89523
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1975.parquet",
+      "size": 84003,
+      "updated_at": "2023-09-13T04:43:29Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1975.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1975.parquet",
+      "sha256": "a87804b86826b50fd0374a51641f2f1d7f973c83ee540f6fac6dc6a0feba7a6c",
+      "bytes_written": 84003
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1976.parquet",
+      "size": 91251,
+      "updated_at": "2023-09-13T04:44:02Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1976.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1976.parquet",
+      "sha256": "94abf4434ae23448993dd5dfdccafa6e55ea54e832ab482a93926e170d906a09",
+      "bytes_written": 91251
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1977.parquet",
+      "size": 92345,
+      "updated_at": "2023-09-13T04:44:34Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1977.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1977.parquet",
+      "sha256": "72bce673625f84e01f6037a06bc5f6032d9a67db4198def276267f9707b45f8e",
+      "bytes_written": 92345
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1978.parquet",
+      "size": 95580,
+      "updated_at": "2023-09-13T04:45:07Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1978.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1978.parquet",
+      "sha256": "fd948873f6db24e97c7b60404b75c0e7c081b2e2e7b8a41e92e3ed727fb76f57",
+      "bytes_written": 95580
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1979.parquet",
+      "size": 96154,
+      "updated_at": "2023-09-13T04:45:41Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1979.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1979.parquet",
+      "sha256": "ff5f32c613f93175bebfb90ed869f04b977cec0519af79bb1b408d60fa603329",
+      "bytes_written": 96154
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1980.parquet",
+      "size": 99968,
+      "updated_at": "2023-09-13T04:46:17Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1980.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1980.parquet",
+      "sha256": "103ebe867a5965977b3dbdb9a9c4dacfbf8e97f0d1eac1e1903e49d396a5caeb",
+      "bytes_written": 99968
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1981.parquet",
+      "size": 100696,
+      "updated_at": "2023-09-06T06:43:43Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1981.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1981.parquet",
+      "sha256": "90646e8d5a179a33dc48c8f46c291322c10576bbbf582c2d59ba003ad78264ee",
+      "bytes_written": 100696
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1982.parquet",
+      "size": 105738,
+      "updated_at": "2023-09-06T06:44:15Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1982.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1982.parquet",
+      "sha256": "307cadba38c6a886d0fb4def4bd5639182ece125fe192082bcea03e43d8fd1a3",
+      "bytes_written": 105738
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1983.parquet",
+      "size": 112410,
+      "updated_at": "2023-09-06T06:44:49Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1983.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1983.parquet",
+      "sha256": "76e457bcf618c1cdd4672419429859225343b3e9c1d9ffe363f983c7d26539cc",
+      "bytes_written": 112410
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1984.parquet",
+      "size": 118078,
+      "updated_at": "2023-09-06T06:45:22Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1984.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1984.parquet",
+      "sha256": "cc5935bd6c59c73a8180ce7351b0897dd546a5721a08fdbc9a4292caec181e22",
+      "bytes_written": 118078
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1985.parquet",
+      "size": 117478,
+      "updated_at": "2023-09-06T06:45:55Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1985.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1985.parquet",
+      "sha256": "47403e2c2e58f9a085f55c435f7bdb1f02b7bb2d12ea86000f671e9aa3fd6cf6",
+      "bytes_written": 117478
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1986.parquet",
+      "size": 126150,
+      "updated_at": "2023-09-06T06:46:28Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1986.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1986.parquet",
+      "sha256": "7fbf9b550ab198f6811b5604621d10d5773c38cd1cdeb197c1283a8d2fbba31d",
+      "bytes_written": 126150
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1987.parquet",
+      "size": 209214,
+      "updated_at": "2025-08-16T01:12:31Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1987.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1987.parquet",
+      "sha256": "25fad0a18e899e98a854ddeabfc401713965f2c65bc614853665a2093137e277",
+      "bytes_written": 209214
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1988.parquet",
+      "size": 142633,
+      "updated_at": "2023-09-06T06:47:35Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1988.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1988.parquet",
+      "sha256": "9f27b81c99fdf3cf21b20d4d9c4d01b4ceffa98611c86303054785b6e4126b7b",
+      "bytes_written": 142633
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1989.parquet",
+      "size": 150657,
+      "updated_at": "2023-09-06T06:48:08Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1989.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1989.parquet",
+      "sha256": "0d490b9fe50c4a8a475081e99a1a10a1b35566a05b8a76fd092a720350e4832d",
+      "bytes_written": 150657
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1990.parquet",
+      "size": 157947,
+      "updated_at": "2023-09-06T06:48:42Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1990.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1990.parquet",
+      "sha256": "4c6608df5e2548b45ab720ff8a4421b57b8598bc1e4ec6d5e57ca2014acdd274",
+      "bytes_written": 157947
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1991.parquet",
+      "size": 180957,
+      "updated_at": "2023-09-06T06:49:21Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1991.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1991.parquet",
+      "sha256": "4ebf21f248d0dcb751c89cb1650eb064aa7a5741750d8e5116849d5a88f1c537",
+      "bytes_written": 180957
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1992.parquet",
+      "size": 188500,
+      "updated_at": "2023-09-06T06:49:56Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1992.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1992.parquet",
+      "sha256": "d9bb919f63c8dcff563535ee27b7ad6cf093bdd85fb915d23f37520a7224a269",
+      "bytes_written": 188500
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1993.parquet",
+      "size": 193164,
+      "updated_at": "2023-09-06T06:50:32Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1993.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1993.parquet",
+      "sha256": "ff8680bb6e3f3eac19773157bd712e5c2ad521f208e367ef80faddbd9a078792",
+      "bytes_written": 193164
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1994.parquet",
+      "size": 189210,
+      "updated_at": "2023-09-06T06:51:06Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1994.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1994.parquet",
+      "sha256": "0a386b4e7e9b0e85ae8ab9b0c8c2d49bd9afd3e448da295760398017cfece36a",
+      "bytes_written": 189210
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1995.parquet",
+      "size": 205541,
+      "updated_at": "2023-09-06T06:51:40Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1995.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1995.parquet",
+      "sha256": "67c76a5ffb1c3a4903f9dd81bb7a0bec8f3c7f08137bb255e805c491f5c304e4",
+      "bytes_written": 205541
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1996.parquet",
+      "size": 208028,
+      "updated_at": "2023-09-06T06:52:15Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1996.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1996.parquet",
+      "sha256": "cd433fe1190f0b3bdfbb7572bc401aab3facc1b92f63da4098304cd5b2dbbf26",
+      "bytes_written": 208028
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1997.parquet",
+      "size": 209280,
+      "updated_at": "2023-09-06T06:52:51Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1997.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1997.parquet",
+      "sha256": "a8e035e7b8bdc7bd61f462e9e383dac4c3c7252fa6e977c0d4550033fa366323",
+      "bytes_written": 209280
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1998.parquet",
+      "size": 214359,
+      "updated_at": "2023-09-06T06:53:25Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1998.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1998.parquet",
+      "sha256": "f4c8b0b5c63636b61cc21f7c29ea64960917489b99aca7442a49d518c4f68dd2",
+      "bytes_written": 214359
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_1999.parquet",
+      "size": 223427,
+      "updated_at": "2023-09-06T06:53:58Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_1999.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_1999.parquet",
+      "sha256": "0037ed9bae492bc8ccbb570275bc353880959e246a3d6cbc2949d0adccd4f424",
+      "bytes_written": 223427
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2000.parquet",
+      "size": 227129,
+      "updated_at": "2023-09-06T06:54:32Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2000.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2000.parquet",
+      "sha256": "f0fd6ef49edf561755da358acca7fff937df15a028dd8e578f8e5470887864a0",
+      "bytes_written": 227129
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2001.parquet",
+      "size": 229764,
+      "updated_at": "2023-09-06T06:55:07Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2001.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2001.parquet",
+      "sha256": "4cbc78dbff47a066469ce6ceae40ed1f0e24f934996f83e91b581aa0e0e35146",
+      "bytes_written": 229764
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2002.parquet",
+      "size": 246721,
+      "updated_at": "2023-09-06T17:09:15Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2002.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2002.parquet",
+      "sha256": "57a965ca9eed53142941a008d673e8676755548b75e7470ea87b56d20cc39dbe",
+      "bytes_written": 246721
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2003.parquet",
+      "size": 250312,
+      "updated_at": "2023-09-06T17:12:54Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2003.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2003.parquet",
+      "sha256": "07273ca2efbecfd7bb2e247245b5a1417515abadd18f3b9f914f738dfbf91a9a",
+      "bytes_written": 250312
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2004.parquet",
+      "size": 254749,
+      "updated_at": "2023-09-06T17:16:25Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2004.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2004.parquet",
+      "sha256": "682c0179a692d6321e2fac93f0a61912b77afd69ea0cda57c983f52a22d59be0",
+      "bytes_written": 254749
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2005.parquet",
+      "size": 258714,
+      "updated_at": "2023-09-06T17:20:05Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2005.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2005.parquet",
+      "sha256": "fc45c8693b2aba5f6584f60cf7c910e023143b3d3f44d85bd985a80d1f3ea9d5",
+      "bytes_written": 258714
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2006.parquet",
+      "size": 263384,
+      "updated_at": "2023-09-06T17:23:46Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2006.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2006.parquet",
+      "sha256": "bc4d25587d712c5aae5fe4d3afccf24948b16c14fb02b6bd705c242d69c3340d",
+      "bytes_written": 263384
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2007.parquet",
+      "size": 269034,
+      "updated_at": "2023-09-06T17:27:17Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2007.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2007.parquet",
+      "sha256": "4caf437944b7c4ea0ed1429851c3cd37a5fc1c2610da2cb38a74b51f556125fd",
+      "bytes_written": 269034
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2008.parquet",
+      "size": 275314,
+      "updated_at": "2023-09-06T17:30:45Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2008.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2008.parquet",
+      "sha256": "43fc467ab23d11e3f32cac804b1ba64eac96087c022c309c33091cf929f78ebb",
+      "bytes_written": 275314
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2009.parquet",
+      "size": 283617,
+      "updated_at": "2023-09-06T17:34:16Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2009.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2009.parquet",
+      "sha256": "958fa64c44e78fe91988c61a2607886f0fcfcbb0cdc1262d871d792c18000d68",
+      "bytes_written": 283617
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2010.parquet",
+      "size": 296031,
+      "updated_at": "2023-09-06T17:37:44Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2010.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2010.parquet",
+      "sha256": "7cdf397d498df9fed8b86714f339b87cb3d8b9876f56fd782791ea81cbbf8009",
+      "bytes_written": 296031
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2011.parquet",
+      "size": 304268,
+      "updated_at": "2023-09-06T17:41:15Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2011.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2011.parquet",
+      "sha256": "11eae922edd6f77ebba75560d604bd3ab21030a75c6eaf113cfb609b7b1283a0",
+      "bytes_written": 304268
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2012.parquet",
+      "size": 318855,
+      "updated_at": "2023-09-06T17:44:44Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2012.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2012.parquet",
+      "sha256": "016ae9c3f447521e0c3e4e570e449fdc3a752905be152ab2ad757f3bc12911a3",
+      "bytes_written": 318855
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2013.parquet",
+      "size": 331575,
+      "updated_at": "2023-09-06T17:48:10Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2013.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2013.parquet",
+      "sha256": "c5629b691d7182f3ef6044e3a4f687b439755efc2bf7855ecc2eb32adf074f06",
+      "bytes_written": 331575
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2014.parquet",
+      "size": 350575,
+      "updated_at": "2023-09-06T17:51:38Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2014.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2014.parquet",
+      "sha256": "24ff5af09bf06e7da21bd86213cbff6546cc87bbf679b2516c2e85202621fc05",
+      "bytes_written": 350575
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2015.parquet",
+      "size": 370744,
+      "updated_at": "2023-09-06T17:55:11Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2015.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2015.parquet",
+      "sha256": "4c745ba50ba3def3354d924ea871c474e76517a341a6fdc9a5e3d9f212e847eb",
+      "bytes_written": 370744
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2016.parquet",
+      "size": 502416,
+      "updated_at": "2023-09-13T00:43:48Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2016.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2016.parquet",
+      "sha256": "a99e54a253f9cfa2ff59158264ddcbe72d05aee601258eaa2ec928bd2400b0f5",
+      "bytes_written": 502416
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2017.parquet",
+      "size": 539689,
+      "updated_at": "2023-09-13T00:49:11Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2017.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2017.parquet",
+      "sha256": "e8e6b9b056e4e6e99f72498070dfe7ca217d8c7cb5af9f606c9a0324e8bc3cb5",
+      "bytes_written": 539689
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2018.parquet",
+      "size": 573712,
+      "updated_at": "2023-09-13T00:54:25Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2018.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2018.parquet",
+      "sha256": "259532b0bd2f68e01db949023e9f001878c9da9d2c912fef5352324d08b9df07",
+      "bytes_written": 573712
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2019.parquet",
+      "size": 582005,
+      "updated_at": "2023-09-13T00:59:48Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2019.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2019.parquet",
+      "sha256": "8aeee315dbf27fc07d5a41a65ac0be0cb00bd63c4a4a23298e0b15228cedd49f",
+      "bytes_written": 582005
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2020.parquet",
+      "size": 582955,
+      "updated_at": "2023-09-13T01:05:03Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2020.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2020.parquet",
+      "sha256": "f511f31fe0472c0d0bca87583240c68ca7dc1294f9b7975f5793655bd4598948",
+      "bytes_written": 582955
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2021.parquet",
+      "size": 559243,
+      "updated_at": "2023-09-13T01:10:40Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2021.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2021.parquet",
+      "sha256": "6201527093636f44ac74d94f88d57b65bc48c3818c65854ee092b742d6ae6e47",
+      "bytes_written": 559243
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2022.parquet",
+      "size": 559611,
+      "updated_at": "2023-09-13T01:16:17Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2022.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2022.parquet",
+      "sha256": "1d8e7987d2b07f510fdce9977354a960041064fdc4a51816cb51540f7835e193",
+      "bytes_written": 559611
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2023.parquet",
+      "size": 554634,
+      "updated_at": "2024-03-14T07:18:17Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2023.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2023.parquet",
+      "sha256": "66dcb7d0e203c41b49e997b93eb55ed77bcc960e5dd0774b7e2426a87cef3c90",
+      "bytes_written": 554634
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2024.parquet",
+      "size": 566179,
+      "updated_at": "2025-03-14T07:16:10Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2024.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2024.parquet",
+      "sha256": "bd38dbe785728c6b4ddc0b56b7d4fee69a8337595db3b631528d284253c04aaf",
+      "bytes_written": 566179
+    },
+    {
+      "tag": "rosters",
+      "name": "roster_2025.parquet",
+      "size": 583482,
+      "updated_at": "2026-01-12T07:22:36Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2025.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\rosters\\roster_2025.parquet",
+      "sha256": "1c3aacbe2f6344c9e00c2da46424cda3717e88874caf2a248160d433e6661b30",
+      "bytes_written": 583482
+    },
+    {
+      "tag": "schedules",
+      "name": "games.parquet",
+      "size": 506706,
+      "updated_at": "2026-01-13T05:46:26Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\schedules\\games.parquet",
+      "sha256": "a13c7713cb4c8d87c5f98b5ba5255fed83017698e18c879561654ff7f1f73f3e",
+      "bytes_written": 506706
+    },
+    {
+      "tag": "weekly_rosters",
+      "name": "roster_weekly_2002.parquet",
+      "size": 344387,
+      "updated_at": "2023-09-06T17:08:46Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2002.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\weekly_rosters\\roster_weekly_2002.parquet",
+      "sha256": "a2d5dc5940810def44d4ef0f09ea8cd1be957f668eb0b886d39106f2f5d3c6be",
+      "bytes_written": 344387
+    },
+    {
+      "tag": "weekly_rosters",
+      "name": "roster_weekly_2003.parquet",
+      "size": 347848,
+      "updated_at": "2023-09-06T17:12:25Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2003.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\weekly_rosters\\roster_weekly_2003.parquet",
+      "sha256": "cd067170b4d0f2d6a0e2f7186acba811c30572abac6bf12d5460977fc716d53f",
+      "bytes_written": 347848
+    },
+    {
+      "tag": "weekly_rosters",
+      "name": "roster_weekly_2004.parquet",
+      "size": 355485,
+      "updated_at": "2023-09-06T17:15:54Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2004.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\weekly_rosters\\roster_weekly_2004.parquet",
+      "sha256": "9be1b1030da8aff6297286d6d75fd17fe6cc4765aca159ab70814e675c1eee72",
+      "bytes_written": 355485
+    },
+    {
+      "tag": "weekly_rosters",
+      "name": "roster_weekly_2005.parquet",
+      "size": 359701,
+      "updated_at": "2023-09-06T17:19:35Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2005.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\weekly_rosters\\roster_weekly_2005.parquet",
+      "sha256": "c893ca0cdec925c2275212ebd26de810c3cfa97270ed80a503d6d68e10010c99",
+      "bytes_written": 359701
+    },
+    {
+      "tag": "weekly_rosters",
+      "name": "roster_weekly_2006.parquet",
+      "size": 363219,
+      "updated_at": "2023-09-06T17:23:15Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2006.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\weekly_rosters\\roster_weekly_2006.parquet",
+      "sha256": "b57ba8675abd7d7b19081955376fb4518b60e998f1121fe739766939d3634810",
+      "bytes_written": 363219
+    },
+    {
+      "tag": "weekly_rosters",
+      "name": "roster_weekly_2007.parquet",
+      "size": 370981,
+      "updated_at": "2023-09-06T17:26:48Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2007.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\weekly_rosters\\roster_weekly_2007.parquet",
+      "sha256": "1aa703d394ddee75047a10b33cf23afc7cf681e1d1a60b6463939e53be5e4242",
+      "bytes_written": 370981
+    },
+    {
+      "tag": "weekly_rosters",
+      "name": "roster_weekly_2008.parquet",
+      "size": 382299,
+      "updated_at": "2023-09-06T17:30:16Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2008.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\weekly_rosters\\roster_weekly_2008.parquet",
+      "sha256": "bd48ad0b26d27c58d6b09c971cad8f1f86fa5f511a6b12767a8b5cf515a9518b",
+      "bytes_written": 382299
+    },
+    {
+      "tag": "weekly_rosters",
+      "name": "roster_weekly_2009.parquet",
+      "size": 393823,
+      "updated_at": "2023-09-06T17:33:46Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2009.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\weekly_rosters\\roster_weekly_2009.parquet",
+      "sha256": "6142235c4b51796e7a164ff6de6daf08e37ac54764765991960fd030af3e9543",
+      "bytes_written": 393823
+    },
+    {
+      "tag": "weekly_rosters",
+      "name": "roster_weekly_2010.parquet",
+      "size": 413377,
+      "updated_at": "2023-09-06T17:37:14Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2010.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\weekly_rosters\\roster_weekly_2010.parquet",
+      "sha256": "b41f681e977b3d4128e8c897f1f1b50dbe55616a51a619588e3c122b025769e6",
+      "bytes_written": 413377
+    },
+    {
+      "tag": "weekly_rosters",
+      "name": "roster_weekly_2011.parquet",
+      "size": 423532,
+      "updated_at": "2023-09-06T17:40:42Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2011.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\weekly_rosters\\roster_weekly_2011.parquet",
+      "sha256": "1764068c995dbb842baa936bff4abcc399f4738f0b4bb321fc437ed8eadbc426",
+      "bytes_written": 423532
+    },
+    {
+      "tag": "weekly_rosters",
+      "name": "roster_weekly_2012.parquet",
+      "size": 443790,
+      "updated_at": "2023-09-06T17:44:14Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2012.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\weekly_rosters\\roster_weekly_2012.parquet",
+      "sha256": "32a218e187e553abdeacd107ae9c76c321e258809d18578f1b1267882f1c0b29",
+      "bytes_written": 443790
+    },
+    {
+      "tag": "weekly_rosters",
+      "name": "roster_weekly_2013.parquet",
+      "size": 461709,
+      "updated_at": "2023-09-06T17:47:40Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2013.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\weekly_rosters\\roster_weekly_2013.parquet",
+      "sha256": "bb68c0e5dba854c4d0b7dda4331456df701c06a66160b96decdfdc1b71147663",
+      "bytes_written": 461709
+    },
+    {
+      "tag": "weekly_rosters",
+      "name": "roster_weekly_2014.parquet",
+      "size": 489433,
+      "updated_at": "2023-09-06T17:51:06Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2014.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\weekly_rosters\\roster_weekly_2014.parquet",
+      "sha256": "51ae5047bb95297e039ba3d6560cee1ed16407f2e91897f6c9c79aafecdef397",
+      "bytes_written": 489433
+    },
+    {
+      "tag": "weekly_rosters",
+      "name": "roster_weekly_2015.parquet",
+      "size": 511974,
+      "updated_at": "2023-09-06T17:54:39Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2015.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\weekly_rosters\\roster_weekly_2015.parquet",
+      "sha256": "61a57f4484a556d4cad1cf50030a8a8822a345eace783e013f8ba8ae2f721243",
+      "bytes_written": 511974
+    },
+    {
+      "tag": "weekly_rosters",
+      "name": "roster_weekly_2016.parquet",
+      "size": 754038,
+      "updated_at": "2023-09-13T00:43:18Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2016.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\weekly_rosters\\roster_weekly_2016.parquet",
+      "sha256": "70d0ceab697860e946a2acdafcae48809015dcdaf06bd21d26777473cff7db8f",
+      "bytes_written": 754038
+    },
+    {
+      "tag": "weekly_rosters",
+      "name": "roster_weekly_2017.parquet",
+      "size": 734927,
+      "updated_at": "2023-09-13T00:48:42Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2017.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\weekly_rosters\\roster_weekly_2017.parquet",
+      "sha256": "2f633cf331f561ea5346238a1808e8a68811eb280084e75f0dd09880535c5012",
+      "bytes_written": 734927
+    },
+    {
+      "tag": "weekly_rosters",
+      "name": "roster_weekly_2018.parquet",
+      "size": 762634,
+      "updated_at": "2023-09-13T00:53:56Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2018.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\weekly_rosters\\roster_weekly_2018.parquet",
+      "sha256": "0fcd3c3f098dbb5350be2095959acf38202602c6b3c71475e883fabda23077a8",
+      "bytes_written": 762634
+    },
+    {
+      "tag": "weekly_rosters",
+      "name": "roster_weekly_2019.parquet",
+      "size": 778811,
+      "updated_at": "2023-09-13T00:59:18Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2019.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\weekly_rosters\\roster_weekly_2019.parquet",
+      "sha256": "08ef64996cecdff2f4631ca26b21ed9a39bf5fba0b3379d902e531facf81e5c4",
+      "bytes_written": 778811
+    },
+    {
+      "tag": "weekly_rosters",
+      "name": "roster_weekly_2020.parquet",
+      "size": 843938,
+      "updated_at": "2023-09-13T01:04:33Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2020.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\weekly_rosters\\roster_weekly_2020.parquet",
+      "sha256": "8d601bf5c5d669465481421ad5cd1a1470d51792054e84bdc04f3620785f7530",
+      "bytes_written": 843938
+    },
+    {
+      "tag": "weekly_rosters",
+      "name": "roster_weekly_2021.parquet",
+      "size": 817361,
+      "updated_at": "2023-09-13T01:10:12Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2021.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\weekly_rosters\\roster_weekly_2021.parquet",
+      "sha256": "3e9f67569e940b54b3778ef2c9150850920b5bf93143bad3bd158e649825cf6b",
+      "bytes_written": 817361
+    },
+    {
+      "tag": "weekly_rosters",
+      "name": "roster_weekly_2022.parquet",
+      "size": 803573,
+      "updated_at": "2023-09-13T01:15:47Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2022.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\weekly_rosters\\roster_weekly_2022.parquet",
+      "sha256": "063c0da93f612811e1c4a4c12727a56fd2716197864795f15aa2f10a591b00c0",
+      "bytes_written": 803573
+    },
+    {
+      "tag": "weekly_rosters",
+      "name": "roster_weekly_2023.parquet",
+      "size": 794392,
+      "updated_at": "2024-03-14T07:17:51Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2023.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\weekly_rosters\\roster_weekly_2023.parquet",
+      "sha256": "0fa5abf9b462a087ecb17f3268ed7233ce9935e95d77be94ad6bac66adf8e281",
+      "bytes_written": 794392
+    },
+    {
+      "tag": "weekly_rosters",
+      "name": "roster_weekly_2024.parquet",
+      "size": 829272,
+      "updated_at": "2025-03-14T07:16:07Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2024.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\weekly_rosters\\roster_weekly_2024.parquet",
+      "sha256": "4b144e8eda5a159f36037b02e8b7d5a7861acb65b0816b0a063244992038dcf8",
+      "bytes_written": 829272
+    },
+    {
+      "tag": "weekly_rosters",
+      "name": "roster_weekly_2025.parquet",
+      "size": 837196,
+      "updated_at": "2026-01-12T07:22:34Z",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2025.parquet",
+      "path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\data\\nflverse\\weekly_rosters\\roster_weekly_2025.parquet",
+      "sha256": "041fcbf0e54c5554644ee0b58546e40f59cb88bb9ab34675fdbc1a9da999af99",
+      "bytes_written": 837196
+    }
+  ],
+  "errors": []
+}

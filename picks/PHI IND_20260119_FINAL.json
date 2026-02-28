@@ -1,0 +1,40 @@
+{
+  "date": "2026-01-19",
+  "timestamp": "2026-01-19T18:24:57.451064",
+  "slate": "PHI IND",
+  "source_file": "PHI IND_RISK_FIRST_20260119_FROM_UD.json",
+  "summary": {
+    "play_count": 1,
+    "lean_count": 2,
+    "total": 3
+  },
+  "picks": [
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "stat": "rebounds",
+      "line": 8.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 71.2
+    },
+    {
+      "player": "Johnny Furphy",
+      "team": "IND",
+      "stat": "rebounds",
+      "line": 5.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.6
+    },
+    {
+      "player": "T.J. McConnell",
+      "team": "IND",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 66.0
+    }
+  ]
+}

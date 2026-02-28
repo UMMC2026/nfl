@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "sport": "CBB",
+    "generated": "2026-02-01T06:11:10.864105",
+    "n_picks": 111
+  },
+  "summary": {
+    "n_picks": 97,
+    "n_hits": 47,
+    "hit_rate": 0.4845,
+    "brier_score": 0.2597,
+    "log_loss": 0.7166,
+    "roi": -0.075,
+    "profit_units": -7.27,
+    "expected_value": 0.0381,
+    "kelly_fraction": -0.0825,
+    "avg_probability": 0.5437
+  },
+  "brier_decomposition": {
+    "reliability": 0.0208,
+    "resolution": 0.0108,
+    "uncertainty": 0.2498,
+    "brier_reconstructed": 0.2598
+  },
+  "calibration_buckets": [
+    {
+      "range": "0.1-0.2",
+      "n": 1,
+      "predicted": 0.116,
+      "observed": 1.0,
+      "error": -0.884,
+      "calibration_error": 0.884
+    },
+    {
+      "range": "0.3-0.4",
+      "n": 1,
+      "predicted": 0.37,
+      "observed": 1.0,
+      "error": -0.63,
+      "calibration_error": 0.63
+    },
+    {
+      "range": "0.4-0.5",
+      "n": 1,
+      "predicted": 0.424,
+      "observed": 0.0,
+      "error": 0.424,
+      "calibration_error": 0.424
+    },
+    {
+      "range": "0.5-0.6",
+      "n": 93,
+      "predicted": 0.5501,
+      "observed": 0.4731,
+      "error": 0.0769,
+      "calibration_error": 0.0769
+    },
+    {
+      "range": "0.6-0.7",
+      "n": 1,
+      "predicted": 0.677,
+      "observed": 1.0,
+      "error": -0.323,
+      "calibration_error": 0.323
+    }
+  ],
+  "by_tier": {
+    "USER": {
+      "n": 97,
+      "hits": 47,
+      "hit_rate": 0.4845,
+      "brier": 0.2597
+    }
+  },
+  "by_stat": {
+    "3PM": {
+      "n": 15,
+      "hits": 8,
+      "hit_rate": 0.5333,
+      "brier": 0.2807
+    },
+    "PRA": {
+      "n": 18,
+      "hits": 9,
+      "hit_rate": 0.5,
+      "brier": 0.2527
+    },
+    "REB": {
+      "n": 14,
+      "hits": 7,
+      "hit_rate": 0.5,
+      "brier": 0.2525
+    },
+    "AST": {
+      "n": 5,
+      "hits": 3,
+      "hit_rate": 0.6,
+      "brier": 0.2425
+    },
+    "PTS": {
+      "n": 20,
+      "hits": 10,
+      "hit_rate": 0.5,
+      "brier": 0.2525
+    },
+    "PTS+AST": {
+      "n": 8,
+      "hits": 3,
+      "hit_rate": 0.375,
+      "brier": 0.274
+    }
+  },
+  "by_direction": {
+    "UNDER": {
+      "n": 33,
+      "hits": 17,
+      "hit_rate": 0.5152,
+      "brier": 0.2511
+    },
+    "OVER": {
+      "n": 64,
+      "hits": 30,
+      "hit_rate": 0.4688,
+      "brier": 0.2641
+    }
+  },
+  "quality_assessment": {
+    "brier_target": 0.24,
+    "brier_status": "FAIL",
+    "hit_rate_target": 0.525,
+    "hit_rate_status": "FAIL",
+    "roi_target": 0.0,
+    "roi_status": "FAIL",
+    "calibration_target": 0.02,
+    "calibration_status": "FAIL",
+    "overall": "UNPROFITABLE"
+  }
+}

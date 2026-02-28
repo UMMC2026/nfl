@@ -1,0 +1,157 @@
+{
+  "timestamp": "2026-02-08T16:04:43.752124",
+  "total_props_analyzed": 5,
+  "edges_generated": 5,
+  "primary_edges": 5,
+  "failed": 0,
+  "summary": {
+    "total_edges": 5,
+    "avg_probability": 0.38456,
+    "by_market": {
+      "pass_tds": 1,
+      "pass_rush_yards": 1,
+      "pass_yards": 1,
+      "rush_rec_yards": 1,
+      "receiving_yards": 1
+    },
+    "by_position": {
+      "UNKNOWN": 5
+    },
+    "prob_distribution": {
+      "50-60%": 0,
+      "60-70%": 0,
+      "70-80%": 0,
+      "80%+": 2
+    },
+    "top_markets": [
+      [
+        "pass_tds",
+        [
+          {
+            "player_id": "mahomes_patrick",
+            "player_name": "Patrick Mahomes",
+            "game_id": "2026_CONF_CHAMP_KC_BUF",
+            "market": "pass_tds",
+            "line": 2.5,
+            "direction": "over",
+            "probability": 0.9965,
+            "edge_strength": 0.49650000000000005
+          }
+        ]
+      ],
+      [
+        "pass_rush_yards",
+        [
+          {
+            "player_id": "allen_josh",
+            "player_name": "Josh Allen",
+            "game_id": "2026_CONF_CHAMP_KC_BUF",
+            "market": "pass_rush_yards",
+            "line": 295.5,
+            "direction": "over",
+            "probability": 0.8462,
+            "edge_strength": 0.34619999999999995
+          }
+        ]
+      ],
+      [
+        "pass_yards",
+        [
+          {
+            "player_id": "mahomes_patrick",
+            "player_name": "Patrick Mahomes",
+            "game_id": "2026_CONF_CHAMP_KC_BUF",
+            "market": "pass_yards",
+            "line": 275.5,
+            "direction": "over",
+            "probability": 0.0801,
+            "edge_strength": -0.4199
+          }
+        ]
+      ],
+      [
+        "rush_rec_yards",
+        [
+          {
+            "player_id": "mccaffrey_christian",
+            "player_name": "Christian McCaffrey",
+            "game_id": "2026_CONF_CHAMP_SF_PHI",
+            "market": "rush_rec_yards",
+            "line": 135.5,
+            "direction": "over",
+            "probability": 0.0,
+            "edge_strength": -0.5
+          }
+        ]
+      ],
+      [
+        "receiving_yards",
+        [
+          {
+            "player_id": "kelce_travis",
+            "player_name": "Travis Kelce",
+            "game_id": "2026_CONF_CHAMP_KC_BUF",
+            "market": "receiving_yards",
+            "line": 65.5,
+            "direction": "over",
+            "probability": 0.0,
+            "edge_strength": -0.5
+          }
+        ]
+      ]
+    ]
+  },
+  "edges": [
+    {
+      "player_id": "mahomes_patrick",
+      "player_name": "Patrick Mahomes",
+      "game_id": "2026_CONF_CHAMP_KC_BUF",
+      "market": "pass_tds",
+      "line": 2.5,
+      "direction": "over",
+      "probability": 0.9965,
+      "edge_strength": 0.49650000000000005
+    },
+    {
+      "player_id": "allen_josh",
+      "player_name": "Josh Allen",
+      "game_id": "2026_CONF_CHAMP_KC_BUF",
+      "market": "pass_rush_yards",
+      "line": 295.5,
+      "direction": "over",
+      "probability": 0.8462,
+      "edge_strength": 0.34619999999999995
+    },
+    {
+      "player_id": "mahomes_patrick",
+      "player_name": "Patrick Mahomes",
+      "game_id": "2026_CONF_CHAMP_KC_BUF",
+      "market": "pass_yards",
+      "line": 275.5,
+      "direction": "over",
+      "probability": 0.0801,
+      "edge_strength": -0.4199
+    },
+    {
+      "player_id": "mccaffrey_christian",
+      "player_name": "Christian McCaffrey",
+      "game_id": "2026_CONF_CHAMP_SF_PHI",
+      "market": "rush_rec_yards",
+      "line": 135.5,
+      "direction": "over",
+      "probability": 0.0,
+      "edge_strength": -0.5
+    },
+    {
+      "player_id": "kelce_travis",
+      "player_name": "Travis Kelce",
+      "game_id": "2026_CONF_CHAMP_KC_BUF",
+      "market": "receiving_yards",
+      "line": 65.5,
+      "direction": "over",
+      "probability": 0.0,
+      "edge_strength": -0.5
+    }
+  ],
+  "failures": []
+}

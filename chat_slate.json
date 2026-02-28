@@ -1,0 +1,67 @@
+{
+  "games": [
+    {
+      "away": "BUF",
+      "home": "DEN",
+      "datetime": "Sat 3:30PM CST"
+    }
+  ],
+  "props": [
+    {
+      "player": "James Cook",
+      "team": "BUF",
+      "stat": "rush_rec_tds",
+      "line": 0.5,
+      "direction": "higher"
+    },
+    {
+      "player": "James Cook",
+      "team": "BUF",
+      "stat": "rush_yds",
+      "line": 81.5,
+      "direction": "higher"
+    },
+    {
+      "player": "James Cook",
+      "team": "BUF",
+      "stat": "rec_yds",
+      "line": 15.5,
+      "direction": "higher"
+    },
+    {
+      "player": "James Cook",
+      "team": "BUF",
+      "stat": "receptions",
+      "line": 2.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Courtland Sutton",
+      "team": "DEN",
+      "stat": "rush_rec_tds",
+      "line": 0.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Courtland Sutton",
+      "team": "DEN",
+      "stat": "rec_yds",
+      "line": 51.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Courtland Sutton",
+      "team": "DEN",
+      "stat": "receptions",
+      "line": 4.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Courtland Sutton",
+      "team": "DEN",
+      "stat": "longest_rec",
+      "line": 20.5,
+      "direction": "higher"
+    }
+  ]
+}

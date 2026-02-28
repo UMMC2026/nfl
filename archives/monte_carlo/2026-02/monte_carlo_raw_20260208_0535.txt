@@ -1,0 +1,73 @@
+======================================================================
+MONTE CARLO ENTRY OPTIMIZATION
+Generated: 2026-02-08T05:35:24.858806
+======================================================================
+
+STAT KEY (basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made (aka 3PT/3PTS) | STOCKS=STL+BLK | PRA=PTS+REB+AST
+
+RUN CONTEXT:
+   League inferred: NBA
+   Picks: 56 qualifying (from 753 analyzed)
+   Filter pass: UNFILTERED_DIRECT
+   Constraints: max_same_game=1, max_primary_per_game=1
+
+BEST POWER ENTRY:
+   3L POWER | EV=+0.61 | Sharpe=0.23 | P(profit)=26.8% | Bam Adebayo PTS <21.5; Jaden McDaniels STL <0.5; Jalen Brunson TOV <2.5
+   Kelly stake: 2.1% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=64.5%, min p_hit=60.1%
+   Stat mix: PTS:1, STL:1, TOV:1
+   Same-game buckets: BOS@NYK:1, LAC@MIN:1, MIA@WAS:1
+   LEGS (what each pick is):
+    1. Bam Adebayo PTS <21.5 (MIA vs WAS) | p_hit=66.9% | PRIMARY_SAFE
+    2. Jaden McDaniels STL <0.5 (MIN vs LAC) | p_hit=66.6% | PRIMARY_SAFE
+    3. Jalen Brunson TOV <2.5 (NYK vs BOS) | p_hit=60.1% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST FLEX ENTRY:
+   4L FLEX | EV=+0.36 | Sharpe=0.21 | P(profit)=53.3% | Bam Adebayo PTS <21.5; Jaden McDaniels STL <0.5; Jalen Brunson TOV <2.5; Pascal Siakam REB <7
+   Kelly stake: 3.0% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=63.3%, min p_hit=59.7%
+   Stat mix: PTS:1, REB:1, STL:1, TOV:1
+   Same-game buckets: BOS@NYK:1, IND@TOR:1, LAC@MIN:1, MIA@WAS:1
+   LEGS (what each pick is):
+    1. Bam Adebayo PTS <21.5 (MIA vs WAS) | p_hit=66.9% | PRIMARY_SAFE
+    2. Jaden McDaniels STL <0.5 (MIN vs LAC) | p_hit=66.6% | PRIMARY_SAFE
+    3. Jalen Brunson TOV <2.5 (NYK vs BOS) | p_hit=60.1% | FRAGILE
+    4. Pascal Siakam REB <7 (IND vs TOR) | p_hit=59.7% | PRIMARY_SAFE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST RISK-ADJUSTED (Sharpe):
+   3L POWER | EV=+0.61 | Sharpe=0.23 | P(profit)=26.8% | Bam Adebayo PTS <21.5; Jaden McDaniels STL <0.5; Jalen Brunson TOV <2.5
+   ENTRY SNAPSHOT: avg p_hit=64.5%, min p_hit=60.1%
+   Stat mix: PTS:1, STL:1, TOV:1
+   Same-game buckets: BOS@NYK:1, LAC@MIN:1, MIA@WAS:1
+   LEGS (what each pick is):
+    1. Bam Adebayo PTS <21.5 (MIA vs WAS) | p_hit=66.9% | PRIMARY_SAFE
+    2. Jaden McDaniels STL <0.5 (MIN vs LAC) | p_hit=66.6% | PRIMARY_SAFE
+    3. Jalen Brunson TOV <2.5 (NYK vs BOS) | p_hit=60.1% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+----------------------------------------------------------------------
+TOP 10 ENTRIES BY EV:
+----------------------------------------------------------------------
+ 1. 3L POWER | EV=+0.61 | Sharpe=0.23 | P(profit)=26.8% | Bam Adebayo PTS <21.5; Jaden McDaniels STL <0.5; Jalen Brunson TOV <2.5
+ 2. 3L POWER | EV=+0.60 | Sharpe=0.23 | P(profit)=26.7% | Bam Adebayo PTS <21.5; Jaden McDaniels REB <4; Jalen Brunson TOV <2.5
+ 3. 4L POWER | EV=+0.60 | Sharpe=0.16 | P(profit)=16.0% | Bam Adebayo PTS <21.5; Jaden McDaniels STL <0.5; Jalen Brunson TOV <2.5; Pascal Siakam REB <7
+ 4. 3L POWER | EV=+0.59 | Sharpe=0.22 | P(profit)=26.6% | Bam Adebayo PTS <21.5; Jaden McDaniels STL <0.5; Pascal Siakam REB <7
+ 5. 4L POWER | EV=+0.59 | Sharpe=0.16 | P(profit)=15.9% | Bam Adebayo PTS <21.5; Jaden McDaniels REB <4; Jalen Brunson TOV <2.5; Pascal Siakam REB <7
+ 6. 3L POWER | EV=+0.59 | Sharpe=0.22 | P(profit)=26.5% | Bam Adebayo PTS <21.5; Jaden McDaniels REB <4; Pascal Siakam REB <7
+ 7. 4L POWER | EV=+0.55 | Sharpe=0.15 | P(profit)=15.5% | Bam Adebayo PTS <21.5; Jaden McDaniels STL <0.5; Jalen Brunson TOV <2.5; Johnny Furphy PTS <6.5
+ 8. 3L POWER | EV=+0.55 | Sharpe=0.21 | P(profit)=25.8% | Bam Adebayo PTS <21.5; Jaden McDaniels STL <0.5; Johnny Furphy PTS <6.5
+ 9. 4L POWER | EV=+0.55 | Sharpe=0.15 | P(profit)=15.5% | Bam Adebayo PTS <21.5; Jaden McDaniels REB <4; Jalen Brunson TOV <2.5; Johnny Furphy PTS <6.5
+10. 3L POWER | EV=+0.54 | Sharpe=0.21 | P(profit)=25.7% | Bam Adebayo PTS <21.5; Jaden McDaniels REB <4; Johnny Furphy PTS <6.5

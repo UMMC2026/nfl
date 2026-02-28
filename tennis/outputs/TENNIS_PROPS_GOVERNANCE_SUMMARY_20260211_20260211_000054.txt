@@ -1,0 +1,40 @@
+==============================================================================
+GOVERNANCE SUMMARY - TENNIS_PROPS - 20260211
+==============================================================================
+Created (UTC): 2026-02-11T06:00:54.128412+00:00
+
+COUNTS
+------------------------------------------------------------------------------
+Total results : 52
+Allowed edges : 9
+Blocked edges : 43
+Decision breakdown:
+  - BLOCKED: 43
+  - PLAY: 7
+  - LEAN: 2
+
+TOP BLOCK REASONS
+------------------------------------------------------------------------------
+   34x - pick_state=REJECTED
+    7x - pick_state=VETTED
+    2x - tier=AVOID
+
+TOP PLAY PICKS
+------------------------------------------------------------------------------
+ 1. Adrian Mannarino () sets_played HIGHER 2.5
+    eff=99.4% model=99.4% edge=? z=?
+ 2. Suzan Lamens () breakpoints_won LOWER 4.5
+    eff=85.1% model=85.1% edge=? z=?
+ 3. Stan Wawrinka () breakpoints_won HIGHER 1.5
+    eff=84.8% model=84.8% edge=? z=?
+ 4. Aleksandar Vukic () breakpoints_won HIGHER 1.5
+    eff=83.9% model=83.9% edge=? z=?
+ 5. Arthur Rinderknech () breakpoints_won HIGHER 1.5
+    eff=83.5% model=83.5% edge=? z=?
+ 6. Iryna Shymanovich () aces HIGHER 0.5
+    eff=82.8% model=82.8% edge=? z=?
+ 7. Adrian Mannarino () double_faults HIGHER 1.5
+    eff=75.1% model=75.1% edge=? z=?
+
+TOP LEANS
+... (truncated)

@@ -1,0 +1,77 @@
+======================================================================
+MONTE CARLO ENTRY OPTIMIZATION
+Generated: 2026-01-30T15:51:13.204249
+======================================================================
+
+STAT KEY (basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made (aka 3PT/3PTS) | STOCKS=STL+BLK | PRA=PTS+REB+AST
+
+RUN CONTEXT:
+   League inferred: NBA
+   Picks: 8 qualifying (from 115 analyzed)
+   Filter pass: NBA_STRICT_PRIMARY — PLAY/LEAN only + min conf + primary-safe stats only (PTS/REB/STL/BLK)
+   Filter attempts (qualifying picks): NBA_STRICT_PRIMARY=8
+   Constraints: max_same_game=1, max_primary_per_game=1
+   NBA min confidence: 65.0
+   NBA flags: primary_only=1, playlean_only=1
+
+BEST POWER ENTRY:
+   4L POWER | EV=+3.88 | Sharpe=0.78 | P(profit)=48.8% | Derrick White PTS <22.5; RJ Barrett PTS >9.5; Austin Reaves PTS >15.5; Jaren Jackson PTS <22.5
+   Kelly stake: 3.9% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=83.6%, min p_hit=78.8%
+   Stat mix: PTS:4
+   Same-game buckets: BOS@SAC:1, LAL@UNK:1, MEM@UNK:1, TOR@UNK:1
+   LEGS (what each pick is):
+    1. Derrick White PTS <22.5 (BOS vs SAC) | p_hit=87.5% | PRIMARY_SAFE
+    2. RJ Barrett PTS >9.5 (TOR vs UNK) | p_hit=85.6% | PRIMARY_SAFE
+    3. Austin Reaves PTS >15.5 (LAL vs UNK) | p_hit=78.8% | PRIMARY_SAFE
+    4. Jaren Jackson PTS <22.5 (MEM vs UNK) | p_hit=82.6% | PRIMARY_SAFE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST FLEX ENTRY:
+   4L FLEX | EV=+2.02 | Sharpe=1.01 | P(profit)=87.3% | Derrick White PTS <22.5; RJ Barrett PTS >9.5; Austin Reaves PTS >15.5; Jaren Jackson PTS <22.5
+   Kelly stake: 12.7% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=83.6%, min p_hit=78.8%
+   Stat mix: PTS:4
+   Same-game buckets: BOS@SAC:1, LAL@UNK:1, MEM@UNK:1, TOR@UNK:1
+   LEGS (what each pick is):
+    1. Derrick White PTS <22.5 (BOS vs SAC) | p_hit=87.5% | PRIMARY_SAFE
+    2. RJ Barrett PTS >9.5 (TOR vs UNK) | p_hit=85.6% | PRIMARY_SAFE
+    3. Austin Reaves PTS >15.5 (LAL vs UNK) | p_hit=78.8% | PRIMARY_SAFE
+    4. Jaren Jackson PTS <22.5 (MEM vs UNK) | p_hit=82.6% | PRIMARY_SAFE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST RISK-ADJUSTED (Sharpe):
+   3L FLEX | EV=+0.80 | Sharpe=1.24 | P(profit)=94.2% | Derrick White PTS <22.5; RJ Barrett PTS >9.5; Jaren Jackson PTS <22.5
+   ENTRY SNAPSHOT: avg p_hit=85.3%, min p_hit=82.6%
+   Stat mix: PTS:3
+   Same-game buckets: BOS@SAC:1, MEM@UNK:1, TOR@UNK:1
+   LEGS (what each pick is):
+    1. Derrick White PTS <22.5 (BOS vs SAC) | p_hit=87.5% | PRIMARY_SAFE
+    2. RJ Barrett PTS >9.5 (TOR vs UNK) | p_hit=85.6% | PRIMARY_SAFE
+    3. Jaren Jackson PTS <22.5 (MEM vs UNK) | p_hit=82.6% | PRIMARY_SAFE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+----------------------------------------------------------------------
+TOP 10 ENTRIES BY EV:
+----------------------------------------------------------------------
+ 1. 4L POWER | EV=+3.88 | Sharpe=0.78 | P(profit)=48.8% | Derrick White PTS <22.5; RJ Barrett PTS >9.5; Austin Reaves PTS >15.5; Jaren Jackson PTS <22.5
+ 2. 4L POWER | EV=+3.58 | Sharpe=0.72 | P(profit)=45.8% | Derrick White PTS <22.5; RJ Barrett PTS >9.5; Jaren Jackson PTS <22.5; Jeremiah Fears REB >1.5
+ 3. 4L POWER | EV=+3.36 | Sharpe=0.68 | P(profit)=43.6% | Derrick White PTS <22.5; RJ Barrett PTS >9.5; Austin Reaves PTS >15.5; Jeremiah Fears REB >1.5
+ 4. 4L POWER | EV=+3.29 | Sharpe=0.66 | P(profit)=42.9% | RJ Barrett PTS >9.5; Austin Reaves PTS >15.5; Anfernee Simons PTS <17.5; Jaren Jackson PTS <22.5
+ 5. 4L POWER | EV=+3.21 | Sharpe=0.65 | P(profit)=42.1% | Derrick White PTS <22.5; Austin Reaves PTS >15.5; Jaren Jackson PTS <22.5; Jeremiah Fears REB >1.5
+ 6. 4L POWER | EV=+3.12 | Sharpe=0.63 | P(profit)=41.2% | RJ Barrett PTS >9.5; Austin Reaves PTS >15.5; Jaren Jackson PTS <22.5; Jeremiah Fears REB >1.5
+ 7. 4L POWER | EV=+3.03 | Sharpe=0.62 | P(profit)=40.3% | RJ Barrett PTS >9.5; Anfernee Simons PTS <17.5; Jaren Jackson PTS <22.5; Jeremiah Fears REB >1.5
+ 8. 4L POWER | EV=+2.92 | Sharpe=0.60 | P(profit)=39.2% | RJ Barrett PTS >9.5; Austin Reaves PTS >15.5; Jaren Jackson PTS <22.5; Anfernee Simons REB >1.5
+ 9. 4L POWER | EV=+2.84 | Sharpe=0.58 | P(profit)=38.4% | RJ Barrett PTS >9.5; Austin Reaves PTS >15.5; Anfernee Simons PTS <17.5; Jeremiah Fears REB >1.5
+10. 3L POWER | EV=+2.71 | Sharpe=0.93 | P(profit)=61.9% | Derrick White PTS <22.5; RJ Barrett PTS >9.5; Jaren Jackson PTS <22.5

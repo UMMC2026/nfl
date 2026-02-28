@@ -1,0 +1,910 @@
+{
+  "timestamp": "20260209_123441",
+  "count": 113,
+  "props": [
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "AST",
+      "line": 7.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "AST",
+      "line": 7.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mikel Brown Jr.",
+      "team": "LOU",
+      "stat": "AST",
+      "line": 5.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mikel Brown Jr.",
+      "team": "LOU",
+      "stat": "AST",
+      "line": 5.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ryan Conwell",
+      "team": "LOU",
+      "stat": "PTS",
+      "line": 16.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ryan Conwell",
+      "team": "LOU",
+      "stat": "PTS",
+      "line": 16.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mikel Brown Jr.",
+      "team": "LOU",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mikel Brown Jr.",
+      "team": "LOU",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "PTS",
+      "line": 14.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "PTS",
+      "line": 14.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Paul McNeil Jr.",
+      "team": "NCST",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Paul McNeil Jr.",
+      "team": "NCST",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "J'Vonne Hadley",
+      "team": "LOU",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "J'Vonne Hadley",
+      "team": "LOU",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Isaac McKneely",
+      "team": "LOU",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Isaac McKneely",
+      "team": "LOU",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Holloman",
+      "team": "NCST",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Holloman",
+      "team": "NCST",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Sananda Fru",
+      "team": "LOU",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Sananda Fru",
+      "team": "LOU",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "POINTS+ASSISTS",
+      "line": 20.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "POINTS+ASSISTS",
+      "line": 20.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mikel Brown Jr.",
+      "team": "LOU",
+      "stat": "POINTS+ASSISTS",
+      "line": 19.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mikel Brown Jr.",
+      "team": "LOU",
+      "stat": "POINTS+ASSISTS",
+      "line": 19.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ryan Conwell",
+      "team": "LOU",
+      "stat": "POINTS+ASSISTS",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ryan Conwell",
+      "team": "LOU",
+      "stat": "POINTS+ASSISTS",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "POINTS+ASSISTS",
+      "line": 16.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "POINTS+ASSISTS",
+      "line": 16.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Holloman",
+      "team": "NCST",
+      "stat": "POINTS+ASSISTS",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Holloman",
+      "team": "NCST",
+      "stat": "POINTS+ASSISTS",
+      "line": 12.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "J'Vonne Hadley",
+      "team": "LOU",
+      "stat": "POINTS+ASSISTS",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "J'Vonne Hadley",
+      "team": "LOU",
+      "stat": "POINTS+ASSISTS",
+      "line": 12.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Sananda Fru",
+      "team": "LOU",
+      "stat": "POINTS+ASSISTS",
+      "line": 12.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Sananda Fru",
+      "team": "LOU",
+      "stat": "POINTS+ASSISTS",
+      "line": 12.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Isaac McKneely",
+      "team": "LOU",
+      "stat": "POINTS+ASSISTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Isaac McKneely",
+      "team": "LOU",
+      "stat": "POINTS+ASSISTS",
+      "line": 11.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ryan Conwell",
+      "team": "LOU",
+      "stat": "POINTS+REBOUNDS",
+      "line": 21.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ryan Conwell",
+      "team": "LOU",
+      "stat": "POINTS+REBOUNDS",
+      "line": 21.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "POINTS+REBOUNDS",
+      "line": 19.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "POINTS+REBOUNDS",
+      "line": 19.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "POINTS+REBOUNDS",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "POINTS+REBOUNDS",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mikel Brown Jr.",
+      "team": "LOU",
+      "stat": "POINTS+REBOUNDS",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mikel Brown Jr.",
+      "team": "LOU",
+      "stat": "POINTS+REBOUNDS",
+      "line": 17.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "POINTS+REBOUNDS",
+      "line": 17.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "POINTS+REBOUNDS",
+      "line": 17.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Paul McNeil Jr.",
+      "team": "NCST",
+      "stat": "POINTS+REBOUNDS",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Paul McNeil Jr.",
+      "team": "NCST",
+      "stat": "POINTS+REBOUNDS",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "J'Vonne Hadley",
+      "team": "LOU",
+      "stat": "POINTS+REBOUNDS",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "J'Vonne Hadley",
+      "team": "LOU",
+      "stat": "POINTS+REBOUNDS",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Sananda Fru",
+      "team": "LOU",
+      "stat": "POINTS+REBOUNDS",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Sananda Fru",
+      "team": "LOU",
+      "stat": "POINTS+REBOUNDS",
+      "line": 15.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Isaac McKneely",
+      "team": "LOU",
+      "stat": "POINTS+REBOUNDS",
+      "line": 13.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Isaac McKneely",
+      "team": "LOU",
+      "stat": "POINTS+REBOUNDS",
+      "line": 13.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Holloman",
+      "team": "NCST",
+      "stat": "POINTS+REBOUNDS",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Holloman",
+      "team": "NCST",
+      "stat": "POINTS+REBOUNDS",
+      "line": 12.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "PRA",
+      "line": 24.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "PRA",
+      "line": 24.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ryan Conwell",
+      "team": "LOU",
+      "stat": "PRA",
+      "line": 23.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ryan Conwell",
+      "team": "LOU",
+      "stat": "PRA",
+      "line": 23.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mikel Brown Jr.",
+      "team": "LOU",
+      "stat": "PRA",
+      "line": 22.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Mikel Brown Jr.",
+      "team": "LOU",
+      "stat": "PRA",
+      "line": 22.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "PRA",
+      "line": 21.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "PRA",
+      "line": 21.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "PRA",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "PRA",
+      "line": 18.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Paul McNeil Jr.",
+      "team": "NCST",
+      "stat": "PRA",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Paul McNeil Jr.",
+      "team": "NCST",
+      "stat": "PRA",
+      "line": 17.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "J'Vonne Hadley",
+      "team": "LOU",
+      "stat": "PRA",
+      "line": 17.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "J'Vonne Hadley",
+      "team": "LOU",
+      "stat": "PRA",
+      "line": 17.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Sananda Fru",
+      "team": "LOU",
+      "stat": "PRA",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Sananda Fru",
+      "team": "LOU",
+      "stat": "PRA",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Holloman",
+      "team": "NCST",
+      "stat": "PRA",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Tre Holloman",
+      "team": "NCST",
+      "stat": "PRA",
+      "line": 14.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Isaac McKneely",
+      "team": "LOU",
+      "stat": "PRA",
+      "line": 14.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Isaac McKneely",
+      "team": "LOU",
+      "stat": "PRA",
+      "line": 14.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "REB",
+      "line": 7.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ven-Allen Lubin",
+      "team": "NCST",
+      "stat": "REB",
+      "line": 7.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "REB",
+      "line": 5.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "REB",
+      "line": 5.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ryan Conwell",
+      "team": "LOU",
+      "stat": "REB",
+      "line": 4.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ryan Conwell",
+      "team": "LOU",
+      "stat": "REB",
+      "line": 4.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "REB",
+      "line": 4.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "REB",
+      "line": 4.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Isaac McKneely",
+      "team": "LOU",
+      "stat": "REB",
+      "line": 2.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Isaac McKneely",
+      "team": "LOU",
+      "stat": "REB",
+      "line": 2.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "REBOUNDS+ASSISTS",
+      "line": 11.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "REBOUNDS+ASSISTS",
+      "line": 11.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Sananda Fru",
+      "team": "LOU",
+      "stat": "REBOUNDS+ASSISTS",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Sananda Fru",
+      "team": "LOU",
+      "stat": "REBOUNDS+ASSISTS",
+      "line": 7.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ryan Conwell",
+      "team": "LOU",
+      "stat": "REBOUNDS+ASSISTS",
+      "line": 7.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ryan Conwell",
+      "team": "LOU",
+      "stat": "REBOUNDS+ASSISTS",
+      "line": 7.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "REBOUNDS+ASSISTS",
+      "line": 7.0,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "REBOUNDS+ASSISTS",
+      "line": 7.0,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Isaac McKneely",
+      "team": "LOU",
+      "stat": "REBOUNDS+ASSISTS",
+      "line": 3.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Isaac McKneely",
+      "team": "LOU",
+      "stat": "REBOUNDS+ASSISTS",
+      "line": 3.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Isaac McKneely",
+      "team": "LOU",
+      "stat": "3PM",
+      "line": 2.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Isaac McKneely",
+      "team": "LOU",
+      "stat": "3PM",
+      "line": 2.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ryan Conwell",
+      "team": "LOU",
+      "stat": "PTS",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Ryan Conwell",
+      "team": "LOU",
+      "stat": "PTS",
+      "line": 16.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "POINTS+ASSISTS",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "POINTS+REBOUNDS",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Quadir Copeland",
+      "team": "NCST",
+      "stat": "POINTS+REBOUNDS",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Isaac McKneely",
+      "team": "LOU",
+      "stat": "PRA",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Isaac McKneely",
+      "team": "LOU",
+      "stat": "PRA",
+      "line": 13.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "J'Vonne Hadley",
+      "team": "LOU",
+      "stat": "PRA",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "J'Vonne Hadley",
+      "team": "LOU",
+      "stat": "PRA",
+      "line": 17.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "PRA",
+      "line": 20.5,
+      "direction": "higher",
+      "source": "OddsAPI"
+    },
+    {
+      "player": "Darrion Williams",
+      "team": "NCST",
+      "stat": "PRA",
+      "line": 20.5,
+      "direction": "lower",
+      "source": "OddsAPI"
+    }
+  ]
+}

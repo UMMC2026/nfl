@@ -1,0 +1,48 @@
+{
+  "sport": "TENNIS",
+  "tour": "WTA",
+  "ingested_at": "2026-02-12T03:13:16.046840Z",
+  "sport_key": "tennis_wta_qatar_open",
+  "regions": "us_dfs",
+  "bookmakers": [
+    "prizepicks",
+    "underdog"
+  ],
+  "markets": [
+    "player_aces",
+    "player_double_faults",
+    "player_games_won",
+    "player_sets_won"
+  ],
+  "total_props": 0,
+  "props": [],
+  "meta": {
+    "sport": "TENNIS",
+    "sport_key": "tennis_wta_qatar_open",
+    "regions": "us_dfs",
+    "markets": "player_aces,player_double_faults,player_games_won,player_sets_won",
+    "bookmakers": "prizepicks,underdog",
+    "event_count": 4,
+    "invalid_markets_dropped": [
+      "player_aces",
+      "player_double_faults",
+      "player_games_won",
+      "player_sets_won"
+    ],
+    "used_market_discovery": false,
+    "include_multipliers": true,
+    "quota": {
+      "events_list": {
+        "remaining": 18256,
+        "used": 1744,
+        "last_cost": 0
+      },
+      "last_event_odds": {
+        "remaining": null,
+        "used": null,
+        "last_cost": null
+      }
+    },
+    "raw_event_odds": []
+  }
+}

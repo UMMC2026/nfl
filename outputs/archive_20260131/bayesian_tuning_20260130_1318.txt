@@ -1,0 +1,49 @@
+======================================================================
+BAYESIAN GATE TUNING ANALYSIS
+Generated: 2026-01-30T13:18:25.109167
+Total Samples: 440
+======================================================================
+
+TIER HIT RATES (Posterior Estimates):
+----------------------------------------
+
+STAT HIT RATES (Top/Bottom 5):
+----------------------------------------
+   BLK+STL         | 66.7% (n=1)
+   FG Made         | 66.7% (n=1)
+   Aces            | 66.7% (n=1)
+   REB+AST         | 66.7% (n=1)
+   AST             | 57.1% (n=5)
+   ...
+   pts+reb+ast     | 1.9% (n=50)
+   rebounds        | 1.6% (n=59)
+   points          | 0.9% (n=115)
+
+======================================================================
+RECOMMENDATIONS:
+======================================================================
+
+[MEDIUM] STAT_PENALTY_POINTS
+   Current: 0 -> Recommended: 5
+   Posterior: 0.9% +/- 0.8% (n=115)
+   Rationale: points hitting only 0.9%, recommend adding confidence penalty
+
+[MEDIUM] STAT_PENALTY_ASSISTS
+   Current: 0 -> Recommended: 5
+   Posterior: 2.1% +/- 2.1% (n=45)
+   Rationale: assists hitting only 2.1%, recommend adding confidence penalty
+
+[MEDIUM] STAT_PENALTY_3PM
+   Current: 0 -> Recommended: 5
+   Posterior: 2.6% +/- 2.5% (n=37)
+   Rationale: 3pm hitting only 2.6%, recommend adding confidence penalty
+
+[MEDIUM] STAT_PENALTY_REBOUNDS
+   Current: 0 -> Recommended: 5
+   Posterior: 1.6% +/- 1.6% (n=59)
+   Rationale: rebounds hitting only 1.6%, recommend adding confidence penalty
+
+[MEDIUM] STAT_PENALTY_PTS+REB+AST
+   Current: 0 -> Recommended: 5
+   Posterior: 1.9% +/- 1.9% (n=50)
+   Rationale: pts+reb+ast hitting only 1.9%, recommend adding confidence penalty

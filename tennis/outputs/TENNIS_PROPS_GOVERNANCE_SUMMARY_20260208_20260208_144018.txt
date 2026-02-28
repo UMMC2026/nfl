@@ -1,0 +1,40 @@
+==============================================================================
+GOVERNANCE SUMMARY - TENNIS_PROPS - 20260208
+==============================================================================
+Created (UTC): 2026-02-08T20:40:18.927184+00:00
+
+COUNTS
+------------------------------------------------------------------------------
+Total results : 28
+Allowed edges : 13
+Blocked edges : 15
+Decision breakdown:
+  - BLOCKED: 15
+  - PLAY: 9
+  - LEAN: 4
+
+TOP BLOCK REASONS
+------------------------------------------------------------------------------
+    7x - pick_state=VETTED
+    5x - pick_state=REJECTED
+    3x - tier=AVOID
+
+TOP PLAY PICKS
+------------------------------------------------------------------------------
+ 1. Murphy Cassone () games_won HIGHER 8.5
+    eff=92.7% model=92.7% edge=? z=?
+ 2. Murphy Cassone () sets_won HIGHER 0.5
+    eff=88.9% model=88.9% edge=? z=?
+ 3. Murphy Cassone () 1st_set_games_won HIGHER 4.5
+    eff=75.3% model=75.3% edge=? z=?
+ 4. Bernard Tomic () sets_won HIGHER 0.5
+    eff=75.0% model=75.0% edge=? z=?
+ 5. Sho Shimabukuro () 1st_set_games LOWER 10.5
+    eff=73.7% model=73.7% edge=? z=?
+ 6. Evan Zhu () 1st_set_games HIGHER 8.5
+    eff=73.7% model=73.7% edge=? z=?
+ 7. Bernard Tomic () games_won HIGHER 11.5
+    eff=71.6% model=71.6% edge=? z=?
+ 8. Rafael Jodar () 1st_set_games HIGHER 8.5
+    eff=71.0% model=71.0% edge=? z=?
+... (truncated)

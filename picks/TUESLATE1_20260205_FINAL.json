@@ -1,0 +1,67 @@
+{
+  "date": "2026-02-05",
+  "timestamp": "2026-02-05T00:09:03.374492",
+  "slate": "TUESLATE1",
+  "source_file": "TUESLATE1_RISK_FIRST_20260205_FROM_UD.json",
+  "summary": {
+    "play_count": 0,
+    "lean_count": 6,
+    "total": 6
+  },
+  "picks": [
+    {
+      "player": "Brook Lopez",
+      "team": "LAC",
+      "stat": "points",
+      "line": 9.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 63.6
+    },
+    {
+      "player": "John Collins",
+      "team": "LAC",
+      "stat": "rebounds",
+      "line": 6.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 62.5
+    },
+    {
+      "player": "Kawhi Leonard",
+      "team": "LAC",
+      "stat": "points",
+      "line": 28.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 59.4
+    },
+    {
+      "player": "Sam Merrill",
+      "team": "CLE",
+      "stat": "3pm",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 57.9
+    },
+    {
+      "player": "Jaylon Tyson",
+      "team": "CLE",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 57.4
+    },
+    {
+      "player": "Derrick Jones Jr.",
+      "team": "LAC",
+      "stat": "pra",
+      "line": 10.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 47.9
+    }
+  ]
+}

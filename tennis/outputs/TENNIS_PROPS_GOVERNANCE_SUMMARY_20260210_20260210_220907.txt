@@ -1,0 +1,40 @@
+==============================================================================
+GOVERNANCE SUMMARY - TENNIS_PROPS - 20260210
+==============================================================================
+Created (UTC): 2026-02-11T04:09:07.374335+00:00
+
+COUNTS
+------------------------------------------------------------------------------
+Total results : 24
+Allowed edges : 11
+Blocked edges : 13
+Decision breakdown:
+  - BLOCKED: 13
+  - PLAY: 6
+  - LEAN: 5
+
+TOP BLOCK REASONS
+------------------------------------------------------------------------------
+    9x - pick_state=REJECTED
+    4x - pick_state=VETTED
+
+TOP PLAY PICKS
+------------------------------------------------------------------------------
+ 1. Camila Osorio () game_spread HIGHER 1.5
+    eff=99.8% model=99.8% edge=? z=?
+ 2. Victoria Mboko () game_spread HIGHER 2.5
+    eff=99.4% model=99.4% edge=? z=?
+ 3. Anna Kalinskaya () game_spread HIGHER 3.5
+    eff=98.8% model=98.8% edge=? z=?
+ 4. Qinwen Zheng () game_spread HIGHER 5.5
+    eff=93.2% model=93.2% edge=? z=?
+ 5. Daria Kasatkina () total_games HIGHER 17.5
+    eff=88.2% model=88.2% edge=? z=?
+ 6. Karolina Muchova () total_games HIGHER 19.5
+    eff=75.5% model=75.5% edge=? z=?
+
+TOP LEANS
+------------------------------------------------------------------------------
+ 1. Ann Li () total_games HIGHER 21.5
+    eff=64.5% model=64.5% edge=? z=?
+... (truncated)

@@ -1,0 +1,85 @@
+====================================================================================================
+  NBA CONSOLIDATED CHEAT SHEET - 2026-02-08 03:40
+====================================================================================================
+
+[*] TOTAL PLAYS: 13
+   OVERS:  3
+   UNDERS: 10
+
+   [STRONG] STRONG: 3
+   [LEAN] LEAN: 10
+
+----------------------------------------------------------------------------------------------------
+
+
+[STRONG] STRONG PLAYS (3)
+--------------------------------------------------------------------------------------------------------------
+
+  [UNDERS]:
+  Player                    Stat         Line     UNDER %    OVER %     Edge       Kelly   
+  ---------------------------------------------------------------------------------------------------------
+  Bam Adebayo               POINTS       21.5     66.9       33.1       +16.9%     $76     
+  Jaden McDaniels           STEALS       0.5      66.6       33.4       +16.6%     $75     
+  Jaden McDaniels           REBOUNDS     4.0      66.3       33.7       +16.3%     $73     
+
+
+[LEAN] LEAN PLAYS (10)
+--------------------------------------------------------------------------------------------------------------
+
+  [OVERS]:
+  Player                    Stat         Line     OVER %     UNDER %    Edge       Kelly   
+  ---------------------------------------------------------------------------------------------------------
+  Naz Reid                  REBOUNDS     6.0      57.4       42.6       +7.4%      $27     
+  Donte DiVincenzo          3PM          3.0      57.3       42.7       +7.3%      $26     
+  Anthony Edwards           POINTS       27.5     56.4       43.6       +6.4%      $21     
+
+  [UNDERS]:
+  Player                    Stat         Line     UNDER %    OVER %     Edge       Kelly   
+  ---------------------------------------------------------------------------------------------------------
+  Bam Adebayo               REBOUNDS     11.5     60.6       39.4       +10.6%     $43     
+  Jalen Brunson             TURNOVERS    2.5      60.1       39.9       +10.1%     $41     
+  Pascal Siakam             REBOUNDS     7.0      59.7       40.3       +9.7%      $38     
+  Johnny Furphy             POINTS       6.5      58.0       42.0       +8.0%      $30     
+  Carlton Carrington        3PM          2.5      57.3       42.7       +7.3%      $26     
+  Derrick White             ASSISTS      6.0      55.6       44.4       +5.6%      $17     
+  Andrew Wiggins            REBOUNDS     5.5      55.3       44.7       +5.3%      $16     
+
+----------------------------------------------------------------------------------------------------
+
+Player Stat Snapshots (mu across recent window)
+  -----------------------------------------------------------------------------------------------
+  Player                    PTS    REB    AST    3PM    PRA   
+  -----------------------------------------------------------------------------------------------
+  Derrick White             16.0   3.5    7.1    2.7    26.6  
+  Jalen Brunson             22.6   3.9    6.3    2.6    32.9  
+  Bam Adebayo               19.8   10.5   1.9    1.7    32.2  
+  Andrew Wiggins            16.4   4.0    2.2    2.1    22.6  
+  Carlton Carrington        12.0   2.0    4.3    2.7    18.3  
+  Johnny Furphy             4.3    5.7    2.4    0.5    12.4  
+  Pascal Siakam             23.9   5.9    4.0    1.8    33.8  
+  Anthony Edwards           32.7   5.7    3.9    3.1    42.2  
+  Naz Reid                  14.4   6.8    2.9    3.1    24.1  
+  Jaden McDaniels           17.7   3.0    3.1    2.6    23.8  
+  Donte DiVincenzo          13.0   3.8    4.2    3.6    21.1  
+
+
+LEGEND (canonical thresholds):
+  [SLAM]:   >=80% confidence | Highest conviction plays
+  [STRONG]: 65-79% confidence | High conviction plays
+  [LEAN]:   55-64% confidence | Moderate conviction plays
+  [AVOID]:  <55% confidence | No edge, skip
+
+  OVER %:  Probability of going OVER the line
+  UNDER %: Probability of going UNDER the line
+  Edge:    Statistical advantage vs line
+  Kelly:   Recommended bet size (25% Kelly, $1000 bankroll)
+  [!] 1 conflicting player/stat lines were removed
+      - Anthony Edwards: POINTS kept [Higher 27.5 @ 56.4%] | dropped [Higher 28.5 @ 56.4%]
+
+  [WARN] CORRELATION WARNINGS (same player, multiple markets):
+     - Bam Adebayo: REBOUNDS Lower 11.5, POINTS Lower 21.5
+     - Jaden Mcdaniels: REBOUNDS Lower 4.0, STEALS Lower 0.5
+
+==============================================================================================================
+Generated: 2026-02-08 03:40 | Bankroll: $1000 | Kelly: 25% fractional
+==============================================================================================================

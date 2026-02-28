@@ -1,0 +1,85 @@
+{
+  "date": "2026-01-20",
+  "timestamp": "2026-01-20T19:27:37.779671",
+  "slate": "HOU SAS",
+  "source_file": "HOU SAS_RISK_FIRST_20260120_FROM_UD.json",
+  "summary": {
+    "play_count": 0,
+    "lean_count": 8,
+    "total": 8
+  },
+  "picks": [
+    {
+      "player": "Kevin Durant",
+      "team": "HOU",
+      "stat": "pra",
+      "line": 33.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Clint Capela",
+      "team": "HOU",
+      "stat": "pra",
+      "line": 9.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Amen Thompson",
+      "team": "HOU",
+      "stat": "pra",
+      "line": 30.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Tari Eason",
+      "team": "HOU",
+      "stat": "pra",
+      "line": 17.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Luke Kornet",
+      "team": "SAS",
+      "stat": "pra",
+      "line": 12.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Kevin Durant",
+      "team": "HOU",
+      "stat": "3pm",
+      "line": 2.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 66.4
+    },
+    {
+      "player": "De'Aaron Fox",
+      "team": "SAS",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 66.3
+    },
+    {
+      "player": "De'Aaron Fox",
+      "team": "SAS",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 66.2
+    }
+  ]
+}

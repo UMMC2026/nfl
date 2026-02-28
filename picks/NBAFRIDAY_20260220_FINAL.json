@@ -1,0 +1,31 @@
+{
+  "date": "2026-02-20",
+  "timestamp": "2026-02-20T15:20:53.369813",
+  "slate": "NBAFRIDAY",
+  "source_file": "NBAFRIDAY_RISK_FIRST_20260220_FROM_UD.json",
+  "summary": {
+    "play_count": 0,
+    "lean_count": 2,
+    "total": 2
+  },
+  "picks": [
+    {
+      "player": "Derrick Jones",
+      "team": "LAC",
+      "stat": "3PM",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 60.1
+    },
+    {
+      "player": "Naz Reid",
+      "team": "MIN",
+      "stat": "3PM",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 56.2
+    }
+  ]
+}

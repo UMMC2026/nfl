@@ -1,0 +1,44 @@
+
+================================================================================
+RISK-FIRST ANALYSIS REPORT (Math-Only)
+================================================================================
+
+
+❌ BLOCKED PICKS (Sample of 10)
+
+================================================================================
+
+[BLOCK] Kawhi Leonard REBOUNDS: Role gate - historical usage doesn't support this stat
+INFO: LAC vs CLE; role=SCORER; minutes=LOW VAR; 📊 Multi-window projection: 5.7
+
+[BLOCK] Kawhi Leonard ASSISTS: Role gate - historical usage doesn't support this stat
+INFO: LAC vs CLE; role=SCORER; minutes=LOW VAR; 📊 Multi-window projection: 4.3
+
+[BLOCK] Kawhi Leonard ASSISTS: Role gate - historical usage doesn't support this stat
+INFO: LAC vs CLE; role=SCORER; minutes=LOW VAR; 📊 Multi-window projection: 4.3 | 📊 Hybrid: LEAN (edge: 3.6%)
+
+[BLOCK] Kobe Sanders ASSISTS: Role gate - historical usage doesn't support this stat
+INFO: LAC vs CLE; role=ROLE_PLAYER; minutes=MED VAR; 📊 Multi-window projection: 2.3
+
+[BLOCK] Sam Merrill ASSISTS: Role gate - historical usage doesn't support this stat
+INFO: CLE vs LAC; role=ROLE_PLAYER; minutes=MED VAR; 📊 Multi-window projection: 2.1
+
+[BLOCK] Kris Dunn ASSISTS: Role gate - historical usage doesn't support this stat
+INFO: LAC vs CLE; role=ROLE_PLAYER; minutes=MED VAR; 📊 Multi-window projection: 4.0
+
+[BLOCK] Yanic Konan Niederhauser PRA: BLOCKED: Player 'Yanic Konan Niederhauser' not classified
+INFO: LAC vs CLE; role=Player; minutes=HIGH VAR; 🚫 Hybrid VETO: Insufficient sample size (n=0 < 5)
+
+[BLOCK] Yanic Konan Niederhauser PRA: BLOCKED: Player 'Yanic Konan Niederhauser' not classified
+INFO: LAC vs CLE; role=Player; minutes=HIGH VAR; 🚫 Hybrid VETO: Insufficient sample size (n=0 < 5)
+
+[BLOCK] Dean Wade ASSISTS: Role gate - historical usage doesn't support this stat
+INFO: CLE vs LAC; role=ROLE_PLAYER; minutes=MED VAR; 📊 Multi-window projection: 1.5
+
+[BLOCK] Jaylon Tyson TURNOVERS: Role gate - historical usage doesn't support this stat
+INFO: CLE vs LAC; role=ATHLETIC_WING; minutes=LOW VAR; 📊 Multi-window projection: 2.1
+
+================================================================================
+SUMMARY: 0 PLAY | 12 BLOCKED
+Commentary: Math-only (no LLM speculation)
+================================================================================

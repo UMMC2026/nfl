@@ -1,0 +1,21 @@
+{
+  "_notes": "Ref location bias affects foul calls and free throw attempts. Tournament games are NEUTRAL.",
+  
+  "HOME": {
+    "foul_boost": 1.07,
+    "free_throw_boost": 1.05,
+    "variance_mult": 0.95
+  },
+  "NEUTRAL": {
+    "foul_boost": 0.95,
+    "free_throw_boost": 0.93,
+    "variance_mult": 1.10
+  },
+  "AWAY": {
+    "foul_boost": 0.97,
+    "free_throw_boost": 0.96,
+    "variance_mult": 1.05
+  },
+  
+  "_tournament_override": "NEUTRAL"
+}

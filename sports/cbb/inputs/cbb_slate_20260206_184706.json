@@ -1,0 +1,876 @@
+{
+  "timestamp": "20260206_184706",
+  "count": 87,
+  "props": [
+    {
+      "player": "Alex Karaban",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "points",
+      "line": 11.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Alex Karaban",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "points",
+      "line": 11.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Alex Karaban",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "pra",
+      "line": 19.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Alex Karaban",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "pra",
+      "line": 19.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Alex Karaban",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "rebounds",
+      "line": 5.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Alex Karaban",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "rebounds",
+      "line": 5.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Alex Karaban",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "assists",
+      "line": 1.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Alex Karaban",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "3pm",
+      "line": 1.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Alex Karaban",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "3pm",
+      "line": 1.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Alex Karaban",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "pts+reb",
+      "line": 17.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Alex Karaban",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "reb+ast",
+      "line": 7.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Zuby Ejiofor",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "points",
+      "line": 15.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Zuby Ejiofor",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "pra",
+      "line": 25.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Zuby Ejiofor",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "pra",
+      "line": 25.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Zuby Ejiofor",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "rebounds",
+      "line": 7.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Zuby Ejiofor",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "rebounds",
+      "line": 7.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Zuby Ejiofor",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "assists",
+      "line": 2.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Zuby Ejiofor",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "pts+reb",
+      "line": 22.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Zuby Ejiofor",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "pts+ast",
+      "line": 17.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Zuby Ejiofor",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "reb+ast",
+      "line": 10.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Solo Ball",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "points",
+      "line": 12.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Solo Ball",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "rebounds",
+      "line": 3.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Solo Ball",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "3pm",
+      "line": 1.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Solo Ball",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "pts+reb",
+      "line": 16.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Dillon Mitchell",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "points",
+      "line": 9.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Dillon Mitchell",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "points",
+      "line": 9.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Dillon Mitchell",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "rebounds",
+      "line": 7.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Dillon Mitchell",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "rebounds",
+      "line": 7.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Dillon Mitchell",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "pts+reb",
+      "line": 17.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Ian Jackson",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "points",
+      "line": 10.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Ian Jackson",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "3pm",
+      "line": 1.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Silas Demary Jr.",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "points",
+      "line": 10.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Silas Demary Jr.",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "points",
+      "line": 10.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Silas Demary Jr.",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "assists",
+      "line": 5.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Silas Demary Jr.",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "steals",
+      "line": 1.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Bryce Hopkins",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "points",
+      "line": 13.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Bryce Hopkins",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "points",
+      "line": 13.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Bryce Hopkins",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "pra",
+      "line": 21.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Bryce Hopkins",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "rebounds",
+      "line": 6.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Bryce Hopkins",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "rebounds",
+      "line": 6.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Bryce Hopkins",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "assists",
+      "line": 1.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Bryce Hopkins",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "assists",
+      "line": 1.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Tarris Reed Jr.",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "points",
+      "line": 13.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Tarris Reed Jr.",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "points",
+      "line": 13.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Tarris Reed Jr.",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "rebounds",
+      "line": 7.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Tarris Reed Jr.",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "pts+reb",
+      "line": 21.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Tarris Reed Jr.",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "blocks",
+      "line": 1.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Oziyah Sellers",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "points",
+      "line": 8.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Braylon Mullins",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "points",
+      "line": 12.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Braylon Mullins",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "points",
+      "line": 12.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Braylon Mullins",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "rebounds",
+      "line": 3.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Braylon Mullins",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "rebounds",
+      "line": 3.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Braylon Mullins",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "pts+reb",
+      "line": 16.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Zuby Ejiofor",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "points",
+      "line": 15.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Tarris Reed Jr.",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "points",
+      "line": 13.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Tarris Reed Jr.",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "points",
+      "line": 13.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Braylon Mullins",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "points",
+      "line": 12.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Braylon Mullins",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "points",
+      "line": 12.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Silas Demary Jr.",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "points",
+      "line": 10.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Silas Demary Jr.",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "points",
+      "line": 10.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Dillon Mitchell",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "points",
+      "line": 9.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Dillon Mitchell",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "points",
+      "line": 9.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Bryce Hopkins",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "points",
+      "line": 13.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Bryce Hopkins",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "points",
+      "line": 13.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Solo Ball",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "points",
+      "line": 12.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Alex Karaban",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "points",
+      "line": 11.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Alex Karaban",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "points",
+      "line": 11.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Ian Jackson",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "points",
+      "line": 10.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Oziyah Sellers",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "points",
+      "line": 8.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Zuby Ejiofor",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "pra",
+      "line": 25.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Zuby Ejiofor",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "pra",
+      "line": 25.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Alex Karaban",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "pra",
+      "line": 19.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Alex Karaban",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "pra",
+      "line": 19.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Bryce Hopkins",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "pra",
+      "line": 21.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Alex Karaban",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "3pm",
+      "line": 1.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Alex Karaban",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "3pm",
+      "line": 1.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "lower"
+    },
+    {
+      "player": "Solo Ball",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "3pm",
+      "line": 1.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Ian Jackson",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "3pm",
+      "line": 1.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Ian Jackson",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "pts+ast",
+      "line": 17.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Bryce Hopkins",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "pts+ast",
+      "line": 15.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Zuby Ejiofor",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "pts+reb",
+      "line": 22.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Bryce Hopkins",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "pts+reb",
+      "line": 20.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Dillon Mitchell",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "pts+reb",
+      "line": 17.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Braylon Mullins",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "pts+reb",
+      "line": 16.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Tarris Reed Jr.",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "pts+reb",
+      "line": 21.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Alex Karaban",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "pts+reb",
+      "line": 17.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    },
+    {
+      "player": "Solo Ball",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "pts+reb",
+      "line": 16.5,
+      "league": "CBB",
+      "sport": "cbb",
+      "direction": "higher"
+    }
+  ]
+}

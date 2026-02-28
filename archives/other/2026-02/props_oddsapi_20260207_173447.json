@@ -1,0 +1,213 @@
+{
+  "timestamp": "2026-02-07T17:34:47.177080",
+  "sites": [
+    "oddsapi"
+  ],
+  "total_props": 0,
+  "parsed_props": 0,
+  "players": 0,
+  "props": [],
+  "oddsapi_meta": {
+    "sport": "BASKETBALL_NCAAB",
+    "sport_key": "basketball_ncaab",
+    "regions": "us_dfs",
+    "markets": "player_points",
+    "bookmakers": "betr_us_dfs,pick6,prizepicks,underdog",
+    "event_count": 20,
+    "quota": {
+      "events_list": {
+        "remaining": 33,
+        "used": 467,
+        "last_cost": 0
+      },
+      "last_event_odds": {
+        "remaining": 33,
+        "used": 467,
+        "last_cost": 0
+      }
+    },
+    "raw_event_odds": [
+      {
+        "id": "3c0591ad4a57370f5696ccbbebeabb48",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-07T18:54:59Z",
+        "home_team": "Auburn Tigers",
+        "away_team": "Alabama Crimson Tide",
+        "bookmakers": []
+      },
+      {
+        "id": "93c50f571c070e5926455d0ac7c027d2",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-07T21:11:21Z",
+        "home_team": "Notre Dame Fighting Irish",
+        "away_team": "Florida St Seminoles",
+        "bookmakers": []
+      },
+      {
+        "id": "9e9d6ffc902b01771629af6c7f25e415",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-07T21:30:00Z",
+        "home_team": "UNLV Rebels",
+        "away_team": "Grand Canyon Antelopes",
+        "bookmakers": []
+      },
+      {
+        "id": "de9906dbb175f0a1ad5918c2578213e9",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-07T21:30:00Z",
+        "home_team": "Howard Bison",
+        "away_team": "South Carolina St Bulldogs",
+        "bookmakers": []
+      },
+      {
+        "id": "ee86a6b19f6c7308d1e453bf2841e832",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-07T21:30:00Z",
+        "home_team": "Morgan St Bears",
+        "away_team": "Maryland-Eastern Shore Hawks",
+        "bookmakers": []
+      },
+      {
+        "id": "cdcd4510045de0b211cf75b020a2ec34",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-07T21:30:00Z",
+        "home_team": "Norfolk St Spartans",
+        "away_team": "North Carolina Central Eagles",
+        "bookmakers": []
+      },
+      {
+        "id": "37cc29c3f05e11b0d9921402b795afbe",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-07T21:30:00Z",
+        "home_team": "Youngstown St Penguins",
+        "away_team": "Robert Morris Colonials",
+        "bookmakers": []
+      },
+      {
+        "id": "b054a793b6d29decba5c7ecf4e82a5bd",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-07T21:30:00Z",
+        "home_team": "Tennessee St Tigers",
+        "away_team": "Western Illinois Leathernecks",
+        "bookmakers": []
+      },
+      {
+        "id": "4c829bed6145659b60d445bb58b99df7",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-07T21:37:51Z",
+        "home_team": "Nicholls St Colonels",
+        "away_team": "Texas A&M-CC Islanders",
+        "bookmakers": []
+      },
+      {
+        "id": "8d13327bc4b95912156b72a5e3119c9a",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-07T21:41:10Z",
+        "home_team": "Tennessee Tech Golden Eagles",
+        "away_team": "Eastern Illinois Panthers",
+        "bookmakers": []
+      },
+      {
+        "id": "d09eeebd4d6cf6359a59d7b4edc40c97",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-07T21:45:00Z",
+        "home_team": "SE Missouri St Redhawks",
+        "away_team": "Southern Indiana Screaming Eagles",
+        "bookmakers": []
+      },
+      {
+        "id": "d8b2e1b20243c7fd8da5ef7a47af4c61",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-07T22:00:00Z",
+        "home_team": "Grambling St Tigers",
+        "away_team": "Alabama St Hornets",
+        "bookmakers": []
+      },
+      {
+        "id": "beeff28216971bb84d816d5acf95a7dc",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-07T22:00:00Z",
+        "home_team": "Austin Peay Governors",
+        "away_team": "North Alabama Lions",
+        "bookmakers": []
+      },
+      {
+        "id": "36fc01cd5a3e82251a47e314f10ef8b1",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-07T22:00:00Z",
+        "home_team": "Bucknell Bison",
+        "away_team": "Colgate Raiders",
+        "bookmakers": []
+      },
+      {
+        "id": "8715372dc40b30bac869573df5975029",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-07T22:00:00Z",
+        "home_team": "UC Davis Aggies",
+        "away_team": "Cal Poly Mustangs",
+        "bookmakers": []
+      },
+      {
+        "id": "dd84d50a657883c11891fd3f368012d8",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-07T22:00:00Z",
+        "home_team": "Lipscomb Bisons",
+        "away_team": "Central Arkansas Bears",
+        "bookmakers": []
+      },
+      {
+        "id": "20f5e9e40338cb5dc64b4c58952a54c9",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-07T22:00:00Z",
+        "home_team": "Dartmouth Big Green",
+        "away_team": "Harvard Crimson",
+        "bookmakers": []
+      },
+      {
+        "id": "acb71ce795a70243a2b28c1fede4e5f3",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-07T22:00:00Z",
+        "home_team": "Northern Kentucky Norse",
+        "away_team": "Milwaukee Panthers",
+        "bookmakers": []
+      },
+      {
+        "id": "b5be25d54d8b8785e67baf35f741e1f9",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-07T22:02:04Z",
+        "home_team": "Eastern Kentucky Colonels",
+        "away_team": "Stetson Hatters",
+        "bookmakers": []
+      },
+      {
+        "id": "8fc7ca3e09ee744cbf8c763a626cf30c",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-07T22:05:00Z",
+        "home_team": "McNeese Cowboys",
+        "away_team": "Incarnate Word Cardinals",
+        "bookmakers": []
+      }
+    ]
+  },
+  "run_id": "b89a68ae1a19a35e"
+}

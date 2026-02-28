@@ -1,0 +1,67 @@
+{
+  "date": "2026-01-26",
+  "timestamp": "2026-01-26T12:34:56.161099",
+  "slate": "IND_ATL1262026",
+  "source_file": "IND_ATL1262026_RISK_FIRST_20260126_FROM_UD.json",
+  "summary": {
+    "play_count": 3,
+    "lean_count": 3,
+    "total": 6
+  },
+  "picks": [
+    {
+      "player": "Pascal Siakam",
+      "team": "IND",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 80.3
+    },
+    {
+      "player": "Pascal Siakam",
+      "team": "IND",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 80.3
+    },
+    {
+      "player": "Onyeka Okongwu",
+      "team": "ATL",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 78.8
+    },
+    {
+      "player": "CJ McCollum",
+      "team": "ATL",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 90.2
+    },
+    {
+      "player": "Luke Kennard",
+      "team": "ATL",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 82.8
+    },
+    {
+      "player": "Luke Kennard",
+      "team": "ATL",
+      "stat": "pra",
+      "line": 43.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "created_at_utc": "2026-02-08T19:29:04.783859+00:00",
+  "edges": [
+    {
+      "edge_id": "a969c3bbc4d705ae",
+      "player": "Ryan Fishback",
+      "team": "",
+      "opponent": "",
+      "stat": "1st_set_games_won",
+      "line": 5.5,
+      "direction": "lower",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 54.50000000000001,
+      "effective_confidence": 54.50000000000001,
+      "mu": 4.464,
+      "sigma": 1.8832092923037815,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 10,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=REJECTED",
+      "gate_details": [
+        {
+          "pick_id": "Ryan Fishback_1ST_SET_GAMES_WON_LOWER_5.5",
+          "state": "REJECTED",
+          "original_probability": 54.50000000000001,
+          "final_probability": 54.50000000000001,
+          "adjustments": [],
+          "rejection_reason": "LOW_PROBABILITY",
+          "vetted_reason": null,
+          "flags_detected": [],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "REJECTED: prob 54.5% < 55.0%"
+          ],
+          "is_optimizable": false,
+          "is_visible": false
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "d00d57757d3f5baa",
+      "player": "Ryan Fishback",
+      "team": "",
+      "opponent": "",
+      "stat": "sets_played",
+      "line": 2.5,
+      "direction": "lower",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 52.15,
+      "effective_confidence": 52.15,
+      "mu": 2.4785,
+      "sigma": 0.49966246736236386,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 10,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=REJECTED",
+      "gate_details": [
+        {
+          "pick_id": "Ryan Fishback_SETS_PLAYED_LOWER_2.5",
+          "state": "REJECTED",
+          "original_probability": 52.15,
+          "final_probability": 52.15,
+          "adjustments": [],
+          "rejection_reason": "LOW_PROBABILITY",
+          "vetted_reason": null,
+          "flags_detected": [],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "REJECTED: prob 52.1% < 55.0%"
+          ],
+          "is_optimizable": false,
+          "is_visible": false
+        }
+      ],
+      "stat_adjustment": null
+    }
+  ]
+}

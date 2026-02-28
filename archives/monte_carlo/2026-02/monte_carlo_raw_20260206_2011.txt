@@ -1,0 +1,46 @@
+======================================================================
+MONTE CARLO ENTRY OPTIMIZATION
+Generated: 2026-02-06T20:11:35.890101
+======================================================================
+
+STAT KEY (basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made (aka 3PT/3PTS) | STOCKS=STL+BLK | PRA=PTS+REB+AST
+
+RUN CONTEXT:
+   League inferred: NBA
+   Picks: 4 qualifying (from 69 analyzed)
+   Filter pass: UNFILTERED_DIRECT
+   Constraints: max_same_game=1, max_primary_per_game=1
+
+BEST POWER ENTRY:
+   2L POWER | EV=+0.19 | Sharpe=0.13 | P(profit)=39.8% | GG Jackson PTS <14.5; Shaedon Sharpe 3PM >1.5
+   Kelly stake: 2.2% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=63.4%, min p_hit=57.2%
+   Stat mix: 3PM:1, PTS:1
+   Same-game buckets: MEM@POR:1, MEM@UNK:1
+   LEGS (what each pick is):
+    1. GG Jackson PTS <14.5 (MEM vs UNK) | p_hit=69.5% | PRIMARY_SAFE
+    2. Shaedon Sharpe 3PM >1.5 (POR vs MEM) | p_hit=57.2% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST RISK-ADJUSTED (Sharpe):
+   2L POWER | EV=+0.19 | Sharpe=0.13 | P(profit)=39.8% | GG Jackson PTS <14.5; Shaedon Sharpe 3PM >1.5
+   ENTRY SNAPSHOT: avg p_hit=63.4%, min p_hit=57.2%
+   Stat mix: 3PM:1, PTS:1
+   Same-game buckets: MEM@POR:1, MEM@UNK:1
+   LEGS (what each pick is):
+    1. GG Jackson PTS <14.5 (MEM vs UNK) | p_hit=69.5% | PRIMARY_SAFE
+    2. Shaedon Sharpe 3PM >1.5 (POR vs MEM) | p_hit=57.2% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+----------------------------------------------------------------------
+TOP 10 ENTRIES BY EV:
+----------------------------------------------------------------------
+ 1. 2L POWER | EV=+0.19 | Sharpe=0.13 | P(profit)=39.8% | GG Jackson PTS <14.5; Shaedon Sharpe 3PM >1.5

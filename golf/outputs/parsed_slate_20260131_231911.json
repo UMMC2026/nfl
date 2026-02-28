@@ -1,0 +1,309 @@
+{
+  "parsed_at": "2026-01-31T23:19:11.201351",
+  "prop_count": 33,
+  "props": [
+    {
+      "player": "Justin Rose",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "11:37AM",
+      "market": "round_strokes",
+      "line": 71.5
+    },
+    {
+      "player": "Si Woo Kim",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "11:26AM",
+      "market": "round_strokes",
+      "line": 71.5,
+      "higher_mult": 1.03,
+      "lower_mult": 0.82
+    },
+    {
+      "player": "Si Woo Kim",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "11:26AM",
+      "market": "finishing_position",
+      "line": 5.5,
+      "better_mult": 0.7
+    },
+    {
+      "player": "Si Woo Kim",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "11:26AM",
+      "market": "birdies",
+      "line": 3.5,
+      "higher_mult": 0.84,
+      "lower_mult": 1.07
+    },
+    {
+      "player": "Hideki Matsuyama",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "11:04AM",
+      "market": "round_strokes",
+      "line": 71.5,
+      "higher_mult": 1.05,
+      "lower_mult": 0.86
+    },
+    {
+      "player": "Hideki Matsuyama",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "11:04AM",
+      "market": "finishing_position",
+      "line": 10.5,
+      "better_mult": 0.87
+    },
+    {
+      "player": "Hideki Matsuyama",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "11:04AM",
+      "market": "birdies",
+      "line": 3.5,
+      "higher_mult": 0.81,
+      "lower_mult": 1.04
+    },
+    {
+      "player": "Jason Day",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "9:58AM",
+      "market": "round_strokes",
+      "line": 71.5,
+      "higher_mult": 1.02,
+      "lower_mult": 0.94
+    },
+    {
+      "player": "Jason Day",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "9:58AM",
+      "market": "finishing_position",
+      "line": 20.5,
+      "better_mult": 1.04
+    },
+    {
+      "player": "Jason Day",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "9:58AM",
+      "market": "birdies",
+      "line": 3.5,
+      "higher_mult": 0.79,
+      "lower_mult": 1.08
+    },
+    {
+      "player": "Stephan Jaeger",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "11:26AM",
+      "market": "round_strokes",
+      "line": 72.5,
+      "higher_mult": 1.07,
+      "lower_mult": 0.86
+    },
+    {
+      "player": "Stephan Jaeger",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "11:26AM",
+      "market": "finishing_position",
+      "line": 10.5,
+      "better_mult": 0.88
+    },
+    {
+      "player": "Stephan Jaeger",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "11:26AM",
+      "market": "birdies",
+      "line": 3.5,
+      "higher_mult": 1.03,
+      "lower_mult": 0.88
+    },
+    {
+      "player": "Joel Dahmen",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "11:37AM",
+      "market": "round_strokes",
+      "line": 72.5
+    },
+    {
+      "player": "Joel Dahmen",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "11:37AM",
+      "market": "birdies",
+      "line": 3.5,
+      "higher_mult": 1.07,
+      "lower_mult": 0.86
+    },
+    {
+      "player": "Ryo Hisatsune",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "11:37AM",
+      "market": "round_strokes",
+      "line": 72.5
+    },
+    {
+      "player": "Ryo Hisatsune",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "11:37AM",
+      "market": "finishing_position",
+      "line": 5.5,
+      "better_mult": 1.04
+    },
+    {
+      "player": "Ryo Hisatsune",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "11:37AM",
+      "market": "birdies",
+      "line": 3.5,
+      "higher_mult": 1.07,
+      "lower_mult": 0.86
+    },
+    {
+      "player": "Brooks Koepka",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "11:04AM",
+      "market": "round_strokes",
+      "line": 71.5,
+      "higher_mult": 0.86,
+      "lower_mult": 1.07
+    },
+    {
+      "player": "Brooks Koepka",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "11:04AM",
+      "market": "birdies",
+      "line": 3.5,
+      "higher_mult": 0.85,
+      "lower_mult": 1.06
+    },
+    {
+      "player": "Chris Gotterup",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "10:31AM",
+      "market": "round_strokes",
+      "line": 71.5,
+      "higher_mult": 1.07,
+      "lower_mult": 0.86
+    },
+    {
+      "player": "Chris Gotterup",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "10:31AM",
+      "market": "finishing_position",
+      "line": 20.5,
+      "better_mult": 0.77
+    },
+    {
+      "player": "Chris Gotterup",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "10:31AM",
+      "market": "birdies",
+      "line": 3.5,
+      "higher_mult": 0.78,
+      "lower_mult": 1.04
+    },
+    {
+      "player": "Jake Knapp",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "11:04AM",
+      "market": "round_strokes",
+      "line": 71.5,
+      "higher_mult": 1.03,
+      "lower_mult": 0.94
+    },
+    {
+      "player": "Jake Knapp",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "11:04AM",
+      "market": "finishing_position",
+      "line": 20.5,
+      "better_mult": 0.6
+    },
+    {
+      "player": "Jake Knapp",
+      "tournament": "Farmers Insurance Open",
+      "round": 4,
+      "tee_time": "11:04AM",
+      "market": "birdies",
+      "line": 3.5,
+      "higher_mult": 0.81,
+      "lower_mult": 1.05
+    },
+    {
+      "player": "Stephan Jaeger",
+      "tournament": "vs Torrey Pines - South RD 4 Sun",
+      "round": 0,
+      "tee_time": "11:26am",
+      "market": "birdies",
+      "line": 3.5
+    },
+    {
+      "player": "Hideki Matsuyama",
+      "tournament": "vs Austin Eckroat Sun",
+      "round": 0,
+      "tee_time": "10:09am",
+      "market": "birdies",
+      "line": 0.5
+    },
+    {
+      "player": "Brooks Koepka",
+      "tournament": "vs Torrey Pines - South RD 4 Sun",
+      "round": 0,
+      "tee_time": "11:04am",
+      "market": "birdies",
+      "line": 4.0
+    },
+    {
+      "player": "Justin Rose",
+      "tournament": "vs Torrey Pines - South RD 4 Sun",
+      "round": 0,
+      "tee_time": "11:37am",
+      "market": "birdies",
+      "line": 3.5
+    },
+    {
+      "player": "Harris English",
+      "tournament": "vs Isaiah Salinda Sun",
+      "round": 0,
+      "tee_time": "9:25am",
+      "market": "birdies",
+      "line": 0.5
+    },
+    {
+      "player": "Justin Rose",
+      "tournament": "vs David Lipsky Sun",
+      "round": 0,
+      "tee_time": "11:04am",
+      "market": "birdies",
+      "line": 0.5
+    },
+    {
+      "player": "Hideki Matsuyama",
+      "tournament": "vs Torrey Pines - South RD 4 Sun",
+      "round": 0,
+      "tee_time": "11:04am",
+      "market": "pars",
+      "line": 11.0
+    }
+  ]
+}

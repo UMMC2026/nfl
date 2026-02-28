@@ -1,0 +1,49 @@
+# Seed × Coach Interaction Matrix
+# Multiplies VARIANCE based on seed position and coach tendencies
+
+_notes: |
+  Certain coaches systematically outperform or underperform expectations
+  depending on seed position. This affects late-game pace, fouling behavior,
+  and rotation trust.
+  
+  HIGH_SEED = team is favored (lower seed number)
+  LOW_SEED = team is underdog (higher seed number)
+
+DEFAULT: 1.00
+
+COACH_SEED_EFFECTS:
+  Tony Bennett:
+    LOW_SEED: 1.30      # Virginia as underdog = chaos offense
+    HIGH_SEED: 0.92     # Virginia favored = grind & kill pace
+    
+  Tom Izzo:
+    LOW_SEED: 0.95      # Izzo dogs = disciplined
+    HIGH_SEED: 1.10     # Izzo favored = late foul variance
+    
+  John Calipari:
+    LOW_SEED: 1.25
+    HIGH_SEED: 1.20     # freshmen volatility regardless
+    
+  Mark Few:
+    LOW_SEED: 1.05
+    HIGH_SEED: 0.97
+    
+  Bill Self:
+    LOW_SEED: 0.92      # Self underdogs = overperform
+    HIGH_SEED: 1.05
+    
+  Dan Hurley:
+    LOW_SEED: 1.08
+    HIGH_SEED: 1.02
+    
+  Scott Drew:
+    LOW_SEED: 1.15      # Baylor chaos as underdog
+    HIGH_SEED: 1.10
+    
+  Bruce Pearl:
+    LOW_SEED: 1.20
+    HIGH_SEED: 1.15     # Always high variance
+    
+  Nate Oats:
+    LOW_SEED: 1.18      # Tempo swings
+    HIGH_SEED: 1.08

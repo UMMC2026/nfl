@@ -1,0 +1,382 @@
+======================================================================
+[SOCCER] PROP ANALYSIS - RISK-FIRST REPORT
+======================================================================
+[ENGINE] Monte Carlo (10,000 sims) | Distributions: mc_poisson
+
+[DATA] Sources: 1 from DATABASE | 50 from ESTIMATES
+[!] ESTIMATES are position-based averages - treat with caution!
+
+
+[STRONG] (66%+) - HIGH CONFIDENCE
+--------------------------------------------------
+  [EST] Thijs Dallinga
+     shots on target UNDER 1.5 - 72.0%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Ermedin Demirovic
+     shots on target UNDER 1.5 - 72.0%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Deniz Undav
+     shots on target UNDER 1.5 - 72.0%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Franko Kovacevic
+     shots on target UNDER 1.5 - 72.0%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Olivier Giroud
+     shots on target UNDER 1.5 - 72.0%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [DB] Ayyoub Bouaddi (Lille)
+     shots on target UNDER 0.5 - 67.6%
+     Avg: 0.4/game | GP: 18
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+
+[LEAN] (56%+) - ACTIONABLE
+--------------------------------------------------
+  [EST] Neco Williams
+     shots on target UNDER 0.5 - 61.3%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Nadir Zortea
+     shots on target UNDER 0.5 - 62.2%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Miha Zajc
+     shots on target UNDER 0.5 - 61.5%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Konstantinos Karetsas
+     shots on target UNDER 0.5 - 61.8%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=2.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Junya Ito
+     shots on target UNDER 0.5 - 62.5%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Daan Heymans
+     shots on target UNDER 0.5 - 61.7%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=2.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Kerem Akturkoglu
+     shots on target UNDER 0.5 - 62.3%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Arber Hoxha
+     shots on target UNDER 0.5 - 62.1%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Riccardo Orsolini
+     shots on target UNDER 0.5 - 61.8%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Kieran Tierney
+     shots on target UNDER 0.5 - 61.6%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Maximilian Mittelstadt
+     shots on target UNDER 0.5 - 61.7%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Benjamin Andre
+     shots on target UNDER 0.5 - 62.5%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Callum McGregor
+     shots on target UNDER 0.5 - 62.1%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Cheick Oumar Souare
+     shots on target UNDER 0.5 - 62.7%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Vicente Taborda
+     shots on target UNDER 0.5 - 62.2%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Kristoffer Zachariassen
+     shots on target UNDER 0.5 - 62.4%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Marcus Erick
+     shots on target UNDER 0.5 - 61.3%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Hakon Haraldsson
+     shots on target UNDER 0.5 - 61.9%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Marko Arnautovic
+     shots on target UNDER 0.5 - 62.1%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Jamie Leweling
+     shots on target UNDER 0.5 - 61.7%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Felix Correia
+     shots on target UNDER 0.5 - 62.4%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Matias Fernandez-Pardo
+     shots on target UNDER 0.5 - 61.9%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=2.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Karol Swiderski
+     shots on target UNDER 0.5 - 62.4%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=2.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Ryan Yates
+     shots on target UNDER 0.5 - 62.0%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Matteo Guendouzi
+     shots on target UNDER 0.5 - 62.4%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Nicolas Dominguez
+     shots on target UNDER 0.5 - 62.6%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Lewis Ferguson
+     shots on target UNDER 0.5 - 61.4%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=2.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] James McAtee
+     shots on target UNDER 0.5 - 61.8%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=2.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Dan Ndoye
+     shots on target UNDER 0.5 - 63.0%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Marco Asensio
+     shots on target UNDER 0.5 - 61.9%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=2.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Jens Odgaard
+     shots on target UNDER 0.5 - 62.3%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Monsef Bakrar
+     shots on target UNDER 0.5 - 61.3%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Lukas Cerv
+     shots on target UNDER 0.5 - 62.3%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Lorenz Assignon
+     shots on target UNDER 0.5 - 62.8%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Gavriel Kanichowsky
+     shots on target UNDER 0.5 - 62.5%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Reo Hatate
+     shots on target UNDER 0.5 - 62.2%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Jonathan Levi
+     shots on target UNDER 0.5 - 61.7%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Tomas Ladra
+     shots on target UNDER 0.5 - 61.6%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Anass Zaroury
+     shots on target UNDER 0.5 - 62.3%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=2.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Sebastian Tounekti
+     shots on target UNDER 0.5 - 61.6%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=2.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Chris Fuhrich
+     shots on target UNDER 0.5 - 63.1%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Tomas Cvancara
+     shots on target UNDER 0.5 - 62.6%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Bamidele Yusuf
+     shots on target UNDER 0.5 - 61.4%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Daizen Maeda
+     shots on target UNDER 0.5 - 62.5%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+  [EST] Caio Vidal
+     shots on target UNDER 0.5 - 62.2%
+     Avg: 0.5/game | GP: EST
+     Range: p10=0.0 | p50=0.0 | p90=1.0 [mc_poisson]
+     [!] Platform offered opposite -- model says UNDER
+
+
+======================================================================
+[SUMMARY] ACTIONABLE PICKS: 51
+   SLAM: 0 | STRONG: 6 | LEAN: 45
+
+[!] NOTE: Some picks use ESTIMATES. Prioritize DATABASE picks.
+
+======================================================================
+[CHEAT SHEET] - Copy/Paste Ready
+======================================================================
+** Thijs Dallinga shots on target UNDER 1.5 (72%)
+** Ermedin Demirovic shots on target UNDER 1.5 (72%)
+** Deniz Undav shots on target UNDER 1.5 (72%)
+** Franko Kovacevic shots on target UNDER 1.5 (72%)
+** Olivier Giroud shots on target UNDER 1.5 (72%)
+** Ayyoub Bouaddi shots on target UNDER 0.5 (68%)
+* Neco Williams shots on target UNDER 0.5 (61%)
+* Nadir Zortea shots on target UNDER 0.5 (62%)
+* Miha Zajc shots on target UNDER 0.5 (62%)
+* Konstantinos Karetsas shots on target UNDER 0.5 (62%)
+* Junya Ito shots on target UNDER 0.5 (62%)
+* Daan Heymans shots on target UNDER 0.5 (62%)
+* Kerem Akturkoglu shots on target UNDER 0.5 (62%)
+* Arber Hoxha shots on target UNDER 0.5 (62%)
+* Riccardo Orsolini shots on target UNDER 0.5 (62%)
+* Kieran Tierney shots on target UNDER 0.5 (62%)
+* Maximilian Mittelstadt shots on target UNDER 0.5 (62%)
+* Benjamin Andre shots on target UNDER 0.5 (63%)
+* Callum McGregor shots on target UNDER 0.5 (62%)
+* Cheick Oumar Souare shots on target UNDER 0.5 (63%)
+* Vicente Taborda shots on target UNDER 0.5 (62%)
+* Kristoffer Zachariassen shots on target UNDER 0.5 (62%)
+* Marcus Erick shots on target UNDER 0.5 (61%)
+* Hakon Haraldsson shots on target UNDER 0.5 (62%)
+* Marko Arnautovic shots on target UNDER 0.5 (62%)
+* Jamie Leweling shots on target UNDER 0.5 (62%)
+* Felix Correia shots on target UNDER 0.5 (62%)
+* Matias Fernandez-Pardo shots on target UNDER 0.5 (62%)
+* Karol Swiderski shots on target UNDER 0.5 (62%)
+* Ryan Yates shots on target UNDER 0.5 (62%)
+* Matteo Guendouzi shots on target UNDER 0.5 (62%)
+* Nicolas Dominguez shots on target UNDER 0.5 (63%)
+* Lewis Ferguson shots on target UNDER 0.5 (61%)
+* James McAtee shots on target UNDER 0.5 (62%)
+* Dan Ndoye shots on target UNDER 0.5 (63%)
+* Marco Asensio shots on target UNDER 0.5 (62%)
+* Jens Odgaard shots on target UNDER 0.5 (62%)
+* Monsef Bakrar shots on target UNDER 0.5 (61%)
+* Lukas Cerv shots on target UNDER 0.5 (62%)
+* Lorenz Assignon shots on target UNDER 0.5 (63%)
+* Gavriel Kanichowsky shots on target UNDER 0.5 (62%)
+* Reo Hatate shots on target UNDER 0.5 (62%)
+* Jonathan Levi shots on target UNDER 0.5 (62%)
+* Tomas Ladra shots on target UNDER 0.5 (62%)
+* Anass Zaroury shots on target UNDER 0.5 (62%)
+* Sebastian Tounekti shots on target UNDER 0.5 (62%)
+* Chris Fuhrich shots on target UNDER 0.5 (63%)
+* Tomas Cvancara shots on target UNDER 0.5 (63%)
+* Bamidele Yusuf shots on target UNDER 0.5 (61%)
+* Daizen Maeda shots on target UNDER 0.5 (62%)
+* Caio Vidal shots on target UNDER 0.5 (62%)
+======================================================================

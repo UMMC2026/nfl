@@ -1,0 +1,987 @@
+╔════════════════════════════════════════════════════════════════════╗
+║          PROFESSIONAL CBB ANALYSIS REPORT                          ║
+║                   COLLEGE BASKETBALL                               ║
+╠════════════════════════════════════════════════════════════════════╣
+║  Generated: 2026-02-14T22:37:14                                  ║
+║  System: UNDERDOG ANALYSIS — Risk-First Quant Engine (Poisson)    ║
+╚════════════════════════════════════════════════════════════════════╝
+
+STAT KEY (college basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made | PRA=PTS+REB+AST | PR=PTS+REB | PA=PTS+AST | RA=REB+AST
+
+======================================================================
+🎯 TOP PLAYS — SLATE LEADERS (ALL TEAMS)
+======================================================================
+
+#   PLAYER                 STAT     DIR      LINE    PROB TIER     TEAM 
+──────────────────────────────────────────────────────────────────────
+1   Jizzle James         PTS      LOWER   14.5   68.0% STRONG CIN 
+2   Terrence Brown       PTS      LOWER   18.5   68.0% STRONG UTAH
+3   Keanu Dawes          PTS      LOWER   12.5   68.0% STRONG UTAH
+4   Baba Miller          PTS      LOWER   16.5   68.0% STRONG CIN 
+5   Keanu Dawes          PTS+REB+ LOWER   23.5   68.0% STRONG UTAH
+6   Baba Miller          PTS+REB+ LOWER   31.5   68.0% STRONG CIN 
+7   Tariq Francis        PTS      LOWER   19.5   68.0% STRONG RUTG
+8   David Coit           PTS      LOWER   16.5   68.0% STRONG MD  
+9   Solomon Washington   PTS      LOWER   11.0   68.0% STRONG MD  
+10  Elijah Saunders      PTS      LOWER    9.5   68.0% STRONG MD  
+11  David Coit           PTS+AST  LOWER   20.5   68.0% STRONG MD  
+12  Elijah Saunders      PTS+AST  LOWER   10.5   68.0% STRONG MD  
+13  Solomon Washington   PTS+REB  LOWER   20.5   68.0% STRONG MD  
+14  Elijah Saunders      PTS+REB  LOWER   14.5   68.0% STRONG MD  
+15  Solomon Washington   PTS+REB+ LOWER   21.5   68.0% STRONG MD  
+
+======================================================================
+💡 ACTIONABLE INSIGHTS — QUICK REFERENCE
+======================================================================
+
+🔥 OVERS TO CONSIDER:
+   • Don McHenry PTS O14.5 [LEAN] (62.7%) — μ=16.3
+   • Nick Dorn PTS O9.5 [LEAN] (60.8%) — μ=11.2
+
+🔻 UNDERS TO CONSIDER:
+   • Jizzle James PTS U14.5 [STRONG] (68.0%) — μ=10.9
+   • Terrence Brown PTS U18.5 [STRONG] (68.0%) — μ=15.9
+   • Keanu Dawes PTS U12.5 [STRONG] (68.0%) — μ=8.9
+   • Baba Miller PTS U16.5 [STRONG] (68.0%) — μ=9.7
+   • Keanu Dawes PRA U23.5 [STRONG] (68.0%) — μ=16.5
+   • Baba Miller PRA U31.5 [STRONG] (68.0%) — μ=18.4
+   • Tariq Francis PTS U19.5 [STRONG] (68.0%) — μ=16.8
+
+======================================================================
+TEAM-BY-TEAM ANALYSIS
+======================================================================
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: CIN          vs UNKNOWN OPPONENT (NO_KENPOM_OPP)              │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Jizzle James         PTS      LOWER  14.5 — STRONG   (68.0%) [μ=10.9, edge=24.7%]
+   2) Baba Miller          PTS      LOWER  16.5 — STRONG   (68.0%) [μ=9.7, edge=41.3%]
+   3) Baba Miller          PTS+REB+ LOWER  31.5 — STRONG   (68.0%) [μ=18.4, edge=41.5%]
+   4) Jizzle James         PTS+REB+ LOWER  20.5 — LEAN     (67.9%) [μ=16.1, edge=21.7%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: ILL          vs UNKNOWN OPPONENT (NO_KENPOM_OPP)              │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Keaton Wagler        PTS      LOWER  21.5 — STRONG   (68.0%) [μ=18.5, edge=14.0%]
+   2) Keaton Wagler        PTS+AST  LOWER  26.5 — LEAN     (66.3%) [μ=22.8, edge=14.0%]
+   3) Keaton Wagler        PTS+REB+ LOWER  31.5 — LEAN     (65.0%) [μ=27.7, edge=12.0%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: IU           vs UNKNOWN OPPONENT (NO_KENPOM_OPP)              │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Lamar Wilkerson      PTS      LOWER  22.5 — STRONG   (68.0%) [μ=15.4, edge=31.4%]
+   2) Lamar Wilkerson      PTS+AST  LOWER  24.5 — STRONG   (68.0%) [μ=17.0, edge=30.6%]
+   3) Lamar Wilkerson      PTS+REB  LOWER  26.5 — STRONG   (68.0%) [μ=19.0, edge=28.2%]
+   4) Lamar Wilkerson      PTS+REB+ LOWER  28.5 — STRONG   (68.0%) [μ=20.6, edge=27.8%]
+   5) Lamar Wilkerson      REB+AST  LOWER   6.5 — LEAN     (66.6%) [μ=5.2, edge=20.5%]
+   6) Nick Dorn            PTS      HIGHE   9.5 — LEAN     (60.8%) [μ=11.2, edge=17.8%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: MD           vs UNKNOWN OPPONENT (NO_KENPOM_OPP)              │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) David Coit           PTS      LOWER  16.5 — STRONG   (68.0%) [μ=13.7, edge=16.8%]
+   2) Solomon Washington   PTS      LOWER  11.0 — STRONG   (68.0%) [μ=5.8, edge=46.9%]
+   3) Elijah Saunders      PTS      LOWER   9.5 — STRONG   (68.0%) [μ=7.2, edge=24.3%]
+   4) David Coit           PTS+AST  LOWER  20.5 — STRONG   (68.0%) [μ=16.2, edge=20.9%]
+   5) Elijah Saunders      PTS+AST  LOWER  10.5 — STRONG   (68.0%) [μ=7.9, edge=24.6%]
+   6) Solomon Washington   PTS+REB  LOWER  20.5 — STRONG   (68.0%) [μ=11.0, edge=46.2%]
+   7) Elijah Saunders      PTS+REB  LOWER  14.5 — STRONG   (68.0%) [μ=10.9, edge=24.5%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: RUTG         vs UNKNOWN OPPONENT (NO_KENPOM_OPP)              │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Tariq Francis        PTS      LOWER  19.5 — STRONG   (68.0%) [μ=16.8, edge=13.7%]
+   2) Tariq Francis        PTS+AST  LOWER  22.5 — LEAN     (61.5%) [μ=19.7, edge=12.3%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: UTAH         vs UNKNOWN OPPONENT (NO_KENPOM_OPP)              │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Terrence Brown       PTS      LOWER  18.5 — STRONG   (68.0%) [μ=15.9, edge=13.8%]
+   2) Keanu Dawes          PTS      LOWER  12.5 — STRONG   (68.0%) [μ=8.9, edge=28.9%]
+   3) Keanu Dawes          PTS+REB+ LOWER  23.5 — STRONG   (68.0%) [μ=16.5, edge=29.7%]
+   4) Don McHenry          PTS      HIGHE  14.5 — LEAN     (62.7%) [μ=16.3, edge=12.4%]
+   5) Terrence Brown       PTS+REB+ LOWER  25.5 — LEAN     (61.0%) [μ=22.6, edge=11.2%]
+
+======================================================================
+📊 STAT CATEGORY BREAKDOWN
+======================================================================
+
+   3-POINTERS     5 picks |  0 actionable | avg conf:  39.4%
+   AST            3 picks |  0 actionable | avg conf:  55.6%
+   PTS+REB+AST   18 picks | 10 actionable | avg conf:  56.2%
+   PTS           19 picks | 13 actionable | avg conf:  57.3%
+   PTS+AST       15 picks |  6 actionable | avg conf:  44.9%
+   PTS+REB       16 picks |  5 actionable | avg conf:  45.1%
+   REB            8 picks |  2 actionable | avg conf:  49.3%
+   REB+AST        9 picks |  2 actionable | avg conf:  48.4%
+
+======================================================================
+🔬 DETAILED PICK ANALYSIS — ACTIONABLE PLAYS
+======================================================================
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #1 Jizzle James (CIN) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS UNDER 14.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 10.92 (ESPN)
+      • Confidence: OK
+      • Line: 14.5 | Gap: 24.7% above mean
+      • Z-Score: +1.79
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 68.0%
+      • Stat Cap: 68% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #2 Terrence Brown (UTAH) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS UNDER 18.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 15.95 (ESPN)
+      • Confidence: OK
+      • Line: 18.5 | Gap: 13.8% above mean
+      • Z-Score: +1.28
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 68.0%
+      • Stat Cap: 68% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #3 Keanu Dawes (UTAH) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS UNDER 12.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 8.89 (ESPN)
+      • Confidence: OK
+      • Line: 12.5 | Gap: 28.9% above mean
+      • Z-Score: +1.80
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 68.0%
+      • Stat Cap: 68% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #4 Baba Miller (CIN) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS UNDER 16.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 9.68 (ESPN)
+      • Confidence: OK
+      • Line: 16.5 | Gap: 41.3% above mean
+      • Z-Score: +3.41
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 68.0%
+      • Stat Cap: 68% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #5 Keanu Dawes (UTAH) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 23.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 16.51 (ESPN)
+      • Confidence: OK
+      • Line: 23.5 | Gap: 29.7% above mean
+      • Z-Score: +3.49
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #6 Baba Miller (CIN) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 31.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 18.43 (ESPN)
+      • Confidence: OK
+      • Line: 31.5 | Gap: 41.5% above mean
+      • Z-Score: +6.54
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #7 Tariq Francis (RUTG) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS UNDER 19.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 16.83 (ESPN)
+      • Confidence: OK
+      • Line: 19.5 | Gap: 13.7% above mean
+      • Z-Score: +1.34
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 68.0%
+      • Stat Cap: 68% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #8 David Coit (MD) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS UNDER 16.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 13.72 (ESPN)
+      • Confidence: OK
+      • Line: 16.5 | Gap: 16.8% above mean
+      • Z-Score: +1.39
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 68.0%
+      • Stat Cap: 68% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #9 Solomon Washington (MD) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS UNDER 11.0   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 5.84 (ESPN)
+      • Confidence: OK
+      • Line: 11.0 | Gap: 46.9% above mean
+      • Z-Score: +2.58
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 68.0%
+      • Stat Cap: 68% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #10 Elijah Saunders (MD) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS UNDER 9.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 7.19 (ESPN)
+      • Confidence: OK
+      • Line: 9.5 | Gap: 24.3% above mean
+      • Z-Score: +1.15
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 68.0%
+      • Stat Cap: 68% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #11 David Coit (MD) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS+AST UNDER 20.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 16.22 (ESPN)
+      • Confidence: OK
+      • Line: 20.5 | Gap: 20.9% above mean
+      • Z-Score: +2.14
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 69.1%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #12 Elijah Saunders (MD) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS+AST UNDER 10.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 7.92 (ESPN)
+      • Confidence: OK
+      • Line: 10.5 | Gap: 24.6% above mean
+      • Z-Score: +1.29
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 71.3%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #13 Solomon Washington (MD) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS+REB UNDER 20.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.03 (ESPN)
+      • Confidence: OK
+      • Line: 20.5 | Gap: 46.2% above mean
+      • Z-Score: +4.74
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 73.0%
+      • Stat Cap: 73% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #14 Elijah Saunders (MD) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS+REB UNDER 14.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 10.95 (ESPN)
+      • Confidence: OK
+      • Line: 14.5 | Gap: 24.5% above mean
+      • Z-Score: +1.78
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 73.0%
+      • Stat Cap: 73% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #15 Solomon Washington (MD) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 21.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.67 (ESPN)
+      • Confidence: OK
+      • Line: 21.5 | Gap: 45.7% above mean
+      • Z-Score: +4.92
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #16 Elijah Saunders (MD) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 15.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.68 (ESPN)
+      • Confidence: OK
+      • Line: 15.5 | Gap: 24.6% above mean
+      • Z-Score: +1.91
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 73.6%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #17 Solomon Washington (MD) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REB UNDER 9.0   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 5.19 (ESPN)
+      • Confidence: OK
+      • Line: 9.0 | Gap: 42.3% above mean
+      • Z-Score: +1.90
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 68.0%
+      • Stat Cap: 68% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #18 Solomon Washington (MD) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REB+AST UNDER 10.0   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 5.83 (ESPN)
+      • Confidence: OK
+      • Line: 10.0 | Gap: 41.7% above mean
+      • Z-Score: +2.08
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 70.0%
+      • Stat Cap: 70% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #19 Lamar Wilkerson (IU) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS UNDER 22.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 15.43 (ESPN)
+      • Confidence: OK
+      • Line: 22.5 | Gap: 31.4% above mean
+      • Z-Score: +3.54
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 68.0%
+      • Stat Cap: 68% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #20 Lamar Wilkerson (IU) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS+AST UNDER 24.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 17.00 (ESPN)
+      • Confidence: OK
+      • Line: 24.5 | Gap: 30.6% above mean
+      • Z-Score: +3.75
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 72.0%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #21 Lamar Wilkerson (IU) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS+REB UNDER 26.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 19.02 (ESPN)
+      • Confidence: OK
+      • Line: 26.5 | Gap: 28.2% above mean
+      • Z-Score: +3.74
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 73.0%
+      • Stat Cap: 73% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #22 Lamar Wilkerson (IU) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 28.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 20.59 (ESPN)
+      • Confidence: OK
+      • Line: 28.5 | Gap: 27.8% above mean
+      • Z-Score: +3.96
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #23 Keaton Wagler (ILL) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS UNDER 21.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 18.48 (ESPN)
+      • Confidence: OK
+      • Line: 21.5 | Gap: 14.0% above mean
+      • Z-Score: +1.51
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 68.0%
+      • Stat Cap: 68% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #24 Jizzle James (CIN) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 20.5   |   [LEAN] 67.9%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 16.05 (ESPN)
+      • Confidence: OK
+      • Line: 20.5 | Gap: 21.7% above mean
+      • Z-Score: +2.22
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 67.9%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 67.9%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #25 Andre Mills (MD) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 17.5   |   [LEAN] 67.3%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 15.00 (ESPN)
+      • Confidence: OK
+      • Line: 17.5 | Gap: 14.3% above mean
+      • Z-Score: +1.25
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 67.3%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 67.3%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #26 Andre Mills (MD) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS+AST UNDER 13.5   |   [LEAN] 67.1%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.29 (ESPN)
+      • Confidence: OK
+      • Line: 13.5 | Gap: 16.4% above mean
+      • Z-Score: +1.11
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 67.1%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Final Probability: 67.1%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #27 Lamar Wilkerson (IU) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REB+AST UNDER 6.5   |   [LEAN] 66.6%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 5.17 (ESPN)
+      • Confidence: OK
+      • Line: 6.5 | Gap: 20.5% above mean
+      • Z-Score: +0.67
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 66.6%
+      • Stat Cap: 70% | Global Cap: 79%
+      • Final Probability: 66.6%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #28 Keaton Wagler (ILL) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS+AST UNDER 26.5   |   [LEAN] 66.3%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 22.80 (ESPN)
+      • Confidence: OK
+      • Line: 26.5 | Gap: 14.0% above mean
+      • Z-Score: +1.85
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 66.3%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Final Probability: 66.3%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #29 Andre Mills (MD) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS+REB UNDER 15.5   |   [LEAN] 66.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 13.54 (ESPN)
+      • Confidence: OK
+      • Line: 15.5 | Gap: 12.6% above mean
+      • Z-Score: +0.98
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 66.0%
+      • Stat Cap: 73% | Global Cap: 79%
+      • Final Probability: 66.0%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #30 David Coit (MD) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 22.5   |   [LEAN] 65.5%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 18.60 (ESPN)
+      • Confidence: OK
+      • Line: 22.5 | Gap: 17.3% above mean
+      • Z-Score: +1.95
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 65.5%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 65.5%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #31 Andre Mills (MD) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS UNDER 11.5   |   [LEAN] 65.5%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 9.83 (ESPN)
+      • Confidence: OK
+      • Line: 11.5 | Gap: 14.5% above mean
+      • Z-Score: +0.83
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 65.5%
+      • Stat Cap: 68% | Global Cap: 79%
+      • Final Probability: 65.5%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #32 Elijah Saunders (MD) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REB UNDER 5.0   |   [LEAN] 65.3%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 3.76 (ESPN)
+      • Confidence: OK
+      • Line: 5.0 | Gap: 24.8% above mean
+      • Z-Score: +0.62
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 65.3%
+      • Stat Cap: 68% | Global Cap: 79%
+      • Final Probability: 65.3%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #33 David Coit (MD) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS+REB UNDER 19.5   |   [LEAN] 65.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 16.10 (ESPN)
+      • Confidence: OK
+      • Line: 19.5 | Gap: 17.4% above mean
+      • Z-Score: +1.70
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 65.0%
+      • Stat Cap: 73% | Global Cap: 79%
+      • Final Probability: 65.0%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #34 Keaton Wagler (ILL) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 31.5   |   [LEAN] 65.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 27.72 (ESPN)
+      • Confidence: OK
+      • Line: 31.5 | Gap: 12.0% above mean
+      • Z-Score: +1.89
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 65.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 65.0%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #35 Don McHenry (UTAH) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▲ PTS OVER 14.5   |   [LEAN] 62.7%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 16.30 (ESPN)
+      • Confidence: OK
+      • Line: 14.5 | Gap: 12.4% below mean
+      • Z-Score: -0.90
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 62.7%
+      • Stat Cap: 68% | Global Cap: 79%
+      • Final Probability: 62.7%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #36 Tariq Francis (RUTG) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS+AST UNDER 22.5   |   [LEAN] 61.5%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 19.73 (ESPN)
+      • Confidence: OK
+      • Line: 22.5 | Gap: 12.3% above mean
+      • Z-Score: +1.38
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 61.5%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Final Probability: 61.5%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #37 Terrence Brown (UTAH) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 25.5   |   [LEAN] 61.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 22.64 (ESPN)
+      • Confidence: OK
+      • Line: 25.5 | Gap: 11.2% above mean
+      • Z-Score: +1.43
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 61.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 61.0%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #38 Nick Dorn (IU) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▲ PTS OVER 9.5   |   [LEAN] 60.8%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.19 (ESPN)
+      • Confidence: OK
+      • Line: 9.5 | Gap: 17.8% below mean
+      • Z-Score: -0.84
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 60.8%
+      • Stat Cap: 68% | Global Cap: 79%
+      • Final Probability: 60.8%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+======================================================================
+SLATE SUMMARY STATISTICS
+======================================================================
+
+Total Props Analyzed: 93
+
+Tier Distribution:
+   SKIP         ███████████░░░░░░░░░  55 (59.1%)
+   STRONG       ████░░░░░░░░░░░░░░░░  23 (24.7%)
+   LEAN         ███░░░░░░░░░░░░░░░░░  15 (16.1%)
+
+Direction Bias: 29 OVER / 64 UNDER (31.2% / 68.8%)
+
+======================================================================
+🎲 PARLAY CONSTRUCTION GUIDE
+======================================================================
+
+DIVERSIFICATION POOLS:
+   PTS+REB+AST  10 picks (best: Keanu Dawes)
+   PTS          13 picks (best: Jizzle James)
+   PTS+AST       6 picks (best: David Coit)
+   PTS+REB       5 picks (best: Solomon Washington)
+   REB           2 picks (best: Solomon Washington)
+   REB+AST       2 picks (best: Solomon Washington)
+
+SAMPLE 3-LEG POWER PLAY:
+   (select from different stats for diversification)
+   1. Jizzle James PTS UNDER 14.5 (68.0%)
+   2. Terrence Brown PTS UNDER 18.5 (68.0%)
+   3. Keanu Dawes PTS UNDER 12.5 (68.0%)
+
+   Combined probability: 31.4%
+   3-leg POWER payout: 6x
+   Expected value: +0.89 units
+
+======================================================================
+GOVERNANCE & DISCLAIMER
+======================================================================
+
+This report is generated by a risk-first quantitative analysis system.
+CBB uses POISSON probability model with stricter confidence caps than NBA.
+
+CBB-SPECIFIC NOTES:
+• NO SLAM tier available (max tier = STRONG @ 70%)
+• Global cap: 79% (vs NBA 85%)
+• College variance is HIGHER than NBA — expect more swings
+• Conference play has different dynamics than non-conference
+• 'UNKNOWN OPPONENT (NO_KENPOM_OPP)' = opponent/schedule not in KenPom set (non-D1/exhibition/unknown)
+
+RISK MANAGEMENT:
+• Never exceed 2% of bankroll on a single CBB entry
+• Parlays carry exponentially higher variance
+• Past performance does not guarantee future results
+
+For entertainment purposes only. Gamble responsibly.
+
+──────────────────────────────────────────────────────────────────────
+Report ID: CBB_20260214_223714
+System: UNDERDOG ANALYSIS v2.0 — Risk-First Quant Engine (Poisson)
+──────────────────────────────────────────────────────────────────────

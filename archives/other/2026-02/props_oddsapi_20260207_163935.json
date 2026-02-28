@@ -1,0 +1,894 @@
+{
+  "timestamp": "2026-02-07T16:39:35.030510",
+  "sites": [
+    "oddsapi"
+  ],
+  "total_props": 18,
+  "parsed_props": 18,
+  "players": 9,
+  "props": [
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Danny Welbeck shots 2.0 higher (PrizePicks/player_shots)",
+      "player": "Danny Welbeck",
+      "stat": "shots",
+      "line": 2.0,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T22:39:35.030510Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Danny Welbeck",
+        "stat": "shots",
+        "line": 2.0,
+        "direction": "higher",
+        "raw": {
+          "event_id": "a7f9683fe58c4fc6a5ac52396f279456",
+          "commence_time": "2026-02-08T14:00:00Z",
+          "home_team": "Brighton and Hove Albion",
+          "away_team": "Crystal Palace",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Danny Welbeck"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Danny Welbeck shots 2.0 lower (PrizePicks/player_shots)",
+      "player": "Danny Welbeck",
+      "stat": "shots",
+      "line": 2.0,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T22:39:35.030510Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Danny Welbeck",
+        "stat": "shots",
+        "line": 2.0,
+        "direction": "lower",
+        "raw": {
+          "event_id": "a7f9683fe58c4fc6a5ac52396f279456",
+          "commence_time": "2026-02-08T14:00:00Z",
+          "home_team": "Brighton and Hove Albion",
+          "away_team": "Crystal Palace",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Danny Welbeck"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Kaoru Mitoma shots 1.5 higher (PrizePicks/player_shots)",
+      "player": "Kaoru Mitoma",
+      "stat": "shots",
+      "line": 1.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T22:39:35.030510Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Kaoru Mitoma",
+        "stat": "shots",
+        "line": 1.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "a7f9683fe58c4fc6a5ac52396f279456",
+          "commence_time": "2026-02-08T14:00:00Z",
+          "home_team": "Brighton and Hove Albion",
+          "away_team": "Crystal Palace",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Kaoru Mitoma"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Kaoru Mitoma shots 1.5 lower (PrizePicks/player_shots)",
+      "player": "Kaoru Mitoma",
+      "stat": "shots",
+      "line": 1.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T22:39:35.030510Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Kaoru Mitoma",
+        "stat": "shots",
+        "line": 1.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "a7f9683fe58c4fc6a5ac52396f279456",
+          "commence_time": "2026-02-08T14:00:00Z",
+          "home_team": "Brighton and Hove Albion",
+          "away_team": "Crystal Palace",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Kaoru Mitoma"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Yankuba Minteh shots 1.5 higher (PrizePicks/player_shots)",
+      "player": "Yankuba Minteh",
+      "stat": "shots",
+      "line": 1.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T22:39:35.030510Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Yankuba Minteh",
+        "stat": "shots",
+        "line": 1.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "a7f9683fe58c4fc6a5ac52396f279456",
+          "commence_time": "2026-02-08T14:00:00Z",
+          "home_team": "Brighton and Hove Albion",
+          "away_team": "Crystal Palace",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Yankuba Minteh"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Yankuba Minteh shots 1.5 lower (PrizePicks/player_shots)",
+      "player": "Yankuba Minteh",
+      "stat": "shots",
+      "line": 1.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T22:39:35.030510Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Yankuba Minteh",
+        "stat": "shots",
+        "line": 1.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "a7f9683fe58c4fc6a5ac52396f279456",
+          "commence_time": "2026-02-08T14:00:00Z",
+          "home_team": "Brighton and Hove Albion",
+          "away_team": "Crystal Palace",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Yankuba Minteh"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Erling Braut Haaland shots 3.0 higher (PrizePicks/player_shots)",
+      "player": "Erling Braut Haaland",
+      "stat": "shots",
+      "line": 3.0,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T22:39:35.030510Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Erling Braut Haaland",
+        "stat": "shots",
+        "line": 3.0,
+        "direction": "higher",
+        "raw": {
+          "event_id": "e526c157d950230afb02bc6534fbaf82",
+          "commence_time": "2026-02-08T16:30:00Z",
+          "home_team": "Liverpool",
+          "away_team": "Manchester City",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Erling Braut Haaland"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Erling Braut Haaland shots 3.0 lower (PrizePicks/player_shots)",
+      "player": "Erling Braut Haaland",
+      "stat": "shots",
+      "line": 3.0,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T22:39:35.030510Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Erling Braut Haaland",
+        "stat": "shots",
+        "line": 3.0,
+        "direction": "lower",
+        "raw": {
+          "event_id": "e526c157d950230afb02bc6534fbaf82",
+          "commence_time": "2026-02-08T16:30:00Z",
+          "home_team": "Liverpool",
+          "away_team": "Manchester City",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Erling Braut Haaland"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Mohamed Salah shots 2.5 higher (PrizePicks/player_shots)",
+      "player": "Mohamed Salah",
+      "stat": "shots",
+      "line": 2.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T22:39:35.030510Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Mohamed Salah",
+        "stat": "shots",
+        "line": 2.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "e526c157d950230afb02bc6534fbaf82",
+          "commence_time": "2026-02-08T16:30:00Z",
+          "home_team": "Liverpool",
+          "away_team": "Manchester City",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Mohamed Salah"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Mohamed Salah shots 2.5 lower (PrizePicks/player_shots)",
+      "player": "Mohamed Salah",
+      "stat": "shots",
+      "line": 2.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T22:39:35.030510Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Mohamed Salah",
+        "stat": "shots",
+        "line": 2.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "e526c157d950230afb02bc6534fbaf82",
+          "commence_time": "2026-02-08T16:30:00Z",
+          "home_team": "Liverpool",
+          "away_team": "Manchester City",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Mohamed Salah"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Virgil van Dijk shots 0.5 higher (PrizePicks/player_shots)",
+      "player": "Virgil van Dijk",
+      "stat": "shots",
+      "line": 0.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T22:39:35.030510Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Virgil van Dijk",
+        "stat": "shots",
+        "line": 0.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "e526c157d950230afb02bc6534fbaf82",
+          "commence_time": "2026-02-08T16:30:00Z",
+          "home_team": "Liverpool",
+          "away_team": "Manchester City",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Virgil van Dijk"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Virgil van Dijk shots 0.5 lower (PrizePicks/player_shots)",
+      "player": "Virgil van Dijk",
+      "stat": "shots",
+      "line": 0.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T22:39:35.030510Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Virgil van Dijk",
+        "stat": "shots",
+        "line": 0.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "e526c157d950230afb02bc6534fbaf82",
+          "commence_time": "2026-02-08T16:30:00Z",
+          "home_team": "Liverpool",
+          "away_team": "Manchester City",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Virgil van Dijk"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Cody Gakpo shots_on_target 0.5 higher (PrizePicks/player_shots_on_target)",
+      "player": "Cody Gakpo",
+      "stat": "shots_on_target",
+      "line": 0.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T22:39:35.030510Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Cody Gakpo",
+        "stat": "shots_on_target",
+        "line": 0.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "e526c157d950230afb02bc6534fbaf82",
+          "commence_time": "2026-02-08T16:30:00Z",
+          "home_team": "Liverpool",
+          "away_team": "Manchester City",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots_on_target",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Cody Gakpo"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Cody Gakpo shots_on_target 0.5 lower (PrizePicks/player_shots_on_target)",
+      "player": "Cody Gakpo",
+      "stat": "shots_on_target",
+      "line": 0.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T22:39:35.030510Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Cody Gakpo",
+        "stat": "shots_on_target",
+        "line": 0.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "e526c157d950230afb02bc6534fbaf82",
+          "commence_time": "2026-02-08T16:30:00Z",
+          "home_team": "Liverpool",
+          "away_team": "Manchester City",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots_on_target",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Cody Gakpo"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Florian Wirtz shots_on_target 0.5 higher (PrizePicks/player_shots_on_target)",
+      "player": "Florian Wirtz",
+      "stat": "shots_on_target",
+      "line": 0.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T22:39:35.030510Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Florian Wirtz",
+        "stat": "shots_on_target",
+        "line": 0.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "e526c157d950230afb02bc6534fbaf82",
+          "commence_time": "2026-02-08T16:30:00Z",
+          "home_team": "Liverpool",
+          "away_team": "Manchester City",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots_on_target",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Florian Wirtz"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Florian Wirtz shots_on_target 0.5 lower (PrizePicks/player_shots_on_target)",
+      "player": "Florian Wirtz",
+      "stat": "shots_on_target",
+      "line": 0.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T22:39:35.030510Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Florian Wirtz",
+        "stat": "shots_on_target",
+        "line": 0.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "e526c157d950230afb02bc6534fbaf82",
+          "commence_time": "2026-02-08T16:30:00Z",
+          "home_team": "Liverpool",
+          "away_team": "Manchester City",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots_on_target",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Florian Wirtz"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Rayan Cherki shots_on_target 0.5 higher (PrizePicks/player_shots_on_target)",
+      "player": "Rayan Cherki",
+      "stat": "shots_on_target",
+      "line": 0.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T22:39:35.030510Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Rayan Cherki",
+        "stat": "shots_on_target",
+        "line": 0.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "e526c157d950230afb02bc6534fbaf82",
+          "commence_time": "2026-02-08T16:30:00Z",
+          "home_team": "Liverpool",
+          "away_team": "Manchester City",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots_on_target",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Rayan Cherki"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Rayan Cherki shots_on_target 0.5 lower (PrizePicks/player_shots_on_target)",
+      "player": "Rayan Cherki",
+      "stat": "shots_on_target",
+      "line": 0.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T22:39:35.030510Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Rayan Cherki",
+        "stat": "shots_on_target",
+        "line": 0.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "e526c157d950230afb02bc6534fbaf82",
+          "commence_time": "2026-02-08T16:30:00Z",
+          "home_team": "Liverpool",
+          "away_team": "Manchester City",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots_on_target",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Rayan Cherki"
+        }
+      }
+    }
+  ],
+  "oddsapi_meta": {
+    "sport": "SOCCER_EPL",
+    "sport_key": "soccer_epl",
+    "regions": "us_dfs",
+    "markets": "player_shots,player_shots_on_target,player_assists",
+    "bookmakers": "betr_us_dfs,pick6,prizepicks,underdog",
+    "event_count": 20,
+    "quota": {
+      "events_list": {
+        "remaining": 42,
+        "used": 458,
+        "last_cost": 0
+      },
+      "last_event_odds": {
+        "remaining": 39,
+        "used": 461,
+        "last_cost": 0
+      }
+    },
+    "raw_event_odds": [
+      {
+        "id": "a7f9683fe58c4fc6a5ac52396f279456",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-08T14:00:00Z",
+        "home_team": "Brighton and Hove Albion",
+        "away_team": "Crystal Palace",
+        "bookmakers": [
+          {
+            "key": "prizepicks",
+            "title": "PrizePicks",
+            "markets": [
+              {
+                "key": "player_shots",
+                "last_update": "2026-02-07T22:38:27Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Danny Welbeck",
+                    "price": -137,
+                    "point": 2.0
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Danny Welbeck",
+                    "price": -137,
+                    "point": 2.0
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Kaoru Mitoma",
+                    "price": -137,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Kaoru Mitoma",
+                    "price": -137,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Yankuba Minteh",
+                    "price": -137,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Yankuba Minteh",
+                    "price": -137,
+                    "point": 1.5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e526c157d950230afb02bc6534fbaf82",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-08T16:30:00Z",
+        "home_team": "Liverpool",
+        "away_team": "Manchester City",
+        "bookmakers": [
+          {
+            "key": "prizepicks",
+            "title": "PrizePicks",
+            "markets": [
+              {
+                "key": "player_shots",
+                "last_update": "2026-02-07T22:38:27Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Erling Braut Haaland",
+                    "price": -137,
+                    "point": 3.0
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Erling Braut Haaland",
+                    "price": -137,
+                    "point": 3.0
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Mohamed Salah",
+                    "price": -137,
+                    "point": 2.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Mohamed Salah",
+                    "price": -137,
+                    "point": 2.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Virgil van Dijk",
+                    "price": -137,
+                    "point": 0.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Virgil van Dijk",
+                    "price": -137,
+                    "point": 0.5
+                  }
+                ]
+              },
+              {
+                "key": "player_shots_on_target",
+                "last_update": "2026-02-07T22:38:27Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Cody Gakpo",
+                    "price": -137,
+                    "point": 0.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Cody Gakpo",
+                    "price": -137,
+                    "point": 0.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Florian Wirtz",
+                    "price": -137,
+                    "point": 0.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Florian Wirtz",
+                    "price": -137,
+                    "point": 0.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Rayan Cherki",
+                    "price": -137,
+                    "point": 0.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Rayan Cherki",
+                    "price": -137,
+                    "point": 0.5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5b5fa92a38c5a46da05ac81d003f6f1e",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-10T19:30:00Z",
+        "home_team": "Everton",
+        "away_team": "Bournemouth",
+        "bookmakers": []
+      },
+      {
+        "id": "72774f6fb55af274c4982bcb62d4a765",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-10T19:30:00Z",
+        "home_team": "Chelsea",
+        "away_team": "Leeds United",
+        "bookmakers": []
+      },
+      {
+        "id": "7dbe188ba5a5b8a16e8d293c2afe1274",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-10T19:30:00Z",
+        "home_team": "Tottenham Hotspur",
+        "away_team": "Newcastle United",
+        "bookmakers": []
+      },
+      {
+        "id": "e52ffec43cce1bd9cea0f0ef8e9a0b7b",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-10T20:15:00Z",
+        "home_team": "West Ham United",
+        "away_team": "Manchester United",
+        "bookmakers": []
+      },
+      {
+        "id": "6eb455fd4d99ec4ccae4ec842f2f34fb",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-11T19:30:00Z",
+        "home_team": "Aston Villa",
+        "away_team": "Brighton and Hove Albion",
+        "bookmakers": []
+      },
+      {
+        "id": "0668597268dc436be07072656aeeebb6",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-11T19:30:00Z",
+        "home_team": "Crystal Palace",
+        "away_team": "Burnley",
+        "bookmakers": []
+      },
+      {
+        "id": "a02f032d38dce8c9449394eef35c9992",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-11T19:30:00Z",
+        "home_team": "Manchester City",
+        "away_team": "Fulham",
+        "bookmakers": []
+      },
+      {
+        "id": "f32339e73cc54282b92a96ab5ab00488",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-11T19:30:00Z",
+        "home_team": "Nottingham Forest",
+        "away_team": "Wolverhampton Wanderers",
+        "bookmakers": []
+      },
+      {
+        "id": "34bd80d2295adf2b26ae146f65f226be",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-11T20:15:00Z",
+        "home_team": "Sunderland",
+        "away_team": "Liverpool",
+        "bookmakers": []
+      },
+      {
+        "id": "c05ca60866c3224a6fa96c81a0eef68f",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-12T20:00:00Z",
+        "home_team": "Brentford",
+        "away_team": "Arsenal",
+        "bookmakers": []
+      },
+      {
+        "id": "121455e2f00d446f83bf2939263ff388",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-21T15:00:00Z",
+        "home_team": "Aston Villa",
+        "away_team": "Leeds United",
+        "bookmakers": []
+      },
+      {
+        "id": "f38e853e6d4accab249a51501f2806ef",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-21T15:00:00Z",
+        "home_team": "Brentford",
+        "away_team": "Brighton and Hove Albion",
+        "bookmakers": []
+      },
+      {
+        "id": "7b0c7dd2f5e825fc904d669a946e3a74",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-21T15:00:00Z",
+        "home_team": "Chelsea",
+        "away_team": "Burnley",
+        "bookmakers": []
+      },
+      {
+        "id": "13c335daab252110beaa73f1dbf3ae1f",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-21T17:30:00Z",
+        "home_team": "West Ham United",
+        "away_team": "Bournemouth",
+        "bookmakers": []
+      },
+      {
+        "id": "cf641a7ccfddaeccd926ca123d72a4b5",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-21T20:00:00Z",
+        "home_team": "Manchester City",
+        "away_team": "Newcastle United",
+        "bookmakers": []
+      },
+      {
+        "id": "0674c077e5225c0795ebb7866e06ac4c",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-22T14:00:00Z",
+        "home_team": "Crystal Palace",
+        "away_team": "Wolverhampton Wanderers",
+        "bookmakers": []
+      },
+      {
+        "id": "9da0932d1255c3f7d4156ec7730ffa75",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-22T14:00:00Z",
+        "home_team": "Sunderland",
+        "away_team": "Fulham",
+        "bookmakers": []
+      },
+      {
+        "id": "55754da4f841e3997e766dd7ff5eafe2",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-22T14:00:00Z",
+        "home_team": "Nottingham Forest",
+        "away_team": "Liverpool",
+        "bookmakers": []
+      }
+    ]
+  },
+  "run_id": "01b64156bc6abb71"
+}

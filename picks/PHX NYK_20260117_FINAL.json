@@ -1,0 +1,40 @@
+{
+  "date": "2026-01-17",
+  "timestamp": "2026-01-17T17:26:42.602261",
+  "slate": "PHX NYK",
+  "source_file": "PHX NYK_RISK_FIRST_20260117_FROM_UD.json",
+  "summary": {
+    "play_count": 0,
+    "lean_count": 3,
+    "total": 3
+  },
+  "picks": [
+    {
+      "player": "Karl-Anthony Towns",
+      "team": "NYK",
+      "stat": "pts+ast",
+      "line": 24.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Jalen Brunson",
+      "team": "NYK",
+      "stat": "assists",
+      "line": 6.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 67.4
+    },
+    {
+      "player": "Jalen Brunson",
+      "team": "NYK",
+      "stat": "reb+ast",
+      "line": 9.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 65.8
+    }
+  ]
+}

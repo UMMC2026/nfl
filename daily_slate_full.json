@@ -1,0 +1,251 @@
+{
+  "date": "2026-01-13",
+  "league": "NFL",
+  "plays": [
+    {
+      "player": "Patrick Mahomes",
+      "team": "KC",
+      "stat": "pass_yds",
+      "line": 245.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Patrick Mahomes",
+      "team": "KC",
+      "stat": "pass_yds",
+      "line": 245.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Travis Kelce",
+      "team": "KC",
+      "stat": "rec_yds",
+      "line": 42.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Travis Kelce",
+      "team": "KC",
+      "stat": "rec_yds",
+      "line": 42.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Rashee Rice",
+      "team": "KC",
+      "stat": "rec_yds",
+      "line": 35.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Isiah Pacheco",
+      "team": "KC",
+      "stat": "rush_yds",
+      "line": 38.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Jalen Hurts",
+      "team": "PHI",
+      "stat": "pass_yds",
+      "line": 235.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Jalen Hurts",
+      "team": "PHI",
+      "stat": "pass_yds",
+      "line": 235.5,
+      "direction": "lower"
+    },
+    {
+      "player": "A.J. Brown",
+      "team": "PHI",
+      "stat": "rec_yds",
+      "line": 68.5,
+      "direction": "higher"
+    },
+    {
+      "player": "A.J. Brown",
+      "team": "PHI",
+      "stat": "rec_yds",
+      "line": 68.5,
+      "direction": "lower"
+    },
+    {
+      "player": "DeVonta Smith",
+      "team": "PHI",
+      "stat": "rec_yds",
+      "line": 55.5,
+      "direction": "higher"
+    },
+    {
+      "player": "DeVonta Smith",
+      "team": "PHI",
+      "stat": "rec_yds",
+      "line": 55.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Saquon Barkley",
+      "team": "PHI",
+      "stat": "rush_yds",
+      "line": 72.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Saquon Barkley",
+      "team": "PHI",
+      "stat": "rush_yds",
+      "line": 72.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Lamar Jackson",
+      "team": "BAL",
+      "stat": "pass_yds",
+      "line": 215.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Lamar Jackson",
+      "team": "BAL",
+      "stat": "pass_yds",
+      "line": 215.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Mark Andrews",
+      "team": "BAL",
+      "stat": "rec_yds",
+      "line": 38.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Derrick Henry",
+      "team": "BAL",
+      "stat": "rush_yds",
+      "line": 85.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Derrick Henry",
+      "team": "BAL",
+      "stat": "rush_yds",
+      "line": 85.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Josh Allen",
+      "team": "BUF",
+      "stat": "pass_yds",
+      "line": 255.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Josh Allen",
+      "team": "BUF",
+      "stat": "pass_yds",
+      "line": 255.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Stefon Diggs",
+      "team": "BUF",
+      "stat": "rec_yds",
+      "line": 62.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Stefon Diggs",
+      "team": "BUF",
+      "stat": "rec_yds",
+      "line": 62.5,
+      "direction": "lower"
+    },
+    {
+      "player": "James Cook",
+      "team": "BUF",
+      "stat": "rush_yds",
+      "line": 55.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Tyreek Hill",
+      "team": "MIA",
+      "stat": "rec_yds",
+      "line": 75.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Tyreek Hill",
+      "team": "MIA",
+      "stat": "rec_yds",
+      "line": 75.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Tua Tagovailoa",
+      "team": "MIA",
+      "stat": "pass_yds",
+      "line": 235.5,
+      "direction": "higher"
+    },
+    {
+      "player": "De'Von Achane",
+      "team": "MIA",
+      "stat": "rush_yds",
+      "line": 52.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Justin Jefferson",
+      "team": "MIN",
+      "stat": "rec_yds",
+      "line": 78.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Justin Jefferson",
+      "team": "MIN",
+      "stat": "rec_yds",
+      "line": 78.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Kirk Cousins",
+      "team": "MIN",
+      "stat": "pass_yds",
+      "line": 245.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Aaron Jones",
+      "team": "GB",
+      "stat": "rush_yds",
+      "line": 62.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Jordan Love",
+      "team": "GB",
+      "stat": "pass_yds",
+      "line": 265.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Jordan Love",
+      "team": "GB",
+      "stat": "pass_yds",
+      "line": 265.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Christian Watson",
+      "team": "GB",
+      "stat": "rec_yds",
+      "line": 52.5,
+      "direction": "higher"
+    }
+  ]
+}

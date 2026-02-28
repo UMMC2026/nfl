@@ -1,0 +1,99 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Tennis Hotfix - Deploy Option 1",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}/scripts/apply_tennis_hotfix.py"
+      ],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "detail": "Apply emergency hotfix for tennis confidence KeyError"
+    },
+    {
+      "label": "Tennis Hotfix - Test",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "-m", "pytest",
+        "tests/test_tennis_confidence.py",
+        "-v"
+      ],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "dependsOn": ["Tennis Hotfix - Deploy Option 1"],
+      "group": {
+        "kind": "test",
+        "isDefault": false
+      },
+      "detail": "Run tests to verify tennis hotfix works"
+    },
+    {
+      "label": "Validate SOP Compliance",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}/scripts/validate_sop_compliance.py"
+      ],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "group": {
+        "kind": "test",
+        "isDefault": false
+      },
+      "detail": "SOP v2.1 Section 6 - Render Gate validation"
+    },
+    {
+      "label": "Deploy Sport-Specific Thresholds (Option 2)",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}/scripts/deploy_sport_thresholds.py"
+      ],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "detail": "Deploy tennis-specific confidence caps with backtest validation"
+    },
+    {
+      "label": "Tennis Pipeline - Full Run",
+      "type": "shell",
+      "command": "bash",
+      "args": [
+        "${workspaceFolder}/scripts/run_tennis_pipeline.sh"
+      ],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "dependsOn": ["Tennis Hotfix - Deploy Option 1"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Run complete tennis analysis pipeline with hotfix"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "_metadata": {
+    "description": "Tennis player injury database for confidence adjustments",
+    "last_updated": "2026-02-05",
+    "phase": "5B Week 2"
+  },
+  "_instructions": {
+    "format": "Player Name: {return_date: YYYY-MM-DD, injury_type: type}",
+    "injury_types": ["knee", "back", "shoulder", "wrist", "ankle", "hip", "elbow", "abdominal", "unknown"],
+    "penalties": {
+      "just_returned_lt_2_weeks": "-15%",
+      "early_recovery_2_3_weeks": "-10%",
+      "recovering_3_4_weeks": "-7%",
+      "late_recovery_4_6_weeks": "-3%",
+      "fully_recovered_gt_6_weeks": "0%"
+    }
+  }
+}

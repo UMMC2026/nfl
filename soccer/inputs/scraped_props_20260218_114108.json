@@ -1,0 +1,168 @@
+{
+  "timestamp": "2026-02-18T11:40:57.154521",
+  "sites": [
+    "persistent"
+  ],
+  "total_props": 12,
+  "parsed_props": 12,
+  "players": 9,
+  "props": [
+    {
+      "source": "Underdog",
+      "player": "Carlos Alcaraz",
+      "stat": "games won",
+      "line": 12.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Carlos Alcaraz Games Won 12.5 higher",
+      "matchup": {
+        "team1": "Royer",
+        "team2": "Alcaraz"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Carlos Alcaraz",
+      "stat": "aces",
+      "line": 4.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Carlos Alcaraz Aces 4.5 higher",
+      "matchup": {
+        "team1": "Royer",
+        "team2": "Alcaraz"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Breakpoints Won",
+      "stat": "double faults",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Breakpoints Won Double Faults 1.5 higher",
+      "matchup": {
+        "team1": "Royer",
+        "team2": "Alcaraz"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Felix Gill",
+      "stat": "games won",
+      "line": 12.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Felix Gill Games Won 12.5 higher",
+      "matchup": {
+        "team1": "Gill",
+        "team2": "Bar Biryukov"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Daniel Michalski",
+      "stat": "games won",
+      "line": 12.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Daniel Michalski Games Won 12.5 higher",
+      "matchup": {
+        "team1": "Geerts",
+        "team2": "Michalski"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Michael Geerts",
+      "stat": "games won",
+      "line": 12.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Michael Geerts Games Won 12.5 higher",
+      "matchup": {
+        "team1": "Geerts",
+        "team2": "Michalski"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Valentin Royer",
+      "stat": "games won",
+      "line": 6.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Valentin Royer Games Won 6.5 higher",
+      "matchup": {
+        "team1": "Royer",
+        "team2": "Alcaraz"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Valentin Royer",
+      "stat": "aces",
+      "line": 4.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Valentin Royer Aces 4.5 higher",
+      "matchup": {
+        "team1": "Royer",
+        "team2": "Alcaraz"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Breakpoints Won",
+      "stat": "double faults",
+      "line": 2.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Breakpoints Won Double Faults 2.5 higher",
+      "matchup": {
+        "team1": "Royer",
+        "team2": "Alcaraz"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Jay Clarke",
+      "stat": "games won",
+      "line": 12.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Jay Clarke Games Won 12.5 higher",
+      "matchup": {
+        "team1": "Binda",
+        "team2": "Clarke"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Flavio Cobolli",
+      "stat": "games won",
+      "line": 12.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Flavio Cobolli Games Won 12.5 higher",
+      "matchup": {
+        "team1": "Atmane",
+        "team2": "Cobolli"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Alexandr Binda",
+      "stat": "games won",
+      "line": 9.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Alexandr Binda Games Won 9.5 higher",
+      "matchup": {
+        "team1": "Binda",
+        "team2": "Clarke"
+      }
+    }
+  ],
+  "run_id": "3361466cb6612102"
+}

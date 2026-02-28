@@ -1,0 +1,706 @@
+{
+  "backups": [
+    {
+      "backup_id": "nba_backup_20260205_150557",
+      "created": "2026-02-05T15:05:57.510823",
+      "reason": "daily_refresh",
+      "files": [
+        {
+          "name": "all_player_stats.csv",
+          "size": 999,
+          "hash": "0220f543c444"
+        },
+        {
+          "name": "player_ids.csv",
+          "size": 136,
+          "hash": "24071b3c72b8"
+        }
+      ],
+      "databases": [
+        {
+          "name": "home_away_splits.db",
+          "size": 12288,
+          "hash": "dd6dd12645bb"
+        },
+        {
+          "name": "opponent_defense.db",
+          "size": 12288,
+          "hash": "632f9f9fa24a"
+        },
+        {
+          "name": "player_stats.db",
+          "size": 36864,
+          "hash": "81d005b9624d"
+        },
+        {
+          "name": "pick_history.db",
+          "size": 188416,
+          "hash": "371e040c9f22"
+        }
+      ],
+      "stats_cache": [
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-05.json",
+          "size": 542298
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-04.json",
+          "size": 695635
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-03.json",
+          "size": 622728
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-02.json",
+          "size": 280188
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-01.json",
+          "size": 711464
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-01-31.json",
+          "size": 479457
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-01-30.json",
+          "size": 553648
+        }
+      ],
+      "total_size_bytes": 4136409
+    },
+    {
+      "backup_id": "nba_backup_20260206_120242",
+      "created": "2026-02-06T12:02:42.184207",
+      "reason": "daily_refresh",
+      "files": [
+        {
+          "name": "all_player_stats.csv",
+          "size": 999,
+          "hash": "0220f543c444"
+        },
+        {
+          "name": "player_ids.csv",
+          "size": 136,
+          "hash": "24071b3c72b8"
+        }
+      ],
+      "databases": [
+        {
+          "name": "home_away_splits.db",
+          "size": 12288,
+          "hash": "42b90c31d3c2"
+        },
+        {
+          "name": "opponent_defense.db",
+          "size": 12288,
+          "hash": "b03b6d78e9ac"
+        },
+        {
+          "name": "player_stats.db",
+          "size": 36864,
+          "hash": "f05981a58cab"
+        },
+        {
+          "name": "pick_history.db",
+          "size": 188416,
+          "hash": "5d004c911340"
+        }
+      ],
+      "stats_cache": [
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-06.json",
+          "size": 453436
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-05.json",
+          "size": 860371
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-04.json",
+          "size": 695635
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-03.json",
+          "size": 622728
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-02.json",
+          "size": 280188
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-01.json",
+          "size": 711464
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-01-31.json",
+          "size": 479457
+        }
+      ],
+      "total_size_bytes": 4354270
+    },
+    {
+      "backup_id": "nba_backup_20260207_041321",
+      "created": "2026-02-07T04:13:21.048937",
+      "reason": "daily_refresh",
+      "files": [
+        {
+          "name": "all_player_stats.csv",
+          "size": 999,
+          "hash": "0220f543c444"
+        },
+        {
+          "name": "player_ids.csv",
+          "size": 136,
+          "hash": "24071b3c72b8"
+        }
+      ],
+      "databases": [
+        {
+          "name": "home_away_splits.db",
+          "size": 12288,
+          "hash": "42b90c31d3c2"
+        },
+        {
+          "name": "opponent_defense.db",
+          "size": 12288,
+          "hash": "b03b6d78e9ac"
+        },
+        {
+          "name": "player_stats.db",
+          "size": 36864,
+          "hash": "f05981a58cab"
+        },
+        {
+          "name": "pick_history.db",
+          "size": 188416,
+          "hash": "5d004c911340"
+        }
+      ],
+      "stats_cache": [
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-07.json",
+          "size": 750015
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-06.json",
+          "size": 583323
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-05.json",
+          "size": 860371
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-04.json",
+          "size": 695635
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-03.json",
+          "size": 622728
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-02.json",
+          "size": 280188
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-01.json",
+          "size": 711464
+        }
+      ],
+      "total_size_bytes": 4754715
+    },
+    {
+      "backup_id": "nba_backup_20260208_022703",
+      "created": "2026-02-08T02:27:03.317031",
+      "reason": "daily_refresh",
+      "files": [
+        {
+          "name": "all_player_stats.csv",
+          "size": 999,
+          "hash": "0220f543c444"
+        },
+        {
+          "name": "player_ids.csv",
+          "size": 136,
+          "hash": "24071b3c72b8"
+        }
+      ],
+      "databases": [
+        {
+          "name": "home_away_splits.db",
+          "size": 12288,
+          "hash": "42b90c31d3c2"
+        },
+        {
+          "name": "opponent_defense.db",
+          "size": 12288,
+          "hash": "b03b6d78e9ac"
+        },
+        {
+          "name": "player_stats.db",
+          "size": 36864,
+          "hash": "f05981a58cab"
+        },
+        {
+          "name": "pick_history.db",
+          "size": 188416,
+          "hash": "5d004c911340"
+        }
+      ],
+      "stats_cache": [
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-08.json",
+          "size": 332104
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-07.json",
+          "size": 1370684
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-06.json",
+          "size": 583323
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-05.json",
+          "size": 860371
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-04.json",
+          "size": 695635
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-03.json",
+          "size": 622728
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-02.json",
+          "size": 280188
+        }
+      ],
+      "total_size_bytes": 4996024
+    },
+    {
+      "backup_id": "nba_backup_20260209_130638",
+      "created": "2026-02-09T13:06:38.367279",
+      "reason": "daily_refresh",
+      "files": [
+        {
+          "name": "all_player_stats.csv",
+          "size": 999,
+          "hash": "0220f543c444"
+        },
+        {
+          "name": "player_ids.csv",
+          "size": 136,
+          "hash": "24071b3c72b8"
+        }
+      ],
+      "databases": [
+        {
+          "name": "home_away_splits.db",
+          "size": 12288,
+          "hash": "42b90c31d3c2"
+        },
+        {
+          "name": "opponent_defense.db",
+          "size": 12288,
+          "hash": "b03b6d78e9ac"
+        },
+        {
+          "name": "player_stats.db",
+          "size": 36864,
+          "hash": "f05981a58cab"
+        },
+        {
+          "name": "pick_history.db",
+          "size": 188416,
+          "hash": "5d004c911340"
+        }
+      ],
+      "stats_cache": [
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-09.json",
+          "size": 8722
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-08.json",
+          "size": 787613
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-07.json",
+          "size": 1370684
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-06.json",
+          "size": 583323
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-05.json",
+          "size": 860371
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-04.json",
+          "size": 695635
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-03.json",
+          "size": 622728
+        }
+      ],
+      "total_size_bytes": 5180067
+    },
+    {
+      "backup_id": "nba_backup_20260210_104106",
+      "created": "2026-02-10T10:41:09.668734",
+      "reason": "daily_refresh",
+      "files": [
+        {
+          "name": "all_player_stats.csv",
+          "size": 999,
+          "hash": "0220f543c444"
+        },
+        {
+          "name": "player_ids.csv",
+          "size": 136,
+          "hash": "24071b3c72b8"
+        }
+      ],
+      "databases": [
+        {
+          "name": "home_away_splits.db",
+          "size": 12288,
+          "hash": "42b90c31d3c2"
+        },
+        {
+          "name": "opponent_defense.db",
+          "size": 12288,
+          "hash": "b03b6d78e9ac"
+        },
+        {
+          "name": "player_stats.db",
+          "size": 36864,
+          "hash": "f05981a58cab"
+        },
+        {
+          "name": "pick_history.db",
+          "size": 188416,
+          "hash": "5d004c911340"
+        }
+      ],
+      "stats_cache": [
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-10.json",
+          "size": 553429
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-09.json",
+          "size": 942950
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-08.json",
+          "size": 787613
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-07.json",
+          "size": 1370684
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-06.json",
+          "size": 583323
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-05.json",
+          "size": 860371
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-04.json",
+          "size": 695635
+        }
+      ],
+      "total_size_bytes": 6044996
+    },
+    {
+      "backup_id": "nba_backup_20260211_173054",
+      "created": "2026-02-11T17:30:54.592348",
+      "reason": "daily_refresh",
+      "files": [
+        {
+          "name": "all_player_stats.csv",
+          "size": 999,
+          "hash": "0220f543c444"
+        },
+        {
+          "name": "player_ids.csv",
+          "size": 136,
+          "hash": "24071b3c72b8"
+        }
+      ],
+      "databases": [
+        {
+          "name": "home_away_splits.db",
+          "size": 12288,
+          "hash": "42b90c31d3c2"
+        },
+        {
+          "name": "opponent_defense.db",
+          "size": 12288,
+          "hash": "b03b6d78e9ac"
+        },
+        {
+          "name": "player_stats.db",
+          "size": 36864,
+          "hash": "f05981a58cab"
+        },
+        {
+          "name": "pick_history.db",
+          "size": 188416,
+          "hash": "5d004c911340"
+        }
+      ],
+      "stats_cache": [
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-11.json",
+          "size": 332113
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-10.json",
+          "size": 840544
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-09.json",
+          "size": 942950
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-08.json",
+          "size": 787613
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-07.json",
+          "size": 1370684
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-06.json",
+          "size": 583323
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-05.json",
+          "size": 860371
+        }
+      ],
+      "total_size_bytes": 5968589
+    },
+    {
+      "backup_id": "nba_backup_20260218_154923",
+      "created": "2026-02-18T15:49:23.053289",
+      "reason": "daily_refresh",
+      "files": [
+        {
+          "name": "all_player_stats.csv",
+          "size": 999,
+          "hash": "0220f543c444"
+        },
+        {
+          "name": "player_ids.csv",
+          "size": 136,
+          "hash": "24071b3c72b8"
+        }
+      ],
+      "databases": [
+        {
+          "name": "home_away_splits.db",
+          "size": 12288,
+          "hash": "42b90c31d3c2"
+        },
+        {
+          "name": "opponent_defense.db",
+          "size": 12288,
+          "hash": "b03b6d78e9ac"
+        },
+        {
+          "name": "player_stats.db",
+          "size": 36864,
+          "hash": "f05981a58cab"
+        },
+        {
+          "name": "pick_history.db",
+          "size": 188416,
+          "hash": "5d004c911340"
+        }
+      ],
+      "stats_cache": [
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-18.json",
+          "size": 285
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-11.json",
+          "size": 1247783
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-10.json",
+          "size": 840544
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-09.json",
+          "size": 942950
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-08.json",
+          "size": 787613
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-07.json",
+          "size": 1370684
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-06.json",
+          "size": 583323
+        }
+      ],
+      "total_size_bytes": 6024173
+    },
+    {
+      "backup_id": "nba_backup_20260219_164939",
+      "created": "2026-02-19T16:49:39.703805",
+      "reason": "daily_refresh",
+      "files": [
+        {
+          "name": "all_player_stats.csv",
+          "size": 999,
+          "hash": "0220f543c444"
+        },
+        {
+          "name": "player_ids.csv",
+          "size": 136,
+          "hash": "24071b3c72b8"
+        }
+      ],
+      "databases": [
+        {
+          "name": "home_away_splits.db",
+          "size": 12288,
+          "hash": "42b90c31d3c2"
+        },
+        {
+          "name": "opponent_defense.db",
+          "size": 12288,
+          "hash": "b03b6d78e9ac"
+        },
+        {
+          "name": "player_stats.db",
+          "size": 36864,
+          "hash": "f05981a58cab"
+        },
+        {
+          "name": "pick_history.db",
+          "size": 188416,
+          "hash": "5d004c911340"
+        }
+      ],
+      "stats_cache": [
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-19.json",
+          "size": 143813
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-18.json",
+          "size": 354884
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-11.json",
+          "size": 1247783
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-10.json",
+          "size": 840544
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-09.json",
+          "size": 942950
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-08.json",
+          "size": 787613
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-07.json",
+          "size": 1370684
+        }
+      ],
+      "total_size_bytes": 5939262
+    },
+    {
+      "backup_id": "nba_backup_20260220_123031",
+      "created": "2026-02-20T12:30:31.508287",
+      "reason": "daily_refresh",
+      "files": [
+        {
+          "name": "all_player_stats.csv",
+          "size": 999,
+          "hash": "0220f543c444"
+        },
+        {
+          "name": "player_ids.csv",
+          "size": 136,
+          "hash": "24071b3c72b8"
+        }
+      ],
+      "databases": [
+        {
+          "name": "home_away_splits.db",
+          "size": 12288,
+          "hash": "42b90c31d3c2"
+        },
+        {
+          "name": "opponent_defense.db",
+          "size": 12288,
+          "hash": "b03b6d78e9ac"
+        },
+        {
+          "name": "player_stats.db",
+          "size": 36864,
+          "hash": "f05981a58cab"
+        },
+        {
+          "name": "pick_history.db",
+          "size": 188416,
+          "hash": "5d004c911340"
+        }
+      ],
+      "stats_cache": [
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-20.json",
+          "size": 12162
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-19.json",
+          "size": 240952
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-18.json",
+          "size": 354884
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-11.json",
+          "size": 1247783
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-10.json",
+          "size": 840544
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-09.json",
+          "size": 942950
+        },
+        {
+          "name": "nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-08.json",
+          "size": 787613
+        }
+      ],
+      "total_size_bytes": 4677879
+    }
+  ],
+  "last_updated": "2026-02-20T12:30:31.651904",
+  "total_backups_created": 10
+}

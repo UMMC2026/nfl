@@ -1,0 +1,346 @@
+╔════════════════════════════════════════════════════════════════════╗
+║          PROFESSIONAL CBB ANALYSIS REPORT                          ║
+║                   COLLEGE BASKETBALL                               ║
+╠════════════════════════════════════════════════════════════════════╣
+║  Generated: 2026-02-02T16:57:17                                  ║
+║  System: UNDERDOG ANALYSIS — Risk-First Quant Engine (Poisson)    ║
+╚════════════════════════════════════════════════════════════════════╝
+
+STAT KEY (college basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made | PRA=PTS+REB+AST | PR=PTS+REB | PA=PTS+AST | RA=REB+AST
+
+======================================================================
+🎯 TOP PLAYS — SLATE LEADERS (ALL TEAMS)
+======================================================================
+
+#   PLAYER                 STAT     DIR      LINE    PROB TIER     TEAM 
+──────────────────────────────────────────────────────────────────────
+1   JT Toppin            POINTS   LOWER   22.5   75.0% STRONG TTU 
+2   Flory Bidunga        POINTS   LOWER   13.5   75.0% STRONG KU  
+3   Tre White            POINTS   LOWER   13.5   75.0% STRONG KU  
+4   JT Toppin            POINTS   LOWER   21.5   75.0% STRONG TTU 
+5   Flory Bidunga        REBOUNDS LOWER    8.5   72.0% STRONG KU  
+6   Tre White            REBOUNDS LOWER    7.5   72.0% STRONG KU  
+7   Christian Anderson   ASSISTS  LOWER    6.5   70.0% STRONG TTU 
+8   Darryn Peterson      POINTS   HIGHE   19.5   63.8% LEAN   KU  
+9   Caleb Wilson         REBOUNDS HIGHE    8.5   63.8% LEAN   UNC 
+
+======================================================================
+💡 ACTIONABLE INSIGHTS — QUICK REFERENCE
+======================================================================
+
+🔥 OVERS TO CONSIDER:
+   • Darryn Peterson POINTS O19.5 [LEAN] (63.8%) — μ=21.3
+   • Caleb Wilson REBOUNDS O8.5 [LEAN] (63.8%) — μ=9.9
+
+🔻 UNDERS TO CONSIDER:
+   • JT Toppin POINTS U22.5 [STRONG] (75.0%) — μ=16.8
+   • Flory Bidunga POINTS U13.5 [STRONG] (75.0%) — μ=9.2
+   • Tre White POINTS U13.5 [STRONG] (75.0%) — μ=11.3
+   • JT Toppin POINTS U21.5 [STRONG] (75.0%) — μ=16.8
+   • Flory Bidunga REBOUNDS U8.5 [STRONG] (72.0%) — μ=6.7
+   • Tre White REBOUNDS U7.5 [STRONG] (72.0%) — μ=5.8
+   • Christian Anderson ASSISTS U6.5 [STRONG] (70.0%) — μ=4.2
+
+======================================================================
+TEAM-BY-TEAM ANALYSIS
+======================================================================
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: KU           vs TTU                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Flory Bidunga        POINTS   LOWER  13.5 — STRONG   (75.0%) [μ=9.2, edge=32.1%]
+   2) Tre White            POINTS   LOWER  13.5 — STRONG   (75.0%) [μ=11.3, edge=16.4%]
+   3) Flory Bidunga        REBOUNDS LOWER   8.5 — STRONG   (72.0%) [μ=6.7, edge=21.3%]
+   4) Tre White            REBOUNDS LOWER   7.5 — STRONG   (72.0%) [μ=5.8, edge=23.1%]
+   5) Darryn Peterson      POINTS   HIGHE  19.5 — LEAN     (63.8%) [μ=21.3, edge=9.1%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: SYR          vs SYR                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   No actionable edges for this team.
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: TTU          vs KU                                            │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) JT Toppin            POINTS   LOWER  22.5 — STRONG   (75.0%) [μ=16.8, edge=25.4%]
+   2) JT Toppin            POINTS   LOWER  21.5 — STRONG   (75.0%) [μ=16.8, edge=21.9%]
+   3) Christian Anderson   ASSISTS  LOWER   6.5 — STRONG   (70.0%) [μ=4.2, edge=35.4%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: UNC          vs SYR                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Caleb Wilson         REBOUNDS HIGHE   8.5 — LEAN     (63.8%) [μ=9.9, edge=16.0%]
+
+======================================================================
+📊 STAT CATEGORY BREAKDOWN
+======================================================================
+
+   ASSISTS        7 picks |  1 actionable | avg conf:  35.4%
+   POINTS        10 picks |  5 actionable | avg conf:  55.2%
+   PTS+REB+AST   11 picks |  0 actionable | avg conf:  72.3%
+   REBOUNDS      12 picks |  3 actionable | avg conf:  52.2%
+   TURNOVERS      1 picks |  0 actionable | avg conf:  34.7%
+
+======================================================================
+🔬 DETAILED PICK ANALYSIS — ACTIONABLE PLAYS
+======================================================================
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #1 JT Toppin (TTU) vs KU                                        │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 22.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 16.79 (ESPN)
+      • Confidence: OK
+      • Line: 22.5 | Gap: 25.4% above mean
+      • Z-Score: +2.86
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 91.4%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #2 Flory Bidunga (KU) vs TTU                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 13.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 9.16 (ESPN)
+      • Confidence: OK
+      • Line: 13.5 | Gap: 32.1% above mean
+      • Z-Score: +2.17
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 91.8%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #3 Tre White (KU) vs TTU                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 13.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.29 (ESPN)
+      • Confidence: OK
+      • Line: 13.5 | Gap: 16.4% above mean
+      • Z-Score: +1.11
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.4%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #4 JT Toppin (TTU) vs KU                                        │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 21.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 16.79 (ESPN)
+      • Confidence: OK
+      • Line: 21.5 | Gap: 21.9% above mean
+      • Z-Score: +2.36
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 87.3%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #5 Flory Bidunga (KU) vs TTU                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REBOUNDS UNDER 8.5   |   [STRONG] 72.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 6.69 (ESPN)
+      • Confidence: OK
+      • Line: 8.5 | Gap: 21.3% above mean
+      • Z-Score: +0.90
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 76.8%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 72.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #6 Tre White (KU) vs TTU                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REBOUNDS UNDER 7.5   |   [STRONG] 72.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 5.77 (ESPN)
+      • Confidence: OK
+      • Line: 7.5 | Gap: 23.1% above mean
+      • Z-Score: +0.87
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 77.4%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 72.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #7 Christian Anderson (TTU) vs KU                                        │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ ASSISTS UNDER 6.5   |   [STRONG] 70.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 4.20 (ESPN)
+      • Confidence: OK
+      • Line: 6.5 | Gap: 35.4% above mean
+      • Z-Score: +1.15
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 86.8%
+      • Stat Cap: 70% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 70.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #8 Darryn Peterson (KU) vs TTU                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▲ POINTS OVER 19.5   |   [LEAN] 63.8%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 21.27 (ESPN)
+      • Confidence: UNVERIFIED
+      • Line: 19.5 | Gap: 9.1% below mean
+      • Z-Score: -0.88
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 63.8%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 63.8%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #9 Caleb Wilson (UNC) vs SYR                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▲ REBOUNDS OVER 8.5   |   [LEAN] 63.8%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 9.86 (ESPN)
+      • Confidence: UNVERIFIED
+      • Line: 8.5 | Gap: 16.0% below mean
+      • Z-Score: -0.68
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 65.1%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Final Probability: 63.8%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+======================================================================
+SLATE SUMMARY STATISTICS
+======================================================================
+
+Total Props Analyzed: 41
+
+Tier Distribution:
+   SKIP         ███████████████░░░░░  32 (78.0%)
+   STRONG       ███░░░░░░░░░░░░░░░░░   7 (17.1%)
+   LEAN         ░░░░░░░░░░░░░░░░░░░░   2 (4.9%)
+
+Direction Bias: 17 OVER / 24 UNDER (41.5% / 58.5%)
+
+======================================================================
+🎲 PARLAY CONSTRUCTION GUIDE
+======================================================================
+
+DIVERSIFICATION POOLS:
+   ASSISTS       1 picks (best: Christian Anderson)
+   POINTS        5 picks (best: JT Toppin)
+   REBOUNDS      3 picks (best: Flory Bidunga)
+
+SAMPLE 3-LEG POWER PLAY:
+   (select from different stats for diversification)
+   1. JT Toppin POINTS UNDER 22.5 (75.0%)
+   2. Flory Bidunga POINTS UNDER 13.5 (75.0%)
+   3. Tre White POINTS UNDER 13.5 (75.0%)
+
+   Combined probability: 42.2%
+   3-leg POWER payout: 6x
+   Expected value: +1.53 units
+
+======================================================================
+GOVERNANCE & DISCLAIMER
+======================================================================
+
+This report is generated by a risk-first quantitative analysis system.
+CBB uses POISSON probability model with stricter confidence caps than NBA.
+
+CBB-SPECIFIC NOTES:
+• NO SLAM tier available (max tier = STRONG @ 70%)
+• Global cap: 79% (vs NBA 85%)
+• College variance is HIGHER than NBA — expect more swings
+• Conference play has different dynamics than non-conference
+
+RISK MANAGEMENT:
+• Never exceed 2% of bankroll on a single CBB entry
+• Parlays carry exponentially higher variance
+• Past performance does not guarantee future results
+
+For entertainment purposes only. Gamble responsibly.
+
+──────────────────────────────────────────────────────────────────────
+Report ID: CBB_20260202_165717
+System: UNDERDOG ANALYSIS v2.0 — Risk-First Quant Engine (Poisson)
+──────────────────────────────────────────────────────────────────────

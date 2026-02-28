@@ -1,0 +1,1369 @@
+{
+  "schema_version": "governance_artifacts.v1",
+  "created_at_utc": "2026-02-18T22:47:03.336336+00:00",
+  "slug": "SOCCER_PASTE",
+  "stamp": "20260218",
+  "pipeline_steps_executed": [
+    "raw_txt (inputs/*.txt)",
+    "parse_underdog_slate -> parsed JSON",
+    "risk_first_analyzer.analyze_slate (probability + gates + context gates)",
+    "export: governance_config.json",
+    "export: allowed_edges.json",
+    "export: blocked_edges.json"
+  ],
+  "counts": {
+    "total_results": 117,
+    "allowed_edges": 2,
+    "blocked_edges": 115
+  },
+  "run_settings": {},
+  "source": {
+    "mode": "paste",
+    "slate_file": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\soccer\\inputs\\slate_20260218.txt"
+  },
+  "by_player": [
+    {
+      "player": "Alban Lafont",
+      "team": "Panathinaikos",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Alexander Nubel",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Alexander N\u00fcbel",
+      "team": "Stuttgart",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Anass Zaroury",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Andrei Radu",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Angus Gunn",
+      "team": "Nottm Forest",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Antonis Tsiftsis",
+      "team": "PAOK",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Arber Hoxha",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Arnaud Bodart",
+      "team": "Lille",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Ayyoub Bouaddi",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "shots_on_target"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "A\u00efssa Mandi",
+      "team": "Lille",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "passes"
+      ],
+      "block_reasons": {
+        "passes": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Bamidele Yusuf",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Benjamin Andre",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Berke Ozer",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Berke \u00d6zer",
+      "team": "Lille",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Borja Iglesias",
+      "team": "Celta",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots"
+      ],
+      "block_reasons": {
+        "shots": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Caio Vidal",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Callum McGregor",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Cheick Oumar Souare",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Chris Fuhrich",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Daan Heymans",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Daizen Maeda",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Dan Ndoye",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "David Grof",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Deniz Undav",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Dominik Livakovic",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "D\u00e1vid Gr\u00f3f",
+      "team": "Ferencv\u00e1ros",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Ederson",
+      "team": "Fenerbah\u00e7e",
+      "opponent": "",
+      "allowed_stats": [
+        "saves"
+      ],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=REJECTED"
+      },
+      "prediction_allowed": true
+    },
+    {
+      "player": "Ermedin Demirovic",
+      "team": "Stuttgart",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots",
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots": "pick_state=VETTED",
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Fabian Bredlow",
+      "team": "Stuttgart",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Federico Ravaglia",
+      "team": "Bologna",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Felix Correia",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Fernando Pacheco",
+      "team": "Fateh",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Florian Wiegele",
+      "team": "Plze\u0148",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Franko Kovacevic",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Gavriel Kanichowsky",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Giannis Michailidis",
+      "team": "PAOK",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "clearances"
+      ],
+      "block_reasons": {
+        "clearances": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Hakon Haraldsson",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Hendrik Bonmann",
+      "team": "Ludogorets",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Hendrik Crombrugge",
+      "team": "Genk",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Iago Aspas",
+      "team": "Celta",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots"
+      ],
+      "block_reasons": {
+        "shots": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Ionut Radu",
+      "team": "Celta",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Ivan Filipovic",
+      "team": "Dinamo Zagreb",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Ivan Nevistic",
+      "team": "Dinamo Zagreb",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "James McAtee",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Jamie Leweling",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Jayden Oosterwolde",
+      "team": "Fenerbah\u00e7e",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "passes"
+      ],
+      "block_reasons": {
+        "passes": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Jens Odgaard",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "John Buckley",
+      "team": "Al Kholood",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "passes"
+      ],
+      "block_reasons": {
+        "passes": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Jonathan Levi",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Juan Miranda",
+      "team": "Bologna",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "passes"
+      ],
+      "block_reasons": {
+        "passes": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Juan Pablo Cozzani",
+      "team": "Al Kholood",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Junya Ito",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Karol Swiderski",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Kasper Schmeichel",
+      "team": "Celtic",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Kerem Akturkoglu",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Kieran Tierney",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Konstantinos Karetsas",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Konstantinos Kotsaris",
+      "team": "Panathinaikos",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Kristoffer Zachariassen",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Lewis Ferguson",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Lorenz Assignon",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Lukas Cerv",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Lukasz Skorupski",
+      "team": "Bologna",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Marco Asensio",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Marcos Alonso",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "passes"
+      ],
+      "block_reasons": {
+        "passes": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Marcus Erick",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Marek Rod\u00e1k",
+      "team": "Ettifaq",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Mari\u00e1n Tvrdon",
+      "team": "Plze\u0148",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Marko Arnautovic",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Matheus",
+      "team": "Crvena zvezda",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Mathias Dyngeland",
+      "team": "Brann",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Matias Fernandez-Pardo",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Matteo Guendouzi",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Matz Sels",
+      "team": "Nottm Forest",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Maximilian Mittelstadt",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Mert G\u00fcnok",
+      "team": "Fenerbah\u00e7e",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Miha Zajc",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Milan Borjan",
+      "team": "Riyadh",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Monsef Bakrar",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Nadir Zortea",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Neco Williams",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Nicolas Dominguez",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Olivier Giroud",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Omri Glazer",
+      "team": "Crvena zvezda",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Rade Krunic",
+      "team": "Crvena zvezda",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "passes"
+      ],
+      "block_reasons": {
+        "passes": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Ramiro Enrique",
+      "team": "Al Kholood",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "passes"
+      ],
+      "block_reasons": {
+        "passes": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Reo Hatate",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Riccardo Orsolini",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Ryan Yates",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Sebastian Tounekti",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Sergio Padt",
+      "team": "Ludogorets",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Soualiho Me\u00eft\u00e9",
+      "team": "PAOK",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "passes"
+      ],
+      "block_reasons": {
+        "passes": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Stefan Ortega",
+      "team": "Nottm Forest",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Thijs Dallinga",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Tobias Lawal",
+      "team": "Genk",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Tomas Cvancara",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Tomas Ladra",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Toz\u00e9",
+      "team": "Riyadh",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "passes"
+      ],
+      "block_reasons": {
+        "passes": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Vicente Taborda",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Viljami Sinisalo",
+      "team": "Celtic",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Yoann Barbet",
+      "team": "Riyadh",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "clearances",
+        "passes"
+      ],
+      "block_reasons": {
+        "passes": "pick_state=VETTED",
+        "clearances": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "\u00c1d\u00e1m Varga",
+      "team": "Ferencv\u00e1ros",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    }
+  ]
+}

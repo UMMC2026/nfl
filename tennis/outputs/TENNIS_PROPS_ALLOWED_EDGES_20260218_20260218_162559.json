@@ -1,0 +1,105 @@
+{
+  "created_at_utc": "2026-02-18T22:25:59.265080+00:00",
+  "edges": [
+    {
+      "edge_id": "4250d828fa7ebd43",
+      "player": "Alexandr Binda",
+      "team": "",
+      "opponent": "",
+      "stat": "games_won",
+      "line": 9.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "status": "PLAY",
+      "model_confidence": 75.3,
+      "effective_confidence": 75.3,
+      "mu": 12.199928655449112,
+      "sigma": 4.023624815681791,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 10,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": null,
+      "gate_details": [
+        {
+          "pick_id": "Alexandr Binda_GAMES_WON_HIGHER_9.5",
+          "state": "OPTIMIZABLE",
+          "original_probability": 75.3,
+          "final_probability": 75.3,
+          "adjustments": [],
+          "rejection_reason": null,
+          "vetted_reason": null,
+          "flags_detected": [],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "GATE_2_USAGE_VOLATILITY",
+            "GATE_3_SPECIALIST_REJECTS",
+            "GATE_4_FRAGILE",
+            "GATE_5_MATCHUP_DECAY",
+            "GATE_6_COMPOSITE",
+            "PASSED_ALL_GATES"
+          ],
+          "is_optimizable": true,
+          "is_visible": true
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "b080d8c14753bc2f",
+      "player": "Casper Ruud",
+      "team": "",
+      "opponent": "",
+      "stat": "games_won",
+      "line": 12.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "status": "LEAN",
+      "model_confidence": 67.55,
+      "effective_confidence": 67.55,
+      "mu": 15.3548349876094,
+      "sigma": 5.984804364822463,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 18,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": null,
+      "gate_details": [
+        {
+          "pick_id": "Casper Ruud_GAMES_WON_HIGHER_12.5",
+          "state": "OPTIMIZABLE",
+          "original_probability": 67.55,
+          "final_probability": 67.55,
+          "adjustments": [],
+          "rejection_reason": null,
+          "vetted_reason": null,
+          "flags_detected": [],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "GATE_2_USAGE_VOLATILITY",
+            "GATE_3_SPECIALIST_REJECTS",
+            "GATE_4_FRAGILE",
+            "GATE_5_MATCHUP_DECAY",
+            "GATE_6_COMPOSITE",
+            "PASSED_ALL_GATES"
+          ],
+          "is_optimizable": true,
+          "is_visible": true
+        }
+      ],
+      "stat_adjustment": null
+    }
+  ]
+}

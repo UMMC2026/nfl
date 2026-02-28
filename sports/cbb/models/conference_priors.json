@@ -1,0 +1,27 @@
+{
+  "ACC": 1.08,
+  "Big 12": 1.10,
+  "Big East": 1.07,
+  "SEC": 1.05,
+  "Big Ten": 1.06,
+  
+  "AAC": 0.97,
+  "Mountain West": 0.98,
+  "WCC": 0.96,
+  "Atlantic 10": 0.95,
+  
+  "MVC": 0.94,
+  "SoCon": 0.93,
+  "CUSA": 0.92,
+  "Sun Belt": 0.91,
+  "Big Sky": 0.90,
+  "Horizon": 0.89,
+  "MAC": 0.88,
+  "OVC": 0.87,
+  "Patriot": 0.86,
+  "MEAC": 0.82,
+  "SWAC": 0.81,
+  
+  "_default": 0.90,
+  "_notes": "Multiplies player mean projection. >1.0 = stronger conference, <1.0 = weaker."
+}

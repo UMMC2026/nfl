@@ -1,0 +1,60 @@
+
+--------------------------------------------------
+======================================================================
+POR_MEM - RISK-FIRST ANALYSIS
+======================================================================
+Total props in slate: 69
+Config: Gates=soft | Prob=gmm | Bayes=aggressive | Edge=z_score | MC=exact | StatAdj=ON
+======================================================================
+
+[STATS] Warnings during NBA API refresh:
+  - NBA API: empty game log for 'Scotty Pippen'
+[STATS] Daily refresh: mode=L10/L5 blend(0.65) refreshed=True applied=741 source=outputs\stats_cache\nba_mu_sigma_L10_L5_blend0.65_auto_2026-02-06.json
+
+============================================================
+PRE-FLIGHT STATS CHECK
+============================================================
+  STATS_DICT players: 116
+  Cache file exists:  True (2026-02-06)
+  Sample checks:      10 passed, 0 failed
+
+OK: All checks passed - stats pipeline is healthy
+============================================================
+
+Enriched 69 NBA props with usage/minutes estimates
+NBA ROLE & SCHEME NORMALIZATION
+   Normalized 69 NBA picks with role/scheme adjustments
+
+
+======================================================================
+RISK-FIRST ANALYSIS SUMMARY
+======================================================================
+Slate Quality: [A] A (86/100)
+   Drivers: Low directional clarity (2.9% >=55%)
+----------------------------------------------------------------------
+Total Props Analyzed: 69
+Skipped (No Data):    8
+BLOCKED:              39
+NO PLAY:              20
+LEAN (55-64%):        1
+STRONG (65-79%):      1
+PLAY/SLAM (>=80%):    0
+======================================================================
+
+[STRONG] PICKS (65-79% Effective Confidence):
+
+1. GG Jackson - POINTS LOWER 14.5
+   Confidence: 69.5% | Edge: +2.3 (+0.39sigma) [MODERATE] MODERATE
+   Stats: mu=12.2, sigma=5.9 | Kelly: $90
+   WARNING: WARN SDG: medium penalty (z=0.39, line~=mu)
+Traceback (most recent call last):
+  File "C:\Users\hiday\UNDERDOG ANANLYSIS\analyze_from_underdog_json.py", line 245, in <module>
+    main()
+  File "C:\Users\hiday\UNDERDOG ANANLYSIS\analyze_from_underdog_json.py", line 129, in main
+    print_summary(results)
+  File "C:\Users\hiday\UNDERDOG ANANLYSIS\risk_first_analyzer.py", line 2697, in print_summary
+    print(f"   WARNING: {_console_safe(warning)}")
+  File "C:\Users\hiday\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4ca' in position 12: character maps to <undefined>

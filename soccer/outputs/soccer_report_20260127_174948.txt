@@ -1,0 +1,43 @@
+=================================================================
+[SOCCER] FUTBOL STRATEGIC REPORT
+   Generated: 2026-01-27 17:49:48
+   Total edges: 11 | Actionable: 1
+=================================================================
+
+
+============================================================
+ ARS vs LIV
+============================================================
+  [SLAM] over_under OVER 0.5  p= 78.0%
+       xG: home=1.62 away=1.34  lambda: 1.48-1.26
+       audit_hash=d8a18410fe45
+  [NO_PLAY] btts YES  p= 55.1% | edge=+0.010
+       xG: home=1.62 away=1.34  lambda: 1.48-1.26
+       audit_hash=689123885120
+  [NO_PLAY] over_under OVER 2.5  p= 51.0% | edge=-0.002
+       xG: home=1.62 away=1.34  lambda: 1.48-1.26
+       audit_hash=f1e082ecd162
+  [NO_PLAY] over_under UNDER 2.5  p= 49.0% | edge=-0.023
+       xG: home=1.62 away=1.34  lambda: 1.48-1.26
+       audit_hash=dfdb9b1762c3
+  [NO_PLAY] btts NO  p= 44.9% | edge=-0.051
+       xG: home=1.62 away=1.34  lambda: 1.48-1.26
+       audit_hash=b55a09884cba
+  [NO_PLAY] match_result HOME  p= 42.2% | edge=+0.006
+       xG: home=1.62 away=1.34  lambda: 1.48-1.26
+       audit_hash=6c65ceb78aa1
+  [NO_PLAY] match_result AWAY  p= 32.2% | edge=-0.023
+       xG: home=1.62 away=1.34  lambda: 1.48-1.26
+       audit_hash=e15084e402c5
+  [NO_PLAY] over_under OVER 3.5  p= 28.9%
+       xG: home=1.62 away=1.34  lambda: 1.48-1.26
+       audit_hash=2a8c257dad08
+  [NO_PLAY] match_result DRAW  p= 25.6% | edge=-0.047
+       xG: home=1.62 away=1.34  lambda: 1.48-1.26
+       audit_hash=488ad9a1399d
+  [NO_PLAY] over_under UNDER 1.5  p= 24.4%
+       xG: home=1.62 away=1.34  lambda: 1.48-1.26
+       audit_hash=8f7d281419d0
+  [NO_PLAY] over_under UNDER 0.5  p=  6.4%
+       xG: home=1.62 away=1.34  lambda: 1.48-1.26
+       audit_hash=8c6112984a16

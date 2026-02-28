@@ -1,0 +1,58 @@
+{
+  "date": "2026-01-19",
+  "timestamp": "2026-01-19T17:33:13.317410",
+  "slate": "IND PHI",
+  "source_file": "IND PHI_RISK_FIRST_20260119_FROM_UD.json",
+  "summary": {
+    "play_count": 3,
+    "lean_count": 2,
+    "total": 5
+  },
+  "picks": [
+    {
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "stat": "rebounds",
+      "line": 8.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 78
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 78
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "stat": "points",
+      "line": 31.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 74.8
+    },
+    {
+      "player": "Andrew Nembhard",
+      "team": "IND",
+      "stat": "rebounds",
+      "line": 2.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.5
+    },
+    {
+      "player": "Andrew Nembhard",
+      "team": "IND",
+      "stat": "pra",
+      "line": 28.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 66.7
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "injury_return": {
+    "enabled": true,
+    "players": [
+      "Stephen Curry"
+    ],
+    "games_back_threshold": 2,
+    "stat_window": "last_5",
+    "projection_multiplier": 0.92,
+    "max_probability": 0.58
+  },
+  "player_overrides": {
+    "Stephen Curry": {
+      "allow_analysis": true,
+      "max_probability": 0.55
+    }
+  },
+  "reporting": {
+    "top_n_per_team": 5,
+    "include_status": [
+      "PLAY",
+      "LEAN",
+      "ANALYSIS_ONLY"
+    ]
+  }
+}

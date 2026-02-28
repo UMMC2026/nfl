@@ -1,0 +1,517 @@
+{
+  "date": "2026-02-03",
+  "timestamp": "2026-02-03T14:33:56.297583",
+  "slate": "NBATUESDA232026",
+  "source_file": "NBATUESDA232026_RISK_FIRST_20260203_FROM_UD.json",
+  "summary": {
+    "play_count": 15,
+    "lean_count": 41,
+    "total": 56
+  },
+  "picks": [
+    {
+      "player": "Shai Gilgeous-Alexander",
+      "team": "OKC",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 75.2
+    },
+    {
+      "player": "Jarace Walker",
+      "team": "IND",
+      "stat": "points",
+      "line": 17.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 74.2
+    },
+    {
+      "player": "Isaiah Collier",
+      "team": "UTA",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 74.2
+    },
+    {
+      "player": "Johnny Furphy",
+      "team": "IND",
+      "stat": "points",
+      "line": 10.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 74.2
+    },
+    {
+      "player": "Shai Gilgeous-Alexander",
+      "team": "OKC",
+      "stat": "points",
+      "line": 24.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 72.9
+    },
+    {
+      "player": "Isaiah Collier",
+      "team": "UTA",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 72.1
+    },
+    {
+      "player": "Duncan Robinson",
+      "team": "DET",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 67.7
+    },
+    {
+      "player": "Luka Don\u010di\u0107",
+      "team": "LAL",
+      "stat": "points",
+      "line": 25.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 67.7
+    },
+    {
+      "player": "Lauri Markkanen",
+      "team": "UTA",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 67.7
+    },
+    {
+      "player": "Luka Don\u010di\u0107",
+      "team": "LAL",
+      "stat": "3pm",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 67.7
+    },
+    {
+      "player": "Kristaps Porzi\u0146\u0123is",
+      "team": "ATL",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 67.7
+    },
+    {
+      "player": "Nikola Vu\u010devi\u0107",
+      "team": "CHI",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 67.7
+    },
+    {
+      "player": "Andrew Wiggins",
+      "team": "MIA",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 67.7
+    },
+    {
+      "player": "Isaiah Hartenstein",
+      "team": "OKC",
+      "stat": "turnovers",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 67.7
+    },
+    {
+      "player": "Paolo Banchero",
+      "team": "ORL",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 57.3
+    },
+    {
+      "player": "Ace Bailey",
+      "team": "UTA",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 74.2
+    },
+    {
+      "player": "Bobby Portis",
+      "team": "MIL",
+      "stat": "rebounds",
+      "line": 10.0,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 66.4
+    },
+    {
+      "player": "Isaiah Jackson",
+      "team": "IND",
+      "stat": "rebounds",
+      "line": 6.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 62.2
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 61.8
+    },
+    {
+      "player": "Karl-Anthony Towns",
+      "team": "NYK",
+      "stat": "points",
+      "line": 20.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 61.3
+    },
+    {
+      "player": "Aaron Wiggins",
+      "team": "OKC",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 61.2
+    },
+    {
+      "player": "Peyton Watson",
+      "team": "DEN",
+      "stat": "points",
+      "line": 16.0,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 61.0
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 60.2
+    },
+    {
+      "player": "Bobby Portis",
+      "team": "MIL",
+      "stat": "turnovers",
+      "line": 1.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 60.0
+    },
+    {
+      "player": "Cole Anthony",
+      "team": "MIL",
+      "stat": "pra",
+      "line": 15.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 56.0
+    },
+    {
+      "player": "Coby White",
+      "team": "CHI",
+      "stat": "pra",
+      "line": 29.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 55.4
+    },
+    {
+      "player": "Pelle Larsson",
+      "team": "MIA",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 55.4
+    },
+    {
+      "player": "Payton Pritchard",
+      "team": "BOS",
+      "stat": "turnovers",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 55.3
+    },
+    {
+      "player": "Jalen Brunson",
+      "team": "NYK",
+      "stat": "pra",
+      "line": 36.0,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 55.2
+    },
+    {
+      "player": "Nickeil Alexander-Walker",
+      "team": "ATL",
+      "stat": "3pm",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 54.9
+    },
+    {
+      "player": "Kyle Filipowski",
+      "team": "UTA",
+      "stat": "pra",
+      "line": 21.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 54.8
+    },
+    {
+      "player": "Cooper Flagg",
+      "team": "DAL",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 54.7
+    },
+    {
+      "player": "Cole Anthony",
+      "team": "MIL",
+      "stat": "rebounds",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 54.5
+    },
+    {
+      "player": "Nikola Joki\u0107",
+      "team": "DEN",
+      "stat": "points",
+      "line": 24.0,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 54.4
+    },
+    {
+      "player": "Jaylen Brown",
+      "team": "BOS",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 54.1
+    },
+    {
+      "player": "Zaccharie Risacher",
+      "team": "ATL",
+      "stat": "rebounds",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 53.1
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "stat": "pra",
+      "line": 40.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 52.8
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "stat": "3pm",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 52.7
+    },
+    {
+      "player": "Luka Don\u010di\u0107",
+      "team": "LAL",
+      "stat": "points",
+      "line": 31.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 52.2
+    },
+    {
+      "player": "Matas Buzelis",
+      "team": "CHI",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 52.0
+    },
+    {
+      "player": "Payton Pritchard",
+      "team": "BOS",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 51.6
+    },
+    {
+      "player": "Naji Marshall",
+      "team": "DAL",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 51.6
+    },
+    {
+      "player": "CJ McCollum",
+      "team": "ATL",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 51.3
+    },
+    {
+      "player": "Ayo Dosunmu",
+      "team": "CHI",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 51.3
+    },
+    {
+      "player": "Desmond Bane",
+      "team": "ORL",
+      "stat": "points",
+      "line": 18.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 49.7
+    },
+    {
+      "player": "Isaiah Stewart",
+      "team": "DET",
+      "stat": "turnovers",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 49.5
+    },
+    {
+      "player": "Jarace Walker",
+      "team": "IND",
+      "stat": "pts+ast",
+      "line": 20.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 49.1
+    },
+    {
+      "player": "Luka Don\u010di\u0107",
+      "team": "LAL",
+      "stat": "pra",
+      "line": 48.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 48.9
+    },
+    {
+      "player": "Nikola Joki\u0107",
+      "team": "DEN",
+      "stat": "pra",
+      "line": 43.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 48.4
+    },
+    {
+      "player": "Anthony Black",
+      "team": "ORL",
+      "stat": "pra",
+      "line": 23.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 48.4
+    },
+    {
+      "player": "Jalen Brunson",
+      "team": "NYK",
+      "stat": "pts+ast",
+      "line": 32.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 48.4
+    },
+    {
+      "player": "Zaccharie Risacher",
+      "team": "ATL",
+      "stat": "pra",
+      "line": 15.0,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 48.1
+    },
+    {
+      "player": "Tim Hardaway",
+      "team": "DEN",
+      "stat": "pts+ast",
+      "line": 11.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 43.2
+    },
+    {
+      "player": "Anthony Black",
+      "team": "ORL",
+      "stat": "pts+ast",
+      "line": 19.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 42.9
+    },
+    {
+      "player": "Nikola Joki\u0107",
+      "team": "DEN",
+      "stat": "pts+ast",
+      "line": 32.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 42.7
+    },
+    {
+      "player": "Jalen Duren",
+      "team": "DET",
+      "stat": "pts+ast",
+      "line": 19.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 42.6
+    }
+  ]
+}

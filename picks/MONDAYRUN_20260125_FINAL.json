@@ -1,0 +1,67 @@
+{
+  "date": "2026-01-25",
+  "timestamp": "2026-01-25T21:20:41.497177",
+  "slate": "MONDAYRUN",
+  "source_file": "MONDAYRUN_RISK_FIRST_20260125_FROM_UD.json",
+  "summary": {
+    "play_count": 1,
+    "lean_count": 5,
+    "total": 6
+  },
+  "picks": [
+    {
+      "player": "Mike Conley",
+      "team": "MIN",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 90.2
+    },
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 75.6
+    },
+    {
+      "player": "Julius Randle",
+      "team": "MIN",
+      "stat": "assists",
+      "line": 5.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 72.1
+    },
+    {
+      "player": "Mike Conley",
+      "team": "MIN",
+      "stat": "pra",
+      "line": 12.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Bones Hyland",
+      "team": "MIN",
+      "stat": "pra",
+      "line": 17.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Bones Hyland",
+      "team": "MIN",
+      "stat": "points",
+      "line": 11.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 60.7
+    }
+  ]
+}

@@ -1,0 +1,374 @@
+{
+  "sport": "TENNIS",
+  "tour": "WTA",
+  "ingested_at": "2026-02-09T22:55:36.237784Z",
+  "sport_key": "tennis_wta_qatar_open",
+  "regions": "us",
+  "markets": "totals,spreads,h2h",
+  "total_props": 20,
+  "props": [
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Daria Kasatkina vs Elise Mertens",
+      "stat": "total_games",
+      "line": 20.5,
+      "direction": "higher",
+      "raw": {
+        "event_id": "ab6ed0858ec00583d5b109e215c93c71",
+        "commence_time": "2026-02-10T10:00:00Z",
+        "home_team": "Daria Kasatkina",
+        "away_team": "Elise Mertens",
+        "bookmaker_key": "bovada",
+        "market_key": "totals",
+        "price": -110
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Daria Kasatkina vs Elise Mertens",
+      "stat": "total_games",
+      "line": 20.5,
+      "direction": "lower",
+      "raw": {
+        "event_id": "ab6ed0858ec00583d5b109e215c93c71",
+        "commence_time": "2026-02-10T10:00:00Z",
+        "home_team": "Daria Kasatkina",
+        "away_team": "Elise Mertens",
+        "bookmaker_key": "bovada",
+        "market_key": "totals",
+        "price": -120
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Daria Kasatkina",
+      "stat": "game_spread",
+      "line": 4.5,
+      "direction": "higher",
+      "raw": {
+        "event_id": "ab6ed0858ec00583d5b109e215c93c71",
+        "commence_time": "2026-02-10T10:00:00Z",
+        "home_team": "Daria Kasatkina",
+        "away_team": "Elise Mertens",
+        "bookmaker_key": "bovada",
+        "market_key": "spreads",
+        "price": -110,
+        "opponent": "Elise Mertens"
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Elise Mertens",
+      "stat": "game_spread",
+      "line": -4.5,
+      "direction": "lower",
+      "raw": {
+        "event_id": "ab6ed0858ec00583d5b109e215c93c71",
+        "commence_time": "2026-02-10T10:00:00Z",
+        "home_team": "Daria Kasatkina",
+        "away_team": "Elise Mertens",
+        "bookmaker_key": "bovada",
+        "market_key": "spreads",
+        "price": -120,
+        "opponent": "Daria Kasatkina"
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Magdalena Frech vs Ann Li",
+      "stat": "total_games",
+      "line": 21.5,
+      "direction": "higher",
+      "raw": {
+        "event_id": "1d3efcd2fd4784bd64ef885a59406029",
+        "commence_time": "2026-02-10T10:30:00Z",
+        "home_team": "Magdalena Frech",
+        "away_team": "Ann Li",
+        "bookmaker_key": "bovada",
+        "market_key": "totals",
+        "price": -120
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Magdalena Frech vs Ann Li",
+      "stat": "total_games",
+      "line": 21.5,
+      "direction": "lower",
+      "raw": {
+        "event_id": "1d3efcd2fd4784bd64ef885a59406029",
+        "commence_time": "2026-02-10T10:30:00Z",
+        "home_team": "Magdalena Frech",
+        "away_team": "Ann Li",
+        "bookmaker_key": "bovada",
+        "market_key": "totals",
+        "price": -110
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Ann Li",
+      "stat": "game_spread",
+      "line": -3.0,
+      "direction": "lower",
+      "raw": {
+        "event_id": "1d3efcd2fd4784bd64ef885a59406029",
+        "commence_time": "2026-02-10T10:30:00Z",
+        "home_team": "Magdalena Frech",
+        "away_team": "Ann Li",
+        "bookmaker_key": "bovada",
+        "market_key": "spreads",
+        "price": -120,
+        "opponent": "Magdalena Frech"
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Magdalena Frech",
+      "stat": "game_spread",
+      "line": 3.0,
+      "direction": "higher",
+      "raw": {
+        "event_id": "1d3efcd2fd4784bd64ef885a59406029",
+        "commence_time": "2026-02-10T10:30:00Z",
+        "home_team": "Magdalena Frech",
+        "away_team": "Ann Li",
+        "bookmaker_key": "bovada",
+        "market_key": "spreads",
+        "price": -110,
+        "opponent": "Ann Li"
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Maria Sakkari vs Jasmine Paolini",
+      "stat": "total_games",
+      "line": 21.0,
+      "direction": "higher",
+      "raw": {
+        "event_id": "8ec4d258f9c8c8299c2c0dfbfbe8b70a",
+        "commence_time": "2026-02-10T10:30:00Z",
+        "home_team": "Maria Sakkari",
+        "away_team": "Jasmine Paolini",
+        "bookmaker_key": "bovada",
+        "market_key": "totals",
+        "price": -115
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Maria Sakkari vs Jasmine Paolini",
+      "stat": "total_games",
+      "line": 21.0,
+      "direction": "lower",
+      "raw": {
+        "event_id": "8ec4d258f9c8c8299c2c0dfbfbe8b70a",
+        "commence_time": "2026-02-10T10:30:00Z",
+        "home_team": "Maria Sakkari",
+        "away_team": "Jasmine Paolini",
+        "bookmaker_key": "bovada",
+        "market_key": "totals",
+        "price": -115
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Jasmine Paolini",
+      "stat": "game_spread",
+      "line": -3.5,
+      "direction": "lower",
+      "raw": {
+        "event_id": "8ec4d258f9c8c8299c2c0dfbfbe8b70a",
+        "commence_time": "2026-02-10T10:30:00Z",
+        "home_team": "Maria Sakkari",
+        "away_team": "Jasmine Paolini",
+        "bookmaker_key": "bovada",
+        "market_key": "spreads",
+        "price": -125,
+        "opponent": "Maria Sakkari"
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Maria Sakkari",
+      "stat": "game_spread",
+      "line": 3.5,
+      "direction": "higher",
+      "raw": {
+        "event_id": "8ec4d258f9c8c8299c2c0dfbfbe8b70a",
+        "commence_time": "2026-02-10T10:30:00Z",
+        "home_team": "Maria Sakkari",
+        "away_team": "Jasmine Paolini",
+        "bookmaker_key": "bovada",
+        "market_key": "spreads",
+        "price": -105,
+        "opponent": "Jasmine Paolini"
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Ekaterina Alexandrova vs Jelena Ostapenko",
+      "stat": "total_games",
+      "line": 21.0,
+      "direction": "higher",
+      "raw": {
+        "event_id": "eec6225414383f0911535d2ac2a49724",
+        "commence_time": "2026-02-10T11:30:00Z",
+        "home_team": "Ekaterina Alexandrova",
+        "away_team": "Jelena Ostapenko",
+        "bookmaker_key": "bovada",
+        "market_key": "totals",
+        "price": -115
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Ekaterina Alexandrova vs Jelena Ostapenko",
+      "stat": "total_games",
+      "line": 21.0,
+      "direction": "lower",
+      "raw": {
+        "event_id": "eec6225414383f0911535d2ac2a49724",
+        "commence_time": "2026-02-10T11:30:00Z",
+        "home_team": "Ekaterina Alexandrova",
+        "away_team": "Jelena Ostapenko",
+        "bookmaker_key": "bovada",
+        "market_key": "totals",
+        "price": -115
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Ekaterina Alexandrova",
+      "stat": "game_spread",
+      "line": -4.0,
+      "direction": "lower",
+      "raw": {
+        "event_id": "eec6225414383f0911535d2ac2a49724",
+        "commence_time": "2026-02-10T11:30:00Z",
+        "home_team": "Ekaterina Alexandrova",
+        "away_team": "Jelena Ostapenko",
+        "bookmaker_key": "bovada",
+        "market_key": "spreads",
+        "price": -115,
+        "opponent": "Jelena Ostapenko"
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Jelena Ostapenko",
+      "stat": "game_spread",
+      "line": 4.0,
+      "direction": "higher",
+      "raw": {
+        "event_id": "eec6225414383f0911535d2ac2a49724",
+        "commence_time": "2026-02-10T11:30:00Z",
+        "home_team": "Ekaterina Alexandrova",
+        "away_team": "Jelena Ostapenko",
+        "bookmaker_key": "bovada",
+        "market_key": "spreads",
+        "price": -115,
+        "opponent": "Ekaterina Alexandrova"
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Elisabetta Cocciaretto vs Coco Gauff",
+      "stat": "total_games",
+      "line": 18.5,
+      "direction": "higher",
+      "raw": {
+        "event_id": "d2a887111fc5810b348477f3c3ed8b96",
+        "commence_time": "2026-02-10T12:00:00Z",
+        "home_team": "Elisabetta Cocciaretto",
+        "away_team": "Coco Gauff",
+        "bookmaker_key": "bovada",
+        "market_key": "totals",
+        "price": -115
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Elisabetta Cocciaretto vs Coco Gauff",
+      "stat": "total_games",
+      "line": 18.5,
+      "direction": "lower",
+      "raw": {
+        "event_id": "d2a887111fc5810b348477f3c3ed8b96",
+        "commence_time": "2026-02-10T12:00:00Z",
+        "home_team": "Elisabetta Cocciaretto",
+        "away_team": "Coco Gauff",
+        "bookmaker_key": "bovada",
+        "market_key": "totals",
+        "price": -115
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Coco Gauff",
+      "stat": "game_spread",
+      "line": -6.5,
+      "direction": "lower",
+      "raw": {
+        "event_id": "d2a887111fc5810b348477f3c3ed8b96",
+        "commence_time": "2026-02-10T12:00:00Z",
+        "home_team": "Elisabetta Cocciaretto",
+        "away_team": "Coco Gauff",
+        "bookmaker_key": "bovada",
+        "market_key": "spreads",
+        "price": -105,
+        "opponent": "Elisabetta Cocciaretto"
+      }
+    },
+    {
+      "platform": "oddsapi",
+      "sport": "TENNIS",
+      "player": "Elisabetta Cocciaretto",
+      "stat": "game_spread",
+      "line": 6.5,
+      "direction": "higher",
+      "raw": {
+        "event_id": "d2a887111fc5810b348477f3c3ed8b96",
+        "commence_time": "2026-02-10T12:00:00Z",
+        "home_team": "Elisabetta Cocciaretto",
+        "away_team": "Coco Gauff",
+        "bookmaker_key": "bovada",
+        "market_key": "spreads",
+        "price": -125,
+        "opponent": "Coco Gauff"
+      }
+    }
+  ],
+  "meta": {
+    "sport": "TENNIS",
+    "tour": "WTA",
+    "sport_key": "tennis_wta_qatar_open",
+    "regions": "us",
+    "markets": "totals,spreads,h2h",
+    "event_count": 5,
+    "props_extracted": 20,
+    "quota": {
+      "remaining": 19502,
+      "used": 498
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "created_at_utc": "2026-02-10T21:28:24.378715+00:00",
+  "edges": [
+    {
+      "edge_id": "6763c57393e40c4f",
+      "player": "Federico Coria",
+      "team": "",
+      "opponent": "",
+      "stat": "aces",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 79.10000000000001,
+      "effective_confidence": 79.10000000000001,
+      "mu": 8.411030550129357,
+      "sigma": 7.1663480088824585,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 2,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=VETTED",
+      "gate_details": [
+        {
+          "pick_id": "Federico Coria_ACES_HIGHER_0.5",
+          "state": "VETTED",
+          "original_probability": 79.10000000000001,
+          "final_probability": 79.10000000000001,
+          "adjustments": [],
+          "rejection_reason": null,
+          "vetted_reason": "FRAGILE_FLAG",
+          "flags_detected": [
+            "FRAGILE"
+          ],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "GATE_2_USAGE_VOLATILITY",
+            "GATE_3_SPECIALIST_REJECTS",
+            "GATE_4_FRAGILE",
+            "VETTED: FRAGILE flag (visible, not optimizable)"
+          ],
+          "is_optimizable": false,
+          "is_visible": true
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "508f1ab830a8a8de",
+      "player": "Matteo Berrettini",
+      "team": "",
+      "opponent": "",
+      "stat": "aces",
+      "line": 4.5,
+      "direction": "lower",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 7.1499999999999995,
+      "effective_confidence": 7.1499999999999995,
+      "mu": 10.592093131715197,
+      "sigma": 4.0173038675728145,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "monte_carlo",
+      "sample_n": 7,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=REJECTED",
+      "gate_details": [
+        {
+          "pick_id": "Matteo Berrettini_ACES_LOWER_4.5",
+          "state": "REJECTED",
+          "original_probability": 7.1499999999999995,
+          "final_probability": 7.1499999999999995,
+          "adjustments": [],
+          "rejection_reason": "LOW_PROBABILITY",
+          "vetted_reason": null,
+          "flags_detected": [],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "REJECTED: prob 7.1% < 55.0%"
+          ],
+          "is_optimizable": false,
+          "is_visible": false
+        }
+      ],
+      "stat_adjustment": null
+    }
+  ]
+}

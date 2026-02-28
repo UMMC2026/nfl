@@ -1,0 +1,49 @@
+Setting up ULTIMATE DIAGNOSTIC environment...
+>>> MAIN() EXECUTED
+🔧 Python version: 3.12.8 (tags/v3.12.8:2dc476b, Dec  3 2024, 19:30:04) [MSC v.1942 64 bit (AMD64)]
+📁 Current directory: C:\Users\hiday\UNDERDOG ANANLYSIS
+📄 Script location: C:\Users\hiday\UNDERDOG ANANLYSIS\tools\cheatsheet_pro_generator.py
+🏠 PROJECT ROOT: C:\Users\hiday\UNDERDOG ANANLYSIS
+🔍 PROJECT_ROOT exists: True
+🔍 PROJECT_ROOT is directory: True
+[PIPELINE] Running pipeline for league=NFL, slate={'games': [{'away': 'BUF', 'home': 'DEN', 'datetime': 'Sat 3:30PM CST'}], 'props': [{'player': 'James Cook', 'team': 'BUF', 'stat': 'rush_rec_tds', 'line': 0.5, 'direction': 'higher'}, {'player': 'James Cook', 'team': 'BUF', 'stat': 'rush_yds', 'line': 81.5, 'direction': 'higher'}, {'player': 'James Cook', 'team': 'BUF', 'stat': 'rec_yds', 'line': 15.5, 'direction': 'higher'}, {'player': 'James Cook', 'team': 'BUF', 'stat': 'receptions', 'line': 2.5, 'direction': 'higher'}, {'player': 'Courtland Sutton', 'team': 'DEN', 'stat': 'rush_rec_tds', 'line': 0.5, 'direction': 'higher'}, {'player': 'Courtland Sutton', 'team': 'DEN', 'stat': 'rec_yds', 'line': 51.5, 'direction': 'higher'}, {'player': 'Courtland Sutton', 'team': 'DEN', 'stat': 'receptions', 'line': 4.5, 'direction': 'higher'}, {'player': 'Courtland Sutton', 'team': 'DEN', 'stat': 'longest_rec', 'line': 20.5, 'direction': 'higher'}]}, output_dir=C:\Users\hiday\UNDERDOG ANANLYSIS\outputs
+[NFL PIPELINE] Starting analysis for 1 games
+[NFL PIPELINE] Running math engine...
+[HYDRATE] James Cook rush_rec_tds (mapped: rush_rec_tds): None
+[FALLBACK PROB] James Cook rush_rec_tds higher 0.5: 0.250
+[NFL_STAT_HYDRATOR] Hydrating James Cook / rush_yds / None / 2025
+[NFL_STAT_HYDRATOR] Using PBP file: data\nflverse\pbp\play_by_play_2025.parquet
+[NFL_STAT_HYDRATOR] Matching player 'James Cook' as 'J.Cook' in column 'rusher_player_name'
+[HYDRATE] James Cook rush_yds (mapped: rush_yds): [41.71162056184671, 50.22014932588077, 58.72867808991484, 67.2372068539489, 75.74573561798297, 84.25426438201703, 92.7627931460511, 101.27132191008516, 109.77985067411923, 118.2883794381533]
+[PROB] James Cook rush_yds higher 81.5: mu=80.00, sigma=24.44, prob=0.524
+[NFL_STAT_HYDRATOR] Hydrating James Cook / rec_yds / None / 2025
+[NFL_STAT_HYDRATOR] Using PBP file: data\nflverse\pbp\play_by_play_2025.parquet
+[NFL_STAT_HYDRATOR] Matching player 'James Cook' as 'J.Cook' in column 'receiver_player_name'
+[HYDRATE] James Cook rec_yds (mapped: rec_yds): [2.4624014738781987, 6.51520114634971, 10.56800081882122, 14.620800491292734, 18.673600163764245, 22.726399836235753, 26.779199508707265, 30.83199918117878, 34.88479885365029, 38.9375985261218]
+[PROB] James Cook rec_yds higher 15.5: mu=20.70, sigma=11.64, prob=0.328
+[NFL_STAT_HYDRATOR] Hydrating James Cook / receptions / None / 2025
+[NFL_STAT_HYDRATOR] Using PBP file: data\nflverse\pbp\play_by_play_2025.parquet
+[NFL_STAT_HYDRATOR] Matching player 'James Cook' as 'J.Cook' in column 'receiver_player_name'
+[HYDRATE ERROR] James Cook receptions: 'Column not found: receptions'
+[FALLBACK PROB] James Cook receptions higher 2.5: 0.250
+[HYDRATE] Courtland Sutton rush_rec_tds (mapped: rush_rec_tds): None
+[FALLBACK PROB] Courtland Sutton rush_rec_tds higher 0.5: 0.250
+[NFL_STAT_HYDRATOR] Hydrating Courtland Sutton / rec_yds / None / 2025
+[NFL_STAT_HYDRATOR] Using PBP file: data\nflverse\pbp\play_by_play_2025.parquet
+[NFL_STAT_HYDRATOR] Matching player 'Courtland Sutton' as 'C.Sutton' in column 'receiver_player_name'
+[HYDRATE] Courtland Sutton rec_yds (mapped: rec_yds): [24.97786057305747, 31.605002667933586, 38.2321447628097, 44.859286857685824, 51.48642895256194, 58.11357104743806, 64.74071314231418, 71.3678552371903, 77.9949973320664, 84.62213942694252]
+[PROB] Courtland Sutton rec_yds higher 51.5: mu=54.80, sigma=19.04, prob=0.431
+[NFL_STAT_HYDRATOR] Hydrating Courtland Sutton / receptions / None / 2025
+[NFL_STAT_HYDRATOR] Using PBP file: data\nflverse\pbp\play_by_play_2025.parquet
+[NFL_STAT_HYDRATOR] Matching player 'Courtland Sutton' as 'C.Sutton' in column 'receiver_player_name'
+[HYDRATE ERROR] Courtland Sutton receptions: 'Column not found: receptions'
+[FALLBACK PROB] Courtland Sutton receptions higher 4.5: 0.250
+[HYDRATE ERROR] Courtland Sutton longest_rec: NFL hydration only supports atomic stats: ['pass_yds', 'rush_yds', 'rec_yds', 'receptions', 'pass_tds', 'rush_tds', 'rec_tds']. Got: longest_rec
+[FALLBACK PROB] Courtland Sutton longest_rec higher 20.5: 0.250
+[NFL PIPELINE] Running AI analysis...
+[NFL PIPELINE] Formatting cheatsheet...
+[NFL PIPELINE] Output written to C:\Users\hiday\UNDERDOG ANANLYSIS\outputs\NFL_CHEATSHEET_20260113_031424.txt
+[NFL PIPELINE] Analysis complete: 0 qualified props
+[PIPELINE] Output written to C:\Users\hiday\UNDERDOG ANANLYSIS\outputs\NFL_CHEATSHEET_20260113_031424.txt
+
+================================================================================

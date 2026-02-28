@@ -1,0 +1,31 @@
+{
+  "date": "2026-02-07",
+  "timestamp": "2026-02-07T14:32:54.795362",
+  "slate": "HOU_OKC22",
+  "source_file": "HOU_OKC22_RISK_FIRST_20260207_FROM_UD.json",
+  "summary": {
+    "play_count": 0,
+    "lean_count": 2,
+    "total": 2
+  },
+  "picks": [
+    {
+      "player": "Chet Holmgren",
+      "team": "OKC",
+      "stat": "points",
+      "line": 19.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 60.8
+    },
+    {
+      "player": "Tari Eason",
+      "team": "HOU",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 56.1
+    }
+  ]
+}

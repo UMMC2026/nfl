@@ -1,0 +1,3134 @@
+{
+  "picks": [
+    {
+      "edge_id": "cbb_CONN_Alex_Karaban_points_11p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Alex Karaban",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "points",
+      "line": 11.5,
+      "direction": "higher",
+      "probability": 0.5848,
+      "player_mean": 12.41,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 12.4135,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.584794,
+          "direction": "higher",
+          "line": 11.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.584794
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.584794,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=32.2",
+        "games: GP=133",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "lower",
+        "probability": 0.4152,
+        "kept": "higher",
+        "kept_probability": 0.5848
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=32.2"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=133"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.46<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.455,
+          "z_season": 0.455,
+          "z_threshold": 0.55,
+          "l10_mu": 12.41,
+          "season_mu": 12.41
+        },
+        "cv": {
+          "cv_ratio": 0.161,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5848,
+      "skip_reason": "SDG_FAIL: FAIL_L10_Z:0.46<0.55, PHASE_FAIL:CONFERENCE_PLAY"
+    },
+    {
+      "edge_id": "cbb_CONN_Alex_Karaban_rebounds_5p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Alex Karaban",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "rebounds",
+      "line": 5.5,
+      "direction": "lower",
+      "probability": 0.5972,
+      "player_mean": 5.04,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 5.0376,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.609364,
+          "direction": "lower",
+          "line": 5.5
+        },
+        "adjustment": {
+          "multiplier": 0.98,
+          "adjusted_prob": 0.597177
+        },
+        "caps": {
+          "stat_cap": 0.72,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.597177,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=32.2",
+        "games: GP=133"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.3828,
+        "kept": "lower",
+        "kept_probability": 0.5972
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=32.2"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=133"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.23<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.23,
+          "z_season": 0.23,
+          "z_threshold": 0.55,
+          "l10_mu": 5.04,
+          "season_mu": 5.04
+        },
+        "cv": {
+          "cv_ratio": 0.397,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5972,
+      "skip_reason": "SDG_FAIL: FAIL_L10_Z:0.23<0.55, PHASE_FAIL:CONFERENCE_PLAY"
+    },
+    {
+      "edge_id": "cbb_CONN_Alex_Karaban_assists_1p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Alex Karaban",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "probability": 0.3617,
+      "player_mean": 1.97,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 1.9699,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.585792,
+          "direction": "higher",
+          "line": 1.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.556503
+        },
+        "caps": {
+          "stat_cap": 0.7,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.556503,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=32.2",
+        "games: GP=133",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=32.2"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=133"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 0.65,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.23<0.55",
+        "CV_PENALTY:65%",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.235,
+          "z_season": 0.235,
+          "z_threshold": 0.55,
+          "l10_mu": 1.97,
+          "season_mu": 1.97
+        },
+        "cv": {
+          "cv_ratio": 1.015,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5565,
+      "skip_reason": "SDG_FAIL: FAIL_L10_Z:0.23<0.55, CV_PENALTY:65%, PHASE_FAIL:CONFERENCE_PLAY"
+    },
+    {
+      "edge_id": "cbb_CONN_Alex_Karaban_3pm_1p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Alex Karaban",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "lower",
+      "probability": 0.2484,
+      "player_mean": 1.93,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 1.9323,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.424632,
+          "direction": "lower",
+          "line": 1.5
+        },
+        "adjustment": {
+          "multiplier": 0.9,
+          "adjusted_prob": 0.382168
+        },
+        "caps": {
+          "stat_cap": 0.65,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.382168,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=32.2",
+        "games: GP=133"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=32.2"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=133"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 0.65,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.21<0.45",
+        "CV_PENALTY:65%",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.215,
+          "z_season": 0.215,
+          "z_threshold": 0.45,
+          "l10_mu": 1.93,
+          "season_mu": 1.93
+        },
+        "cv": {
+          "cv_ratio": 1.036,
+          "cv_threshold": 0.85,
+          "player_role": "SPECIALIST"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.3822,
+      "skip_reason": "BINARY_INSUFFICIENT_GAMES:0<10"
+    },
+    {
+      "edge_id": "cbb_CONN_Alex_Karaban_reb+ast_7p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Alex Karaban",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "reb+ast",
+      "line": 7.5,
+      "direction": "higher",
+      "probability": 0.4516,
+      "player_mean": 7.5,
+      "mean_source": "FALLBACK",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 7.5,
+          "mean_source": "FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "poisson": {
+          "raw_prob": 0.475361,
+          "direction": "higher",
+          "line": 7.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.451593
+        },
+        "caps": {
+          "stat_cap": 0.7,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.451593,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=32.2",
+        "games: GP=133",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=32.2"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=133"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "skip_reason": "BLOCKED_COMPOSITE:REB+AST"
+    },
+    {
+      "edge_id": "cbb_CONN_Solo_Ball_points_12p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Solo Ball",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "points",
+      "line": 12.5,
+      "direction": "higher",
+      "probability": 0.1986,
+      "player_mean": 9.89,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 9.8947,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.198573,
+          "direction": "higher",
+          "line": 12.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.198573
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.198573,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=23.0",
+        "games: GP=95",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=23.0"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=95"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 1.305,
+          "z_season": 1.305,
+          "z_threshold": 0.55,
+          "l10_mu": 9.89,
+          "season_mu": 9.89,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.202,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.1986,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 9.89,
+      "projected_sigma": 2.0,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_CONN_Solo_Ball_rebounds_3p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Solo Ball",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "higher",
+      "probability": 0.198,
+      "player_mean": 2.55,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 2.5474,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.252596,
+          "direction": "higher",
+          "line": 3.5
+        },
+        "adjustment": {
+          "multiplier": 0.98,
+          "adjusted_prob": 0.247544
+        },
+        "caps": {
+          "stat_cap": 0.72,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.247544,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=23.0",
+        "games: GP=95",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=23.0"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=95"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 0.8,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.48<0.55",
+        "CV_PENALTY:80%",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.475,
+          "z_season": 0.475,
+          "z_threshold": 0.55,
+          "l10_mu": 2.55,
+          "season_mu": 2.55
+        },
+        "cv": {
+          "cv_ratio": 0.784,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.2475,
+      "skip_reason": "SDG_FAIL: FAIL_L10_Z:0.48<0.55, CV_PENALTY:80%, PHASE_FAIL:CONFERENCE_PLAY"
+    },
+    {
+      "edge_id": "cbb_CONN_Solo_Ball_3pm_1p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Solo Ball",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "probability": 0.2974,
+      "player_mean": 1.71,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 1.7053,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.508387,
+          "direction": "higher",
+          "line": 1.5
+        },
+        "adjustment": {
+          "multiplier": 0.9,
+          "adjusted_prob": 0.457549
+        },
+        "caps": {
+          "stat_cap": 0.65,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.457549,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=23.0",
+        "games: GP=95",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=23.0"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=95"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 0.65,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.10<0.45",
+        "CV_PENALTY:65%",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.105,
+          "z_season": 0.105,
+          "z_threshold": 0.45,
+          "l10_mu": 1.71,
+          "season_mu": 1.71
+        },
+        "cv": {
+          "cv_ratio": 1.17,
+          "cv_threshold": 0.85,
+          "player_role": "SPECIALIST"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.4575,
+      "skip_reason": "BINARY_INSUFFICIENT_GAMES:0<10"
+    },
+    {
+      "edge_id": "cbb_SJU_Dillon_Mitchell_points_9p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Dillon Mitchell",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "points",
+      "line": 9.5,
+      "direction": "lower",
+      "probability": 0.6971,
+      "player_mean": 8.16,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 8.1562,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.697058,
+          "direction": "lower",
+          "line": 9.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.697058
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.697058,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "STRONG",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=24.8",
+        "games: GP=128"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.3029,
+        "kept": "lower",
+        "kept_probability": 0.6971
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=24.8"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=128"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.67,
+          "z_season": 0.67,
+          "z_threshold": 0.55,
+          "l10_mu": 8.16,
+          "season_mu": 8.16,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.245,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.6971,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 8.16,
+      "projected_sigma": 2.0
+    },
+    {
+      "edge_id": "cbb_SJU_Dillon_Mitchell_rebounds_7p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Dillon Mitchell",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "rebounds",
+      "line": 7.5,
+      "direction": "lower",
+      "probability": 0.7045,
+      "player_mean": 6.18,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 6.1797,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.718893,
+          "direction": "lower",
+          "line": 7.5
+        },
+        "adjustment": {
+          "multiplier": 0.98,
+          "adjusted_prob": 0.704515
+        },
+        "caps": {
+          "stat_cap": 0.72,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.704515,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "STRONG",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=24.8",
+        "games: GP=128"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.2755,
+        "kept": "lower",
+        "kept_probability": 0.7045
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=24.8"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=128"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.66,
+          "z_season": 0.66,
+          "z_threshold": 0.55,
+          "l10_mu": 6.18,
+          "season_mu": 6.18,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.324,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.7045,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 6.18,
+      "projected_sigma": 2.0
+    },
+    {
+      "edge_id": "cbb_SJU_Ian_Jackson_points_10p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Ian Jackson",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "points",
+      "line": 10.5,
+      "direction": "higher",
+      "probability": 0.6149,
+      "player_mean": 11.65,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 11.6491,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.614944,
+          "direction": "higher",
+          "line": 10.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.614944
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.614944,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "LEAN",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=22.5",
+        "games: GP=57",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=22.5"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=57"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.575,
+          "z_season": 0.575,
+          "z_threshold": 0.55,
+          "l10_mu": 11.65,
+          "season_mu": 11.65,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.172,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.6149,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 11.65,
+      "projected_sigma": 2.0
+    },
+    {
+      "edge_id": "cbb_SJU_Ian_Jackson_3pm_1p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Ian Jackson",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "probability": 0.2904,
+      "player_mean": 1.67,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 1.6667,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.496332,
+          "direction": "higher",
+          "line": 1.5
+        },
+        "adjustment": {
+          "multiplier": 0.9,
+          "adjusted_prob": 0.446699
+        },
+        "caps": {
+          "stat_cap": 0.65,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.446699,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=22.5",
+        "games: GP=57",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=22.5"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=57"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 0.65,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.08<0.45",
+        "CV_PENALTY:65%",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.085,
+          "z_season": 0.085,
+          "z_threshold": 0.45,
+          "l10_mu": 1.67,
+          "season_mu": 1.67
+        },
+        "cv": {
+          "cv_ratio": 1.198,
+          "cv_threshold": 0.85,
+          "player_role": "SPECIALIST"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.4467,
+      "skip_reason": "BINARY_INSUFFICIENT_GAMES:0<10"
+    },
+    {
+      "edge_id": "cbb_CONN_Silas_Demary_Jr._points_10p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Silas Demary Jr.",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "points",
+      "line": 10.5,
+      "direction": "higher",
+      "probability": 0.5792,
+      "player_mean": 11.33,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 11.3333,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.579249,
+          "direction": "higher",
+          "line": 10.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.579249
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.579249,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.0",
+        "games: GP=93",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "lower",
+        "probability": 0.4208,
+        "kept": "higher",
+        "kept_probability": 0.5792
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.0"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=93"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.42<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.415,
+          "z_season": 0.415,
+          "z_threshold": 0.55,
+          "l10_mu": 11.33,
+          "season_mu": 11.33
+        },
+        "cv": {
+          "cv_ratio": 0.177,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5792,
+      "skip_reason": "SDG_FAIL: FAIL_L10_Z:0.42<0.55, PHASE_FAIL:CONFERENCE_PLAY"
+    },
+    {
+      "edge_id": "cbb_CONN_Silas_Demary_Jr._assists_5p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Silas Demary Jr.",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "assists",
+      "line": 5.5,
+      "direction": "higher",
+      "probability": 0.1512,
+      "player_mean": 3.62,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 3.6237,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.159153,
+          "direction": "higher",
+          "line": 5.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.151196
+        },
+        "caps": {
+          "stat_cap": 0.7,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.151196,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.0",
+        "games: GP=93",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.0"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=93"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.94,
+          "z_season": 0.94,
+          "z_threshold": 0.55,
+          "l10_mu": 3.62,
+          "season_mu": 3.62,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.552,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.1512,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 3.62,
+      "projected_sigma": 2.0,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_CONN_Silas_Demary_Jr._steals_1p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Silas Demary Jr.",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "steals",
+      "line": 1.5,
+      "direction": "higher",
+      "probability": 0.2731,
+      "player_mean": 1.5,
+      "mean_source": "FALLBACK",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 1.5,
+          "mean_source": "FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "poisson": {
+          "raw_prob": 0.442175,
+          "direction": "higher",
+          "line": 1.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.420066
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.420066,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.0",
+        "games: GP=93",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.0"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=93"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 0.65,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.00<0.55",
+        "CV_PENALTY:65%",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.0,
+          "z_season": 0.0,
+          "z_threshold": 0.55,
+          "l10_mu": 1.5,
+          "season_mu": 1.5
+        },
+        "cv": {
+          "cv_ratio": 1.333,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.4201,
+      "skip_reason": "SDG_FAIL: FAIL_L10_Z:0.00<0.55, CV_PENALTY:65%, PHASE_FAIL:CONFERENCE_PLAY"
+    },
+    {
+      "edge_id": "cbb_SJU_Bryce_Hopkins_points_13p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Bryce Hopkins",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "lower",
+      "probability": 0.7386,
+      "player_mean": 11.44,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 11.4444,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.738581,
+          "direction": "lower",
+          "line": 13.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.738581
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.738581,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "STRONG",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=24.7",
+        "games: GP=99"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.2614,
+        "kept": "lower",
+        "kept_probability": 0.7386
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=24.7"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=99"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 1.03,
+          "z_season": 1.03,
+          "z_threshold": 0.55,
+          "l10_mu": 11.44,
+          "season_mu": 11.44,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.175,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.7386,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 11.44,
+      "projected_sigma": 2.0
+    },
+    {
+      "edge_id": "cbb_SJU_Bryce_Hopkins_pra_21p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Bryce Hopkins",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "pra",
+      "line": 21.5,
+      "direction": "higher",
+      "probability": 0.2659,
+      "player_mean": 18.89,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 18.8889,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.265852,
+          "direction": "higher",
+          "line": 21.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.265852
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.265852,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=24.7",
+        "games: GP=99",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=24.7"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=99"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "skip_reason": "BLOCKED_COMPOSITE:PRA"
+    },
+    {
+      "edge_id": "cbb_SJU_Bryce_Hopkins_rebounds_6p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Bryce Hopkins",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "rebounds",
+      "line": 6.5,
+      "direction": "lower",
+      "probability": 0.6228,
+      "player_mean": 5.82,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 5.8182,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.63548,
+          "direction": "lower",
+          "line": 6.5
+        },
+        "adjustment": {
+          "multiplier": 0.98,
+          "adjusted_prob": 0.62277
+        },
+        "caps": {
+          "stat_cap": 0.72,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.62277,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=24.7",
+        "games: GP=99"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.3572,
+        "kept": "lower",
+        "kept_probability": 0.6228
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=24.7"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=99"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.34<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.34,
+          "z_season": 0.34,
+          "z_threshold": 0.55,
+          "l10_mu": 5.82,
+          "season_mu": 5.82
+        },
+        "cv": {
+          "cv_ratio": 0.344,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.6228,
+      "skip_reason": "SDG_FAIL: FAIL_L10_Z:0.34<0.55, PHASE_FAIL:CONFERENCE_PLAY"
+    },
+    {
+      "edge_id": "cbb_SJU_Bryce_Hopkins_assists_1p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Bryce Hopkins",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "probability": 0.2985,
+      "player_mean": 1.63,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 1.6263,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.483511,
+          "direction": "higher",
+          "line": 1.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.459335
+        },
+        "caps": {
+          "stat_cap": 0.7,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.459335,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=24.7",
+        "games: GP=99",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=24.7"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=99"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 0.65,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.06<0.55",
+        "CV_PENALTY:65%",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.065,
+          "z_season": 0.065,
+          "z_threshold": 0.55,
+          "l10_mu": 1.63,
+          "season_mu": 1.63
+        },
+        "cv": {
+          "cv_ratio": 1.227,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.4593,
+      "skip_reason": "SDG_FAIL: FAIL_L10_Z:0.06<0.55, CV_PENALTY:65%, PHASE_FAIL:CONFERENCE_PLAY"
+    },
+    {
+      "edge_id": "cbb_CONN_Tarris_Reed_Jr._points_13p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Tarris Reed Jr.",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "lower",
+      "probability": 0.75,
+      "player_mean": 8.32,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 8.3162,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.9555,
+          "direction": "lower",
+          "line": 13.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.9555
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": "stat_cap"
+        },
+        "final": {
+          "final_prob": 0.75,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "STRONG",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=20.4",
+        "games: GP=117"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.0445,
+        "kept": "lower",
+        "kept_probability": 0.75
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=20.4"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=117"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 2.59,
+          "z_season": 2.59,
+          "z_threshold": 0.55,
+          "l10_mu": 8.32,
+          "season_mu": 8.32,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.24,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.75,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 8.32,
+      "projected_sigma": 2.0
+    },
+    {
+      "edge_id": "cbb_CONN_Tarris_Reed_Jr._rebounds_7p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Tarris Reed Jr.",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "rebounds",
+      "line": 7.5,
+      "direction": "higher",
+      "probability": 0.3006,
+      "player_mean": 6.36,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 6.359,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.306742,
+          "direction": "higher",
+          "line": 7.5
+        },
+        "adjustment": {
+          "multiplier": 0.98,
+          "adjusted_prob": 0.300607
+        },
+        "caps": {
+          "stat_cap": 0.72,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.300607,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=20.4",
+        "games: GP=117",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=20.4"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=117"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.57,
+          "z_season": 0.57,
+          "z_threshold": 0.55,
+          "l10_mu": 6.36,
+          "season_mu": 6.36,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.314,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.3006,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 6.36,
+      "projected_sigma": 2.0,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_CONN_Tarris_Reed_Jr._blocks_1p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Tarris Reed Jr.",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "blocks",
+      "line": 1.5,
+      "direction": "higher",
+      "probability": 0.2731,
+      "player_mean": 1.5,
+      "mean_source": "FALLBACK",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 1.5,
+          "mean_source": "FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "poisson": {
+          "raw_prob": 0.442175,
+          "direction": "higher",
+          "line": 1.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.420066
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.420066,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=20.4",
+        "games: GP=117",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=20.4"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=117"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 0.65,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.00<0.55",
+        "CV_PENALTY:65%",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.0,
+          "z_season": 0.0,
+          "z_threshold": 0.55,
+          "l10_mu": 1.5,
+          "season_mu": 1.5
+        },
+        "cv": {
+          "cv_ratio": 1.333,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.4201,
+      "skip_reason": "SDG_FAIL: FAIL_L10_Z:0.00<0.55, CV_PENALTY:65%, PHASE_FAIL:CONFERENCE_PLAY"
+    },
+    {
+      "edge_id": "cbb_SJU_Oziyah_Sellers_points_8p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Oziyah Sellers",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "points",
+      "line": 8.5,
+      "direction": "higher",
+      "probability": 0.4026,
+      "player_mean": 7.96,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 7.9649,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.402555,
+          "direction": "higher",
+          "line": 8.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.402555
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.402555,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=20.9",
+        "games: GP=114",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=20.9"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=114"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.27<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.27,
+          "z_season": 0.27,
+          "z_threshold": 0.55,
+          "l10_mu": 7.96,
+          "season_mu": 7.96
+        },
+        "cv": {
+          "cv_ratio": 0.251,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.4026,
+      "skip_reason": "SDG_FAIL: FAIL_L10_Z:0.27<0.55, PHASE_FAIL:CONFERENCE_PLAY"
+    },
+    {
+      "edge_id": "cbb_CONN_Braylon_Mullins_points_12p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Braylon Mullins",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "points",
+      "line": 12.5,
+      "direction": "lower",
+      "probability": 0.614,
+      "player_mean": 11.67,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 11.6667,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.614028,
+          "direction": "lower",
+          "line": 12.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.614028
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.614028,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=25.7",
+        "games: GP=15"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.386,
+        "kept": "lower",
+        "kept_probability": 0.614
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=25.7"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=15"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.42<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.415,
+          "z_season": 0.415,
+          "z_threshold": 0.55,
+          "l10_mu": 11.67,
+          "season_mu": 11.67
+        },
+        "cv": {
+          "cv_ratio": 0.171,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.614,
+      "skip_reason": "SDG_FAIL: FAIL_L10_Z:0.42<0.55, PHASE_FAIL:CONFERENCE_PLAY"
+    },
+    {
+      "edge_id": "cbb_CONN_Braylon_Mullins_rebounds_3p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Braylon Mullins",
+      "team": "CONN",
+      "opponent": "SJU",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "higher",
+      "probability": 0.447,
+      "player_mean": 3.47,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 3.4667,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.456158,
+          "direction": "higher",
+          "line": 3.5
+        },
+        "adjustment": {
+          "multiplier": 0.98,
+          "adjusted_prob": 0.447035
+        },
+        "caps": {
+          "stat_cap": 0.72,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.447035,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=25.7",
+        "games: GP=15",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=25.7"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=15"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.01<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.015,
+          "z_season": 0.015,
+          "z_threshold": 0.55,
+          "l10_mu": 3.47,
+          "season_mu": 3.47
+        },
+        "cv": {
+          "cv_ratio": 0.576,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.447,
+      "skip_reason": "SDG_FAIL: FAIL_L10_Z:0.01<0.55, PHASE_FAIL:CONFERENCE_PLAY"
+    },
+    {
+      "edge_id": "cbb_SJU_Zuby_Ejiofor_points_15p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Zuby Ejiofor",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "higher",
+      "probability": 0.0212,
+      "player_mean": 8.96,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 8.9565,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.021203,
+          "direction": "higher",
+          "line": 15.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.021203
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.021203,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "games: GP=115",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [
+        "minutes: MPG=19.6 < 20.0"
+      ],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "FAIL",
+          "reason": "MPG=19.6 < 20.0"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=115"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: minutes: MPG=19.6 < 20.0"
+    },
+    {
+      "edge_id": "cbb_SJU_Zuby_Ejiofor_pra_25p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Zuby Ejiofor",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "pra",
+      "line": 25.5,
+      "direction": "lower",
+      "probability": 0.75,
+      "player_mean": 15.45,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 15.4522,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.991198,
+          "direction": "lower",
+          "line": 25.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.991198
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": "stat_cap"
+        },
+        "final": {
+          "final_prob": 0.75,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "games: GP=115"
+      ],
+      "gates_failed": [
+        "minutes: MPG=19.6 < 20.0"
+      ],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.0088,
+        "kept": "lower",
+        "kept_probability": 0.75
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "FAIL",
+          "reason": "MPG=19.6 < 20.0"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=115"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": false,
+      "skip_reason": "BLOCKED_COMPOSITE:PRA"
+    },
+    {
+      "edge_id": "cbb_SJU_Zuby_Ejiofor_rebounds_7p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Zuby Ejiofor",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "rebounds",
+      "line": 7.5,
+      "direction": "lower",
+      "probability": 0.72,
+      "player_mean": 5.14,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 5.1391,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.851698,
+          "direction": "lower",
+          "line": 7.5
+        },
+        "adjustment": {
+          "multiplier": 0.98,
+          "adjusted_prob": 0.834664
+        },
+        "caps": {
+          "stat_cap": 0.72,
+          "global_cap": 0.79,
+          "cap_hit": "stat_cap"
+        },
+        "final": {
+          "final_prob": 0.72,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "games: GP=115"
+      ],
+      "gates_failed": [
+        "minutes: MPG=19.6 < 20.0"
+      ],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.1453,
+        "kept": "lower",
+        "kept_probability": 0.72
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "FAIL",
+          "reason": "MPG=19.6 < 20.0"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=115"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: minutes: MPG=19.6 < 20.0"
+    },
+    {
+      "edge_id": "cbb_SJU_Zuby_Ejiofor_assists_2p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Zuby Ejiofor",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "higher",
+      "probability": 0.1483,
+      "player_mean": 1.36,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 1.3565,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.156096,
+          "direction": "higher",
+          "line": 2.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.148291
+        },
+        "caps": {
+          "stat_cap": 0.7,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.148291,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "games: GP=115",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [
+        "minutes: MPG=19.6 < 20.0"
+      ],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "FAIL",
+          "reason": "MPG=19.6 < 20.0"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=115"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: minutes: MPG=19.6 < 20.0"
+    },
+    {
+      "edge_id": "cbb_SJU_Zuby_Ejiofor_reb+ast_10p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Zuby Ejiofor",
+      "team": "SJU",
+      "opponent": "CONN",
+      "stat": "reb+ast",
+      "line": 10.5,
+      "direction": "higher",
+      "probability": 0.4553,
+      "player_mean": 10.5,
+      "mean_source": "FALLBACK",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 10.5,
+          "mean_source": "FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "poisson": {
+          "raw_prob": 0.479262,
+          "direction": "higher",
+          "line": 10.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.455299
+        },
+        "caps": {
+          "stat_cap": 0.7,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.455299,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "games: GP=115",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [
+        "minutes: MPG=19.6 < 20.0"
+      ],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "FAIL",
+          "reason": "MPG=19.6 < 20.0"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=115"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "BLOCKED_COMPOSITE:REB+AST"
+    }
+  ],
+  "generated": "2026-02-06T18:48:34.309236",
+  "source": "CBB_PIPELINE"
+}

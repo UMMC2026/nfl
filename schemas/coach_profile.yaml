@@ -1,0 +1,113 @@
+# NBA Coach Profile Schema
+# =========================
+# Defines coach behavioral models: rotation style, blowout behavior, variance multipliers.
+
+coach_templates:
+
+  COACH_DISCIPLINED_8_MAN:
+    description: "Tight 7-8 man rotation, predictable minutes"
+    examples:
+      - "Tom Thibodeau (NYK)"
+      - "Erik Spoelstra (MIA)"
+      - "Doc Rivers (MIL)"
+    rotation_style: TIGHT
+    blowout_behavior: EARLY  # Pulls starters at 15+ lead
+    variance_multiplier: 0.80  # Low variance
+    confidence_boost: +3%  # More predictable
+
+  COACH_MODERATE_9_MAN:
+    description: "Standard 9-10 man rotation, balanced"
+    examples:
+      - "Most NBA coaches"
+      - "Michael Malone (DEN)"
+      - "Tyronn Lue (LAC)"
+    rotation_style: MODERATE
+    blowout_behavior: STANDARD  # Pulls at 20+ lead
+    variance_multiplier: 1.00  # Neutral
+    confidence_boost: 0%
+
+  COACH_LOOSE_11_MAN:
+    description: "Deep 10-11+ rotation, high variance"
+    examples:
+      - "Gregg Popovich (SAS)"
+      - "Steve Kerr (GSW)"
+      - "Nick Nurse (PHI)"
+    rotation_style: LOOSE
+    blowout_behavior: LATE  # Pulls at 25+ lead
+    variance_multiplier: 1.30  # High variance
+    confidence_penalty: -5%  # Less predictable
+
+# Rotation Style Guide
+# =====================
+
+rotation_styles:
+  TIGHT:
+    man_count: [7, 8]
+    starter_minutes: [34, 38]
+    bench_minutes: [12, 18]
+    confidence_effect: +3% to +5%
+    use_cases:
+      - "Playoff-bound teams"
+      - "Star-heavy rosters"
+      - "Coaches with trust issues"
+  
+  MODERATE:
+    man_count: [9, 10]
+    starter_minutes: [30, 34]
+    bench_minutes: [15, 22]
+    confidence_effect: "Neutral"
+    use_cases:
+      - "Most NBA teams"
+      - "Regular season standard"
+  
+  LOOSE:
+    man_count: [10, 11, 12]
+    starter_minutes: [26, 32]
+    bench_minutes: [18, 28]
+    confidence_effect: -5% to -8%
+    use_cases:
+      - "Load management teams"
+      - "Development-focused coaches"
+      - "Blowout-heavy games"
+
+# Blowout Behavior Guide
+# =======================
+
+blowout_behaviors:
+  EARLY:
+    threshold: 15  # Points
+    description: "Pulls starters early to preserve health"
+    archetype_impact:
+      PRIMARY_USAGE_SCORER: "Minutes cut by 20%"
+      BENCH_MICROWAVE: "Increased playing time"
+  
+  STANDARD:
+    threshold: 20
+    description: "Standard NBA blowout management"
+    archetype_impact:
+      PRIMARY_USAGE_SCORER: "Minutes cut by 15%"
+      BENCH_MICROWAVE: "Moderate increase"
+  
+  LATE:
+    threshold: 25
+    description: "Keeps starters in longer"
+    archetype_impact:
+      PRIMARY_USAGE_SCORER: "Minutes cut by 10%"
+      BENCH_MICROWAVE: "Minimal change"
+
+# Team-Specific Overrides (optional)
+# ===================================
+# Uncomment and populate as needed
+
+# team_overrides:
+#   BOS:
+#     coach_name: "Joe Mazzulla"
+#     rotation_style: TIGHT
+#     blowout_behavior: EARLY
+#     variance_multiplier: 0.85
+#   
+#   GSW:
+#     coach_name: "Steve Kerr"
+#     rotation_style: LOOSE
+#     blowout_behavior: LATE
+#     variance_multiplier: 1.25

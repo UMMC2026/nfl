@@ -1,0 +1,436 @@
+{
+  "date": "2026-01-31",
+  "timestamp": "2026-01-31T18:21:52.426500",
+  "slate": "NOP_TO_HOU_END",
+  "source_file": "NOP_TO_HOU_END_RISK_FIRST_20260131_FROM_UD.json",
+  "summary": {
+    "play_count": 7,
+    "lean_count": 40,
+    "total": 47
+  },
+  "picks": [
+    {
+      "player": "Clint Capela",
+      "team": "HOU",
+      "stat": "points",
+      "line": 29.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 74.2
+    },
+    {
+      "player": "Jose Alvarado",
+      "team": "NOP",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 67.7
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "team": "MIN",
+      "stat": "3pm",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 67.7
+    },
+    {
+      "player": "Kevin Durant",
+      "team": "HOU",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 66.5
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "team": "MIN",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 65.8
+    },
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 64.9
+    },
+    {
+      "player": "Anthony Edwards",
+      "team": "MIN",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 61.7
+    },
+    {
+      "player": "Clint Capela",
+      "team": "HOU",
+      "stat": "points",
+      "line": 4.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 64.6
+    },
+    {
+      "player": "Naji Marshall",
+      "team": "DAL",
+      "stat": "points",
+      "line": 16.0,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 60.5
+    },
+    {
+      "player": "Kelly Oubre",
+      "team": "PHI",
+      "stat": "points",
+      "line": 14.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 60.1
+    },
+    {
+      "player": "Tari Eason",
+      "team": "HOU",
+      "stat": "points",
+      "line": 12.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 60.1
+    },
+    {
+      "player": "Kelly Oubre",
+      "team": "PHI",
+      "stat": "rebounds",
+      "line": 5.0,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 58.1
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "team": "MIN",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 57.8
+    },
+    {
+      "player": "P.J. Washington",
+      "team": "DAL",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 57.7
+    },
+    {
+      "player": "Jabari Smith",
+      "team": "HOU",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 56.1
+    },
+    {
+      "player": "Quentin Grimes",
+      "team": "PHI",
+      "stat": "rebounds",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 55.8
+    },
+    {
+      "player": "Cooper Flagg",
+      "team": "DAL",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 55.1
+    },
+    {
+      "player": "Max Christie",
+      "team": "DAL",
+      "stat": "rebounds",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 54.6
+    },
+    {
+      "player": "Tari Eason",
+      "team": "HOU",
+      "stat": "rebounds",
+      "line": 5.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 53.4
+    },
+    {
+      "player": "Jeremiah Fears",
+      "team": "NOP",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 52.9
+    },
+    {
+      "player": "Julius Randle",
+      "team": "MIN",
+      "stat": "rebounds",
+      "line": 6.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 52.6
+    },
+    {
+      "player": "Quentin Grimes",
+      "team": "PHI",
+      "stat": "points",
+      "line": 10.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 52.4
+    },
+    {
+      "player": "Herbert Jones",
+      "team": "NOP",
+      "stat": "rebounds",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 52.4
+    },
+    {
+      "player": "Julius Randle",
+      "team": "MIN",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 52.1
+    },
+    {
+      "player": "Zion Williamson",
+      "team": "NOP",
+      "stat": "points",
+      "line": 21.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 51.7
+    },
+    {
+      "player": "Tari Eason",
+      "team": "HOU",
+      "stat": "pts+ast",
+      "line": 14.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 51.4
+    },
+    {
+      "player": "Derik Queen",
+      "team": "NOP",
+      "stat": "points",
+      "line": 9.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 51.3
+    },
+    {
+      "player": "Klay Thompson",
+      "team": "DAL",
+      "stat": "points",
+      "line": 9.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 51.3
+    },
+    {
+      "player": "Quentin Grimes",
+      "team": "PHI",
+      "stat": "pts+ast",
+      "line": 13.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 51.3
+    },
+    {
+      "player": "Zion Williamson",
+      "team": "NOP",
+      "stat": "pts+ast",
+      "line": 25.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 51.2
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "stat": "points",
+      "line": 27.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 50.6
+    },
+    {
+      "player": "Jabari Smith",
+      "team": "HOU",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 50.4
+    },
+    {
+      "player": "Daniel Gafford",
+      "team": "DAL",
+      "stat": "pts+ast",
+      "line": 9.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 50.2
+    },
+    {
+      "player": "Amen Thompson",
+      "team": "HOU",
+      "stat": "points",
+      "line": 17.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 50.0
+    },
+    {
+      "player": "P.J. Washington",
+      "team": "DAL",
+      "stat": "pts+ast",
+      "line": 15.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 49.6
+    },
+    {
+      "player": "Karlo Matkovi\u0107",
+      "team": "NOP",
+      "stat": "rebounds",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 49.3
+    },
+    {
+      "player": "Saddiq Bey",
+      "team": "NOP",
+      "stat": "points",
+      "line": 16.0,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 49.1
+    },
+    {
+      "player": "Alperen Sengun",
+      "team": "HOU",
+      "stat": "pts+ast",
+      "line": 26.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 48.8
+    },
+    {
+      "player": "GG Jackson",
+      "team": "MEM",
+      "stat": "pts+ast",
+      "line": 13.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 48.7
+    },
+    {
+      "player": "Herbert Jones",
+      "team": "NOP",
+      "stat": "pts+ast",
+      "line": 11.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 48.6
+    },
+    {
+      "player": "Jabari Smith",
+      "team": "HOU",
+      "stat": "pts+ast",
+      "line": 15.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 48.2
+    },
+    {
+      "player": "Mike Conley",
+      "team": "MIN",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 47.3
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 47.1
+    },
+    {
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "stat": "pts+ast",
+      "line": 35.0,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 46.3
+    },
+    {
+      "player": "Brandon Williams",
+      "team": "DAL",
+      "stat": "pts+ast",
+      "line": 16.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 44.2
+    },
+    {
+      "player": "Rudy Gobert",
+      "team": "MIN",
+      "stat": "pts+ast",
+      "line": 9.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 44.1
+    },
+    {
+      "player": "Mike Conley",
+      "team": "MIN",
+      "stat": "pts+ast",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 43.5
+    }
+  ]
+}

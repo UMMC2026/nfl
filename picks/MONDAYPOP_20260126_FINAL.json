@@ -1,0 +1,58 @@
+{
+  "date": "2026-01-26",
+  "timestamp": "2026-01-26T16:25:48.224390",
+  "slate": "MONDAYPOP",
+  "source_file": "MONDAYPOP_RISK_FIRST_20260126_FROM_UD.json",
+  "summary": {
+    "play_count": 0,
+    "lean_count": 5,
+    "total": 5
+  },
+  "picks": [
+    {
+      "player": "Jaylen Clark",
+      "team": "MIN",
+      "stat": "pts+ast",
+      "line": 36.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Jaxson Hayes",
+      "team": "LAL",
+      "stat": "pts+ast",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Alperen Sengun",
+      "team": "HOU",
+      "stat": "pts+ast",
+      "line": 26.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Amen Thompson",
+      "team": "HOU",
+      "stat": "pts+ast",
+      "line": 22.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Jaylen Brown",
+      "team": "BOS",
+      "stat": "pra",
+      "line": 41.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    }
+  ]
+}

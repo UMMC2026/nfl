@@ -1,0 +1,94 @@
+{
+  "date": "2026-01-25",
+  "timestamp": "2026-01-25T16:29:25.411950",
+  "slate": "GSW_MIN2",
+  "source_file": "GSW_MIN2_RISK_FIRST_20260125_FROM_UD.json",
+  "summary": {
+    "play_count": 2,
+    "lean_count": 7,
+    "total": 9
+  },
+  "picks": [
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 75.6
+    },
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 75.6
+    },
+    {
+      "player": "Shai Gilgeous-Alexander",
+      "team": "OKC",
+      "stat": "assists",
+      "line": 6.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 78.5
+    },
+    {
+      "player": "Shai Gilgeous-Alexander",
+      "team": "OKC",
+      "stat": "assists",
+      "line": 6.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 78.5
+    },
+    {
+      "player": "Draymond Green",
+      "team": "GSW",
+      "stat": "reb+ast",
+      "line": 11.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "stat": "reb+ast",
+      "line": 7.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "stat": "pra",
+      "line": 21.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "stat": "pra",
+      "line": 21.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "stat": "pra",
+      "line": 21.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    }
+  ]
+}

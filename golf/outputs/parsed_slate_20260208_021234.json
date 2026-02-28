@@ -1,0 +1,286 @@
+{
+  "parsed_at": "2026-02-08T02:12:34.508578",
+  "prop_count": 30,
+  "props": [
+    {
+      "player": "Scottie Scheffler",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:02AM",
+      "market": "round_strokes",
+      "line": 67.5,
+      "higher_mult": 1.07,
+      "lower_mult": 0.86
+    },
+    {
+      "player": "Scottie Scheffler",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:02AM",
+      "market": "finishing_position",
+      "line": 10.5,
+      "better_mult": 0.78
+    },
+    {
+      "player": "Scottie Scheffler",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:02AM",
+      "market": "birdies",
+      "line": 5.5,
+      "higher_mult": 0.86,
+      "lower_mult": 1.07
+    },
+    {
+      "player": "Hideki Matsuyama",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:57AM",
+      "market": "round_strokes",
+      "line": 68.5,
+      "higher_mult": 0.86,
+      "lower_mult": 1.07
+    },
+    {
+      "player": "Hideki Matsuyama",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:57AM",
+      "market": "finishing_position",
+      "line": 5.5,
+      "better_mult": 0.65
+    },
+    {
+      "player": "Hideki Matsuyama",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:57AM",
+      "market": "birdies",
+      "line": 4.5
+    },
+    {
+      "player": "Si Woo Kim",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:46AM",
+      "market": "round_strokes",
+      "line": 68.5,
+      "higher_mult": 0.86,
+      "lower_mult": 1.07
+    },
+    {
+      "player": "Si Woo Kim",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:46AM",
+      "market": "finishing_position",
+      "line": 5.5,
+      "better_mult": 0.77
+    },
+    {
+      "player": "Si Woo Kim",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:46AM",
+      "market": "birdies",
+      "line": 4.5
+    },
+    {
+      "player": "Viktor Hovland",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:24AM",
+      "market": "round_strokes",
+      "line": 69.5,
+      "higher_mult": 1.07,
+      "lower_mult": 0.86
+    },
+    {
+      "player": "Viktor Hovland",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:24AM",
+      "market": "finishing_position",
+      "line": 10.5,
+      "better_mult": 1.03
+    },
+    {
+      "player": "Viktor Hovland",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:24AM",
+      "market": "birdies",
+      "line": 4.5,
+      "higher_mult": 0.94,
+      "lower_mult": 1.03
+    },
+    {
+      "player": "Pierceson Coody",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:13AM",
+      "market": "round_strokes",
+      "line": 69.5
+    },
+    {
+      "player": "Pierceson Coody",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:13AM",
+      "market": "finishing_position",
+      "line": 20.5,
+      "better_mult": 0.6
+    },
+    {
+      "player": "Pierceson Coody",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:13AM",
+      "market": "birdies",
+      "line": 4.5,
+      "higher_mult": 1.07,
+      "lower_mult": 0.86
+    },
+    {
+      "player": "Jake Knapp",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:35AM",
+      "market": "round_strokes",
+      "line": 69.5,
+      "higher_mult": 1.03,
+      "lower_mult": 0.88
+    },
+    {
+      "player": "Jake Knapp",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:35AM",
+      "market": "finishing_position",
+      "line": 5.5,
+      "better_mult": 1.04
+    },
+    {
+      "player": "Jake Knapp",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:35AM",
+      "market": "birdies",
+      "line": 4.5,
+      "higher_mult": 1.07,
+      "lower_mult": 0.86
+    },
+    {
+      "player": "Akshay Bhatia",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:35AM",
+      "market": "round_strokes",
+      "line": 69.5,
+      "higher_mult": 0.94,
+      "lower_mult": 1.03
+    },
+    {
+      "player": "Akshay Bhatia",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:35AM",
+      "market": "finishing_position",
+      "line": 10.5,
+      "better_mult": 0.77
+    },
+    {
+      "player": "Akshay Bhatia",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:35AM",
+      "market": "birdies",
+      "line": 4.5,
+      "higher_mult": 1.07,
+      "lower_mult": 0.86
+    },
+    {
+      "player": "Ryo Hisatsune",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:46AM",
+      "market": "round_strokes",
+      "line": 70.5,
+      "higher_mult": 1.07,
+      "lower_mult": 0.86
+    },
+    {
+      "player": "Ryo Hisatsune",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:46AM",
+      "market": "finishing_position",
+      "line": 5.5,
+      "better_mult": 1.05
+    },
+    {
+      "player": "Ryo Hisatsune",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:46AM",
+      "market": "birdies",
+      "line": 4.5,
+      "higher_mult": 1.05,
+      "lower_mult": 0.81
+    },
+    {
+      "player": "Maverick Mcnealy",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:57AM",
+      "market": "round_strokes",
+      "line": 69.5,
+      "higher_mult": 1.06,
+      "lower_mult": 0.84
+    },
+    {
+      "player": "Maverick Mcnealy",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:57AM",
+      "market": "finishing_position",
+      "line": 5.5,
+      "better_mult": 0.8
+    },
+    {
+      "player": "Maverick Mcnealy",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "11:57AM",
+      "market": "birdies",
+      "line": 4.5
+    },
+    {
+      "player": "Sahith Theegala",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "10:51AM",
+      "market": "round_strokes",
+      "line": 69.5,
+      "higher_mult": 1.03,
+      "lower_mult": 0.94
+    },
+    {
+      "player": "Sahith Theegala",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "10:51AM",
+      "market": "finishing_position",
+      "line": 20.5,
+      "better_mult": 0.69
+    },
+    {
+      "player": "Sahith Theegala",
+      "tournament": "WM Phoenix Open",
+      "round": 4,
+      "tee_time": "10:51AM",
+      "market": "birdies",
+      "line": 4.5
+    }
+  ]
+}

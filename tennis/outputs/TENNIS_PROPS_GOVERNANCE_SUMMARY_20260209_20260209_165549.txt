@@ -1,0 +1,40 @@
+==============================================================================
+GOVERNANCE SUMMARY - TENNIS_PROPS - 20260209
+==============================================================================
+Created (UTC): 2026-02-09T22:55:49.456323+00:00
+
+COUNTS
+------------------------------------------------------------------------------
+Total results : 18
+Allowed edges : 9
+Blocked edges : 9
+Decision breakdown:
+  - BLOCKED: 9
+  - PLAY: 9
+
+TOP BLOCK REASONS
+------------------------------------------------------------------------------
+    5x - pick_state=VETTED
+    4x - pick_state=REJECTED
+
+TOP PLAY PICKS
+------------------------------------------------------------------------------
+ 1. Quinn Vandecasteele () tiebreakers HIGHER 0.5
+    eff=99.9% model=99.9% edge=? z=?
+ 2. Quinn Vandecasteele () sets_played HIGHER 2.5
+    eff=99.2% model=99.2% edge=? z=?
+ 3. Alex Barrena () sets_won HIGHER 0.5
+    eff=93.8% model=93.8% edge=? z=?
+ 4. Quinn Vandecasteele () 1st_set_games_won HIGHER 5.5
+    eff=93.2% model=93.2% edge=? z=?
+ 5. Alex Barrena () games_won HIGHER 11.5
+    eff=92.5% model=92.5% edge=? z=?
+ 6. Quinn Vandecasteele () games_won LOWER 12.5
+    eff=81.0% model=81.0% edge=? z=?
+ 7. Alex Barrena () 1st_set_games_won HIGHER 5.5
+    eff=80.2% model=80.2% edge=? z=?
+ 8. Quinn Vandecasteele () 1st_set_games HIGHER 8.5
+    eff=69.0% model=69.0% edge=? z=?
+ 9. Quinn Vandecasteele () games_played LOWER 21.5
+    eff=68.8% model=68.8% edge=? z=?
+... (truncated)

@@ -1,0 +1,23 @@
+{
+  "constraints": {
+    "philosophy_locked": true
+  },
+  "pipeline_order": [
+    "ingest",
+    "normalize",
+    "hydrate",
+    "collapse_edges",
+    "score",
+    "validate",
+    "render"
+  ],
+  "enforce_tier_caps": true,
+  "enforce_roster_gate": true,
+  "enforce_schedule_gate": true,
+  "enforce_directional_bias": true,
+  "enforce_render_gate": true,
+  "min_confidence_threshold": 0.55,
+  "max_confidence_threshold": 0.8,
+  "allow_cross_sport": false,
+  "notes": "Default policy scaffold to satisfy pre-run enforcement. Customize as needed, but keep philosophy_locked=true and pipeline_order unchanged unless you intentionally change governance."
+}

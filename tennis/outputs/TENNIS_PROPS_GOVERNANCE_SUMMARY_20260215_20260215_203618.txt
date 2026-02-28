@@ -1,0 +1,36 @@
+==============================================================================
+GOVERNANCE SUMMARY - TENNIS_PROPS - 20260215
+==============================================================================
+Created (UTC): 2026-02-16T02:36:18.383498+00:00
+
+COUNTS
+------------------------------------------------------------------------------
+Total results : 18
+Allowed edges : 4
+Blocked edges : 14
+Decision breakdown:
+  - BLOCKED: 14
+  - PLAY: 4
+
+TOP BLOCK REASONS
+------------------------------------------------------------------------------
+   11x - pick_state=REJECTED
+    3x - pick_state=VETTED
+
+TOP PLAY PICKS
+------------------------------------------------------------------------------
+ 1. Miomir Kecmanovic () sets_played HIGHER 2.5
+    eff=99.5% model=99.5% edge=? z=?
+ 2. Daniil Medvedev () sets_played HIGHER 2.5
+    eff=99.4% model=99.4% edge=? z=?
+ 3. Jannik Sinner () sets_played HIGHER 2.5
+    eff=99.2% model=99.2% edge=? z=?
+ 4. Emma Navarro () games_played HIGHER 17.5
+    eff=91.6% model=91.6% edge=? z=?
+
+FILES
+------------------------------------------------------------------------------
+- outputs/governance_config.json
+- outputs/allowed_edges.json
+- outputs/blocked_edges.json
+(These are the stable 'latest' artifacts.)

@@ -1,0 +1,19 @@
+name: Python Lint and Entry-Point Check
+on:
+  push:
+    paths:
+      - '**.py'
+  pull_request:
+    paths:
+      - '**.py'
+jobs:
+  py-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Run py_compile entry-point check
+        run: bash .github/scripts/py_compile_check.sh

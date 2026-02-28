@@ -1,0 +1,857 @@
+{
+  "sport": "NHL",
+  "date": "2026-02-02",
+  "generated": "2026-02-02T18:22:08.798047",
+  "summary": {
+    "total_props": 84,
+    "playable": 62,
+    "strong": 67,
+    "lean": 7
+  },
+  "picks": [
+    {
+      "player": "Jordan Kyrou",
+      "team": "STL",
+      "opponent": "NSH",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:46%"
+      ]
+    },
+    {
+      "player": "Roman Josi",
+      "team": "NSH",
+      "opponent": "STL",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:50%"
+      ]
+    },
+    {
+      "player": "Rasmus Sandin",
+      "team": "WSH",
+      "opponent": "NYI",
+      "stat": "Blocked Shots",
+      "line": 1.5,
+      "direction": "Less",
+      "probability": 0.62424,
+      "edge": 0.12424000000000002,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:58%"
+      ]
+    },
+    {
+      "player": "MacKenzie Weegar",
+      "team": "CGY",
+      "opponent": "TOR",
+      "stat": "SOG",
+      "line": 2.5,
+      "direction": "Less",
+      "probability": 0.72930375,
+      "edge": 0.22930375000000003,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:56%"
+      ]
+    },
+    {
+      "player": "Wyatt Johnston",
+      "team": "DAL",
+      "opponent": "WPG",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:46%"
+      ]
+    },
+    {
+      "player": "Jason Robertson",
+      "team": "DAL",
+      "opponent": "WPG",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.85,
+      "edge": 0.35,
+      "tier": "STRONG",
+      "risk_flags": []
+    },
+    {
+      "player": "Dylan Cozens",
+      "team": "OTT",
+      "opponent": "PIT",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:50%"
+      ]
+    },
+    {
+      "player": "Erik Karlsson",
+      "team": "PIT",
+      "opponent": "OTT",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:55%"
+      ]
+    },
+    {
+      "player": "Evgeni Malkin",
+      "team": "PIT",
+      "opponent": "OTT",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:50%"
+      ]
+    },
+    {
+      "player": "Sidney Crosby",
+      "team": "PIT",
+      "opponent": "OTT",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:46%"
+      ]
+    },
+    {
+      "player": "Drake Batherson",
+      "team": "OTT",
+      "opponent": "PIT",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:46%"
+      ]
+    },
+    {
+      "player": "Tage Thompson",
+      "team": "BUF",
+      "opponent": "FLA",
+      "stat": "SOG",
+      "line": 2.5,
+      "direction": "More",
+      "probability": 0.779016108169979,
+      "edge": 0.279016108169979,
+      "tier": "STRONG",
+      "risk_flags": []
+    },
+    {
+      "player": "Rasmus Dahlin",
+      "team": "BUF",
+      "opponent": "FLA",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7638503415305355,
+      "edge": 0.26385034153053555,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:55%"
+      ]
+    },
+    {
+      "player": "Carter Verhaeghe",
+      "team": "FLA",
+      "opponent": "BUF",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:46%"
+      ]
+    },
+    {
+      "player": "Alex Tuch",
+      "team": "BUF",
+      "opponent": "FLA",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:46%"
+      ]
+    },
+    {
+      "player": "Alex Ovechkin",
+      "team": "WSH",
+      "opponent": "NYI",
+      "stat": "SOG",
+      "line": 2.5,
+      "direction": "More",
+      "probability": 0.8386054859015704,
+      "edge": 0.33860548590157036,
+      "tier": "STRONG",
+      "risk_flags": []
+    },
+    {
+      "player": "Aliaksei Protas",
+      "team": "WSH",
+      "opponent": "NYI",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:50%"
+      ]
+    },
+    {
+      "player": "Dylan Strome",
+      "team": "WSH",
+      "opponent": "NYI",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:46%"
+      ]
+    },
+    {
+      "player": "Mathew Barzal",
+      "team": "NYI",
+      "opponent": "WSH",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:46%"
+      ]
+    },
+    {
+      "player": "Cole Caufield",
+      "team": "MTL",
+      "opponent": "MIN",
+      "stat": "SOG",
+      "line": 2.5,
+      "direction": "More",
+      "probability": 0.779016108169979,
+      "edge": 0.279016108169979,
+      "tier": "STRONG",
+      "risk_flags": []
+    },
+    {
+      "player": "Kirill Kaprizov",
+      "team": "MIN",
+      "opponent": "MTL",
+      "stat": "SOG",
+      "line": 2.5,
+      "direction": "More",
+      "probability": 0.8386054859015704,
+      "edge": 0.33860548590157036,
+      "tier": "STRONG",
+      "risk_flags": []
+    },
+    {
+      "player": "Matt Boldy",
+      "team": "MIN",
+      "opponent": "MTL",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:46%"
+      ]
+    },
+    {
+      "player": "Nick Suzuki",
+      "team": "MTL",
+      "opponent": "MIN",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:46%"
+      ]
+    },
+    {
+      "player": "Mats Zuccarello",
+      "team": "MIN",
+      "opponent": "MTL",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7638503415305355,
+      "edge": 0.26385034153053555,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:50%"
+      ]
+    },
+    {
+      "player": "Ivan Demidov",
+      "team": "MTL",
+      "opponent": "MIN",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:50%"
+      ]
+    },
+    {
+      "player": "Juraj Slafkovsky",
+      "team": "MTL",
+      "opponent": "MIN",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:50%"
+      ]
+    },
+    {
+      "player": "Filip Forsberg",
+      "team": "NSH",
+      "opponent": "STL",
+      "stat": "SOG",
+      "line": 2.5,
+      "direction": "More",
+      "probability": 0.7112758329297219,
+      "edge": 0.21127583292972185,
+      "tier": "STRONG",
+      "risk_flags": []
+    },
+    {
+      "player": "Jimmy Snuggerud",
+      "team": "STL",
+      "opponent": "NSH",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:50%"
+      ]
+    },
+    {
+      "player": "Steven Stamkos",
+      "team": "NSH",
+      "opponent": "STL",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:46%"
+      ]
+    },
+    {
+      "player": "Luke Evangelista",
+      "team": "NSH",
+      "opponent": "STL",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7638503415305355,
+      "edge": 0.26385034153053555,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:50%"
+      ]
+    },
+    {
+      "player": "Pavel Buchnevich",
+      "team": "STL",
+      "opponent": "NSH",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:46%"
+      ]
+    },
+    {
+      "player": "Connor Bedard",
+      "team": "CHI",
+      "opponent": "SJ",
+      "stat": "SOG",
+      "line": 2.5,
+      "direction": "More",
+      "probability": 0.7112758329297219,
+      "edge": 0.21127583292972185,
+      "tier": "STRONG",
+      "risk_flags": []
+    },
+    {
+      "player": "Tyler Bertuzzi",
+      "team": "CHI",
+      "opponent": "SJ",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:50%"
+      ]
+    },
+    {
+      "player": "Tyler Toffoli",
+      "team": "SJ",
+      "opponent": "CHI",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:46%"
+      ]
+    },
+    {
+      "player": "Will Smith",
+      "team": "SJ",
+      "opponent": "CHI",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:50%"
+      ]
+    },
+    {
+      "player": "William Eklund",
+      "team": "SJ",
+      "opponent": "CHI",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7638503415305355,
+      "edge": 0.26385034153053555,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:50%"
+      ]
+    },
+    {
+      "player": "Kyle Connor",
+      "team": "WPG",
+      "opponent": "DAL",
+      "stat": "SOG",
+      "line": 2.5,
+      "direction": "More",
+      "probability": 0.757345418903635,
+      "edge": 0.25734541890363505,
+      "tier": "STRONG",
+      "risk_flags": []
+    },
+    {
+      "player": "Mark Scheifele",
+      "team": "WPG",
+      "opponent": "DAL",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:46%"
+      ]
+    },
+    {
+      "player": "Mikko Rantanen",
+      "team": "DAL",
+      "opponent": "WPG",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:45%"
+      ]
+    },
+    {
+      "player": "Roope Hintz",
+      "team": "DAL",
+      "opponent": "WPG",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:46%"
+      ]
+    },
+    {
+      "player": "Josh Morrissey",
+      "team": "WPG",
+      "opponent": "DAL",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:55%"
+      ]
+    },
+    {
+      "player": "Miro Heiskanen",
+      "team": "DAL",
+      "opponent": "WPG",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7638503415305355,
+      "edge": 0.26385034153053555,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:55%"
+      ]
+    },
+    {
+      "player": "Nathan MacKinnon",
+      "team": "COL",
+      "opponent": "DET",
+      "stat": "SOG",
+      "line": 3.5,
+      "direction": "More",
+      "probability": 0.6665677850134024,
+      "edge": 0.16656778501340241,
+      "tier": "STRONG",
+      "risk_flags": []
+    },
+    {
+      "player": "Alex DeBrincat",
+      "team": "DET",
+      "opponent": "COL",
+      "stat": "SOG",
+      "line": 2.5,
+      "direction": "More",
+      "probability": 0.7112758329297219,
+      "edge": 0.21127583292972185,
+      "tier": "STRONG",
+      "risk_flags": []
+    },
+    {
+      "player": "Cale Makar",
+      "team": "COL",
+      "opponent": "DET",
+      "stat": "SOG",
+      "line": 2.5,
+      "direction": "More",
+      "probability": 0.779016108169979,
+      "edge": 0.279016108169979,
+      "tier": "STRONG",
+      "risk_flags": []
+    },
+    {
+      "player": "Brent Burns",
+      "team": "COL",
+      "opponent": "DET",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:57%"
+      ]
+    },
+    {
+      "player": "Ross Colton",
+      "team": "COL",
+      "opponent": "DET",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:50%"
+      ]
+    },
+    {
+      "player": "Artturi Lehkonen",
+      "team": "COL",
+      "opponent": "DET",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:50%"
+      ]
+    },
+    {
+      "player": "Valeri Nichushkin",
+      "team": "COL",
+      "opponent": "DET",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:50%"
+      ]
+    },
+    {
+      "player": "Patrick Kane",
+      "team": "DET",
+      "opponent": "COL",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:48%"
+      ]
+    },
+    {
+      "player": "Lucas Raymond",
+      "team": "DET",
+      "opponent": "COL",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:48%"
+      ]
+    },
+    {
+      "player": "Clayton Keller",
+      "team": "UTA",
+      "opponent": "VAN",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:46%"
+      ]
+    },
+    {
+      "player": "Nick Schmaltz",
+      "team": "UTA",
+      "opponent": "VAN",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:50%"
+      ]
+    },
+    {
+      "player": "Evander Kane",
+      "team": "VAN",
+      "opponent": "UTA",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:50%"
+      ]
+    },
+    {
+      "player": "Filip Chytil",
+      "team": "VAN",
+      "opponent": "UTA",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7638503415305355,
+      "edge": 0.26385034153053555,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:50%"
+      ]
+    },
+    {
+      "player": "JJ Peterka",
+      "team": "UTA",
+      "opponent": "VAN",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:50%"
+      ]
+    },
+    {
+      "player": "Barrett Hayton",
+      "team": "UTA",
+      "opponent": "VAN",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7638503415305355,
+      "edge": 0.26385034153053555,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:50%"
+      ]
+    },
+    {
+      "player": "Matt Coronato",
+      "team": "CGY",
+      "opponent": "TOR",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:46%"
+      ]
+    },
+    {
+      "player": "John Tavares",
+      "team": "TOR",
+      "opponent": "CGY",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:48%"
+      ]
+    },
+    {
+      "player": "Yegor Sharangovich",
+      "team": "CGY",
+      "opponent": "TOR",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:50%"
+      ]
+    },
+    {
+      "player": "Bobby McMann",
+      "team": "TOR",
+      "opponent": "CGY",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.7715736000000001,
+      "edge": 0.2715736000000001,
+      "tier": "STRONG",
+      "risk_flags": [
+        "HIGH_CV:50%"
+      ]
+    },
+    {
+      "player": "William Nylander",
+      "team": "TOR",
+      "opponent": "CGY",
+      "stat": "SOG",
+      "line": 1.5,
+      "direction": "More",
+      "probability": 0.85,
+      "edge": 0.35,
+      "tier": "STRONG",
+      "risk_flags": []
+    }
+  ]
+}

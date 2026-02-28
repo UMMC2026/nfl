@@ -1,0 +1,806 @@
+{
+  "timestamp": "20260216_151714",
+  "count": 100,
+  "props": [
+    {
+      "player": "Jayden Johnson",
+      "team": "SCST_vs_COPP",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Jayden Johnson",
+      "team": "COPP_vs_SCST",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Noah Treadwell",
+      "team": "SCST_vs_COPP",
+      "stat": "PTS",
+      "line": 8.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Florian Tenebay",
+      "team": "SCST_vs_COPP",
+      "stat": "PTS",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Florian Tenebay",
+      "team": "ODU_vs_ULL",
+      "stat": "PTS",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Jordan Battle",
+      "team": "ODU_vs_ULL",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Jaxon Olvera",
+      "team": "ULL_vs_ODU",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Jalen Cox",
+      "team": "COLG_vs_BU",
+      "stat": "PTS",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Andrew Alekseyenko",
+      "team": "COLG_vs_BU",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Sam Wright",
+      "team": "COLG_vs_BU",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Isaiah Evans",
+      "team": "DUKE_vs_SYR",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Nate Kingz",
+      "team": "SYR_vs_DUKE",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Patrick Ngongba",
+      "team": "DUKE_vs_SYR",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Emanuel Sharp",
+      "team": "HOU_vs_ISU",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Joshua Jefferson",
+      "team": "ISU_vs_HOU",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Milos Uzan",
+      "team": "HOU_vs_ISU",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Joseph Tugler",
+      "team": "HOU_vs_ISU",
+      "stat": "PTS",
+      "line": 6.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Fred Payne",
+      "team": "BC_vs_FSU",
+      "stat": "PTS",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Lajae Jones",
+      "team": "FSU_vs_BC",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Boden Kapke",
+      "team": "BC_vs_FSU",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Yaxel Lendeborg",
+      "team": "MICH_vs_PUR",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Trey Kaufman-Renn",
+      "team": "PUR_vs_MICH",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Aday Mara",
+      "team": "MICH_vs_PUR",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Aday Mara",
+      "team": "PUR_vs_MICH",
+      "stat": "PTS",
+      "line": 8.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Thomas Haugh",
+      "team": "FLA_vs_SCAR",
+      "stat": "PTS",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Alex Condon",
+      "team": "FLA_vs_SCAR",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Boogie Fland",
+      "team": "FLA_vs_SCAR",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Xaivian Lee",
+      "team": "FLA_vs_SCAR",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Mike Sharavjamts",
+      "team": "SCAR_vs_FLA",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "David Punch",
+      "team": "TCU_vs_UCF",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Themus Fulks",
+      "team": "UCF_vs_TCU",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Jordan Burks",
+      "team": "UCF_vs_TCU",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Micah Robinson",
+      "team": "TCU_vs_UCF",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "John Bol",
+      "team": "UCF_vs_TCU",
+      "stat": "PTS",
+      "line": 6.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Tyler Bilodeau",
+      "team": "UCLA_vs_MSU",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Coen Carr",
+      "team": "MSU_vs_UCLA",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Bruce Thornton",
+      "team": "OSU_vs_WIS",
+      "stat": "PTS",
+      "line": 22.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "John Blackwell",
+      "team": "WIS_vs_OSU",
+      "stat": "PTS",
+      "line": 18.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Nolan Winter",
+      "team": "WIS_vs_OSU",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Amare Bynum",
+      "team": "OSU_vs_WIS",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Tramon Mark",
+      "team": "TEX_vs_LSU",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Jordan Pope",
+      "team": "TEX_vs_LSU",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Jake Hall",
+      "team": "UNM_vs_AFA",
+      "stat": "PTS",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Deyton Albury",
+      "team": "UNM_vs_AFA",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Lucas Hobin",
+      "team": "AFA_vs_UNM",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Antonio Chol",
+      "team": "UNM_vs_AFA",
+      "stat": "PTS",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Antonio Chol",
+      "team": "TTU_vs_ASU",
+      "stat": "PTS",
+      "line": 24.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Massamba Diop",
+      "team": "ASU_vs_TTU",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Massamba Diop",
+      "team": "TTU_vs_ASU",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Massamba Diop",
+      "team": "ASU_vs_TTU",
+      "stat": "PTS",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Owen Bronston",
+      "team": "SCST_vs_COPP",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Hussain Williams",
+      "team": "COPP_vs_SCST",
+      "stat": "PTS",
+      "line": 8.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "James Morrow",
+      "team": "SCST_vs_COPP",
+      "stat": "PTS",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Hassan Perkins",
+      "team": "COPP_vs_SCST",
+      "stat": "PTS",
+      "line": 6.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Hassan Perkins",
+      "team": "ULL_vs_ODU",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Hassan Perkins",
+      "team": "ODU_vs_ULL",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Michael McNair",
+      "team": "BU_vs_COLG",
+      "stat": "PTS",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Ben Defty",
+      "team": "BU_vs_COLG",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Chance Gladden",
+      "team": "BU_vs_COLG",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Cameron Boozer",
+      "team": "DUKE_vs_SYR",
+      "stat": "PTS",
+      "line": 22.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Donnie Freeman",
+      "team": "SYR_vs_DUKE",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Donnie Freeman",
+      "team": "SYR_vs_DUKE",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Milan Momcilovic",
+      "team": "ISU_vs_HOU",
+      "stat": "PTS",
+      "line": 16.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Kingston Flemings",
+      "team": "HOU_vs_ISU",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Tamin Lipsey",
+      "team": "ISU_vs_HOU",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Chris Cenac",
+      "team": "HOU_vs_ISU",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Killyan Toure",
+      "team": "ISU_vs_HOU",
+      "stat": "PTS",
+      "line": 6.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Robert McCray",
+      "team": "FSU_vs_BC",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Chauncey Wiggins",
+      "team": "FSU_vs_BC",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Braden Smith",
+      "team": "PUR_vs_MICH",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Fletcher Loyer",
+      "team": "PUR_vs_MICH",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Morez Johnson",
+      "team": "MICH_vs_PUR",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Elliot Cadeau",
+      "team": "MICH_vs_PUR",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Oscar Cluff",
+      "team": "PUR_vs_MICH",
+      "stat": "PTS",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Meechie Johnson",
+      "team": "SCAR_vs_FLA",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Rueben Chinyelu",
+      "team": "FLA_vs_SCAR",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Kobe Knox",
+      "team": "SCAR_vs_FLA",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Urban Klavzar",
+      "team": "FLA_vs_SCAR",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Eli Ellis",
+      "team": "SCAR_vs_FLA",
+      "stat": "PTS",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Xavier Edmonds",
+      "team": "TCU_vs_UCF",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Riley Kugel",
+      "team": "UCF_vs_TCU",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Jayden Pierre",
+      "team": "TCU_vs_UCF",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Brock Harding",
+      "team": "TCU_vs_UCF",
+      "stat": "PTS",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Brock Harding",
+      "team": "MSU_vs_UCLA",
+      "stat": "PTS",
+      "line": 17.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Donovan Dent",
+      "team": "UCLA_vs_MSU",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Jaxon Kohler",
+      "team": "MSU_vs_UCLA",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Nick Boyd",
+      "team": "WIS_vs_OSU",
+      "stat": "PTS",
+      "line": 21.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Devin Royal",
+      "team": "OSU_vs_WIS",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Christoph Tilly",
+      "team": "OSU_vs_WIS",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Dailyn Swain",
+      "team": "TEX_vs_LSU",
+      "stat": "PTS",
+      "line": 19.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Matas Vokietaitis",
+      "team": "TEX_vs_LSU",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Camden Heide",
+      "team": "TEX_vs_LSU",
+      "stat": "PTS",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Camden Heide",
+      "team": "UNM_vs_AFA",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Kam Sanders",
+      "team": "AFA_vs_UNM",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Luke Haupt",
+      "team": "UNM_vs_AFA",
+      "stat": "PTS",
+      "line": 8.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Ethan Greenberg",
+      "team": "AFA_vs_UNM",
+      "stat": "PTS",
+      "line": 6.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Moe Odum",
+      "team": "ASU_vs_TTU",
+      "stat": "PTS",
+      "line": 15.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Donovan Atwell",
+      "team": "TTU_vs_ASU",
+      "stat": "PTS",
+      "line": 12.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Jaylen Petty",
+      "team": "TTU_vs_ASU",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "higher",
+      "source": "Underdog"
+    },
+    {
+      "player": "Santiago Trouet",
+      "team": "ASU_vs_TTU",
+      "stat": "PTS",
+      "line": 7.5,
+      "direction": "higher",
+      "source": "Underdog"
+    }
+  ]
+}

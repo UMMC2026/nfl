@@ -1,0 +1,2307 @@
+{
+  "results": [
+    {
+      "player": "Iga Swiatek",
+      "stat": "total_games",
+      "line": 18.5,
+      "direction": "higher",
+      "probability": 0.801,
+      "confidence": 63.699999999999996,
+      "tier": "STRONG",
+      "simulation": {
+        "mean": 24.0685,
+        "std": 5.709913248434894,
+        "n": 2000
+      },
+      "physics_mode": true,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 10,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "match_context": {
+        "player": {
+          "name": "Iga Swiatek",
+          "ranking": null,
+          "elo_overall": null,
+          "elo_surface": null,
+          "win_rate": 0.9,
+          "surface_win_rate": 0.5,
+          "serve_hold_rate": 0.7300000000000001,
+          "bp_save_rate": 0.685,
+          "avg_aces": 3.4080000000000004,
+          "avg_double_faults": 2.5,
+          "avg_games_won": 12.0,
+          "n_matches": 10,
+          "player_style": "all_court",
+          "surface_specialist": null,
+          "recent_form_l10": 0.9,
+          "ace_pct_l10": 0.0568,
+          "hold_pct_l10": null
+        },
+        "opponent": {
+          "name": "Maria Sakkari",
+          "ranking": null,
+          "elo_overall": null,
+          "elo_surface": null,
+          "win_rate": 0.3333333333333333,
+          "surface_win_rate": 0.3333333333333333,
+          "serve_hold_rate": 0.6956521739130435,
+          "bp_save_rate": 0.65,
+          "avg_aces": 1.6666666666666667,
+          "avg_double_faults": 2.0,
+          "avg_games_won": 7.333333333333333,
+          "n_matches": 3,
+          "player_style": "all_court",
+          "surface_specialist": null,
+          "recent_form_l10": 0.4,
+          "ace_pct_l10": 0.0572,
+          "hold_pct_l10": null
+        },
+        "head_to_head": {
+          "player1": "Iga Swiatek",
+          "player2": "Maria Sakkari",
+          "total_matches": 5,
+          "p1_wins": 3,
+          "p2_wins": 2,
+          "last_match_date": 20240306,
+          "last_match_surface": "Hard",
+          "last_match_score": "6-4 6-0",
+          "history": [
+            {
+              "date": 20240306,
+              "tournament": "Indian Wells",
+              "surface": "Hard",
+              "score": "6-4 6-0"
+            },
+            {
+              "date": 20220307,
+              "tournament": "Indian Wells",
+              "surface": "Hard",
+              "score": "6-4 6-1"
+            },
+            {
+              "date": 20220221,
+              "tournament": "Doha",
+              "surface": "Hard",
+              "score": "6-4 6-3"
+            },
+            {
+              "date": 20211110,
+              "tournament": "Guadalajara Finals",
+              "surface": "Hard",
+              "score": "6-2 6-4"
+            },
+            {
+              "date": 20210531,
+              "tournament": "Roland Garros",
+              "surface": "Clay",
+              "score": "6-4 6-4"
+            }
+          ]
+        },
+        "surface": "Hard",
+        "tournament": null,
+        "tournament_tier": null,
+        "round_name": null,
+        "commence_time": null,
+        "matchup_edge": "Iga Swiatek serve edge; Iga Swiatek clutch edge",
+        "narrative_seed": "H2H: 3-2; last met 20240306; Iga Swiatek hot (L10: 90%)"
+      },
+      "correlation_group": "match_duration",
+      "narrative": "Data suggests a strong probability the match exceeds 18.5 games, with a model projecting a significantly higher total of 24.1."
+    },
+    {
+      "player": "Victoria Mboko",
+      "stat": "game_spread",
+      "line": 4.5,
+      "direction": "higher",
+      "probability": 0.9695,
+      "confidence": 63.699999999999996,
+      "tier": "SLAM",
+      "simulation": {
+        "mean": 9.989215528850968,
+        "std": 2.9795818866848136,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 10,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "match_context": {
+        "player": {
+          "name": "Victoria Mboko",
+          "ranking": null,
+          "elo_overall": null,
+          "elo_surface": null,
+          "win_rate": 0.5,
+          "surface_win_rate": 0.5,
+          "serve_hold_rate": 0.65,
+          "bp_save_rate": 0.625,
+          "avg_aces": 1.68,
+          "avg_double_faults": 2.5,
+          "avg_games_won": 9.0,
+          "n_matches": 10,
+          "player_style": "all_court",
+          "surface_specialist": null,
+          "recent_form_l10": 0.5,
+          "ace_pct_l10": null,
+          "hold_pct_l10": null
+        },
+        "opponent": {
+          "name": "Elena Rybakina",
+          "ranking": 6,
+          "elo_overall": {
+            "HARD": 1900,
+            "CLAY": 1820,
+            "GRASS": 1950
+          },
+          "elo_surface": {
+            "HARD": 1900,
+            "CLAY": 1820,
+            "GRASS": 1950
+          },
+          "win_rate": 0.6666666666666666,
+          "surface_win_rate": 0.6666666666666666,
+          "serve_hold_rate": 0.8108108108108109,
+          "bp_save_rate": 0.4166666666666667,
+          "avg_aces": 8.666666666666666,
+          "avg_double_faults": 3.3333333333333335,
+          "avg_games_won": 14.0,
+          "n_matches": 3,
+          "player_style": "aggressive_returner",
+          "surface_specialist": null,
+          "recent_form_l10": 0.6,
+          "ace_pct_l10": 0.1106,
+          "hold_pct_l10": null
+        },
+        "head_to_head": {
+          "player1": "Victoria Mboko",
+          "player2": "Elena Rybakina",
+          "total_matches": 0,
+          "p1_wins": 0,
+          "p2_wins": 0,
+          "last_match_date": null,
+          "last_match_surface": null,
+          "last_match_score": null,
+          "history": []
+        },
+        "surface": "Hard",
+        "tournament": null,
+        "tournament_tier": null,
+        "round_name": null,
+        "commence_time": null,
+        "matchup_edge": "Elena Rybakina serve edge; Victoria Mboko clutch edge",
+        "narrative_seed": "all_court vs aggressive_returner"
+      },
+      "correlation_group": null,
+      "narrative": "Data suggests Mboko's projected spread of 10.0 offers significant value against the line, despite Rybakina's clear serve advantage."
+    },
+    {
+      "player": "Anna Kalinskaya",
+      "stat": "game_spread",
+      "line": 3.5,
+      "direction": "higher",
+      "probability": 0.9865,
+      "confidence": 62.86,
+      "tier": "SLAM",
+      "simulation": {
+        "mean": 10.087950778564887,
+        "std": 3.070935536404114,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 8,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "match_context": {
+        "player": {
+          "name": "Anna Kalinskaya",
+          "ranking": null,
+          "elo_overall": null,
+          "elo_surface": null,
+          "win_rate": 0.75,
+          "surface_win_rate": 0.75,
+          "serve_hold_rate": 0.7906976744186046,
+          "bp_save_rate": 0.6470588235294118,
+          "avg_aces": 1.875,
+          "avg_double_faults": 2.625,
+          "avg_games_won": 12.125,
+          "n_matches": 8,
+          "player_style": "all_court",
+          "surface_specialist": null,
+          "recent_form_l10": 0.7,
+          "ace_pct_l10": 0.0293,
+          "hold_pct_l10": null
+        },
+        "opponent": {
+          "name": "Karolina Muchova",
+          "ranking": null,
+          "elo_overall": null,
+          "elo_surface": null,
+          "win_rate": 0.8333333333333334,
+          "surface_win_rate": 0.8333333333333334,
+          "serve_hold_rate": 0.819672131147541,
+          "bp_save_rate": 0.6333333333333333,
+          "avg_aces": 4.666666666666667,
+          "avg_double_faults": 1.6666666666666667,
+          "avg_games_won": 12.333333333333334,
+          "n_matches": 6,
+          "player_style": "all_court",
+          "surface_specialist": null,
+          "recent_form_l10": 0.9,
+          "ace_pct_l10": 0.0623,
+          "hold_pct_l10": null
+        },
+        "head_to_head": {
+          "player1": "Anna Kalinskaya",
+          "player2": "Karolina Muchova",
+          "total_matches": 2,
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "last_match_date": 20241014,
+          "last_match_surface": "Hard",
+          "last_match_score": "2-6 6-2 6-3",
+          "history": [
+            {
+              "date": 20241014,
+              "tournament": "Ningbo",
+              "surface": "Hard",
+              "score": "2-6 6-2 6-3"
+            },
+            {
+              "date": 20200831,
+              "tournament": "Us Open",
+              "surface": "Hard",
+              "score": "6-3 7-6(4)"
+            }
+          ]
+        },
+        "surface": "Hard",
+        "tournament": null,
+        "tournament_tier": null,
+        "round_name": null,
+        "commence_time": null,
+        "matchup_edge": "Karolina Muchova serve edge; Anna Kalinskaya clutch edge",
+        "narrative_seed": "H2H: 0-2; last met 20241014; Anna Kalinskaya hot (L10: 70%)"
+      },
+      "correlation_group": null,
+      "narrative": "Data suggests Kalinskaya's current form and projected spread of 10.1 games provide a significant edge over the +3.5 line."
+    },
+    {
+      "player": "Elisabetta Cocciaretto",
+      "stat": "game_spread",
+      "line": 3.0,
+      "direction": "higher",
+      "probability": 0.9925,
+      "confidence": 61.18,
+      "tier": "SLAM",
+      "simulation": {
+        "mean": 9.896398053949797,
+        "std": 2.98813385936736,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 4,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "match_context": {
+        "player": {
+          "name": "Elisabetta Cocciaretto",
+          "ranking": null,
+          "elo_overall": null,
+          "elo_surface": null,
+          "win_rate": 0.5,
+          "surface_win_rate": 0.5,
+          "serve_hold_rate": 0.7111111111111111,
+          "bp_save_rate": 0.6388888888888888,
+          "avg_aces": 2.0,
+          "avg_double_faults": 2.5,
+          "avg_games_won": 11.75,
+          "n_matches": 4,
+          "player_style": "all_court",
+          "surface_specialist": null,
+          "recent_form_l10": 0.3,
+          "ace_pct_l10": 0.0136,
+          "hold_pct_l10": null
+        },
+        "opponent": {
+          "name": "Jelena Ostapenko",
+          "ranking": null,
+          "elo_overall": null,
+          "elo_surface": null,
+          "win_rate": 0.5,
+          "surface_win_rate": 0.5,
+          "serve_hold_rate": 0.725,
+          "bp_save_rate": 0.5769230769230769,
+          "avg_aces": 4.0,
+          "avg_double_faults": 4.25,
+          "avg_games_won": 9.75,
+          "n_matches": 4,
+          "player_style": "all_court",
+          "surface_specialist": null,
+          "recent_form_l10": 0.5,
+          "ace_pct_l10": 0.0693,
+          "hold_pct_l10": null
+        },
+        "head_to_head": {
+          "player1": "Elisabetta Cocciaretto",
+          "player2": "Jelena Ostapenko",
+          "total_matches": 1,
+          "p1_wins": 1,
+          "p2_wins": 0,
+          "last_match_date": 20240617,
+          "last_match_surface": "Grass",
+          "last_match_score": "6-3 6-3",
+          "history": [
+            {
+              "date": 20240617,
+              "tournament": "Birmingham",
+              "surface": "Grass",
+              "score": "6-3 6-3"
+            }
+          ]
+        },
+        "surface": "Hard",
+        "tournament": null,
+        "tournament_tier": null,
+        "round_name": null,
+        "commence_time": null,
+        "matchup_edge": "Jelena Ostapenko serve edge; Elisabetta Cocciaretto clutch edge",
+        "narrative_seed": "H2H: 1-0; last met 20240617; Elisabetta Cocciaretto cold (L10: 30%)"
+      },
+      "correlation_group": null,
+      "narrative": "Data suggests Cocciaretto's projected spread of 9.9 offers significant value against the current line."
+    },
+    {
+      "player": "Maria Sakkari",
+      "stat": "game_spread",
+      "line": 6.5,
+      "direction": "higher",
+      "probability": 0.868,
+      "confidence": 60.76,
+      "tier": "SLAM",
+      "simulation": {
+        "mean": 9.960345153265193,
+        "std": 3.091438141710411,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 3,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "match_context": {
+        "player": {
+          "name": "Maria Sakkari",
+          "ranking": null,
+          "elo_overall": null,
+          "elo_surface": null,
+          "win_rate": 0.3333333333333333,
+          "surface_win_rate": 0.3333333333333333,
+          "serve_hold_rate": 0.6956521739130435,
+          "bp_save_rate": 0.65,
+          "avg_aces": 1.6666666666666667,
+          "avg_double_faults": 2.0,
+          "avg_games_won": 7.333333333333333,
+          "n_matches": 3,
+          "player_style": "all_court",
+          "surface_specialist": null,
+          "recent_form_l10": 0.4,
+          "ace_pct_l10": 0.0572,
+          "hold_pct_l10": null
+        },
+        "opponent": {
+          "name": "Iga Swiatek",
+          "ranking": null,
+          "elo_overall": null,
+          "elo_surface": null,
+          "win_rate": 0.75,
+          "surface_win_rate": 0.75,
+          "serve_hold_rate": 0.7976190476190477,
+          "bp_save_rate": 0.5641025641025641,
+          "avg_aces": 2.75,
+          "avg_double_faults": 1.375,
+          "avg_games_won": 12.0,
+          "n_matches": 8,
+          "player_style": "all_court",
+          "surface_specialist": null,
+          "recent_form_l10": 0.9,
+          "ace_pct_l10": 0.0568,
+          "hold_pct_l10": null
+        },
+        "head_to_head": {
+          "player1": "Maria Sakkari",
+          "player2": "Iga Swiatek",
+          "total_matches": 5,
+          "p1_wins": 2,
+          "p2_wins": 3,
+          "last_match_date": 20240306,
+          "last_match_surface": "Hard",
+          "last_match_score": "6-4 6-0",
+          "history": [
+            {
+              "date": 20240306,
+              "tournament": "Indian Wells",
+              "surface": "Hard",
+              "score": "6-4 6-0"
+            },
+            {
+              "date": 20220307,
+              "tournament": "Indian Wells",
+              "surface": "Hard",
+              "score": "6-4 6-1"
+            },
+            {
+              "date": 20220221,
+              "tournament": "Doha",
+              "surface": "Hard",
+              "score": "6-4 6-3"
+            },
+            {
+              "date": 20211110,
+              "tournament": "Guadalajara Finals",
+              "surface": "Hard",
+              "score": "6-2 6-4"
+            },
+            {
+              "date": 20210531,
+              "tournament": "Roland Garros",
+              "surface": "Clay",
+              "score": "6-4 6-4"
+            }
+          ]
+        },
+        "surface": "Hard",
+        "tournament": null,
+        "tournament_tier": null,
+        "round_name": null,
+        "commence_time": null,
+        "matchup_edge": "Iga Swiatek serve edge; Maria Sakkari clutch edge",
+        "narrative_seed": "H2H: 2-3; last met 20240306"
+      },
+      "correlation_group": null,
+      "narrative": "Data suggests Sakkari's projected spread of 10.0 games provides a significant edge over the current +6.5 line."
+    },
+    {
+      "player": "Elena Rybakina",
+      "stat": "total_games",
+      "line": 21.5,
+      "direction": "lower",
+      "probability": 0.5905,
+      "confidence": 53.7355,
+      "tier": "LEAN",
+      "simulation": {
+        "mean": 21.7195,
+        "std": 5.607097245434565,
+        "n": 2000
+      },
+      "physics_mode": true,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 10,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "match_context": null,
+      "correlation_group": "match_duration",
+      "narrative": "Data suggests Rybakina's projected total of 21.7 games indicates a slight statistical edge for the under 21.5."
+    },
+    {
+      "player": "Anna Kalinskaya",
+      "stat": "total_games",
+      "line": 21.5,
+      "direction": "higher",
+      "probability": 0.573,
+      "confidence": 52.142999999999994,
+      "tier": "NO_PLAY",
+      "simulation": {
+        "mean": 23.846,
+        "std": 5.749157364797262,
+        "n": 2000
+      },
+      "physics_mode": true,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 10,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "match_context": {
+        "player": {
+          "name": "Anna Kalinskaya",
+          "ranking": null,
+          "elo_overall": null,
+          "elo_surface": null,
+          "win_rate": 0.7,
+          "surface_win_rate": 0.5,
+          "serve_hold_rate": 0.6900000000000001,
+          "bp_save_rate": 0.655,
+          "avg_aces": 1.758,
+          "avg_double_faults": 2.5,
+          "avg_games_won": 12.0,
+          "n_matches": 10,
+          "player_style": "all_court",
+          "surface_specialist": null,
+          "recent_form_l10": 0.7,
+          "ace_pct_l10": 0.0293,
+          "hold_pct_l10": null
+        },
+        "opponent": {
+          "name": "Anna Kalinskaya",
+          "ranking": null,
+          "elo_overall": null,
+          "elo_surface": null,
+          "win_rate": 0.75,
+          "surface_win_rate": 0.75,
+          "serve_hold_rate": 0.7906976744186046,
+          "bp_save_rate": 0.6470588235294118,
+          "avg_aces": 1.875,
+          "avg_double_faults": 2.625,
+          "avg_games_won": 12.125,
+          "n_matches": 8,
+          "player_style": "all_court",
+          "surface_specialist": null,
+          "recent_form_l10": 0.7,
+          "ace_pct_l10": 0.0293,
+          "hold_pct_l10": null
+        },
+        "head_to_head": {
+          "player1": "Anna Kalinskaya",
+          "player2": "Anna Kalinskaya",
+          "total_matches": 0,
+          "p1_wins": 0,
+          "p2_wins": 0,
+          "last_match_date": null,
+          "last_match_surface": null,
+          "last_match_score": null,
+          "history": []
+        },
+        "surface": "Hard",
+        "tournament": null,
+        "tournament_tier": null,
+        "round_name": null,
+        "commence_time": null,
+        "matchup_edge": "Anna Kalinskaya serve edge; Anna Kalinskaya clutch edge",
+        "narrative_seed": "Anna Kalinskaya hot (L10: 70%)"
+      },
+      "correlation_group": "match_duration",
+      "narrative": "Data suggests Kalinskaya's strong serve and form project a match total exceeding the line by over two games."
+    },
+    {
+      "player": "Elisabetta Cocciaretto",
+      "stat": "total_games",
+      "line": 21.5,
+      "direction": "higher",
+      "probability": 0.558,
+      "confidence": 50.778,
+      "tier": "NO_PLAY",
+      "simulation": {
+        "mean": 23.619,
+        "std": 5.860461714383336,
+        "n": 2000
+      },
+      "physics_mode": true,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 10,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "match_context": {
+        "player": {
+          "name": "Elisabetta Cocciaretto",
+          "ranking": null,
+          "elo_overall": null,
+          "elo_surface": null,
+          "win_rate": 0.3,
+          "surface_win_rate": 0.5,
+          "serve_hold_rate": 0.6100000000000001,
+          "bp_save_rate": 0.5950000000000001,
+          "avg_aces": 0.816,
+          "avg_double_faults": 2.5,
+          "avg_games_won": 9.0,
+          "n_matches": 10,
+          "player_style": "all_court",
+          "surface_specialist": null,
+          "recent_form_l10": 0.3,
+          "ace_pct_l10": 0.0136,
+          "hold_pct_l10": null
+        },
+        "opponent": {
+          "name": "Elisabetta Cocciaretto",
+          "ranking": null,
+          "elo_overall": null,
+          "elo_surface": null,
+          "win_rate": 0.5,
+          "surface_win_rate": 0.5,
+          "serve_hold_rate": 0.7111111111111111,
+          "bp_save_rate": 0.6388888888888888,
+          "avg_aces": 2.0,
+          "avg_double_faults": 2.5,
+          "avg_games_won": 11.75,
+          "n_matches": 4,
+          "player_style": "all_court",
+          "surface_specialist": null,
+          "recent_form_l10": 0.3,
+          "ace_pct_l10": 0.0136,
+          "hold_pct_l10": null
+        },
+        "head_to_head": {
+          "player1": "Elisabetta Cocciaretto",
+          "player2": "Elisabetta Cocciaretto",
+          "total_matches": 0,
+          "p1_wins": 0,
+          "p2_wins": 0,
+          "last_match_date": null,
+          "last_match_surface": null,
+          "last_match_score": null,
+          "history": []
+        },
+        "surface": "Hard",
+        "tournament": null,
+        "tournament_tier": null,
+        "round_name": null,
+        "commence_time": null,
+        "matchup_edge": "Elisabetta Cocciaretto serve edge",
+        "narrative_seed": "Elisabetta Cocciaretto cold (L10: 30%)"
+      },
+      "correlation_group": "match_duration",
+      "narrative": "Data suggests Cocciaretto's strong serve and projected total of 23.6 games indicate a high-probability match for exceeding the 21.5 line."
+    },
+    {
+      "player": "Jelena Ostapenko",
+      "stat": "game_spread",
+      "line": -3.0,
+      "direction": "lower",
+      "probability": 0.0,
+      "confidence": 0.0,
+      "tier": "NO_PLAY",
+      "simulation": {
+        "mean": 9.964818796073063,
+        "std": 2.998447397952725,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 4,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "match_context": {
+        "player": {
+          "name": "Jelena Ostapenko",
+          "ranking": null,
+          "elo_overall": null,
+          "elo_surface": null,
+          "win_rate": 0.5,
+          "surface_win_rate": 0.5,
+          "serve_hold_rate": 0.725,
+          "bp_save_rate": 0.5769230769230769,
+          "avg_aces": 4.0,
+          "avg_double_faults": 4.25,
+          "avg_games_won": 9.75,
+          "n_matches": 4,
+          "player_style": "all_court",
+          "surface_specialist": null,
+          "recent_form_l10": 0.5,
+          "ace_pct_l10": 0.0693,
+          "hold_pct_l10": null
+        },
+        "opponent": {
+          "name": "Elisabetta Cocciaretto",
+          "ranking": null,
+          "elo_overall": null,
+          "elo_surface": null,
+          "win_rate": 0.5,
+          "surface_win_rate": 0.5,
+          "serve_hold_rate": 0.7111111111111111,
+          "bp_save_rate": 0.6388888888888888,
+          "avg_aces": 2.0,
+          "avg_double_faults": 2.5,
+          "avg_games_won": 11.75,
+          "n_matches": 4,
+          "player_style": "all_court",
+          "surface_specialist": null,
+          "recent_form_l10": 0.3,
+          "ace_pct_l10": 0.0136,
+          "hold_pct_l10": null
+        },
+        "head_to_head": {
+          "player1": "Jelena Ostapenko",
+          "player2": "Elisabetta Cocciaretto",
+          "total_matches": 1,
+          "p1_wins": 0,
+          "p2_wins": 1,
+          "last_match_date": 20240617,
+          "last_match_surface": "Grass",
+          "last_match_score": "6-3 6-3",
+          "history": [
+            {
+              "date": 20240617,
+              "tournament": "Birmingham",
+              "surface": "Grass",
+              "score": "6-3 6-3"
+            }
+          ]
+        },
+        "surface": "Hard",
+        "tournament": null,
+        "tournament_tier": null,
+        "round_name": null,
+        "commence_time": null,
+        "matchup_edge": "Jelena Ostapenko serve edge",
+        "narrative_seed": "H2H: 0-1; last met 20240617"
+      },
+      "correlation_group": null,
+      "narrative": "Data suggests the projected spread of 10.0 significantly outpaces the line, making the -3.0 handicap an improbable outcome based on their head-to-head history."
+    },
+    {
+      "player": "Iga Swiatek",
+      "stat": "game_spread",
+      "line": -6.5,
+      "direction": "lower",
+      "probability": 0.0,
+      "confidence": 0.0,
+      "tier": "NO_PLAY",
+      "simulation": {
+        "mean": 9.846273916545059,
+        "std": 2.9927906812363223,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 8,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "match_context": {
+        "player": {
+          "name": "Iga Swiatek",
+          "ranking": null,
+          "elo_overall": null,
+          "elo_surface": null,
+          "win_rate": 0.75,
+          "surface_win_rate": 0.75,
+          "serve_hold_rate": 0.7976190476190477,
+          "bp_save_rate": 0.5641025641025641,
+          "avg_aces": 2.75,
+          "avg_double_faults": 1.375,
+          "avg_games_won": 12.0,
+          "n_matches": 8,
+          "player_style": "all_court",
+          "surface_specialist": null,
+          "recent_form_l10": 0.9,
+          "ace_pct_l10": 0.0568,
+          "hold_pct_l10": null
+        },
+        "opponent": {
+          "name": "Maria Sakkari",
+          "ranking": null,
+          "elo_overall": null,
+          "elo_surface": null,
+          "win_rate": 0.3333333333333333,
+          "surface_win_rate": 0.3333333333333333,
+          "serve_hold_rate": 0.6956521739130435,
+          "bp_save_rate": 0.65,
+          "avg_aces": 1.6666666666666667,
+          "avg_double_faults": 2.0,
+          "avg_games_won": 7.333333333333333,
+          "n_matches": 3,
+          "player_style": "all_court",
+          "surface_specialist": null,
+          "recent_form_l10": 0.4,
+          "ace_pct_l10": 0.0572,
+          "hold_pct_l10": null
+        },
+        "head_to_head": {
+          "player1": "Iga Swiatek",
+          "player2": "Maria Sakkari",
+          "total_matches": 5,
+          "p1_wins": 3,
+          "p2_wins": 2,
+          "last_match_date": 20240306,
+          "last_match_surface": "Hard",
+          "last_match_score": "6-4 6-0",
+          "history": [
+            {
+              "date": 20240306,
+              "tournament": "Indian Wells",
+              "surface": "Hard",
+              "score": "6-4 6-0"
+            },
+            {
+              "date": 20220307,
+              "tournament": "Indian Wells",
+              "surface": "Hard",
+              "score": "6-4 6-1"
+            },
+            {
+              "date": 20220221,
+              "tournament": "Doha",
+              "surface": "Hard",
+              "score": "6-4 6-3"
+            },
+            {
+              "date": 20211110,
+              "tournament": "Guadalajara Finals",
+              "surface": "Hard",
+              "score": "6-2 6-4"
+            },
+            {
+              "date": 20210531,
+              "tournament": "Roland Garros",
+              "surface": "Clay",
+              "score": "6-4 6-4"
+            }
+          ]
+        },
+        "surface": "Hard",
+        "tournament": null,
+        "tournament_tier": null,
+        "round_name": null,
+        "commence_time": null,
+        "matchup_edge": "Iga Swiatek serve edge",
+        "narrative_seed": "H2H: 3-2; last met 20240306; Iga Swiatek hot (L10: 90%)"
+      },
+      "correlation_group": null,
+      "narrative": "Data suggests Swiatek's projected spread of 9.8 significantly outperforms the -6.5 line, supported by her dominant serve and recent form."
+    },
+    {
+      "player": "Elena Rybakina",
+      "stat": "game_spread",
+      "line": -4.5,
+      "direction": "lower",
+      "probability": 0.0,
+      "confidence": 0.0,
+      "tier": "NO_PLAY",
+      "simulation": {
+        "mean": 10.10776732928571,
+        "std": 2.91503885980816,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 3,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "match_context": {
+        "player": {
+          "name": "Elena Rybakina",
+          "ranking": 6,
+          "elo_overall": {
+            "HARD": 1900,
+            "CLAY": 1820,
+            "GRASS": 1950
+          },
+          "elo_surface": {
+            "HARD": 1900,
+            "CLAY": 1820,
+            "GRASS": 1950
+          },
+          "win_rate": 0.6666666666666666,
+          "surface_win_rate": 0.6666666666666666,
+          "serve_hold_rate": 0.8108108108108109,
+          "bp_save_rate": 0.4166666666666667,
+          "avg_aces": 8.666666666666666,
+          "avg_double_faults": 3.3333333333333335,
+          "avg_games_won": 14.0,
+          "n_matches": 3,
+          "player_style": "aggressive_returner",
+          "surface_specialist": null,
+          "recent_form_l10": 0.6,
+          "ace_pct_l10": 0.1106,
+          "hold_pct_l10": null
+        },
+        "opponent": {
+          "name": "Victoria Mboko",
+          "ranking": null,
+          "elo_overall": null,
+          "elo_surface": null,
+          "win_rate": 0.5,
+          "surface_win_rate": 0.5,
+          "serve_hold_rate": 0.65,
+          "bp_save_rate": 0.625,
+          "avg_aces": 1.68,
+          "avg_double_faults": 2.5,
+          "avg_games_won": 9.0,
+          "n_matches": 10,
+          "player_style": "all_court",
+          "surface_specialist": null,
+          "recent_form_l10": 0.5,
+          "ace_pct_l10": null,
+          "hold_pct_l10": null
+        },
+        "head_to_head": {
+          "player1": "Elena Rybakina",
+          "player2": "Victoria Mboko",
+          "total_matches": 0,
+          "p1_wins": 0,
+          "p2_wins": 0,
+          "last_match_date": null,
+          "last_match_surface": null,
+          "last_match_score": null,
+          "history": []
+        },
+        "surface": "Hard",
+        "tournament": null,
+        "tournament_tier": null,
+        "round_name": null,
+        "commence_time": null,
+        "matchup_edge": "Elena Rybakina serve edge",
+        "narrative_seed": "aggressive_returner vs all_court"
+      },
+      "correlation_group": null,
+      "narrative": "Data suggests Rybakina's projected spread of 10.1 games significantly outperforms the line, leveraging her dominant serve against a less specialized opponent."
+    },
+    {
+      "player": "Karolina Muchova",
+      "stat": "game_spread",
+      "line": -3.5,
+      "direction": "lower",
+      "probability": 0.0,
+      "confidence": 0.0,
+      "tier": "NO_PLAY",
+      "simulation": {
+        "mean": 9.96900924315972,
+        "std": 3.0173643927131395,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 6,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "match_context": {
+        "player": {
+          "name": "Karolina Muchova",
+          "ranking": null,
+          "elo_overall": null,
+          "elo_surface": null,
+          "win_rate": 0.8333333333333334,
+          "surface_win_rate": 0.8333333333333334,
+          "serve_hold_rate": 0.819672131147541,
+          "bp_save_rate": 0.6333333333333333,
+          "avg_aces": 4.666666666666667,
+          "avg_double_faults": 1.6666666666666667,
+          "avg_games_won": 12.333333333333334,
+          "n_matches": 6,
+          "player_style": "all_court",
+          "surface_specialist": null,
+          "recent_form_l10": 0.9,
+          "ace_pct_l10": 0.0623,
+          "hold_pct_l10": null
+        },
+        "opponent": {
+          "name": "Anna Kalinskaya",
+          "ranking": null,
+          "elo_overall": null,
+          "elo_surface": null,
+          "win_rate": 0.75,
+          "surface_win_rate": 0.75,
+          "serve_hold_rate": 0.7906976744186046,
+          "bp_save_rate": 0.6470588235294118,
+          "avg_aces": 1.875,
+          "avg_double_faults": 2.625,
+          "avg_games_won": 12.125,
+          "n_matches": 8,
+          "player_style": "all_court",
+          "surface_specialist": null,
+          "recent_form_l10": 0.7,
+          "ace_pct_l10": 0.0293,
+          "hold_pct_l10": null
+        },
+        "head_to_head": {
+          "player1": "Karolina Muchova",
+          "player2": "Anna Kalinskaya",
+          "total_matches": 2,
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "last_match_date": 20241014,
+          "last_match_surface": "Hard",
+          "last_match_score": "2-6 6-2 6-3",
+          "history": [
+            {
+              "date": 20241014,
+              "tournament": "Ningbo",
+              "surface": "Hard",
+              "score": "2-6 6-2 6-3"
+            },
+            {
+              "date": 20200831,
+              "tournament": "Us Open",
+              "surface": "Hard",
+              "score": "6-3 7-6(4)"
+            }
+          ]
+        },
+        "surface": "Hard",
+        "tournament": null,
+        "tournament_tier": null,
+        "round_name": null,
+        "commence_time": null,
+        "matchup_edge": "Karolina Muchova serve edge",
+        "narrative_seed": "H2H: 2-0; last met 20241014; Karolina Muchova hot (L10: 90%)"
+      },
+      "correlation_group": null,
+      "narrative": "Data suggests Muchova's dominant H2H record and current form project a spread well beyond the offered line."
+    }
+  ],
+  "tiers": {
+    "SLAM": [
+      {
+        "player": "Victoria Mboko",
+        "stat": "game_spread",
+        "line": 4.5,
+        "direction": "higher",
+        "probability": 0.9695,
+        "confidence": 63.699999999999996,
+        "tier": "SLAM",
+        "simulation": {
+          "mean": 9.989215528850968,
+          "std": 2.9795818866848136,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 10,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "match_context": {
+          "player": {
+            "name": "Victoria Mboko",
+            "ranking": null,
+            "elo_overall": null,
+            "elo_surface": null,
+            "win_rate": 0.5,
+            "surface_win_rate": 0.5,
+            "serve_hold_rate": 0.65,
+            "bp_save_rate": 0.625,
+            "avg_aces": 1.68,
+            "avg_double_faults": 2.5,
+            "avg_games_won": 9.0,
+            "n_matches": 10,
+            "player_style": "all_court",
+            "surface_specialist": null,
+            "recent_form_l10": 0.5,
+            "ace_pct_l10": null,
+            "hold_pct_l10": null
+          },
+          "opponent": {
+            "name": "Elena Rybakina",
+            "ranking": 6,
+            "elo_overall": {
+              "HARD": 1900,
+              "CLAY": 1820,
+              "GRASS": 1950
+            },
+            "elo_surface": {
+              "HARD": 1900,
+              "CLAY": 1820,
+              "GRASS": 1950
+            },
+            "win_rate": 0.6666666666666666,
+            "surface_win_rate": 0.6666666666666666,
+            "serve_hold_rate": 0.8108108108108109,
+            "bp_save_rate": 0.4166666666666667,
+            "avg_aces": 8.666666666666666,
+            "avg_double_faults": 3.3333333333333335,
+            "avg_games_won": 14.0,
+            "n_matches": 3,
+            "player_style": "aggressive_returner",
+            "surface_specialist": null,
+            "recent_form_l10": 0.6,
+            "ace_pct_l10": 0.1106,
+            "hold_pct_l10": null
+          },
+          "head_to_head": {
+            "player1": "Victoria Mboko",
+            "player2": "Elena Rybakina",
+            "total_matches": 0,
+            "p1_wins": 0,
+            "p2_wins": 0,
+            "last_match_date": null,
+            "last_match_surface": null,
+            "last_match_score": null,
+            "history": []
+          },
+          "surface": "Hard",
+          "tournament": null,
+          "tournament_tier": null,
+          "round_name": null,
+          "commence_time": null,
+          "matchup_edge": "Elena Rybakina serve edge; Victoria Mboko clutch edge",
+          "narrative_seed": "all_court vs aggressive_returner"
+        },
+        "correlation_group": null,
+        "narrative": "Data suggests Mboko's projected spread of 10.0 offers significant value against the line, despite Rybakina's clear serve advantage."
+      },
+      {
+        "player": "Anna Kalinskaya",
+        "stat": "game_spread",
+        "line": 3.5,
+        "direction": "higher",
+        "probability": 0.9865,
+        "confidence": 62.86,
+        "tier": "SLAM",
+        "simulation": {
+          "mean": 10.087950778564887,
+          "std": 3.070935536404114,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 8,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "match_context": {
+          "player": {
+            "name": "Anna Kalinskaya",
+            "ranking": null,
+            "elo_overall": null,
+            "elo_surface": null,
+            "win_rate": 0.75,
+            "surface_win_rate": 0.75,
+            "serve_hold_rate": 0.7906976744186046,
+            "bp_save_rate": 0.6470588235294118,
+            "avg_aces": 1.875,
+            "avg_double_faults": 2.625,
+            "avg_games_won": 12.125,
+            "n_matches": 8,
+            "player_style": "all_court",
+            "surface_specialist": null,
+            "recent_form_l10": 0.7,
+            "ace_pct_l10": 0.0293,
+            "hold_pct_l10": null
+          },
+          "opponent": {
+            "name": "Karolina Muchova",
+            "ranking": null,
+            "elo_overall": null,
+            "elo_surface": null,
+            "win_rate": 0.8333333333333334,
+            "surface_win_rate": 0.8333333333333334,
+            "serve_hold_rate": 0.819672131147541,
+            "bp_save_rate": 0.6333333333333333,
+            "avg_aces": 4.666666666666667,
+            "avg_double_faults": 1.6666666666666667,
+            "avg_games_won": 12.333333333333334,
+            "n_matches": 6,
+            "player_style": "all_court",
+            "surface_specialist": null,
+            "recent_form_l10": 0.9,
+            "ace_pct_l10": 0.0623,
+            "hold_pct_l10": null
+          },
+          "head_to_head": {
+            "player1": "Anna Kalinskaya",
+            "player2": "Karolina Muchova",
+            "total_matches": 2,
+            "p1_wins": 0,
+            "p2_wins": 2,
+            "last_match_date": 20241014,
+            "last_match_surface": "Hard",
+            "last_match_score": "2-6 6-2 6-3",
+            "history": [
+              {
+                "date": 20241014,
+                "tournament": "Ningbo",
+                "surface": "Hard",
+                "score": "2-6 6-2 6-3"
+              },
+              {
+                "date": 20200831,
+                "tournament": "Us Open",
+                "surface": "Hard",
+                "score": "6-3 7-6(4)"
+              }
+            ]
+          },
+          "surface": "Hard",
+          "tournament": null,
+          "tournament_tier": null,
+          "round_name": null,
+          "commence_time": null,
+          "matchup_edge": "Karolina Muchova serve edge; Anna Kalinskaya clutch edge",
+          "narrative_seed": "H2H: 0-2; last met 20241014; Anna Kalinskaya hot (L10: 70%)"
+        },
+        "correlation_group": null,
+        "narrative": "Data suggests Kalinskaya's current form and projected spread of 10.1 games provide a significant edge over the +3.5 line."
+      },
+      {
+        "player": "Elisabetta Cocciaretto",
+        "stat": "game_spread",
+        "line": 3.0,
+        "direction": "higher",
+        "probability": 0.9925,
+        "confidence": 61.18,
+        "tier": "SLAM",
+        "simulation": {
+          "mean": 9.896398053949797,
+          "std": 2.98813385936736,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 4,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "match_context": {
+          "player": {
+            "name": "Elisabetta Cocciaretto",
+            "ranking": null,
+            "elo_overall": null,
+            "elo_surface": null,
+            "win_rate": 0.5,
+            "surface_win_rate": 0.5,
+            "serve_hold_rate": 0.7111111111111111,
+            "bp_save_rate": 0.6388888888888888,
+            "avg_aces": 2.0,
+            "avg_double_faults": 2.5,
+            "avg_games_won": 11.75,
+            "n_matches": 4,
+            "player_style": "all_court",
+            "surface_specialist": null,
+            "recent_form_l10": 0.3,
+            "ace_pct_l10": 0.0136,
+            "hold_pct_l10": null
+          },
+          "opponent": {
+            "name": "Jelena Ostapenko",
+            "ranking": null,
+            "elo_overall": null,
+            "elo_surface": null,
+            "win_rate": 0.5,
+            "surface_win_rate": 0.5,
+            "serve_hold_rate": 0.725,
+            "bp_save_rate": 0.5769230769230769,
+            "avg_aces": 4.0,
+            "avg_double_faults": 4.25,
+            "avg_games_won": 9.75,
+            "n_matches": 4,
+            "player_style": "all_court",
+            "surface_specialist": null,
+            "recent_form_l10": 0.5,
+            "ace_pct_l10": 0.0693,
+            "hold_pct_l10": null
+          },
+          "head_to_head": {
+            "player1": "Elisabetta Cocciaretto",
+            "player2": "Jelena Ostapenko",
+            "total_matches": 1,
+            "p1_wins": 1,
+            "p2_wins": 0,
+            "last_match_date": 20240617,
+            "last_match_surface": "Grass",
+            "last_match_score": "6-3 6-3",
+            "history": [
+              {
+                "date": 20240617,
+                "tournament": "Birmingham",
+                "surface": "Grass",
+                "score": "6-3 6-3"
+              }
+            ]
+          },
+          "surface": "Hard",
+          "tournament": null,
+          "tournament_tier": null,
+          "round_name": null,
+          "commence_time": null,
+          "matchup_edge": "Jelena Ostapenko serve edge; Elisabetta Cocciaretto clutch edge",
+          "narrative_seed": "H2H: 1-0; last met 20240617; Elisabetta Cocciaretto cold (L10: 30%)"
+        },
+        "correlation_group": null,
+        "narrative": "Data suggests Cocciaretto's projected spread of 9.9 offers significant value against the current line."
+      },
+      {
+        "player": "Maria Sakkari",
+        "stat": "game_spread",
+        "line": 6.5,
+        "direction": "higher",
+        "probability": 0.868,
+        "confidence": 60.76,
+        "tier": "SLAM",
+        "simulation": {
+          "mean": 9.960345153265193,
+          "std": 3.091438141710411,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 3,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "match_context": {
+          "player": {
+            "name": "Maria Sakkari",
+            "ranking": null,
+            "elo_overall": null,
+            "elo_surface": null,
+            "win_rate": 0.3333333333333333,
+            "surface_win_rate": 0.3333333333333333,
+            "serve_hold_rate": 0.6956521739130435,
+            "bp_save_rate": 0.65,
+            "avg_aces": 1.6666666666666667,
+            "avg_double_faults": 2.0,
+            "avg_games_won": 7.333333333333333,
+            "n_matches": 3,
+            "player_style": "all_court",
+            "surface_specialist": null,
+            "recent_form_l10": 0.4,
+            "ace_pct_l10": 0.0572,
+            "hold_pct_l10": null
+          },
+          "opponent": {
+            "name": "Iga Swiatek",
+            "ranking": null,
+            "elo_overall": null,
+            "elo_surface": null,
+            "win_rate": 0.75,
+            "surface_win_rate": 0.75,
+            "serve_hold_rate": 0.7976190476190477,
+            "bp_save_rate": 0.5641025641025641,
+            "avg_aces": 2.75,
+            "avg_double_faults": 1.375,
+            "avg_games_won": 12.0,
+            "n_matches": 8,
+            "player_style": "all_court",
+            "surface_specialist": null,
+            "recent_form_l10": 0.9,
+            "ace_pct_l10": 0.0568,
+            "hold_pct_l10": null
+          },
+          "head_to_head": {
+            "player1": "Maria Sakkari",
+            "player2": "Iga Swiatek",
+            "total_matches": 5,
+            "p1_wins": 2,
+            "p2_wins": 3,
+            "last_match_date": 20240306,
+            "last_match_surface": "Hard",
+            "last_match_score": "6-4 6-0",
+            "history": [
+              {
+                "date": 20240306,
+                "tournament": "Indian Wells",
+                "surface": "Hard",
+                "score": "6-4 6-0"
+              },
+              {
+                "date": 20220307,
+                "tournament": "Indian Wells",
+                "surface": "Hard",
+                "score": "6-4 6-1"
+              },
+              {
+                "date": 20220221,
+                "tournament": "Doha",
+                "surface": "Hard",
+                "score": "6-4 6-3"
+              },
+              {
+                "date": 20211110,
+                "tournament": "Guadalajara Finals",
+                "surface": "Hard",
+                "score": "6-2 6-4"
+              },
+              {
+                "date": 20210531,
+                "tournament": "Roland Garros",
+                "surface": "Clay",
+                "score": "6-4 6-4"
+              }
+            ]
+          },
+          "surface": "Hard",
+          "tournament": null,
+          "tournament_tier": null,
+          "round_name": null,
+          "commence_time": null,
+          "matchup_edge": "Iga Swiatek serve edge; Maria Sakkari clutch edge",
+          "narrative_seed": "H2H: 2-3; last met 20240306"
+        },
+        "correlation_group": null,
+        "narrative": "Data suggests Sakkari's projected spread of 10.0 games provides a significant edge over the current +6.5 line."
+      }
+    ],
+    "STRONG": [
+      {
+        "player": "Iga Swiatek",
+        "stat": "total_games",
+        "line": 18.5,
+        "direction": "higher",
+        "probability": 0.801,
+        "confidence": 63.699999999999996,
+        "tier": "STRONG",
+        "simulation": {
+          "mean": 24.0685,
+          "std": 5.709913248434894,
+          "n": 2000
+        },
+        "physics_mode": true,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 10,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "match_context": {
+          "player": {
+            "name": "Iga Swiatek",
+            "ranking": null,
+            "elo_overall": null,
+            "elo_surface": null,
+            "win_rate": 0.9,
+            "surface_win_rate": 0.5,
+            "serve_hold_rate": 0.7300000000000001,
+            "bp_save_rate": 0.685,
+            "avg_aces": 3.4080000000000004,
+            "avg_double_faults": 2.5,
+            "avg_games_won": 12.0,
+            "n_matches": 10,
+            "player_style": "all_court",
+            "surface_specialist": null,
+            "recent_form_l10": 0.9,
+            "ace_pct_l10": 0.0568,
+            "hold_pct_l10": null
+          },
+          "opponent": {
+            "name": "Maria Sakkari",
+            "ranking": null,
+            "elo_overall": null,
+            "elo_surface": null,
+            "win_rate": 0.3333333333333333,
+            "surface_win_rate": 0.3333333333333333,
+            "serve_hold_rate": 0.6956521739130435,
+            "bp_save_rate": 0.65,
+            "avg_aces": 1.6666666666666667,
+            "avg_double_faults": 2.0,
+            "avg_games_won": 7.333333333333333,
+            "n_matches": 3,
+            "player_style": "all_court",
+            "surface_specialist": null,
+            "recent_form_l10": 0.4,
+            "ace_pct_l10": 0.0572,
+            "hold_pct_l10": null
+          },
+          "head_to_head": {
+            "player1": "Iga Swiatek",
+            "player2": "Maria Sakkari",
+            "total_matches": 5,
+            "p1_wins": 3,
+            "p2_wins": 2,
+            "last_match_date": 20240306,
+            "last_match_surface": "Hard",
+            "last_match_score": "6-4 6-0",
+            "history": [
+              {
+                "date": 20240306,
+                "tournament": "Indian Wells",
+                "surface": "Hard",
+                "score": "6-4 6-0"
+              },
+              {
+                "date": 20220307,
+                "tournament": "Indian Wells",
+                "surface": "Hard",
+                "score": "6-4 6-1"
+              },
+              {
+                "date": 20220221,
+                "tournament": "Doha",
+                "surface": "Hard",
+                "score": "6-4 6-3"
+              },
+              {
+                "date": 20211110,
+                "tournament": "Guadalajara Finals",
+                "surface": "Hard",
+                "score": "6-2 6-4"
+              },
+              {
+                "date": 20210531,
+                "tournament": "Roland Garros",
+                "surface": "Clay",
+                "score": "6-4 6-4"
+              }
+            ]
+          },
+          "surface": "Hard",
+          "tournament": null,
+          "tournament_tier": null,
+          "round_name": null,
+          "commence_time": null,
+          "matchup_edge": "Iga Swiatek serve edge; Iga Swiatek clutch edge",
+          "narrative_seed": "H2H: 3-2; last met 20240306; Iga Swiatek hot (L10: 90%)"
+        },
+        "correlation_group": "match_duration",
+        "narrative": "Data suggests a strong probability the match exceeds 18.5 games, with a model projecting a significantly higher total of 24.1."
+      }
+    ],
+    "LEAN": [
+      {
+        "player": "Elena Rybakina",
+        "stat": "total_games",
+        "line": 21.5,
+        "direction": "lower",
+        "probability": 0.5905,
+        "confidence": 53.7355,
+        "tier": "LEAN",
+        "simulation": {
+          "mean": 21.7195,
+          "std": 5.607097245434565,
+          "n": 2000
+        },
+        "physics_mode": true,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 10,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "match_context": null,
+        "correlation_group": "match_duration",
+        "narrative": "Data suggests Rybakina's projected total of 21.7 games indicates a slight statistical edge for the under 21.5."
+      }
+    ],
+    "NO_PLAY": [
+      {
+        "player": "Anna Kalinskaya",
+        "stat": "total_games",
+        "line": 21.5,
+        "direction": "higher",
+        "probability": 0.573,
+        "confidence": 52.142999999999994,
+        "tier": "NO_PLAY",
+        "simulation": {
+          "mean": 23.846,
+          "std": 5.749157364797262,
+          "n": 2000
+        },
+        "physics_mode": true,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 10,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "match_context": {
+          "player": {
+            "name": "Anna Kalinskaya",
+            "ranking": null,
+            "elo_overall": null,
+            "elo_surface": null,
+            "win_rate": 0.7,
+            "surface_win_rate": 0.5,
+            "serve_hold_rate": 0.6900000000000001,
+            "bp_save_rate": 0.655,
+            "avg_aces": 1.758,
+            "avg_double_faults": 2.5,
+            "avg_games_won": 12.0,
+            "n_matches": 10,
+            "player_style": "all_court",
+            "surface_specialist": null,
+            "recent_form_l10": 0.7,
+            "ace_pct_l10": 0.0293,
+            "hold_pct_l10": null
+          },
+          "opponent": {
+            "name": "Anna Kalinskaya",
+            "ranking": null,
+            "elo_overall": null,
+            "elo_surface": null,
+            "win_rate": 0.75,
+            "surface_win_rate": 0.75,
+            "serve_hold_rate": 0.7906976744186046,
+            "bp_save_rate": 0.6470588235294118,
+            "avg_aces": 1.875,
+            "avg_double_faults": 2.625,
+            "avg_games_won": 12.125,
+            "n_matches": 8,
+            "player_style": "all_court",
+            "surface_specialist": null,
+            "recent_form_l10": 0.7,
+            "ace_pct_l10": 0.0293,
+            "hold_pct_l10": null
+          },
+          "head_to_head": {
+            "player1": "Anna Kalinskaya",
+            "player2": "Anna Kalinskaya",
+            "total_matches": 0,
+            "p1_wins": 0,
+            "p2_wins": 0,
+            "last_match_date": null,
+            "last_match_surface": null,
+            "last_match_score": null,
+            "history": []
+          },
+          "surface": "Hard",
+          "tournament": null,
+          "tournament_tier": null,
+          "round_name": null,
+          "commence_time": null,
+          "matchup_edge": "Anna Kalinskaya serve edge; Anna Kalinskaya clutch edge",
+          "narrative_seed": "Anna Kalinskaya hot (L10: 70%)"
+        },
+        "correlation_group": "match_duration",
+        "narrative": "Data suggests Kalinskaya's strong serve and form project a match total exceeding the line by over two games."
+      },
+      {
+        "player": "Elisabetta Cocciaretto",
+        "stat": "total_games",
+        "line": 21.5,
+        "direction": "higher",
+        "probability": 0.558,
+        "confidence": 50.778,
+        "tier": "NO_PLAY",
+        "simulation": {
+          "mean": 23.619,
+          "std": 5.860461714383336,
+          "n": 2000
+        },
+        "physics_mode": true,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 10,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "match_context": {
+          "player": {
+            "name": "Elisabetta Cocciaretto",
+            "ranking": null,
+            "elo_overall": null,
+            "elo_surface": null,
+            "win_rate": 0.3,
+            "surface_win_rate": 0.5,
+            "serve_hold_rate": 0.6100000000000001,
+            "bp_save_rate": 0.5950000000000001,
+            "avg_aces": 0.816,
+            "avg_double_faults": 2.5,
+            "avg_games_won": 9.0,
+            "n_matches": 10,
+            "player_style": "all_court",
+            "surface_specialist": null,
+            "recent_form_l10": 0.3,
+            "ace_pct_l10": 0.0136,
+            "hold_pct_l10": null
+          },
+          "opponent": {
+            "name": "Elisabetta Cocciaretto",
+            "ranking": null,
+            "elo_overall": null,
+            "elo_surface": null,
+            "win_rate": 0.5,
+            "surface_win_rate": 0.5,
+            "serve_hold_rate": 0.7111111111111111,
+            "bp_save_rate": 0.6388888888888888,
+            "avg_aces": 2.0,
+            "avg_double_faults": 2.5,
+            "avg_games_won": 11.75,
+            "n_matches": 4,
+            "player_style": "all_court",
+            "surface_specialist": null,
+            "recent_form_l10": 0.3,
+            "ace_pct_l10": 0.0136,
+            "hold_pct_l10": null
+          },
+          "head_to_head": {
+            "player1": "Elisabetta Cocciaretto",
+            "player2": "Elisabetta Cocciaretto",
+            "total_matches": 0,
+            "p1_wins": 0,
+            "p2_wins": 0,
+            "last_match_date": null,
+            "last_match_surface": null,
+            "last_match_score": null,
+            "history": []
+          },
+          "surface": "Hard",
+          "tournament": null,
+          "tournament_tier": null,
+          "round_name": null,
+          "commence_time": null,
+          "matchup_edge": "Elisabetta Cocciaretto serve edge",
+          "narrative_seed": "Elisabetta Cocciaretto cold (L10: 30%)"
+        },
+        "correlation_group": "match_duration",
+        "narrative": "Data suggests Cocciaretto's strong serve and projected total of 23.6 games indicate a high-probability match for exceeding the 21.5 line."
+      },
+      {
+        "player": "Jelena Ostapenko",
+        "stat": "game_spread",
+        "line": -3.0,
+        "direction": "lower",
+        "probability": 0.0,
+        "confidence": 0.0,
+        "tier": "NO_PLAY",
+        "simulation": {
+          "mean": 9.964818796073063,
+          "std": 2.998447397952725,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 4,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "match_context": {
+          "player": {
+            "name": "Jelena Ostapenko",
+            "ranking": null,
+            "elo_overall": null,
+            "elo_surface": null,
+            "win_rate": 0.5,
+            "surface_win_rate": 0.5,
+            "serve_hold_rate": 0.725,
+            "bp_save_rate": 0.5769230769230769,
+            "avg_aces": 4.0,
+            "avg_double_faults": 4.25,
+            "avg_games_won": 9.75,
+            "n_matches": 4,
+            "player_style": "all_court",
+            "surface_specialist": null,
+            "recent_form_l10": 0.5,
+            "ace_pct_l10": 0.0693,
+            "hold_pct_l10": null
+          },
+          "opponent": {
+            "name": "Elisabetta Cocciaretto",
+            "ranking": null,
+            "elo_overall": null,
+            "elo_surface": null,
+            "win_rate": 0.5,
+            "surface_win_rate": 0.5,
+            "serve_hold_rate": 0.7111111111111111,
+            "bp_save_rate": 0.6388888888888888,
+            "avg_aces": 2.0,
+            "avg_double_faults": 2.5,
+            "avg_games_won": 11.75,
+            "n_matches": 4,
+            "player_style": "all_court",
+            "surface_specialist": null,
+            "recent_form_l10": 0.3,
+            "ace_pct_l10": 0.0136,
+            "hold_pct_l10": null
+          },
+          "head_to_head": {
+            "player1": "Jelena Ostapenko",
+            "player2": "Elisabetta Cocciaretto",
+            "total_matches": 1,
+            "p1_wins": 0,
+            "p2_wins": 1,
+            "last_match_date": 20240617,
+            "last_match_surface": "Grass",
+            "last_match_score": "6-3 6-3",
+            "history": [
+              {
+                "date": 20240617,
+                "tournament": "Birmingham",
+                "surface": "Grass",
+                "score": "6-3 6-3"
+              }
+            ]
+          },
+          "surface": "Hard",
+          "tournament": null,
+          "tournament_tier": null,
+          "round_name": null,
+          "commence_time": null,
+          "matchup_edge": "Jelena Ostapenko serve edge",
+          "narrative_seed": "H2H: 0-1; last met 20240617"
+        },
+        "correlation_group": null,
+        "narrative": "Data suggests the projected spread of 10.0 significantly outpaces the line, making the -3.0 handicap an improbable outcome based on their head-to-head history."
+      },
+      {
+        "player": "Iga Swiatek",
+        "stat": "game_spread",
+        "line": -6.5,
+        "direction": "lower",
+        "probability": 0.0,
+        "confidence": 0.0,
+        "tier": "NO_PLAY",
+        "simulation": {
+          "mean": 9.846273916545059,
+          "std": 2.9927906812363223,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 8,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "match_context": {
+          "player": {
+            "name": "Iga Swiatek",
+            "ranking": null,
+            "elo_overall": null,
+            "elo_surface": null,
+            "win_rate": 0.75,
+            "surface_win_rate": 0.75,
+            "serve_hold_rate": 0.7976190476190477,
+            "bp_save_rate": 0.5641025641025641,
+            "avg_aces": 2.75,
+            "avg_double_faults": 1.375,
+            "avg_games_won": 12.0,
+            "n_matches": 8,
+            "player_style": "all_court",
+            "surface_specialist": null,
+            "recent_form_l10": 0.9,
+            "ace_pct_l10": 0.0568,
+            "hold_pct_l10": null
+          },
+          "opponent": {
+            "name": "Maria Sakkari",
+            "ranking": null,
+            "elo_overall": null,
+            "elo_surface": null,
+            "win_rate": 0.3333333333333333,
+            "surface_win_rate": 0.3333333333333333,
+            "serve_hold_rate": 0.6956521739130435,
+            "bp_save_rate": 0.65,
+            "avg_aces": 1.6666666666666667,
+            "avg_double_faults": 2.0,
+            "avg_games_won": 7.333333333333333,
+            "n_matches": 3,
+            "player_style": "all_court",
+            "surface_specialist": null,
+            "recent_form_l10": 0.4,
+            "ace_pct_l10": 0.0572,
+            "hold_pct_l10": null
+          },
+          "head_to_head": {
+            "player1": "Iga Swiatek",
+            "player2": "Maria Sakkari",
+            "total_matches": 5,
+            "p1_wins": 3,
+            "p2_wins": 2,
+            "last_match_date": 20240306,
+            "last_match_surface": "Hard",
+            "last_match_score": "6-4 6-0",
+            "history": [
+              {
+                "date": 20240306,
+                "tournament": "Indian Wells",
+                "surface": "Hard",
+                "score": "6-4 6-0"
+              },
+              {
+                "date": 20220307,
+                "tournament": "Indian Wells",
+                "surface": "Hard",
+                "score": "6-4 6-1"
+              },
+              {
+                "date": 20220221,
+                "tournament": "Doha",
+                "surface": "Hard",
+                "score": "6-4 6-3"
+              },
+              {
+                "date": 20211110,
+                "tournament": "Guadalajara Finals",
+                "surface": "Hard",
+                "score": "6-2 6-4"
+              },
+              {
+                "date": 20210531,
+                "tournament": "Roland Garros",
+                "surface": "Clay",
+                "score": "6-4 6-4"
+              }
+            ]
+          },
+          "surface": "Hard",
+          "tournament": null,
+          "tournament_tier": null,
+          "round_name": null,
+          "commence_time": null,
+          "matchup_edge": "Iga Swiatek serve edge",
+          "narrative_seed": "H2H: 3-2; last met 20240306; Iga Swiatek hot (L10: 90%)"
+        },
+        "correlation_group": null,
+        "narrative": "Data suggests Swiatek's projected spread of 9.8 significantly outperforms the -6.5 line, supported by her dominant serve and recent form."
+      },
+      {
+        "player": "Elena Rybakina",
+        "stat": "game_spread",
+        "line": -4.5,
+        "direction": "lower",
+        "probability": 0.0,
+        "confidence": 0.0,
+        "tier": "NO_PLAY",
+        "simulation": {
+          "mean": 10.10776732928571,
+          "std": 2.91503885980816,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 3,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "match_context": {
+          "player": {
+            "name": "Elena Rybakina",
+            "ranking": 6,
+            "elo_overall": {
+              "HARD": 1900,
+              "CLAY": 1820,
+              "GRASS": 1950
+            },
+            "elo_surface": {
+              "HARD": 1900,
+              "CLAY": 1820,
+              "GRASS": 1950
+            },
+            "win_rate": 0.6666666666666666,
+            "surface_win_rate": 0.6666666666666666,
+            "serve_hold_rate": 0.8108108108108109,
+            "bp_save_rate": 0.4166666666666667,
+            "avg_aces": 8.666666666666666,
+            "avg_double_faults": 3.3333333333333335,
+            "avg_games_won": 14.0,
+            "n_matches": 3,
+            "player_style": "aggressive_returner",
+            "surface_specialist": null,
+            "recent_form_l10": 0.6,
+            "ace_pct_l10": 0.1106,
+            "hold_pct_l10": null
+          },
+          "opponent": {
+            "name": "Victoria Mboko",
+            "ranking": null,
+            "elo_overall": null,
+            "elo_surface": null,
+            "win_rate": 0.5,
+            "surface_win_rate": 0.5,
+            "serve_hold_rate": 0.65,
+            "bp_save_rate": 0.625,
+            "avg_aces": 1.68,
+            "avg_double_faults": 2.5,
+            "avg_games_won": 9.0,
+            "n_matches": 10,
+            "player_style": "all_court",
+            "surface_specialist": null,
+            "recent_form_l10": 0.5,
+            "ace_pct_l10": null,
+            "hold_pct_l10": null
+          },
+          "head_to_head": {
+            "player1": "Elena Rybakina",
+            "player2": "Victoria Mboko",
+            "total_matches": 0,
+            "p1_wins": 0,
+            "p2_wins": 0,
+            "last_match_date": null,
+            "last_match_surface": null,
+            "last_match_score": null,
+            "history": []
+          },
+          "surface": "Hard",
+          "tournament": null,
+          "tournament_tier": null,
+          "round_name": null,
+          "commence_time": null,
+          "matchup_edge": "Elena Rybakina serve edge",
+          "narrative_seed": "aggressive_returner vs all_court"
+        },
+        "correlation_group": null,
+        "narrative": "Data suggests Rybakina's projected spread of 10.1 games significantly outperforms the line, leveraging her dominant serve against a less specialized opponent."
+      },
+      {
+        "player": "Karolina Muchova",
+        "stat": "game_spread",
+        "line": -3.5,
+        "direction": "lower",
+        "probability": 0.0,
+        "confidence": 0.0,
+        "tier": "NO_PLAY",
+        "simulation": {
+          "mean": 9.96900924315972,
+          "std": 3.0173643927131395,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 6,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "match_context": {
+          "player": {
+            "name": "Karolina Muchova",
+            "ranking": null,
+            "elo_overall": null,
+            "elo_surface": null,
+            "win_rate": 0.8333333333333334,
+            "surface_win_rate": 0.8333333333333334,
+            "serve_hold_rate": 0.819672131147541,
+            "bp_save_rate": 0.6333333333333333,
+            "avg_aces": 4.666666666666667,
+            "avg_double_faults": 1.6666666666666667,
+            "avg_games_won": 12.333333333333334,
+            "n_matches": 6,
+            "player_style": "all_court",
+            "surface_specialist": null,
+            "recent_form_l10": 0.9,
+            "ace_pct_l10": 0.0623,
+            "hold_pct_l10": null
+          },
+          "opponent": {
+            "name": "Anna Kalinskaya",
+            "ranking": null,
+            "elo_overall": null,
+            "elo_surface": null,
+            "win_rate": 0.75,
+            "surface_win_rate": 0.75,
+            "serve_hold_rate": 0.7906976744186046,
+            "bp_save_rate": 0.6470588235294118,
+            "avg_aces": 1.875,
+            "avg_double_faults": 2.625,
+            "avg_games_won": 12.125,
+            "n_matches": 8,
+            "player_style": "all_court",
+            "surface_specialist": null,
+            "recent_form_l10": 0.7,
+            "ace_pct_l10": 0.0293,
+            "hold_pct_l10": null
+          },
+          "head_to_head": {
+            "player1": "Karolina Muchova",
+            "player2": "Anna Kalinskaya",
+            "total_matches": 2,
+            "p1_wins": 2,
+            "p2_wins": 0,
+            "last_match_date": 20241014,
+            "last_match_surface": "Hard",
+            "last_match_score": "2-6 6-2 6-3",
+            "history": [
+              {
+                "date": 20241014,
+                "tournament": "Ningbo",
+                "surface": "Hard",
+                "score": "2-6 6-2 6-3"
+              },
+              {
+                "date": 20200831,
+                "tournament": "Us Open",
+                "surface": "Hard",
+                "score": "6-3 7-6(4)"
+              }
+            ]
+          },
+          "surface": "Hard",
+          "tournament": null,
+          "tournament_tier": null,
+          "round_name": null,
+          "commence_time": null,
+          "matchup_edge": "Karolina Muchova serve edge",
+          "narrative_seed": "H2H: 2-0; last met 20241014; Karolina Muchova hot (L10: 90%)"
+        },
+        "correlation_group": null,
+        "narrative": "Data suggests Muchova's dominant H2H record and current form project a spread well beyond the offered line."
+      }
+    ]
+  },
+  "players_analyzed": [
+    "Elisabetta Cocciaretto",
+    "Victoria Mboko",
+    "Elena Rybakina",
+    "Karolina Muchova vs Anna Kalinskaya",
+    "Victoria Mboko vs Elena Rybakina",
+    "Jelena Ostapenko",
+    "Iga Swiatek vs Maria Sakkari",
+    "Iga Swiatek",
+    "Jelena Ostapenko vs Elisabetta Cocciaretto",
+    "Maria Sakkari",
+    "Anna Kalinskaya",
+    "Karolina Muchova"
+  ],
+  "players_not_found": [],
+  "surface": "Hard",
+  "timestamp": "2026-02-11T21:13:22.705074",
+  "_source": {
+    "ingest": "oddsapi_tennis",
+    "surface": "Hard"
+  }
+}

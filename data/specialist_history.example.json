@@ -1,0 +1,29 @@
+[
+  {
+    "player": "Isaiah Hartenstein",
+    "stat": "3PM",
+    "specialist_type": "CATCH_AND_SHOOT_3PM",
+    "line": 0.5,
+    "confidence": 72.0,
+    "hit": true,
+    "features": {
+      "assisted_3pa_rate": 0.68,
+      "pullup_3pa_rate": 0.18,
+      "dribbles_per_shot": 0.9,
+      "corner_3_rate": 0.22
+    }
+  },
+  {
+    "player": "Role Shooter",
+    "stat": "3PM",
+    "specialist_type": "CATCH_AND_SHOOT_3PM",
+    "line": 2.5,
+    "confidence": 66.0,
+    "hit": false,
+    "features": {
+      "assisted_3pa_rate": 0.62,
+      "pullup_3pa_rate": 0.27,
+      "dribbles_per_shot": 1.1
+    }
+  }
+]

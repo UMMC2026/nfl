@@ -1,0 +1,112 @@
+{
+  "date": "2026-01-17",
+  "timestamp": "2026-01-17T16:20:17.909678",
+  "slate": "UTAH DALLAS",
+  "source_file": "UTAH DALLAS_RISK_FIRST_20260117_FROM_UD.json",
+  "summary": {
+    "play_count": 3,
+    "lean_count": 8,
+    "total": 11
+  },
+  "picks": [
+    {
+      "player": "Ace Bailey",
+      "team": "UTA",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 82
+    },
+    {
+      "player": "Brandon Williams",
+      "team": "DAL",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 78
+    },
+    {
+      "player": "Naji Marshall",
+      "team": "DAL",
+      "stat": "rebounds",
+      "line": 6.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 75.2
+    },
+    {
+      "player": "Ace Bailey",
+      "team": "UTA",
+      "stat": "pra",
+      "line": 20.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Dwight Powell",
+      "team": "DAL",
+      "stat": "pra",
+      "line": 14.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Isaiah Collier",
+      "team": "UTA",
+      "stat": "points",
+      "line": 10.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 66.9
+    },
+    {
+      "player": "Cody Williams",
+      "team": "UTA",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 66.5
+    },
+    {
+      "player": "Dwight Powell",
+      "team": "DAL",
+      "stat": "points",
+      "line": 6.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 66.5
+    },
+    {
+      "player": "Naji Marshall",
+      "team": "DAL",
+      "stat": "pra",
+      "line": 31.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 66.2
+    },
+    {
+      "player": "Brandon Williams",
+      "team": "DAL",
+      "stat": "pra",
+      "line": 26.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 65.2
+    },
+    {
+      "player": "Naji Marshall",
+      "team": "DAL",
+      "stat": "points",
+      "line": 20.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 65.1
+    }
+  ]
+}

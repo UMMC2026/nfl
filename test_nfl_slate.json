@@ -1,0 +1,46 @@
+{
+  "games": [
+    {
+      "away": "SF",
+      "home": "SEA", 
+      "datetime": "Sun 12:00pm"
+    },
+    {
+      "away": "HOU",
+      "home": "PIT",
+      "datetime": "Sun 3:25pm"
+    }
+  ],
+  "props": [
+    {
+      "player": "Christian McCaffrey",
+      "team": "SF",
+      "stat": "Rush+Rec TDs",
+      "line": 0.5,
+      "direction": "More"
+    },
+    {
+      "player": "Brock Purdy",
+      "team": "SF", 
+      "stat": "Pass Yards",
+      "line": 236.5,
+      "direction": "Less"
+    },
+    {
+      "player": "C.J. Stroud",
+      "team": "HOU",
+      "stat": "Pass Yards", 
+      "line": 245.5,
+      "direction": "More"
+    },
+    {
+      "player": "Najee Harris",
+      "team": "PIT",
+      "stat": "Rush Yards",
+      "line": 65.5,
+      "direction": "Less"
+    }
+  ],
+  "league": "NFL",
+  "source": "diagnostic"
+}

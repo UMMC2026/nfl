@@ -1,0 +1,237 @@
+"""
+CBB STAT CAP RECALIBRATION — Implementation Blueprint
+═══════════════════════════════════════════════════════════════
+
+OBJECTIVE: After fixing variance calculation, recalibrate stat caps
+           to match actual edge quality (not suppress legitimate edges).
+
+PREREQUISITE: Complete game log variance implementation first!
+              Caps are currently compensating for σ=0.0 bug.
+
+FILES TO MODIFY:
+1. sports/cbb/cbb_main.py (compute_cbb_probability line ~1350-1450)
+2. config/data_driven_penalties.py (if CBB section exists)
+3. calibration/unified_tracker.py (add CBB cap optimization)
+
+═══════════════════════════════════════════════════════════════
+STEP 1: Collect Baseline Calibration Data
+═══════════════════════════════════════════════════════════════
+
+PREREQUISITE: Run CBB analysis for 50+ picks with REAL VARIANCE
+
+ACTION:
+    1. Run: .venv\Scripts\python.exe menu.py → [B] CBB Menu → [2] Analyze
+    2. Wait for 50+ picks across multiple slates
+    3. Resolve results via menu [6] Resolve Picks
+    4. Generate calibration report:
+       .venv\Scripts\python.exe calibration\unified_tracker.py --sport cbb --report
+
+EXPECTED OUTPUT:
+    CBB CALIBRATION SUMMARY (50 picks)
+    ═══════════════════════════════════════════════════════════
+    Tier Breakdown:
+    - SLAM: N/A (disabled)
+    - STRONG (65-79%): 12 picks | 67% win rate | +8% overcalibrated
+    - LEAN (55-64%):   38 picks | 58% win rate | +2% overcalibrated
+    
+    FINDING: If win rates match tiers (±5%), caps are CORRECT.
+             If win rates << tiers, caps are TOO AGGRESSIVE.
+             If win rates >> tiers, caps are TOO LENIENT.
+
+═══════════════════════════════════════════════════════════════
+STEP 2: Identify Over/Under Performing Stat Types
+═══════════════════════════════════════════════════════════════
+
+FILE: calibration/unified_tracker.py
+
+ADD FUNCTION:
+    def analyze_cbb_stat_caps() -> Dict[str, float]:
+        '''Analyze CBB picks by stat type to find cap multipliers.
+        
+        Returns:
+            {
+                'PTS': 1.00,    # Neutral (win rate matches tier)
+                'REB': 0.95,    # Needs cap (overperforming by 5%)
+                'AST': 1.05,    # Needs boost (underperforming by 5%)
+                '3PM': 0.90,    # Highly volatile, needs cap
+            }
+        '''
+        from calibration.unified_tracker import load_calibration_history
+        
+        history = load_calibration_history()
+        cbb_picks = [p for p in history if p.get('sport') == 'CBB']
+        
+        stat_performance = {}
+        for stat in ['PTS', 'REB', 'AST', '3PM', 'PRA']:
+            stat_picks = [p for p in cbb_picks if p.get('stat') == stat]
+            if len(stat_picks) < 10:
+                continue  # Insufficient sample
+            
+            wins = sum(1 for p in stat_picks if p.get('result') == 'HIT')
+            win_rate = wins / len(stat_picks)
+            
+            # Expected win rate = average tier probability
+            expected = sum(p.get('probability', 0.6) for p in stat_picks) / len(stat_picks)
+            
+            # Multiplier: if win_rate < expected, need cap (reduce confidence)
+            # If win_rate > expected, need boost
+            multiplier = win_rate / expected if expected > 0 else 1.0
+            stat_performance[stat] = multiplier
+            
+            print(f"{stat:<6} {len(stat_picks):>3} picks | Win: {win_rate:.1%} | Expected: {expected:.1%} | Adjust: {multiplier:.2f}x")
+        
+        return stat_performance
+
+RUN ANALYSIS:
+    python calibration/unified_tracker.py --analyze-caps --sport cbb
+
+EXAMPLE OUTPUT:
+    CBB STAT CAP ANALYSIS
+    ═══════════════════════════════════════════════════════════
+    PTS     35 picks | Win: 65% | Expected: 67% | Adjust: 0.97x (slight cap)
+    REB     28 picks | Win: 58% | Expected: 62% | Adjust: 0.94x (cap needed)
+    AST     22 picks | Win: 70% | Expected: 65% | Adjust: 1.08x (boost needed)
+    3PM     12 picks | Win: 55% | Expected: 63% | Adjust: 0.87x (heavy cap)
+    PRA     18 picks | Win: 68% | Expected: 68% | Adjust: 1.00x (perfect)
+
+═══════════════════════════════════════════════════════════════
+STEP 3: Implement Stat-Specific Cap Table
+═══════════════════════════════════════════════════════════════
+
+FILE: sports/cbb/cbb_main.py (after line 1615 CBB_SIGMA_TABLE)
+
+ADD NEW TABLE:
+    CBB_STAT_CAP_MULTIPLIERS = {
+        # Based on 50+ pick calibration (recalibrate quarterly)
+        "points":    1.00,   # Baseline stat (most predictable)
+        "rebounds":  0.95,   # Slightly overconfident
+        "assists":   1.08,   # Underestimated (usage spikes in close games)
+        "3pm":       0.87,   # High variance, needs heavy cap
+        "pra":       1.00,   # Combo smooths variance
+        "pts+reb":   0.98,
+        "pts+ast":   1.02,
+        "reb+ast":   1.00,
+        "steals":    0.90,   # Low-count, high variance
+        "blocks":    0.90,
+    }
+
+FILE: sports/cbb/cbb_main.py (compute_cbb_probability, line ~1400)
+
+CURRENT CODE:
+    # Apply CBB confidence cap (stricter than NBA - no SLAM)
+    CBB_MAX_CONFIDENCE = 0.79  # Max for CBB (no SLAM tier)
+    prob = min(prob * adj, CBB_MAX_CONFIDENCE)
+
+EXTEND TO:
+    # Apply stat-specific cap multiplier (calibrated from historical results)
+    stat_multiplier = CBB_STAT_CAP_MULTIPLIERS.get(stat.lower(), 1.0)
+    prob = prob * adj * stat_multiplier
+    
+    # Apply global CBB cap
+    CBB_MAX_CONFIDENCE = 0.79
+    prob = min(prob, CBB_MAX_CONFIDENCE)
+    
+    # Add to trace
+    decision_trace['stat_multiplier'] = stat_multiplier
+
+═══════════════════════════════════════════════════════════════
+STEP 4: Remove Low-Line Overconfidence Caps (if fixed by variance)
+═══════════════════════════════════════════════════════════════
+
+FILE: sports/cbb/cbb_main.py (line ~1333-1350)
+
+CURRENT CODE:
+    low_line_cap = 1.0
+    if line < 1.0:
+        low_line_cap = 0.60
+    elif line < 2.0:
+        low_line_cap = 0.65
+    elif line < 3.0:
+        low_line_cap = 0.70
+
+TEST IF NEEDED:
+    After variance fix, run analysis on low-line props (<3.0).
+    If calibration shows win rates match probabilities, REMOVE this cap.
+    
+    Example:
+        Line 2.5 REB UNDER — Model: 68% → Win rate: 67% (good!)
+        → LOW_LINE_CAP no longer needed
+
+IF WIN RATES STILL INFLATED:
+    Keep cap but reduce severity:
+    if line < 2.0:
+        low_line_cap = 0.90  # Gentle cap instead of 0.65
+
+═══════════════════════════════════════════════════════════════
+STEP 5: Continuous Calibration Loop
+═══════════════════════════════════════════════════════════════
+
+SCHEDULE: Recalibrate caps every 100 CBB picks
+
+PROCESS:
+    1. Run: python calibration/unified_tracker.py --analyze-caps --sport cbb
+    2. Review stat multipliers
+    3. Update CBB_STAT_CAP_MULTIPLIERS if drift detected (>0.10 difference)
+    4. Commit changes with calibration report in commit message
+    5. Notify subscribers of recalibration
+
+EXAMPLE COMMIT:
+    [CBB] Recalibrate stat caps based on 150-pick sample
+    
+    - AST multiplier: 1.08 → 1.05 (edge converging)
+    - 3PM multiplier: 0.87 → 0.90 (less volatile than expected)
+    - REB multiplier: 0.95 → 0.95 (stable)
+    
+    Win rates now within ±3% of tier thresholds.
+
+═══════════════════════════════════════════════════════════════
+STEP 6: Validation & Monitoring
+═══════════════════════════════════════════════════════════════
+
+METRICS TO TRACK:
+    1. Tier integrity: STRONG picks should win ~70%, LEAN ~60%
+    2. Stat-specific performance: No stat should deviate >10% from tier
+    3. Cap hit frequency: Track how often caps trigger
+    4. Edge suppression: Ensure caps don't block legitimate 75%+ picks
+
+DASHBOARD (add to CBB report):
+    Calibration Health (last 50 picks):
+    ✓ STRONG tier: 71% win rate (target: 70% ±5%) — HEALTHY
+    ✓ LEAN tier:   58% win rate (target: 60% ±5%) — HEALTHY
+    ⚠ PTS props:   64% win rate (expected: 68%) — REVIEW NEEDED
+    
+    Stat Cap Performance:
+    - REB: 0.95x cap applied 85% of picks → working as intended
+    - 3PM: 0.87x cap applied 100% of picks → may be too aggressive
+
+═══════════════════════════════════════════════════════════════
+ESTIMATED EFFORT: 2 hours
+═══════════════════════════════════════════════════════════════
+- Step 1: 30 minutes (collect baseline data — happens over time)
+- Step 2: 45 minutes (implement cap analysis tool)
+- Step 3: 30 minutes (add stat-specific cap table)
+- Step 4: 15 minutes (test/remove low-line caps)
+- Step 5-6: Continuous process
+
+═══════════════════════════════════════════════════════════════
+SUCCESS CRITERIA:
+═══════════════════════════════════════════════════════════════
+✓ Win rates match tier thresholds (±5%) across all stat types
+✓ No stat type deviates >10% from expected performance
+✓ Caps apply selectively (not hammering everything)
+✓ Legitimate edges (75%+ true probability) not suppressed
+✓ Recalibration process documented and repeatable
+
+═══════════════════════════════════════════════════════════════
+PREREQUISITE REMINDER:
+═══════════════════════════════════════════════════════════════
+DO NOT RECALIBRATE CAPS UNTIL VARIANCE FIX IS COMPLETE!
+
+Current caps compensate for σ=0.0 bug. If you recalibrate now,
+you'll make the problem worse when you fix variance later.
+
+Order of operations:
+1. Fix variance (game log fetching)
+2. Run 50+ picks with real variance
+3. THEN recalibrate caps based on actual performance
+"""

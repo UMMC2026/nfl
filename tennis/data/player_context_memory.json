@@ -1,0 +1,2624 @@
+{
+  "players": {
+    "daria kasatkina": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T01:06:32.989039"
+    },
+    "elise mertens": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6666666666666666,
+      "player_style": "all_court",
+      "surface_win_rate": 0.6666666666666666,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:15.161244"
+    },
+    "ann li": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-11T00:00:51.482456"
+    },
+    "magdalena frech": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6,
+      "player_style": "all_court",
+      "surface_win_rate": 0.6,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Gracheva - Sat 1:10AM CST",
+      "last_updated": "2026-02-13T18:01:22.783519"
+    },
+    "anna kalinskaya": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.75,
+      "player_style": "all_court",
+      "surface_win_rate": 0.75,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:20.062185"
+    },
+    "emma navarro": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.7777777777777778,
+      "player_style": "all_court",
+      "surface_win_rate": 0.7777777777777778,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:15.223079"
+    },
+    "varvara gracheva": {
+      "ranking": 43,
+      "elo_surface": {
+        "HARD": 1750,
+        "CLAY": 1780,
+        "GRASS": 1700
+      },
+      "win_rate": 0.3333333333333333,
+      "player_style": "aggressive_returner",
+      "surface_win_rate": 0.3333333333333333,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T01:01:33.737707"
+    },
+    "maria sakkari": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.3333333333333333,
+      "player_style": "all_court",
+      "surface_win_rate": 0.3333333333333333,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Karolina Muchova",
+      "last_updated": "2026-02-13T11:14:28.951305"
+    },
+    "elisabetta cocciaretto": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-15T20:50:02.961791"
+    },
+    "mirra andreeva": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6666666666666666,
+      "player_style": "all_court",
+      "surface_win_rate": 0.6666666666666666,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Anisimo… - Thu 5:10AM CST",
+      "last_updated": "2026-02-18T16:32:36.374735"
+    },
+    "victoria mboko": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-15T20:57:59.852148"
+    },
+    "iga swiatek": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.8333333333333334,
+      "player_style": "all_court",
+      "surface_win_rate": 0.8333333333333334,
+      "last_surface_analyzed": "WTA",
+      "last_opponent": "Maria Sakkari",
+      "last_updated": "2026-02-11T21:53:40.396869"
+    },
+    "matteo berrettini": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.2857142857142857,
+      "player_style": "all_court",
+      "surface_win_rate": 0.2857142857142857,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Berretti… - Thu 1:30PM CST",
+      "last_updated": "2026-02-18T16:32:38.803255"
+    },
+    "federico coria": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-10T15:28:24.272997"
+    },
+    "taylor fritz": {
+      "ranking": 4,
+      "elo_surface": {
+        "HARD": 1920,
+        "CLAY": 1780,
+        "GRASS": 1880
+      },
+      "win_rate": 0.68,
+      "player_style": "aggressive_returner",
+      "surface_win_rate": 0.68,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Jodar - Thu 7:00PM CST",
+      "last_updated": "2026-02-18T16:32:39.433575"
+    },
+    "camilo ugo carabelli": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:22.168573"
+    },
+    "reilly opelka": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-10T15:32:52.725305"
+    },
+    "marcos giron": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.2727272727272727,
+      "player_style": "all_court",
+      "surface_win_rate": 0.2727272727272727,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Casper Ruud",
+      "last_updated": "2026-02-18T16:32:41.891020"
+    },
+    "aleksandar kovacevic": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.14285714285714285,
+      "player_style": "all_court",
+      "surface_win_rate": 0.14285714285714285,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:17.647620"
+    },
+    "francisco comesana": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6666666666666666,
+      "player_style": "all_court",
+      "surface_win_rate": 0.6666666666666666,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:18.316835"
+    },
+    "camila osorio": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-11T00:00:53.661653"
+    },
+    "jelena ostapenko": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6363636363636364,
+      "player_style": "all_court",
+      "surface_win_rate": 0.6363636363636364,
+      "last_surface_analyzed": "WTA",
+      "last_opponent": "Elisabetta Cocciaretto",
+      "last_updated": "2026-02-11T21:53:39.421472"
+    },
+    "elena rybakina": {
+      "ranking": 6,
+      "elo_surface": {
+        "HARD": 1900,
+        "CLAY": 1820,
+        "GRASS": 1950
+      },
+      "win_rate": 0.6666666666666666,
+      "player_style": "aggressive_returner",
+      "surface_win_rate": 0.6666666666666666,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-18T01:09:17.207005"
+    },
+    "qinwen zheng": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.8333333333333334,
+      "player_style": "all_court",
+      "surface_win_rate": 0.8333333333333334,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Elena Rybakina",
+      "last_updated": "2026-02-11T08:38:30.855447"
+    },
+    "karolina muchova": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.8333333333333334,
+      "player_style": "all_court",
+      "surface_win_rate": 0.8333333333333334,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Victoria Mboko",
+      "last_updated": "2026-02-13T18:42:20.919546"
+    },
+    "karolina pliskova": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Karolina Muchova",
+      "last_updated": "2026-02-11T08:34:50.322964"
+    },
+    "elina svitolina": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.7142857142857143,
+      "player_style": "all_court",
+      "surface_win_rate": 0.7142857142857143,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Antonia Ruzic",
+      "last_updated": "2026-02-18T16:32:07.007743"
+    },
+    "adrian mannarino": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.4666666666666667,
+      "player_style": "all_court",
+      "surface_win_rate": 0.4666666666666667,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-11T00:00:52.014036"
+    },
+    "stan wawrinka": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.2,
+      "player_style": "all_court",
+      "surface_win_rate": 0.2,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "de Mina… - Thu 7:30AM CST",
+      "last_updated": "2026-02-11T21:25:16.957616"
+    },
+    "marton fucsovics": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.25,
+      "player_style": "all_court",
+      "surface_win_rate": 0.25,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:20.425218"
+    },
+    "suzan lamens": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-11T00:00:53.987787"
+    },
+    "karen khachanov": {
+      "ranking": 19,
+      "elo_surface": {
+        "HARD": 1840,
+        "CLAY": 1780,
+        "GRASS": 1800
+      },
+      "win_rate": 0.5789473684210527,
+      "player_style": "aggressive_returner",
+      "surface_win_rate": 0.5789473684210527,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-18T01:09:17.062391"
+    },
+    "stefanos tsitsipas": {
+      "ranking": 11,
+      "elo_surface": {
+        "HARD": 1880,
+        "CLAY": 1920,
+        "GRASS": 1820
+      },
+      "win_rate": 0.5789473684210527,
+      "player_style": "aggressive_returner",
+      "surface_win_rate": 0.5789473684210527,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Andrey Rublev",
+      "last_updated": "2026-02-18T16:32:23.998762"
+    },
+    "guy den ouden": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.25,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Ugo Humbert",
+      "last_updated": "2026-02-11T21:25:05.410431"
+    },
+    "jesper de jong": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:17.803204"
+    },
+    "arthur rinderknech": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5454545454545454,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5454545454545454,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T01:06:33.443828"
+    },
+    "aleksandar vukic": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.375,
+      "player_style": "all_court",
+      "surface_win_rate": 0.375,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Herbert - Sat 2:00AM CST",
+      "last_updated": "2026-02-13T18:01:10.501551"
+    },
+    "iryna shymanovich": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.2857,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-11T00:00:53.493102"
+    },
+    "ugo humbert": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6,
+      "player_style": "all_court",
+      "surface_win_rate": 0.6,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:21.120366"
+    },
+    "luciano darderi": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.14285714285714285,
+      "player_style": "all_court",
+      "surface_win_rate": 0.14285714285714285,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:22.545567"
+    },
+    "maks kasnikowski": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Carolina Gomez",
+      "last_updated": "2026-02-13T18:01:16.236257"
+    },
+    "luca van assche": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Zdenek Kolar",
+      "last_updated": "2026-02-11T21:24:34.610551"
+    },
+    "viktorija golubic": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Stefanini - Thu 7:30AM CST",
+      "last_updated": "2026-02-11T21:24:35.457292"
+    },
+    "oliver crawford": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.27999999999999997,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Ilya Ivashka",
+      "last_updated": "2026-02-18T16:31:42.602852"
+    },
+    "blake ellis": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.8,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Akanksha Dileep Nitture",
+      "last_updated": "2026-02-11T21:25:04.164783"
+    },
+    "luca castelnuovo": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.7,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Casteln…",
+      "last_updated": "2026-02-11T21:25:04.273465"
+    },
+    "ioannis xilas": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.4,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:20.175883"
+    },
+    "duje ajdukovic": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.4,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Ferrei…",
+      "last_updated": "2026-02-11T21:25:04.485916"
+    },
+    "ilia simakin": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.8,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Ferreira… - Sat 12:40AM CST",
+      "last_updated": "2026-02-13T18:01:17.368238"
+    },
+    "sumit nagal": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.2,
+      "player_style": "all_court",
+      "surface_win_rate": 0.2,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Dalibor Svrcina",
+      "last_updated": "2026-02-18T16:32:02.315263"
+    },
+    "jaume munar": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.25,
+      "player_style": "all_court",
+      "surface_win_rate": 0.25,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Khachanov - Thu 4:00AM CST",
+      "last_updated": "2026-02-11T21:25:15.555358"
+    },
+    "kaitlin quevedo": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Francisca Jorge",
+      "last_updated": "2026-02-11T21:24:41.019452"
+    },
+    "alejandro moro canas": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Daniel Merida Aguilar",
+      "last_updated": "2026-02-13T18:01:21.082054"
+    },
+    "moez echargui": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:20.557864"
+    },
+    "clement tabur": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.4,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Landaluce - Thu 5:10AM CST",
+      "last_updated": "2026-02-11T21:25:06.382836"
+    },
+    "botic van de zandschulp": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.4444444444444444,
+      "player_style": "all_court",
+      "surface_win_rate": 0.4444444444444444,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Van de… - Thu 5:10AM CST",
+      "last_updated": "2026-02-11T21:25:15.759812"
+    },
+    "alina korneeva": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Francisca Jorge",
+      "last_updated": "2026-02-13T18:01:26.078763"
+    },
+    "stefano travaglia": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.3333,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Hynek Barton",
+      "last_updated": "2026-02-11T21:24:45.260171"
+    },
+    "pol martin tiffon": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.8,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Martin T… - Thu 6:10AM CST",
+      "last_updated": "2026-02-11T21:25:16.850901"
+    },
+    "greet minnen": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.3333333333333333,
+      "player_style": "all_court",
+      "surface_win_rate": 0.3333333333333333,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Korneeva - Thu 6:10AM CST",
+      "last_updated": "2026-02-11T21:24:45.512497"
+    },
+    "alex de minaur": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.7368421052631579,
+      "player_style": "all_court",
+      "surface_win_rate": 0.7368421052631579,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Ugo Humbert",
+      "last_updated": "2026-02-13T18:01:27.254627"
+    },
+    "francesco maestrelli": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.7,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Maestre… - Thu 8:00AM CST",
+      "last_updated": "2026-02-11T21:24:45.999198"
+    },
+    "leandro riedi": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.4,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Benjamin Bonzi",
+      "last_updated": "2026-02-11T21:25:19.572639"
+    },
+    "eliot spizzirri": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-15T20:57:58.894704"
+    },
+    "juan manuel cerundolo": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:22.603413"
+    },
+    "hamad medjedovic": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Auger… - Thu 12:30PM CST",
+      "last_updated": "2026-02-11T21:25:19.783077"
+    },
+    "alexander shevchenko": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Daniil Glinka",
+      "last_updated": "2026-02-11T21:25:11.973915"
+    },
+    "denis shapovalov": {
+      "ranking": 56,
+      "elo_surface": {
+        "HARD": 1780,
+        "CLAY": 1720,
+        "GRASS": 1800
+      },
+      "win_rate": 0.4,
+      "player_style": "aggressive_returner",
+      "surface_win_rate": 0.4,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "David…",
+      "last_updated": "2026-02-13T18:01:07.821694"
+    },
+    "alexander bublik": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.2222222222222222,
+      "player_style": "all_court",
+      "surface_win_rate": 0.2222222222222222,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:15.885315"
+    },
+    "sebastian baez": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.4166666666666667,
+      "player_style": "all_court",
+      "surface_win_rate": 0.4166666666666667,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Ugo Carabel…",
+      "last_updated": "2026-02-13T14:54:18.304573"
+    },
+    "zhizhen zhang": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.3,
+      "player_style": "all_court",
+      "surface_win_rate": 0.3,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:16.454797"
+    },
+    "darwin blanch": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Alex Bolt",
+      "last_updated": "2026-02-11T21:25:20.889125"
+    },
+    "miomir kecmanovic": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.42857142857142855,
+      "player_style": "all_court",
+      "surface_win_rate": 0.42857142857142855,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Constant Lestienne",
+      "last_updated": "2026-02-18T16:32:29.836184"
+    },
+    "sidharth rawat": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.4,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Maks Kasnikowski",
+      "last_updated": "2026-02-11T21:25:13.552703"
+    },
+    "frederico ferreira silva": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.8889,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:19.930536"
+    },
+    "eric vanshelboim": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.3,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Ioannis Xilas",
+      "last_updated": "2026-02-11T21:25:14.565999"
+    },
+    "philip sekulic": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.7,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:19.996360"
+    },
+    "petr bar biryukov": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.7,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Alice Gillan",
+      "last_updated": "2026-02-18T16:31:59.484817"
+    },
+    "lukas klein": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.4,
+      "player_style": "all_court",
+      "surface_win_rate": 0.4,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Echargui - Thu 5:00AM CST",
+      "last_updated": "2026-02-11T21:24:57.866562"
+    },
+    "benjamin hassan": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Moro Canas - Thu 5:00AM CST",
+      "last_updated": "2026-02-11T21:25:15.659082"
+    },
+    "matilde jorge": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.7,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Korneeva - Sat 6:10AM CST",
+      "last_updated": "2026-02-13T18:01:19.962053"
+    },
+    "martin landaluce": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Jerome Kym",
+      "last_updated": "2026-02-18T16:32:09.164986"
+    },
+    "lola radivojevic": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Rome… - Thu 6:10AM CST",
+      "last_updated": "2026-02-11T21:24:59.499205"
+    },
+    "leyre romero gormaz": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Rome… - Thu 6:10AM CST",
+      "last_updated": "2026-02-11T21:24:59.649804"
+    },
+    "hynek barton": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Travaglia - Thu 6:10AM CST",
+      "last_updated": "2026-02-11T21:25:07.379177"
+    },
+    "lucrezia stefanini": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Viktorija Golubic",
+      "last_updated": "2026-02-11T21:25:01.728257"
+    },
+    "zdenek kolar": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6667,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Van Assche - Thu 7:30AM CST",
+      "last_updated": "2026-02-11T21:25:08.504175"
+    },
+    "tom gentzsch": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.7,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Maestre… - Thu 8:00AM CST",
+      "last_updated": "2026-02-11T21:25:01.958641"
+    },
+    "tomas barrios vera": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.7143,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:22.434863"
+    },
+    "benjamin bonzi": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:19.052875"
+    },
+    "ethan quinn": {
+      "ranking": 220,
+      "elo_surface": {
+        "HARD": 1550,
+        "CLAY": 1500,
+        "GRASS": 1530
+      },
+      "win_rate": 0.0,
+      "player_style": "aggressive_returner",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:22.493705"
+    },
+    "jack pinnington jones": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Pinnin… - Thu 12:00PM CST",
+      "last_updated": "2026-02-11T21:25:19.676361"
+    },
+    "pedro martinez": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.2,
+      "player_style": "all_court",
+      "surface_win_rate": 0.2,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:18.550214"
+    },
+    "daniil glinka": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Shevchenko - Thu 12:40PM CST",
+      "last_updated": "2026-02-11T21:25:19.884832"
+    },
+    "ignacio buse": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Fonseca - Thu 1:30PM CST",
+      "last_updated": "2026-02-18T16:32:31.864771"
+    },
+    "mariano navone": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.16666666666666666,
+      "player_style": "all_court",
+      "surface_win_rate": 0.16666666666666666,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:18.493365"
+    },
+    "alex bolt": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Hiroki Moriya",
+      "last_updated": "2026-02-13T18:00:55.398594"
+    },
+    "tommy paul": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6,
+      "player_style": "all_court",
+      "surface_win_rate": 0.6,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Walton - Thu 5:00PM CST",
+      "last_updated": "2026-02-18T16:32:39.372737"
+    },
+    "braden shick": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Tyler Zink",
+      "last_updated": "2026-02-11T21:25:09.634159"
+    },
+    "martin damm": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.125,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Collignon - Thu 10:00AM CST",
+      "last_updated": "2026-02-11T21:25:09.750849"
+    },
+    "daniel milavsky": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.875,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Raphael Perot",
+      "last_updated": "2026-02-11T21:25:10.782096"
+    },
+    "andre ilagan": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Kingsley - Fri 10:00AM CST",
+      "last_updated": "2026-02-11T21:25:12.648117"
+    },
+    "tyler zink": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.7,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Shick - Thu 10:00AM CST",
+      "last_updated": "2026-02-11T21:25:17.176034"
+    },
+    "blaise bicknell": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.4444,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Andres Andrade",
+      "last_updated": "2026-02-11T21:25:18.190327"
+    },
+    "raphael collignon": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.8,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Damm Jr",
+      "last_updated": "2026-02-11T21:25:18.313996"
+    },
+    "jack kennedy": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.3333,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Galarneau - Thu 11:10AM CST",
+      "last_updated": "2026-02-11T21:25:18.503491"
+    },
+    "raphael perot": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5714,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Milavsky - Thu 11:10AM CST",
+      "last_updated": "2026-02-11T21:25:18.634144"
+    },
+    "hayato matsuoka": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.06999999999999999,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Zhang",
+      "last_updated": "2026-02-11T21:25:21.001825"
+    },
+    "luka mikrut": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.4,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Llamas Ru… - Fri 5:00AM CST",
+      "last_updated": "2026-02-11T21:25:21.116518"
+    },
+    "olaf pieczkowski": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Pieczko… - Fri 10:00AM CST",
+      "last_updated": "2026-02-11T21:25:21.233207"
+    },
+    "hailey baptiste": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Sramkova - Sat 12:00AM CST",
+      "last_updated": "2026-02-13T18:00:38.361557"
+    },
+    "ben shelton": {
+      "ranking": 20,
+      "elo_surface": {
+        "HARD": 1850,
+        "CLAY": 1720,
+        "GRASS": 1800
+      },
+      "win_rate": 0.6363636363636364,
+      "player_style": "big_server",
+      "surface_win_rate": 0.6363636363636364,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Kecmanov…",
+      "last_updated": "2026-02-13T18:01:07.752878"
+    },
+    "alejandro davidovich fokina": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.4166666666666667,
+      "player_style": "all_court",
+      "surface_win_rate": 0.4166666666666667,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "David…",
+      "last_updated": "2026-02-13T18:00:46.595672"
+    },
+    "federico agustin gomez": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.35,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:15.332787"
+    },
+    "kamilla rakhimova": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.3333333333333333,
+      "player_style": "all_court",
+      "surface_win_rate": 0.3333333333333333,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Ella Seidel",
+      "last_updated": "2026-02-13T18:01:17.133891"
+    },
+    "ella seidel": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:20.349420"
+    },
+    "katie volynets": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Kimberly Birrell",
+      "last_updated": "2026-02-13T18:01:19.336987"
+    },
+    "kimberly birrell": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:21.520300"
+    },
+    "sonay kartal": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6666666666666666,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Sasnovich - Sat 2:20AM CST",
+      "last_updated": "2026-02-13T18:01:19.586044"
+    },
+    "anastasia zakharova": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6666666666666666,
+      "player_style": "all_court",
+      "surface_win_rate": 0.6666666666666666,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:15.729729"
+    },
+    "lloyd harris": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:22.990381"
+    },
+    "hiroki moriya": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Alex Bolt",
+      "last_updated": "2026-02-13T18:00:45.769905"
+    },
+    "rei sakamoto": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.8,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Alastair Gray",
+      "last_updated": "2026-02-18T16:32:03.466191"
+    },
+    "moyuka uchijima": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Veronika Erjavec",
+      "last_updated": "2026-02-13T18:00:51.379913"
+    },
+    "rebecca sramkova": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Hailey Baptiste",
+      "last_updated": "2026-02-13T18:01:22.403533"
+    },
+    "veronika erjavec": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.42,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Uchijima - Sat 12:00AM CST",
+      "last_updated": "2026-02-13T18:01:22.528202"
+    },
+    "peyton stearns": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:19.362050"
+    },
+    "aliaksandra sasnovich": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-15T20:50:02.615716"
+    },
+    "daniel merida aguilar": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Moro Canas - Sat 6:40AM CST",
+      "last_updated": "2026-02-13T18:01:26.203430"
+    },
+    "quentin halys": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.25,
+      "player_style": "all_court",
+      "surface_win_rate": 0.25,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:15.951140"
+    },
+    "pablo carreno busta": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.42857142857142855,
+      "player_style": "all_court",
+      "surface_win_rate": 0.42857142857142855,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:20.486055"
+    },
+    "pablo llamas ruiz": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Llamas Ru… - Sat 5:30AM CST",
+      "last_updated": "2026-02-13T18:01:10.992243"
+    },
+    "james mccabe": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Choinski - Sat 2:00AM CST",
+      "last_updated": "2026-02-13T18:01:13.059729"
+    },
+    "nikoloz basilashvili": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.7,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Basilas… - Sat 3:10AM CST",
+      "last_updated": "2026-02-13T18:01:13.305074"
+    },
+    "roberto carballes baena": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.45454545454545453,
+      "player_style": "all_court",
+      "surface_win_rate": 0.45454545454545453,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:16.532590"
+    },
+    "carlos alcaraz": {
+      "ranking": 3,
+      "elo_surface": {
+        "HARD": 1991.43,
+        "CLAY": 2020,
+        "GRASS": 2050
+      },
+      "win_rate": 0.75,
+      "player_style": "aggressive_returner",
+      "surface_win_rate": 0.75,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-19T22:57:50.051144"
+    },
+    "shilin xu": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": null,
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-15T14:16:50.062051"
+    },
+    "francisco cerundolo": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.46153846153846156,
+      "player_style": "all_court",
+      "surface_win_rate": 0.46153846153846156,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:18.435520"
+    },
+    "zizou bergs": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.42857142857142855,
+      "player_style": "all_court",
+      "surface_win_rate": 0.42857142857142855,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:21.069500"
+    },
+    "tomas machac": {
+      "ranking": 25,
+      "elo_surface": {
+        "HARD": 1820,
+        "CLAY": 1780,
+        "GRASS": 1780
+      },
+      "win_rate": 0.6363636363636364,
+      "player_style": "aggressive_returner",
+      "surface_win_rate": 0.6363636363636364,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-15T20:50:02.719439"
+    },
+    "jakub mensik": {
+      "ranking": 48,
+      "elo_surface": {
+        "HARD": 1800,
+        "CLAY": 1750,
+        "GRASS": 1780
+      },
+      "win_rate": 0.6666666666666666,
+      "player_style": "big_server",
+      "surface_win_rate": 0.6666666666666666,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-15T20:50:02.818175"
+    },
+    "leylah fernandez": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.3333333333333333,
+      "player_style": "all_court",
+      "surface_win_rate": 0.3333333333333333,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-15T20:50:02.867045"
+    },
+    "daniil medvedev": {
+      "ranking": 5,
+      "elo_surface": {
+        "HARD": 1980,
+        "CLAY": 1820,
+        "GRASS": 1850
+      },
+      "win_rate": 0.7333333333333333,
+      "player_style": "aggressive_returner",
+      "surface_win_rate": 0.7333333333333333,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-15T20:57:59.088187"
+    },
+    "dominika salkova": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.8,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-15T20:50:03.119372"
+    },
+    "jannik sinner": {
+      "ranking": 1,
+      "elo_surface": {
+        "HARD": 2058.57,
+        "CLAY": 1950,
+        "GRASS": 1920
+      },
+      "win_rate": 0.9473684210526315,
+      "player_style": "aggressive_returner",
+      "surface_win_rate": 0.9473684210526315,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-18T01:09:17.256872"
+    },
+    "jessica bouzas maneiro": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6666666666666666,
+      "player_style": "all_court",
+      "surface_win_rate": 0.6666666666666666,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-15T20:50:03.219105"
+    },
+    "alexei popyrin": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.7142857142857143,
+      "player_style": "all_court",
+      "surface_win_rate": 0.7142857142857143,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-18T01:09:16.911789"
+    },
+    "jay clarke": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-19T22:57:49.740973"
+    },
+    "jessica pegula": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.7777777777777778,
+      "player_style": "all_court",
+      "surface_win_rate": 0.7777777777777778,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-19T22:57:49.595361"
+    },
+    "clara tauson": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Pegula - Thu 4:00AM CST",
+      "last_updated": "2026-02-18T16:32:36.295945"
+    },
+    "magda linette": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T01:01:34.228399"
+    },
+    "stefanos sakellaridis": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6667,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-19T22:57:49.808792"
+    },
+    "dane sweeny": {
+      "ranking": 172,
+      "elo_surface": {
+        "HARD": 1600,
+        "CLAY": 1550,
+        "GRASS": 1620
+      },
+      "win_rate": 0.0,
+      "player_style": "aggressive_returner",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:15.056523"
+    },
+    "diana shnaider": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6,
+      "player_style": "all_court",
+      "surface_win_rate": 0.6,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:15.274941"
+    },
+    "dimitar kuzmanov": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.7143,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Rio Noguchi",
+      "last_updated": "2026-02-18T16:32:22.106812"
+    },
+    "coco gauff": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.8,
+      "player_style": "all_court",
+      "surface_win_rate": 0.8,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-19T22:57:50.225681"
+    },
+    "federico cina": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Nagal - Thu 12:50AM CST",
+      "last_updated": "2026-02-18T16:32:22.258406"
+    },
+    "jaqueline cristian": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-18T01:09:17.159134"
+    },
+    "hady habib": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.8,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:16.079796"
+    },
+    "ugo blanchet": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.4,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:16.207458"
+    },
+    "paula badosa": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.75,
+      "player_style": "all_court",
+      "surface_win_rate": 0.75,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:16.304198"
+    },
+    "shintaro mochizuki": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:16.595423"
+    },
+    "mikhail kukushkin": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:16.663242"
+    },
+    "clement chidekh": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:16.728070"
+    },
+    "linda noskova": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6666666666666666,
+      "player_style": "all_court",
+      "surface_win_rate": 0.6666666666666666,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:16.783920"
+    },
+    "giovanni mpetshi perricard": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.2,
+      "player_style": "all_court",
+      "surface_win_rate": 0.2,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:16.836780"
+    },
+    "fabian marozsan": {
+      "ranking": 59,
+      "elo_surface": {
+        "HARD": 1760,
+        "CLAY": 1800,
+        "GRASS": 1720
+      },
+      "win_rate": 0.6666666666666666,
+      "player_style": "aggressive_returner",
+      "surface_win_rate": 0.6666666666666666,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:16.890637"
+    },
+    "lautaro midon": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Zarate - Thu 7:00AM CST",
+      "last_updated": "2026-02-18T16:32:05.213532"
+    },
+    "carlos maria zarate": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Lautaro Midon",
+      "last_updated": "2026-02-18T16:32:27.066574"
+    },
+    "filip misolic": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:17.088109"
+    },
+    "alvaro guillen meza": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.3333,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Guillen… - Thu 7:00AM CST",
+      "last_updated": "2026-02-18T16:32:05.358145"
+    },
+    "pedro sakamoto": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.3333,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:17.218762"
+    },
+    "gonzalo bueno": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.27999999999999997,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Roncadelli - Thu 7:00AM CST",
+      "last_updated": "2026-02-18T16:32:24.366781"
+    },
+    "daniel dutra da silva": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6667,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:17.470093"
+    },
+    "alexandra eala": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:17.533921"
+    },
+    "cadence brace": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6667,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:17.724415"
+    },
+    "mackenzie mcdonald": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:17.864042"
+    },
+    "louisa chirico": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.8571,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:17.925877"
+    },
+    "joel schwaerzler": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.3333,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Schwaerzl… - Thu 11:30AM CST",
+      "last_updated": "2026-02-18T16:32:28.636385"
+    },
+    "marin cilic": {
+      "ranking": 88,
+      "elo_surface": {
+        "HARD": 1780,
+        "CLAY": 1750,
+        "GRASS": 1820
+      },
+      "win_rate": 0.0,
+      "player_style": "aggressive_returner",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:18.050546"
+    },
+    "roman andres burruchaga": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:18.231064"
+    },
+    "rafael jodar": {
+      "ranking": 250,
+      "elo_surface": {
+        "HARD": 1500,
+        "CLAY": 1550,
+        "GRASS": 1480
+      },
+      "win_rate": 0.42,
+      "player_style": "aggressive_returner",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:18.377674"
+    },
+    "joao fonseca": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Ignacio Buse",
+      "last_updated": "2026-02-18T16:32:10.437590"
+    },
+    "vilius gaubas": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.4,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Etcheverry - Thu 1:30PM CST",
+      "last_updated": "2026-02-18T16:32:43.820872"
+    },
+    "kayla day": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Anna Frey",
+      "last_updated": "2026-02-18T16:31:58.311946"
+    },
+    "amanda anisimova": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6,
+      "player_style": "all_court",
+      "surface_win_rate": 0.6,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Anisimo… - Thu 5:10AM CST",
+      "last_updated": "2026-02-18T16:32:42.486429"
+    },
+    "jerome kym": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Landaluce - Thu 12:40PM CST",
+      "last_updated": "2026-02-18T16:32:30.003737"
+    },
+    "darja vidmanova": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.8889,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-18T01:09:17.520170"
+    },
+    "kanon sawashiro": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.4,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:19.236385"
+    },
+    "ekaterina alexandrova": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:19.301212"
+    },
+    "manish sureshkumar": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:19.477742"
+    },
+    "david jorda sanchis": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.75,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:19.536585"
+    },
+    "beibit zhukayev": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Sakella…",
+      "last_updated": "2026-02-18T16:32:00.943923"
+    },
+    "belinda bencic": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.7778,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:19.648288"
+    },
+    "iva jovic": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:19.703141"
+    },
+    "sara bejlek": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:19.758993"
+    },
+    "felix gill": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Petr Bar Biryukov",
+      "last_updated": "2026-02-18T16:31:28.511453"
+    },
+    "antonia ruzic": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.9,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Svitolina - Thu 10:10AM CST",
+      "last_updated": "2026-02-18T16:32:28.488779"
+    },
+    "nishesh basavareddy": {
+      "ranking": 133,
+      "elo_surface": {
+        "HARD": 1680,
+        "CLAY": 1620,
+        "GRASS": 1650
+      },
+      "win_rate": 0.7,
+      "player_style": "aggressive_returner",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:20.618702"
+    },
+    "jiri lehecka": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5625,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5625,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Arthur Fils",
+      "last_updated": "2026-02-18T16:32:37.600463"
+    },
+    "jenson brooksby": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5769230769230769,
+      "player_style": null,
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:20.849117"
+    },
+    "giulio zeppieri": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:20.904940"
+    },
+    "jacob fearnley": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:20.962785"
+    },
+    "sorana cirstea": {
+      "ranking": 67,
+      "elo_surface": {
+        "HARD": 1720,
+        "CLAY": 1750,
+        "GRASS": 1680
+      },
+      "win_rate": 0.0,
+      "player_style": "aggressive_returner",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:21.016642"
+    },
+    "franco agamenone": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.9,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:21.177214"
+    },
+    "miguel damas": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:21.239049"
+    },
+    "genaro alberto olivieri": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.35,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Fernand… - Thu 7:00AM CST",
+      "last_updated": "2026-02-18T16:32:05.499768"
+    },
+    "carlos sanchez jover": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:21.412586"
+    },
+    "roman safiullin": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:21.465447"
+    },
+    "gianluca cadenasso": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.8,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:21.578145"
+    },
+    "jasmine paolini": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.7142857142857143,
+      "player_style": "all_court",
+      "surface_win_rate": 0.7142857142857143,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:21.633997"
+    },
+    "zachary svajda": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.3333333333333333,
+      "player_style": "all_court",
+      "surface_win_rate": 0.3333333333333333,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Tiafoe - Thu 1:30PM CST",
+      "last_updated": "2026-02-18T16:32:43.228453"
+    },
+    "elvina kalieva": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.75,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Sakura Hosogi",
+      "last_updated": "2026-02-18T16:32:38.132046"
+    },
+    "kayla cross": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6667,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:21.854410"
+    },
+    "andrey rublev": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6363636363636364,
+      "player_style": "all_court",
+      "surface_win_rate": 0.6363636363636364,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Tsitsipas - Thu 6:00AM CST",
+      "last_updated": "2026-02-18T16:32:05.073904"
+    },
+    "sebastian korda": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5714285714285714,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5714285714285714,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-19T22:57:50.405199"
+    },
+    "hanyu guo": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.9,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Jokic - Thu 10:00AM CST",
+      "last_updated": "2026-02-18T16:32:42.682908"
+    },
+    "david goffin": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6,
+      "player_style": "all_court",
+      "surface_win_rate": 0.6,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:22.087788"
+    },
+    "tomas martin etcheverry": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5333333333333333,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5333333333333333,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Vilius Gaubas",
+      "last_updated": "2026-02-18T16:32:43.700194"
+    },
+    "brandon nakashima": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5333333333333333,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5333333333333333,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:22.301218"
+    },
+    "lorenzo sonego": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.3,
+      "player_style": "all_court",
+      "surface_win_rate": 0.3,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:22.361059"
+    },
+    "damir dzumhur": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Jaime Faria",
+      "last_updated": "2026-02-18T16:32:39.315885"
+    },
+    "thiago monteiro": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:22.707136"
+    },
+    "mattia bellucci": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:22.757004"
+    },
+    "luis guto miguel": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:22.813852"
+    },
+    "corentin moutet": {
+      "ranking": 69,
+      "elo_surface": {
+        "HARD": 1720,
+        "CLAY": 1780,
+        "GRASS": 1680
+      },
+      "win_rate": 0.0,
+      "player_style": "aggressive_returner",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:22.879677"
+    },
+    "janice tjen": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 1.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:22.936526"
+    },
+    "nao hibino": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:23.096101"
+    },
+    "carolyn ansari": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.4,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-17T00:59:23.148960"
+    },
+    "daniel michalski": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.7,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Michael Geerts",
+      "last_updated": "2026-02-18T16:31:31.269093"
+    },
+    "michael geerts": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-19T22:57:49.658193"
+    },
+    "alejandro tabilo": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.42857142857142855,
+      "player_style": "all_court",
+      "surface_win_rate": 0.42857142857142855,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Francesco Passaro",
+      "last_updated": "2026-02-18T16:32:41.418281"
+    },
+    "casper ruud": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6111111111111112,
+      "player_style": "all_court",
+      "surface_win_rate": 0.6111111111111112,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-19T22:57:49.990307"
+    },
+    "ilya ivashka": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.47368421052631576,
+      "player_style": null,
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Crawford",
+      "last_updated": "2026-02-18T16:31:38.686300"
+    },
+    "alexandr binda": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.7,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Clarke",
+      "last_updated": "2026-02-18T16:31:57.087215"
+    },
+    "rio noguchi": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": null,
+      "last_updated": "2026-02-19T22:57:49.422822"
+    },
+    "alexander blockx": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.8,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Bouquier - Thu 5:00AM CST",
+      "last_updated": "2026-02-18T16:32:04.785673"
+    },
+    "juan manuel la serna": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Guillen… - Thu 7:00AM CST",
+      "last_updated": "2026-02-18T16:32:05.639397"
+    },
+    "arthur fils": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.4666666666666667,
+      "player_style": "all_court",
+      "surface_win_rate": 0.4666666666666667,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Lehecka - Thu 7:10AM CST",
+      "last_updated": "2026-02-18T16:32:42.615087"
+    },
+    "moise kouame": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": null,
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Schwaerzl… - Thu 11:30AM CST",
+      "last_updated": "2026-02-18T16:32:07.198235"
+    },
+    "learner tien": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Kecmanovic - Thu 12:00PM CST",
+      "last_updated": "2026-02-18T16:32:07.578221"
+    },
+    "alex michelsen": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Sebastian Korda",
+      "last_updated": "2026-02-18T16:32:40.414958"
+    },
+    "francesco passaro": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6666666666666666,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Alejandro Tabilo",
+      "last_updated": "2026-02-18T16:32:35.521014"
+    },
+    "anna frey": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.4,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Dayana Yastremska",
+      "last_updated": "2026-02-18T16:32:20.870113"
+    },
+    "alastair gray": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Sakamoto - Thu 2:00AM CST",
+      "last_updated": "2026-02-18T16:32:22.410001"
+    },
+    "justin engel": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Bonzi - Thu 6:10AM CST",
+      "last_updated": "2026-02-18T16:32:24.195238"
+    },
+    "nicolas kicker": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.5,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Villanueva - Thu 7:00AM CST",
+      "last_updated": "2026-02-18T16:32:24.581208"
+    },
+    "franco roncadelli": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.3,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Gonzalo Bueno",
+      "last_updated": "2026-02-18T16:32:25.822893"
+    },
+    "frances tiafoe": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.6190476190476191,
+      "player_style": "all_court",
+      "surface_win_rate": 0.6190476190476191,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Trevor Svajda",
+      "last_updated": "2026-02-18T16:32:38.742417"
+    },
+    "jaime faria": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.8,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Dzumhur - Thu 1:30PM CST",
+      "last_updated": "2026-02-18T16:32:38.864092"
+    },
+    "dusan lajovic": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.2,
+      "player_style": "all_court",
+      "surface_win_rate": 0.2,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Berretti… - Thu 1:30PM CST",
+      "last_updated": "2026-02-18T16:32:43.763026"
+    },
+    "adam walton": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.0,
+      "player_style": "all_court",
+      "surface_win_rate": 0.0,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Paul",
+      "last_updated": "2026-02-18T16:32:43.883704"
+    },
+    "sakura hosogi": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.9,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Kalieva - Thu 10:00AM CST",
+      "last_updated": "2026-02-18T16:32:38.203855"
+    },
+    "katarina jokic": {
+      "ranking": null,
+      "elo_surface": null,
+      "win_rate": 0.3333,
+      "player_style": "all_court",
+      "surface_win_rate": 0.5,
+      "last_surface_analyzed": "Hard",
+      "last_opponent": "Hanyu Guo",
+      "last_updated": "2026-02-18T16:32:43.173599"
+    }
+  }
+}

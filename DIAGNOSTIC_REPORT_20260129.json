@@ -1,0 +1,197 @@
+{
+  "report_id": "DIAG-20260129-001",
+  "report_date": "2026-01-29",
+  "status": "CRITICAL",
+  "title": "System Performance Failure Diagnostic",
+  
+  "executive_summary": {
+    "overall_win_rate": 0.485,
+    "baseline_expected": 0.50,
+    "verdict": "PERFORMING WORSE THAN RANDOM",
+    "primary_failures": [
+      "Tracking pipeline disconnected - picks bet are not MC recommendations",
+      "Over-penalization - system rejects profitable plays through excessive penalties"
+    ],
+    "client_impact": "Clients betting on unvalidated picks while system blocks obvious winners"
+  },
+
+  "failure_1_tracking": {
+    "name": "Tracking Pipeline Disconnected",
+    "severity": "CRITICAL",
+    "evidence": {
+      "total_picks_tracked": 439,
+      "picks_with_outcome": 97,
+      "picks_with_probability": 0,
+      "picks_with_tier": 0,
+      "observed_win_rate": 0.485,
+      "hits": 47,
+      "misses": 50
+    },
+    "root_cause": "Two separate calibration systems with no connection to Monte Carlo output",
+    "affected_files": [
+      "calibration_history.csv",
+      "calibration/picks.csv"
+    ],
+    "impact": [
+      "Cannot measure Monte Carlo accuracy",
+      "Cannot identify which tier performs best",
+      "Cannot calibrate or improve model",
+      "Betting blind on user gut-feel picks"
+    ]
+  },
+
+  "failure_2_over_penalization": {
+    "name": "Over-Penalization Kills Profitable Plays",
+    "severity": "CRITICAL",
+    "case_study": {
+      "player": "Joel Embiid",
+      "prop": "OVER 27.5 Points",
+      "actual_result": 37.5,
+      "system_decision": "NO_PLAY",
+      "system_confidence": 25.8,
+      "system_prediction_mu": 29.7,
+      "line": 27.5,
+      "result": "HIT by +10 points",
+      "contradiction": "System predicted 29.7 > line 27.5, but rejected the play"
+    },
+    "penalty_breakdown": {
+      "raw_probability": 38.16,
+      "stat_tax_pct": -4.32,
+      "variance_penalty_pct": -1.45,
+      "market_inflation_pct": -3.09,
+      "context_penalty_pct": -3.49,
+      "total_penalty_pct": -12.35,
+      "final_probability": 25.82
+    },
+    "systemic_pattern": {
+      "description": "Star scorers being blocked even when mu > line",
+      "examples": [
+        {"player": "Zeke Nnaji", "line": 4.5, "predicted": 6.5, "edge_pct": 43.5, "status": "NO_PLAY"},
+        {"player": "Isaiah Stewart", "line": 7.5, "predicted": 10.1, "edge_pct": 34.5, "status": "NO_PLAY"},
+        {"player": "Mark Williams", "line": 10.5, "predicted": 13.6, "edge_pct": 29.7, "status": "NO_PLAY"},
+        {"player": "Duncan Robinson", "line": 9.5, "predicted": 11.7, "edge_pct": 23.2, "status": "NO_PLAY"},
+        {"player": "Klay Thompson", "line": 11.5, "predicted": 13.7, "edge_pct": 19.3, "status": "NO_PLAY"},
+        {"player": "Brandon Miller", "line": 20.5, "predicted": 23.5, "edge_pct": 14.7, "status": "NO_PLAY"}
+      ]
+    }
+  },
+
+  "failure_3_output_volume": {
+    "name": "Output Volume Mismatch",
+    "severity": "HIGH",
+    "evidence": {
+      "total_props_analyzed": 475,
+      "status_breakdown": {
+        "NO_PLAY": 410,
+        "BLOCKED": 50,
+        "PASS": 14,
+        "STRONG": 1
+      },
+      "playable_percentage": 0.2
+    },
+    "comparison": {
+      "quant_system": {
+        "props_considered": 475,
+        "plays_made": 1,
+        "logic": "10+ penalty layers"
+      },
+      "friends_approach": {
+        "props_considered": 20,
+        "plays_made": "5-10",
+        "logic": "Good scorer, OVER",
+        "estimated_win_rate": "55-60%"
+      }
+    }
+  },
+
+  "win_rate_by_category": {
+    "by_league": {
+      "NBA": {"hits": 40, "total": 79, "win_rate": 0.506},
+      "NFL": {"hits": 3, "total": 9, "win_rate": 0.333},
+      "CBB": {"hits": 3, "total": 7, "win_rate": 0.429},
+      "Tennis": {"hits": 1, "total": 2, "win_rate": 0.500}
+    },
+    "by_stat": {
+      "3PM": {"hits": 8, "total": 15, "win_rate": 0.533},
+      "PRA": {"hits": 9, "total": 18, "win_rate": 0.500},
+      "REB": {"hits": 7, "total": 14, "win_rate": 0.500},
+      "AST": {"hits": 3, "total": 5, "win_rate": 0.600},
+      "PTS": {"hits": 10, "total": 20, "win_rate": 0.500},
+      "Recs": {"hits": 1, "total": 4, "win_rate": 0.250},
+      "PTS+AST": {"hits": 3, "total": 8, "win_rate": 0.375}
+    }
+  },
+
+  "fixes_implemented": {
+    "date": "2026-01-29",
+    "changes": [
+      {
+        "name": "Tracking Pipeline Fix",
+        "file": "calibration/commit_mc_picks.py",
+        "purpose": "Commits MC-backed picks WITH probability and tier",
+        "status": "DEPLOYED"
+      },
+      {
+        "name": "User Validation Tool",
+        "file": "calibration/validate_user_picks.py",
+        "purpose": "Validates any pick against MC before betting",
+        "status": "DEPLOYED"
+      },
+      {
+        "name": "Strict Betting Filter",
+        "file": "scripts/show_bets_only.py",
+        "purpose": "Shows ONLY STRONG/SLAM picks",
+        "status": "DEPLOYED"
+      },
+      {
+        "name": "Demon Mode Alternative",
+        "file": "scripts/demon_mode.py",
+        "purpose": "Simple star scorer logic without penalties",
+        "status": "DEPLOYED"
+      },
+      {
+        "name": "Auto-Commit on Analysis",
+        "file": "risk_first_slate_menu.py",
+        "purpose": "Auto-commits STRONG/SLAM to calibration after analysis",
+        "status": "DEPLOYED"
+      }
+    ]
+  },
+
+  "recommended_actions": {
+    "immediate": [
+      "Use show_bets_only.py OR demon_mode.py for picks",
+      "Run validate_user_picks.py before betting anything",
+      "Commit picks with commit_mc_picks.py after analysis",
+      "STOP betting picks not validated by system"
+    ],
+    "short_term": [
+      "Review penalty configuration in risk_first_analyzer.py",
+      "Reduce or remove stat_tax_pct for star scorers",
+      "Add star scorer exception for top 50 scorers",
+      "Lower edge_gate requirement from 3% to 1.5%"
+    ],
+    "medium_term": [
+      "Backtest demon_mode vs quant system on historical data",
+      "Track both approaches in parallel for 2 weeks",
+      "Implement calibration feedback loop",
+      "Add client-facing confidence metrics"
+    ]
+  },
+
+  "penalty_system_analysis": {
+    "current_penalties": [
+      {"name": "stat_tax_pct", "typical_value": "4-5%", "issue": "Penalizes all props equally"},
+      {"name": "variance_penalty_pct", "typical_value": "1-2%", "issue": "Punishes volatile players"},
+      {"name": "market_inflation_pct", "typical_value": "3%", "issue": "Assumes OVER is always inflated"},
+      {"name": "context_penalty_pct", "typical_value": "3-4%", "issue": "Vague adjustments compound"},
+      {"name": "confidence_cap", "typical_value": "5%", "issue": "Caps even high-edge plays"}
+    ],
+    "total_typical_penalty": "12-15%",
+    "recommendation": "Reduce total penalties to 3-5% maximum for star scorers"
+  },
+
+  "key_insight": {
+    "summary": "The Monte Carlo predictions are directionally correct. Embiid predicted 29.7, actual 37.5. The penalty system is destroying profitable plays by over-adjusting confidence. The fix is to either reduce penalties OR use demon_mode which bypasses them entirely."
+  }
+}

@@ -1,0 +1,144 @@
+╔════════════════════════════════════════════════════════════════════╗
+║          PROFESSIONAL CBB ANALYSIS REPORT                          ║
+║                   COLLEGE BASKETBALL                               ║
+╠════════════════════════════════════════════════════════════════════╣
+║  Generated: 2026-02-18T20:53:18                                  ║
+║  System: UNDERDOG ANALYSIS — Risk-First Quant Engine (Poisson)    ║
+╚════════════════════════════════════════════════════════════════════╝
+
+STAT KEY (college basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made | PRA=PTS+REB+AST | PR=PTS+REB | PA=PTS+AST | RA=REB+AST
+
+======================================================================
+🎯 TOP PLAYS — SLATE LEADERS (ALL TEAMS)
+======================================================================
+
+#   PLAYER                 STAT     DIR      LINE    PROB TIER     TEAM 
+──────────────────────────────────────────────────────────────────────
+1   Kam Woods            PTS+REB+ LOWER   20.5   66.8% LEAN   USC 
+2   Keaton Wagler        POINTS   LOWER   20.5   65.3% LEAN   ILL 
+
+======================================================================
+💡 ACTIONABLE INSIGHTS — QUICK REFERENCE
+======================================================================
+
+🔥 OVERS TO CONSIDER:
+
+🔻 UNDERS TO CONSIDER:
+   • Kam Woods PRA U20.5 [LEAN] (66.8%) — μ=16.3
+   • Keaton Wagler POINTS U20.5 [LEAN] (65.3%) — μ=18.5
+
+======================================================================
+TEAM-BY-TEAM ANALYSIS
+======================================================================
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: ILL          vs USC                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Keaton Wagler        POINTS   LOWER  20.5 — LEAN     (65.3%) [μ=18.5, edge=9.9%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: USC          vs ILL                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Kam Woods            PTS+REB+ LOWER  20.5 — LEAN     (66.8%) [μ=16.3, edge=20.4%]
+
+======================================================================
+📊 STAT CATEGORY BREAKDOWN
+======================================================================
+
+   ASSISTS        1 picks |  0 actionable | avg conf:  46.5%
+   POINTS         1 picks |  1 actionable | avg conf:  65.3%
+   PTS+REB+AST    5 picks |  1 actionable | avg conf:  54.1%
+   REBOUNDS       2 picks |  0 actionable | avg conf:  51.7%
+   TURNOVERS      1 picks |  0 actionable | avg conf:  38.5%
+
+======================================================================
+🔬 DETAILED PICK ANALYSIS — ACTIONABLE PLAYS
+======================================================================
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #1 Kam Woods (USC) vs ILL                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 20.5   |   [LEAN] 66.8%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 16.31 (ESPN)
+      • Confidence: OK
+      • Line: 20.5 | Gap: 20.4% above mean
+      • Z-Score: +2.10
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 66.8%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 66.8%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #2 Keaton Wagler (ILL) vs USC                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 20.5   |   [LEAN] 65.3%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 18.48 (ESPN)
+      • Confidence: OK
+      • Line: 20.5 | Gap: 9.9% above mean
+      • Z-Score: +1.01
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 65.3%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 65.3%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+======================================================================
+SLATE SUMMARY STATISTICS
+======================================================================
+
+Total Props Analyzed: 10
+
+Tier Distribution:
+   SKIP         ████████████████░░░░   8 (80.0%)
+   LEAN         ████░░░░░░░░░░░░░░░░   2 (20.0%)
+
+Direction Bias: 0 OVER / 10 UNDER (0.0% / 100.0%)
+
+======================================================================
+GOVERNANCE & DISCLAIMER
+======================================================================
+
+This report is generated by a risk-first quantitative analysis system.
+CBB uses POISSON probability model with stricter confidence caps than NBA.
+
+CBB-SPECIFIC NOTES:
+• NO SLAM tier available (max tier = STRONG @ 70%)
+• Global cap: 79% (vs NBA 85%)
+• College variance is HIGHER than NBA — expect more swings
+• Conference play has different dynamics than non-conference
+• 'UNKNOWN OPPONENT (NO_KENPOM_OPP)' = opponent/schedule not in KenPom set (non-D1/exhibition/unknown)
+
+RISK MANAGEMENT:
+• Never exceed 2% of bankroll on a single CBB entry
+• Parlays carry exponentially higher variance
+• Past performance does not guarantee future results
+
+For entertainment purposes only. Gamble responsibly.
+
+──────────────────────────────────────────────────────────────────────
+Report ID: CBB_20260218_205318
+System: UNDERDOG ANALYSIS v2.0 — Risk-First Quant Engine (Poisson)
+──────────────────────────────────────────────────────────────────────

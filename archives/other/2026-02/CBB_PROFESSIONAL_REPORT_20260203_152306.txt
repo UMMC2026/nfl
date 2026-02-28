@@ -1,0 +1,2087 @@
+╔════════════════════════════════════════════════════════════════════╗
+║          PROFESSIONAL CBB ANALYSIS REPORT                          ║
+║                   COLLEGE BASKETBALL                               ║
+╠════════════════════════════════════════════════════════════════════╣
+║  Generated: 2026-02-03T15:23:06                                  ║
+║  System: UNDERDOG ANALYSIS — Risk-First Quant Engine (Poisson)    ║
+╚════════════════════════════════════════════════════════════════════╝
+
+STAT KEY (college basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made | PRA=PTS+REB+AST | PR=PTS+REB | PA=PTS+AST | RA=REB+AST
+
+======================================================================
+🎯 TOP PLAYS — SLATE LEADERS (ALL TEAMS)
+======================================================================
+
+#   PLAYER                 STAT     DIR      LINE    PROB TIER     TEAM 
+──────────────────────────────────────────────────────────────────────
+1   Fred Payne           POINTS   LOWER   13.5   75.0% STRONG BC  
+2   AJ Storr             POINTS   LOWER   15.5   75.0% STRONG MISS
+3   Cooper Koch          POINTS   LOWER   16.5   75.0% STRONG IOWA
+4   Cooper Koch          POINTS   LOWER   15.5   75.0% STRONG IOWA
+5   Cooper Koch          POINTS   LOWER   12.5   75.0% STRONG IOWA
+6   Cooper Koch          POINTS   LOWER   11.5   75.0% STRONG IOWA
+7   Cooper Koch          POINTS   LOWER    8.5   75.0% STRONG IOWA
+8   Tarris Reed          POINTS   LOWER   14.5   75.0% STRONG CONN
+9   Solo Ball            POINTS   LOWER   15.5   75.0% STRONG CONN
+10  Ja'Kobi Gillespie    POINTS   LOWER   18.5   75.0% STRONG TENN
+11  Dailyn Swain         POINTS   LOWER   18.5   75.0% STRONG TEX 
+12  Matas Vokietaitis    POINTS   LOWER   14.5   75.0% STRONG TEX 
+13  Tramon Mark          POINTS   LOWER   14.5   75.0% STRONG TEX 
+14  Layden Blocker       POINTS   LOWER   12.5   75.0% STRONG DEP 
+15  Dillon Mitchell      POINTS   LOWER   11.0   75.0% STRONG SJU 
+
+======================================================================
+💡 ACTIONABLE INSIGHTS — QUICK REFERENCE
+======================================================================
+
+🔥 OVERS TO CONSIDER:
+   • Darrion Williams REBOUNDS O5.0 [LEAN] (61.9%) — μ=6.5
+   • Josh Scovens POINTS O11.5 [LEAN] (61.7%) — μ=12.7
+
+🔻 UNDERS TO CONSIDER:
+   • Fred Payne POINTS U13.5 [STRONG] (75.0%) — μ=9.5
+   • AJ Storr POINTS U15.5 [STRONG] (75.0%) — μ=11.3
+   • Cooper Koch POINTS U16.5 [STRONG] (75.0%) — μ=6.1
+   • Cooper Koch POINTS U15.5 [STRONG] (75.0%) — μ=6.1
+   • Cooper Koch POINTS U12.5 [STRONG] (75.0%) — μ=6.1
+   • Cooper Koch POINTS U11.5 [STRONG] (75.0%) — μ=6.1
+   • Cooper Koch POINTS U8.5 [STRONG] (75.0%) — μ=6.1
+
+======================================================================
+TEAM-BY-TEAM ANALYSIS
+======================================================================
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: AFA          vs UNK                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   No actionable edges for this team.
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: BC           vs UNK                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Fred Payne           POINTS   LOWER  13.5 — STRONG   (75.0%) [μ=9.5, edge=29.3%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: BSU          vs NEV                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   No actionable edges for this team.
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: BYU          vs UNK                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Richie Saunders      POINTS   LOWER  20.5 — STRONG   (75.0%) [μ=12.1, edge=40.9%]
+   2) Robert Wright        POINTS   LOWER  18.5 — STRONG   (75.0%) [μ=13.8, edge=25.7%]
+   3) AJ Dybantsa          POINTS   LOWER  25.5 — STRONG   (68.7%) [μ=23.3, edge=8.7%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: CONN         vs XAV                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Tarris Reed          POINTS   LOWER  14.5 — STRONG   (75.0%) [μ=8.3, edge=42.7%]
+   2) Solo Ball            POINTS   LOWER  15.5 — STRONG   (75.0%) [μ=9.9, edge=36.2%]
+   3) Tarris Reed          REBOUNDS LOWER   8.5 — STRONG   (72.0%) [μ=6.3, edge=25.3%]
+   4) Braylon Mullins      POINTS   LOWER  13.5 — STRONG   (71.6%) [μ=11.7, edge=13.6%]
+   5) Silas Demary         ASSISTS  LOWER   7.0 — STRONG   (70.0%) [μ=3.6, edge=48.9%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: DAV          vs SLU                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Josh Scovens         POINTS   HIGHE  11.5 — LEAN     (61.7%) [μ=12.7, edge=10.5%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: DEP          vs SJU                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Layden Blocker       POINTS   LOWER  12.5 — STRONG   (75.0%) [μ=8.2, edge=34.2%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: DUKE         vs BC                                            │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   No actionable edges for this team.
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: FRES         vs UNLV                                          │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Jake Heidbreder      POINTS   LOWER  16.5 — STRONG   (75.0%) [μ=11.2, edge=32.1%]
+   2) DeShawn Gory         POINTS   LOWER  14.5 — STRONG   (75.0%) [μ=11.8, edge=18.6%]
+   3) DeShawn Gory         REBOUNDS LOWER  10.0 — STRONG   (72.0%) [μ=5.9, edge=41.4%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: GC           vs AFA                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   No actionable edges for this team.
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: HOU          vs UCF                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Emanuel Sharp        POINTS   LOWER  17.5 — STRONG   (75.0%) [μ=11.5, edge=34.3%]
+   2) Joseph Tugler        POINTS   LOWER   7.5 — STRONG   (75.0%) [μ=5.5, edge=26.8%]
+   3) Kingston Flemings    POINTS   LOWER  19.5 — STRONG   (73.6%) [μ=17.0, edge=12.8%]
+   4) Milos Uzan           POINTS   LOWER  11.5 — STRONG   (71.9%) [μ=9.8, edge=14.8%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: ILL          vs NW                                            │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Keaton Wagler        POINTS   LOWER  20.5 — STRONG   (75.0%) [μ=17.7, edge=13.8%]
+   2) Keaton Wagler        ASSISTS  LOWER   5.5 — STRONG   (70.0%) [μ=4.2, edge=23.8%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: IND          vs UNK                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Lamar Wilkerson      POINTS   LOWER  19.5 — STRONG   (75.0%) [μ=15.0, edge=23.2%]
+   2) Nick Dorn            POINTS   LOWER  13.5 — STRONG   (74.2%) [μ=11.4, edge=15.5%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: IOWA         vs UNK                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Cooper Koch          POINTS   LOWER  16.5 — STRONG   (75.0%) [μ=6.1, edge=62.8%]
+   2) Cooper Koch          POINTS   LOWER  15.5 — STRONG   (75.0%) [μ=6.1, edge=60.5%]
+   3) Cooper Koch          POINTS   LOWER  12.5 — STRONG   (75.0%) [μ=6.1, edge=51.0%]
+   4) Cooper Koch          POINTS   LOWER  11.5 — STRONG   (75.0%) [μ=6.1, edge=46.7%]
+   5) Cooper Koch          POINTS   LOWER   8.5 — STRONG   (75.0%) [μ=6.1, edge=27.9%]
+   6) Cooper Koch          REBOUNDS LOWER   7.0 — STRONG   (72.0%) [μ=2.9, edge=58.6%]
+   7) Cooper Koch          REBOUNDS LOWER   5.5 — STRONG   (72.0%) [μ=2.9, edge=47.3%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: MISS         vs UNK                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) AJ Storr             POINTS   LOWER  15.5 — STRONG   (75.0%) [μ=11.3, edge=27.3%]
+   2) Malik Dia            REBOUNDS LOWER   6.5 — STRONG   (72.0%) [μ=5.2, edge=20.8%]
+   3) AJ Storr             REBOUNDS LOWER   4.0 — STRONG   (69.8%) [μ=2.7, edge=32.2%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: NCST         vs UNK                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Darrion Williams     POINTS   LOWER  15.5 — STRONG   (75.0%) [μ=12.0, edge=22.8%]
+   2) Quadir Copeland      POINTS   LOWER  14.5 — STRONG   (75.0%) [μ=9.0, edge=38.1%]
+   3) Ven-Allen Lubin      POINTS   LOWER  12.5 — STRONG   (75.0%) [μ=9.8, edge=21.2%]
+   4) Ven-Allen Lubin      REBOUNDS LOWER   7.5 — STRONG   (72.0%) [μ=5.7, edge=23.7%]
+   5) Quadir Copeland      ASSISTS  LOWER   7.5 — STRONG   (70.0%) [μ=3.6, edge=51.3%]
+   6) Darrion Williams     3-POINTE LOWER   2.5 — LEAN     (65.0%) [μ=1.4, edge=42.0%]
+   7) Darrion Williams     REBOUNDS HIGHE   5.0 — LEAN     (61.9%) [μ=6.5, edge=30.0%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: NEV          vs UNK                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Corey Camper         POINTS   LOWER  16.5 — STRONG   (75.0%) [μ=11.0, edge=33.1%]
+   2) Corey Camper         REBOUNDS LOWER   5.0 — STRONG   (72.0%) [μ=3.4, edge=33.0%]
+   3) Elijah Price         POINTS   LOWER  12.5 — LEAN     (65.2%) [μ=11.3, edge=9.4%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: OKST         vs BYU                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Anthony Roy          POINTS   LOWER  17.5 — STRONG   (75.0%) [μ=15.0, edge=14.4%]
+   2) Parsa Fallah         POINTS   LOWER  13.5 — STRONG   (75.0%) [μ=10.3, edge=23.9%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: PITT         vs UNK                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Barry Dunning        POINTS   LOWER  11.5 — STRONG   (75.0%) [μ=9.0, edge=21.4%]
+   2) Barry Dunning        REBOUNDS LOWER   5.5 — STRONG   (71.3%) [μ=4.3, edge=20.9%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: RUTG         vs UNK                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Jamichael Davis      POINTS   LOWER   7.5 — STRONG   (75.0%) [μ=5.7, edge=23.5%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: SBON         vs UNK                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   No actionable edges for this team.
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: SCAR         vs UNK                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   No actionable edges for this team.
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: SDSU         vs WYO                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Miles Byrd           POINTS   LOWER  12.5 — STRONG   (75.0%) [μ=8.4, edge=32.6%]
+   2) Reese Dixon-Waters   POINTS   LOWER  14.0 — STRONG   (69.2%) [μ=11.9, edge=15.0%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: SJU          vs UNK                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Dillon Mitchell      POINTS   LOWER  11.0 — STRONG   (75.0%) [μ=8.2, edge=25.8%]
+   2) Bryce Hopkins        POINTS   LOWER  13.5 — STRONG   (73.9%) [μ=11.4, edge=15.3%]
+   3) Dillon Mitchell      REBOUNDS LOWER   8.5 — STRONG   (72.0%) [μ=6.2, edge=27.3%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: SLU          vs UNK                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   No actionable edges for this team.
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: SMU          vs NCST                                          │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Boopie Miller        POINTS   LOWER  18.5 — STRONG   (75.0%) [μ=15.1, edge=18.2%]
+   2) B.J. Edwards         POINTS   LOWER  13.5 — STRONG   (75.0%) [μ=7.6, edge=43.9%]
+   3) B.J. Edwards         REBOUNDS LOWER   6.5 — STRONG   (72.0%) [μ=3.9, edge=40.3%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: TENN         vs MISS                                          │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Ja'Kobi Gillespie    POINTS   LOWER  18.5 — STRONG   (75.0%) [μ=14.5, edge=21.4%]
+   2) Nate Ament           POINTS   LOWER  17.5 — LEAN     (63.1%) [μ=16.3, edge=6.9%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: TEX          vs SCAR                                          │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Dailyn Swain         POINTS   LOWER  18.5 — STRONG   (75.0%) [μ=10.5, edge=43.4%]
+   2) Matas Vokietaitis    POINTS   LOWER  14.5 — STRONG   (75.0%) [μ=12.1, edge=16.9%]
+   3) Tramon Mark          POINTS   LOWER  14.5 — STRONG   (75.0%) [μ=11.3, edge=21.8%]
+   4) Dailyn Swain         REBOUNDS LOWER   7.5 — STRONG   (72.0%) [μ=5.1, edge=32.3%]
+   5) Dailyn Swain         ASSISTS  LOWER   4.0 — STRONG   (70.0%) [μ=2.4, edge=41.2%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: UCF          vs UNK                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Riley Kugel          POINTS   LOWER  13.5 — STRONG   (75.0%) [μ=10.4, edge=23.0%]
+   2) Themus Fulks         POINTS   LOWER  12.5 — LEAN     (65.3%) [μ=11.3, edge=9.4%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: UCLA         vs RUTG                                          │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Tyler Bilodeau       POINTS   LOWER  17.5 — STRONG   (75.0%) [μ=12.8, edge=27.1%]
+   2) Eric Dailey          REBOUNDS LOWER   7.0 — STRONG   (72.0%) [μ=4.8, edge=31.7%]
+   3) Tyler Bilodeau       REBOUNDS LOWER   7.0 — STRONG   (72.0%) [μ=4.9, edge=30.4%]
+   4) Donovan Dent         ASSISTS  LOWER   6.5 — STRONG   (70.0%) [μ=5.1, edge=21.7%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: UNLV         vs UNK                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Howie Fleming        POINTS   LOWER   9.5 — STRONG   (75.0%) [μ=7.7, edge=19.3%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: USC          vs IND                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Chad Baker-Mazara    POINTS   LOWER  17.5 — STRONG   (75.0%) [μ=11.2, edge=36.3%]
+   2) Ezra Ausar           POINTS   LOWER  14.5 — STRONG   (75.0%) [μ=12.1, edge=16.3%]
+   3) Jacob Cofie          POINTS   LOWER  10.5 — STRONG   (75.0%) [μ=8.3, edge=21.3%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: UVA          vs PITT                                          │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Malik Thomas         POINTS   LOWER  13.5 — STRONG   (73.4%) [μ=11.5, edge=14.9%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: VCU          vs UNK                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   No actionable edges for this team.
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: WYO          vs UNK                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Leland Walker        POINTS   LOWER  14.5 — STRONG   (75.0%) [μ=11.9, edge=18.1%]
+   2) Khaden Bennett       POINTS   LOWER   9.5 — STRONG   (70.1%) [μ=8.1, edge=14.4%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: XAV          vs UNK                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   No actionable edges for this team.
+
+======================================================================
+📊 STAT CATEGORY BREAKDOWN
+======================================================================
+
+   3-POINTERS    98 picks |  1 actionable | avg conf:  28.4%
+   ASSISTS       85 picks |  6 actionable | avg conf:  33.6%
+   POINTS       107 picks | 55 actionable | avg conf:  65.5%
+   PTS+REB+AST  108 picks |  0 actionable | avg conf:  67.2%
+   REB+AST       92 picks |  0 actionable | avg conf:  44.7%
+   REBOUNDS     109 picks | 15 actionable | avg conf:  49.2%
+
+======================================================================
+🔬 DETAILED PICK ANALYSIS — ACTIONABLE PLAYS
+======================================================================
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #1 Fred Payne (BC) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 13.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 9.54 (ESPN)
+      • Confidence: OK
+      • Line: 13.5 | Gap: 29.3% above mean
+      • Z-Score: +1.98
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 89.6%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #2 AJ Storr (MISS) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 15.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.27 (ESPN)
+      • Confidence: OK
+      • Line: 15.5 | Gap: 27.3% above mean
+      • Z-Score: +2.12
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 89.2%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #3 Cooper Koch (IOWA) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 16.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 6.13 (ESPN)
+      • Confidence: OK
+      • Line: 16.5 | Gap: 62.8% above mean
+      • Z-Score: +5.19
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 100.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #4 Cooper Koch (IOWA) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 15.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 6.13 (ESPN)
+      • Confidence: OK
+      • Line: 15.5 | Gap: 60.5% above mean
+      • Z-Score: +4.69
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 99.9%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #5 Cooper Koch (IOWA) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 12.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 6.13 (ESPN)
+      • Confidence: OK
+      • Line: 12.5 | Gap: 51.0% above mean
+      • Z-Score: +3.19
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 99.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #6 Cooper Koch (IOWA) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 11.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 6.13 (ESPN)
+      • Confidence: OK
+      • Line: 11.5 | Gap: 46.7% above mean
+      • Z-Score: +2.69
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 97.7%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #7 Cooper Koch (IOWA) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 8.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 6.13 (ESPN)
+      • Confidence: OK
+      • Line: 8.5 | Gap: 27.9% above mean
+      • Z-Score: +1.19
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 83.4%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #8 Tarris Reed (CONN) vs XAV                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 14.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 8.31 (ESPN)
+      • Confidence: OK
+      • Line: 14.5 | Gap: 42.7% above mean
+      • Z-Score: +3.09
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 97.7%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #9 Solo Ball (CONN) vs XAV                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 15.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 9.89 (ESPN)
+      • Confidence: OK
+      • Line: 15.5 | Gap: 36.2% above mean
+      • Z-Score: +2.80
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 95.5%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #10 Ja'Kobi Gillespie (TENN) vs MISS                                      │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 18.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 14.54 (ESPN)
+      • Confidence: OK
+      • Line: 18.5 | Gap: 21.4% above mean
+      • Z-Score: +1.98
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 85.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #11 Dailyn Swain (TEX) vs SCAR                                      │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 18.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 10.48 (ESPN)
+      • Confidence: OK
+      • Line: 18.5 | Gap: 43.4% above mean
+      • Z-Score: +4.01
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 98.9%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #12 Matas Vokietaitis (TEX) vs SCAR                                      │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 14.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 12.05 (ESPN)
+      • Confidence: OK
+      • Line: 14.5 | Gap: 16.9% above mean
+      • Z-Score: +1.22
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 76.7%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #13 Tramon Mark (TEX) vs SCAR                                      │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 14.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.34 (ESPN)
+      • Confidence: OK
+      • Line: 14.5 | Gap: 21.8% above mean
+      • Z-Score: +1.58
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 82.9%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #14 Layden Blocker (DEP) vs SJU                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 12.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 8.22 (ESPN)
+      • Confidence: OK
+      • Line: 12.5 | Gap: 34.2% above mean
+      • Z-Score: +2.14
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 92.5%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #15 Dillon Mitchell (SJU) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 11.0   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 8.16 (ESPN)
+      • Confidence: OK
+      • Line: 11.0 | Gap: 25.8% above mean
+      • Z-Score: +1.42
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 80.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #16 Corey Camper (NEV) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 16.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.04 (ESPN)
+      • Confidence: OK
+      • Line: 16.5 | Gap: 33.1% above mean
+      • Z-Score: +2.73
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 94.3%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #17 Darrion Williams (NCST) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 15.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.97 (ESPN)
+      • Confidence: OK
+      • Line: 15.5 | Gap: 22.8% above mean
+      • Z-Score: +1.76
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 84.7%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #18 Boopie Miller (SMU) vs NCST                                      │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 18.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 15.13 (ESPN)
+      • Confidence: OK
+      • Line: 18.5 | Gap: 18.2% above mean
+      • Z-Score: +1.68
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 81.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #19 Quadir Copeland (NCST) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 14.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 8.98 (ESPN)
+      • Confidence: OK
+      • Line: 14.5 | Gap: 38.1% above mean
+      • Z-Score: +2.76
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 95.9%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #20 Ven-Allen Lubin (NCST) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 12.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 9.85 (ESPN)
+      • Confidence: OK
+      • Line: 12.5 | Gap: 21.2% above mean
+      • Z-Score: +1.33
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 80.6%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #21 B.J. Edwards (SMU) vs NCST                                      │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 13.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 7.58 (ESPN)
+      • Confidence: OK
+      • Line: 13.5 | Gap: 43.9% above mean
+      • Z-Score: +2.96
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 97.7%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #22 Barry Dunning (PITT) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 11.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 9.04 (ESPN)
+      • Confidence: OK
+      • Line: 11.5 | Gap: 21.4% above mean
+      • Z-Score: +1.23
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 80.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #23 Tyler Bilodeau (UCLA) vs RUTG                                      │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 17.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 12.76 (ESPN)
+      • Confidence: OK
+      • Line: 17.5 | Gap: 27.1% above mean
+      • Z-Score: +2.37
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 90.3%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #24 Jamichael Davis (RUTG) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 7.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 5.74 (ESPN)
+      • Confidence: OK
+      • Line: 7.5 | Gap: 23.5% above mean
+      • Z-Score: +0.88
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 77.9%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #25 Lamar Wilkerson (IND) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 19.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 14.97 (ESPN)
+      • Confidence: OK
+      • Line: 19.5 | Gap: 23.2% above mean
+      • Z-Score: +2.26
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 87.7%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #26 Chad Baker-Mazara (USC) vs IND                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 17.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.15 (ESPN)
+      • Confidence: OK
+      • Line: 17.5 | Gap: 36.3% above mean
+      • Z-Score: +3.17
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 96.4%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #27 Ezra Ausar (USC) vs IND                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 14.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 12.14 (ESPN)
+      • Confidence: OK
+      • Line: 14.5 | Gap: 16.3% above mean
+      • Z-Score: +1.18
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 76.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #28 Jacob Cofie (USC) vs IND                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 10.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 8.26 (ESPN)
+      • Confidence: OK
+      • Line: 10.5 | Gap: 21.3% above mean
+      • Z-Score: +1.12
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 78.9%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #29 Jake Heidbreder (FRES) vs UNLV                                      │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 16.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.20 (ESPN)
+      • Confidence: OK
+      • Line: 16.5 | Gap: 32.1% above mean
+      • Z-Score: +2.65
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 93.6%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #30 DeShawn Gory (FRES) vs UNLV                                      │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 14.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.81 (ESPN)
+      • Confidence: OK
+      • Line: 14.5 | Gap: 18.6% above mean
+      • Z-Score: +1.34
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 78.9%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #31 Howie Fleming (UNLV) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 9.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 7.67 (ESPN)
+      • Confidence: OK
+      • Line: 9.5 | Gap: 19.3% above mean
+      • Z-Score: +0.92
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.7%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #32 Leland Walker (WYO) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 14.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.88 (ESPN)
+      • Confidence: OK
+      • Line: 14.5 | Gap: 18.1% above mean
+      • Z-Score: +1.31
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 78.3%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #33 Miles Byrd (SDSU) vs WYO                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 12.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 8.42 (ESPN)
+      • Confidence: OK
+      • Line: 12.5 | Gap: 32.6% above mean
+      • Z-Score: +2.04
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 91.4%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #34 Emanuel Sharp (HOU) vs UCF                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 17.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.50 (ESPN)
+      • Confidence: OK
+      • Line: 17.5 | Gap: 34.3% above mean
+      • Z-Score: +3.00
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 95.4%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #35 Riley Kugel (UCF) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 13.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 10.39 (ESPN)
+      • Confidence: OK
+      • Line: 13.5 | Gap: 23.0% above mean
+      • Z-Score: +1.55
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 83.4%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #36 Joseph Tugler (HOU) vs UCF                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 7.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 5.49 (ESPN)
+      • Confidence: OK
+      • Line: 7.5 | Gap: 26.8% above mean
+      • Z-Score: +1.00
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 81.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #37 Richie Saunders (BYU) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 20.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 12.11 (ESPN)
+      • Confidence: OK
+      • Line: 20.5 | Gap: 40.9% above mean
+      • Z-Score: +4.20
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 98.7%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #38 Robert Wright (BYU) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 18.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 13.75 (ESPN)
+      • Confidence: OK
+      • Line: 18.5 | Gap: 25.7% above mean
+      • Z-Score: +2.38
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 89.6%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #39 Anthony Roy (OKST) vs BYU                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 17.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 14.98 (ESPN)
+      • Confidence: OK
+      • Line: 17.5 | Gap: 14.4% above mean
+      • Z-Score: +1.26
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #40 Parsa Fallah (OKST) vs BYU                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 13.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 10.27 (ESPN)
+      • Confidence: OK
+      • Line: 13.5 | Gap: 23.9% above mean
+      • Z-Score: +1.62
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 84.4%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #41 Keaton Wagler (ILL) vs NW                                        │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 20.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 17.67 (ESPN)
+      • Confidence: OK
+      • Line: 20.5 | Gap: 13.8% above mean
+      • Z-Score: +1.41
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.7%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #42 Nick Dorn (IND) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 13.5   |   [STRONG] 74.2%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.41 (ESPN)
+      • Confidence: OK
+      • Line: 13.5 | Gap: 15.5% above mean
+      • Z-Score: +1.04
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 74.2%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 74.2%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #43 Bryce Hopkins (SJU) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 13.5   |   [STRONG] 73.9%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.44 (ESPN)
+      • Confidence: OK
+      • Line: 13.5 | Gap: 15.3% above mean
+      • Z-Score: +1.03
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 73.9%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 73.9%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #44 Kingston Flemings (HOU) vs UCF                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 19.5   |   [STRONG] 73.6%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 17.00 (ESPN)
+      • Confidence: OK
+      • Line: 19.5 | Gap: 12.8% above mean
+      • Z-Score: +1.25
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 73.6%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 73.6%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #45 Malik Thomas (UVA) vs PITT                                      │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 13.5   |   [STRONG] 73.4%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.49 (ESPN)
+      • Confidence: OK
+      • Line: 13.5 | Gap: 14.9% above mean
+      • Z-Score: +1.00
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 73.4%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 73.4%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #46 Cooper Koch (IOWA) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REBOUNDS UNDER 7.0   |   [STRONG] 72.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 2.90 (ESPN)
+      • Confidence: OK
+      • Line: 7.0 | Gap: 58.6% above mean
+      • Z-Score: +2.05
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 97.1%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 72.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+      • Notes: CV_PENALTY:90%
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #47 Cooper Koch (IOWA) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REBOUNDS UNDER 5.5   |   [STRONG] 72.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 2.90 (ESPN)
+      • Confidence: OK
+      • Line: 5.5 | Gap: 47.3% above mean
+      • Z-Score: +1.30
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 92.6%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 72.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+      • Notes: CV_PENALTY:90%
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #48 Tarris Reed (CONN) vs XAV                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REBOUNDS UNDER 8.5   |   [STRONG] 72.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 6.35 (ESPN)
+      • Confidence: OK
+      • Line: 8.5 | Gap: 25.3% above mean
+      • Z-Score: +1.08
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 80.9%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 72.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #49 Malik Dia (MISS) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REBOUNDS UNDER 6.5   |   [STRONG] 72.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 5.15 (ESPN)
+      • Confidence: OK
+      • Line: 6.5 | Gap: 20.8% above mean
+      • Z-Score: +0.67
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 73.9%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 72.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #50 Dailyn Swain (TEX) vs SCAR                                      │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REBOUNDS UNDER 7.5   |   [STRONG] 72.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 5.08 (ESPN)
+      • Confidence: OK
+      • Line: 7.5 | Gap: 32.3% above mean
+      • Z-Score: +1.21
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 85.8%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 72.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #51 Dillon Mitchell (SJU) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REBOUNDS UNDER 8.5   |   [STRONG] 72.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 6.18 (ESPN)
+      • Confidence: OK
+      • Line: 8.5 | Gap: 27.3% above mean
+      • Z-Score: +1.16
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 82.8%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 72.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #52 Corey Camper (NEV) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REBOUNDS UNDER 5.0   |   [STRONG] 72.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 3.35 (ESPN)
+      • Confidence: OK
+      • Line: 5.0 | Gap: 33.0% above mean
+      • Z-Score: +0.82
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.4%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 72.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #53 Ven-Allen Lubin (NCST) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REBOUNDS UNDER 7.5   |   [STRONG] 72.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 5.72 (ESPN)
+      • Confidence: OK
+      • Line: 7.5 | Gap: 23.7% above mean
+      • Z-Score: +0.89
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 78.2%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 72.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #54 B.J. Edwards (SMU) vs NCST                                      │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REBOUNDS UNDER 6.5   |   [STRONG] 72.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 3.88 (ESPN)
+      • Confidence: OK
+      • Line: 6.5 | Gap: 40.3% above mean
+      • Z-Score: +1.31
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 90.1%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 72.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #55 Eric Dailey (UCLA) vs RUTG                                      │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REBOUNDS UNDER 7.0   |   [STRONG] 72.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 4.78 (ESPN)
+      • Confidence: OK
+      • Line: 7.0 | Gap: 31.7% above mean
+      • Z-Score: +1.11
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 79.4%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 72.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #56 Tyler Bilodeau (UCLA) vs RUTG                                      │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REBOUNDS UNDER 7.0   |   [STRONG] 72.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 4.87 (ESPN)
+      • Confidence: OK
+      • Line: 7.0 | Gap: 30.4% above mean
+      • Z-Score: +1.06
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 78.1%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 72.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #57 DeShawn Gory (FRES) vs UNLV                                      │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REBOUNDS UNDER 10.0   |   [STRONG] 72.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 5.86 (ESPN)
+      • Confidence: OK
+      • Line: 10.0 | Gap: 41.4% above mean
+      • Z-Score: +2.07
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 92.6%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 72.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #58 Milos Uzan (HOU) vs UCF                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 11.5   |   [STRONG] 71.9%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 9.80 (ESPN)
+      • Confidence: OK
+      • Line: 11.5 | Gap: 14.8% above mean
+      • Z-Score: +0.85
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 71.9%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 71.9%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #59 Braylon Mullins (CONN) vs XAV                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 13.5   |   [STRONG] 71.6%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.67 (ESPN)
+      • Confidence: OK
+      • Line: 13.5 | Gap: 13.6% above mean
+      • Z-Score: +0.92
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 71.6%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 71.6%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #60 Barry Dunning (PITT) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REBOUNDS UNDER 5.5   |   [STRONG] 71.3%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 4.35 (ESPN)
+      • Confidence: OK
+      • Line: 5.5 | Gap: 20.9% above mean
+      • Z-Score: +0.58
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 72.8%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Final Probability: 71.3%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #61 Khaden Bennett (WYO) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 9.5   |   [STRONG] 70.1%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 8.13 (ESPN)
+      • Confidence: OK
+      • Line: 9.5 | Gap: 14.4% above mean
+      • Z-Score: +0.68
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 70.1%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 70.1%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #62 Cooper Koch (IOWA) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ ASSISTS UNDER 5.5   |   [STRONG] 70.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 0.97 (ESPN)
+      • Confidence: OK
+      • Line: 5.5 | Gap: 82.4% above mean
+      • Z-Score: +2.27
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 99.9%
+      • Stat Cap: 70% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 70.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+      • Notes: CV_PENALTY:65%
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #63 Silas Demary (CONN) vs XAV                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ ASSISTS UNDER 7.0   |   [STRONG] 70.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 3.58 (ESPN)
+      • Confidence: OK
+      • Line: 7.0 | Gap: 48.9% above mean
+      • Z-Score: +1.71
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 92.9%
+      • Stat Cap: 70% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 70.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #64 Dailyn Swain (TEX) vs SCAR                                      │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ ASSISTS UNDER 4.0   |   [STRONG] 70.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 2.35 (ESPN)
+      • Confidence: OK
+      • Line: 4.0 | Gap: 41.2% above mean
+      • Z-Score: +0.82
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 78.8%
+      • Stat Cap: 70% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 70.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+      • Notes: CV_PENALTY:80%
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #65 Quadir Copeland (NCST) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ ASSISTS UNDER 7.5   |   [STRONG] 70.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 3.65 (ESPN)
+      • Confidence: OK
+      • Line: 7.5 | Gap: 51.3% above mean
+      • Z-Score: +1.93
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 96.7%
+      • Stat Cap: 70% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 70.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #66 Donovan Dent (UCLA) vs RUTG                                      │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ ASSISTS UNDER 6.5   |   [STRONG] 70.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 5.09 (ESPN)
+      • Confidence: OK
+      • Line: 6.5 | Gap: 21.7% above mean
+      • Z-Score: +0.71
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 74.9%
+      • Stat Cap: 70% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 70.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #67 Keaton Wagler (ILL) vs NW                                        │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ ASSISTS UNDER 5.5   |   [STRONG] 70.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 4.19 (ESPN)
+      • Confidence: OK
+      • Line: 5.5 | Gap: 23.8% above mean
+      • Z-Score: +0.65
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.5%
+      • Stat Cap: 70% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 70.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #68 AJ Storr (MISS) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REBOUNDS UNDER 4.0   |   [STRONG] 69.8%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 2.71 (ESPN)
+      • Confidence: OK
+      • Line: 4.0 | Gap: 32.2% above mean
+      • Z-Score: +0.65
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 71.2%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Final Probability: 69.8%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+      • Notes: CV_PENALTY:90%
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #69 Reese Dixon-Waters (SDSU) vs WYO                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 14.0   |   [STRONG] 69.2%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.90 (ESPN)
+      • Confidence: OK
+      • Line: 14.0 | Gap: 15.0% above mean
+      • Z-Score: +1.05
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 69.2%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 69.2%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #70 AJ Dybantsa (BYU) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 25.5   |   [STRONG] 68.7%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 23.29 (ESPN)
+      • Confidence: OK
+      • Line: 25.5 | Gap: 8.7% above mean
+      • Z-Score: +1.11
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 68.7%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 68.7%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #71 Bennett Stirtz (IOWA) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 20.5   |   [LEAN] 65.3%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 18.93 (ESPN)
+      • Confidence: OK
+      • Line: 20.5 | Gap: 7.7% above mean
+      • Z-Score: +0.79
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 65.3%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 65.3%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #72 Themus Fulks (UCF) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 12.5   |   [LEAN] 65.3%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.33 (ESPN)
+      • Confidence: OK
+      • Line: 12.5 | Gap: 9.4% above mean
+      • Z-Score: +0.58
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 65.3%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 65.3%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #73 Elijah Price (NEV) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 12.5   |   [LEAN] 65.2%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.33 (ESPN)
+      • Confidence: OK
+      • Line: 12.5 | Gap: 9.4% above mean
+      • Z-Score: +0.58
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 65.2%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 65.2%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #74 Darrion Williams (NCST) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ 3PM UNDER 2.5   |   [LEAN] 65.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 1.45 (ESPN)
+      • Confidence: OK
+      • Line: 2.5 | Gap: 42.0% above mean
+      • Z-Score: +0.53
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 82.2%
+      • Stat Cap: 65% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 65.0%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+      • Notes: CV_PENALTY:65%
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #75 Nate Ament (TENN) vs MISS                                      │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 17.5   |   [LEAN] 63.1%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 16.30 (ESPN)
+      • Confidence: OK
+      • Line: 17.5 | Gap: 6.9% above mean
+      • Z-Score: +0.60
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 63.1%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 63.1%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #76 Darrion Williams (NCST) vs UNK                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▲ REBOUNDS OVER 5.0   |   [LEAN] 61.9%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 6.50 (ESPN)
+      • Confidence: UNVERIFIED
+      • Line: 5.0 | Gap: 30.0% below mean
+      • Z-Score: -0.75
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 63.2%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Final Probability: 61.9%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #77 Josh Scovens (DAV) vs SLU                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▲ POINTS OVER 11.5   |   [LEAN] 61.7%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 12.71 (ESPN)
+      • Confidence: UNVERIFIED
+      • Line: 11.5 | Gap: 10.5% below mean
+      • Z-Score: -0.61
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 61.6%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 61.7%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+======================================================================
+SLATE SUMMARY STATISTICS
+======================================================================
+
+Total Props Analyzed: 599
+
+Tier Distribution:
+   SKIP         █████████████████░░░ 522 (87.1%)
+   STRONG       ██░░░░░░░░░░░░░░░░░░  70 (11.7%)
+   LEAN         ░░░░░░░░░░░░░░░░░░░░   7 (1.2%)
+
+Direction Bias: 300 OVER / 299 UNDER (50.1% / 49.9%)
+
+======================================================================
+🎲 PARLAY CONSTRUCTION GUIDE
+======================================================================
+
+DIVERSIFICATION POOLS:
+   3-POINTERS    1 picks (best: Darrion Williams)
+   ASSISTS       6 picks (best: Cooper Koch)
+   POINTS       55 picks (best: Fred Payne)
+   REBOUNDS     15 picks (best: Cooper Koch)
+
+SAMPLE 3-LEG POWER PLAY:
+   (select from different stats for diversification)
+   1. Fred Payne POINTS UNDER 13.5 (75.0%)
+   2. AJ Storr POINTS UNDER 15.5 (75.0%)
+   3. Cooper Koch POINTS UNDER 16.5 (75.0%)
+
+   Combined probability: 42.2%
+   3-leg POWER payout: 6x
+   Expected value: +1.53 units
+
+======================================================================
+GOVERNANCE & DISCLAIMER
+======================================================================
+
+This report is generated by a risk-first quantitative analysis system.
+CBB uses POISSON probability model with stricter confidence caps than NBA.
+
+CBB-SPECIFIC NOTES:
+• NO SLAM tier available (max tier = STRONG @ 70%)
+• Global cap: 79% (vs NBA 85%)
+• College variance is HIGHER than NBA — expect more swings
+• Conference play has different dynamics than non-conference
+
+RISK MANAGEMENT:
+• Never exceed 2% of bankroll on a single CBB entry
+• Parlays carry exponentially higher variance
+• Past performance does not guarantee future results
+
+For entertainment purposes only. Gamble responsibly.
+
+──────────────────────────────────────────────────────────────────────
+Report ID: CBB_20260203_152306
+System: UNDERDOG ANALYSIS v2.0 — Risk-First Quant Engine (Poisson)
+──────────────────────────────────────────────────────────────────────

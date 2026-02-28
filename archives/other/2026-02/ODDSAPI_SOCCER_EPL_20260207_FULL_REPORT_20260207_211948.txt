@@ -1,0 +1,316 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                       UNDERDOG FANTASY PROPS ANALYZER                        ║
+║                       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━                        ║
+║               DAILY SLATE REPORT: ODDSAPI_SOCCER_EPL_20260207                ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  Report Date:    February 07, 2026
+  Generated At:   09:19 PM
+  Data Source:    ODDSAPI_SOCCER_EPL_20260207_RISK_FIRST_20260207_FROM_UD.json
+  Lens: UNDER-first enabled; Failure Lens enabled
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  ⚠️  DEFENSIVE MODE ACTIVE                                                   │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  Slate Quality: 80/100 (B)                                                   │
+│                                                                              │
+│  Drivers:                                                                    │
+│    • Low directional clarity (0.0% ≥55%)                                     │
+│                                                                              │
+│  Action:                                                                     │
+│    • Max tier allowed: STRONG                                                │
+│    • Capital deployment minimized                                            │
+│    • NO PLAY dominance expected                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  EXECUTIVE SUMMARY                                                           │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  Total Props Analyzed:  18            Actionable Plays:  0                   │
+│  ✓ PLAY Tier:           0             ○ LEAN Tier:        0                  │
+│  Directional Bias:      0 UNDERs / 0 OVERs                                   │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  DECISION GOVERNANCE                                                         │
+│  ✅ OPTIMIZABLE: 0       ⚠️ VETTED: 0       ❌ REJECTED: 18                    │
+│  ⚠️  No OPTIMIZABLE picks — Monte Carlo cannot build entries                 │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+
+════════════════════════════════════════════════════════════════════════════════
+  ⏭️ SKIP (18)
+  Blocked by governance gates or data quality issues
+════════════════════════════════════════════════════════════════════════════════
+
+  ┌─ #1 ────────────────────────────────────────────────────────────
+  │  Mohamed Salah (UNK)
+  │  SHOTS OVER 2.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 2.5, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #2 ────────────────────────────────────────────────────────────
+  │  Mohamed Salah (UNK)
+  │  SHOTS UNDER 2.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 2.5, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #3 ────────────────────────────────────────────────────────────
+  │  Danny Welbeck (?)
+  │  SHOTS ? 2.0
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 2.0, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #4 ────────────────────────────────────────────────────────────
+  │  Danny Welbeck (?)
+  │  SHOTS ? 2.0
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 2.0, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #5 ────────────────────────────────────────────────────────────
+  │  Kaoru Mitoma (?)
+  │  SHOTS ? 1.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 1.5, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #6 ────────────────────────────────────────────────────────────
+  │  Kaoru Mitoma (?)
+  │  SHOTS ? 1.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 1.5, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #7 ────────────────────────────────────────────────────────────
+  │  Yankuba Minteh (?)
+  │  SHOTS ? 1.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 1.5, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #8 ────────────────────────────────────────────────────────────
+  │  Yankuba Minteh (?)
+  │  SHOTS ? 1.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 1.5, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #9 ────────────────────────────────────────────────────────────
+  │  Erling Braut Haaland (?)
+  │  SHOTS ? 3.0
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 3.0, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #10 ────────────────────────────────────────────────────────────
+  │  Erling Braut Haaland (?)
+  │  SHOTS ? 3.0
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 3.0, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #11 ────────────────────────────────────────────────────────────
+  │  Virgil van Dijk (?)
+  │  SHOTS ? 0.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 0.5, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #12 ────────────────────────────────────────────────────────────
+  │  Virgil van Dijk (?)
+  │  SHOTS ? 0.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 0.5, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #13 ────────────────────────────────────────────────────────────
+  │  Cody Gakpo (?)
+  │  SHOTS_ON_TARGET ? 0.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 0.5, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #14 ────────────────────────────────────────────────────────────
+  │  Cody Gakpo (?)
+  │  SHOTS_ON_TARGET ? 0.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 0.5, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #15 ────────────────────────────────────────────────────────────
+  │  Florian Wirtz (?)
+  │  SHOTS_ON_TARGET ? 0.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 0.5, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #16 ────────────────────────────────────────────────────────────
+  │  Florian Wirtz (?)
+  │  SHOTS_ON_TARGET ? 0.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 0.5, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #17 ────────────────────────────────────────────────────────────
+  │  Rayan Cherki (?)
+  │  SHOTS_ON_TARGET ? 0.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 0.5, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #18 ────────────────────────────────────────────────────────────
+  │  Rayan Cherki (?)
+  │  SHOTS_ON_TARGET ? 0.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 0.5, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+════════════════════════════════════════════════════════════════════════════════

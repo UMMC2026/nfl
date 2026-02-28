@@ -1,0 +1,192 @@
+{
+  "schema_version": "governance_artifacts.v1",
+  "created_at_utc": "2026-02-17T07:55:32.926038+00:00",
+  "slug": "SOCCER_SCRAPED",
+  "stamp": "20260217",
+  "pipeline_steps_executed": [
+    "raw_txt (inputs/*.txt)",
+    "parse_underdog_slate -> parsed JSON",
+    "risk_first_analyzer.analyze_slate (probability + gates + context gates)",
+    "export: governance_config.json",
+    "export: allowed_edges.json",
+    "export: blocked_edges.json"
+  ],
+  "counts": {
+    "total_results": 34,
+    "allowed_edges": 15,
+    "blocked_edges": 19
+  },
+  "run_settings": {},
+  "source": {
+    "mode": "playwright",
+    "props_latest": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\outputs\\props_latest.json"
+  },
+  "by_player": [
+    {
+      "player": "Anatoliy Trubin",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Kenan Yildiz",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "goals",
+        "goals_assists",
+        "shots",
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots": "pick_state=VETTED",
+        "shots_on_target": "pick_state=VETTED",
+        "goals_assists": "pick_state=REJECTED",
+        "goals": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Kylian Mbappe",
+      "team": "Real Madrid",
+      "opponent": "",
+      "allowed_stats": [
+        "goals_assists",
+        "shots"
+      ],
+      "blocked_stats": [
+        "goals",
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots_on_target": "pick_state=REJECTED",
+        "goals": "pick_state=REJECTED"
+      },
+      "prediction_allowed": true
+    },
+    {
+      "player": "Michele Di Gregorio",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Ousmane Dembele",
+      "team": "PSG",
+      "opponent": "",
+      "allowed_stats": [
+        "assists",
+        "goals",
+        "shots",
+        "shots_on_target"
+      ],
+      "blocked_stats": [
+        "goals_assists"
+      ],
+      "block_reasons": {
+        "goals_assists": "pick_state=REJECTED"
+      },
+      "prediction_allowed": true
+    },
+    {
+      "player": "Serhou Guirassy",
+      "team": "Borussia Dortmund",
+      "opponent": "",
+      "allowed_stats": [
+        "goals",
+        "shots",
+        "shots_on_target"
+      ],
+      "blocked_stats": [
+        "goals_assists"
+      ],
+      "block_reasons": {
+        "goals_assists": "pick_state=REJECTED"
+      },
+      "prediction_allowed": true
+    },
+    {
+      "player": "Thibaut Courtois",
+      "team": "Real Madrid",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "saves"
+      ],
+      "block_reasons": {
+        "saves": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Victor Osimhen",
+      "team": "Napoli",
+      "opponent": "",
+      "allowed_stats": [
+        "goals_assists"
+      ],
+      "blocked_stats": [
+        "goals",
+        "shots",
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots": "pick_state=REJECTED",
+        "shots_on_target": "pick_state=REJECTED",
+        "goals": "pick_state=REJECTED"
+      },
+      "prediction_allowed": true
+    },
+    {
+      "player": "Vinicius Junior",
+      "team": "Real Madrid",
+      "opponent": "",
+      "allowed_stats": [
+        "assists",
+        "goals",
+        "goals_assists",
+        "shots",
+        "shots_on_target"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Weston McKennie",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "assists",
+        "goals",
+        "goals_assists",
+        "shots",
+        "shots_on_target"
+      ],
+      "block_reasons": {
+        "shots": "pick_state=VETTED",
+        "shots_on_target": "pick_state=VETTED",
+        "goals_assists": "pick_state=REJECTED",
+        "goals": "pick_state=REJECTED",
+        "assists": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    }
+  ]
+}

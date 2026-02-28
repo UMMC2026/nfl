@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "underdog-analysis://schemas/daily_prop_result.schema.json",
+  "title": "DailyPropResult",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": true,
+    "required": ["player", "result"],
+    "properties": {
+      "sport": {
+        "type": "string",
+        "description": "Sport code (NBA, NHL, NFL, CBB, TENNIS, SOCCER, GOLF, etc.)"
+      },
+      "player": { "type": "string" },
+      "result": {
+        "type": "string",
+        "enum": ["WIN", "LOSS", "PENDING", "PUSH", "VOID", "CANCELLED", "UNKNOWN"]
+      },
+      "stat": { "type": ["string", "null"] },
+      "market": { "type": ["string", "null"] },
+      "line": { "type": ["number", "string", "null"] },
+      "direction": { "type": ["string", "null"], "description": "higher|lower (or over|under accepted)" },
+      "ticket": { "type": ["string", "null"], "description": "Grouping/ticket identifier" },
+      "notes": { "type": ["string", "null"] }
+    }
+  }
+}

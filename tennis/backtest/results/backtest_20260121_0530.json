@@ -1,0 +1,45 @@
+{
+  "run_at": "2026-01-21T11:30:17.492730Z",
+  "predictions_file": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\tennis\\backtest\\data\\historical_predictions.json",
+  "results_file": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\tennis\\backtest\\data\\historical_results.json",
+  "prediction_count": 3,
+  "result_count": 3,
+  "engines": {
+    "TOTAL_SETS_ENGINE": {
+      "engine": "TOTAL_SETS_ENGINE",
+      "total": 2,
+      "wins": 2,
+      "losses": 0,
+      "pushes": 0,
+      "win_rate": 1.0,
+      "roi": 0.91,
+      "by_tier": {
+        "STRONG": {
+          "wins": 2,
+          "losses": 0,
+          "total": 2,
+          "win_rate": 1.0
+        }
+      }
+    },
+    "PLAYER_ACES_ENGINE": {
+      "engine": "PLAYER_ACES_ENGINE",
+      "total": 1,
+      "wins": 1,
+      "losses": 0,
+      "pushes": 0,
+      "win_rate": 1.0,
+      "roi": 0.91,
+      "by_tier": {
+        "STRONG": {
+          "wins": 1,
+          "losses": 0,
+          "total": 1,
+          "win_rate": 1.0
+        }
+      }
+    }
+  },
+  "thresholds_passed": true,
+  "violations": []
+}

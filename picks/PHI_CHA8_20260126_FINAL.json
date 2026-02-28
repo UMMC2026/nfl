@@ -1,0 +1,121 @@
+{
+  "date": "2026-01-26",
+  "timestamp": "2026-01-26T14:05:22.651268",
+  "slate": "PHI_CHA8",
+  "source_file": "PHI_CHA8_RISK_FIRST_20260126_FROM_UD.json",
+  "summary": {
+    "play_count": 0,
+    "lean_count": 12,
+    "total": 12
+  },
+  "picks": [
+    {
+      "player": "Miles Bridges",
+      "team": "CHA",
+      "stat": "pts+reb",
+      "line": 22.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Miles Bridges",
+      "team": "CHA",
+      "stat": "pts+ast",
+      "line": 19.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "stat": "pts+ast",
+      "line": 22.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Miles Bridges",
+      "team": "CHA",
+      "stat": "pra",
+      "line": 25.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Quentin Grimes",
+      "team": "PHI",
+      "stat": "pra",
+      "line": 20.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Miles Bridges",
+      "team": "CHA",
+      "stat": "pra",
+      "line": 25.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Quentin Grimes",
+      "team": "PHI",
+      "stat": "pra",
+      "line": 20.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "LaMelo Ball",
+      "team": "CHA",
+      "stat": "pts+reb",
+      "line": 25.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 66.4
+    },
+    {
+      "player": "LaMelo Ball",
+      "team": "CHA",
+      "stat": "pts+ast",
+      "line": 27.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 66.4
+    },
+    {
+      "player": "LaMelo Ball",
+      "team": "CHA",
+      "stat": "pra",
+      "line": 33.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 63.0
+    },
+    {
+      "player": "LaMelo Ball",
+      "team": "CHA",
+      "stat": "pra",
+      "line": 33.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 63.0
+    },
+    {
+      "player": "Collin Sexton",
+      "team": "CHA",
+      "stat": "points",
+      "line": 10.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 61.0
+    }
+  ]
+}

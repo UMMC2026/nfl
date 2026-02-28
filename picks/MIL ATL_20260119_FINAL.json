@@ -1,0 +1,40 @@
+{
+  "date": "2026-01-19",
+  "timestamp": "2026-01-19T12:05:11.135689",
+  "slate": "MIL ATL",
+  "source_file": "MIL ATL_RISK_FIRST_20260119_FROM_UD.json",
+  "summary": {
+    "play_count": 0,
+    "lean_count": 3,
+    "total": 3
+  },
+  "picks": [
+    {
+      "player": "Giannis Antetokounmpo",
+      "team": "MIL",
+      "stat": "pra",
+      "line": 46.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Jalen Johnson",
+      "team": "ATL",
+      "stat": "pra",
+      "line": 39.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Kyle Kuzma",
+      "team": "MIL",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 66.8
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+
+=================================================================
+[CBB] COLLEGE BASKETBALL STRATEGIC REPORT
+   Generated: 2026-01-27 17:09:09
+   Total edges: 13 | Actionable: 4
+=================================================================
+
+
+============================================================
+ MSU @ RUTG  [23:30 ET]
+============================================================
+[MATCHUP ANALYSIS]
+  - PACE: MODERATE (Projected Total: 138.5)
+  - SPREAD: MSU -14.5
+  - RANKING: MSU (#7) @ RUTG (UR)
+
+  ROSTER SNAPSHOT - MSU
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Jeremy Fears          24.2   8.3   2.2   6.1   0.4
+
+  ROSTER SNAPSHOT - RUTG
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Tariq Francis         29.7  16.7   3.7   2.9   2.1
+
+[EDGES]
+  * Jeremy Fears       points     lower 13.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.045
+      TRACE: lambda=8.3382 (ESPN/OK)
+             raw=0.954709 adj_mult=1.0 adj=0.954709
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+    Tariq Francis      points     higher 12.5  (LEAN)
+      Probability: 75.0% | mean_source=ESPN | confidence=UNVERIFIED | signal=OK | spread=MISSING | dedupe_dropped=lower@0.151
+      TRACE: lambda=16.7027 (ESPN/OK)
+             raw=0.849341 adj_mult=1.0 adj=0.849341
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+    Tariq Francis      pra        higher 17.5  (LEAN)
+      Probability: 75.0% | mean_source=ESPN | confidence=UNVERIFIED | signal=OK | spread=MISSING | dedupe_dropped=lower@0.112
+      TRACE: lambda=23.2703 (ESPN/OK)
+             raw=0.887845 adj_mult=1.0 adj=0.887845
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+
+============================================================
+ PROV @ CONN  [00:30 ET]
+============================================================
+[MATCHUP ANALYSIS]
+  - PACE: FAST (Projected Total: 152.5) - Expect higher possession count
+  - SPREAD: CONN -15.5
+  - RANKING: PROV (UR) @ CONN (#2)
+
+  ROSTER SNAPSHOT - PROV
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Stefan Vaaks          31.1  15.3   2.6   3.3   2.7
+
+[EDGES]
+    Stefan Vaaks       points     higher 13.5  (LEAN)
+      Probability: 66.5% | mean_source=ESPN | confidence=UNVERIFIED | signal=OK | spread=MISSING | dedupe_dropped=lower@0.335
+      TRACE: lambda=15.3 (ESPN/OK)
+             raw=0.664874 adj_mult=1.0 adj=0.664874
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.664874
+
+------------------------------
+Skipped 9 plays (low confidence / blowout)
+
+=================================================================
+[i] CBB = PRODUCTION - 12% market gate, L10 stats, stricter caps than NBA
+=================================================================

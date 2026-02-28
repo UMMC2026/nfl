@@ -1,0 +1,139 @@
+{
+  "schema_version": "governance_artifacts.v1",
+  "created_at_utc": "2026-02-18T22:25:59.265080+00:00",
+  "slug": "TENNIS_PROPS",
+  "stamp": "20260218",
+  "pipeline_steps_executed": [
+    "raw_txt (inputs/*.txt)",
+    "parse_underdog_slate -> parsed JSON",
+    "risk_first_analyzer.analyze_slate (probability + gates + context gates)",
+    "export: governance_config.json",
+    "export: allowed_edges.json",
+    "export: blocked_edges.json"
+  ],
+  "counts": {
+    "total_results": 9,
+    "allowed_edges": 2,
+    "blocked_edges": 7
+  },
+  "run_settings": {},
+  "source": {
+    "ingest": "underdog_paste",
+    "surface": "Hard"
+  },
+  "by_player": [
+    {
+      "player": "Alejandro Tabilo",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Alexandr Binda",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Casper Ruud",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Daniel Michalski",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Felix Gill",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Ilya Ivashka",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Jay Clarke",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Michael Geerts",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Sebastian Korda",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    }
+  ]
+}

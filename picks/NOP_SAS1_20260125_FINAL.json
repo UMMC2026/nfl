@@ -1,0 +1,58 @@
+{
+  "date": "2026-01-25",
+  "timestamp": "2026-01-25T18:08:42.810895",
+  "slate": "NOP_SAS1",
+  "source_file": "NOP_SAS1_RISK_FIRST_20260125_FROM_UD.json",
+  "summary": {
+    "play_count": 1,
+    "lean_count": 4,
+    "total": 5
+  },
+  "picks": [
+    {
+      "player": "Jeremiah Fears",
+      "team": "NOP",
+      "stat": "rebounds",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 79.6
+    },
+    {
+      "player": "Saddiq Bey",
+      "team": "NOP",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 79.6
+    },
+    {
+      "player": "Dylan Harper",
+      "team": "SAS",
+      "stat": "rebounds",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 75.5
+    },
+    {
+      "player": "Herb Jones",
+      "team": "NOP",
+      "stat": "pra",
+      "line": 13.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Julian Champagnie",
+      "team": "SAS",
+      "stat": "points",
+      "line": 11.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 62.1
+    }
+  ]
+}

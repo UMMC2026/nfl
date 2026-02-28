@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-02-08T13:57:44.363421",
+  "sites": [
+    "oddsapi"
+  ],
+  "total_props": 0,
+  "parsed_props": 0,
+  "players": 0,
+  "props": [],
+  "oddsapi_meta": {
+    "sport": "SOCCER_LA_LIGA",
+    "sport_key": "soccer_la_liga",
+    "regions": "us_dfs",
+    "markets": [
+      "player_shots",
+      "player_shots_on_target",
+      "player_assists"
+    ],
+    "bookmakers": [
+      "betr_us_dfs",
+      "pick6",
+      "prizepicks",
+      "underdog"
+    ]
+  },
+  "error": "Odds API request failed: 404 {\"message\":\"Unknown sport\",\"error_code\":\"UNKNOWN_SPORT\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#unknown-sport\"}\n"
+}

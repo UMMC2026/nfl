@@ -1,0 +1,2568 @@
+{
+  "total_props": 20,
+  "blocked": 1,
+  "no_play": 19,
+  "lean": 0,
+  "play": 0,
+  "skip": 0,
+  "results": [
+    {
+      "player": "Norman Powell",
+      "team": "MIA",
+      "opponent": "UTA",
+      "stat": "3pm",
+      "line": 3.5,
+      "direction": "higher",
+      "mu": 2.8021874321608045,
+      "sigma": 2.545320636517588,
+      "mu_raw": 2.645,
+      "sigma_raw": 2.25831729533888,
+      "defense_factor": 1.0,
+      "context_factor": 1.0594281407035178,
+      "pace_factor": 0.9864321608040202,
+      "matchup_factor": 1.074,
+      "situation_factor": 1.0,
+      "situation_notes": [],
+      "context_notes": [
+        "Matchup: +7.4%",
+        "\u2705 vs Weak D (#28)"
+      ],
+      "minutes_cv": 0.12708725287233888,
+      "sample_n": 10,
+      "stat_window_n": null,
+      "injury_return": false,
+      "injury_return_stat_policy": false,
+      "early_return_stat_policy": false,
+      "prob_method": "empirical_hybrid",
+      "prob_method_details": {
+        "requested": "auto",
+        "empirical_hit_rate": 40.0,
+        "sample_n": 10,
+        "avg_margin_dir": -0.4,
+        "series_mean": 3.1,
+        "series_var": 6.767,
+        "hybrid_used": true,
+        "bootstrap_band": {
+          "p_median": 40.0,
+          "p_low": 20.0,
+          "p_high": 60.0,
+          "width": 40.0,
+          "boots": 250,
+          "quantiles": [
+            10.0,
+            90.0
+          ]
+        },
+        "bootstrap_guard_factor": 0.6
+      },
+      "edge": -0.6978125678391955,
+      "z_score": -0.27415507414968215,
+      "edge_quality": "MODERATE",
+      "kelly_metrics": {
+        "edge": -0.08112080466529492,
+        "edge_pct": -8.112080466529491,
+        "z_score": -0.16441999955707653,
+        "full_kelly": -0.16224160933058984,
+        "kelly_bet": 0,
+        "ev": -0.08112080466529492
+      },
+      "model_confidence": 41.88791953347051,
+      "effective_confidence": 30.829508776634295,
+      "decision": "NO_PLAY",
+      "gates_passed": true,
+      "gate_details": [
+        {
+          "gate": "R1_COMPOSITE",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R2_ELITE_DEF",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R3_STAR_GUARD",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R4_BLOWOUT",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R5_BENCH_TRAP",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "ROLE_MAP",
+          "passed": true,
+          "reason": "PASS: SCORER \u2192 '3pm' allowed"
+        },
+        {
+          "gate": "BAN_LIST",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "STAT_CALIBRATION",
+          "passed": true,
+          "reason": "Bayesian penalty -8% for '3pm' (underperforming vs prediction)",
+          "severity": "WARNING",
+          "penalty": 0.08
+        },
+        {
+          "gate": "CONFIDENCE_ADJ",
+          "passed": true,
+          "reason": "Adjusted to 38.5% (cap + memory penalty); warnings adjusted 41.9%\u219238.5%"
+        }
+      ],
+      "context_warnings": [
+        "\u26a0 3PM requires \u22651.8\u03c3 edge (got -0.27\u03c3)"
+      ],
+      "stat_adjustment": {
+        "stat": "3pm",
+        "raw_confidence": 38.536885970792866,
+        "multiplier": 0.8,
+        "adjusted_confidence": 30.829508776634295,
+        "z_score": -0.27415507414968215,
+        "min_edge_required": 1.8,
+        "meets_min_edge": false
+      },
+      "stat_edge_block": true,
+      "status": "NO_PLAY",
+      "status_confidence": 30.829508776634295
+    },
+    {
+      "player": "Simone Fontecchio",
+      "team": "MIA",
+      "opponent": "UTA",
+      "stat": "3pm",
+      "line": 2.5,
+      "direction": "higher",
+      "mu": 2.2830676432160812,
+      "sigma": 2.630281096751383,
+      "mu_raw": 2.1550000000000002,
+      "sigma_raw": 1.7535207311675887,
+      "defense_factor": 1.0,
+      "context_factor": 1.0594281407035178,
+      "pace_factor": 0.9864321608040202,
+      "matchup_factor": 1.074,
+      "situation_factor": 1.0,
+      "situation_notes": [],
+      "context_notes": [
+        "Matchup: +7.4%",
+        "\u2705 vs Weak D (#28)"
+      ],
+      "minutes_cv": 0.6718276740557476,
+      "sample_n": 10,
+      "stat_window_n": null,
+      "injury_return": false,
+      "injury_return_stat_policy": false,
+      "early_return_stat_policy": false,
+      "prob_method": "empirical_hybrid",
+      "prob_method_details": {
+        "requested": "auto",
+        "empirical_hit_rate": 30.0,
+        "sample_n": 10,
+        "avg_margin_dir": -0.8,
+        "series_mean": 1.7,
+        "series_var": 2.678,
+        "hybrid_used": true,
+        "bootstrap_band": {
+          "p_median": 30.0,
+          "p_low": 10.0,
+          "p_high": 50.0,
+          "width": 40.0,
+          "boots": 250,
+          "quantiles": [
+            10.0,
+            90.0
+          ]
+        },
+        "bootstrap_guard_factor": 0.6
+      },
+      "edge": -0.21693235678391876,
+      "z_score": -0.0824749708507765,
+      "edge_quality": "THIN",
+      "kelly_metrics": {
+        "edge": -0.10766659913179416,
+        "edge_pct": -10.766659913179415,
+        "z_score": -0.22050613187938475,
+        "full_kelly": -0.21533319826358838,
+        "kelly_bet": 0,
+        "ev": -0.10766659913179416
+      },
+      "model_confidence": 39.23334008682058,
+      "effective_confidence": 28.87573830389995,
+      "decision": "NO_PLAY",
+      "gates_passed": true,
+      "gate_details": [
+        {
+          "gate": "R1_COMPOSITE",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R2_ELITE_DEF",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R3_STAR_GUARD",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R4_BLOWOUT",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R5_BENCH_TRAP",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "ROLE_MAP",
+          "passed": true,
+          "reason": "PASS: ROLE_PLAYER \u2192 '3pm' allowed"
+        },
+        {
+          "gate": "BAN_LIST",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "STAT_CALIBRATION",
+          "passed": true,
+          "reason": "Bayesian penalty -8% for '3pm' (underperforming vs prediction)",
+          "severity": "WARNING",
+          "penalty": 0.08
+        },
+        {
+          "gate": "CONFIDENCE_ADJ",
+          "passed": true,
+          "reason": "Adjusted to 36.1% (cap + memory penalty); warnings adjusted 39.2%\u219236.1%"
+        }
+      ],
+      "context_warnings": [
+        "\u26a0 3PM requires \u22651.8\u03c3 edge (got -0.08\u03c3)"
+      ],
+      "stat_adjustment": {
+        "stat": "3pm",
+        "raw_confidence": 36.094672879874935,
+        "multiplier": 0.8,
+        "adjusted_confidence": 28.87573830389995,
+        "z_score": -0.0824749708507765,
+        "min_edge_required": 1.8,
+        "meets_min_edge": false
+      },
+      "stat_edge_block": true,
+      "status": "NO_PLAY",
+      "status_confidence": 28.87573830389995
+    },
+    {
+      "player": "Bam Adebayo",
+      "team": "MIA",
+      "opponent": "UTA",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "mu": 2.6697589145728644,
+      "sigma": 2.558253129300938,
+      "mu_raw": 2.5199999999999996,
+      "sigma_raw": 2.2897185175933537,
+      "defense_factor": 1.0,
+      "context_factor": 1.0594281407035178,
+      "pace_factor": 0.9864321608040202,
+      "matchup_factor": 1.074,
+      "situation_factor": 1.0,
+      "situation_notes": [],
+      "context_notes": [
+        "Matchup: +7.4%",
+        "\u2705 vs Weak D (#28)"
+      ],
+      "minutes_cv": 0.11727843822035912,
+      "sample_n": 37,
+      "stat_window_n": null,
+      "injury_return": false,
+      "injury_return_stat_policy": false,
+      "early_return_stat_policy": false,
+      "prob_method": "negbin",
+      "prob_method_details": {
+        "requested": "auto",
+        "empirical_hit_rate": 32.432,
+        "sample_n": 37,
+        "avg_margin_dir": 0.014,
+        "series_mean": 1.514,
+        "series_var": 2.59,
+        "negbin_mean": 1.514,
+        "negbin_var": 2.59,
+        "bootstrap_band": {
+          "p_median": 32.432,
+          "p_low": 24.324,
+          "p_high": 43.243,
+          "width": 18.919,
+          "boots": 250,
+          "quantiles": [
+            10.0,
+            90.0
+          ]
+        }
+      },
+      "edge": 1.1697589145728644,
+      "z_score": 0.45724908969133554,
+      "edge_quality": "MODERATE",
+      "kelly_metrics": {
+        "edge": -0.09018758696743473,
+        "edge_pct": -9.018758696743474,
+        "z_score": -0.18338304396728833,
+        "full_kelly": -0.1803751739348694,
+        "kelly_bet": 0,
+        "ev": -0.09018758696743473
+      },
+      "model_confidence": 40.981241303256525,
+      "effective_confidence": 26.54273036729319,
+      "decision": "NO_PLAY",
+      "gates_passed": true,
+      "gate_details": [
+        {
+          "gate": "R1_COMPOSITE",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R2_ELITE_DEF",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R3_STAR_GUARD",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R4_BLOWOUT",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R5_BENCH_TRAP",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "ROLE_MAP",
+          "passed": true,
+          "reason": "WARNING: BIG role risk on '3pm' (stretch-variance)",
+          "severity": "WARNING",
+          "penalty": 0.12
+        },
+        {
+          "gate": "BAN_LIST",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "STAT_CALIBRATION",
+          "passed": true,
+          "reason": "Bayesian penalty -8% for '3pm' (underperforming vs prediction)",
+          "severity": "WARNING",
+          "penalty": 0.08
+        },
+        {
+          "gate": "CONFIDENCE_ADJ",
+          "passed": true,
+          "reason": "Adjusted to 33.2% (cap + memory penalty); warnings adjusted 41.0%\u219233.2%"
+        }
+      ],
+      "context_warnings": [
+        "\u26a0 3PM requires \u22651.8\u03c3 edge (got 0.46\u03c3)"
+      ],
+      "stat_adjustment": {
+        "stat": "3pm",
+        "raw_confidence": 33.178412959116486,
+        "multiplier": 0.8,
+        "adjusted_confidence": 26.54273036729319,
+        "z_score": 0.45724908969133554,
+        "min_edge_required": 1.8,
+        "meets_min_edge": false
+      },
+      "stat_edge_block": true,
+      "status": "NO_PLAY",
+      "status_confidence": 26.54273036729319
+    },
+    {
+      "player": "Ace Bailey",
+      "team": "UTA",
+      "opponent": "MIA",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "mu": 1.6117364396984926,
+      "sigma": 1.2796761493931441,
+      "mu_raw": 1.755,
+      "sigma_raw": 0.9255829449621004,
+      "defense_factor": 1.0,
+      "context_factor": 0.9183683417085429,
+      "pace_factor": 0.9864321608040202,
+      "matchup_factor": 0.931,
+      "situation_factor": 1.0,
+      "situation_notes": [],
+      "context_notes": [
+        "Matchup: -6.9%"
+      ],
+      "minutes_cv": 0.382562369324494,
+      "sample_n": 10,
+      "stat_window_n": null,
+      "injury_return": false,
+      "injury_return_stat_policy": false,
+      "early_return_stat_policy": false,
+      "prob_method": "empirical_hybrid",
+      "prob_method_details": {
+        "requested": "auto",
+        "empirical_hit_rate": 50.0,
+        "sample_n": 10,
+        "avg_margin_dir": -0.2,
+        "series_mean": 1.3,
+        "series_var": 1.567,
+        "hybrid_used": true,
+        "bootstrap_band": {
+          "p_median": 50.0,
+          "p_low": 30.0,
+          "p_high": 70.0,
+          "width": 40.0,
+          "boots": 250,
+          "quantiles": [
+            10.0,
+            90.0
+          ]
+        },
+        "bootstrap_guard_factor": 0.6
+      },
+      "edge": 0.11173643969849256,
+      "z_score": 0.08731618523286606,
+      "edge_quality": "THIN",
+      "kelly_metrics": {
+        "edge": -0.022608678786149305,
+        "edge_pct": -2.2608678786149303,
+        "z_score": -0.04526365449650454,
+        "full_kelly": -0.045217357572298555,
+        "kelly_bet": 0,
+        "ev": -0.022608678786149305
+      },
+      "model_confidence": 47.73913212138507,
+      "effective_confidence": 35.136001241339414,
+      "decision": "NO_PLAY",
+      "gates_passed": true,
+      "gate_details": [
+        {
+          "gate": "R1_COMPOSITE",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R2_ELITE_DEF",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R3_STAR_GUARD",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R4_BLOWOUT",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R5_BENCH_TRAP",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "ROLE_MAP",
+          "passed": true,
+          "reason": "PASS: ATHLETIC_WING \u2192 '3pm' allowed"
+        },
+        {
+          "gate": "BAN_LIST",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "STAT_CALIBRATION",
+          "passed": true,
+          "reason": "Bayesian penalty -8% for '3pm' (underperforming vs prediction)",
+          "severity": "WARNING",
+          "penalty": 0.08
+        },
+        {
+          "gate": "CONFIDENCE_ADJ",
+          "passed": true,
+          "reason": "Adjusted to 43.9% (cap + memory penalty); warnings adjusted 47.7%\u219243.9%"
+        }
+      ],
+      "context_warnings": [
+        "\u26a0 3PM requires \u22651.8\u03c3 edge (got 0.09\u03c3)"
+      ],
+      "stat_adjustment": {
+        "stat": "3pm",
+        "raw_confidence": 43.92000155167427,
+        "multiplier": 0.8,
+        "adjusted_confidence": 35.136001241339414,
+        "z_score": 0.08731618523286606,
+        "min_edge_required": 1.8,
+        "meets_min_edge": false
+      },
+      "stat_edge_block": true,
+      "status": "NO_PLAY",
+      "status_confidence": 35.136001241339414
+    },
+    {
+      "player": "Ace Bailey",
+      "team": "UTA",
+      "opponent": "MIA",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "lower",
+      "mu": 1.6117364396984926,
+      "sigma": 1.2796761493931441,
+      "mu_raw": 1.755,
+      "sigma_raw": 0.9255829449621004,
+      "defense_factor": 1.0,
+      "context_factor": 0.9183683417085429,
+      "pace_factor": 0.9864321608040202,
+      "matchup_factor": 0.931,
+      "situation_factor": 1.0,
+      "situation_notes": [],
+      "context_notes": [
+        "Matchup: -6.9%"
+      ],
+      "minutes_cv": 0.382562369324494,
+      "sample_n": 10,
+      "stat_window_n": null,
+      "injury_return": false,
+      "injury_return_stat_policy": false,
+      "early_return_stat_policy": false,
+      "prob_method": "empirical_hybrid",
+      "prob_method_details": {
+        "requested": "auto",
+        "empirical_hit_rate": 50.0,
+        "sample_n": 10,
+        "avg_margin_dir": 0.2,
+        "series_mean": 1.3,
+        "series_var": 1.567,
+        "hybrid_used": true,
+        "bootstrap_band": {
+          "p_median": 50.0,
+          "p_low": 30.0,
+          "p_high": 70.0,
+          "width": 40.0,
+          "boots": 250,
+          "quantiles": [
+            10.0,
+            90.0
+          ]
+        },
+        "bootstrap_guard_factor": 0.6
+      },
+      "edge": -0.11173643969849256,
+      "z_score": -0.08731618523286606,
+      "edge_quality": "THIN",
+      "kelly_metrics": {
+        "edge": 0.02260867878614936,
+        "edge_pct": 2.260867878614936,
+        "z_score": 0.04526365449650465,
+        "full_kelly": 0.04521735757229872,
+        "kelly_bet": 0.01130433939307468,
+        "ev": 0.02260867878614936
+      },
+      "model_confidence": 52.26086787861493,
+      "effective_confidence": 38.463998758660594,
+      "decision": "NO_PLAY",
+      "gates_passed": true,
+      "gate_details": [
+        {
+          "gate": "R1_COMPOSITE",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R2_ELITE_DEF",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R3_STAR_GUARD",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R4_BLOWOUT",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R5_BENCH_TRAP",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "ROLE_MAP",
+          "passed": true,
+          "reason": "PASS: ATHLETIC_WING \u2192 '3pm' allowed"
+        },
+        {
+          "gate": "BAN_LIST",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "STAT_CALIBRATION",
+          "passed": true,
+          "reason": "Bayesian penalty -8% for '3pm' (underperforming vs prediction)",
+          "severity": "WARNING",
+          "penalty": 0.08
+        },
+        {
+          "gate": "CONFIDENCE_ADJ",
+          "passed": true,
+          "reason": "Adjusted to 48.1% (cap + memory penalty); warnings adjusted 52.3%\u219248.1%"
+        }
+      ],
+      "context_warnings": [
+        "\u26a0 3PM requires \u22651.8\u03c3 edge (got -0.09\u03c3)"
+      ],
+      "stat_adjustment": {
+        "stat": "3pm",
+        "raw_confidence": 48.07999844832574,
+        "multiplier": 0.8,
+        "adjusted_confidence": 38.463998758660594,
+        "z_score": -0.08731618523286606,
+        "min_edge_required": 1.8,
+        "meets_min_edge": false
+      },
+      "stat_edge_block": true,
+      "status": "NO_PLAY",
+      "status_confidence": 38.463998758660594
+    },
+    {
+      "player": "Kasparas Jakucionis",
+      "team": "UNK",
+      "opponent": "UTA",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "mu": 1.160073814070352,
+      "sigma": 1.5277463809148033,
+      "mu_raw": 1.095,
+      "sigma_raw": 1.0184975872765356,
+      "defense_factor": 1.0,
+      "context_factor": 1.0594281407035178,
+      "pace_factor": 0.9864321608040202,
+      "matchup_factor": 1.074,
+      "situation_factor": 1.0,
+      "situation_notes": [],
+      "context_notes": [
+        "Matchup: +7.4%",
+        "\u2705 vs Weak D (#28)"
+      ],
+      "minutes_cv": 0.5707912192154085,
+      "sample_n": 19,
+      "stat_window_n": null,
+      "injury_return": false,
+      "injury_return_stat_policy": false,
+      "early_return_stat_policy": false,
+      "prob_method": "negbin",
+      "prob_method_details": {
+        "requested": "auto",
+        "empirical_hit_rate": 15.789,
+        "sample_n": 19,
+        "avg_margin_dir": -0.553,
+        "series_mean": 0.947,
+        "series_var": 1.608,
+        "negbin_mean": 0.947,
+        "negbin_var": 1.608,
+        "bootstrap_band": {
+          "p_median": 15.789,
+          "p_low": 5.263,
+          "p_high": 26.316,
+          "width": 21.053,
+          "boots": 250,
+          "quantiles": [
+            10.0,
+            90.0
+          ]
+        }
+      },
+      "edge": -0.3399261859296481,
+      "z_score": -0.2225017124413692,
+      "edge_quality": "THIN",
+      "kelly_metrics": {
+        "edge": -0.16512682122174704,
+        "edge_pct": -16.512682122174706,
+        "z_score": -0.3498849061764907,
+        "full_kelly": -0.3302536424434941,
+        "kelly_bet": 0,
+        "ev": -0.16512682122174704
+      },
+      "model_confidence": 33.4873178778253,
+      "effective_confidence": 0.0,
+      "decision": "BLOCKED",
+      "gates_passed": false,
+      "gate_details": [
+        {
+          "gate": "R1_COMPOSITE",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R2_ELITE_DEF",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R3_STAR_GUARD",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R4_BLOWOUT",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R5_BENCH_TRAP",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "ROLE_MAP",
+          "passed": false,
+          "reason": "BLOCKED: Player 'Kasparas Jakucionis' not classified"
+        }
+      ],
+      "context_warnings": [],
+      "block_reason": "BLOCKED: Player 'Kasparas Jakucionis' not classified",
+      "status": "BLOCKED",
+      "status_confidence": 0.0
+    },
+    {
+      "player": "Svi Mykhailiuk",
+      "team": "UTA",
+      "opponent": "MIA",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "mu": 1.1341849020100503,
+      "sigma": 1.424580550346563,
+      "mu_raw": 1.2349999999999999,
+      "sigma_raw": 1.1795354669940241,
+      "defense_factor": 1.0,
+      "context_factor": 0.9183683417085429,
+      "pace_factor": 0.9864321608040202,
+      "matchup_factor": 0.931,
+      "situation_factor": 1.0,
+      "situation_notes": [],
+      "context_notes": [
+        "Matchup: -6.9%"
+      ],
+      "minutes_cv": 0.20774710910306196,
+      "sample_n": 10,
+      "stat_window_n": null,
+      "injury_return": false,
+      "injury_return_stat_policy": false,
+      "early_return_stat_policy": false,
+      "prob_method": "empirical_hybrid",
+      "prob_method_details": {
+        "requested": "auto",
+        "empirical_hit_rate": 40.0,
+        "sample_n": 10,
+        "avg_margin_dir": -0.2,
+        "series_mean": 1.3,
+        "series_var": 0.9,
+        "hybrid_used": true,
+        "bootstrap_band": {
+          "p_median": 40.0,
+          "p_low": 20.0,
+          "p_high": 60.0,
+          "width": 40.0,
+          "boots": 250,
+          "quantiles": [
+            10.0,
+            90.0
+          ]
+        },
+        "bootstrap_guard_factor": 0.6
+      },
+      "edge": -0.3658150979899497,
+      "z_score": -0.2567879351581464,
+      "edge_quality": "MODERATE",
+      "kelly_metrics": {
+        "edge": -0.07292788339665363,
+        "edge_pct": -7.292788339665362,
+        "z_score": -0.14743242903543458,
+        "full_kelly": -0.1458557667933072,
+        "kelly_bet": 0,
+        "ev": -0.07292788339665363
+      },
+      "model_confidence": 42.707211660334636,
+      "effective_confidence": 31.432507782006294,
+      "decision": "NO_PLAY",
+      "gates_passed": true,
+      "gate_details": [
+        {
+          "gate": "R1_COMPOSITE",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R2_ELITE_DEF",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R3_STAR_GUARD",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R4_BLOWOUT",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R5_BENCH_TRAP",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "ROLE_MAP",
+          "passed": true,
+          "reason": "PASS: ROLE_PLAYER \u2192 '3pm' allowed"
+        },
+        {
+          "gate": "BAN_LIST",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "STAT_CALIBRATION",
+          "passed": true,
+          "reason": "Bayesian penalty -8% for '3pm' (underperforming vs prediction)",
+          "severity": "WARNING",
+          "penalty": 0.08
+        },
+        {
+          "gate": "CONFIDENCE_ADJ",
+          "passed": true,
+          "reason": "Adjusted to 39.3% (cap + memory penalty); warnings adjusted 42.7%\u219239.3%"
+        }
+      ],
+      "context_warnings": [
+        "\u26a0 3PM requires \u22651.8\u03c3 edge (got -0.26\u03c3)"
+      ],
+      "stat_adjustment": {
+        "stat": "3pm",
+        "raw_confidence": 39.290634727507864,
+        "multiplier": 0.8,
+        "adjusted_confidence": 31.432507782006294,
+        "z_score": -0.2567879351581464,
+        "min_edge_required": 1.8,
+        "meets_min_edge": false
+      },
+      "stat_edge_block": true,
+      "status": "NO_PLAY",
+      "status_confidence": 31.432507782006294
+    },
+    {
+      "player": "Jusuf Nurkic",
+      "team": "UNK",
+      "opponent": "MIA",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "mu": 0.8954091331658293,
+      "sigma": 0.9188316789521578,
+      "mu_raw": 0.975,
+      "sigma_raw": 0.8319744280691468,
+      "defense_factor": 1.0,
+      "context_factor": 0.9183683417085429,
+      "pace_factor": 0.9864321608040202,
+      "matchup_factor": 0.931,
+      "situation_factor": 1.0,
+      "situation_notes": [],
+      "context_notes": [
+        "Matchup: -6.9%"
+      ],
+      "minutes_cv": 0.10439894298745449,
+      "sample_n": 35,
+      "stat_window_n": null,
+      "injury_return": false,
+      "injury_return_stat_policy": false,
+      "early_return_stat_policy": false,
+      "prob_method": "empirical_hybrid",
+      "prob_method_details": {
+        "requested": "auto",
+        "empirical_hit_rate": 42.857,
+        "sample_n": 35,
+        "avg_margin_dir": 0.1,
+        "series_mean": 0.6,
+        "series_var": 0.6,
+        "hybrid_used": true,
+        "bootstrap_band": {
+          "p_median": 42.857,
+          "p_low": 34.0,
+          "p_high": 54.286,
+          "width": 20.286,
+          "boots": 250,
+          "quantiles": [
+            10.0,
+            90.0
+          ]
+        }
+      },
+      "edge": 0.39540913316582926,
+      "z_score": 0.43033902968687004,
+      "edge_quality": "MODERATE",
+      "kelly_metrics": {
+        "edge": -0.03449409141246418,
+        "edge_pct": -3.449409141246418,
+        "z_score": -0.06915294129063072,
+        "full_kelly": -0.06898818282492836,
+        "kelly_bet": 0,
+        "ev": -0.03449409141246418
+      },
+      "model_confidence": 46.55059085875358,
+      "effective_confidence": 30.149886687397522,
+      "decision": "NO_PLAY",
+      "gates_passed": true,
+      "gate_details": [
+        {
+          "gate": "R1_COMPOSITE",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R2_ELITE_DEF",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R3_STAR_GUARD",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R4_BLOWOUT",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R5_BENCH_TRAP",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "ROLE_MAP",
+          "passed": true,
+          "reason": "WARNING: BIG role risk on '3pm' (stretch-variance)",
+          "severity": "WARNING",
+          "penalty": 0.12
+        },
+        {
+          "gate": "BAN_LIST",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "STAT_CALIBRATION",
+          "passed": true,
+          "reason": "Bayesian penalty -8% for '3pm' (underperforming vs prediction)",
+          "severity": "WARNING",
+          "penalty": 0.08
+        },
+        {
+          "gate": "CONFIDENCE_ADJ",
+          "passed": true,
+          "reason": "Adjusted to 37.7% (cap + memory penalty); warnings adjusted 46.6%\u219237.7%"
+        }
+      ],
+      "context_warnings": [
+        "\u26a0 3PM requires \u22651.8\u03c3 edge (got 0.43\u03c3)"
+      ],
+      "stat_adjustment": {
+        "stat": "3pm",
+        "raw_confidence": 37.6873583592469,
+        "multiplier": 0.8,
+        "adjusted_confidence": 30.149886687397522,
+        "z_score": 0.43033902968687004,
+        "min_edge_required": 1.8,
+        "meets_min_edge": false
+      },
+      "stat_edge_block": true,
+      "status": "NO_PLAY",
+      "status_confidence": 30.149886687397522
+    },
+    {
+      "player": "Jusuf Nurkic",
+      "team": "UNK",
+      "opponent": "MIA",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "lower",
+      "mu": 0.8954091331658293,
+      "sigma": 0.9188316789521578,
+      "mu_raw": 0.975,
+      "sigma_raw": 0.8319744280691468,
+      "defense_factor": 1.0,
+      "context_factor": 0.9183683417085429,
+      "pace_factor": 0.9864321608040202,
+      "matchup_factor": 0.931,
+      "situation_factor": 1.0,
+      "situation_notes": [],
+      "context_notes": [
+        "Matchup: -6.9%"
+      ],
+      "minutes_cv": 0.10439894298745449,
+      "sample_n": 35,
+      "stat_window_n": null,
+      "injury_return": false,
+      "injury_return_stat_policy": false,
+      "early_return_stat_policy": false,
+      "prob_method": "empirical_hybrid",
+      "prob_method_details": {
+        "requested": "auto",
+        "empirical_hit_rate": 57.143,
+        "sample_n": 35,
+        "avg_margin_dir": -0.1,
+        "series_mean": 0.6,
+        "series_var": 0.6,
+        "hybrid_used": true,
+        "bootstrap_band": {
+          "p_median": 57.143,
+          "p_low": 45.714,
+          "p_high": 68.571,
+          "width": 22.857,
+          "boots": 250,
+          "quantiles": [
+            10.0,
+            90.0
+          ]
+        }
+      },
+      "edge": -0.39540913316582926,
+      "z_score": -0.43033902968687004,
+      "edge_quality": "MODERATE",
+      "kelly_metrics": {
+        "edge": 0.03449409141246418,
+        "edge_pct": 3.449409141246418,
+        "z_score": 0.06915294129063072,
+        "full_kelly": 0.06898818282492836,
+        "kelly_bet": 0.01724704570623209,
+        "ev": 0.03449409141246418
+      },
+      "model_confidence": 53.44940914124641,
+      "effective_confidence": 39.034113312602486,
+      "decision": "NO_PLAY",
+      "gates_passed": true,
+      "gate_details": [
+        {
+          "gate": "R1_COMPOSITE",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R2_ELITE_DEF",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R3_STAR_GUARD",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R4_BLOWOUT",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R5_BENCH_TRAP",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "ROLE_MAP",
+          "passed": true,
+          "reason": "WARNING: BIG role risk on '3pm' (stretch-variance)",
+          "severity": "WARNING",
+          "penalty": 0.12
+        },
+        {
+          "gate": "BAN_LIST",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "STAT_CALIBRATION",
+          "passed": true,
+          "reason": "Bayesian penalty -8% for '3pm' (underperforming vs prediction)",
+          "severity": "WARNING",
+          "penalty": 0.08
+        },
+        {
+          "gate": "CONFIDENCE_ADJ",
+          "passed": true,
+          "reason": "Adjusted to 48.8% (cap + memory penalty); warnings adjusted 53.4%\u219248.8%"
+        }
+      ],
+      "context_warnings": [
+        "\u26a0 3PM requires \u22651.8\u03c3 edge (got -0.43\u03c3)"
+      ],
+      "stat_adjustment": {
+        "stat": "3pm",
+        "raw_confidence": 48.792641640753104,
+        "multiplier": 0.8,
+        "adjusted_confidence": 39.034113312602486,
+        "z_score": -0.43033902968687004,
+        "min_edge_required": 1.8,
+        "meets_min_edge": false
+      },
+      "stat_edge_block": true,
+      "status": "NO_PLAY",
+      "status_confidence": 39.034113312602486
+    },
+    {
+      "player": "Dru Smith",
+      "team": "MIA",
+      "opponent": "UTA",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "mu": 0.24896561306532666,
+      "sigma": 1.0373533341869325,
+      "mu_raw": 0.235,
+      "sigma_raw": 0.75,
+      "defense_factor": 1.0,
+      "context_factor": 1.0594281407035178,
+      "pace_factor": 0.9864321608040202,
+      "matchup_factor": 1.074,
+      "situation_factor": 1.0,
+      "situation_notes": [],
+      "context_notes": [
+        "Matchup: +7.4%",
+        "\u2705 vs Weak D (#28)"
+      ],
+      "minutes_cv": 0.3831377789159101,
+      "sample_n": 10,
+      "stat_window_n": null,
+      "injury_return": false,
+      "injury_return_stat_policy": false,
+      "early_return_stat_policy": false,
+      "prob_method": "empirical_hybrid",
+      "prob_method_details": {
+        "requested": "auto",
+        "empirical_hit_rate": 30.0,
+        "sample_n": 10,
+        "avg_margin_dir": -0.2,
+        "series_mean": 0.3,
+        "series_var": 0.233,
+        "hybrid_used": true,
+        "bootstrap_band": {
+          "p_median": 30.0,
+          "p_low": 10.0,
+          "p_high": 50.0,
+          "width": 40.0,
+          "boots": 250,
+          "quantiles": [
+            10.0,
+            90.0
+          ]
+        },
+        "bootstrap_guard_factor": 0.6
+      },
+      "edge": -0.25103438693467334,
+      "z_score": -0.24199506442173982,
+      "edge_quality": "THIN",
+      "kelly_metrics": {
+        "edge": -0.11463765234239759,
+        "edge_pct": -11.463765234239759,
+        "z_score": -0.23554997548463688,
+        "full_kelly": -0.22927530468479512,
+        "kelly_bet": 0,
+        "ev": -0.11463765234239759
+      },
+      "model_confidence": 38.53623476576024,
+      "effective_confidence": 28.362668787599542,
+      "decision": "NO_PLAY",
+      "gates_passed": true,
+      "gate_details": [
+        {
+          "gate": "R1_COMPOSITE",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R2_ELITE_DEF",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R3_STAR_GUARD",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R4_BLOWOUT",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R5_BENCH_TRAP",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "ROLE_MAP",
+          "passed": true,
+          "reason": "PASS: ROLE_PLAYER \u2192 '3pm' allowed"
+        },
+        {
+          "gate": "BAN_LIST",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "STAT_CALIBRATION",
+          "passed": true,
+          "reason": "Bayesian penalty -8% for '3pm' (underperforming vs prediction)",
+          "severity": "WARNING",
+          "penalty": 0.08
+        },
+        {
+          "gate": "CONFIDENCE_ADJ",
+          "passed": true,
+          "reason": "Adjusted to 35.5% (cap + memory penalty); warnings adjusted 38.5%\u219235.5%"
+        }
+      ],
+      "context_warnings": [
+        "\u26a0 3PM requires \u22651.8\u03c3 edge (got -0.24\u03c3)"
+      ],
+      "stat_adjustment": {
+        "stat": "3pm",
+        "raw_confidence": 35.453335984499425,
+        "multiplier": 0.8,
+        "adjusted_confidence": 28.362668787599542,
+        "z_score": -0.24199506442173982,
+        "min_edge_required": 1.8,
+        "meets_min_edge": false
+      },
+      "stat_edge_block": true,
+      "status": "NO_PLAY",
+      "status_confidence": 28.362668787599542
+    },
+    {
+      "player": "Keyonte George",
+      "team": "UTA",
+      "opponent": "MIA",
+      "stat": "3pm",
+      "line": 2.5,
+      "direction": "higher",
+      "mu": 3.104084994974875,
+      "sigma": 2.184255461308996,
+      "mu_raw": 3.38,
+      "sigma_raw": 1.8857122395919417,
+      "defense_factor": 1.0,
+      "context_factor": 0.9183683417085429,
+      "pace_factor": 0.9864321608040202,
+      "matchup_factor": 0.931,
+      "situation_factor": 1.0,
+      "situation_notes": [],
+      "context_notes": [
+        "Matchup: -6.9%"
+      ],
+      "minutes_cv": 0.15831854693887862,
+      "sample_n": 44,
+      "stat_window_n": null,
+      "injury_return": false,
+      "injury_return_stat_policy": false,
+      "early_return_stat_policy": false,
+      "prob_method": "negbin",
+      "prob_method_details": {
+        "requested": "auto",
+        "empirical_hit_rate": 47.727,
+        "sample_n": 44,
+        "avg_margin_dir": 0.136,
+        "series_mean": 2.636,
+        "series_var": 3.074,
+        "negbin_mean": 2.636,
+        "negbin_var": 3.074,
+        "bootstrap_band": {
+          "p_median": 47.727,
+          "p_low": 36.364,
+          "p_high": 56.818,
+          "width": 20.455,
+          "boots": 250,
+          "quantiles": [
+            10.0,
+            90.0
+          ]
+        }
+      },
+      "edge": 0.6040849949748748,
+      "z_score": 0.276563344203729,
+      "edge_quality": "MODERATE",
+      "kelly_metrics": {
+        "edge": -0.018585071640995876,
+        "edge_pct": -1.8585071640995876,
+        "z_score": -0.03719584741841073,
+        "full_kelly": -0.03717014328199175,
+        "kelly_bet": 0,
+        "ev": -0.018585071640995876
+      },
+      "model_confidence": 48.141492835900415,
+      "effective_confidence": 35.43213872722271,
+      "decision": "NO_PLAY",
+      "gates_passed": true,
+      "gate_details": [
+        {
+          "gate": "R1_COMPOSITE",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R2_ELITE_DEF",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R3_STAR_GUARD",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R4_BLOWOUT",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R5_BENCH_TRAP",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "ROLE_MAP",
+          "passed": true,
+          "reason": "PASS: STAR_GUARD \u2192 '3pm' allowed"
+        },
+        {
+          "gate": "BAN_LIST",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "STAT_CALIBRATION",
+          "passed": true,
+          "reason": "Bayesian penalty -8% for '3pm' (underperforming vs prediction)",
+          "severity": "WARNING",
+          "penalty": 0.08
+        },
+        {
+          "gate": "CONFIDENCE_ADJ",
+          "passed": true,
+          "reason": "Adjusted to 44.3% (cap + memory penalty); warnings adjusted 48.1%\u219244.3%"
+        }
+      ],
+      "context_warnings": [
+        "\u26a0 3PM requires \u22651.8\u03c3 edge (got 0.28\u03c3)"
+      ],
+      "stat_adjustment": {
+        "stat": "3pm",
+        "raw_confidence": 44.290173409028384,
+        "multiplier": 0.8,
+        "adjusted_confidence": 35.43213872722271,
+        "z_score": 0.276563344203729,
+        "min_edge_required": 1.8,
+        "meets_min_edge": false
+      },
+      "stat_edge_block": true,
+      "status": "NO_PLAY",
+      "status_confidence": 35.43213872722271
+    },
+    {
+      "player": "Brice Sensabaugh",
+      "team": "UTA",
+      "opponent": "MIA",
+      "stat": "3pm",
+      "line": 2.5,
+      "direction": "higher",
+      "mu": 1.8045937914572867,
+      "sigma": 2.1196416606323845,
+      "mu_raw": 1.9649999999999999,
+      "sigma_raw": 1.8333593743642482,
+      "defense_factor": 1.0,
+      "context_factor": 0.9183683417085429,
+      "pace_factor": 0.9864321608040202,
+      "matchup_factor": 0.931,
+      "situation_factor": 1.0,
+      "situation_notes": [],
+      "context_notes": [
+        "Matchup: -6.9%"
+      ],
+      "minutes_cv": 0.15615175631750317,
+      "sample_n": 42,
+      "stat_window_n": null,
+      "injury_return": false,
+      "injury_return_stat_policy": false,
+      "early_return_stat_policy": false,
+      "prob_method": "negbin",
+      "prob_method_details": {
+        "requested": "auto",
+        "empirical_hit_rate": 28.571,
+        "sample_n": 42,
+        "avg_margin_dir": -0.905,
+        "series_mean": 1.595,
+        "series_var": 1.759,
+        "negbin_mean": 1.595,
+        "negbin_var": 1.759,
+        "bootstrap_band": {
+          "p_median": 28.571,
+          "p_low": 21.429,
+          "p_high": 38.095,
+          "width": 16.667,
+          "boots": 250,
+          "quantiles": [
+            10.0,
+            90.0
+          ]
+        }
+      },
+      "edge": -0.6954062085427133,
+      "z_score": -0.328077250725126,
+      "edge_quality": "MODERATE",
+      "kelly_metrics": {
+        "edge": -0.2420611501185348,
+        "edge_pct": -24.20611501185348,
+        "z_score": -0.553282412619399,
+        "full_kelly": -0.4841223002370696,
+        "kelly_bet": 0,
+        "ev": -0.2420611501185348
+      },
+      "model_confidence": 25.793884988146523,
+      "effective_confidence": 18.984299351275844,
+      "decision": "NO_PLAY",
+      "gates_passed": true,
+      "gate_details": [
+        {
+          "gate": "R1_COMPOSITE",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R2_ELITE_DEF",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R3_STAR_GUARD",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R4_BLOWOUT",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R5_BENCH_TRAP",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "ROLE_MAP",
+          "passed": true,
+          "reason": "PASS: SCORER \u2192 '3pm' allowed"
+        },
+        {
+          "gate": "BAN_LIST",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "STAT_CALIBRATION",
+          "passed": true,
+          "reason": "Bayesian penalty -8% for '3pm' (underperforming vs prediction)",
+          "severity": "WARNING",
+          "penalty": 0.08
+        },
+        {
+          "gate": "CONFIDENCE_ADJ",
+          "passed": true,
+          "reason": "Adjusted to 23.7% (cap + memory penalty); warnings adjusted 25.8%\u219223.7%"
+        }
+      ],
+      "context_warnings": [
+        "\u26a0 3PM requires \u22651.8\u03c3 edge (got -0.33\u03c3)"
+      ],
+      "stat_adjustment": {
+        "stat": "3pm",
+        "raw_confidence": 23.730374189094803,
+        "multiplier": 0.8,
+        "adjusted_confidence": 18.984299351275844,
+        "z_score": -0.328077250725126,
+        "min_edge_required": 1.8,
+        "meets_min_edge": false
+      },
+      "stat_edge_block": true,
+      "status": "NO_PLAY",
+      "status_confidence": 18.984299351275844
+    },
+    {
+      "player": "Andrew Wiggins",
+      "team": "MIA",
+      "opponent": "UTA",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "mu": 2.2565819396984925,
+      "sigma": 1.4898076828116489,
+      "mu_raw": 2.13,
+      "sigma_raw": 1.281693804619771,
+      "defense_factor": 1.0,
+      "context_factor": 1.0594281407035178,
+      "pace_factor": 0.9864321608040202,
+      "matchup_factor": 1.074,
+      "situation_factor": 1.0,
+      "situation_notes": [],
+      "context_notes": [
+        "Matchup: +7.4%",
+        "\u2705 vs Weak D (#28)"
+      ],
+      "minutes_cv": 0.16237410014915157,
+      "sample_n": 10,
+      "stat_window_n": null,
+      "injury_return": false,
+      "injury_return_stat_policy": false,
+      "early_return_stat_policy": false,
+      "prob_method": "empirical_hybrid",
+      "prob_method_details": {
+        "requested": "auto",
+        "empirical_hit_rate": 60.0,
+        "sample_n": 10,
+        "avg_margin_dir": 0.5,
+        "series_mean": 2.0,
+        "series_var": 4.444,
+        "hybrid_used": true,
+        "bootstrap_band": {
+          "p_median": 60.0,
+          "p_low": 40.0,
+          "p_high": 80.0,
+          "width": 40.0,
+          "boots": 250,
+          "quantiles": [
+            10.0,
+            90.0
+          ]
+        },
+        "bootstrap_guard_factor": 0.6
+      },
+      "edge": 0.7565819396984925,
+      "z_score": 0.5078386616121006,
+      "edge_quality": "STRONG",
+      "kelly_metrics": {
+        "edge": 0.10323698711507945,
+        "edge_pct": 10.323698711507944,
+        "z_score": 0.21102103592290603,
+        "full_kelly": 0.2064739742301589,
+        "kelly_bet": 0.051618493557539724,
+        "ev": 0.10323698711507945
+      },
+      "model_confidence": 60.323698711507944,
+      "effective_confidence": 44.39824225166985,
+      "decision": "NO_PLAY",
+      "gates_passed": true,
+      "gate_details": [
+        {
+          "gate": "R1_COMPOSITE",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R2_ELITE_DEF",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R3_STAR_GUARD",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R4_BLOWOUT",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R5_BENCH_TRAP",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "ROLE_MAP",
+          "passed": true,
+          "reason": "PASS: ATHLETIC_WING \u2192 '3pm' allowed"
+        },
+        {
+          "gate": "BAN_LIST",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "STAT_CALIBRATION",
+          "passed": true,
+          "reason": "Bayesian penalty -8% for '3pm' (underperforming vs prediction)",
+          "severity": "WARNING",
+          "penalty": 0.08
+        },
+        {
+          "gate": "CONFIDENCE_ADJ",
+          "passed": true,
+          "reason": "Adjusted to 55.5% (cap + memory penalty); warnings adjusted 60.3%\u219255.5%"
+        }
+      ],
+      "context_warnings": [
+        "\u26a0 3PM requires \u22651.8\u03c3 edge (got 0.51\u03c3)"
+      ],
+      "stat_adjustment": {
+        "stat": "3pm",
+        "raw_confidence": 55.49780281458731,
+        "multiplier": 0.8,
+        "adjusted_confidence": 44.39824225166985,
+        "z_score": 0.5078386616121006,
+        "min_edge_required": 1.8,
+        "meets_min_edge": false
+      },
+      "stat_edge_block": true,
+      "status": "NO_PLAY",
+      "status_confidence": 44.39824225166985
+    },
+    {
+      "player": "Nikola Jovic",
+      "team": "UNK",
+      "opponent": "UTA",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "mu": 0.74689683919598,
+      "sigma": 1.402039288273231,
+      "mu_raw": 0.7050000000000001,
+      "sigma_raw": 0.9665544012650593,
+      "defense_factor": 1.0,
+      "context_factor": 1.0594281407035178,
+      "pace_factor": 0.9864321608040202,
+      "matchup_factor": 1.074,
+      "situation_factor": 1.0,
+      "situation_notes": [],
+      "context_notes": [
+        "Matchup: +7.4%",
+        "\u2705 vs Weak D (#28)"
+      ],
+      "minutes_cv": 0.4505539330618062,
+      "sample_n": 34,
+      "stat_window_n": null,
+      "injury_return": false,
+      "injury_return_stat_policy": false,
+      "early_return_stat_policy": false,
+      "prob_method": "negbin",
+      "prob_method_details": {
+        "requested": "auto",
+        "empirical_hit_rate": 29.412,
+        "sample_n": 34,
+        "avg_margin_dir": -0.412,
+        "series_mean": 1.088,
+        "series_var": 1.537,
+        "negbin_mean": 1.088,
+        "negbin_var": 1.537,
+        "bootstrap_band": {
+          "p_median": 29.412,
+          "p_low": 20.588,
+          "p_high": 41.176,
+          "width": 20.588,
+          "boots": 250,
+          "quantiles": [
+            10.0,
+            90.0
+          ]
+        }
+      },
+      "edge": -0.75310316080402,
+      "z_score": -0.537148400264554,
+      "edge_quality": "STRONG",
+      "kelly_metrics": {
+        "edge": -0.1460513421480068,
+        "edge_pct": -14.60513421480068,
+        "z_score": -0.3054231140567337,
+        "full_kelly": -0.29210268429601355,
+        "kelly_bet": 0,
+        "ev": -0.1460513421480068
+      },
+      "model_confidence": 35.39486578519932,
+      "effective_confidence": 26.050621217906702,
+      "decision": "NO_PLAY",
+      "gates_passed": true,
+      "gate_details": [
+        {
+          "gate": "R1_COMPOSITE",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R2_ELITE_DEF",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R3_STAR_GUARD",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R4_BLOWOUT",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R5_BENCH_TRAP",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "ROLE_MAP",
+          "passed": true,
+          "reason": "PASS: ATHLETIC_WING \u2192 '3pm' allowed"
+        },
+        {
+          "gate": "BAN_LIST",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "STAT_CALIBRATION",
+          "passed": true,
+          "reason": "Bayesian penalty -8% for '3pm' (underperforming vs prediction)",
+          "severity": "WARNING",
+          "penalty": 0.08
+        },
+        {
+          "gate": "CONFIDENCE_ADJ",
+          "passed": true,
+          "reason": "Adjusted to 32.6% (cap + memory penalty); warnings adjusted 35.4%\u219232.6%"
+        }
+      ],
+      "context_warnings": [
+        "\u26a0 3PM requires \u22651.8\u03c3 edge (got -0.54\u03c3)"
+      ],
+      "stat_adjustment": {
+        "stat": "3pm",
+        "raw_confidence": 32.563276522383376,
+        "multiplier": 0.8,
+        "adjusted_confidence": 26.050621217906702,
+        "z_score": -0.537148400264554,
+        "min_edge_required": 1.8,
+        "meets_min_edge": false
+      },
+      "stat_edge_block": true,
+      "status": "NO_PLAY",
+      "status_confidence": 26.050621217906702
+    },
+    {
+      "player": "Pelle Larsson",
+      "team": "MIA",
+      "opponent": "UTA",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "mu": 0.11123995477386936,
+      "sigma": 0.8811363624710178,
+      "mu_raw": 0.105,
+      "sigma_raw": 0.75,
+      "defense_factor": 1.0,
+      "context_factor": 1.0594281407035178,
+      "pace_factor": 0.9864321608040202,
+      "matchup_factor": 1.074,
+      "situation_factor": 1.0,
+      "situation_notes": [],
+      "context_notes": [
+        "Matchup: +7.4%",
+        "\u2705 vs Weak D (#28)"
+      ],
+      "minutes_cv": 0.17484848329469044,
+      "sample_n": 10,
+      "stat_window_n": null,
+      "injury_return": false,
+      "injury_return_stat_policy": false,
+      "early_return_stat_policy": false,
+      "prob_method": "empirical_hybrid",
+      "prob_method_details": {
+        "requested": "auto",
+        "empirical_hit_rate": 0.0,
+        "sample_n": 10,
+        "avg_margin_dir": -1.2,
+        "series_mean": 0.3,
+        "series_var": 0.233,
+        "hybrid_used": true,
+        "bootstrap_band": {
+          "p_median": 0.0,
+          "p_low": 0.0,
+          "p_high": 0.0,
+          "width": 0.0,
+          "boots": 250,
+          "quantiles": [
+            10.0,
+            90.0
+          ]
+        }
+      },
+      "edge": -1.3887600452261306,
+      "z_score": -1.5761011625164993,
+      "edge_quality": "ELITE",
+      "kelly_metrics": {
+        "edge": -0.41707505858616495,
+        "edge_pct": -41.70750585861649,
+        "z_score": -1.5124087861462974,
+        "full_kelly": -0.8341501171723298,
+        "kelly_bet": 0,
+        "ev": -0.41707505858616495
+      },
+      "model_confidence": 8.292494141383507,
+      "effective_confidence": 6.103275688058262,
+      "decision": "NO_PLAY",
+      "gates_passed": true,
+      "gate_details": [
+        {
+          "gate": "R1_COMPOSITE",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R2_ELITE_DEF",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R3_STAR_GUARD",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R4_BLOWOUT",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R5_BENCH_TRAP",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "ROLE_MAP",
+          "passed": true,
+          "reason": "PASS: ROLE_PLAYER \u2192 '3pm' allowed"
+        },
+        {
+          "gate": "BAN_LIST",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "STAT_CALIBRATION",
+          "passed": true,
+          "reason": "Bayesian penalty -8% for '3pm' (underperforming vs prediction)",
+          "severity": "WARNING",
+          "penalty": 0.08
+        },
+        {
+          "gate": "CONFIDENCE_ADJ",
+          "passed": true,
+          "reason": "Adjusted to 7.6% (cap + memory penalty); warnings adjusted 8.3%\u21927.6%"
+        }
+      ],
+      "context_warnings": [
+        "\u26a0 3PM requires \u22651.8\u03c3 edge (got -1.58\u03c3)"
+      ],
+      "stat_adjustment": {
+        "stat": "3pm",
+        "raw_confidence": 7.629094610072827,
+        "multiplier": 0.8,
+        "adjusted_confidence": 6.103275688058262,
+        "z_score": -1.5761011625164993,
+        "min_edge_required": 1.8,
+        "meets_min_edge": false
+      },
+      "stat_edge_block": true,
+      "status": "NO_PLAY",
+      "status_confidence": 6.103275688058262
+    },
+    {
+      "player": "Jaime Jaquez Jr.",
+      "team": "MIA",
+      "opponent": "UTA",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "mu": 0.773382542713568,
+      "sigma": 1.0135336540390554,
+      "mu_raw": 0.73,
+      "sigma_raw": 0.8063290172471491,
+      "defense_factor": 1.0,
+      "context_factor": 1.0594281407035178,
+      "pace_factor": 0.9864321608040202,
+      "matchup_factor": 1.074,
+      "situation_factor": 1.0,
+      "situation_notes": [],
+      "context_notes": [
+        "Matchup: +7.4%",
+        "\u2705 vs Weak D (#28)"
+      ],
+      "minutes_cv": 0.2569728142729058,
+      "sample_n": 40,
+      "stat_window_n": null,
+      "injury_return": false,
+      "injury_return_stat_policy": false,
+      "early_return_stat_policy": false,
+      "prob_method": "empirical_hybrid",
+      "prob_method_details": {
+        "requested": "auto",
+        "empirical_hit_rate": 42.5,
+        "sample_n": 40,
+        "avg_margin_dir": -0.025,
+        "series_mean": 0.475,
+        "series_var": 0.358,
+        "hybrid_used": true,
+        "bootstrap_band": {
+          "p_median": 42.5,
+          "p_low": 32.5,
+          "p_high": 52.5,
+          "width": 20.0,
+          "boots": 250,
+          "quantiles": [
+            10.0,
+            90.0
+          ]
+        }
+      },
+      "edge": 0.273382542713568,
+      "z_score": 0.2697320820321113,
+      "edge_quality": "MODERATE",
+      "kelly_metrics": {
+        "edge": -0.06620832040964258,
+        "edge_pct": -6.620832040964259,
+        "z_score": -0.13359304176383288,
+        "full_kelly": -0.13241664081928523,
+        "kelly_bet": 0,
+        "ev": -0.06620832040964258
+      },
+      "model_confidence": 43.37916795903574,
+      "effective_confidence": 31.927067617850305,
+      "decision": "NO_PLAY",
+      "gates_passed": true,
+      "gate_details": [
+        {
+          "gate": "R1_COMPOSITE",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R2_ELITE_DEF",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R3_STAR_GUARD",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R4_BLOWOUT",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R5_BENCH_TRAP",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "ROLE_MAP",
+          "passed": true,
+          "reason": "PASS: ATHLETIC_WING \u2192 '3pm' allowed"
+        },
+        {
+          "gate": "BAN_LIST",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "STAT_CALIBRATION",
+          "passed": true,
+          "reason": "Bayesian penalty -8% for '3pm' (underperforming vs prediction)",
+          "severity": "WARNING",
+          "penalty": 0.08
+        },
+        {
+          "gate": "CONFIDENCE_ADJ",
+          "passed": true,
+          "reason": "Adjusted to 39.9% (cap + memory penalty); warnings adjusted 43.4%\u219239.9%"
+        }
+      ],
+      "context_warnings": [
+        "\u26a0 3PM requires \u22651.8\u03c3 edge (got 0.27\u03c3)"
+      ],
+      "stat_adjustment": {
+        "stat": "3pm",
+        "raw_confidence": 39.90883452231288,
+        "multiplier": 0.8,
+        "adjusted_confidence": 31.927067617850305,
+        "z_score": 0.2697320820321113,
+        "min_edge_required": 1.8,
+        "meets_min_edge": false
+      },
+      "stat_edge_block": true,
+      "status": "NO_PLAY",
+      "status_confidence": 31.927067617850305
+    },
+    {
+      "player": "Jaime Jaquez Jr.",
+      "team": "MIA",
+      "opponent": "UTA",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "lower",
+      "mu": 0.773382542713568,
+      "sigma": 1.0135336540390554,
+      "mu_raw": 0.73,
+      "sigma_raw": 0.8063290172471491,
+      "defense_factor": 1.0,
+      "context_factor": 1.0594281407035178,
+      "pace_factor": 0.9864321608040202,
+      "matchup_factor": 1.074,
+      "situation_factor": 1.0,
+      "situation_notes": [],
+      "context_notes": [
+        "Matchup: +7.4%",
+        "\u2705 vs Weak D (#28)"
+      ],
+      "minutes_cv": 0.2569728142729058,
+      "sample_n": 40,
+      "stat_window_n": null,
+      "injury_return": false,
+      "injury_return_stat_policy": false,
+      "early_return_stat_policy": false,
+      "prob_method": "empirical_hybrid",
+      "prob_method_details": {
+        "requested": "auto",
+        "empirical_hit_rate": 57.5,
+        "sample_n": 40,
+        "avg_margin_dir": 0.025,
+        "series_mean": 0.475,
+        "series_var": 0.358,
+        "hybrid_used": true,
+        "bootstrap_band": {
+          "p_median": 57.5,
+          "p_low": 47.5,
+          "p_high": 65.25,
+          "width": 17.75,
+          "boots": 250,
+          "quantiles": [
+            10.0,
+            90.0
+          ]
+        }
+      },
+      "edge": -0.273382542713568,
+      "z_score": -0.2697320820321113,
+      "edge_quality": "MODERATE",
+      "kelly_metrics": {
+        "edge": 0.06620832040964264,
+        "edge_pct": 6.620832040964264,
+        "z_score": 0.13359304176383302,
+        "full_kelly": 0.13241664081928528,
+        "kelly_bet": 0.03310416020482132,
+        "ev": 0.06620832040964264
+      },
+      "model_confidence": 56.62083204096426,
+      "effective_confidence": 41.672932382149696,
+      "decision": "NO_PLAY",
+      "gates_passed": true,
+      "gate_details": [
+        {
+          "gate": "R1_COMPOSITE",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R2_ELITE_DEF",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R3_STAR_GUARD",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R4_BLOWOUT",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R5_BENCH_TRAP",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "ROLE_MAP",
+          "passed": true,
+          "reason": "PASS: ATHLETIC_WING \u2192 '3pm' allowed"
+        },
+        {
+          "gate": "BAN_LIST",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "STAT_CALIBRATION",
+          "passed": true,
+          "reason": "Bayesian penalty -8% for '3pm' (underperforming vs prediction)",
+          "severity": "WARNING",
+          "penalty": 0.08
+        },
+        {
+          "gate": "CONFIDENCE_ADJ",
+          "passed": true,
+          "reason": "Adjusted to 52.1% (cap + memory penalty); warnings adjusted 56.6%\u219252.1%"
+        }
+      ],
+      "context_warnings": [
+        "\u26a0 3PM requires \u22651.8\u03c3 edge (got -0.27\u03c3)"
+      ],
+      "stat_adjustment": {
+        "stat": "3pm",
+        "raw_confidence": 52.09116547768712,
+        "multiplier": 0.8,
+        "adjusted_confidence": 41.672932382149696,
+        "z_score": -0.2697320820321113,
+        "min_edge_required": 1.8,
+        "meets_min_edge": false
+      },
+      "stat_edge_block": true,
+      "status": "NO_PLAY",
+      "status_confidence": 41.672932382149696
+    },
+    {
+      "player": "Kyle Filipowski",
+      "team": "UTA",
+      "opponent": "MIA",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "mu": 0.8219396658291459,
+      "sigma": 1.0379009221851314,
+      "mu_raw": 0.895,
+      "sigma_raw": 0.75,
+      "defense_factor": 1.0,
+      "context_factor": 0.9183683417085429,
+      "pace_factor": 0.9864321608040202,
+      "matchup_factor": 0.931,
+      "situation_factor": 1.0,
+      "situation_notes": [],
+      "context_notes": [
+        "Matchup: -6.9%"
+      ],
+      "minutes_cv": 0.3838678962468419,
+      "sample_n": 10,
+      "stat_window_n": null,
+      "injury_return": false,
+      "injury_return_stat_policy": false,
+      "early_return_stat_policy": false,
+      "prob_method": "empirical_hybrid",
+      "prob_method_details": {
+        "requested": "auto",
+        "empirical_hit_rate": 60.0,
+        "sample_n": 10,
+        "avg_margin_dir": 0.2,
+        "series_mean": 0.7,
+        "series_var": 0.456,
+        "hybrid_used": true,
+        "bootstrap_band": {
+          "p_median": 60.0,
+          "p_low": 40.0,
+          "p_high": 80.0,
+          "width": 40.0,
+          "boots": 250,
+          "quantiles": [
+            10.0,
+            90.0
+          ]
+        },
+        "bootstrap_guard_factor": 0.6
+      },
+      "edge": 0.3219396658291459,
+      "z_score": 0.3101834278664618,
+      "edge_quality": "MODERATE",
+      "kelly_metrics": {
+        "edge": 0.0712057302176986,
+        "edge_pct": 7.120573021769861,
+        "z_score": 0.14387792977482117,
+        "full_kelly": 0.1424114604353972,
+        "kelly_bet": 0.0356028651088493,
+        "ev": 0.0712057302176986
+      },
+      "model_confidence": 57.12057302176986,
+      "effective_confidence": 41.41185273473991,
+      "decision": "NO_PLAY",
+      "gates_passed": true,
+      "gate_details": [
+        {
+          "gate": "R1_COMPOSITE",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R2_ELITE_DEF",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R3_STAR_GUARD",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R4_BLOWOUT",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R5_BENCH_TRAP",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "ROLE_MAP",
+          "passed": true,
+          "reason": "WARNING: BIG role risk on '3pm' (stretch-variance)",
+          "severity": "WARNING",
+          "penalty": 0.12
+        },
+        {
+          "gate": "BAN_LIST",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "STAT_CALIBRATION",
+          "passed": true,
+          "reason": "Bayesian penalty -8% for '3pm' (underperforming vs prediction)",
+          "severity": "WARNING",
+          "penalty": 0.08
+        },
+        {
+          "gate": "CONFIDENCE_ADJ",
+          "passed": true,
+          "reason": "Adjusted to 51.8% (cap + memory penalty); warnings adjusted 57.1%\u219251.8%"
+        }
+      ],
+      "context_warnings": [
+        "\u26a0 3PM requires \u22651.8\u03c3 edge (got 0.31\u03c3)"
+      ],
+      "stat_adjustment": {
+        "stat": "3pm",
+        "raw_confidence": 51.76481591842488,
+        "multiplier": 0.8,
+        "adjusted_confidence": 41.41185273473991,
+        "z_score": 0.3101834278664618,
+        "min_edge_required": 1.8,
+        "meets_min_edge": false
+      },
+      "stat_edge_block": true,
+      "status": "NO_PLAY",
+      "status_confidence": 41.41185273473991
+    },
+    {
+      "player": "Cody Williams",
+      "team": "UTA",
+      "opponent": "MIA",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "mu": 0.7346946733668344,
+      "sigma": 0.9182451206052011,
+      "mu_raw": 0.8,
+      "sigma_raw": 0.75,
+      "defense_factor": 1.0,
+      "context_factor": 0.9183683417085429,
+      "pace_factor": 0.9864321608040202,
+      "matchup_factor": 0.931,
+      "situation_factor": 1.0,
+      "situation_notes": [],
+      "context_notes": [
+        "Matchup: -6.9%"
+      ],
+      "minutes_cv": 0.22432682747360147,
+      "sample_n": 10,
+      "stat_window_n": null,
+      "injury_return": false,
+      "injury_return_stat_policy": false,
+      "early_return_stat_policy": false,
+      "prob_method": "empirical_hybrid",
+      "prob_method_details": {
+        "requested": "auto",
+        "empirical_hit_rate": 70.0,
+        "sample_n": 10,
+        "avg_margin_dir": 0.3,
+        "series_mean": 0.8,
+        "series_var": 0.4,
+        "hybrid_used": true,
+        "bootstrap_band": {
+          "p_median": 70.0,
+          "p_low": 50.0,
+          "p_high": 90.0,
+          "width": 40.0,
+          "boots": 250,
+          "quantiles": [
+            10.0,
+            90.0
+          ]
+        },
+        "bootstrap_guard_factor": 0.6
+      },
+      "edge": 0.23469467336683436,
+      "z_score": 0.2555904388712142,
+      "edge_quality": "MODERATE",
+      "kelly_metrics": {
+        "edge": 0.14701956696597918,
+        "edge_pct": 14.701956696597918,
+        "z_score": 0.3076388052983814,
+        "full_kelly": 0.29403913393195835,
+        "kelly_bet": 0.07350978348298959,
+        "ev": 0.14701956696597918
+      },
+      "model_confidence": 64.70195669659792,
+      "effective_confidence": 47.62064012869607,
+      "decision": "NO_PLAY",
+      "gates_passed": true,
+      "gate_details": [
+        {
+          "gate": "R1_COMPOSITE",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R2_ELITE_DEF",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R3_STAR_GUARD",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R4_BLOWOUT",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R5_BENCH_TRAP",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "ROLE_MAP",
+          "passed": true,
+          "reason": "PASS: ATHLETIC_WING \u2192 '3pm' allowed"
+        },
+        {
+          "gate": "BAN_LIST",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "STAT_CALIBRATION",
+          "passed": true,
+          "reason": "Bayesian penalty -8% for '3pm' (underperforming vs prediction)",
+          "severity": "WARNING",
+          "penalty": 0.08
+        },
+        {
+          "gate": "CONFIDENCE_ADJ",
+          "passed": true,
+          "reason": "Adjusted to 59.5% (cap + memory penalty); warnings adjusted 64.7%\u219259.5%"
+        }
+      ],
+      "context_warnings": [
+        "\u26a0 3PM requires \u22651.8\u03c3 edge (got 0.26\u03c3)"
+      ],
+      "stat_adjustment": {
+        "stat": "3pm",
+        "raw_confidence": 59.525800160870084,
+        "multiplier": 0.8,
+        "adjusted_confidence": 47.62064012869607,
+        "z_score": 0.2555904388712142,
+        "min_edge_required": 1.8,
+        "meets_min_edge": false
+      },
+      "stat_edge_block": true,
+      "status": "NO_PLAY",
+      "status_confidence": 47.62064012869607
+    },
+    {
+      "player": "Cody Williams",
+      "team": "UTA",
+      "opponent": "MIA",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "lower",
+      "mu": 0.7346946733668344,
+      "sigma": 0.9182451206052011,
+      "mu_raw": 0.8,
+      "sigma_raw": 0.75,
+      "defense_factor": 1.0,
+      "context_factor": 0.9183683417085429,
+      "pace_factor": 0.9864321608040202,
+      "matchup_factor": 0.931,
+      "situation_factor": 1.0,
+      "situation_notes": [],
+      "context_notes": [
+        "Matchup: -6.9%"
+      ],
+      "minutes_cv": 0.22432682747360147,
+      "sample_n": 10,
+      "stat_window_n": null,
+      "injury_return": false,
+      "injury_return_stat_policy": false,
+      "early_return_stat_policy": false,
+      "prob_method": "empirical_hybrid",
+      "prob_method_details": {
+        "requested": "auto",
+        "empirical_hit_rate": 30.0,
+        "sample_n": 10,
+        "avg_margin_dir": -0.3,
+        "series_mean": 0.8,
+        "series_var": 0.4,
+        "hybrid_used": true,
+        "bootstrap_band": {
+          "p_median": 30.0,
+          "p_low": 10.0,
+          "p_high": 50.0,
+          "width": 40.0,
+          "boots": 250,
+          "quantiles": [
+            10.0,
+            90.0
+          ]
+        },
+        "bootstrap_guard_factor": 0.6
+      },
+      "edge": -0.23469467336683436,
+      "z_score": -0.2555904388712142,
+      "edge_quality": "MODERATE",
+      "kelly_metrics": {
+        "edge": -0.14701956696597918,
+        "edge_pct": -14.701956696597918,
+        "z_score": -0.3076388052983814,
+        "full_kelly": -0.29403913393195835,
+        "kelly_bet": 0,
+        "ev": -0.14701956696597918
+      },
+      "model_confidence": 35.29804330340208,
+      "effective_confidence": 25.979359871303934,
+      "decision": "NO_PLAY",
+      "gates_passed": true,
+      "gate_details": [
+        {
+          "gate": "R1_COMPOSITE",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R2_ELITE_DEF",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R3_STAR_GUARD",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R4_BLOWOUT",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "R5_BENCH_TRAP",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "ROLE_MAP",
+          "passed": true,
+          "reason": "PASS: ATHLETIC_WING \u2192 '3pm' allowed"
+        },
+        {
+          "gate": "BAN_LIST",
+          "passed": true,
+          "reason": "PASS"
+        },
+        {
+          "gate": "STAT_CALIBRATION",
+          "passed": true,
+          "reason": "Bayesian penalty -8% for '3pm' (underperforming vs prediction)",
+          "severity": "WARNING",
+          "penalty": 0.08
+        },
+        {
+          "gate": "CONFIDENCE_ADJ",
+          "passed": true,
+          "reason": "Adjusted to 32.5% (cap + memory penalty); warnings adjusted 35.3%\u219232.5%"
+        }
+      ],
+      "context_warnings": [
+        "\u26a0 3PM requires \u22651.8\u03c3 edge (got -0.26\u03c3)"
+      ],
+      "stat_adjustment": {
+        "stat": "3pm",
+        "raw_confidence": 32.474199839129916,
+        "multiplier": 0.8,
+        "adjusted_confidence": 25.979359871303934,
+        "z_score": -0.2555904388712142,
+        "min_edge_required": 1.8,
+        "meets_min_edge": false
+      },
+      "stat_edge_block": true,
+      "status": "NO_PLAY",
+      "status_confidence": 25.979359871303934
+    }
+  ],
+  "hq_options": {
+    "source": "file",
+    "source_path": "C:\\Users\\hiday\\UNDERDOG ANANLYSIS\\hq_options.local.json",
+    "reporting": {
+      "top_n_per_team": 5,
+      "include_status": [
+        "PLAY",
+        "LEAN",
+        "ANALYSIS_ONLY"
+      ]
+    }
+  },
+  "analysis_only": 0
+}

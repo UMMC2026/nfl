@@ -1,0 +1,844 @@
+{
+  "sport": "NBA",
+  "date": "2026-01-29",
+  "timestamp": "2026-01-29T20:42:17.380732Z",
+  "games": [
+    {
+      "game_id": "DEN_vs_BOS_20260129",
+      "sport": "NBA",
+      "home_team": "BOS",
+      "away_team": "DEN",
+      "game_date": "2026-01-29",
+      "game_time": "19:30:00",
+      "status": "SCHEDULED",
+      "venue": "TD Garden",
+      "weather": null
+    },
+    {
+      "game_id": "LAL_vs_GSW_20260129",
+      "sport": "NBA",
+      "home_team": "GSW",
+      "away_team": "LAL",
+      "game_date": "2026-01-29",
+      "game_time": "22:00:00",
+      "status": "SCHEDULED",
+      "venue": "Chase Center",
+      "weather": null
+    }
+  ],
+  "players": [
+    {
+      "player_id": "jokic_001",
+      "player_name": "Nikola Jokic",
+      "team": "DEN",
+      "position": "C",
+      "status": "ACTIVE",
+      "injury_info": null
+    },
+    {
+      "player_id": "murray_001",
+      "player_name": "Jamal Murray",
+      "team": "DEN",
+      "position": "PG",
+      "status": "ACTIVE",
+      "injury_info": null
+    },
+    {
+      "player_id": "tatum_001",
+      "player_name": "Jayson Tatum",
+      "team": "BOS",
+      "position": "SF",
+      "status": "ACTIVE",
+      "injury_info": null
+    },
+    {
+      "player_id": "brown_001",
+      "player_name": "Jaylen Brown",
+      "team": "BOS",
+      "position": "SG",
+      "status": "ACTIVE",
+      "injury_info": null
+    },
+    {
+      "player_id": "white_001",
+      "player_name": "Derrick White",
+      "team": "BOS",
+      "position": "PG",
+      "status": "ACTIVE",
+      "injury_info": null
+    },
+    {
+      "player_id": "lebron_001",
+      "player_name": "LeBron James",
+      "team": "LAL",
+      "position": "SF",
+      "status": "ACTIVE",
+      "injury_info": null
+    },
+    {
+      "player_id": "curry_001",
+      "player_name": "Stephen Curry",
+      "team": "GSW",
+      "position": "PG",
+      "status": "QUESTIONABLE",
+      "injury_info": "Ankle - Limited practice"
+    }
+  ],
+  "historical_stats": [
+    {
+      "player_id": "jokic_001",
+      "stat_type": "points",
+      "value": 28,
+      "game_index": 0,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "jokic_001",
+      "stat_type": "points",
+      "value": 31,
+      "game_index": 1,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "jokic_001",
+      "stat_type": "points",
+      "value": 25,
+      "game_index": 2,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "jokic_001",
+      "stat_type": "points",
+      "value": 29,
+      "game_index": 3,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "jokic_001",
+      "stat_type": "points",
+      "value": 27,
+      "game_index": 4,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "jokic_001",
+      "stat_type": "rebounds",
+      "value": 12,
+      "game_index": 0,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "jokic_001",
+      "stat_type": "rebounds",
+      "value": 14,
+      "game_index": 1,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "jokic_001",
+      "stat_type": "rebounds",
+      "value": 11,
+      "game_index": 2,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "jokic_001",
+      "stat_type": "rebounds",
+      "value": 13,
+      "game_index": 3,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "jokic_001",
+      "stat_type": "rebounds",
+      "value": 12,
+      "game_index": 4,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "jokic_001",
+      "stat_type": "assists",
+      "value": 9,
+      "game_index": 0,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "jokic_001",
+      "stat_type": "assists",
+      "value": 11,
+      "game_index": 1,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "jokic_001",
+      "stat_type": "assists",
+      "value": 8,
+      "game_index": 2,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "jokic_001",
+      "stat_type": "assists",
+      "value": 10,
+      "game_index": 3,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "jokic_001",
+      "stat_type": "assists",
+      "value": 9,
+      "game_index": 4,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "tatum_001",
+      "stat_type": "points",
+      "value": 26,
+      "game_index": 0,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "tatum_001",
+      "stat_type": "points",
+      "value": 29,
+      "game_index": 1,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "tatum_001",
+      "stat_type": "points",
+      "value": 24,
+      "game_index": 2,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "tatum_001",
+      "stat_type": "points",
+      "value": 31,
+      "game_index": 3,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "tatum_001",
+      "stat_type": "points",
+      "value": 28,
+      "game_index": 4,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "tatum_001",
+      "stat_type": "rebounds",
+      "value": 7,
+      "game_index": 0,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "tatum_001",
+      "stat_type": "rebounds",
+      "value": 8,
+      "game_index": 1,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "tatum_001",
+      "stat_type": "rebounds",
+      "value": 6,
+      "game_index": 2,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "tatum_001",
+      "stat_type": "rebounds",
+      "value": 9,
+      "game_index": 3,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "tatum_001",
+      "stat_type": "rebounds",
+      "value": 7,
+      "game_index": 4,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "tatum_001",
+      "stat_type": "assists",
+      "value": 5,
+      "game_index": 0,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "tatum_001",
+      "stat_type": "assists",
+      "value": 4,
+      "game_index": 1,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "tatum_001",
+      "stat_type": "assists",
+      "value": 6,
+      "game_index": 2,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "tatum_001",
+      "stat_type": "assists",
+      "value": 5,
+      "game_index": 3,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "tatum_001",
+      "stat_type": "assists",
+      "value": 4,
+      "game_index": 4,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "murray_001",
+      "stat_type": "points",
+      "value": 21,
+      "game_index": 0,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "murray_001",
+      "stat_type": "points",
+      "value": 24,
+      "game_index": 1,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "murray_001",
+      "stat_type": "points",
+      "value": 19,
+      "game_index": 2,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "murray_001",
+      "stat_type": "points",
+      "value": 23,
+      "game_index": 3,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "murray_001",
+      "stat_type": "points",
+      "value": 22,
+      "game_index": 4,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "murray_001",
+      "stat_type": "rebounds",
+      "value": 4,
+      "game_index": 0,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "murray_001",
+      "stat_type": "rebounds",
+      "value": 5,
+      "game_index": 1,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "murray_001",
+      "stat_type": "rebounds",
+      "value": 3,
+      "game_index": 2,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "murray_001",
+      "stat_type": "rebounds",
+      "value": 4,
+      "game_index": 3,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "murray_001",
+      "stat_type": "rebounds",
+      "value": 5,
+      "game_index": 4,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "murray_001",
+      "stat_type": "assists",
+      "value": 6,
+      "game_index": 0,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "murray_001",
+      "stat_type": "assists",
+      "value": 7,
+      "game_index": 1,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "murray_001",
+      "stat_type": "assists",
+      "value": 5,
+      "game_index": 2,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "murray_001",
+      "stat_type": "assists",
+      "value": 8,
+      "game_index": 3,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "murray_001",
+      "stat_type": "assists",
+      "value": 6,
+      "game_index": 4,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "brown_001",
+      "stat_type": "points",
+      "value": 23,
+      "game_index": 0,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "brown_001",
+      "stat_type": "points",
+      "value": 25,
+      "game_index": 1,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "brown_001",
+      "stat_type": "points",
+      "value": 21,
+      "game_index": 2,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "brown_001",
+      "stat_type": "points",
+      "value": 27,
+      "game_index": 3,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "brown_001",
+      "stat_type": "points",
+      "value": 24,
+      "game_index": 4,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "brown_001",
+      "stat_type": "rebounds",
+      "value": 5,
+      "game_index": 0,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "brown_001",
+      "stat_type": "rebounds",
+      "value": 6,
+      "game_index": 1,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "brown_001",
+      "stat_type": "rebounds",
+      "value": 4,
+      "game_index": 2,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "brown_001",
+      "stat_type": "rebounds",
+      "value": 5,
+      "game_index": 3,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "brown_001",
+      "stat_type": "rebounds",
+      "value": 5,
+      "game_index": 4,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "brown_001",
+      "stat_type": "assists",
+      "value": 3,
+      "game_index": 0,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "brown_001",
+      "stat_type": "assists",
+      "value": 4,
+      "game_index": 1,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "brown_001",
+      "stat_type": "assists",
+      "value": 3,
+      "game_index": 2,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "brown_001",
+      "stat_type": "assists",
+      "value": 4,
+      "game_index": 3,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "brown_001",
+      "stat_type": "assists",
+      "value": 3,
+      "game_index": 4,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "white_001",
+      "stat_type": "points",
+      "value": 14,
+      "game_index": 0,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "white_001",
+      "stat_type": "points",
+      "value": 16,
+      "game_index": 1,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "white_001",
+      "stat_type": "points",
+      "value": 12,
+      "game_index": 2,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "white_001",
+      "stat_type": "points",
+      "value": 18,
+      "game_index": 3,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "white_001",
+      "stat_type": "points",
+      "value": 15,
+      "game_index": 4,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "white_001",
+      "stat_type": "rebounds",
+      "value": 4,
+      "game_index": 0,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "white_001",
+      "stat_type": "rebounds",
+      "value": 5,
+      "game_index": 1,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "white_001",
+      "stat_type": "rebounds",
+      "value": 3,
+      "game_index": 2,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "white_001",
+      "stat_type": "rebounds",
+      "value": 4,
+      "game_index": 3,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "white_001",
+      "stat_type": "rebounds",
+      "value": 4,
+      "game_index": 4,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "white_001",
+      "stat_type": "three_pointers",
+      "value": 3,
+      "game_index": 0,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "white_001",
+      "stat_type": "three_pointers",
+      "value": 4,
+      "game_index": 1,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "white_001",
+      "stat_type": "three_pointers",
+      "value": 2,
+      "game_index": 2,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "white_001",
+      "stat_type": "three_pointers",
+      "value": 4,
+      "game_index": 3,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    },
+    {
+      "player_id": "white_001",
+      "stat_type": "three_pointers",
+      "value": 3,
+      "game_index": 4,
+      "source": "nba_api",
+      "verified": true,
+      "status": "FINAL"
+    }
+  ],
+  "market_lines": [
+    {
+      "player_id": "jokic_001",
+      "player_name": "Nikola Jokic",
+      "game_id": "DEN_vs_BOS_20260129",
+      "stat_type": "points",
+      "line": 25.5,
+      "over_odds": -115,
+      "under_odds": -105
+    },
+    {
+      "player_id": "jokic_001",
+      "player_name": "Nikola Jokic",
+      "game_id": "DEN_vs_BOS_20260129",
+      "stat_type": "points",
+      "line": 26.5,
+      "over_odds": -105,
+      "under_odds": -115
+    },
+    {
+      "player_id": "jokic_001",
+      "player_name": "Nikola Jokic",
+      "game_id": "DEN_vs_BOS_20260129",
+      "stat_type": "rebounds",
+      "line": 11.5,
+      "over_odds": -110,
+      "under_odds": -110
+    },
+    {
+      "player_id": "tatum_001",
+      "player_name": "Jayson Tatum",
+      "game_id": "DEN_vs_BOS_20260129",
+      "stat_type": "points",
+      "line": 26.5,
+      "over_odds": -110,
+      "under_odds": -110
+    },
+    {
+      "player_id": "murray_001",
+      "player_name": "Jamal Murray",
+      "game_id": "DEN_vs_BOS_20260129",
+      "stat_type": "assists",
+      "line": 5.5,
+      "over_odds": -120,
+      "under_odds": 100
+    },
+    {
+      "player_id": "brown_001",
+      "player_name": "Jaylen Brown",
+      "game_id": "DEN_vs_BOS_20260129",
+      "stat_type": "points",
+      "line": 23.5,
+      "over_odds": -110,
+      "under_odds": -110
+    },
+    {
+      "player_id": "white_001",
+      "player_name": "Derrick White",
+      "game_id": "DEN_vs_BOS_20260129",
+      "stat_type": "three_pointers",
+      "line": 2.5,
+      "over_odds": -130,
+      "under_odds": 110
+    }
+  ],
+  "data_sources_used": [
+    "nba_api",
+    "espn",
+    "basketball_reference"
+  ],
+  "verification_status": {
+    "games_verified": true,
+    "players_verified": true,
+    "stats_verified": true,
+    "lines_verified": true,
+    "injury_feed_healthy": true,
+    "sources_count": 2,
+    "verification_timestamp": "2026-01-29T20:42:17.380663Z"
+  },
+  "checksum": "14af2b11d1b683a9"
+}

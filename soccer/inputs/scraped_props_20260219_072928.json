@@ -1,0 +1,675 @@
+{
+  "timestamp": "2026-02-19T07:29:09.291110",
+  "sites": [
+    "persistent"
+  ],
+  "total_props": 51,
+  "parsed_props": 51,
+  "players": 51,
+  "props": [
+    {
+      "source": "Underdog",
+      "player": "Thijs Dallinga",
+      "stat": "shots on target",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Thijs Dallinga Shots on Target 1.5 higher",
+      "matchup": {
+        "team1": "BFC",
+        "team2": "SKB"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Neco Williams",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Neco Williams Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "NFO",
+        "team2": "FEN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nadir Zortea",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nadir Zortea Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "BFC",
+        "team2": "SKB"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Miha Zajc",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Miha Zajc Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "DIN",
+        "team2": "GNK"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Konstantinos Karetsas",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Konstantinos Karetsas Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "GNK",
+        "team2": "DIN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Junya Ito",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Junya Ito Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "GNK",
+        "team2": "DIN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Daan Heymans",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Daan Heymans Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "GNK",
+        "team2": "DIN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Kerem Akturkoglu",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Kerem Akturkoglu Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "FEN",
+        "team2": "NFO"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Arber Hoxha",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Arber Hoxha Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "DIN",
+        "team2": "GNK"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Riccardo Orsolini",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Riccardo Orsolini Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "BFC",
+        "team2": "SKB"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Ermedin Demirovic",
+      "stat": "shots on target",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Ermedin Demirovic Shots on Target 1.5 higher",
+      "matchup": {
+        "team1": "VFB",
+        "team2": "CEL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Deniz Undav",
+      "stat": "shots on target",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Deniz Undav Shots on Target 1.5 higher",
+      "matchup": {
+        "team1": "VFB",
+        "team2": "CEL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Kieran Tierney",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Kieran Tierney Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "CEL",
+        "team2": "VFB"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Maximilian Mittelstadt",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Maximilian Mittelstadt Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "VFB",
+        "team2": "CEL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Benjamin Andre",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Benjamin Andre Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "LOSC",
+        "team2": "CZV"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Callum McGregor",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Callum McGregor Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "CEL",
+        "team2": "VFB"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Cheick Oumar Souare",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Cheick Oumar Souare Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "VIK",
+        "team2": "PANA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Vicente Taborda",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Vicente Taborda Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "PANA",
+        "team2": "VIK"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Kristoffer Zachariassen",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Kristoffer Zachariassen Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "FER",
+        "team2": "LUD"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Marcus Erick",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Marcus Erick Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "LUD",
+        "team2": "FER"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Hakon Haraldsson",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Hakon Haraldsson Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "LOSC",
+        "team2": "CZV"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Marko Arnautovic",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Marko Arnautovic Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "CZV",
+        "team2": "LOSC"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Jamie Leweling",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Jamie Leweling Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "VFB",
+        "team2": "CEL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Felix Correia",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Felix Correia Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "LOSC",
+        "team2": "CZV"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Matias Fernandez-Pardo",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Matias Fernandez-Pardo Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "LOSC",
+        "team2": "CZV"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Karol Swiderski",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Karol Swiderski Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "PANA",
+        "team2": "VIK"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Ryan Yates",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Ryan Yates Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "NFO",
+        "team2": "FEN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Matteo Guendouzi",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Matteo Guendouzi Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "FEN",
+        "team2": "NFO"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Nicolas Dominguez",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Nicolas Dominguez Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "NFO",
+        "team2": "FEN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Lewis Ferguson",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Lewis Ferguson Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "BFC",
+        "team2": "SKB"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "James McAtee",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "James McAtee Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "NFO",
+        "team2": "FEN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Dan Ndoye",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Dan Ndoye Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "NFO",
+        "team2": "FEN"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Marco Asensio",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Marco Asensio Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "FEN",
+        "team2": "NFO"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Jens Odgaard",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Jens Odgaard Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "BFC",
+        "team2": "SKB"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Monsef Bakrar",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Monsef Bakrar Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "DIN",
+        "team2": "GNK"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Franko Kovacevic",
+      "stat": "shots on target",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Franko Kovacevic Shots on Target 1.5 higher",
+      "matchup": {
+        "team1": "FER",
+        "team2": "LUD"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Olivier Giroud",
+      "stat": "shots on target",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Olivier Giroud Shots on Target 1.5 higher",
+      "matchup": {
+        "team1": "LOSC",
+        "team2": "CZV"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Lukas Cerv",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Lukas Cerv Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "VIK",
+        "team2": "PANA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Lorenz Assignon",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Lorenz Assignon Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "VFB",
+        "team2": "CEL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Gavriel Kanichowsky",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Gavriel Kanichowsky Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "FER",
+        "team2": "LUD"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Ayyoub Bouaddi",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Ayyoub Bouaddi Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "LOSC",
+        "team2": "CZV"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Reo Hatate",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Reo Hatate Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "CEL",
+        "team2": "VFB"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Jonathan Levi",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Jonathan Levi Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "FER",
+        "team2": "LUD"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Tomas Ladra",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Tomas Ladra Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "VIK",
+        "team2": "PANA"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Anass Zaroury",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Anass Zaroury Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "PANA",
+        "team2": "VIK"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Sebastian Tounekti",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Sebastian Tounekti Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "CEL",
+        "team2": "VFB"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Chris Fuhrich",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Chris Fuhrich Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "VFB",
+        "team2": "CEL"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Tomas Cvancara",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Tomas Cvancara Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "CEL",
+        "team2": "VFB"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Bamidele Yusuf",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Bamidele Yusuf Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "FER",
+        "team2": "LUD"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Daizen Maeda",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Daizen Maeda Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "CEL",
+        "team2": "VFB"
+      }
+    },
+    {
+      "source": "Underdog",
+      "player": "Caio Vidal",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Caio Vidal Shots on Target 0.5 higher",
+      "matchup": {
+        "team1": "LUD",
+        "team2": "FER"
+      }
+    }
+  ],
+  "run_id": "10d6751fcc5d0093"
+}

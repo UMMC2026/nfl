@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUOOM Dashboard - Performance Analytics</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+        }
+        .stat-card {
+            background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%);
+        }
+        .hit-green { color: #22c55e; }
+        .miss-red { color: #ef4444; }
+        .tier-slam { background: linear-gradient(90deg, #10b981, #059669); }
+        .tier-strong { background: linear-gradient(90deg, #3b82f6, #2563eb); }
+        .tier-lean { background: linear-gradient(90deg, #f59e0b, #d97706); }
+    </style>
+</head>
+<body class="gradient-bg min-h-screen text-white font-sans">
+    <!-- Header -->
+    <header class="p-6 border-b border-white/10">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div>
+                <h1 class="text-3xl font-bold">🎯 FUOOM Dashboard</h1>
+                <p class="text-gray-400 mt-1">Performance Analytics & Calibration</p>
+            </div>
+            <div class="text-right">
+                <div class="text-sm text-gray-400">Last Updated</div>
+                <div class="text-lg">{{ now() }}</div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto p-6">
+        <!-- Overview Stats -->
+        <section class="grid grid-cols-1 md:grid-cols-5 gap-4 mb-8">
+                        <div class="stat-card card rounded-xl p-6">
+                            <div class="text-gray-400 text-sm uppercase tracking-wide">Regret (EV)</div>
+                            <div class="text-4xl font-bold mt-2 {% if regret.avg_regret < 0 %}miss-red{% elif regret.avg_regret > 0 %}hit-green{% endif %}">
+                                {{ regret.avg_regret|round(2) }}
+                            </div>
+                            <div class="text-gray-500 text-sm mt-1">Total: {{ regret.total }}</div>
+                        </div>
+            <div class="stat-card card rounded-xl p-6">
+                <div class="text-gray-400 text-sm uppercase tracking-wide">Total Picks</div>
+                <div class="text-4xl font-bold mt-2">{{ stats.total }}</div>
+                <div class="text-gray-500 text-sm mt-1">All time</div>
+            </div>
+            
+            <div class="stat-card card rounded-xl p-6">
+                <div class="text-gray-400 text-sm uppercase tracking-wide">Resolved</div>
+                <div class="text-4xl font-bold mt-2">{{ stats.resolved }}</div>
+                <div class="text-gray-500 text-sm mt-1">{{ stats.pending }} pending</div>
+            </div>
+            
+            <div class="stat-card card rounded-xl p-6">
+                <div class="text-gray-400 text-sm uppercase tracking-wide">Hit Rate</div>
+                <div class="text-4xl font-bold mt-2 {% if stats.hit_rate >= 55 %}hit-green{% elif stats.hit_rate < 45 %}miss-red{% endif %}">
+                    {{ stats.hit_rate }}%
+                </div>
+                <div class="text-gray-500 text-sm mt-1">{{ stats.hits }}W / {{ stats.misses }}L</div>
+            </div>
+            
+            <div class="stat-card card rounded-xl p-6">
+                <div class="text-gray-400 text-sm uppercase tracking-wide">Injuries</div>
+                <div class="text-4xl font-bold mt-2 text-orange-400">{{ injuries|length }}</div>
+                <div class="text-gray-500 text-sm mt-1">Players tracked</div>
+            </div>
+        </section>
+
+        <!-- Charts Row -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <!-- By Tier -->
+            <div class="card rounded-xl p-6">
+                <h2 class="text-xl font-semibold mb-4">📊 Performance by Tier</h2>
+                <div class="space-y-4">
+                    {% for tier in by_tier %}
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-3">
+                            <span class="w-20 px-2 py-1 rounded text-center text-sm font-medium
+                                {% if tier.tier == 'SLAM' %}tier-slam
+                                {% elif tier.tier == 'STRONG' %}tier-strong
+                                {% else %}tier-lean{% endif %}">
+                                {{ tier.tier }}
+                            </span>
+                            <span class="text-gray-400">{{ tier.resolved }} resolved</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="font-bold text-lg
+                                {% if tier.hit_rate >= 60 %}hit-green{% elif tier.hit_rate < 45 %}miss-red{% endif %}">
+                                {{ tier.hit_rate }}%
+                            </span>
+                            <span class="text-gray-500 text-sm">({{ tier.hits }}/{{ tier.resolved }})</span>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <!-- By Stat -->
+            <div class="card rounded-xl p-6">
+                <h2 class="text-xl font-semibold mb-4">🏀 Performance by Stat</h2>
+                <div class="space-y-3">
+                    {% for stat in by_stat[:8] %}
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-3">
+                            <span class="w-24 text-gray-300 uppercase text-sm">{{ stat.stat }}</span>
+                            <div class="w-32 bg-gray-700 rounded-full h-2">
+                                <div class="h-2 rounded-full
+                                    {% if stat.hit_rate >= 55 %}bg-green-500{% elif stat.hit_rate < 45 %}bg-red-500{% else %}bg-yellow-500{% endif %}"
+                                    style="width: {{ stat.hit_rate }}%"></div>
+                            </div>
+                        </div>
+                        <span class="font-medium
+                            {% if stat.hit_rate >= 55 %}hit-green{% elif stat.hit_rate < 45 %}miss-red{% endif %}">
+                            {{ stat.hit_rate }}%
+                        </span>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+
+        <!-- Direction & Daily Performance -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <!-- By Direction -->
+            <div class="card rounded-xl p-6">
+                <h2 class="text-xl font-semibold mb-4">↕️ Higher vs Lower</h2>
+                <div class="grid grid-cols-2 gap-4">
+                    {% for dir in by_direction %}
+                    <div class="bg-white/5 rounded-lg p-4 text-center">
+                        <div class="text-2xl mb-2">
+                            {% if dir.direction == 'higher' %}📈{% else %}📉{% endif %}
+                        </div>
+                        <div class="text-gray-400 uppercase text-sm">{{ dir.direction }}</div>
+                        <div class="text-3xl font-bold mt-2
+                            {% if dir.hit_rate >= 55 %}hit-green{% elif dir.hit_rate < 45 %}miss-red{% endif %}">
+                            {{ dir.hit_rate }}%
+                        </div>
+                        <div class="text-gray-500 text-sm">{{ dir.hits }}/{{ dir.resolved }}</div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <!-- Daily Performance -->
+            <div class="card rounded-xl p-6">
+                <h2 class="text-xl font-semibold mb-4">📅 Last 7 Days</h2>
+                <div class="space-y-2">
+                    {% for day in daily[:7] %}
+                    <div class="flex items-center justify-between py-2 border-b border-white/5">
+                        <span class="text-gray-400">{{ day.date }}</span>
+                        <div class="flex items-center gap-4">
+                            <span class="text-gray-500">{{ day.resolved }} picks</span>
+                            <span class="font-bold
+                                {% if day.hit_rate >= 55 %}hit-green{% elif day.hit_rate < 45 %}miss-red{% endif %}">
+                                {{ day.hit_rate }}%
+                            </span>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+
+        <!-- Injury Report -->
+        <section class="card rounded-xl p-6 mb-8">
+            <h2 class="text-xl font-semibold mb-4">🏥 Active Injuries</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {% for injury in injuries[:12] %}
+                <div class="bg-white/5 rounded-lg p-3 flex items-center justify-between">
+                    <div>
+                        <div class="font-medium">{{ injury.player_name }}</div>
+                        <div class="text-gray-500 text-sm">{{ injury.team }} • {{ injury.injury }}</div>
+                    </div>
+                    <span class="px-2 py-1 rounded text-xs font-medium
+                        {% if injury.status == 'OUT' %}bg-red-500/20 text-red-400
+                        {% elif injury.status == 'DOUBTFUL' %}bg-orange-500/20 text-orange-400
+                        {% elif injury.status == 'QUESTIONABLE' or injury.status == 'GTD' %}bg-yellow-500/20 text-yellow-400
+                        {% else %}bg-green-500/20 text-green-400{% endif %}">
+                        {{ injury.status }}
+                    </span>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center text-gray-500 text-sm py-8">
+            <p>FUOOM Performance Dashboard • Built for data-driven betting</p>
+            <p class="mt-1">
+                <a href="/share" class="text-blue-400 hover:underline">📤 Shareable Report</a> •
+                <a href="/api/stats" class="text-blue-400 hover:underline">📡 API</a>
+            </p>
+        </footer>
+    </main>
+
+    <script>
+        function now() {
+            return new Date().toLocaleString();
+        }
+    </script>
+</body>
+</html>

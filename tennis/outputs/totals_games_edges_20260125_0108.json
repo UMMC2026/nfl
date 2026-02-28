@@ -1,0 +1,54 @@
+{
+  "engine": "TOTAL_GAMES_ENGINE",
+  "market": "TOTAL_GAMES",
+  "generated_at": "2026-01-25T07:08:14.044881Z",
+  "total_candidates": 1,
+  "blocked_count": 0,
+  "playable_count": 1,
+  "output_count": 1,
+  "max_plays": 2,
+  "edges": [
+    {
+      "edge_id": "TOTAL_GAMES::Iva_Jovic::Priscilla_Hon::HARD::19.5",
+      "sport": "TENNIS",
+      "engine": "TOTAL_GAMES_ENGINE",
+      "market": "TOTAL_GAMES",
+      "players": [
+        "Iva Jovic",
+        "Priscilla Hon"
+      ],
+      "surface": "HARD",
+      "line": 19.5,
+      "best_of": 3,
+      "direction": "OVER",
+      "probability": 0.67,
+      "tier": "STRONG",
+      "edge": 0.17,
+      "risk_tag": "ENGINE_ISOLATED",
+      "blocked": false,
+      "block_reason": null,
+      "sources": [
+        "player_stats",
+        "elo_ratings"
+      ],
+      "finalized": true,
+      "features": {
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "elo_gap": 0.0,
+        "hold_a": 0.8,
+        "hold_b": 0.8,
+        "tiebreak_rate": 0.22,
+        "straight_set_rate": 0.6,
+        "rating_gap": "LARGE",
+        "E_sets": 2.2,
+        "E_games_set": 9.9,
+        "base_expected": 21.86,
+        "delta": 2.36,
+        "p_over_raw": 0.67
+      },
+      "generated_at": "2026-01-25T07:08:14.043883Z"
+    }
+  ],
+  "blocked": []
+}

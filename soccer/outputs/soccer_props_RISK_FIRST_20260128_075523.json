@@ -1,0 +1,138 @@
+{
+  "generated": "2026-01-28T07:55:23.477808",
+  "total_props": 6,
+  "edges": [
+    {
+      "edge_id": "soccer_prop_9c5fe8233e12",
+      "player": "Yassine Benzia",
+      "team": "Fayha",
+      "opponent": "Khaleej",
+      "stat": "tackles",
+      "line": 2.0,
+      "direction": "OVER",
+      "probability": 0.4501,
+      "tier": "NO_PLAY",
+      "confidence": "MEDIUM",
+      "edge": 0.0499,
+      "mean": 1.9,
+      "std": 0.8,
+      "p50": 1.9,
+      "sample_size": 12,
+      "audit_hash": "9c5fe8233e12",
+      "data_sources": [
+        "cache"
+      ],
+      "hydration_mode": "cached"
+    },
+    {
+      "edge_id": "soccer_prop_e7943d3398e4",
+      "player": "Yassine Benzia",
+      "team": "Fayha",
+      "opponent": "Khaleej",
+      "stat": "tackles",
+      "line": 2.0,
+      "direction": "UNDER",
+      "probability": 0.547,
+      "tier": "NO_PLAY",
+      "confidence": "MEDIUM",
+      "edge": -0.047,
+      "mean": 1.9,
+      "std": 0.8,
+      "p50": 1.91,
+      "sample_size": 12,
+      "audit_hash": "e7943d3398e4",
+      "data_sources": [
+        "cache"
+      ],
+      "hydration_mode": "cached"
+    },
+    {
+      "edge_id": "soccer_prop_19843ab5a255",
+      "player": "Alfa Semedo",
+      "team": "Fayha",
+      "opponent": "Khaleej",
+      "stat": "tackles",
+      "line": 1.5,
+      "direction": "OVER",
+      "probability": 0.75,
+      "tier": "SLAM",
+      "confidence": "MEDIUM",
+      "edge": 0.334,
+      "mean": 2.5,
+      "std": 1.0,
+      "p50": 2.49,
+      "sample_size": 10,
+      "audit_hash": "19843ab5a255",
+      "data_sources": [
+        "cache"
+      ],
+      "hydration_mode": "cached"
+    },
+    {
+      "edge_id": "soccer_prop_506d4dae483f",
+      "player": "Alfa Semedo",
+      "team": "Fayha",
+      "opponent": "Khaleej",
+      "stat": "tackles",
+      "line": 1.5,
+      "direction": "UNDER",
+      "probability": 0.1621,
+      "tier": "NO_PLAY",
+      "confidence": "MEDIUM",
+      "edge": -0.3379,
+      "mean": 2.5,
+      "std": 1.0,
+      "p50": 2.49,
+      "sample_size": 10,
+      "audit_hash": "506d4dae483f",
+      "data_sources": [
+        "cache"
+      ],
+      "hydration_mode": "cached"
+    },
+    {
+      "edge_id": "soccer_prop_cf64757dacb2",
+      "player": "Konstantinos Fortounis",
+      "team": "Khaleej",
+      "opponent": "Fayha",
+      "stat": "tackles",
+      "line": 0.5,
+      "direction": "OVER",
+      "probability": 0.75,
+      "tier": "SLAM",
+      "confidence": "MEDIUM",
+      "edge": 0.3444,
+      "mean": 1.1,
+      "std": 0.6,
+      "p50": 1.11,
+      "sample_size": 8,
+      "audit_hash": "cf64757dacb2",
+      "data_sources": [
+        "cache"
+      ],
+      "hydration_mode": "cached"
+    },
+    {
+      "edge_id": "soccer_prop_a9a81c23ca13",
+      "player": "Konstantinos Fortounis",
+      "team": "Khaleej",
+      "opponent": "Fayha",
+      "stat": "tackles",
+      "line": 0.5,
+      "direction": "UNDER",
+      "probability": 0.1587,
+      "tier": "NO_PLAY",
+      "confidence": "MEDIUM",
+      "edge": -0.3413,
+      "mean": 1.1,
+      "std": 0.6,
+      "p50": 1.1,
+      "sample_size": 8,
+      "audit_hash": "a9a81c23ca13",
+      "data_sources": [
+        "cache"
+      ],
+      "hydration_mode": "cached"
+    }
+  ]
+}

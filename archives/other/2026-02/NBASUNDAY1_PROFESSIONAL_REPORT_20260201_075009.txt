@@ -1,0 +1,443 @@
+╔════════════════════════════════════════════════════════════════════╗
+║                  PROFESSIONAL NBA ANALYSIS REPORT                  ║
+║                             NBASUNDAY1                             ║
+╠════════════════════════════════════════════════════════════════════╣
+║  Generated: 2026-02-01T07:50:09.330722                            ║
+║  System: UNDERDOG ANALYSIS — Risk-First Quant Engine              ║
+╚════════════════════════════════════════════════════════════════════╝
+
+STAT KEY (basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made (aka 3PT/3PTS) | STOCKS=STL+BLK | PRA=PTS+REB+AST
+   PR=PTS+REB | PA=PTS+AST | RA=REB+AST
+
+======================================================================
+MONTE CARLO ENTRY OPTIMIZATION
+======================================================================
+
+Monte Carlo optimization error: optimize_entries() got an unexpected keyword argument 'verbose'
+
+
+======================================================================
+🎯 TOP PLAYS — SLATE LEADERS (ALL TEAMS)
+======================================================================
+
+#   PLAYER                 STAT     DIR      LINE    PROB TIER     TEAM 
+──────────────────────────────────────────────────────────────────────
+1   Bruce Brown            3PM      UNDER     1.5   74.2% PLAY     DEN  
+2   Jarrett Allen          REBOUN   UNDER     9.0   72.1% PLAY     CLE  
+3   Sam Merrill            REBOUN   UNDER     3.0   72.1% PLAY     CLE  
+4   Bobby Portis           TURNOV   UNDER     1.5   71.7% STRONG   MIL  
+5   Derrick White          3PM      UNDER     2.5   70.7% STRONG   BOS  
+6   LeBron James           3PM      OVER      0.5   70.0% PLAY     LAL  
+7   Wendell Carter         REBOUN   UNDER     7.0   68.4% STRONG   UNK  
+8   Paolo Banchero         3PM      OVER      0.5   67.7% PLAY     ORL  
+9   Egor Dëmin             3PM      OVER      1.5   67.7% PLAY     BKN  
+10  Zach LaVine            3PM      OVER      1.5   67.7% PLAY     SAC  
+11  Russell Westbrook      3PM      OVER      1.5   67.7% PLAY     SAC  
+12  Matas Buzelis          3PM      OVER      1.5   67.7% PLAY     CHI  
+13  Lauri Markkanen        3PM      OVER      1.5   67.7% PLAY     UTA  
+14  Luka Dončić            3PM      OVER      2.5   67.7% PLAY     LAL  
+15  Austin Reaves          3PM      OVER      1.5   67.7% PLAY     LAL  
+
+======================================================================
+TEAM-BY-TEAM ANALYSIS
+======================================================================
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: BKN             vs UNK                                              │
+└────────────────────────────────────────────────────────────────────┘
+   Matchup context unavailable.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Egor Dëmin           3PM    OVER    1.5 — PLAY    (67.7%) [μ=3.3, σ=1.9, edge=1.8%]
+   2) Terance Mann         REBOUNDS OVER    1.5 — PLAY    (65.8%) [μ=3.0, σ=2.3, edge=1.5%]
+   3) Terance Mann         3PM    OVER    0.5 — PLAY    (64.8%) [μ=1.1, σ=1.1, edge=0.6%]
+   4) Danny Wolf           3PM    OVER    0.5 — PLAY    (64.3%) [μ=1.1, σ=1.2, edge=0.6%]
+   5) Danny Wolf           REBOUNDS OVER    3.5 — PLAY    (61.4%) [μ=4.8, σ=1.6, edge=1.3%]
+   6) Nic Claxton          REBOUNDS OVER    5.5 — STRONG  (54.3%) [μ=7.4, σ=3.0, edge=1.9%]
+   7) Cam Thomas           3PM    OVER    0.5 — STRONG  (54.1%) [μ=0.7, σ=0.8, edge=0.2%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: BOS             vs MIL                                              │
+└────────────────────────────────────────────────────────────────────┘
+   📝 BOS: Switch-everything defense. High 3PA rate. Elite ball movement on offense.
+   📝 MIL: Giannis one-man defense. Elite offense. Drop coverage vulnerabilities.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Derrick White        3PM    UNDER   2.5 — STRONG  (70.7%) [μ=1.6, σ=1.4, edge=0.9%]
+   2) Neemias Queta        TURNOVERS OVER    0.5 — PLAY    (67.7%) [μ=1.7, σ=1.3, edge=1.2%]
+   3) Jaylen Brown         REBOUNDS OVER    5.5 — PLAY    (65.8%) [μ=8.3, σ=1.6, edge=2.8%]
+   4) Derrick White        REBOUNDS OVER    3.5 — PLAY    (65.8%) [μ=4.9, σ=2.3, edge=1.4%]
+   5) Anfernee Simons      REBOUNDS OVER    1.5 — PLAY    (63.2%) [μ=2.4, σ=1.4, edge=0.9%]
+   6) Derrick White        PRA    UNDER  27.0 — STRONG  (60.2%) [μ=23.3, σ=7.1, edge=3.7%]
+   7) Jaylen Brown         POINTS UNDER  29.0 — NO_PLAY (49.9%) [μ=27.2, σ=7.1, edge=1.8%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: CHI             vs UNK                                              │
+└────────────────────────────────────────────────────────────────────┘
+   Matchup context unavailable.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Matas Buzelis        3PM    OVER    1.5 — PLAY    (67.7%) [μ=2.8, σ=1.2, edge=1.3%]
+   2) Jalen Smith          3PM    OVER    1.5 — STRONG  (62.6%) [μ=2.3, σ=1.3, edge=0.8%]
+   3) Nikola Vučević       REBOUNDS UNDER   9.5 — STRONG  (61.5%) [μ=8.8, σ=1.8, edge=0.7%]
+   4) Isaac Okoro          3PM    OVER    0.5 — STRONG  (60.8%) [μ=1.3, σ=0.9, edge=0.8%]
+   5) Jalen Smith          PRA    UNDER  24.5 — STRONG  (60.2%) [μ=22.0, σ=4.7, edge=2.5%]
+   6) Coby White           PRA    UNDER  29.5 — NO_PLAY (52.4%) [μ=28.0, σ=6.0, edge=1.5%]
+   7) Jalen Smith          REBOUNDS UNDER   9.5 — NO_PLAY (51.8%) [μ=8.1, σ=3.5, edge=1.4%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: CLE             vs UNK                                              │
+└────────────────────────────────────────────────────────────────────┘
+   Matchup context unavailable.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Jarrett Allen        REBOUNDS UNDER   9.0 — PLAY    (72.1%) [μ=6.9, σ=2.5, edge=2.1%]
+   2) Sam Merrill          REBOUNDS UNDER   3.0 — PLAY    (72.1%) [μ=2.0, σ=1.3, edge=1.0%]
+   3) Jaylon Tyson         3PM    OVER    1.5 — PLAY    (67.7%) [μ=2.7, σ=1.5, edge=1.2%]
+   4) Thomas Bryant        REBOUNDS UNDER   4.5 — STRONG  (62.7%) [μ=2.9, σ=3.0, edge=1.6%]
+   5) Sam Merrill          3PM    OVER    1.5 — STRONG  (61.3%) [μ=2.8, σ=2.2, edge=1.3%]
+   6) Jarrett Allen        PRA    UNDER  27.5 — STRONG  (60.2%) [μ=20.4, σ=5.0, edge=7.1%]
+   7) Dean Wade            3PM    OVER    0.5 — STRONG  (59.7%) [μ=1.2, σ=1.1, edge=0.7%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: DEN             vs OKC                                              │
+└────────────────────────────────────────────────────────────────────┘
+   🛡️ vs ELITE DEFENSE (OKC #3)
+   → Overs risky, consider unders
+   📝 DEN: Jokic-centric offense. Average perimeter D. High assist rate.
+   📝 OKC: Length disrupts passing lanes. SGA iso-heavy. Chet rim protection.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Bruce Brown          3PM    UNDER   1.5 — PLAY    (74.2%) [μ=0.5, σ=0.9, edge=1.0%]
+   2) Jalen Pickett        REBOUNDS OVER    1.5 — PLAY    (65.6%) [μ=3.6, σ=1.8, edge=2.1%]
+   3) Peyton Watson        ASSISTS OVER    2.5 — LEAN    (59.5%) [μ=3.0, σ=1.3, edge=0.5%]
+   4) Julian Strawther     REBOUNDS OVER    0.5 — STRONG  (54.3%) [μ=2.1, σ=1.9, edge=1.6%]
+   5) Jamal Murray         PRA    OVER   33.5 — STRONG  (52.7%) [μ=37.3, σ=6.5, edge=3.8%]
+   6) Jonas Valančiūnas    PRA    OVER   14.5 — STRONG  (52.7%) [μ=24.1, σ=6.8, edge=9.6%]
+   7) Nikola Jokić         PRA    OVER   46.5 — STRONG  (52.0%) [μ=55.7, σ=17.9, edge=9.2%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: DET             vs BKN                                              │
+└────────────────────────────────────────────────────────────────────┘
+   📝 DET: Cade developing. Young roster. Poor defense - target for overs.
+   📝 BKN: Rebuilding. Cam Thomas scoring. Poor defense - target for overs.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Duncan Robinson      3PM    OVER    1.5 — PLAY    (67.6%) [μ=2.8, σ=2.2, edge=1.3%]
+   2) Jaden Ivey           3PM    OVER    0.5 — PLAY    (65.6%) [μ=1.5, σ=1.3, edge=1.0%]
+   3) Jaden Ivey           REBOUNDS OVER    1.5 — PLAY    (62.7%) [μ=2.4, σ=1.3, edge=0.9%]
+   4) Isaiah Stewart       3PM    UNDER   0.5 — LEAN    (56.8%) [μ=0.2, σ=0.8, edge=0.3%]
+   5) Jaden Ivey           TURNOVERS OVER    0.5 — STRONG  (56.4%) [μ=1.4, σ=1.7, edge=0.9%]
+   6) Cade Cunningham      PRA    UNDER  38.5 — NO_PLAY (53.7%) [μ=35.9, σ=9.0, edge=2.6%]
+   7) Jaden Ivey           PRA    OVER   11.5 — STRONG  (52.7%) [μ=23.0, σ=9.2, edge=11.5%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: LAC             vs UNK                                              │
+└────────────────────────────────────────────────────────────────────┘
+   Matchup context unavailable.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) John Collins         3PM    OVER    0.5 — PLAY    (67.7%) [μ=2.7, σ=1.8, edge=2.2%]
+   2) Kris Dunn            REBOUNDS OVER    1.5 — PLAY    (65.8%) [μ=2.7, σ=1.6, edge=1.2%]
+   3) James Harden         REBOUNDS OVER    3.5 — PLAY    (65.0%) [μ=5.1, σ=1.8, edge=1.6%]
+   4) Kawhi Leonard        3PM    OVER    1.5 — STRONG  (61.6%) [μ=3.0, σ=2.3, edge=1.5%]
+   5) John Collins         PRA    OVER   17.5 — STRONG  (52.7%) [μ=21.7, σ=7.0, edge=4.2%]
+   6) Nicolas Batum        3PM    OVER    0.5 — LEAN    (51.2%) [μ=1.1, σ=1.3, edge=0.6%]
+   7) Brook Lopez          3PM    OVER    0.5 — LEAN    (49.3%) [μ=1.2, σ=1.5, edge=0.7%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: LAL             vs UNK                                              │
+└────────────────────────────────────────────────────────────────────┘
+   Matchup context unavailable.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) LeBron James         3PM    OVER    0.5 — PLAY    (70.0%) [μ=1.2, σ=0.9, edge=0.7%]
+   2) Luka Dončić          3PM    OVER    2.5 — PLAY    (67.7%) [μ=4.6, σ=2.3, edge=2.1%]
+   3) Austin Reaves        3PM    OVER    1.5 — PLAY    (67.7%) [μ=2.5, σ=1.6, edge=1.0%]
+   4) Marcus Smart         3PM    OVER    0.5 — PLAY    (67.7%) [μ=1.4, σ=1.1, edge=0.9%]
+   5) Rui Hachimura        3PM    OVER    0.5 — PLAY    (67.7%) [μ=2.0, σ=1.9, edge=1.5%]
+   6) Austin Reaves        TURNOVERS OVER    1.5 — PLAY    (62.2%) [μ=3.0, σ=1.6, edge=1.5%]
+   7) LeBron James         TURNOVERS OVER    2.5 — PLAY    (61.7%) [μ=3.5, σ=1.9, edge=1.0%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: MIA             vs CHI                                              │
+└────────────────────────────────────────────────────────────────────┘
+   📝 MIA: Zone defense specialist. Very slow pace suppresses counting stats.
+   📝 CHI: LaVine scoring. Vucevic facilitating big. Middling both ends.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Norman Powell        PRA    UNDER  27.5 — STRONG  (60.2%) [μ=24.3, σ=6.2, edge=3.2%]
+   2) Pelle Larsson        REBOUNDS OVER    3.5 — STRONG  (56.3%) [μ=5.7, σ=2.5, edge=2.2%]
+   3) Bam Adebayo          PRA    OVER   32.5 — STRONG  (52.7%) [μ=35.9, σ=6.3, edge=3.4%]
+   4) Pelle Larsson        PRA    OVER   19.5 — STRONG  (52.6%) [μ=23.2, σ=7.2, edge=3.7%]
+   5) Norman Powell        PTS+AST UNDER  24.5 — STRONG  (52.5%) [μ=21.0, σ=4.8, edge=3.5%]
+   6) Bam Adebayo          REBOUNDS OVER    9.5 — LEAN    (50.1%) [μ=10.8, σ=3.3, edge=1.3%]
+   7) Andrew Wiggins       PRA    UNDER  23.5 — NO_PLAY (46.1%) [μ=22.5, σ=5.5, edge=1.0%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: MIL             vs UNK                                              │
+└────────────────────────────────────────────────────────────────────┘
+   Matchup context unavailable.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Bobby Portis         TURNOVERS UNDER   1.5 — STRONG  (71.7%) [μ=0.6, σ=1.1, edge=0.9%]
+   2) Ryan Rollins         PRA    UNDER  30.5 — STRONG  (60.2%) [μ=24.9, σ=7.8, edge=5.6%]
+   3) Ryan Rollins         REBOUNDS OVER    3.5 — STRONG  (58.9%) [μ=5.0, σ=2.4, edge=1.5%]
+   4) Myles Turner         3PM    OVER    1.5 — STRONG  (58.8%) [μ=2.3, σ=1.7, edge=0.8%]
+   5) AJ Green             3PM    OVER    1.5 — STRONG  (55.9%) [μ=2.6, σ=2.5, edge=1.1%]
+   6) Bobby Portis         3PM    OVER    1.5 — STRONG  (55.6%) [μ=2.0, σ=1.4, edge=0.5%]
+   7) Bobby Portis         PRA    UNDER  29.5 — LEAN    (54.8%) [μ=26.4, σ=7.7, edge=3.1%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: NYK             vs LAL                                              │
+└────────────────────────────────────────────────────────────────────┘
+   📝 NYK: Physical, rebounding-focused. Brunson heavy usage. OG elite perimeter D.
+   📝 LAL: Luka + LeBron + AD. Elite offense. High usage top 3.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Mitchell Robinson    REBOUNDS OVER    7.5 — PLAY    (63.5%) [μ=10.4, σ=3.4, edge=2.9%]
+   2) Jalen Brunson        PRA    UNDER  35.5 — STRONG  (60.2%) [μ=30.4, σ=9.9, edge=5.1%]
+   3) Jalen Brunson        ASSISTS UNDER   5.5 — NO_PLAY (59.1%) [μ=4.5, σ=2.3, edge=1.0%]
+   4) Jalen Brunson        POINTS UNDER  26.5 — LEAN    (58.5%) [μ=22.7, σ=9.8, edge=3.8%]
+   5) Karl-Anthony Towns   PRA    UNDER  33.0 — NO_PLAY (54.0%) [μ=29.6, σ=9.9, edge=3.4%]
+   6) Jalen Brunson        PTS+AST UNDER  32.5 — STRONG  (52.5%) [μ=27.7, σ=9.6, edge=4.8%]
+   7) Karl-Anthony Towns   PTS+AST UNDER  21.5 — STRONG  (52.5%) [μ=16.3, σ=5.1, edge=5.2%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: OKC             vs UNK                                              │
+└────────────────────────────────────────────────────────────────────┘
+   Matchup context unavailable.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Aaron Wiggins        REBOUNDS OVER    2.5 — PLAY    (65.8%) [μ=4.8, σ=1.7, edge=2.3%]
+   2) Shai Gilgeous-Alexander 3PM    OVER    0.5 — PLAY    (65.7%) [μ=0.9, σ=0.8, edge=0.4%]
+   3) Chet Holmgren        REBOUNDS OVER    7.5 — PLAY    (65.5%) [μ=9.7, σ=3.6, edge=2.2%]
+   4) Luguentz Dort        REBOUNDS OVER    3.5 — PLAY    (62.8%) [μ=5.3, σ=2.6, edge=1.8%]
+   5) Isaiah Hartenstein   REBOUNDS OVER    5.5 — STRONG  (60.6%) [μ=8.5, σ=4.5, edge=3.0%]
+   6) Kenrich Williams     3PM    OVER    0.5 — STRONG  (57.7%) [μ=0.9, σ=0.9, edge=0.4%]
+   7) Isaiah Joe           3PM    OVER    1.5 — STRONG  (56.5%) [μ=2.2, σ=2.0, edge=0.7%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: ORL             vs UNK                                              │
+└────────────────────────────────────────────────────────────────────┘
+   Matchup context unavailable.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Paolo Banchero       3PM    OVER    0.5 — PLAY    (67.7%) [μ=1.6, σ=1.2, edge=1.1%]
+   2) Anthony Black        3PM    OVER    1.5 — STRONG  (62.5%) [μ=2.3, σ=1.4, edge=0.8%]
+   3) Jalen Suggs          PRA    UNDER  24.5 — NO_PLAY (54.6%) [μ=21.8, σ=7.0, edge=2.7%]
+   4) Anthony Black        REBOUNDS OVER    3.5 — STRONG  (51.9%) [μ=4.4, σ=1.9, edge=0.9%]
+   5) Jalen Suggs          PTS+AST UNDER  20.5 — NO_PLAY (47.9%) [μ=18.0, σ=6.6, edge=2.5%]
+   6) Paolo Banchero       PRA    OVER   37.5 — NO_PLAY (47.1%) [μ=40.2, σ=8.2, edge=2.7%]
+   7) Desmond Bane         3PM    OVER    1.5 — LEAN    (46.8%) [μ=2.9, σ=2.1, edge=1.4%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: PHX             vs LAC                                              │
+└────────────────────────────────────────────────────────────────────┘
+   📝 PHX: Booker/KD iso-heavy. Average defense. High scoring potential.
+   📝 LAC: Switchable wings. Harden facilitates. Kawhi load management.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Collin Gillespie     3PM    OVER    2.5 — PLAY    (67.2%) [μ=3.4, σ=1.5, edge=0.9%]
+   2) Grayson Allen        REBOUNDS OVER    2.5 — PLAY    (65.8%) [μ=3.8, σ=1.7, edge=1.3%]
+   3) Royce O'Neale        REBOUNDS UNDER   4.5 — STRONG  (63.1%) [μ=3.5, σ=1.9, edge=1.0%]
+   4) Royce O'Neale        PRA    UNDER  17.0 — LEAN    (55.2%) [μ=15.4, σ=3.7, edge=1.6%]
+   5) Dillon Brooks        3PM    UNDER   2.5 — NO_PLAY (54.8%) [μ=2.2, σ=1.7, edge=0.3%]
+   6) Royce O'Neale        3PM    OVER    1.5 — STRONG  (54.2%) [μ=1.8, σ=1.7, edge=0.3%]
+   7) Mark Williams        TURNOVERS OVER    0.5 — STRONG  (54.0%) [μ=1.2, σ=1.4, edge=0.7%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: POR             vs CLE                                              │
+└────────────────────────────────────────────────────────────────────┘
+   🛡️ vs ELITE DEFENSE (CLE #1)
+   → Overs risky, consider unders
+   📝 POR: Rebuilding. Fast pace. Poor defense - GREAT for overs.
+   📝 CLE: Elite rim protection (Mobley/Allen). Slow pace limits counting stats. Mitchell iso-heavy.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Deni Avdija          3PM    OVER    1.5 — PLAY    (64.5%) [μ=2.1, σ=1.1, edge=0.6%]
+   2) Jerami Grant         PRA    UNDER  22.5 — STRONG  (60.2%) [μ=17.6, σ=8.1, edge=4.9%]
+   3) Jerami Grant         PTS+AST UNDER  19.5 — STRONG  (52.5%) [μ=15.3, σ=7.8, edge=4.2%]
+   4) Jerami Grant         REBOUNDS UNDER   3.5 — NO_PLAY (49.9%) [μ=2.6, σ=2.6, edge=0.9%]
+   5) Donovan Clingan      PTS+AST UNDER  13.5 — NO_PLAY (47.0%) [μ=12.1, σ=4.6, edge=1.4%]
+   6) Shaedon Sharpe       PRA    UNDER  31.5 — NO_PLAY (43.0%) [μ=31.1, σ=8.6, edge=0.4%]
+   7) Donovan Clingan      PRA    UNDER  25.0 — NO_PLAY (42.8%) [μ=24.8, σ=7.8, edge=0.2%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: SAC             vs UNK                                              │
+└────────────────────────────────────────────────────────────────────┘
+   Matchup context unavailable.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Zach LaVine          3PM    OVER    1.5 — PLAY    (67.7%) [μ=2.4, σ=1.1, edge=0.9%]
+   2) Russell Westbrook    3PM    OVER    1.5 — PLAY    (67.7%) [μ=2.5, σ=1.3, edge=1.0%]
+   3) Precious Achiuwa     TURNOVERS OVER    0.5 — STRONG  (61.1%) [μ=1.2, σ=1.1, edge=0.7%]
+   4) Zach LaVine          PRA    UNDER  23.5 — LEAN    (56.0%) [μ=20.9, σ=5.3, edge=2.6%]
+   5) Domantas Sabonis     REBOUNDS UNDER  11.5 — LEAN    (55.3%) [μ=9.7, σ=4.4, edge=1.8%]
+   6) Domantas Sabonis     PRA    UNDER  33.0 — NO_PLAY (54.3%) [μ=29.1, σ=10.5, edge=3.9%]
+   7) Russell Westbrook    PRA    UNDER  28.0 — NO_PLAY (53.6%) [μ=25.8, σ=6.8, edge=2.2%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: SAS             vs ORL                                              │
+└────────────────────────────────────────────────────────────────────┘
+   ⏳ ORL plays GRIND style - expect low-scoring, half-court game
+   📝 SAS: Wemby + Trae Young combo. High-volume offense. Poor defense.
+   📝 ORL: Young, long defense. Paolo developing. Suggs/Franz versatile.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Stephon Castle       3PM    OVER    0.5 — PLAY    (67.7%) [μ=1.1, σ=0.9, edge=0.6%]
+   2) Harrison Barnes      3PM    OVER    0.5 — PLAY    (66.2%) [μ=1.5, σ=1.3, edge=1.0%]
+   3) De'Aaron Fox         REBOUNDS OVER    2.5 — PLAY    (64.7%) [μ=3.8, σ=1.9, edge=1.3%]
+   4) Stephon Castle       REBOUNDS OVER    3.5 — PLAY    (64.6%) [μ=5.0, σ=1.9, edge=1.5%]
+   5) Devin Vassell        3PM    OVER    1.5 — STRONG  (61.8%) [μ=1.9, σ=0.9, edge=0.4%]
+   6) Devin Vassell        PRA    UNDER  18.5 — STRONG  (60.2%) [μ=15.1, σ=5.3, edge=3.4%]
+   7) Julian Champagnie    3PM    OVER    1.5 — STRONG  (58.6%) [μ=3.1, σ=3.0, edge=1.6%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: TOR             vs UTA                                              │
+└────────────────────────────────────────────────────────────────────┘
+   🎯 vs WEAK DEFENSE (UTA #28)
+   → Overs favorable, stats should inflate
+   📝 TOR: Rebuilding. Scottie Barnes developing. Inconsistent.
+   📝 UTA: Tanking. Keyonte George developing. Poor both ends.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Jamal Shead          3PM    OVER    0.5 — STRONG  (60.4%) [μ=1.0, σ=1.3, edge=0.5%]
+   2) Jamal Shead          REBOUNDS OVER    1.5 — STRONG  (52.2%) [μ=2.6, σ=1.9, edge=1.1%]
+   3) Immanuel Quickley    REBOUNDS OVER    3.5 — STRONG  (48.9%) [μ=6.2, σ=3.1, edge=2.7%]
+   4) Sandro Mamukelashvili PRA    OVER   18.5 — NO_PLAY (47.7%) [μ=22.1, σ=9.3, edge=3.6%]
+   5) Brandon Ingram       PRA    UNDER  33.5 — NO_PLAY (47.0%) [μ=31.7, σ=8.4, edge=1.8%]
+   6) Scottie Barnes       PRA    UNDER  33.5 — NO_PLAY (45.8%) [μ=32.8, σ=6.2, edge=0.7%]
+   7) RJ Barrett           PRA    UNDER  25.5 — NO_PLAY (45.6%) [μ=24.9, σ=6.0, edge=0.6%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: UNK             vs OKC                                              │
+└────────────────────────────────────────────────────────────────────┘
+   Matchup context unavailable.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Wendell Carter       REBOUNDS UNDER   7.0 — STRONG  (68.4%) [μ=5.9, σ=1.8, edge=1.1%]
+   2) Gary Trent           PRA    UNDER  10.5 — STRONG  (60.2%) [μ=6.3, σ=6.3, edge=4.2%]
+   3) Wendell Carter       3PM    OVER    0.5 — LEAN    (51.4%) [μ=1.3, σ=1.3, edge=0.8%]
+   4) Gary Trent           PTS+AST UNDER   8.5 — NO_PLAY (47.9%) [μ=6.1, σ=6.2, edge=2.4%]
+   5) Tim Hardaway         PRA    OVER   17.5 — NO_PLAY (47.0%) [μ=21.4, σ=11.5, edge=3.9%]
+   6) Wendell Carter       PRA    UNDER  21.5 — NO_PLAY (46.5%) [μ=19.6, σ=8.7, edge=1.9%]
+   7) Michael Porter       PRA    UNDER  32.5 — NO_PLAY (43.0%) [μ=34.0, σ=14.8]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: UTA             vs UNK                                              │
+└────────────────────────────────────────────────────────────────────┘
+   Matchup context unavailable.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Lauri Markkanen      3PM    OVER    1.5 — PLAY    (67.7%) [μ=2.6, σ=1.2, edge=1.1%]
+   2) Ace Bailey           3PM    OVER    1.5 — STRONG  (61.9%) [μ=2.1, σ=1.5, edge=0.6%]
+   3) Keyonte George       3PM    OVER    1.5 — STRONG  (55.1%) [μ=2.6, σ=2.3, edge=1.1%]
+   4) Jusuf Nurkić         PRA    OVER   27.5 — STRONG  (52.7%) [μ=35.8, σ=8.0, edge=8.3%]
+   5) Ace Bailey           PRA    OVER   18.5 — STRONG  (52.7%) [μ=22.6, σ=6.9, edge=4.1%]
+   6) Lauri Markkanen      PRA    OVER   32.5 — LEAN    (47.9%) [μ=35.9, σ=8.6, edge=3.4%]
+   7) Ace Bailey           PTS+AST OVER   14.5 — STRONG  (46.1%) [μ=18.7, σ=6.3, edge=4.2%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: WAS             vs SAC                                              │
+└────────────────────────────────────────────────────────────────────┘
+   🏃 SAC plays UPTEMPO - expect run-and-gun, high possessions
+   📝 WAS: WORST defense in NBA. Fast pace. PRIME target for overs.
+   📝 SAC: Fast pace inflates stats. Fox/Sabonis P&R. Poor perimeter D.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Khris Middleton      3PM    OVER    0.5 — PLAY    (66.8%) [μ=1.3, σ=0.9, edge=0.8%]
+   2) Bub Carrington       PRA    UNDER  23.5 — STRONG  (60.2%) [μ=20.8, σ=4.5, edge=2.7%]
+   3) Kyshawn George       3PM    UNDER   2.5 — LEAN    (57.5%) [μ=2.3, σ=1.4, edge=0.2%]
+   4) Bilal Coulibaly      PRA    UNDER  17.5 — LEAN    (55.1%) [μ=14.6, σ=6.7, edge=2.9%]
+   5) Bilal Coulibaly      PTS+AST UNDER  13.5 — STRONG  (52.5%) [μ=9.9, σ=5.4, edge=3.6%]
+   6) Bub Carrington       PTS+AST UNDER  19.5 — NO_PLAY (47.9%) [μ=17.9, σ=4.3, edge=1.6%]
+   7) Alex Sarr            PRA    UNDER  31.5 — NO_PLAY (44.4%) [μ=31.2, σ=10.5, edge=0.3%]
+
+======================================================================
+SLATE SUMMARY STATISTICS
+======================================================================
+
+Total Props Analyzed: 966
+
+Tier Distribution:
+   NO_PLAY      █████████████░░░░░░░ 660 (68.3%)
+   BLOCKED      ██░░░░░░░░░░░░░░░░░░ 108 (11.2%)
+   STRONG       █░░░░░░░░░░░░░░░░░░░  86 (8.9%)
+   LEAN         █░░░░░░░░░░░░░░░░░░░  52 (5.4%)
+   PLAY         ░░░░░░░░░░░░░░░░░░░░  45 (4.7%)
+   SKIP         ░░░░░░░░░░░░░░░░░░░░  15 (1.6%)
+
+Average Confidence by Stat:
+   ASSISTS      59.3% (n=2)
+   PRA          43.5% (n=251)
+   3PM          42.6% (n=142)
+   REB+AST      41.2% (n=3)
+   PTS+AST      39.8% (n=234)
+   POINTS       38.2% (n=12)
+   REBOUNDS     35.9% (n=190)
+   TURNOVERS    21.4% (n=132)
+
+Direction Bias: 608 OVER / 358 UNDER (62.9% / 37.1%)
+
+======================================================================
+🎲 PARLAY CONSTRUCTION GUIDE
+======================================================================
+
+DIVERSIFICATION POOLS:
+   3PM        33 picks (best: Derrick White)
+   REBOUNDS   23 picks (best: Jaylen Brown)
+   PRA        10 picks (best: Ryan Rollins)
+   TURNOVERS  5 picks (best: Bobby Portis)
+
+SAMPLE 3-LEG POWER PLAY:
+   (select from different stats for diversification)
+   1. Bruce Brown 3PM UNDER 1.5 (74.2%)
+   2. Jarrett Allen REBOUNDS UNDER 9.0 (72.1%)
+   3. Bobby Portis TURNOVERS UNDER 1.5 (71.7%)
+
+   Combined probability: 38.3%
+   3-leg POWER payout: 6x
+   Expected value: +1.30 units
+
+======================================================================
+GOVERNANCE & DISCLAIMER
+======================================================================
+
+This report is generated by a risk-first quantitative analysis system.
+All probabilities are model estimates based on historical performance.
+
+RISK MANAGEMENT:
+• Never exceed 3% of bankroll on a single entry
+• Parlays carry exponentially higher variance
+• Past performance does not guarantee future results
+
+For entertainment purposes only. Gamble responsibly.
+
+──────────────────────────────────────────────────────────────────────
+Report ID: NBASUNDAY1_20260201_075009
+System: UNDERDOG ANALYSIS v2.0 — Risk-First Quant Engine
+──────────────────────────────────────────────────────────────────────

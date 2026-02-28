@@ -1,0 +1,54 @@
+{
+  "module": "TENNIS",
+  "version": "1.0.0",
+  "tours": ["ATP", "WTA"],
+  "match_types": ["SINGLES"],
+  "timing": "PRE_MATCH_ONLY",
+  "learning": "FINAL_RESULTS_ONLY",
+  
+  "engines": [
+    "TOTAL_GAMES_ENGINE",
+    "TOTAL_SETS_ENGINE", 
+    "PLAYER_ACES_ENGINE"
+  ],
+  
+  "global_blocks": {
+    "surface_unknown": true,
+    "retirement_last_2": true,
+    "injury_return_days": 14,
+    "opponent_unknown": true
+  },
+  
+  "probability_clamp": {
+    "min": 0.55,
+    "max": 0.72
+  },
+  
+  "tiers": {
+    "STRONG": {"min": 0.66},
+    "LEAN": {"min": 0.58, "max": 0.659},
+    "NO_PLAY": {"max": 0.579}
+  },
+  
+  "operational_limits": {
+    "daily_cap": 5,
+    "per_engine_cap": 2,
+    "per_player_cap": 1,
+    "exposure": "FLAT_UNITS",
+    "parlays": false
+  },
+  
+  "correlation": {
+    "cross_engine_same_player": "FORBIDDEN",
+    "same_match_multi_market": "FORBIDDEN"
+  },
+  
+  "valid_surfaces": ["HARD", "CLAY", "GRASS", "INDOOR"],
+  
+  "surface_baselines": {
+    "HARD": {"games_per_set": 9.9, "ace_mult": 1.0},
+    "CLAY": {"games_per_set": 9.5, "ace_mult": 0.75},
+    "GRASS": {"games_per_set": 10.8, "ace_mult": 1.35},
+    "INDOOR": {"games_per_set": 10.5, "ace_mult": 1.15}
+  }
+}

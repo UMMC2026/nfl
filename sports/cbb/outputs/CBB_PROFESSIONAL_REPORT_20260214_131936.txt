@@ -1,0 +1,893 @@
+╔════════════════════════════════════════════════════════════════════╗
+║          PROFESSIONAL CBB ANALYSIS REPORT                          ║
+║                   COLLEGE BASKETBALL                               ║
+╠════════════════════════════════════════════════════════════════════╣
+║  Generated: 2026-02-14T13:19:36                                  ║
+║  System: UNDERDOG ANALYSIS — Risk-First Quant Engine (Poisson)    ║
+╚════════════════════════════════════════════════════════════════════╝
+
+STAT KEY (college basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made | PRA=PTS+REB+AST | PR=PTS+REB | PA=PTS+AST | RA=REB+AST
+
+======================================================================
+🎯 TOP PLAYS — SLATE LEADERS (ALL TEAMS)
+======================================================================
+
+#   PLAYER                 STAT     DIR      LINE    PROB TIER     TEAM 
+──────────────────────────────────────────────────────────────────────
+1   Dai Ames             POINTS   LOWER   16.5   75.0% STRONG CAL 
+2   Fred Payne           POINTS   LOWER   17.5   75.0% STRONG BC  
+3   David Punch          POINTS   LOWER   15.5   75.0% STRONG TCU 
+4   Braeden Shrewsberry  POINTS   LOWER   16.5   75.0% STRONG ND  
+5   Kowacie Reeves       POINTS   LOWER   14.5   75.0% STRONG GT  
+6   Xavier Edmonds       POINTS   LOWER   15.5   74.3% STRONG TCU 
+7   Parsa Fallah         POINTS   LOWER   13.5   73.9% STRONG OKST
+8   Xavier Edmonds       REBOUNDS LOWER    8.0   72.0% STRONG TCU 
+9   Fred Payne           REBOUNDS LOWER    4.5   72.0% STRONG BC  
+10  Parsa Fallah         REBOUNDS LOWER    6.5   72.0% STRONG OKST
+11  John Camden          POINTS   LOWER   12.5   70.2% STRONG CAL 
+12  Anthony Roy          POINTS   LOWER   17.5   68.8% STRONG OKST
+13  Dai Ames             PTS+REB+ LOWER   20.0   68.0% STRONG CAL 
+14  Fred Payne           PTS+REB+ LOWER   25.5   68.0% STRONG BC  
+15  John Camden          PTS+REB+ LOWER   18.5   68.0% STRONG CAL 
+
+======================================================================
+💡 ACTIONABLE INSIGHTS — QUICK REFERENCE
+======================================================================
+
+🔥 OVERS TO CONSIDER:
+   • Jestin Porter PRA O11.5 [LEAN] (64.4%) — μ=15.1
+   • Jestin Porter POINTS O8.5 [LEAN] (62.4%) — μ=11.4
+   • Jestin Porter PTS+AST O9.5 [LEAN] (61.7%) — μ=12.7
+
+🔻 UNDERS TO CONSIDER:
+   • Dai Ames POINTS U16.5 [STRONG] (75.0%) — μ=9.9
+   • Fred Payne POINTS U17.5 [STRONG] (75.0%) — μ=9.5
+   • David Punch POINTS U15.5 [STRONG] (75.0%) — μ=9.7
+   • Braeden Shrewsberry POINTS U16.5 [STRONG] (75.0%) — μ=11.9
+   • Kowacie Reeves POINTS U14.5 [STRONG] (75.0%) — μ=9.4
+   • Xavier Edmonds POINTS U15.5 [STRONG] (74.3%) — μ=12.0
+   • Parsa Fallah POINTS U13.5 [STRONG] (73.9%) — μ=10.3
+
+======================================================================
+TEAM-BY-TEAM ANALYSIS
+======================================================================
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: BC           vs CAL                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Fred Payne           POINTS   LOWER  17.5 — STRONG   (75.0%) [μ=9.5, edge=45.5%]
+   2) Fred Payne           REBOUNDS LOWER   4.5 — STRONG   (72.0%) [μ=2.8, edge=36.9%]
+   3) Fred Payne           PTS+REB+ LOWER  25.5 — STRONG   (68.0%) [μ=14.2, edge=44.3%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: CAL          vs UNKNOWN OPPONENT (NO_KENPOM_OPP)              │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Dai Ames             POINTS   LOWER  16.5 — STRONG   (75.0%) [μ=9.9, edge=39.9%]
+   2) John Camden          POINTS   LOWER  12.5 — STRONG   (70.2%) [μ=10.1, edge=19.0%]
+   3) Dai Ames             PTS+REB+ LOWER  20.0 — STRONG   (68.0%) [μ=13.3, edge=33.3%]
+   4) John Camden          PTS+REB+ LOWER  18.5 — STRONG   (68.0%) [μ=14.8, edge=19.8%]
+   5) John Camden          PTS+AST  LOWER  13.5 — LEAN     (66.9%) [μ=11.3, edge=16.1%]
+   6) Chris Bell           POINTS   LOWER  12.0 — LEAN     (65.4%) [μ=10.1, edge=15.8%]
+   7) John Camden          REBOUNDS LOWER   4.5 — LEAN     (63.7%) [μ=3.5, edge=22.2%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: CLEM         vs UNKNOWN OPPONENT (NO_KENPOM_OPP)              │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Jestin Porter        PTS+REB+ HIGHE  11.5 — LEAN     (64.4%) [μ=15.1, edge=31.6%]
+   2) Jestin Porter        POINTS   HIGHE   8.5 — LEAN     (62.4%) [μ=11.4, edge=34.2%]
+   3) Jestin Porter        PTS+AST  HIGHE   9.5 — LEAN     (61.7%) [μ=12.7, edge=33.7%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: DUKE         vs CLEM                                          │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   No actionable edges for this team.
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: GT           vs UNKNOWN OPPONENT (NO_KENPOM_OPP)              │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Kowacie Reeves       POINTS   LOWER  14.5 — STRONG   (75.0%) [μ=9.4, edge=35.4%]
+   2) Kowacie Reeves       PTS+REB+ LOWER  21.0 — STRONG   (68.0%) [μ=13.1, edge=37.9%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: MICH         vs UCLA                                          │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   No actionable edges for this team.
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: ND           vs GT                                            │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Braeden Shrewsberry  POINTS   LOWER  16.5 — STRONG   (75.0%) [μ=11.9, edge=27.9%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: OKST         vs TCU                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Parsa Fallah         POINTS   LOWER  13.5 — STRONG   (73.9%) [μ=10.3, edge=23.9%]
+   2) Parsa Fallah         REBOUNDS LOWER   6.5 — STRONG   (72.0%) [μ=4.3, edge=34.2%]
+   3) Anthony Roy          POINTS   LOWER  17.5 — STRONG   (68.8%) [μ=15.0, edge=14.4%]
+   4) Parsa Fallah         PTS+REB+ LOWER  20.5 — STRONG   (68.0%) [μ=15.4, edge=24.7%]
+   5) Parsa Fallah         PTS+AST  LOWER  14.5 — STRONG   (68.0%) [μ=11.2, edge=23.1%]
+   6) Anthony Roy          PTS+REB+ LOWER  22.5 — LEAN     (60.8%) [μ=19.7, edge=12.6%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: TCU          vs UNKNOWN OPPONENT (NO_KENPOM_OPP)              │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) David Punch          POINTS   LOWER  15.5 — STRONG   (75.0%) [μ=9.7, edge=37.7%]
+   2) Xavier Edmonds       POINTS   LOWER  15.5 — STRONG   (74.3%) [μ=12.0, edge=22.6%]
+   3) Xavier Edmonds       REBOUNDS LOWER   8.0 — STRONG   (72.0%) [μ=5.3, edge=33.9%]
+   4) Xavier Edmonds       PTS+REB+ LOWER  25.5 — STRONG   (68.0%) [μ=18.3, edge=28.1%]
+   5) David Punch          PTS+REB+ LOWER  23.0 — STRONG   (68.0%) [μ=16.2, edge=29.3%]
+   6) Jayden Pierre        PTS+REB+ LOWER  16.5 — STRONG   (68.0%) [μ=13.4, edge=18.8%]
+   7) David Punch          PTS+AST  LOWER  17.5 — STRONG   (68.0%) [μ=10.7, edge=38.9%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: UCLA         vs UNKNOWN OPPONENT (NO_KENPOM_OPP)              │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   No actionable edges for this team.
+
+======================================================================
+📊 STAT CATEGORY BREAKDOWN
+======================================================================
+
+   3-POINTERS    25 picks |  0 actionable | avg conf:  27.3%
+   ASSISTS        1 picks |  0 actionable | avg conf:  40.8%
+   POINTS        29 picks | 12 actionable | avg conf:  68.8%
+   PTS+REB+AST   26 picks | 10 actionable | avg conf:  62.7%
+   PTS+AST       21 picks |  6 actionable | avg conf:  62.2%
+   REB+AST        1 picks |  0 actionable | avg conf:  62.6%
+   REBOUNDS      27 picks |  4 actionable | avg conf:  43.8%
+   TURNOVERS     26 picks |  0 actionable | avg conf:  37.1%
+
+======================================================================
+🔬 DETAILED PICK ANALYSIS — ACTIONABLE PLAYS
+======================================================================
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #1 Dai Ames (CAL) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 16.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 9.91 (ESPN)
+      • Confidence: OK
+      • Line: 16.5 | Gap: 39.9% above mean
+      • Z-Score: +3.29
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #2 Fred Payne (BC) vs CAL                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 17.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 9.54 (ESPN)
+      • Confidence: OK
+      • Line: 17.5 | Gap: 45.5% above mean
+      • Z-Score: +3.98
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #3 David Punch (TCU) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 15.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 9.65 (ESPN)
+      • Confidence: OK
+      • Line: 15.5 | Gap: 37.7% above mean
+      • Z-Score: +2.92
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #4 Braeden Shrewsberry (ND) vs GT                                        │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 16.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.90 (ESPN)
+      • Confidence: OK
+      • Line: 16.5 | Gap: 27.9% above mean
+      • Z-Score: +2.30
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #5 Kowacie Reeves (GT) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 14.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 9.36 (ESPN)
+      • Confidence: OK
+      • Line: 14.5 | Gap: 35.4% above mean
+      • Z-Score: +2.57
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #6 Xavier Edmonds (TCU) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 15.5   |   [STRONG] 74.3%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 12.00 (ESPN)
+      • Confidence: OK
+      • Line: 15.5 | Gap: 22.6% above mean
+      • Z-Score: +1.75
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 74.3%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 74.3%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #7 Parsa Fallah (OKST) vs TCU                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 13.5   |   [STRONG] 73.9%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 10.27 (ESPN)
+      • Confidence: OK
+      • Line: 13.5 | Gap: 23.9% above mean
+      • Z-Score: +1.62
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 73.9%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 73.9%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #8 Xavier Edmonds (TCU) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REBOUNDS UNDER 8.0   |   [STRONG] 72.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 5.29 (ESPN)
+      • Confidence: OK
+      • Line: 8.0 | Gap: 33.9% above mean
+      • Z-Score: +1.35
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 72.0%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 72.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #9 Fred Payne (BC) vs CAL                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REBOUNDS UNDER 4.5   |   [STRONG] 72.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 2.84 (ESPN)
+      • Confidence: OK
+      • Line: 4.5 | Gap: 36.9% above mean
+      • Z-Score: +0.83
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 72.0%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 72.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+      • Notes: CV_PENALTY:90%
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #10 Parsa Fallah (OKST) vs TCU                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REBOUNDS UNDER 6.5   |   [STRONG] 72.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 4.28 (ESPN)
+      • Confidence: OK
+      • Line: 6.5 | Gap: 34.2% above mean
+      • Z-Score: +1.11
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 72.0%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 72.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #11 John Camden (CAL) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 12.5   |   [STRONG] 70.2%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 10.12 (ESPN)
+      • Confidence: OK
+      • Line: 12.5 | Gap: 19.0% above mean
+      • Z-Score: +1.19
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 70.2%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 70.2%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #12 Anthony Roy (OKST) vs TCU                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 17.5   |   [STRONG] 68.8%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 14.98 (ESPN)
+      • Confidence: OK
+      • Line: 17.5 | Gap: 14.4% above mean
+      • Z-Score: +1.26
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 68.8%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 68.8%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #13 Dai Ames (CAL) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 20.0   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 13.34 (ESPN)
+      • Confidence: OK
+      • Line: 20.0 | Gap: 33.3% above mean
+      • Z-Score: +3.33
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #14 Fred Payne (BC) vs CAL                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 25.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 14.21 (ESPN)
+      • Confidence: OK
+      • Line: 25.5 | Gap: 44.3% above mean
+      • Z-Score: +5.64
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #15 John Camden (CAL) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 18.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 14.83 (ESPN)
+      • Confidence: OK
+      • Line: 18.5 | Gap: 19.8% above mean
+      • Z-Score: +1.83
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 71.7%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #16 Xavier Edmonds (TCU) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 25.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 18.33 (ESPN)
+      • Confidence: OK
+      • Line: 25.5 | Gap: 28.1% above mean
+      • Z-Score: +3.59
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #17 David Punch (TCU) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 23.0   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 16.25 (ESPN)
+      • Confidence: OK
+      • Line: 23.0 | Gap: 29.3% above mean
+      • Z-Score: +3.38
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #18 Parsa Fallah (OKST) vs TCU                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 20.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 15.43 (ESPN)
+      • Confidence: OK
+      • Line: 20.5 | Gap: 24.7% above mean
+      • Z-Score: +2.54
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 70.5%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #19 Jayden Pierre (TCU) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 16.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 13.40 (ESPN)
+      • Confidence: OK
+      • Line: 16.5 | Gap: 18.8% above mean
+      • Z-Score: +1.55
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 70.3%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #20 Kowacie Reeves (GT) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 21.0   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 13.05 (ESPN)
+      • Confidence: OK
+      • Line: 21.0 | Gap: 37.9% above mean
+      • Z-Score: +3.97
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #21 David Punch (TCU) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS+AST UNDER 17.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 10.69 (ESPN)
+      • Confidence: OK
+      • Line: 17.5 | Gap: 38.9% above mean
+      • Z-Score: +3.41
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 72.0%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #22 Xavier Edmonds (TCU) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS+AST UNDER 16.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 13.05 (ESPN)
+      • Confidence: OK
+      • Line: 16.5 | Gap: 20.9% above mean
+      • Z-Score: +1.72
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 71.5%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #23 Parsa Fallah (OKST) vs TCU                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS+AST UNDER 14.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.15 (ESPN)
+      • Confidence: OK
+      • Line: 14.5 | Gap: 23.1% above mean
+      • Z-Score: +1.67
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 71.9%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #24 Jayden Pierre (TCU) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS+AST UNDER 13.5   |   [LEAN] 67.2%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.27 (ESPN)
+      • Confidence: OK
+      • Line: 13.5 | Gap: 16.5% above mean
+      • Z-Score: +1.12
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 67.2%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Final Probability: 67.2%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #25 John Camden (CAL) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PTS+AST UNDER 13.5   |   [LEAN] 66.9%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.33 (ESPN)
+      • Confidence: OK
+      • Line: 13.5 | Gap: 16.1% above mean
+      • Z-Score: +1.08
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 66.9%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Final Probability: 66.9%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #26 Chris Bell (CAL) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 12.0   |   [LEAN] 65.4%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 10.10 (ESPN)
+      • Confidence: OK
+      • Line: 12.0 | Gap: 15.8% above mean
+      • Z-Score: +0.95
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 65.4%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 65.4%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #27 Jayden Pierre (TCU) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 10.0   |   [LEAN] 64.5%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 8.53 (ESPN)
+      • Confidence: OK
+      • Line: 10.0 | Gap: 14.7% above mean
+      • Z-Score: +0.74
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 64.5%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 64.5%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #28 Jestin Porter (CLEM) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▲ PRA OVER 11.5   |   [LEAN] 64.4%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 15.13 (ESPN)
+      • Confidence: UNVERIFIED
+      • Line: 11.5 | Gap: 31.6% below mean
+      • Z-Score: -1.82
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 64.4%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 64.4%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #29 John Camden (CAL) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REBOUNDS UNDER 4.5   |   [LEAN] 63.7%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 3.50 (ESPN)
+      • Confidence: OK
+      • Line: 4.5 | Gap: 22.2% above mean
+      • Z-Score: +0.50
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 69.2%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Final Probability: 63.7%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+      • Notes: FAIL_L10_Z:0.50<0.55, SOFT_PENALTY:92%
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #30 Jestin Porter (CLEM) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▲ POINTS OVER 8.5   |   [LEAN] 62.4%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 11.41 (ESPN)
+      • Confidence: UNVERIFIED
+      • Line: 8.5 | Gap: 34.2% below mean
+      • Z-Score: -1.46
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 62.4%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 62.4%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #31 Jestin Porter (CLEM) vs UNKNOWN OPPONENT (NO_KENPOM_OPP)          │
+└────────────────────────────────────────────────────────────────────┘
+   ▲ PTS+AST OVER 9.5   |   [LEAN] 61.7%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 12.70 (ESPN)
+      • Confidence: UNVERIFIED
+      • Line: 9.5 | Gap: 33.7% below mean
+      • Z-Score: -1.60
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 61.7%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Final Probability: 61.7%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #32 Anthony Roy (OKST) vs TCU                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 22.5   |   [LEAN] 60.8%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 19.66 (ESPN)
+      • Confidence: OK
+      • Line: 22.5 | Gap: 12.6% above mean
+      • Z-Score: +1.42
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 60.8%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 60.8%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+======================================================================
+SLATE SUMMARY STATISTICS
+======================================================================
+
+Total Props Analyzed: 156
+
+Tier Distribution:
+   SKIP         ███████████████░░░░░ 124 (79.5%)
+   STRONG       ██░░░░░░░░░░░░░░░░░░  23 (14.7%)
+   LEAN         █░░░░░░░░░░░░░░░░░░░   9 (5.8%)
+
+Direction Bias: 71 OVER / 85 UNDER (45.5% / 54.5%)
+
+======================================================================
+🎲 PARLAY CONSTRUCTION GUIDE
+======================================================================
+
+DIVERSIFICATION POOLS:
+   POINTS       12 picks (best: Dai Ames)
+   PTS+REB+AST  10 picks (best: Dai Ames)
+   PTS+AST       6 picks (best: David Punch)
+   REBOUNDS      4 picks (best: Xavier Edmonds)
+
+SAMPLE 3-LEG POWER PLAY:
+   (select from different stats for diversification)
+   1. Dai Ames POINTS UNDER 16.5 (75.0%)
+   2. Fred Payne POINTS UNDER 17.5 (75.0%)
+   3. David Punch POINTS UNDER 15.5 (75.0%)
+
+   Combined probability: 42.2%
+   3-leg POWER payout: 6x
+   Expected value: +1.53 units
+
+======================================================================
+GOVERNANCE & DISCLAIMER
+======================================================================
+
+This report is generated by a risk-first quantitative analysis system.
+CBB uses POISSON probability model with stricter confidence caps than NBA.
+
+CBB-SPECIFIC NOTES:
+• NO SLAM tier available (max tier = STRONG @ 70%)
+• Global cap: 79% (vs NBA 85%)
+• College variance is HIGHER than NBA — expect more swings
+• Conference play has different dynamics than non-conference
+• 'UNKNOWN OPPONENT (NO_KENPOM_OPP)' = opponent/schedule not in KenPom set (non-D1/exhibition/unknown)
+
+RISK MANAGEMENT:
+• Never exceed 2% of bankroll on a single CBB entry
+• Parlays carry exponentially higher variance
+• Past performance does not guarantee future results
+
+For entertainment purposes only. Gamble responsibly.
+
+──────────────────────────────────────────────────────────────────────
+Report ID: CBB_20260214_131936
+System: UNDERDOG ANALYSIS v2.0 — Risk-First Quant Engine (Poisson)
+──────────────────────────────────────────────────────────────────────

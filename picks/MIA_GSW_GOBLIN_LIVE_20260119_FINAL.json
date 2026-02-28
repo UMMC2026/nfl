@@ -1,0 +1,49 @@
+{
+  "date": "2026-01-19",
+  "timestamp": "2026-01-19T19:09:15.282064",
+  "slate": "MIA_GSW_GOBLIN_LIVE",
+  "source_file": "MIA_GSW_GOBLIN_LIVE_RISK_FIRST_20260119_FROM_UD.json",
+  "summary": {
+    "play_count": 2,
+    "lean_count": 2,
+    "total": 4
+  },
+  "picks": [
+    {
+      "player": "Brandin Podziemski",
+      "team": "GSW",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 73.7
+    },
+    {
+      "player": "Brandin Podziemski",
+      "team": "GSW",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 73.3
+    },
+    {
+      "player": "Stephen Curry",
+      "team": "GSW",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.5
+    },
+    {
+      "player": "Jimmy Butler",
+      "team": "GSW",
+      "stat": "rebounds",
+      "line": 6.0,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 65.3
+    }
+  ]
+}

@@ -1,0 +1,986 @@
+{
+  "date": "2026-01-13",
+  "league": "NBA",
+  "plays": [
+    {
+      "player": "Devin Booker",
+      "team": "PHX",
+      "stat": "points",
+      "line": 26.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Devin Booker",
+      "team": "PHX",
+      "stat": "points",
+      "line": 26.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Devin Booker",
+      "team": "PHX",
+      "stat": "pra",
+      "line": 36.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Devin Booker",
+      "team": "PHX",
+      "stat": "pra",
+      "line": 36.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Devin Booker",
+      "team": "PHX",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Devin Booker",
+      "team": "PHX",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Devin Booker",
+      "team": "PHX",
+      "stat": "assists",
+      "line": 6.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Devin Booker",
+      "team": "PHX",
+      "stat": "assists",
+      "line": 6.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Andrew Wiggins",
+      "team": "MIA",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Andrew Wiggins",
+      "team": "MIA",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Andrew Wiggins",
+      "team": "MIA",
+      "stat": "pra",
+      "line": 21.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Andrew Wiggins",
+      "team": "MIA",
+      "stat": "pra",
+      "line": 21.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Andrew Wiggins",
+      "team": "MIA",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Andrew Wiggins",
+      "team": "MIA",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Andrew Wiggins",
+      "team": "MIA",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Andrew Wiggins",
+      "team": "MIA",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Shai Gilgeous-Alexander",
+      "team": "OKC",
+      "stat": "points",
+      "line": 30.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Shai Gilgeous-Alexander",
+      "team": "OKC",
+      "stat": "points",
+      "line": 30.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Shai Gilgeous-Alexander",
+      "team": "OKC",
+      "stat": "pra",
+      "line": 42.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Shai Gilgeous-Alexander",
+      "team": "OKC",
+      "stat": "pra",
+      "line": 42.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Shai Gilgeous-Alexander",
+      "team": "OKC",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Shai Gilgeous-Alexander",
+      "team": "OKC",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Shai Gilgeous-Alexander",
+      "team": "OKC",
+      "stat": "assists",
+      "line": 6.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Shai Gilgeous-Alexander",
+      "team": "OKC",
+      "stat": "assists",
+      "line": 6.5,
+      "direction": "lower"
+    },
+    {
+      "player": "De'Aaron Fox",
+      "team": "SAS",
+      "stat": "points",
+      "line": 18.5,
+      "direction": "higher"
+    },
+    {
+      "player": "De'Aaron Fox",
+      "team": "SAS",
+      "stat": "points",
+      "line": 18.5,
+      "direction": "lower"
+    },
+    {
+      "player": "De'Aaron Fox",
+      "team": "SAS",
+      "stat": "pra",
+      "line": 26.5,
+      "direction": "higher"
+    },
+    {
+      "player": "De'Aaron Fox",
+      "team": "SAS",
+      "stat": "pra",
+      "line": 26.5,
+      "direction": "lower"
+    },
+    {
+      "player": "De'Aaron Fox",
+      "team": "SAS",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "higher"
+    },
+    {
+      "player": "De'Aaron Fox",
+      "team": "SAS",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "lower"
+    },
+    {
+      "player": "De'Aaron Fox",
+      "team": "SAS",
+      "stat": "assists",
+      "line": 5.5,
+      "direction": "higher"
+    },
+    {
+      "player": "De'Aaron Fox",
+      "team": "SAS",
+      "stat": "assists",
+      "line": 5.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Chet Holmgren",
+      "team": "OKC",
+      "stat": "points",
+      "line": 16.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Chet Holmgren",
+      "team": "OKC",
+      "stat": "points",
+      "line": 16.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Chet Holmgren",
+      "team": "OKC",
+      "stat": "pra",
+      "line": 28.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Chet Holmgren",
+      "team": "OKC",
+      "stat": "pra",
+      "line": 28.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Chet Holmgren",
+      "team": "OKC",
+      "stat": "rebounds",
+      "line": 9.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Chet Holmgren",
+      "team": "OKC",
+      "stat": "rebounds",
+      "line": 9.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Chet Holmgren",
+      "team": "OKC",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Chet Holmgren",
+      "team": "OKC",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Kevin Durant",
+      "team": "HOU",
+      "stat": "points",
+      "line": 26.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Kevin Durant",
+      "team": "HOU",
+      "stat": "points",
+      "line": 26.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Kevin Durant",
+      "team": "HOU",
+      "stat": "pra",
+      "line": 35.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Kevin Durant",
+      "team": "HOU",
+      "stat": "pra",
+      "line": 35.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Kevin Durant",
+      "team": "HOU",
+      "stat": "rebounds",
+      "line": 5.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Kevin Durant",
+      "team": "HOU",
+      "stat": "rebounds",
+      "line": 5.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Kevin Durant",
+      "team": "HOU",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Kevin Durant",
+      "team": "HOU",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Nikola Vucevic",
+      "team": "CHI",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Nikola Vucevic",
+      "team": "CHI",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Nikola Vucevic",
+      "team": "CHI",
+      "stat": "pra",
+      "line": 28.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Nikola Vucevic",
+      "team": "CHI",
+      "stat": "pra",
+      "line": 28.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Nikola Vucevic",
+      "team": "CHI",
+      "stat": "rebounds",
+      "line": 8.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Nikola Vucevic",
+      "team": "CHI",
+      "stat": "rebounds",
+      "line": 8.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Nikola Vucevic",
+      "team": "CHI",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Nikola Vucevic",
+      "team": "CHI",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Alperen Sengun",
+      "team": "HOU",
+      "stat": "points",
+      "line": 21.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Alperen Sengun",
+      "team": "HOU",
+      "stat": "points",
+      "line": 21.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Alperen Sengun",
+      "team": "HOU",
+      "stat": "pra",
+      "line": 37.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Alperen Sengun",
+      "team": "HOU",
+      "stat": "pra",
+      "line": 37.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Alperen Sengun",
+      "team": "HOU",
+      "stat": "rebounds",
+      "line": 9.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Alperen Sengun",
+      "team": "HOU",
+      "stat": "rebounds",
+      "line": 9.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Alperen Sengun",
+      "team": "HOU",
+      "stat": "assists",
+      "line": 6.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Alperen Sengun",
+      "team": "HOU",
+      "stat": "assists",
+      "line": 6.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Zion Williamson",
+      "team": "NOP",
+      "stat": "points",
+      "line": 23.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Zion Williamson",
+      "team": "NOP",
+      "stat": "points",
+      "line": 23.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Zion Williamson",
+      "team": "NOP",
+      "stat": "pra",
+      "line": 33.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Zion Williamson",
+      "team": "NOP",
+      "stat": "pra",
+      "line": 33.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Zion Williamson",
+      "team": "NOP",
+      "stat": "rebounds",
+      "line": 5.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Zion Williamson",
+      "team": "NOP",
+      "stat": "rebounds",
+      "line": 5.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Zion Williamson",
+      "team": "NOP",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Zion Williamson",
+      "team": "NOP",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Jamal Murray",
+      "team": "DEN",
+      "stat": "points",
+      "line": 25.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Jamal Murray",
+      "team": "DEN",
+      "stat": "points",
+      "line": 25.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Jamal Murray",
+      "team": "DEN",
+      "stat": "pra",
+      "line": 39.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Jamal Murray",
+      "team": "DEN",
+      "stat": "pra",
+      "line": 39.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Jamal Murray",
+      "team": "DEN",
+      "stat": "rebounds",
+      "line": 5.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Jamal Murray",
+      "team": "DEN",
+      "stat": "rebounds",
+      "line": 5.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Jamal Murray",
+      "team": "DEN",
+      "stat": "assists",
+      "line": 8.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Jamal Murray",
+      "team": "DEN",
+      "stat": "assists",
+      "line": 8.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Giannis Antetokounmpo",
+      "team": "MIL",
+      "stat": "pts+reb",
+      "line": 42.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Giannis Antetokounmpo",
+      "team": "MIL",
+      "stat": "pts+reb",
+      "line": 42.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Giannis Antetokounmpo",
+      "team": "MIL",
+      "stat": "pts+ast",
+      "line": 36.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Giannis Antetokounmpo",
+      "team": "MIL",
+      "stat": "pts+ast",
+      "line": 36.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Julius Randle",
+      "team": "MIN",
+      "stat": "points",
+      "line": 23.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Julius Randle",
+      "team": "MIN",
+      "stat": "points",
+      "line": 23.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Julius Randle",
+      "team": "MIN",
+      "stat": "pra",
+      "line": 37.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Julius Randle",
+      "team": "MIN",
+      "stat": "pra",
+      "line": 37.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Julius Randle",
+      "team": "MIN",
+      "stat": "rebounds",
+      "line": 8.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Julius Randle",
+      "team": "MIN",
+      "stat": "rebounds",
+      "line": 8.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Julius Randle",
+      "team": "MIN",
+      "stat": "assists",
+      "line": 5.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Julius Randle",
+      "team": "MIN",
+      "stat": "assists",
+      "line": 5.5,
+      "direction": "lower"
+    },
+    {
+      "player": "LeBron James",
+      "team": "LAL",
+      "stat": "points",
+      "line": 24.5,
+      "direction": "higher"
+    },
+    {
+      "player": "LeBron James",
+      "team": "LAL",
+      "stat": "points",
+      "line": 24.5,
+      "direction": "lower"
+    },
+    {
+      "player": "LeBron James",
+      "team": "LAL",
+      "stat": "pra",
+      "line": 37.5,
+      "direction": "higher"
+    },
+    {
+      "player": "LeBron James",
+      "team": "LAL",
+      "stat": "pra",
+      "line": 37.5,
+      "direction": "lower"
+    },
+    {
+      "player": "LeBron James",
+      "team": "LAL",
+      "stat": "rebounds",
+      "line": 6.5,
+      "direction": "higher"
+    },
+    {
+      "player": "LeBron James",
+      "team": "LAL",
+      "stat": "rebounds",
+      "line": 6.5,
+      "direction": "lower"
+    },
+    {
+      "player": "LeBron James",
+      "team": "LAL",
+      "stat": "assists",
+      "line": 7.5,
+      "direction": "higher"
+    },
+    {
+      "player": "LeBron James",
+      "team": "LAL",
+      "stat": "assists",
+      "line": 7.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Luka Doncic",
+      "team": "LAL",
+      "stat": "points",
+      "line": 35.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Luka Doncic",
+      "team": "LAL",
+      "stat": "points",
+      "line": 35.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Luka Doncic",
+      "team": "LAL",
+      "stat": "pra",
+      "line": 52.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Luka Doncic",
+      "team": "LAL",
+      "stat": "pra",
+      "line": 52.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Luka Doncic",
+      "team": "LAL",
+      "stat": "rebounds",
+      "line": 8.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Luka Doncic",
+      "team": "LAL",
+      "stat": "rebounds",
+      "line": 8.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Luka Doncic",
+      "team": "LAL",
+      "stat": "assists",
+      "line": 9.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Luka Doncic",
+      "team": "LAL",
+      "stat": "assists",
+      "line": 9.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Jalen Johnson",
+      "team": "ATL",
+      "stat": "points",
+      "line": 23.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Jalen Johnson",
+      "team": "ATL",
+      "stat": "points",
+      "line": 23.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Jalen Johnson",
+      "team": "ATL",
+      "stat": "pra",
+      "line": 41.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Jalen Johnson",
+      "team": "ATL",
+      "stat": "pra",
+      "line": 41.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Jalen Johnson",
+      "team": "ATL",
+      "stat": "rebounds",
+      "line": 9.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Jalen Johnson",
+      "team": "ATL",
+      "stat": "rebounds",
+      "line": 9.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Jalen Johnson",
+      "team": "ATL",
+      "stat": "assists",
+      "line": 7.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Jalen Johnson",
+      "team": "ATL",
+      "stat": "assists",
+      "line": 7.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Stephen Curry",
+      "team": "GSW",
+      "stat": "points",
+      "line": 28.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Stephen Curry",
+      "team": "GSW",
+      "stat": "points",
+      "line": 28.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Stephen Curry",
+      "team": "GSW",
+      "stat": "pra",
+      "line": 36.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Stephen Curry",
+      "team": "GSW",
+      "stat": "pra",
+      "line": 36.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Stephen Curry",
+      "team": "GSW",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Stephen Curry",
+      "team": "GSW",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Stephen Curry",
+      "team": "GSW",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Stephen Curry",
+      "team": "GSW",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Shaedon Sharpe",
+      "team": "POR",
+      "stat": "points",
+      "line": 25.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Shaedon Sharpe",
+      "team": "POR",
+      "stat": "points",
+      "line": 25.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Shaedon Sharpe",
+      "team": "POR",
+      "stat": "pra",
+      "line": 33.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Shaedon Sharpe",
+      "team": "POR",
+      "stat": "pra",
+      "line": 33.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Shaedon Sharpe",
+      "team": "POR",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Shaedon Sharpe",
+      "team": "POR",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Shaedon Sharpe",
+      "team": "POR",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Shaedon Sharpe",
+      "team": "POR",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Donovan Clingan",
+      "team": "POR",
+      "stat": "points",
+      "line": 11.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Donovan Clingan",
+      "team": "POR",
+      "stat": "points",
+      "line": 11.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Donovan Clingan",
+      "team": "POR",
+      "stat": "pra",
+      "line": 27.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Donovan Clingan",
+      "team": "POR",
+      "stat": "pra",
+      "line": 27.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Donovan Clingan",
+      "team": "POR",
+      "stat": "rebounds",
+      "line": 12.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Donovan Clingan",
+      "team": "POR",
+      "stat": "rebounds",
+      "line": 12.5,
+      "direction": "lower"
+    },
+    {
+      "player": "Donovan Clingan",
+      "team": "POR",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "higher"
+    },
+    {
+      "player": "Donovan Clingan",
+      "team": "POR",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "lower"
+    }
+  ]
+}

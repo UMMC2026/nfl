@@ -1,0 +1,382 @@
+{
+  "date": "2026-01-30",
+  "timestamp": "2026-01-30T20:31:22.635167",
+  "slate": "FRYDAY8DAT",
+  "source_file": "FRYDAY8DAT_RISK_FIRST_20260130_FROM_UD.json",
+  "summary": {
+    "play_count": 9,
+    "lean_count": 32,
+    "total": 41
+  },
+  "picks": [
+    {
+      "player": "Cam Thomas",
+      "team": "BKN",
+      "stat": "points",
+      "line": 16.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 86.6
+    },
+    {
+      "player": "Nic Claxton",
+      "team": "BKN",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 84.4
+    },
+    {
+      "player": "Kyle Filipowski",
+      "team": "UTA",
+      "stat": "points",
+      "line": 14.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 82.1
+    },
+    {
+      "player": "Egor D\u00ebmin",
+      "team": "BKN",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 82.0
+    },
+    {
+      "player": "Duncan Robinson",
+      "team": "DET",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 76.6
+    },
+    {
+      "player": "Terance Mann",
+      "team": "BKN",
+      "stat": "points",
+      "line": 9.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 75.3
+    },
+    {
+      "player": "Danny Wolf",
+      "team": "BKN",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 74.9
+    },
+    {
+      "player": "Stephen Curry",
+      "team": "GSW",
+      "stat": "points",
+      "line": 28.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 74.6
+    },
+    {
+      "player": "Terance Mann",
+      "team": "BKN",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 72.8
+    },
+    {
+      "player": "Day'Ron Sharpe",
+      "team": "BKN",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 65.7
+    },
+    {
+      "player": "Nic Claxton",
+      "team": "BKN",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 65.0
+    },
+    {
+      "player": "Cody Williams",
+      "team": "UTA",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 64.0
+    },
+    {
+      "player": "Cody Williams",
+      "team": "UTA",
+      "stat": "pra",
+      "line": 14.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 62.7
+    },
+    {
+      "player": "Draymond Green",
+      "team": "GSW",
+      "stat": "pra",
+      "line": 18.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 60.5
+    },
+    {
+      "player": "Ausar Thompson",
+      "team": "DET",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 60.3
+    },
+    {
+      "player": "Nolan Traore",
+      "team": "BKN",
+      "stat": "points",
+      "line": 9.0,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 59.2
+    },
+    {
+      "player": "Isaiah Stewart",
+      "team": "DET",
+      "stat": "pra",
+      "line": 13.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 58.8
+    },
+    {
+      "player": "Kyle Filipowski",
+      "team": "UTA",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 58.7
+    },
+    {
+      "player": "Ausar Thompson",
+      "team": "DET",
+      "stat": "pra",
+      "line": 17.0,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 58.3
+    },
+    {
+      "player": "Brice Sensabaugh",
+      "team": "UTA",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 58.3
+    },
+    {
+      "player": "Egor D\u00ebmin",
+      "team": "BKN",
+      "stat": "points",
+      "line": 12.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 58.3
+    },
+    {
+      "player": "Al Horford",
+      "team": "GSW",
+      "stat": "pra",
+      "line": 15.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 57.7
+    },
+    {
+      "player": "Tobias Harris",
+      "team": "DET",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 57.4
+    },
+    {
+      "player": "Svi Mykhailiuk",
+      "team": "UTA",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 55.9
+    },
+    {
+      "player": "Tobias Harris",
+      "team": "DET",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 55.8
+    },
+    {
+      "player": "Cade Cunningham",
+      "team": "DET",
+      "stat": "turnovers",
+      "line": 4.0,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 54.9
+    },
+    {
+      "player": "Buddy Hield",
+      "team": "GSW",
+      "stat": "pra",
+      "line": 11.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 54.5
+    },
+    {
+      "player": "Cade Cunningham",
+      "team": "DET",
+      "stat": "points",
+      "line": 24.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 54.2
+    },
+    {
+      "player": "Kyle Anderson",
+      "team": "UTA",
+      "stat": "points",
+      "line": 6.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 54.1
+    },
+    {
+      "player": "Ace Bailey",
+      "team": "UTA",
+      "stat": "pra",
+      "line": 22.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 54.0
+    },
+    {
+      "player": "Ausar Thompson",
+      "team": "DET",
+      "stat": "points",
+      "line": 8.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 53.9
+    },
+    {
+      "player": "Jalen Wilson",
+      "team": "BKN",
+      "stat": "points",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 53.6
+    },
+    {
+      "player": "Draymond Green",
+      "team": "GSW",
+      "stat": "points",
+      "line": 7.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 53.5
+    },
+    {
+      "player": "Draymond Green",
+      "team": "GSW",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 53.3
+    },
+    {
+      "player": "Cade Cunningham",
+      "team": "DET",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 52.5
+    },
+    {
+      "player": "Brandin Podziemski",
+      "team": "GSW",
+      "stat": "pra",
+      "line": 21.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 52.2
+    },
+    {
+      "player": "Brandin Podziemski",
+      "team": "GSW",
+      "stat": "turnovers",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 51.5
+    },
+    {
+      "player": "Nolan Traore",
+      "team": "BKN",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 51.3
+    },
+    {
+      "player": "Al Horford",
+      "team": "GSW",
+      "stat": "points",
+      "line": 7.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 50.3
+    },
+    {
+      "player": "Drake Powell",
+      "team": "BKN",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 50.2
+    },
+    {
+      "player": "Isaiah Collier",
+      "team": "UTA",
+      "stat": "turnovers",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 50.1
+    }
+  ]
+}

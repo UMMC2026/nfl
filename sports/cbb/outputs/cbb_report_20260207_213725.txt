@@ -1,0 +1,174 @@
+
+=================================================================
+[CBB] COLLEGE BASKETBALL STRATEGIC REPORT
+   Generated: 2026-02-07 21:36:58
+   Total edges: 220 | Actionable: 8
+=================================================================
+
+
+============================================================
+ DUKE @ UNC  [23:30 ET]
+============================================================
+[MATCHUP ANALYSIS]
+  - RANKING: DUKE (#4) @ UNC (#14)
+
+  ROSTER SNAPSHOT - UNC
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Caleb Wilson          31.2  20.0   9.9   2.9   0.3
+
+[EDGES]
+    Caleb Wilson       points     higher 18.5  (LEAN)
+      Probability: 61.5% | mean_source=ESPN | confidence=UNVERIFIED | signal=OK | spread=MISSING | dedupe_dropped=lower@0.386
+      TRACE: lambda=19.9524 (ESPN/OK)
+             raw=0.61455 adj_mult=1.0 adj=0.61455
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.61455
+      [AI Math] Model projects 19.9 points (line: 18.5) | Line is 1.4 BELOW projection (7% gap) | P(higher 18.5) = 61.5% | z = -0.72σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency.
+      [DeepSeek AI] This line is set exactly at his average, offering no statistical edge, and the 61.5% hit probability is unreliable given the unknown stability and tier. The UNC-DUKE rivalry is a high-pressure, defensive-minded matchup where scoring can be volatile, making a prop pinned to a player's
+
+    Caleb Wilson       rebounds   higher 8.5   (LEAN)
+      Probability: 63.8% | mean_source=ESPN | confidence=UNVERIFIED | signal=OK | spread=MISSING | dedupe_dropped=lower@0.342
+      TRACE: lambda=9.8571 (ESPN/OK)
+             raw=0.650867 adj_mult=0.98 adj=0.63785
+             caps: stat_cap=0.72 global_cap=0.79 cap_hit=None final=0.63785
+      [AI Math] Model projects 9.9 rebounds (line: 8.5) | Line is 1.4 BELOW projection (14% gap) | P(higher 8.5) = 63.8% | z = -0.68σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency.
+      [DeepSeek AI] This line is set exactly at Wilson's recent average, but the high hit probability suggests the model sees a matchup advantage against Duke's weaker rebounding frontcourt. The main risk is the rivalry game's unpredictable pace and physicality, which could lead to foul trouble limiting his minutes.
+
+
+============================================================
+ ASU
+============================================================
+  ROSTER SNAPSHOT - ASU
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Massamba Diop         29.1  13.6   5.8   1.1   0.1
+
+[EDGES]
+  * Massamba Diop      rebounds   lower 7.5   (STRONG)
+      Probability: 72.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.222
+      TRACE: lambda=5.7826 (ESPN/OK)
+             raw=0.773328 adj_mult=0.98 adj=0.757862
+             caps: stat_cap=0.72 global_cap=0.79 cap_hit=stat_cap final=0.72
+      [AI Math] Model projects 5.8 rebounds (line: 7.5) | Line is 1.7 ABOVE projection (30% gap) | P(lower 7.5) = 72.0% | z = +0.86σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at Diop's recent average with no volatility, offering no statistical edge despite the high hit probability. The key risk is Colorado's fast pace and strong rebounding, which could inflate Diop's opportunities in a competitive game script. Given the unknown stability and tier, this
+
+
+============================================================
+ TTU
+============================================================
+  ROSTER SNAPSHOT - TTU
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  LeJuan Watts          27.6  12.0   6.0   3.0   0.7
+
+[EDGES]
+  * LeJuan Watts       rebounds   lower 7.5   (STRONG)
+      Probability: 72.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.249
+      TRACE: lambda=5.9885 (ESPN/OK)
+             raw=0.745561 adj_mult=0.98 adj=0.730649
+             caps: stat_cap=0.72 global_cap=0.79 cap_hit=stat_cap final=0.72
+      [AI Math] Model projects 6.0 rebounds (line: 7.5) | Line is 1.5 ABOVE projection (25% gap) | P(lower 7.5) = 72.0% | z = +0.75σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility data, making the 72% hit probability questionable and likely unreliable. Given the lack of stability and unknown tier, the apparent edge is a statistical artifact rather than a true value. The risk far outweighs the reward; avoid this prop due
+
+
+============================================================
+ FLA @ TA&M  [01:30 ET]
+============================================================
+[MATCHUP ANALYSIS]
+  - RANKING: FLA (#17) @ TA&M (UR)
+
+  ROSTER SNAPSHOT - FLA
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Alex Condon           24.4  10.0   7.2   2.1   0.4
+
+[EDGES]
+  * Alex Condon        rebounds   lower 8.5   (STRONG)
+      Probability: 68.7% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.293
+      TRACE: lambda=7.2151 (ESPN/OK)
+             raw=0.700654 adj_mult=0.98 adj=0.68664
+             caps: stat_cap=0.72 global_cap=0.79 cap_hit=None final=0.68664
+      [AI Math] Model projects 7.2 rebounds (line: 8.5) | Line is 1.3 ABOVE projection (18% gap) | P(lower 8.5) = 68.7% | z = +0.64σ
+Tier: [LEAN] | Engine decision: [LEAN]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This edge likely stems from Texas A&M's elite rebounding, ranking top-10 nationally, which should suppress Condon's opportunities despite his consistent production. The primary risk is that Condon's heavy minutes and role as Florida's primary big could force him into enough volume to clear this number, even
+
+
+============================================================
+ WASH
+============================================================
+  ROSTER SNAPSHOT - WASH
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Zoom Diallo           26.4  12.9   3.3   3.4   0.4
+
+[EDGES]
+  * Zoom Diallo        rebounds   lower 4.5   (STRONG)
+      Probability: 72.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.229
+      TRACE: lambda=3.2778 (ESPN/OK)
+             raw=0.766631 adj_mult=0.98 adj=0.751298
+             caps: stat_cap=0.72 global_cap=0.79 cap_hit=stat_cap final=0.72
+      [AI Math] Model projects 3.3 rebounds (line: 4.5) | Line is 1.2 ABOVE projection (37% gap) | P(lower 4.5) = 72.0% | z = +0.61σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at his recent average with no volatility data, making the 72% hit probability misleading—it likely reflects a projection rather than a true edge. UCLA is a strong defensive rebounding team, which could limit Diallo's opportunities, but his role as a guard makes him heavily
+
+
+============================================================
+ NEV
+============================================================
+  ROSTER SNAPSHOT - NEV
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Elijah Price          30.6  11.3   8.5   1.1   0.2
+
+[EDGES]
+  * Elijah Price       rebounds   lower 10.5  (STRONG)
+      Probability: 72.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.232
+      TRACE: lambda=8.5 (ESPN/OK)
+             raw=0.763362 adj_mult=0.98 adj=0.748095
+             caps: stat_cap=0.72 global_cap=0.79 cap_hit=stat_cap final=0.72
+      [AI Math] Model projects 8.5 rebounds (line: 10.5) | Line is 2.0 ABOVE projection (24% gap) | P(lower 10.5) = 72.0% | z = +1.00σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set exactly at Price's recent average with no edge, making it a coin flip despite the high hit probability. The unknown stability and tier suggest recent data may be unreliable, and facing FRES could introduce matchup variance not reflected in his average. With no clear statistical advantage, this is a
+
+
+============================================================
+ HOU @ BYU  [03:30 ET]
+============================================================
+[MATCHUP ANALYSIS]
+  - PACE: FAST (Projected Total: 151.5) - Expect higher possession count
+  - SPREAD: HOU -1.5 (TIGHT) - High leverage minutes expected
+  - RANKING: HOU (#8) @ BYU (#16)
+
+  ROSTER SNAPSHOT - BYU
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Richie Saunders       23.8  12.1   4.0   1.3   1.6
+
+[EDGES]
+  * Richie Saunders    rebounds   lower 5.5   (STRONG)
+      Probability: 72.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.213
+      TRACE: lambda=4.0161 (ESPN/OK)
+             raw=0.782604 adj_mult=0.98 adj=0.766952
+             caps: stat_cap=0.72 global_cap=0.79 cap_hit=stat_cap final=0.72
+      [AI Math] Model projects 4.0 rebounds (line: 5.5) | Line is 1.5 ABOVE projection (37% gap) | P(lower 5.5) = 72.0% | z = +0.74σ
+Tier: [STRONG] | Engine decision: [STRONG]
+      [Quick Analysis] Solid performance consistency. Recent avg (0.0) well below line.
+      [DeepSeek AI] This line is set at Saunders' exact recent average with no volatility, making it a pure matchup play against Houston's elite interior defense that ranks top-5 in limiting opponent rebounds. The primary risk is a potential blowout favoring BYU, which could inflate Saunders' minutes and opportunities against Houston's
+
+------------------------------
+Skipped 212 plays (low confidence / blowout)
+
+=================================================================
+[i] CBB = PRODUCTION - 12% market gate, L10 stats, stricter caps than NBA
+=================================================================

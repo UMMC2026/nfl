@@ -1,0 +1,40 @@
+{
+  "engine": "TOTAL_GAMES_ENGINE",
+  "market": "TOTAL_GAMES",
+  "version": "1.0.0",
+  
+  "edge_identity": ["player_a", "player_b", "surface", "games_line"],
+  
+  "block_rules": {
+    "games_line_gte_36_5_and_elo_gap_gt_120": true,
+    "games_line_gte_36_5_and_hold_pct_lt_78": true
+  },
+  
+  "features": [
+    "hold_pct_surface",
+    "breaks_allowed",
+    "elo_gap",
+    "tiebreak_rate",
+    "straight_set_pct_recent"
+  ],
+  
+  "model": {
+    "type": "structural",
+    "formula": "base = expected_sets * expected_games_per_set; adj = tiebreak_prob*1.2 - blowout_risk*1.5; p_over = sigmoid(base - line)"
+  },
+  
+  "expected_sets": {
+    "Bo3_even": 2.7,
+    "Bo3_mismatch": 2.2,
+    "Bo5_even": 4.2,
+    "Bo5_mismatch": 3.4
+  },
+  
+  "tiers": {
+    "STRONG": {"min": 0.66},
+    "LEAN": {"min": 0.58},
+    "NO_PLAY": {"max": 0.579}
+  },
+  
+  "max_plays": 2
+}

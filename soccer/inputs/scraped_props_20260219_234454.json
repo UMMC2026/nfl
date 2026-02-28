@@ -1,0 +1,753 @@
+{
+  "props": [
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Igor Thiago Nascimento Rodrigues shots 3.5 higher (PrizePicks/player_shots)",
+      "player": "Igor Thiago Nascimento Rodrigues",
+      "stat": "shots",
+      "line": 3.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-20T05:13:08.315170Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Igor Thiago Nascimento Rodrigues",
+        "stat": "shots",
+        "line": 3.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "f38e853e6d4accab249a51501f2806ef",
+          "commence_time": "2026-02-21T15:00:00Z",
+          "home_team": "Brentford",
+          "away_team": "Brighton and Hove Albion",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Igor Thiago Nascimento Rodrigues"
+        }
+      },
+      "league": "EPL"
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Igor Thiago Nascimento Rodrigues shots 3.5 lower (PrizePicks/player_shots)",
+      "player": "Igor Thiago Nascimento Rodrigues",
+      "stat": "shots",
+      "line": 3.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-20T05:13:08.315170Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Igor Thiago Nascimento Rodrigues",
+        "stat": "shots",
+        "line": 3.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "f38e853e6d4accab249a51501f2806ef",
+          "commence_time": "2026-02-21T15:00:00Z",
+          "home_team": "Brentford",
+          "away_team": "Brighton and Hove Albion",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Igor Thiago Nascimento Rodrigues"
+        }
+      },
+      "league": "EPL"
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Danny Welbeck shots 2.0 higher (PrizePicks/player_shots)",
+      "player": "Danny Welbeck",
+      "stat": "shots",
+      "line": 2.0,
+      "direction": "higher",
+      "scraped_at": "2026-02-20T05:13:08.315170Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Danny Welbeck",
+        "stat": "shots",
+        "line": 2.0,
+        "direction": "higher",
+        "raw": {
+          "event_id": "f38e853e6d4accab249a51501f2806ef",
+          "commence_time": "2026-02-21T15:00:00Z",
+          "home_team": "Brentford",
+          "away_team": "Brighton and Hove Albion",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Danny Welbeck"
+        }
+      },
+      "league": "EPL"
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Danny Welbeck shots 2.0 lower (PrizePicks/player_shots)",
+      "player": "Danny Welbeck",
+      "stat": "shots",
+      "line": 2.0,
+      "direction": "lower",
+      "scraped_at": "2026-02-20T05:13:08.315170Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Danny Welbeck",
+        "stat": "shots",
+        "line": 2.0,
+        "direction": "lower",
+        "raw": {
+          "event_id": "f38e853e6d4accab249a51501f2806ef",
+          "commence_time": "2026-02-21T15:00:00Z",
+          "home_team": "Brentford",
+          "away_team": "Brighton and Hove Albion",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Danny Welbeck"
+        }
+      },
+      "league": "EPL"
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Georginio Rutter shots 1.5 higher (PrizePicks/player_shots)",
+      "player": "Georginio Rutter",
+      "stat": "shots",
+      "line": 1.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-20T05:13:08.315170Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Georginio Rutter",
+        "stat": "shots",
+        "line": 1.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "f38e853e6d4accab249a51501f2806ef",
+          "commence_time": "2026-02-21T15:00:00Z",
+          "home_team": "Brentford",
+          "away_team": "Brighton and Hove Albion",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Georginio Rutter"
+        }
+      },
+      "league": "EPL"
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Georginio Rutter shots 1.5 lower (PrizePicks/player_shots)",
+      "player": "Georginio Rutter",
+      "stat": "shots",
+      "line": 1.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-20T05:13:08.315170Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Georginio Rutter",
+        "stat": "shots",
+        "line": 1.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "f38e853e6d4accab249a51501f2806ef",
+          "commence_time": "2026-02-21T15:00:00Z",
+          "home_team": "Brentford",
+          "away_team": "Brighton and Hove Albion",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Georginio Rutter"
+        }
+      },
+      "league": "EPL"
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Ferdi Kadioglu shots 0.5 higher (PrizePicks/player_shots)",
+      "player": "Ferdi Kadioglu",
+      "stat": "shots",
+      "line": 0.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-20T05:13:08.315170Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Ferdi Kadioglu",
+        "stat": "shots",
+        "line": 0.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "f38e853e6d4accab249a51501f2806ef",
+          "commence_time": "2026-02-21T15:00:00Z",
+          "home_team": "Brentford",
+          "away_team": "Brighton and Hove Albion",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Ferdi Kadioglu"
+        }
+      },
+      "league": "EPL"
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Ferdi Kadioglu shots 0.5 lower (PrizePicks/player_shots)",
+      "player": "Ferdi Kadioglu",
+      "stat": "shots",
+      "line": 0.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-20T05:13:08.315170Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Ferdi Kadioglu",
+        "stat": "shots",
+        "line": 0.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "f38e853e6d4accab249a51501f2806ef",
+          "commence_time": "2026-02-21T15:00:00Z",
+          "home_team": "Brentford",
+          "away_team": "Brighton and Hove Albion",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Ferdi Kadioglu"
+        }
+      },
+      "league": "EPL"
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Sepp van den Berg shots 0.5 higher (PrizePicks/player_shots)",
+      "player": "Sepp van den Berg",
+      "stat": "shots",
+      "line": 0.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-20T05:13:08.315170Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Sepp van den Berg",
+        "stat": "shots",
+        "line": 0.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "f38e853e6d4accab249a51501f2806ef",
+          "commence_time": "2026-02-21T15:00:00Z",
+          "home_team": "Brentford",
+          "away_team": "Brighton and Hove Albion",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Sepp van den Berg"
+        }
+      },
+      "league": "EPL"
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Sepp van den Berg shots 0.5 lower (PrizePicks/player_shots)",
+      "player": "Sepp van den Berg",
+      "stat": "shots",
+      "line": 0.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-20T05:13:08.315170Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Sepp van den Berg",
+        "stat": "shots",
+        "line": 0.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "f38e853e6d4accab249a51501f2806ef",
+          "commence_time": "2026-02-21T15:00:00Z",
+          "home_team": "Brentford",
+          "away_team": "Brighton and Hove Albion",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Sepp van den Berg"
+        }
+      },
+      "league": "EPL"
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Igor Thiago Nascimento Rodrigues shots_on_target 1.5 higher (PrizePicks/player_shots_on_target)",
+      "player": "Igor Thiago Nascimento Rodrigues",
+      "stat": "shots_on_target",
+      "line": 1.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-20T05:13:08.315170Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Igor Thiago Nascimento Rodrigues",
+        "stat": "shots_on_target",
+        "line": 1.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "f38e853e6d4accab249a51501f2806ef",
+          "commence_time": "2026-02-21T15:00:00Z",
+          "home_team": "Brentford",
+          "away_team": "Brighton and Hove Albion",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots_on_target",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Igor Thiago Nascimento Rodrigues"
+        }
+      },
+      "league": "EPL"
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Igor Thiago Nascimento Rodrigues shots_on_target 1.5 lower (PrizePicks/player_shots_on_target)",
+      "player": "Igor Thiago Nascimento Rodrigues",
+      "stat": "shots_on_target",
+      "line": 1.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-20T05:13:08.315170Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Igor Thiago Nascimento Rodrigues",
+        "stat": "shots_on_target",
+        "line": 1.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "f38e853e6d4accab249a51501f2806ef",
+          "commence_time": "2026-02-21T15:00:00Z",
+          "home_team": "Brentford",
+          "away_team": "Brighton and Hove Albion",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots_on_target",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Igor Thiago Nascimento Rodrigues"
+        }
+      },
+      "league": "EPL"
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Georginio Rutter shots_on_target 0.5 higher (PrizePicks/player_shots_on_target)",
+      "player": "Georginio Rutter",
+      "stat": "shots_on_target",
+      "line": 0.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-20T05:13:08.315170Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Georginio Rutter",
+        "stat": "shots_on_target",
+        "line": 0.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "f38e853e6d4accab249a51501f2806ef",
+          "commence_time": "2026-02-21T15:00:00Z",
+          "home_team": "Brentford",
+          "away_team": "Brighton and Hove Albion",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots_on_target",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Georginio Rutter"
+        }
+      },
+      "league": "EPL"
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Georginio Rutter shots_on_target 0.5 lower (PrizePicks/player_shots_on_target)",
+      "player": "Georginio Rutter",
+      "stat": "shots_on_target",
+      "line": 0.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-20T05:13:08.315170Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Georginio Rutter",
+        "stat": "shots_on_target",
+        "line": 0.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "f38e853e6d4accab249a51501f2806ef",
+          "commence_time": "2026-02-21T15:00:00Z",
+          "home_team": "Brentford",
+          "away_team": "Brighton and Hove Albion",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots_on_target",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Georginio Rutter"
+        }
+      },
+      "league": "EPL"
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Jarrod Bowen shots 2.0 higher (PrizePicks/player_shots)",
+      "player": "Jarrod Bowen",
+      "stat": "shots",
+      "line": 2.0,
+      "direction": "higher",
+      "scraped_at": "2026-02-20T05:13:08.315170Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Jarrod Bowen",
+        "stat": "shots",
+        "line": 2.0,
+        "direction": "higher",
+        "raw": {
+          "event_id": "13c335daab252110beaa73f1dbf3ae1f",
+          "commence_time": "2026-02-21T17:30:00Z",
+          "home_team": "West Ham United",
+          "away_team": "Bournemouth",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Jarrod Bowen"
+        }
+      },
+      "league": "EPL"
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Jarrod Bowen shots 2.0 lower (PrizePicks/player_shots)",
+      "player": "Jarrod Bowen",
+      "stat": "shots",
+      "line": 2.0,
+      "direction": "lower",
+      "scraped_at": "2026-02-20T05:13:08.315170Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Jarrod Bowen",
+        "stat": "shots",
+        "line": 2.0,
+        "direction": "lower",
+        "raw": {
+          "event_id": "13c335daab252110beaa73f1dbf3ae1f",
+          "commence_time": "2026-02-21T17:30:00Z",
+          "home_team": "West Ham United",
+          "away_team": "Bournemouth",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Jarrod Bowen"
+        }
+      },
+      "league": "EPL"
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Francisco Evanilson de Lima Barbosa shots 2.0 higher (PrizePicks/player_shots)",
+      "player": "Francisco Evanilson de Lima Barbosa",
+      "stat": "shots",
+      "line": 2.0,
+      "direction": "higher",
+      "scraped_at": "2026-02-20T05:13:08.315170Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Francisco Evanilson de Lima Barbosa",
+        "stat": "shots",
+        "line": 2.0,
+        "direction": "higher",
+        "raw": {
+          "event_id": "13c335daab252110beaa73f1dbf3ae1f",
+          "commence_time": "2026-02-21T17:30:00Z",
+          "home_team": "West Ham United",
+          "away_team": "Bournemouth",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Francisco Evanilson de Lima Barbosa"
+        }
+      },
+      "league": "EPL"
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Francisco Evanilson de Lima Barbosa shots 2.0 lower (PrizePicks/player_shots)",
+      "player": "Francisco Evanilson de Lima Barbosa",
+      "stat": "shots",
+      "line": 2.0,
+      "direction": "lower",
+      "scraped_at": "2026-02-20T05:13:08.315170Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Francisco Evanilson de Lima Barbosa",
+        "stat": "shots",
+        "line": 2.0,
+        "direction": "lower",
+        "raw": {
+          "event_id": "13c335daab252110beaa73f1dbf3ae1f",
+          "commence_time": "2026-02-21T17:30:00Z",
+          "home_team": "West Ham United",
+          "away_team": "Bournemouth",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Francisco Evanilson de Lima Barbosa"
+        }
+      },
+      "league": "EPL"
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Eli Junior Kroupi shots 2.0 higher (PrizePicks/player_shots)",
+      "player": "Eli Junior Kroupi",
+      "stat": "shots",
+      "line": 2.0,
+      "direction": "higher",
+      "scraped_at": "2026-02-20T05:13:08.315170Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Eli Junior Kroupi",
+        "stat": "shots",
+        "line": 2.0,
+        "direction": "higher",
+        "raw": {
+          "event_id": "13c335daab252110beaa73f1dbf3ae1f",
+          "commence_time": "2026-02-21T17:30:00Z",
+          "home_team": "West Ham United",
+          "away_team": "Bournemouth",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Eli Junior Kroupi"
+        }
+      },
+      "league": "EPL"
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Eli Junior Kroupi shots 2.0 lower (PrizePicks/player_shots)",
+      "player": "Eli Junior Kroupi",
+      "stat": "shots",
+      "line": 2.0,
+      "direction": "lower",
+      "scraped_at": "2026-02-20T05:13:08.315170Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Eli Junior Kroupi",
+        "stat": "shots",
+        "line": 2.0,
+        "direction": "lower",
+        "raw": {
+          "event_id": "13c335daab252110beaa73f1dbf3ae1f",
+          "commence_time": "2026-02-21T17:30:00Z",
+          "home_team": "West Ham United",
+          "away_team": "Bournemouth",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Eli Junior Kroupi"
+        }
+      },
+      "league": "EPL"
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Amine Adli shots 1.5 higher (PrizePicks/player_shots)",
+      "player": "Amine Adli",
+      "stat": "shots",
+      "line": 1.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-20T05:13:08.315170Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Amine Adli",
+        "stat": "shots",
+        "line": 1.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "13c335daab252110beaa73f1dbf3ae1f",
+          "commence_time": "2026-02-21T17:30:00Z",
+          "home_team": "West Ham United",
+          "away_team": "Bournemouth",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Amine Adli"
+        }
+      },
+      "league": "EPL"
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Amine Adli shots 1.5 lower (PrizePicks/player_shots)",
+      "player": "Amine Adli",
+      "stat": "shots",
+      "line": 1.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-20T05:13:08.315170Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Amine Adli",
+        "stat": "shots",
+        "line": 1.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "13c335daab252110beaa73f1dbf3ae1f",
+          "commence_time": "2026-02-21T17:30:00Z",
+          "home_team": "West Ham United",
+          "away_team": "Bournemouth",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Amine Adli"
+        }
+      },
+      "league": "EPL"
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Amine Adli shots_on_target 0.5 higher (PrizePicks/player_shots_on_target)",
+      "player": "Amine Adli",
+      "stat": "shots_on_target",
+      "line": 0.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-20T05:13:08.315170Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Amine Adli",
+        "stat": "shots_on_target",
+        "line": 0.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "13c335daab252110beaa73f1dbf3ae1f",
+          "commence_time": "2026-02-21T17:30:00Z",
+          "home_team": "West Ham United",
+          "away_team": "Bournemouth",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots_on_target",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Amine Adli"
+        }
+      },
+      "league": "EPL"
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Amine Adli shots_on_target 0.5 lower (PrizePicks/player_shots_on_target)",
+      "player": "Amine Adli",
+      "stat": "shots_on_target",
+      "line": 0.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-20T05:13:08.315170Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Amine Adli",
+        "stat": "shots_on_target",
+        "line": 0.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "13c335daab252110beaa73f1dbf3ae1f",
+          "commence_time": "2026-02-21T17:30:00Z",
+          "home_team": "West Ham United",
+          "away_team": "Bournemouth",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots_on_target",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Amine Adli"
+        }
+      },
+      "league": "EPL"
+    }
+  ],
+  "source": "odds_api_all_leagues",
+  "timestamp": "2026-02-19T23:13:42.797966",
+  "leagues": [
+    "EPL"
+  ]
+}

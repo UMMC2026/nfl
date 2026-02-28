@@ -1,0 +1,48 @@
+
+===========================================================================
+  TENNIS PROPS CHEATSHEET
+  Surface: HARD
+  Generated: Wednesday, February 04, 2026 at 12:59 PM
+===========================================================================
+
+  SUMMARY
+  -----------------------------------
+  Total Playable:    9
+  SLAM (70%+):       6
+  STRONG (62-70%):   3
+  LEAN (55-62%):     0
+
+  [SLAM] *** (6 picks)
+  ---------------------------------------------------------------------------
+  PLAYER                   PICK                   LINE    PROB    n
+  ---------------------------------------------------------------------------
+  Tomas Machac             HIGHER games_won       5.5     89%     22 [CORR]
+  Tomas Machac             HIGHER games_played    10.5    100%     22 [CORR]
+  Tomas Machac             HIGHER sets_played     2.5     100%     22 [CORR]
+  Arthur Gea               HIGHER games_won       5.5     95%     10 [CORR]
+  Arthur Gea               HIGHER sets_won        0.5     75%     10
+  Arthur Gea               HIGHER breakpoints_wo  1.5     72%     10
+
+  [STRONG] ** (3 picks)
+  ---------------------------------------------------------------------------
+  PLAYER                   PICK                   LINE    PROB    n
+  ---------------------------------------------------------------------------
+  Tomas Machac             HIGHER tiebreakers     0.5     100%     22
+  Tomas Machac             HIGHER games_played    22.5    67%     22 [CORR]
+  Tomas Machac             HIGHER double_faults   2.5     66%     22 [CORR]
+
+  [AVOID] (6 props below 55%)
+  ----------------------------------------
+    Arthur Gea: games_won (54%)
+    Tomas Machac: aces (49%)
+    Tomas Machac: breakpoints_won (47%)
+    Tomas Machac: games_won (47%)
+    Arthur Gea: double_faults (26%)
+    ... and 1 more
+
+===========================================================================
+  RULES (SOP v2.1)
+  - One player, one bet per match
+  - [CORR] = Correlated stats - don't combine in parlays
+  - Probabilities from 2,000 Monte Carlo simulations
+===========================================================================

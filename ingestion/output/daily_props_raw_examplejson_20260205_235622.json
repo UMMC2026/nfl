@@ -1,0 +1,22 @@
+[
+  {
+    "sport": "NBA",
+    "player": "Example Player",
+    "result": "WIN",
+    "stat": "PTS",
+    "line": 24.5,
+    "direction": "higher",
+    "ticket": "NBA Props",
+    "notes": "Optional note"
+  },
+  {
+    "sport": "TENNIS",
+    "player": "Example Player",
+    "result": "PENDING",
+    "stat": "Total Games",
+    "line": 22.5,
+    "direction": "lower",
+    "ticket": "Tennis Ticket",
+    "notes": null
+  }
+]

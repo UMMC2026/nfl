@@ -1,0 +1,39 @@
+# March-Only In-Game Ladder Policy
+# Conditional reinforcement when early signals confirm structural unders.
+# This is NOT martingale. Any loss stops the ladder.
+
+MARCH:
+  ENABLE: true
+
+  # Pregame: Reduced units in March
+  PREGAME:
+    unit_mult: 0.60
+    notes: "Start small, validate signal"
+
+  # Half-time: Allow 1H under if conditions met
+  HALF_TIME:
+    require:
+      lock_unders: true           # Must be in UNDERS_ONLY mode
+      foul_rate_below_mult: 0.95  # Fouls below 95% of baseline
+    unit_mult: 0.40
+    notes: "Confirm pace collapse before adding"
+
+  # Second half: Allow 2H under if conditions met
+  SECOND_HALF:
+    require:
+      pace_ratio_below: 0.90      # Pace significantly collapsed
+      foulout_prob_min: 0.30      # Rotation risk present
+    unit_mult: 0.30
+    notes: "Final confirmation, smallest units"
+
+  # Loss kill-switch
+  STOP_ON_LOSS: true
+
+# Unit caps (absolute limits)
+UNIT_CAPS:
+  PREGAME: 0.75
+  HALF_TIME: 0.50
+  SECOND_HALF: 0.40
+
+# Total max daily exposure via ladder
+MAX_LADDER_EXPOSURE: 1.65  # 0.75 + 0.50 + 0.40

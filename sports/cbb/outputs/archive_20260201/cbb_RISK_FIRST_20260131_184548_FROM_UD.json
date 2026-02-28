@@ -1,0 +1,1829 @@
+{
+  "picks": [
+    {
+      "edge_id": "cbb_CONN_Tarris_Reed_Jr._points_14p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Tarris Reed Jr.",
+      "team": "CONN",
+      "opponent": "CREI",
+      "stat": "points",
+      "line": 14.5,
+      "direction": "higher",
+      "probability": 0.0233,
+      "player_mean": 8.32,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 8.3162,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.023274,
+          "direction": "higher",
+          "line": 14.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.023274
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.023274,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=20.4",
+        "games: GP=117",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=20.4"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=117"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_CONN_Tarris_Reed_Jr._pra_25p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Tarris Reed Jr.",
+      "team": "CONN",
+      "opponent": "CREI",
+      "stat": "pra",
+      "line": 25.5,
+      "direction": "higher",
+      "probability": 0.0088,
+      "player_mean": 15.44,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 15.4444,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.008751,
+          "direction": "higher",
+          "line": 25.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.008751
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.008751,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=20.4",
+        "games: GP=117",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=20.4"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=117"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_CONN_Tarris_Reed_Jr._rebounds_8p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Tarris Reed Jr.",
+      "team": "CONN",
+      "opponent": "CREI",
+      "stat": "rebounds",
+      "line": 8.5,
+      "direction": "higher",
+      "probability": 0.1881,
+      "player_mean": 6.36,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 6.359,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.191951,
+          "direction": "higher",
+          "line": 8.5
+        },
+        "adjustment": {
+          "multiplier": 0.98,
+          "adjusted_prob": 0.188112
+        },
+        "caps": {
+          "stat_cap": 0.72,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.188112,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=20.4",
+        "games: GP=117",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=20.4"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=117"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_TENN_Nate_Ament_points_16p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Nate Ament",
+      "team": "TENN",
+      "opponent": "AUB",
+      "stat": "points",
+      "line": 16.5,
+      "direction": "higher",
+      "probability": 0.4638,
+      "player_mean": 16.3,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 16.3,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.463775,
+          "direction": "higher",
+          "line": 16.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.463775
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.463775,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.2",
+        "games: GP=20",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.2"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=20"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_TENN_Nate_Ament_pra_25p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Nate Ament",
+      "team": "TENN",
+      "opponent": "AUB",
+      "stat": "pra",
+      "line": 25.5,
+      "direction": "lower",
+      "probability": 0.541,
+      "player_mean": 25.15,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 25.15,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.540995,
+          "direction": "lower",
+          "line": 25.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.540995
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.540995,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.2",
+        "games: GP=20"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.459,
+        "kept": "lower",
+        "kept_probability": 0.541
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.2"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=20"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_TENN_Nate_Ament_rebounds_6p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Nate Ament",
+      "team": "TENN",
+      "opponent": "AUB",
+      "stat": "rebounds",
+      "line": 6.5,
+      "direction": "higher",
+      "probability": 0.4407,
+      "player_mean": 6.35,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 6.35,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.44973,
+          "direction": "higher",
+          "line": 6.5
+        },
+        "adjustment": {
+          "multiplier": 0.98,
+          "adjusted_prob": 0.440735
+        },
+        "caps": {
+          "stat_cap": 0.72,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.440735,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.2",
+        "games: GP=20",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.2"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=20"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_TENN_Nate_Ament_assists_2p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Nate Ament",
+      "team": "TENN",
+      "opponent": "AUB",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "higher",
+      "probability": 0.4334,
+      "player_mean": 2.5,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 2.5,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.456187,
+          "direction": "higher",
+          "line": 2.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.433378
+        },
+        "caps": {
+          "stat_cap": 0.7,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.433378,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.2",
+        "games: GP=20",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.2"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=20"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_GONZ_Graham_Ike_points_17p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Graham Ike",
+      "team": "GONZ",
+      "opponent": "SMC",
+      "stat": "points",
+      "line": 17.5,
+      "direction": "lower",
+      "probability": 0.5474,
+      "player_mean": 17.17,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 17.1729,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.547377,
+          "direction": "lower",
+          "line": 17.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.547377
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.547377,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=26.0",
+        "games: GP=133"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.4526,
+        "kept": "lower",
+        "kept_probability": 0.5474
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=26.0"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=133"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_GONZ_Graham_Ike_pra_27p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Graham Ike",
+      "team": "GONZ",
+      "opponent": "SMC",
+      "stat": "pra",
+      "line": 27.5,
+      "direction": "lower",
+      "probability": 0.5912,
+      "player_mean": 26.47,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 26.4737,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.591158,
+          "direction": "lower",
+          "line": 27.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.591158
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.591158,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=26.0",
+        "games: GP=133"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.4088,
+        "kept": "lower",
+        "kept_probability": 0.5912
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=26.0"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=133"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_GONZ_Graham_Ike_rebounds_8p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Graham Ike",
+      "team": "GONZ",
+      "opponent": "SMC",
+      "stat": "rebounds",
+      "line": 8.5,
+      "direction": "lower",
+      "probability": 0.592,
+      "player_mean": 7.92,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 7.9173,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.60409,
+          "direction": "lower",
+          "line": 8.5
+        },
+        "adjustment": {
+          "multiplier": 0.98,
+          "adjusted_prob": 0.592009
+        },
+        "caps": {
+          "stat_cap": 0.72,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.592009,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=26.0",
+        "games: GP=133"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.388,
+        "kept": "lower",
+        "kept_probability": 0.592
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=26.0"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=133"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_GONZ_Graham_Ike_assists_2p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Graham Ike",
+      "team": "GONZ",
+      "opponent": "SMC",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "higher",
+      "probability": 0.1544,
+      "player_mean": 1.38,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 1.3835,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.162519,
+          "direction": "higher",
+          "line": 2.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.154393
+        },
+        "caps": {
+          "stat_cap": 0.7,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.154393,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=26.0",
+        "games: GP=133",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=26.0"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=133"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_AUB_Keyshawn_Hall_points_17p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Keyshawn Hall",
+      "team": "AUB",
+      "opponent": "TENN",
+      "stat": "points",
+      "line": 17.5,
+      "direction": "lower",
+      "probability": 0.6453,
+      "player_mean": 16.15,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 16.15,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.645274,
+          "direction": "lower",
+          "line": 17.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.645274
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.645274,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "LEAN",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=28.5",
+        "games: GP=100"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.3547,
+        "kept": "lower",
+        "kept_probability": 0.6453
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=28.5"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=100"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_AUB_Keyshawn_Hall_pra_28p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Keyshawn Hall",
+      "team": "AUB",
+      "opponent": "TENN",
+      "stat": "pra",
+      "line": 28.5,
+      "direction": "higher",
+      "probability": 0.2042,
+      "player_mean": 24.47,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 24.47,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.204206,
+          "direction": "higher",
+          "line": 28.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.204206
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.204206,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=28.5",
+        "games: GP=100",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=28.5"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=100"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_AUB_Keyshawn_Hall_rebounds_6p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Keyshawn Hall",
+      "team": "AUB",
+      "opponent": "TENN",
+      "stat": "rebounds",
+      "line": 6.5,
+      "direction": "higher",
+      "probability": 0.4547,
+      "player_mean": 6.44,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 6.44,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.464006,
+          "direction": "higher",
+          "line": 6.5
+        },
+        "adjustment": {
+          "multiplier": 0.98,
+          "adjusted_prob": 0.454726
+        },
+        "caps": {
+          "stat_cap": 0.72,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.454726,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=28.5",
+        "games: GP=100",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=28.5"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=100"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_AUB_Keyshawn_Hall_assists_2p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Keyshawn Hall",
+      "team": "AUB",
+      "opponent": "TENN",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "higher",
+      "probability": 0.2763,
+      "player_mean": 1.88,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 1.88,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.290883,
+          "direction": "higher",
+          "line": 2.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.276339
+        },
+        "caps": {
+          "stat_cap": 0.7,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.276339,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=28.5",
+        "games: GP=100",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=28.5"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=100"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_TENN_Ja'Kobi_Gillespie_points_19p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Ja'Kobi Gillespie",
+      "team": "TENN",
+      "opponent": "AUB",
+      "stat": "points",
+      "line": 19.5,
+      "direction": "higher",
+      "probability": 0.1007,
+      "player_mean": 14.54,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 14.5398,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.10071,
+          "direction": "higher",
+          "line": 19.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.10071
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.10071,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.3",
+        "games: GP=113",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.3"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=113"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_TENN_Ja'Kobi_Gillespie_pra_28p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Ja'Kobi Gillespie",
+      "team": "TENN",
+      "opponent": "AUB",
+      "stat": "pra",
+      "line": 28.5,
+      "direction": "higher",
+      "probability": 0.0789,
+      "player_mean": 21.76,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 21.7611,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.078897,
+          "direction": "higher",
+          "line": 28.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.078897
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.078897,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.3",
+        "games: GP=113",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.3"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=113"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_TENN_Ja'Kobi_Gillespie_rebounds_3p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Ja'Kobi Gillespie",
+      "team": "TENN",
+      "opponent": "AUB",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "higher",
+      "probability": 0.3069,
+      "player_mean": 2.82,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 2.823,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.313186,
+          "direction": "higher",
+          "line": 3.5
+        },
+        "adjustment": {
+          "multiplier": 0.98,
+          "adjusted_prob": 0.306922
+        },
+        "caps": {
+          "stat_cap": 0.72,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.306922,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.3",
+        "games: GP=113",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.3"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=113"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_TENN_Ja'Kobi_Gillespie_assists_5p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Ja'Kobi Gillespie",
+      "team": "TENN",
+      "opponent": "AUB",
+      "stat": "assists",
+      "line": 5.5,
+      "direction": "higher",
+      "probability": 0.2658,
+      "player_mean": 4.4,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 4.3982,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.27979,
+          "direction": "higher",
+          "line": 5.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.2658
+        },
+        "caps": {
+          "stat_cap": 0.7,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.2658,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.3",
+        "games: GP=113",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.3"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=113"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_AUB_Tahaad_Pettiford_points_11p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Tahaad Pettiford",
+      "team": "AUB",
+      "opponent": "TENN",
+      "stat": "points",
+      "line": 11.5,
+      "direction": "higher",
+      "probability": 0.5653,
+      "player_mean": 12.24,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 12.2373,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.565255,
+          "direction": "higher",
+          "line": 11.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.565255
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.565255,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=25.8",
+        "games: GP=59",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "lower",
+        "probability": 0.4347,
+        "kept": "higher",
+        "kept_probability": 0.5653
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=25.8"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=59"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_AUB_Tahaad_Pettiford_pra_18p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Tahaad Pettiford",
+      "team": "AUB",
+      "opponent": "TENN",
+      "stat": "pra",
+      "line": 18.5,
+      "direction": "lower",
+      "probability": 0.5892,
+      "player_mean": 17.71,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 17.7119,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.589193,
+          "direction": "lower",
+          "line": 18.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.589193
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.589193,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=25.8",
+        "games: GP=59"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.4108,
+        "kept": "lower",
+        "kept_probability": 0.5892
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=25.8"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=59"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_AUB_Tahaad_Pettiford_rebounds_2p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Tahaad Pettiford",
+      "team": "AUB",
+      "opponent": "TENN",
+      "stat": "rebounds",
+      "line": 2.5,
+      "direction": "higher",
+      "probability": 0.4364,
+      "player_mean": 2.46,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 2.4576,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.445272,
+          "direction": "higher",
+          "line": 2.5
+        },
+        "adjustment": {
+          "multiplier": 0.98,
+          "adjusted_prob": 0.436367
+        },
+        "caps": {
+          "stat_cap": 0.72,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.436367,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=25.8",
+        "games: GP=59",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=25.8"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=59"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_AUB_Tahaad_Pettiford_assists_3p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Tahaad Pettiford",
+      "team": "AUB",
+      "opponent": "TENN",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "higher",
+      "probability": 0.3387,
+      "player_mean": 3.02,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 3.0169,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.356565,
+          "direction": "higher",
+          "line": 3.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.338737
+        },
+        "caps": {
+          "stat_cap": 0.7,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.338737,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=25.8",
+        "games: GP=59",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=25.8"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=59"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true
+    }
+  ],
+  "generated": "2026-01-31T18:45:48.375278",
+  "source": "CBB_PIPELINE"
+}

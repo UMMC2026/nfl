@@ -1,0 +1,336 @@
+╔════════════════════════════════════════════════════════════════════╗
+║          PROFESSIONAL CBB ANALYSIS REPORT                          ║
+║                   COLLEGE BASKETBALL                               ║
+╠════════════════════════════════════════════════════════════════════╣
+║  Generated: 2026-02-10T13:01:36                                  ║
+║  System: UNDERDOG ANALYSIS — Risk-First Quant Engine (Poisson)    ║
+╚════════════════════════════════════════════════════════════════════╝
+
+STAT KEY (college basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made | PRA=PTS+REB+AST | PR=PTS+REB | PA=PTS+AST | RA=REB+AST
+
+======================================================================
+🎯 TOP PLAYS — SLATE LEADERS (ALL TEAMS)
+======================================================================
+
+#   PLAYER                 STAT     DIR      LINE    PROB TIER     TEAM 
+──────────────────────────────────────────────────────────────────────
+1   Lamar Wilkerson      POINTS   LOWER   21.5   75.0% STRONG IND 
+2   Dillon Mitchell      POINTS   LOWER   11.5   75.0% STRONG SJU 
+3   Quadir Copeland      POINTS   LOWER   13.5   75.0% STRONG NCST
+4   Tucker DeVries       REBOUNDS LOWER    7.5   72.0% STRONG IND 
+5   Flory Bidunga        PTS+REB+ LOWER   21.5   68.0% STRONG KU  
+6   Lamar Wilkerson      PTS+REB+ LOWER   27.5   68.0% STRONG IND 
+7   Dillon Mitchell      PTS+REB+ LOWER   23.5   68.0% STRONG SJU 
+8   Tucker DeVries       PTS+REB+ HIGHE   22.5   60.8% LEAN   IND 
+
+======================================================================
+💡 ACTIONABLE INSIGHTS — QUICK REFERENCE
+======================================================================
+
+🔥 OVERS TO CONSIDER:
+   • Tucker DeVries PRA O22.5 [LEAN] (60.8%) — μ=25.3
+
+🔻 UNDERS TO CONSIDER:
+   • Lamar Wilkerson POINTS U21.5 [STRONG] (75.0%) — μ=15.0
+   • Dillon Mitchell POINTS U11.5 [STRONG] (75.0%) — μ=8.2
+   • Quadir Copeland POINTS U13.5 [STRONG] (75.0%) — μ=9.0
+   • Tucker DeVries REBOUNDS U7.5 [STRONG] (72.0%) — μ=5.6
+   • Flory Bidunga PRA U21.5 [STRONG] (68.0%) — μ=16.7
+   • Lamar Wilkerson PRA U27.5 [STRONG] (68.0%) — μ=20.1
+   • Dillon Mitchell PRA U23.5 [STRONG] (68.0%) — μ=15.7
+
+======================================================================
+TEAM-BY-TEAM ANALYSIS
+======================================================================
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: ARIZ         vs KU                                            │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   No actionable edges for this team.
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: IND          vs ORE                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Lamar Wilkerson      POINTS   LOWER  21.5 — STRONG   (75.0%) [μ=15.0, edge=30.4%]
+   2) Tucker DeVries       REBOUNDS LOWER   7.5 — STRONG   (72.0%) [μ=5.6, edge=25.7%]
+   3) Lamar Wilkerson      PTS+REB+ LOWER  27.5 — STRONG   (68.0%) [μ=20.1, edge=26.9%]
+   4) Tucker DeVries       PTS+REB+ HIGHE  22.5 — LEAN     (60.8%) [μ=25.3, edge=12.6%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: KU           vs ARIZ                                          │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Flory Bidunga        PTS+REB+ LOWER  21.5 — STRONG   (68.0%) [μ=16.7, edge=22.2%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: NCST         vs LOU                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Quadir Copeland      POINTS   LOWER  13.5 — STRONG   (75.0%) [μ=9.0, edge=33.5%]
+
+┌────────────────────────────────────────────────────────────────────┐
+│  TEAM: SJU          vs XAV                                           │
+└────────────────────────────────────────────────────────────────────┘
+   📝 Conference matchup. College tempo and variance apply.
+
+   TOP EDGES:
+   ────────────────────────────────────────────────────────────────
+   1) Dillon Mitchell      POINTS   LOWER  11.5 — STRONG   (75.0%) [μ=8.2, edge=29.0%]
+   2) Dillon Mitchell      PTS+REB+ LOWER  23.5 — STRONG   (68.0%) [μ=15.7, edge=33.1%]
+
+======================================================================
+📊 STAT CATEGORY BREAKDOWN
+======================================================================
+
+   3-POINTERS     4 picks |  0 actionable | avg conf:  27.1%
+   ASSISTS       10 picks |  0 actionable | avg conf:  26.6%
+   BLOCKS         1 picks |  0 actionable | avg conf:  37.5%
+   POINTS         7 picks |  3 actionable | avg conf:  47.7%
+   PTS+REB+AST    9 picks |  4 actionable | avg conf:  57.1%
+   PTS+AST        6 picks |  0 actionable | avg conf:  27.6%
+   PTS+REB        7 picks |  0 actionable | avg conf:  28.3%
+   REB+AST        8 picks |  0 actionable | avg conf:  24.9%
+   REBOUNDS      10 picks |  1 actionable | avg conf:  41.3%
+   STEALS         1 picks |  0 actionable | avg conf:  42.2%
+   TURNOVERS      3 picks |  0 actionable | avg conf:  30.9%
+
+======================================================================
+🔬 DETAILED PICK ANALYSIS — ACTIONABLE PLAYS
+======================================================================
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #1 Lamar Wilkerson (IND) vs ORE                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 21.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 14.97 (ESPN)
+      • Confidence: OK
+      • Line: 21.5 | Gap: 30.4% above mean
+      • Z-Score: +3.26
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #2 Dillon Mitchell (SJU) vs XAV                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 11.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 8.16 (ESPN)
+      • Confidence: OK
+      • Line: 11.5 | Gap: 29.0% above mean
+      • Z-Score: +1.67
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #3 Quadir Copeland (NCST) vs LOU                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ POINTS UNDER 13.5   |   [STRONG] 75.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 8.98 (ESPN)
+      • Confidence: OK
+      • Line: 13.5 | Gap: 33.5% above mean
+      • Z-Score: +2.26
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 75.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #4 Tucker DeVries (IND) vs ORE                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ REBOUNDS UNDER 7.5   |   [STRONG] 72.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 5.57 (ESPN)
+      • Confidence: OK
+      • Line: 7.5 | Gap: 25.7% above mean
+      • Z-Score: +0.96
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 72.0%
+      • Stat Cap: 72% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 72.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #5 Flory Bidunga (KU) vs ARIZ                                      │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 21.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 16.73 (ESPN)
+      • Confidence: OK
+      • Line: 21.5 | Gap: 22.2% above mean
+      • Z-Score: +2.38
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 69.2%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #6 Lamar Wilkerson (IND) vs ORE                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 27.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 20.09 (ESPN)
+      • Confidence: OK
+      • Line: 27.5 | Gap: 26.9% above mean
+      • Z-Score: +3.71
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #7 Dillon Mitchell (SJU) vs XAV                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▼ PRA UNDER 23.5   |   [STRONG] 68.0%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 15.73 (ESPN)
+      • Confidence: OK
+      • Line: 23.5 | Gap: 33.1% above mean
+      • Z-Score: +3.88
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 75.0%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Cap Applied: stat_cap
+      • Final Probability: 68.0%
+
+   ✅ DECISION:
+      • Tier: STRONG
+      • SDG Status: PASS ✓
+
+┌────────────────────────────────────────────────────────────────────┐
+│  #8 Tucker DeVries (IND) vs ORE                                       │
+└────────────────────────────────────────────────────────────────────┘
+   ▲ PRA OVER 22.5   |   [LEAN] 60.8%
+
+   📊 MODEL PROJECTION:
+      • Player Mean (λ): 25.34 (ESPN)
+      • Confidence: UNVERIFIED
+      • Line: 22.5 | Gap: 12.6% below mean
+      • Z-Score: -1.42
+
+   🔢 PROBABILITY TRACE:
+      • Raw Poisson: 60.8%
+      • Stat Cap: 75% | Global Cap: 79%
+      • Final Probability: 60.8%
+
+   ✅ DECISION:
+      • Tier: LEAN
+      • SDG Status: PASS ✓
+
+======================================================================
+SLATE SUMMARY STATISTICS
+======================================================================
+
+Total Props Analyzed: 66
+
+Tier Distribution:
+   SKIP         █████████████████░░░  58 (87.9%)
+   STRONG       ██░░░░░░░░░░░░░░░░░░   7 (10.6%)
+   LEAN         ░░░░░░░░░░░░░░░░░░░░   1 (1.5%)
+
+Direction Bias: 50 OVER / 16 UNDER (75.8% / 24.2%)
+
+======================================================================
+🎲 PARLAY CONSTRUCTION GUIDE
+======================================================================
+
+DIVERSIFICATION POOLS:
+   POINTS        3 picks (best: Lamar Wilkerson)
+   PTS+REB+AST   4 picks (best: Flory Bidunga)
+   REBOUNDS      1 picks (best: Tucker DeVries)
+
+SAMPLE 3-LEG POWER PLAY:
+   (select from different stats for diversification)
+   1. Lamar Wilkerson POINTS UNDER 21.5 (75.0%)
+   2. Dillon Mitchell POINTS UNDER 11.5 (75.0%)
+   3. Quadir Copeland POINTS UNDER 13.5 (75.0%)
+
+   Combined probability: 42.2%
+   3-leg POWER payout: 6x
+   Expected value: +1.53 units
+
+======================================================================
+GOVERNANCE & DISCLAIMER
+======================================================================
+
+This report is generated by a risk-first quantitative analysis system.
+CBB uses POISSON probability model with stricter confidence caps than NBA.
+
+CBB-SPECIFIC NOTES:
+• NO SLAM tier available (max tier = STRONG @ 70%)
+• Global cap: 79% (vs NBA 85%)
+• College variance is HIGHER than NBA — expect more swings
+• Conference play has different dynamics than non-conference
+
+RISK MANAGEMENT:
+• Never exceed 2% of bankroll on a single CBB entry
+• Parlays carry exponentially higher variance
+• Past performance does not guarantee future results
+
+For entertainment purposes only. Gamble responsibly.
+
+──────────────────────────────────────────────────────────────────────
+Report ID: CBB_20260210_130136
+System: UNDERDOG ANALYSIS v2.0 — Risk-First Quant Engine (Poisson)
+──────────────────────────────────────────────────────────────────────

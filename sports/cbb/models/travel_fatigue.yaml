@@ -1,0 +1,41 @@
+# Travel Fatigue Priors
+# Affects both mean (decreases) and variance (increases)
+
+_notes: |
+  Neutral sites + short rest = late-game efficiency decay,
+  especially for guards. Critical for tournament play.
+
+NONE:
+  mean_mult: 1.00
+  variance_mult: 1.00
+  notes: "Normal rest, no travel penalty"
+
+ONE_DAY_TURNAROUND:
+  mean_mult: 0.97
+  variance_mult: 1.12
+  notes: "Played yesterday, some fatigue"
+
+BACK_TO_BACK:
+  mean_mult: 0.94
+  variance_mult: 1.25
+  notes: "Same day or <24hr rest, significant fatigue"
+
+CROSS_COUNTRY:
+  mean_mult: 0.95
+  variance_mult: 1.18
+  notes: "Long travel, timezone change"
+
+ALTITUDE:
+  mean_mult: 0.96
+  variance_mult: 1.15
+  notes: "Playing at altitude (Colorado, etc.)"
+
+TOURNAMENT_EARLY:
+  mean_mult: 0.98
+  variance_mult: 1.20
+  notes: "First tournament game, environment adjustment"
+
+TOURNAMENT_DEEP:
+  mean_mult: 0.95
+  variance_mult: 1.30
+  notes: "Sweet 16+, accumulated fatigue"

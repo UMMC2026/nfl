@@ -1,0 +1,76 @@
+{
+  "date": "2026-01-21",
+  "timestamp": "2026-01-21T00:22:59.055972",
+  "slate": "POPULAR UNDER",
+  "source_file": "POPULAR UNDER_RISK_FIRST_20260121_FROM_UD.json",
+  "summary": {
+    "play_count": 1,
+    "lean_count": 6,
+    "total": 7
+  },
+  "picks": [
+    {
+      "player": "Chet Holmgren",
+      "team": "UNK",
+      "stat": "rebounds",
+      "line": 9.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 74.6
+    },
+    {
+      "player": "Trey Murphy III",
+      "team": "UNK",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 69.8
+    },
+    {
+      "player": "Giannis Antetokounmpo",
+      "team": "UNK",
+      "stat": "pra",
+      "line": 44.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Trey Murphy III",
+      "team": "UNK",
+      "stat": "pra",
+      "line": 27.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Andrew Nembhard",
+      "team": "UNK",
+      "stat": "pra",
+      "line": 27.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Cade Cunningham",
+      "team": "UNK",
+      "stat": "pra",
+      "line": 41.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 66.7
+    },
+    {
+      "player": "Shai Gilgeous-Alexander",
+      "team": "UNK",
+      "stat": "pra",
+      "line": 43.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 65.3
+    }
+  ]
+}

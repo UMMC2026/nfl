@@ -1,0 +1,202 @@
+{
+  "date": "2026-02-03",
+  "timestamp": "2026-02-03T19:44:33.189920",
+  "slate": "NBATUESLATE",
+  "source_file": "NBATUESLATE_RISK_FIRST_20260203_FROM_UD.json",
+  "summary": {
+    "play_count": 2,
+    "lean_count": 19,
+    "total": 21
+  },
+  "picks": [
+    {
+      "player": "Mark Williams",
+      "team": "PHX",
+      "stat": "rebounds",
+      "line": 8.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 72.1
+    },
+    {
+      "player": "Collin Gillespie",
+      "team": "PHX",
+      "stat": "3pm",
+      "line": 2.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 67.7
+    },
+    {
+      "player": "De'Anthony Melton",
+      "team": "GSW",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 63.4
+    },
+    {
+      "player": "VJ Edgecombe",
+      "team": "PHI",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 60.2
+    },
+    {
+      "player": "Draymond Green",
+      "team": "GSW",
+      "stat": "rebounds",
+      "line": 6.0,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 57.7
+    },
+    {
+      "player": "Quentin Grimes",
+      "team": "PHI",
+      "stat": "pra",
+      "line": 17.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 55.7
+    },
+    {
+      "player": "Royce O'Neale",
+      "team": "PHX",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 54.9
+    },
+    {
+      "player": "Royce O'Neale",
+      "team": "PHX",
+      "stat": "pra",
+      "line": 17.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 54.8
+    },
+    {
+      "player": "Quentin Grimes",
+      "team": "PHI",
+      "stat": "points",
+      "line": 11.0,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 53.5
+    },
+    {
+      "player": "Jerami Grant",
+      "team": "POR",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 53.2
+    },
+    {
+      "player": "Draymond Green",
+      "team": "GSW",
+      "stat": "points",
+      "line": 9.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 52.9
+    },
+    {
+      "player": "Dillon Brooks",
+      "team": "PHX",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 52.8
+    },
+    {
+      "player": "Collin Gillespie",
+      "team": "PHX",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 51.1
+    },
+    {
+      "player": "V\u00edt Krej\u010d\u00ed",
+      "team": "POR",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 49.9
+    },
+    {
+      "player": "Quentin Grimes",
+      "team": "PHI",
+      "stat": "pts+ast",
+      "line": 14.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 49.0
+    },
+    {
+      "player": "Jerami Grant",
+      "team": "POR",
+      "stat": "pts+ast",
+      "line": 19.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 48.8
+    },
+    {
+      "player": "Jared McCain",
+      "team": "PHI",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 48.5
+    },
+    {
+      "player": "Dillon Brooks",
+      "team": "PHX",
+      "stat": "pra",
+      "line": 28.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 48.1
+    },
+    {
+      "player": "Jrue Holiday",
+      "team": "POR",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 47.6
+    },
+    {
+      "player": "Jalen Green",
+      "team": "PHX",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 47.3
+    },
+    {
+      "player": "Jared McCain",
+      "team": "PHI",
+      "stat": "pts+ast",
+      "line": 8.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 42.6
+    }
+  ]
+}

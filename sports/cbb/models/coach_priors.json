@@ -1,0 +1,73 @@
+{
+  "_notes": "Pace and foul multipliers by coach. Affects variance and mean projections.",
+  "_default": {
+    "pace_mult": 1.00,
+    "foul_rate_mult": 1.00
+  },
+  
+  "Tony Bennett": {
+    "pace_mult": 0.88,
+    "foul_rate_mult": 0.85,
+    "notes": "Pack-line defense, slowest tempo in D1"
+  },
+  "Tom Izzo": {
+    "pace_mult": 0.95,
+    "foul_rate_mult": 1.10,
+    "notes": "Physical defense, late-game foul variance"
+  },
+  "John Calipari": {
+    "pace_mult": 1.05,
+    "foul_rate_mult": 1.15,
+    "notes": "Freshmen volatility, aggressive pace"
+  },
+  "Mark Few": {
+    "pace_mult": 1.02,
+    "foul_rate_mult": 1.00,
+    "notes": "Efficient offense, neutral foul profile"
+  },
+  "Bill Self": {
+    "pace_mult": 0.97,
+    "foul_rate_mult": 1.05,
+    "notes": "Controlled pace, physical defense"
+  },
+  "Dan Hurley": {
+    "pace_mult": 1.08,
+    "foul_rate_mult": 1.12,
+    "notes": "Fast tempo, aggressive pressure"
+  },
+  "Scott Drew": {
+    "pace_mult": 1.10,
+    "foul_rate_mult": 1.08,
+    "notes": "High tempo, transition heavy"
+  },
+  "Rick Barnes": {
+    "pace_mult": 0.92,
+    "foul_rate_mult": 0.95,
+    "notes": "Methodical offense, controlled defense"
+  },
+  "Bruce Pearl": {
+    "pace_mult": 1.06,
+    "foul_rate_mult": 1.18,
+    "notes": "Aggressive defense, high foul variance"
+  },
+  "Nate Oats": {
+    "pace_mult": 1.15,
+    "foul_rate_mult": 1.05,
+    "notes": "Fastest tempo in SEC"
+  },
+  "Chris Beard": {
+    "pace_mult": 0.90,
+    "foul_rate_mult": 1.08,
+    "notes": "Defensive grind, physical play"
+  },
+  "Jerome Tang": {
+    "pace_mult": 1.12,
+    "foul_rate_mult": 1.00,
+    "notes": "High tempo offense"
+  },
+  "Jon Scheyer": {
+    "pace_mult": 0.98,
+    "foul_rate_mult": 0.95,
+    "notes": "Balanced approach, K-system continuation"
+  }
+}

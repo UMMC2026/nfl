@@ -1,0 +1,94 @@
+{
+  "date": "2026-02-06",
+  "timestamp": "2026-02-06T19:09:12.586118",
+  "slate": "LAC_SAC",
+  "source_file": "LAC_SAC_RISK_FIRST_20260206_FROM_UD.json",
+  "summary": {
+    "play_count": 0,
+    "lean_count": 9,
+    "total": 9
+  },
+  "picks": [
+    {
+      "player": "Kobe Sanders",
+      "team": "LAC",
+      "stat": "3pm",
+      "line": 0.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 59.0
+    },
+    {
+      "player": "Jrue Holiday",
+      "team": "POR",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 56.1
+    },
+    {
+      "player": "Russell Westbrook",
+      "team": "SAC",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 56.0
+    },
+    {
+      "player": "Kris Dunn",
+      "team": "LAC",
+      "stat": "pra",
+      "line": 17.0,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 55.8
+    },
+    {
+      "player": "Maxime Raynaud",
+      "team": "SAC",
+      "stat": "pra",
+      "line": 19.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 55.6
+    },
+    {
+      "player": "Jrue Holiday",
+      "team": "POR",
+      "stat": "pra",
+      "line": 23.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 54.9
+    },
+    {
+      "player": "Brook Lopez",
+      "team": "LAC",
+      "stat": "pts+ast",
+      "line": 11.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 49.1
+    },
+    {
+      "player": "DeMar DeRozan",
+      "team": "SAC",
+      "stat": "pra",
+      "line": 23.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 48.5
+    },
+    {
+      "player": "Kris Dunn",
+      "team": "LAC",
+      "stat": "pts+ast",
+      "line": 13.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 48.1
+    }
+  ]
+}

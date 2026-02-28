@@ -1,0 +1,91 @@
+
+================================================================================
+    QUANT INTERVIEW DASHBOARD - RECALIBRATION RESULTS
+    Generated: 2026-02-01 06:11:04
+================================================================================
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  BEFORE/AFTER CALIBRATION COMPARISON                                        │
+├──────────────────────────┬───────────────┬───────────────┬──────────────────┤
+│  Metric                  │    BEFORE     │    AFTER      │    IMPROVEMENT   │
+├──────────────────────────┼───────────────┼───────────────┼──────────────────┤
+│  Brier Score             │    0.2597     │    0.2494     │    +0.0103 ( +4.0%)  │
+│  Calibration Error       │     +5.9%     │     -1.5%     │     +7.4%        │
+│  Avg Prediction          │     54.4%     │     47.0%     │    --              │
+│  Observed Hit Rate       │     48.5%     │     48.5%     │    (unchanged)     │
+│  ROI                     │     -7.5%     │     -7.5%     │    (same bets)     │
+└──────────────────────────┴───────────────┴───────────────┴──────────────────┘
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  CALIBRATION MAP APPLIED (CBB)                                              │
+├─────────────────┬───────────────────────────────────────────────────────────┤
+│  Raw Prob       │  Calibrated Prob                                          │
+├─────────────────┼───────────────────────────────────────────────────────────┤
+│  55%            │  47% (-8%)                                                │
+│  60%            │  52% (-8%)                                                │
+│  65%            │  57% (-8%)                                                │
+│  70%            │  62% (-8%)                                                │
+└─────────────────┴───────────────────────────────────────────────────────────┘
+
+  Temperature Scaling: T = 1.18 (18% less confident)
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  QUALITY ASSESSMENT                                                         │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  Brier Score:      ✗ FAIL       (target: < 0.24, actual: 0.2494)              │
+│  Hit Rate:         ✗ FAIL       (target: > 52.5%, actual: 48.5%)            │
+│  Calibration:      ✓ PASS       (target: < 3% error, actual: 1.5%)          │
+│  ROI:              ✗ FAIL       (target: > 0%, actual: -7.5%)                │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  METHODOLOGY CHECKLIST                                                      │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  [✓] Monte Carlo simulation (10k iterations)                                │
+│  [✓] Probability calibration (temperature scaling)                          │
+│  [✓] Brier score tracking + decomposition                                   │
+│  [✓] ROI calculation (-110 vig)                                             │
+│  [✓] Tier-stratified analysis                                               │
+│  [✓] Strict SDG filtering (z ≥ 0.80 for PTS)                                 │
+│  [✓] Walk-forward validation framework                                      │
+│  [✓] Submission package generator                                           │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  RECALIBRATION ACTIONS TAKEN                                                │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  1. TEMPERATURE SCALING (T=1.18)                                            │
+│     Applied 18% confidence reduction across all CBB picks                   │
+│     Result: Predictions now align with observed outcomes                    │
+│                                                                             │
+│  2. TIER THRESHOLD ADJUSTMENT                                               │
+│     Old: LEAN ≥ 60% raw                                                     │
+│     New: LEAN ≥ 67% raw (maps to 57% calibrated)                            │
+│                                                                             │
+│  3. STRICT SDG IMPLEMENTATION                                               │
+│     Z-score: PTS ≥ 0.80, REB ≥ 0.75, PRA ≥ 0.85                             │
+│     Min edge: PTS ≥ 3.0%, REB ≥ 2.0%, PRA ≥ 4.0%                            │
+│     Variance penalty for CV > 1.2× max                                      │
+│                                                                             │
+│  4. SAMPLE SIZE GATES                                                       │
+│     < 50% min games → BLOCKED                                               │
+│     50-75% min games → 0.85× penalty                                        │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+
+================================================================================
+  SUMMARY: Calibration reduces Brier by 4.0%, 
+           error from +5.9% to -1.5%
+================================================================================
+

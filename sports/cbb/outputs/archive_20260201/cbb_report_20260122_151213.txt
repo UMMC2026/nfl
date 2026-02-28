@@ -1,0 +1,83 @@
+
+=================================================================
+[CBB] COLLEGE BASKETBALL STRATEGIC REPORT
+   Generated: 2026-01-22 15:12:13
+   Total edges: 15 | Actionable: 6
+=================================================================
+
+
+============================================================
+ WIS @ PSU  [00:00 ET]
+============================================================
+[MATCHUP ANALYSIS]
+  - PACE: FAST (Projected Total: 159.5) - Expect higher possession count
+  - SPREAD: WIS -5.5
+
+  ROSTER SNAPSHOT - WIS
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  John Blackwell        26.5  13.3   4.3   1.6   1.5
+  Nick Boyd             24.5  10.8   3.4   2.7   1.5
+
+[EDGES]
+    Nick Boyd          assists    lower 4.0   (LEAN)
+      Probability: 67.8% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.130
+      TRACE: lambda=2.7007 (ESPN/OK)
+             raw=0.713931 adj_mult=0.95 adj=0.678235
+             caps: stat_cap=0.7 global_cap=0.79 cap_hit=None final=0.678235
+
+  * Nick Boyd          points     lower 19.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.008
+      TRACE: lambda=10.8029 (ESPN/OK)
+             raw=0.992251 adj_mult=1.0 adj=0.992251
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+  * Nick Boyd          pra        lower 28.0  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.005
+      TRACE: lambda=16.8832 (ESPN/OK)
+             raw=0.991882 adj_mult=1.0 adj=0.991882
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+  * John Blackwell     points     lower 18.5  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.083
+      TRACE: lambda=13.3068 (ESPN/OK)
+             raw=0.91726 adj_mult=1.0 adj=0.91726
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+
+============================================================
+ USF @ UAB  [00:00 ET]
+============================================================
+[MATCHUP ANALYSIS]
+  - PACE: FAST (Projected Total: 169.5) - Expect higher possession count
+  - SPREAD: USF -3.5 (TIGHT) - High leverage minutes expected
+
+  ROSTER SNAPSHOT - UAB
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Jacob Meyer           26.8  12.6   3.9   1.5   1.3
+
+  ROSTER SNAPSHOT - USF
+  PLAYER                 MIN   PTS   REB   AST   3PM
+  -------------------------------------------------------
+  Izaiyah Nelson        22.1   9.5   7.6   0.5   0.1
+
+[EDGES]
+  * Jacob Meyer        points     lower 14.5  (STRONG)
+      Probability: 71.4% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.286
+      TRACE: lambda=12.6173 (ESPN/OK)
+             raw=0.713554 adj_mult=1.0 adj=0.713554
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=None final=0.713554
+
+  * Izaiyah Nelson     points     lower 17.0  (STRONG)
+      Probability: 75.0% | mean_source=ESPN | confidence=OK | signal=OK | spread=MISSING | dedupe_dropped=higher@0.009
+      TRACE: lambda=9.479 (ESPN/OK)
+             raw=0.982601 adj_mult=1.0 adj=0.982601
+             caps: stat_cap=0.75 global_cap=0.79 cap_hit=stat_cap final=0.75
+
+------------------------------
+Skipped 9 plays (low confidence / blowout)
+
+=================================================================
+[!] CBB = RESEARCH STATUS - Do NOT use for live betting
+=================================================================

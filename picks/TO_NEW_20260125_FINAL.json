@@ -1,0 +1,31 @@
+{
+  "date": "2026-01-25",
+  "timestamp": "2026-01-25T02:07:32.942400",
+  "slate": "TO_NEW",
+  "source_file": "TO_NEW_RISK_FIRST_20260125_FROM_UD.json",
+  "summary": {
+    "play_count": 0,
+    "lean_count": 2,
+    "total": 2
+  },
+  "picks": [
+    {
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "stat": "rebounds",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 75.6
+    },
+    {
+      "player": "Julius Randle",
+      "team": "MIN",
+      "stat": "assists",
+      "line": 5.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 72.1
+    }
+  ]
+}

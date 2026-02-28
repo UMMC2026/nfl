@@ -1,0 +1,417 @@
+{
+  "timestamp": "2026-02-15T13:13:45.579890",
+  "sites": [
+    "persistent"
+  ],
+  "total_props": 45,
+  "parsed_props": 45,
+  "players": 9,
+  "props": [
+    {
+      "source": "Underdog",
+      "player": "Rasmus Hojlund",
+      "stat": "shots attempted",
+      "line": 2.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Rasmus Hojlund Shots Attempted 2.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Rasmus Hojlund",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Rasmus Hojlund Shots on Target 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Rasmus Hojlund",
+      "stat": "goals+assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Rasmus Hojlund Goals + Assists 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Rasmus Hojlund",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Rasmus Hojlund Goals 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Rasmus Hojlund",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Rasmus Hojlund Assists 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Alex Meret",
+      "stat": "saves",
+      "line": 2.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Alex Meret Saves 2.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Alex Meret",
+      "stat": "goals allowed",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Alex Meret Goals Allowed 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Alex Meret",
+      "stat": "1h goals allowed",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Alex Meret 1H Goals Allowed 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Alex Meret",
+      "stat": "1h saves",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Alex Meret 1H Saves 1.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Leo Roman",
+      "stat": "saves",
+      "line": 2.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Leo Roman Saves 2.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Leo Roman",
+      "stat": "goals allowed",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Leo Roman Goals Allowed 1.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Leo Roman",
+      "stat": "1h goals allowed",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Leo Roman 1H Goals Allowed 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Leo Roman",
+      "stat": "1h saves",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Leo Roman 1H Saves 1.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Joan Garcia",
+      "stat": "saves",
+      "line": 2.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Joan Garcia Saves 2.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Joan Garcia",
+      "stat": "goals allowed",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Joan Garcia Goals Allowed 1.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Joan Garcia",
+      "stat": "1h goals allowed",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Joan Garcia 1H Goals Allowed 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Joan Garcia",
+      "stat": "1h saves",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Joan Garcia 1H Saves 1.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Robert Lewandowski",
+      "stat": "shots attempted",
+      "line": 3.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Robert Lewandowski Shots Attempted 3.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Robert Lewandowski",
+      "stat": "shots on target",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Robert Lewandowski Shots on Target 1.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Robert Lewandowski",
+      "stat": "goals+assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Robert Lewandowski Goals + Assists 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Robert Lewandowski",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Robert Lewandowski Goals 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Robert Lewandowski",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Robert Lewandowski Assists 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Lamine Yamal",
+      "stat": "shots attempted",
+      "line": 4.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Lamine Yamal Shots Attempted 4.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Lamine Yamal",
+      "stat": "shots on target",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Lamine Yamal Shots on Target 1.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Lamine Yamal",
+      "stat": "goals+assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Lamine Yamal Goals + Assists 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Lamine Yamal",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Lamine Yamal Goals 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Lamine Yamal",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Lamine Yamal Assists 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Lamine Yamal",
+      "stat": "shots attempted",
+      "line": 2.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Lamine Yamal Shots Attempted 2.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Lamine Yamal",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Lamine Yamal Shots on Target 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Lamine Yamal",
+      "stat": "goals+assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Lamine Yamal Goals + Assists 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Lamine Yamal",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Lamine Yamal Goals 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Lamine Yamal",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Lamine Yamal Assists 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Donyell Malen",
+      "stat": "shots attempted",
+      "line": 2.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Donyell Malen Shots Attempted 2.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Donyell Malen",
+      "stat": "shots on target",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Donyell Malen Shots on Target 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Donyell Malen",
+      "stat": "goals+assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Donyell Malen Goals + Assists 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Donyell Malen",
+      "stat": "goals",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Donyell Malen Goals 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Donyell Malen",
+      "stat": "assists",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Donyell Malen Assists 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Maxime Dupe",
+      "stat": "saves",
+      "line": 3.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Maxime Dupe Saves 3.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Maxime Dupe",
+      "stat": "goals allowed",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Maxime Dupe Goals Allowed 1.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Maxime Dupe",
+      "stat": "1h goals allowed",
+      "line": 0.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Maxime Dupe 1H Goals Allowed 0.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Maxime Dupe",
+      "stat": "1h saves",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Maxime Dupe 1H Saves 1.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Paulo Gazzaniga",
+      "stat": "saves",
+      "line": 4.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Paulo Gazzaniga Saves 4.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Paulo Gazzaniga",
+      "stat": "goals allowed",
+      "line": 2.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Paulo Gazzaniga Goals Allowed 2.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Paulo Gazzaniga",
+      "stat": "1h goals allowed",
+      "line": 1.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Paulo Gazzaniga 1H Goals Allowed 1.5 higher"
+    },
+    {
+      "source": "Underdog",
+      "player": "Paulo Gazzaniga",
+      "stat": "1h saves",
+      "line": 2.5,
+      "direction": "higher",
+      "parsed": true,
+      "raw": "Paulo Gazzaniga 1H Saves 2.5 higher"
+    }
+  ],
+  "run_id": "34adc8cebf7ad5ae"
+}

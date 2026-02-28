@@ -1,0 +1,67 @@
+{
+  "date": "2026-01-24",
+  "timestamp": "2026-01-24T23:54:58.935406",
+  "slate": "SAC_DET",
+  "source_file": "SAC_DET_RISK_FIRST_20260124_FROM_UD.json",
+  "summary": {
+    "play_count": 0,
+    "lean_count": 6,
+    "total": 6
+  },
+  "picks": [
+    {
+      "player": "Zach LaVine",
+      "team": "SAC",
+      "stat": "rebounds",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 79.6
+    },
+    {
+      "player": "Dennis Schroder",
+      "team": "SAC",
+      "stat": "rebounds",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 77.4
+    },
+    {
+      "player": "Russell Westbrook",
+      "team": "SAC",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 74.1
+    },
+    {
+      "player": "Ausar Thompson",
+      "team": "DET",
+      "stat": "reb+ast",
+      "line": 7.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 71.4
+    },
+    {
+      "player": "Duncan Robinson",
+      "team": "DET",
+      "stat": "pra",
+      "line": 14.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Russell Westbrook",
+      "team": "SAC",
+      "stat": "pra",
+      "line": 23.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    }
+  ]
+}

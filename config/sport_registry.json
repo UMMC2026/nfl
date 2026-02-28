@@ -1,0 +1,70 @@
+{
+  "sports": {
+    "NFL": {
+      "enabled": true,
+      "status": "PRODUCTION",
+      "version": "1.0.0",
+      "frozen": false,
+      "data_sources": ["nflverse", "nflreadpy"],
+      "pipeline": "run_autonomous.py",
+      "notes": "UNFROZEN 2026-02-03 for Super Bowl. Re-freeze after Super Bowl."
+    },
+    "NBA": {
+      "enabled": true,
+      "status": "PRODUCTION",
+      "version": "1.0.0",
+      "frozen": false,
+      "data_sources": ["nba_api"],
+      "pipeline": "daily_pipeline.py"
+    },
+    "Tennis": {
+      "enabled": true,
+      "status": "PRODUCTION",
+      "version": "1.0.0",
+      "frozen": false,
+      "data_sources": ["manual"],
+      "pipeline": "tennis/run_daily.py",
+      "sop": "tennis/TENNIS_SOP_v1.0.md",
+      "notes": "UNFROZEN 2026-02-03. Re-freeze on user request."
+    },
+    "CBB": {
+      "enabled": true,
+      "status": "PRODUCTION",
+      "version": "1.0.0",
+      "frozen": false,
+      "data_sources": ["sportsreference", "espn"],
+      "pipeline": "sports/cbb/run_daily.py",
+      "notes": "Activated 2026-01-24. Market gate 12%, L10 blend 0.40, stricter caps than NBA."
+    },
+    "SOCCER": {
+      "enabled": true,
+      "status": "PRODUCTION",
+      "version": "1.0.0",
+      "frozen": false,
+      "data_sources": ["manual", "fbref", "understat"],
+      "pipeline": "soccer/run_daily.py",
+      "notes": "v1.0 soccer engine. Supports Shots, SOT, Goals, Assists, Passes, Tackles. 27 players in DB. Premier League, La Liga, Bundesliga, Serie A, MLS."
+    },
+    "GOLF": {
+      "enabled": true,
+      "status": "PRODUCTION",
+      "version": "1.0.0",
+      "frozen": false,
+      "data_sources": ["datagolf", "manual", "prizepicks"],
+      "pipeline": "golf/run_daily.py",
+      "notes": "Promoted PRODUCTION 2026-02-03. SG-based modeling. NO SLAM tier (golf too volatile). Supports Round Strokes, Birdies, Finishing Position."
+    },
+    "NHL": {
+      "enabled": true,
+      "status": "PRODUCTION",
+      "version": "2.1.0",
+      "frozen": false,
+      "data_sources": ["nhl_api", "naturalstattrick", "dailyfaceoff"],
+      "pipeline": "sports/nhl/run_daily.py",
+      "sop": "sports/nhl/SOP_NHL_v1.0.md",
+      "notes": "Promoted PRODUCTION 2026-02-03. 145 players in DB. Goalie-centric modeling. NO SLAM tier. GOALIE_CONFIRMED gate MANDATORY. Poisson simulation."
+    }
+  },
+  "default_mode": "ANALYSIS",
+  "last_updated": "2026-02-02"
+}

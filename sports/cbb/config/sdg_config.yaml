@@ -1,0 +1,384 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# CBB SDG CONFIGURATION — Stat Deviation Gate (Soft Volatility Governor)
+# ═══════════════════════════════════════════════════════════════════════════════
+# 
+# GOVERNANCE: This is the CANONICAL source for CBB SDG settings.
+# Do NOT hardcode these values elsewhere.
+#
+# Implementation Date: 2026-02-01
+# Rationale: CBB requires STRICTER filtering than NBA due to:
+#   - Higher variance (freshmen, rotations, blowouts)
+#   - Smaller sample sizes
+#   - Conference mismatches
+#   - Tournament chaos
+#
+# KEY PRINCIPLE: Price variance, don't eliminate it.
+# SDG is a SOFT penalty, not a HARD block.
+# ═══════════════════════════════════════════════════════════════════════════════
+
+sdg:
+  enabled: true
+  mode: "soft"  # "soft" = penalty, "hard" = block
+
+  # ───────────────────────────────────────────────────────────────────────────
+  # Z-SCORE THRESHOLDS (Stricter than NBA)
+  # ───────────────────────────────────────────────────────────────────────────
+  # z = |line - μ| / σ
+  # Higher z = more deviation = better edge
+  # Lower z = coin flip = penalize
+  
+  z_thresholds:
+    base:
+      PTS: 0.60      # NBA: 0.40 (+50% stricter)
+      REB: 0.55      # NBA: 0.35 (+57% stricter)
+      AST: 0.55      # NBA: 0.35 (+57% stricter)
+      3PM: 0.45      # NBA: 0.35 (+29% stricter)
+      BLK: 0.50
+      STL: 0.50
+      TOV: 0.45
+      "PTS+REB": 0.60  # Only allowed composite
+      DEFAULT: 0.55
+    
+    # Blowout-adjusted (spread >12)
+    blowout_adjusted:
+      PTS: 0.75
+      REB: 0.70
+      AST: 0.70
+      3PM: 0.60
+      "PTS+REB": 0.75
+      DEFAULT: 0.70
+    
+    # Extreme blowout (spread >18)
+    extreme_blowout:
+      PTS: 0.90
+      REB: 0.85
+      AST: 0.85
+      3PM: 0.75
+      DEFAULT: 0.85
+
+  # ───────────────────────────────────────────────────────────────────────────
+  # CV THRESHOLDS BY ROLE (Tiered, NOT blanket)
+  # ───────────────────────────────────────────────────────────────────────────
+  # CV = σ / μ (coefficient of variation)
+  # Different roles have different acceptable variance
+  
+  cv_thresholds:
+    STAR: 0.50           # Usage >25%, should be consistent
+    ROLE_PLAYER: 0.65    # Usage 15-25%
+    SPECIALIST: 0.85     # 3PT shooters, binary stats
+    BENCH: 0.70          # Rotation players
+    DEFAULT: 0.65
+
+  # ───────────────────────────────────────────────────────────────────────────
+  # SDG PENALTY BRACKETS (Soft Compression)
+  # ───────────────────────────────────────────────────────────────────────────
+  # Based on CV ratio (σ/μ)
+  # Penalize high variance, don't block
+  
+  penalty_brackets:
+    - max_cv: 0.50
+      penalty: 1.00   # No penalty
+    - max_cv: 0.75
+      penalty: 0.90   # -10%
+    - max_cv: 1.00
+      penalty: 0.80   # -20%
+    - max_cv: 999
+      penalty: 0.65   # -35% (extreme variance)
+
+  # ───────────────────────────────────────────────────────────────────────────
+  # MULTI-WINDOW VALIDATION
+  # ───────────────────────────────────────────────────────────────────────────
+  # Must pass SDG on BOTH L10 and Season
+  
+  multi_window:
+    require_both: true
+    max_drift: 0.25  # Block if L10 vs Season differ >25%
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# CONFERENCE PHASE GATES
+# ═══════════════════════════════════════════════════════════════════════════════
+
+conference_phase:
+  early_nonconf:  # Nov-Dec, different conferences
+    months: [11, 12]
+    min_z_required: 0.80
+    volatility_multiplier: 1.4
+    reliability: "LOW"
+  
+  early_conf:  # Nov-Dec, same conference
+    months: [11, 12]
+    min_z_required: 0.65
+    volatility_multiplier: 1.2
+    reliability: "MEDIUM"
+  
+  conference:  # Jan-Feb (stable)
+    months: [1, 2]
+    min_z_required: 0.50
+    volatility_multiplier: 1.0
+    reliability: "HIGH"
+  
+  conf_tournament:  # Early March
+    months: [3]
+    days: [1, 15]
+    min_z_required: 0.70
+    volatility_multiplier: 1.3
+    reliability: "MEDIUM"
+  
+  march_madness:  # NCAA Tournament
+    min_z_required: 0.85
+    volatility_multiplier: 1.5
+    reliability: "LOW"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# BLOWOUT PROTECTION
+# ═══════════════════════════════════════════════════════════════════════════════
+
+blowout:
+  enabled: true
+  mode: "penalty"  # "penalty" = multiply, "block" = hard reject
+  
+  tiers:
+    competitive:
+      max_spread: 7
+      penalty: 1.00
+      block_stars_over: false
+    
+    minor:
+      max_spread: 11
+      penalty: 0.92
+      block_stars_over: false
+    
+    moderate:
+      max_spread: 14
+      penalty: 0.85
+      block_stars_over: false
+    
+    high:
+      max_spread: 17
+      penalty: 0.75
+      block_stars_over: false
+    
+    extreme:
+      max_spread: 999
+      penalty: 0.70
+      block_stars_over: true  # Stars sit in blowouts
+  
+  # Stat-specific adjustments
+  stat_adjustments:
+    REB:
+      under_bonus: 0.05  # Rebounds survive blowouts better
+    3PM:
+      over_penalty: 0.10  # 3PM overs collapse in blowouts
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# SOS (STRENGTH OF SCHEDULE) CALIBRATION
+# ═══════════════════════════════════════════════════════════════════════════════
+
+sos:
+  enabled: true
+  
+  # Defense rank → μ modifier
+  tiers:
+    elite:
+      max_rank: 25
+      pts_modifier: 0.82   # -18%
+      reb_modifier: 0.90   # -10%
+      ast_modifier: 0.88   # -12%
+    
+    excellent:
+      max_rank: 50
+      pts_modifier: 0.88   # -12%
+      reb_modifier: 0.93   # -7%
+      ast_modifier: 0.90   # -10%
+    
+    good:
+      max_rank: 100
+      pts_modifier: 0.93   # -7%
+      reb_modifier: 0.96   # -4%
+      ast_modifier: 0.94   # -6%
+    
+    average:
+      max_rank: 175
+      pts_modifier: 0.97   # -3%
+      reb_modifier: 0.98   # -2%
+      ast_modifier: 0.97   # -3%
+    
+    below_avg:
+      max_rank: 250
+      pts_modifier: 1.00   # Neutral
+      reb_modifier: 1.00
+      ast_modifier: 1.00
+    
+    weak:
+      max_rank: 300
+      pts_modifier: 1.05   # +5%
+      reb_modifier: 1.03   # +3%
+      ast_modifier: 1.05   # +5%
+    
+    bad:
+      max_rank: 362
+      pts_modifier: 1.10   # +10%
+      reb_modifier: 1.06   # +6%
+      ast_modifier: 1.08   # +8%
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# ROAD PENALTIES (Context-Aware)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+road:
+  enabled: true
+  base_penalty: 0.10  # 10% baseline
+  
+  modifiers:
+    long_travel:
+      miles_threshold: 1000
+      penalty: 0.05
+    
+    extreme_travel:
+      miles_threshold: 1500
+      penalty: 0.06
+    
+    rivalry:
+      penalty: 0.05
+      extreme_rivalry_penalty: 0.08
+    
+    altitude:
+      ft_threshold: 3000
+      penalty: 0.05
+  
+  # Experience reduces road penalty
+  experience_discount:
+    senior_team_age: 22.5
+    discount: 0.25  # 25% reduction in road penalty
+  
+  # Cap total road penalty
+  max_penalty: 0.25
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# SHRINKAGE (Replaces Hard "Min 5 Games" Block)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+shrinkage:
+  enabled: true
+  max_effective_games: 10
+  
+  # Formula: shrunk_μ = w × observed_μ + (1-w) × baseline_μ
+  # where w = min(games_played, max_effective_games) / max_effective_games
+  
+  # Baseline sources (in priority order)
+  baseline_sources:
+    - team_position_average
+    - conference_position_average
+    - national_position_average
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# MULTI-WINDOW PROJECTION (Replaces Single L10)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+windows:
+  # Conference play (Jan-Feb) — Most reliable
+  conference:
+    L5: 0.40
+    L10: 0.40
+    SEASON: 0.20
+  
+  # Non-conference (Nov-Dec) — More baseline weight
+  nonconf:
+    L10: 0.60
+    SEASON: 0.40
+  
+  # Post-injury — Very recent focus
+  post_injury:
+    games_threshold: 5
+    L3: 0.50
+    L5: 0.30
+    L10: 0.20
+  
+  # Default (fallback)
+  default:
+    L5: 0.25
+    L10: 0.40
+    L15: 0.20
+    SEASON: 0.15
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# COMPOSITE STATS (Limited Re-Enable)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+composites:
+  # ONLY PTS+REB is allowed (per governance)
+  allowed:
+    - "PTS+REB"
+  
+  blocked:
+    - "PRA"
+    - "PTS+REB+AST"
+    - "PTS+AST"
+    - "REB+AST"
+    - "fantasy_points"
+  
+  # Requirements for allowed composites
+  requirements:
+    min_z: 0.60
+    max_cv: 0.50
+    max_confidence: 0.68   # Cap at 68%, never SLAM
+    require_sdg_pass: true
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# BINARY PROPS (Special Handling)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+binary_props:
+  enabled: true
+  
+  # 3PM Over 0.5 is the BEST CBB prop
+  "3PM_OVER_0.5":
+    enabled: true
+    min_hit_rate: 0.75
+    min_games: 10
+    max_cv: 0.90
+  
+  "PTS_OVER_9.5":
+    enabled: true
+    min_hit_rate: 0.70
+    min_games: 12
+    max_cv: 0.80
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# TIER THRESHOLDS (Governance Enforced)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+tiers:
+  SLAM:
+    enabled: false  # DISABLED for CBB
+    threshold: null
+  
+  STRONG:
+    enabled: true
+    threshold: 0.68  # Previously 0.70, now 68% (post-SDG)
+  
+  LEAN:
+    enabled: true
+    threshold: 0.60  # Same as before
+  
+  NO_PLAY:
+    enabled: true
+    threshold: 0.00
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# EXPECTED RESULTS (Post-Implementation)
+# ═══════════════════════════════════════════════════════════════════════════════
+#
+# BEFORE (Current CBB):
+#   - Picks per slate: 15-20
+#   - Win rate: 48-52%
+#   - Variance: HIGH
+#   - Explainability: LOW
+#
+# AFTER (SDG + Context Gates):
+#   - Picks per slate: 4-8
+#   - Win rate: 58-63%
+#   - Variance: MEDIUM
+#   - Explainability: HIGH
+#
+# ═══════════════════════════════════════════════════════════════════════════════

@@ -1,0 +1,1227 @@
+{
+  "schema_version": "governance_artifacts.v1",
+  "created_at_utc": "2026-02-12T03:25:21.340919+00:00",
+  "slug": "TENNIS_PROPS",
+  "stamp": "20260211",
+  "pipeline_steps_executed": [
+    "raw_txt (inputs/*.txt)",
+    "parse_underdog_slate -> parsed JSON",
+    "risk_first_analyzer.analyze_slate (probability + gates + context gates)",
+    "export: governance_config.json",
+    "export: allowed_edges.json",
+    "export: blocked_edges.json"
+  ],
+  "counts": {
+    "total_results": 186,
+    "allowed_edges": 104,
+    "blocked_edges": 82
+  },
+  "run_settings": {},
+  "source": {
+    "ingest": "underdog_paste",
+    "surface": "Hard"
+  },
+  "by_player": [
+    {
+      "player": "Alejandro Moro Canas",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Aleksandar Kovacevic",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won"
+      ],
+      "blocked_stats": [
+        "sets_won"
+      ],
+      "block_reasons": {
+        "sets_won": "tier=AVOID"
+      },
+      "prediction_allowed": true
+    },
+    {
+      "player": "Alex Bolt",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=VETTED",
+        "sets_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Alex De Minaur",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Alexander Bublik",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Alexander Shevchenko",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Alina Korneeva",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=VETTED",
+        "sets_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Andre Ilagan",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Anna Kalinskaya",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "sets_won"
+      ],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "tier=AVOID"
+      },
+      "prediction_allowed": true
+    },
+    {
+      "player": "Benjamin Bonzi",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=VETTED",
+        "sets_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Benjamin Hassan",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=VETTED",
+        "sets_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Blaise Bicknell",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Blake Ellis",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "1st_set_games_won",
+        "sets_won"
+      ],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "tier=AVOID"
+      },
+      "prediction_allowed": true
+    },
+    {
+      "player": "Botic Van De Zandschulp",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "sets_won"
+      ],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": true
+    },
+    {
+      "player": "Braden Shick",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "sets_won"
+      ],
+      "block_reasons": {
+        "sets_won": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Camilo Ugo Carabelli",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=VETTED",
+        "sets_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Clement Tabur",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Daniel Milavsky",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Daniil Glinka",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "sets_won"
+      ],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": true
+    },
+    {
+      "player": "Darwin Blanch",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=VETTED",
+        "sets_won": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Denis Shapovalov",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Duje Ajdukovic",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Elena Rybakina",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Eliot Spizzirri",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Elisabetta Cocciaretto",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "block_reasons": {
+        "sets_won": "pick_state=VETTED",
+        "games_won": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Eric Vanshelboim",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Ethan Quinn",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=VETTED",
+        "sets_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Francesco Maestrelli",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "tier=AVOID"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Frederico Ferreira Silva",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "sets_won"
+      ],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": true
+    },
+    {
+      "player": "Greet Minnen",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Guy Den Ouden",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Hamad Medjedovic",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=VETTED",
+        "sets_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Hayato Matsuoka",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "sets_won"
+      ],
+      "block_reasons": {
+        "sets_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Hynek Barton",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Iga Swiatek",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "tier=AVOID"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Ignacio Buse",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Ilia Simakin",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Ioannis Xilas",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Jack Kennedy",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "sets_won"
+      ],
+      "block_reasons": {
+        "sets_won": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Jack Pinnington Jones",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Jaume Munar",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Jelena Ostapenko",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Juan Manuel Cerundolo",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "tier=AVOID"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Kaitlin Quevedo",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Karen Khachanov",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "1st_set_games",
+        "1st_set_games_won",
+        "games_won",
+        "tiebreakers"
+      ],
+      "blocked_stats": [
+        "aces",
+        "breakpoints_won",
+        "double_faults",
+        "games_played",
+        "sets_played"
+      ],
+      "block_reasons": {
+        "games_played": "tier=AVOID",
+        "breakpoints_won": "tier=AVOID",
+        "sets_played": "pick_state=REJECTED",
+        "aces": "pick_state=REJECTED",
+        "double_faults": "pick_state=REJECTED"
+      },
+      "prediction_allowed": true
+    },
+    {
+      "player": "Karolina Muchova",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Leandro Riedi",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won"
+      ],
+      "blocked_stats": [
+        "sets_won"
+      ],
+      "block_reasons": {
+        "sets_won": "tier=AVOID"
+      },
+      "prediction_allowed": true
+    },
+    {
+      "player": "Leyre Romero Gormaz",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "tier=AVOID"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Lola Radivojevic",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Luca Castelnuovo",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "sets_won"
+      ],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": true
+    },
+    {
+      "player": "Luca Van Assche",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "1st_set_games",
+        "1st_set_games_won",
+        "games_played",
+        "games_won",
+        "sets_played",
+        "tiebreakers"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Luciano Darderi",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "1st_set_games_won",
+        "aces",
+        "breakpoints_won",
+        "double_faults",
+        "games_played",
+        "sets_played",
+        "tiebreakers"
+      ],
+      "blocked_stats": [
+        "1st_set_games",
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "tier=AVOID",
+        "1st_set_games": "tier=AVOID"
+      },
+      "prediction_allowed": true
+    },
+    {
+      "player": "Lucrezia Stefanini",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Luka Mikrut",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Lukas Klein",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Maks Kasnikowski",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "1st_set_games",
+        "1st_set_games_won",
+        "games_played",
+        "games_won",
+        "sets_played",
+        "tiebreakers"
+      ],
+      "block_reasons": {
+        "1st_set_games": "pick_state=VETTED",
+        "tiebreakers": "pick_state=VETTED",
+        "games_played": "pick_state=VETTED",
+        "1st_set_games_won": "pick_state=REJECTED",
+        "sets_played": "pick_state=REJECTED",
+        "games_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Maria Sakkari",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=VETTED",
+        "sets_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Mariano Navone",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Marin Cilic",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Martin Damm",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "sets_won"
+      ],
+      "block_reasons": {
+        "sets_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Martin Landaluce",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "block_reasons": {
+        "sets_won": "pick_state=VETTED",
+        "games_won": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Matilde Jorge",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Miomir Kecmanovic",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Moez Echargui",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Olaf Pieczkowski",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Oliver Crawford",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "1st_set_games_won",
+        "games_played",
+        "games_won",
+        "sets_played",
+        "tiebreakers"
+      ],
+      "blocked_stats": [
+        "1st_set_games"
+      ],
+      "block_reasons": {
+        "1st_set_games": "tier=AVOID"
+      },
+      "prediction_allowed": true
+    },
+    {
+      "player": "Pedro Martinez",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "sets_won"
+      ],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": true
+    },
+    {
+      "player": "Petr Bar Biryukov",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Philip Sekulic",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Pol Martin Tiffon",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "sets_won"
+      ],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "tier=AVOID"
+      },
+      "prediction_allowed": true
+    },
+    {
+      "player": "Raphael Collignon",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Raphael Perot",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Sebastian Baez",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "tier=AVOID"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Sidharth Rawat",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Stan Wawrinka",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Stefano Travaglia",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Stefanos Tsitsipas",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "1st_set_games_won",
+        "breakpoints_won",
+        "games_played",
+        "games_won",
+        "sets_played",
+        "tiebreakers"
+      ],
+      "blocked_stats": [
+        "1st_set_games",
+        "aces",
+        "double_faults"
+      ],
+      "block_reasons": {
+        "1st_set_games": "tier=AVOID",
+        "double_faults": "pick_state=REJECTED",
+        "aces": "pick_state=REJECTED"
+      },
+      "prediction_allowed": true
+    },
+    {
+      "player": "Sumit Nagal",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "tier=AVOID"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Tom Gentzsch",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Tomas Barrios Vera",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Tommy Paul",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Tyler Zink",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Ugo Humbert",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "1st_set_games",
+        "1st_set_games_won",
+        "aces",
+        "breakpoints_won",
+        "games_played",
+        "games_won",
+        "sets_played",
+        "sets_won",
+        "tiebreakers"
+      ],
+      "blocked_stats": [
+        "1st_set_games",
+        "double_faults"
+      ],
+      "block_reasons": {
+        "double_faults": "tier=AVOID",
+        "1st_set_games": "tier=AVOID"
+      },
+      "prediction_allowed": true
+    },
+    {
+      "player": "Victoria Mboko",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Viktorija Golubic",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "1st_set_games",
+        "1st_set_games_won",
+        "aces",
+        "breakpoints_won",
+        "double_faults",
+        "games_played",
+        "games_won",
+        "sets_played",
+        "tiebreakers"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=VETTED",
+        "1st_set_games_won": "pick_state=VETTED",
+        "sets_played": "pick_state=VETTED",
+        "tiebreakers": "pick_state=VETTED",
+        "1st_set_games": "pick_state=VETTED",
+        "breakpoints_won": "pick_state=VETTED",
+        "games_played": "pick_state=VETTED",
+        "double_faults": "pick_state=REJECTED",
+        "aces": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Zdenek Kolar",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won",
+        "sets_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Zhizhen Zhang",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=REJECTED"
+      },
+      "prediction_allowed": false
+    }
+  ]
+}

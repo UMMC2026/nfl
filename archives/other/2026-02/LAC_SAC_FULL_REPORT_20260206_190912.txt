@@ -1,0 +1,1592 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                       UNDERDOG FANTASY PROPS ANALYZER                        ║
+║                       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━                        ║
+║                         DAILY SLATE REPORT: LAC_SAC                          ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  Report Date:    February 06, 2026
+  Generated At:   07:09 PM
+  Data Source:    LAC_SAC_RISK_FIRST_20260206_FROM_UD.json
+  Lens: UNDER-first enabled; Failure Lens enabled
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  ⚠️  DEFENSIVE MODE ACTIVE                                                   │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  Slate Quality: 100/100 (A)                                                  │
+│                                                                              │
+│  Drivers:                                                                    │
+│    • All metrics within normal range                                         │
+│                                                                              │
+│  Action:                                                                     │
+│    • Max tier allowed: STRONG                                                │
+│    • Capital deployment minimized                                            │
+│    • NO PLAY dominance expected                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  EXECUTIVE SUMMARY                                                           │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  Total Props Analyzed:  129           Actionable Plays:  9                   │
+│  ✓ PLAY Tier:           0             ○ LEAN Tier:        9                  │
+│  Directional Bias:      5 UNDERs / 4 OVERs                                   │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  DECISION GOVERNANCE                                                         │
+│  ✅ OPTIMIZABLE: 10      ⚠️ VETTED: 0       ❌ REJECTED: 119                   │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+
+════════════════════════════════════════════════════════════════════════════════
+  📊 LEAN PLAYS (9)
+  Moderate confidence (65-74%) — consider for parlays
+════════════════════════════════════════════════════════════════════════════════
+
+  ┌─ #1 ────────────────────────────────────────────────────────────
+  │  Kobe Sanders (LAC)
+  │  3PM OVER 0.5
+  │
+  │  Confidence:  59.0%
+  │  Edge:        +0.9%
+  │  Recent Avg:  1.4  (σ=1.2, n=42)
+  │  σ-Distance:  z = -0.71σ
+  │               Line 0.5 is 0.71σ BELOW mean (1.4) → favorable for OVER
+  │  Tier Label:  [LEAN]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 1.4 > Line 0.5, 59.0% confidence, +0.9% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #2 ────────────────────────────────────────────────────────────
+  │  Jrue Holiday (POR)
+  │  3PM OVER 1.5
+  │
+  │  Confidence:  56.1%
+  │  Edge:        +0.2%
+  │  Recent Avg:  1.8  (σ=1.4, n=22)
+  │  σ-Distance:  z = -0.17σ
+  │               Line 1.5 is 0.17σ BELOW mean (1.8) → favorable for OVER
+  │  Tier Label:  [LEAN]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 1.8 > Line 1.5, 56.1% confidence, +0.2% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #3 ────────────────────────────────────────────────────────────
+  │  Russell Westbrook (SAC)
+  │  3PM OVER 1.5
+  │
+  │  Confidence:  56.0%
+  │  Edge:        +1.0%
+  │  Recent Avg:  2.5  (σ=1.4, n=49)
+  │  σ-Distance:  z = -0.75σ
+  │               Line 1.5 is 0.75σ BELOW mean (2.5) → favorable for OVER
+  │  Tier Label:  [LEAN]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 2.5 > Line 1.5, 56.0% confidence, +1.0% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #4 ────────────────────────────────────────────────────────────
+  │  Kris Dunn (LAC)
+  │  PRA UNDER 17.0
+  │
+  │  Confidence:  55.8%
+  │  Edge:        +3.1%
+  │  Recent Avg:  13.9  (σ=6.4, n=0)
+  │  σ-Distance:  z = 0.49σ
+  │               Line 17.0 is 0.49σ ABOVE mean (13.9) → favorable for UNDER
+  │  Tier Label:  [LEAN]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 13.9 < Line 17.0, 55.8% confidence, +3.1% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #5 ────────────────────────────────────────────────────────────
+  │  Maxime Raynaud (SAC)
+  │  PRA UNDER 19.5
+  │
+  │  Confidence:  55.6%
+  │  Edge:        +3.6%
+  │  Recent Avg:  15.9  (σ=7.6, n=0)
+  │  σ-Distance:  z = 0.47σ
+  │               Line 19.5 is 0.47σ ABOVE mean (15.9) → favorable for UNDER
+  │  Tier Label:  [LEAN]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 15.9 < Line 19.5, 55.6% confidence, +3.6% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #6 ────────────────────────────────────────────────────────────
+  │  Jrue Holiday (POR)
+  │  PRA UNDER 23.5
+  │
+  │  Confidence:  54.9%
+  │  Edge:        +3.4%
+  │  Recent Avg:  20.1  (σ=7.9, n=0)
+  │  σ-Distance:  z = 0.43σ
+  │               Line 23.5 is 0.43σ ABOVE mean (20.1) → favorable for UNDER
+  │  Tier Label:  [LEAN]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 20.1 < Line 23.5, 54.9% confidence, +3.4% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #7 ────────────────────────────────────────────────────────────
+  │  Brook Lopez (LAC)
+  │  PTS+AST UNDER 11.5
+  │
+  │  Confidence:  49.1%
+  │  Edge:        +3.3%
+  │  Recent Avg:  8.2  (σ=6.7, n=0)
+  │  σ-Distance:  z = 0.49σ
+  │               Line 11.5 is 0.49σ ABOVE mean (8.2) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 8.2 < Line 11.5, 49.1% confidence, +3.3% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #8 ────────────────────────────────────────────────────────────
+  │  DeMar DeRozan (SAC)
+  │  PRA OVER 23.5
+  │
+  │  Confidence:  48.5%
+  │  Edge:        +6.2%
+  │  Recent Avg:  29.7  (σ=13.6, n=0)
+  │  σ-Distance:  z = -0.45σ
+  │               Line 23.5 is 0.45σ BELOW mean (29.7) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 29.7 > Line 23.5, 48.5% confidence, +6.2% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 6+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #9 ────────────────────────────────────────────────────────────
+  │  Kris Dunn (LAC)
+  │  PTS+AST UNDER 13.5
+  │
+  │  Confidence:  48.1%
+  │  Edge:        +2.4%
+  │  Recent Avg:  11.1  (σ=6.1, n=0)
+  │  σ-Distance:  z = 0.40σ
+  │               Line 13.5 is 0.40σ ABOVE mean (11.1) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 11.1 < Line 13.5, 48.1% confidence, +2.4% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+════════════════════════════════════════════════════════════════════════════════
+  ⛔ NO PLAY (77)
+  Below threshold — insufficient edge or confidence
+════════════════════════════════════════════════════════════════════════════════
+
+  ┌─ #1 ────────────────────────────────────────────────────────────
+  │  John Collins (LAC)
+  │  PRA UNDER 24.0
+  │
+  │  Confidence:  53.8%
+  │  Edge:        +1.6%
+  │  Recent Avg:  22.4  (σ=5.5, n=0)
+  │  σ-Distance:  z = 0.30σ
+  │               Line 24.0 is 0.30σ ABOVE mean (22.4) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 22.4 < Line 24.0, 53.8% confidence, +1.6% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #2 ────────────────────────────────────────────────────────────
+  │  Shaedon Sharpe (POR)
+  │  PRA UNDER 30.5
+  │
+  │  Confidence:  53.5%
+  │  Edge:        +2.7%
+  │  Recent Avg:  27.8  (σ=8.4, n=0)
+  │  σ-Distance:  z = 0.32σ
+  │               Line 30.5 is 0.32σ ABOVE mean (27.8) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 27.8 < Line 30.5, 53.5% confidence, +2.7% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #3 ────────────────────────────────────────────────────────────
+  │  Jerami Grant (POR)
+  │  PRA UNDER 22.5
+  │
+  │  Confidence:  53.4%
+  │  Edge:        +2.5%
+  │  Recent Avg:  20.0  (σ=7.9, n=0)
+  │  σ-Distance:  z = 0.31σ
+  │               Line 22.5 is 0.31σ ABOVE mean (20.0) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 20.0 < Line 22.5, 53.4% confidence, +2.5% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #4 ────────────────────────────────────────────────────────────
+  │  GG Jackson (MEM)
+  │  PRA UNDER 22.5
+  │
+  │  Confidence:  52.4%
+  │  Edge:        +1.8%
+  │  Recent Avg:  20.8  (σ=6.9, n=0)
+  │  σ-Distance:  z = 0.25σ
+  │               Line 22.5 is 0.25σ ABOVE mean (20.8) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 20.8 < Line 22.5, 52.4% confidence, +1.8% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #5 ────────────────────────────────────────────────────────────
+  │  DeMar DeRozan (SAC)
+  │  3PM UNDER 0.5
+  │
+  │  Confidence:  52.3%
+  │  Edge:        -0.2%
+  │  Recent Avg:  0.7  (σ=0.9, n=52)
+  │  σ-Distance:  z = -0.18σ
+  │               Line 0.5 is 0.18σ BELOW mean (0.7) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.7 > Line 0.5, 52.3% confidence, -0.2% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #6 ────────────────────────────────────────────────────────────
+  │  Jrue Holiday (POR)
+  │  PTS+AST UNDER 19.5
+  │
+  │  Confidence:  47.9%
+  │  Edge:        +2.9%
+  │  Recent Avg:  16.6  (σ=7.5, n=0)
+  │  σ-Distance:  z = 0.39σ
+  │               Line 19.5 is 0.39σ ABOVE mean (16.6) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 16.6 < Line 19.5, 47.9% confidence, +2.9% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #7 ────────────────────────────────────────────────────────────
+  │  Shaedon Sharpe (POR)
+  │  3PM UNDER 2.5
+  │
+  │  Confidence:  47.6%
+  │  Edge:        -0.1%
+  │  Recent Avg:  2.6  (σ=1.7, n=47)
+  │  σ-Distance:  z = -0.09σ
+  │               Line 2.5 is 0.09σ BELOW mean (2.6) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 2.6 > Line 2.5, 47.6% confidence, -0.1% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #8 ────────────────────────────────────────────────────────────
+  │  De'Andre Hunter (SAC)
+  │  PTS+AST UNDER 15.5
+  │
+  │  Confidence:  47.5%
+  │  Edge:        +2.7%
+  │  Recent Avg:  12.8  (σ=7.8, n=0)
+  │  σ-Distance:  z = 0.34σ
+  │               Line 15.5 is 0.34σ ABOVE mean (12.8) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 12.8 < Line 15.5, 47.5% confidence, +2.7% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #9 ────────────────────────────────────────────────────────────
+  │  Donovan Clingan (POR)
+  │  REBOUNDS UNDER 13.0
+  │
+  │  Confidence:  47.5%
+  │  Edge:        +0.4%
+  │  Recent Avg:  12.6  (σ=5.1, n=47)
+  │  σ-Distance:  z = 0.07σ
+  │               Line 13.0 is 0.07σ ABOVE mean (12.6) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 12.6 < Line 13.0, 47.5% confidence, +0.4% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #10 ────────────────────────────────────────────────────────────
+  │  GG Jackson (MEM)
+  │  3PM OVER 0.5
+  │
+  │  Confidence:  47.1%
+  │  Edge:        +0.6%
+  │  Recent Avg:  1.1  (σ=1.2, n=29)
+  │  σ-Distance:  z = -0.47σ
+  │               Line 0.5 is 0.47σ BELOW mean (1.1) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 1.1 > Line 0.5, 47.1% confidence, +0.6% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #11 ────────────────────────────────────────────────────────────
+  │  Derrick Jones (LAC)
+  │  3PM OVER 0.5
+  │
+  │  Confidence:  46.1%
+  │  Edge:        +0.6%
+  │  Recent Avg:  1.1  (σ=1.6, n=18)
+  │  σ-Distance:  z = -0.35σ
+  │               Line 0.5 is 0.35σ BELOW mean (1.1) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 1.1 > Line 0.5, 46.1% confidence, +0.6% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #12 ────────────────────────────────────────────────────────────
+  │  Donovan Clingan (POR)
+  │  PRA UNDER 26.5
+  │
+  │  Confidence:  43.6%
+  │  Edge:        -0.3%
+  │  Recent Avg:  26.8  (σ=7.2, n=0)
+  │  σ-Distance:  z = -0.04σ
+  │               Line 26.5 is 0.04σ BELOW mean (26.8) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 26.8 > Line 26.5, 43.6% confidence, -0.3% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #13 ────────────────────────────────────────────────────────────
+  │  Zach LaVine (SAC)
+  │  PRA UNDER 21.5
+  │
+  │  Confidence:  43.6%
+  │  Edge:        -1.0%
+  │  Recent Avg:  22.5  (σ=11.5, n=0)
+  │  σ-Distance:  z = -0.08σ
+  │               Line 21.5 is 0.08σ BELOW mean (22.5) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 22.5 > Line 21.5, 43.6% confidence, -1.0% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #14 ────────────────────────────────────────────────────────────
+  │  Donovan Clingan (POR)
+  │  PRA UNDER 27.5
+  │
+  │  Confidence:  43.5%
+  │  Edge:        +0.7%
+  │  Recent Avg:  26.8  (σ=7.2, n=0)
+  │  σ-Distance:  z = 0.09σ
+  │               Line 27.5 is 0.09σ ABOVE mean (26.8) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 26.8 < Line 27.5, 43.5% confidence, +0.7% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #15 ────────────────────────────────────────────────────────────
+  │  Nique Clifford (SAC)
+  │  PRA UNDER 12.5
+  │
+  │  Confidence:  43.4%
+  │  Edge:        -2.1%
+  │  Recent Avg:  14.6  (σ=7.5, n=0)
+  │  σ-Distance:  z = -0.28σ
+  │               Line 12.5 is 0.28σ BELOW mean (14.6) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 14.6 > Line 12.5, 43.4% confidence, -2.1% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #16 ────────────────────────────────────────────────────────────
+  │  Derrick Jones (LAC)
+  │  PRA UNDER 12.5
+  │
+  │  Confidence:  42.9%
+  │  Edge:        -0.9%
+  │  Recent Avg:  13.4  (σ=7.5, n=0)
+  │  σ-Distance:  z = -0.11σ
+  │               Line 12.5 is 0.11σ BELOW mean (13.4) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 13.4 > Line 12.5, 42.9% confidence, -0.9% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #17 ────────────────────────────────────────────────────────────
+  │  GG Jackson (MEM)
+  │  PTS+AST UNDER 16.5
+  │
+  │  Confidence:  42.8%
+  │  Edge:        +1.4%
+  │  Recent Avg:  15.1  (σ=6.5, n=0)
+  │  σ-Distance:  z = 0.21σ
+  │               Line 16.5 is 0.21σ ABOVE mean (15.1) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 15.1 < Line 16.5, 42.8% confidence, +1.4% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #18 ────────────────────────────────────────────────────────────
+  │  John Collins (LAC)
+  │  PTS+AST UNDER 17.5
+  │
+  │  Confidence:  42.3%
+  │  Edge:        +0.7%
+  │  Recent Avg:  16.8  (σ=4.7, n=0)
+  │  σ-Distance:  z = 0.15σ
+  │               Line 17.5 is 0.15σ ABOVE mean (16.8) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 16.8 < Line 17.5, 42.3% confidence, +0.7% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #19 ────────────────────────────────────────────────────────────
+  │  DeMar DeRozan (SAC)
+  │  PTS+AST OVER 21.5
+  │
+  │  Confidence:  42.3%
+  │  Edge:        +5.1%
+  │  Recent Avg:  26.6  (σ=13.4, n=0)
+  │  σ-Distance:  z = -0.38σ
+  │               Line 21.5 is 0.38σ BELOW mean (26.6) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 26.6 > Line 21.5, 42.3% confidence, +5.1% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #20 ────────────────────────────────────────────────────────────
+  │  De'Andre Hunter (SAC)
+  │  3PM OVER 1.5
+  │
+  │  Confidence:  42.1%
+  │  Edge:        +0.3%
+  │  Recent Avg:  1.8  (σ=1.3, n=44)
+  │  σ-Distance:  z = -0.20σ
+  │               Line 1.5 is 0.20σ BELOW mean (1.8) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 1.8 > Line 1.5, 42.1% confidence, +0.3% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #21 ────────────────────────────────────────────────────────────
+  │  Toumani Camara (POR)
+  │  PRA UNDER 20.5
+  │
+  │  Confidence:  41.9%
+  │  Edge:        -0.6%
+  │  Recent Avg:  21.1  (σ=8.3, n=0)
+  │  σ-Distance:  z = -0.08σ
+  │               Line 20.5 is 0.08σ BELOW mean (21.1) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 21.1 > Line 20.5, 41.9% confidence, -0.6% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #22 ────────────────────────────────────────────────────────────
+  │  Kris Dunn (LAC)
+  │  3PM OVER 0.5
+  │
+  │  Confidence:  41.8%
+  │  Edge:        +0.1%
+  │  Recent Avg:  0.6  (σ=1.2, n=50)
+  │  σ-Distance:  z = -0.13σ
+  │               Line 0.5 is 0.13σ BELOW mean (0.6) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.6 > Line 0.5, 41.8% confidence, +0.1% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #23 ────────────────────────────────────────────────────────────
+  │  Donovan Clingan (POR)
+  │  PTS+AST UNDER 14.5
+  │
+  │  Confidence:  41.7%
+  │  Edge:        +1.1%
+  │  Recent Avg:  13.4  (σ=4.7, n=0)
+  │  σ-Distance:  z = 0.24σ
+  │               Line 14.5 is 0.24σ ABOVE mean (13.4) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 13.4 < Line 14.5, 41.7% confidence, +1.1% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #24 ────────────────────────────────────────────────────────────
+  │  Jordan Miller (LAC)
+  │  PTS+AST UNDER 15.5
+  │
+  │  Confidence:  41.5%
+  │  Edge:        +0.4%
+  │  Recent Avg:  15.1  (σ=8.5, n=0)
+  │  σ-Distance:  z = 0.05σ
+  │               Line 15.5 is 0.05σ ABOVE mean (15.1) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 15.1 < Line 15.5, 41.5% confidence, +0.4% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #25 ────────────────────────────────────────────────────────────
+  │  Nique Clifford (SAC)
+  │  3PM OVER 0.5
+  │
+  │  Confidence:  41.4%
+  │  Edge:        +0.6%
+  │  Recent Avg:  1.1  (σ=1.5, n=48)
+  │  σ-Distance:  z = -0.38σ
+  │               Line 0.5 is 0.38σ BELOW mean (1.1) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 1.1 > Line 0.5, 41.4% confidence, +0.6% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #26 ────────────────────────────────────────────────────────────
+  │  DeMar DeRozan (SAC)
+  │  PRA UNDER 23.5
+  │
+  │  Confidence:  41.3%
+  │  Edge:        -6.2%
+  │  Recent Avg:  29.7  (σ=13.6, n=0)
+  │  σ-Distance:  z = -0.45σ
+  │               Line 23.5 is 0.45σ BELOW mean (29.7) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 29.7 > Line 23.5, 41.3% confidence, -6.2% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #27 ────────────────────────────────────────────────────────────
+  │  Shaedon Sharpe (POR)
+  │  PTS+AST UNDER 25.5
+  │
+  │  Confidence:  41.2%
+  │  Edge:        +1.3%
+  │  Recent Avg:  24.2  (σ=8.1, n=0)
+  │  σ-Distance:  z = 0.16σ
+  │               Line 25.5 is 0.16σ ABOVE mean (24.2) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 24.2 < Line 25.5, 41.2% confidence, +1.3% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #28 ────────────────────────────────────────────────────────────
+  │  Toumani Camara (POR)
+  │  PTS+AST UNDER 15.5
+  │
+  │  Confidence:  41.1%
+  │  Edge:        +1.1%
+  │  Recent Avg:  14.4  (σ=7.6, n=0)
+  │  σ-Distance:  z = 0.15σ
+  │               Line 15.5 is 0.15σ ABOVE mean (14.4) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 14.4 < Line 15.5, 41.1% confidence, +1.1% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #29 ────────────────────────────────────────────────────────────
+  │  Malik Monk (SAC)
+  │  3PM UNDER 1.5
+  │
+  │  Confidence:  40.9%
+  │  Edge:        -0.7%
+  │  Recent Avg:  2.2  (σ=2.1, n=42)
+  │  σ-Distance:  z = -0.31σ
+  │               Line 1.5 is 0.31σ BELOW mean (2.2) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 2.2 > Line 1.5, 40.9% confidence, -0.7% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #30 ────────────────────────────────────────────────────────────
+  │  Jerami Grant (POR)
+  │  PTS+AST UNDER 18.5
+  │
+  │  Confidence:  40.8%
+  │  Edge:        +0.8%
+  │  Recent Avg:  17.7  (σ=7.6, n=0)
+  │  σ-Distance:  z = 0.11σ
+  │               Line 18.5 is 0.11σ ABOVE mean (17.7) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 17.7 < Line 18.5, 40.8% confidence, +0.8% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #31 ────────────────────────────────────────────────────────────
+  │  Deni Avdija (POR)
+  │  PRA UNDER 32.5
+  │
+  │  Confidence:  40.7%
+  │  Edge:        -2.2%
+  │  Recent Avg:  34.7  (σ=10.5, n=0)
+  │  σ-Distance:  z = -0.21σ
+  │               Line 32.5 is 0.21σ BELOW mean (34.7) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 34.7 > Line 32.5, 40.7% confidence, -2.2% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #32 ────────────────────────────────────────────────────────────
+  │  Russell Westbrook (SAC)
+  │  PTS+AST UNDER 20.5
+  │
+  │  Confidence:  40.4%
+  │  Edge:        -0.6%
+  │  Recent Avg:  21.1  (σ=6.0, n=0)
+  │  σ-Distance:  z = -0.10σ
+  │               Line 20.5 is 0.10σ BELOW mean (21.1) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 21.1 > Line 20.5, 40.4% confidence, -0.6% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #33 ────────────────────────────────────────────────────────────
+  │  Zach LaVine (SAC)
+  │  PRA OVER 21.5
+  │
+  │  Confidence:  40.3%
+  │  Edge:        +1.0%
+  │  Recent Avg:  22.5  (σ=11.5, n=0)
+  │  σ-Distance:  z = -0.08σ
+  │               Line 21.5 is 0.08σ BELOW mean (22.5) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 22.5 > Line 21.5, 40.3% confidence, +1.0% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 6+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #34 ────────────────────────────────────────────────────────────
+  │  Derrick Jones (LAC)
+  │  PRA OVER 12.5
+  │
+  │  Confidence:  40.2%
+  │  Edge:        +0.9%
+  │  Recent Avg:  13.4  (σ=7.5, n=0)
+  │  σ-Distance:  z = -0.11σ
+  │               Line 12.5 is 0.11σ BELOW mean (13.4) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 13.4 > Line 12.5, 40.2% confidence, +0.9% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 6+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #35 ────────────────────────────────────────────────────────────
+  │  Zach LaVine (SAC)
+  │  PTS+AST UNDER 18.5
+  │
+  │  Confidence:  40.1%
+  │  Edge:        -1.5%
+  │  Recent Avg:  20.0  (σ=11.1, n=0)
+  │  σ-Distance:  z = -0.14σ
+  │               Line 18.5 is 0.14σ BELOW mean (20.0) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 20.0 > Line 18.5, 40.1% confidence, -1.5% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #36 ────────────────────────────────────────────────────────────
+  │  DeMar DeRozan (SAC)
+  │  3PM OVER 0.5
+  │
+  │  Confidence:  39.8%
+  │  Edge:        +0.2%
+  │  Recent Avg:  0.7  (σ=0.9, n=52)
+  │  σ-Distance:  z = -0.18σ
+  │               Line 0.5 is 0.18σ BELOW mean (0.7) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.7 > Line 0.5, 39.8% confidence, +0.2% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #37 ────────────────────────────────────────────────────────────
+  │  DeMar DeRozan (SAC)
+  │  PTS+AST UNDER 21.5
+  │
+  │  Confidence:  39.7%
+  │  Edge:        -5.1%
+  │  Recent Avg:  26.6  (σ=13.4, n=0)
+  │  σ-Distance:  z = -0.38σ
+  │               Line 21.5 is 0.38σ BELOW mean (26.6) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 26.6 > Line 21.5, 39.7% confidence, -5.1% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #38 ────────────────────────────────────────────────────────────
+  │  Deni Avdija (POR)
+  │  PRA OVER 32.5
+  │
+  │  Confidence:  39.6%
+  │  Edge:        +2.2%
+  │  Recent Avg:  34.7  (σ=10.5, n=0)
+  │  σ-Distance:  z = -0.21σ
+  │               Line 32.5 is 0.21σ BELOW mean (34.7) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 34.7 > Line 32.5, 39.6% confidence, +2.2% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 6+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #39 ────────────────────────────────────────────────────────────
+  │  Jordan Miller (LAC)
+  │  PRA OVER 18.5
+  │
+  │  Confidence:  39.6%
+  │  Edge:        +0.4%
+  │  Recent Avg:  18.9  (σ=8.6, n=0)
+  │  σ-Distance:  z = -0.05σ
+  │               Line 18.5 is 0.05σ BELOW mean (18.9) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 18.9 > Line 18.5, 39.6% confidence, +0.4% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 6+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #40 ────────────────────────────────────────────────────────────
+  │  Donovan Clingan (POR)
+  │  PRA OVER 26.5
+  │
+  │  Confidence:  39.6%
+  │  Edge:        +0.3%
+  │  Recent Avg:  26.8  (σ=7.2, n=0)
+  │  σ-Distance:  z = -0.04σ
+  │               Line 26.5 is 0.04σ BELOW mean (26.8) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 26.8 > Line 26.5, 39.6% confidence, +0.3% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 6+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #41 ────────────────────────────────────────────────────────────
+  │  GG Jackson (MEM)
+  │  PRA OVER 22.5
+  │
+  │  Confidence:  38.9%
+  │  Edge:        -1.8%
+  │  Recent Avg:  20.8  (σ=6.9, n=0)
+  │  σ-Distance:  z = 0.25σ
+  │               Line 22.5 is 0.25σ ABOVE mean (20.8) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 20.8 < Line 22.5, 38.9% confidence, -1.8% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 6+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #42 ────────────────────────────────────────────────────────────
+  │  Malik Monk (SAC)
+  │  PRA UNDER 14.5
+  │
+  │  Confidence:  38.8%
+  │  Edge:        -4.4%
+  │  Recent Avg:  18.9  (σ=7.9, n=0)
+  │  σ-Distance:  z = -0.56σ
+  │               Line 14.5 is 0.56σ BELOW mean (18.9) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 18.9 > Line 14.5, 38.8% confidence, -4.4% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #43 ────────────────────────────────────────────────────────────
+  │  Kobe Sanders (LAC)
+  │  PRA OVER 16.5
+  │
+  │  Confidence:  38.6%
+  │  Edge:        -1.6%
+  │  Recent Avg:  14.9  (σ=5.7, n=0)
+  │  σ-Distance:  z = 0.28σ
+  │               Line 16.5 is 0.28σ ABOVE mean (14.9) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 14.9 < Line 16.5, 38.6% confidence, -1.6% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 6+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #44 ────────────────────────────────────────────────────────────
+  │  Toumani Camara (POR)
+  │  PRA OVER 20.5
+  │
+  │  Confidence:  38.6%
+  │  Edge:        +0.6%
+  │  Recent Avg:  21.1  (σ=8.3, n=0)
+  │  σ-Distance:  z = -0.08σ
+  │               Line 20.5 is 0.08σ BELOW mean (21.1) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 21.1 > Line 20.5, 38.6% confidence, +0.6% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 6+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #45 ────────────────────────────────────────────────────────────
+  │  John Collins (LAC)
+  │  PRA OVER 24.0
+  │
+  │  Confidence:  38.4%
+  │  Edge:        -1.6%
+  │  Recent Avg:  22.4  (σ=5.5, n=0)
+  │  σ-Distance:  z = 0.30σ
+  │               Line 24.0 is 0.30σ ABOVE mean (22.4) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 22.4 < Line 24.0, 38.4% confidence, -1.6% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 6+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #46 ────────────────────────────────────────────────────────────
+  │  Zach LaVine (SAC)
+  │  PTS+AST OVER 18.5
+  │
+  │  Confidence:  37.6%
+  │  Edge:        +1.5%
+  │  Recent Avg:  20.0  (σ=11.1, n=0)
+  │  σ-Distance:  z = -0.14σ
+  │               Line 18.5 is 0.14σ BELOW mean (20.0) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 20.0 > Line 18.5, 37.6% confidence, +1.5% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #47 ────────────────────────────────────────────────────────────
+  │  Jordan Miller (LAC)
+  │  3PM OVER 0.5
+  │
+  │  Confidence:  37.5%
+  │  Edge:        +0.3%
+  │  Recent Avg:  0.8  (σ=1.6, n=29)
+  │  σ-Distance:  z = -0.21σ
+  │               Line 0.5 is 0.21σ BELOW mean (0.8) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.8 > Line 0.5, 37.5% confidence, +0.3% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #48 ────────────────────────────────────────────────────────────
+  │  De'Andre Hunter (SAC)
+  │  PRA OVER 20.0
+  │
+  │  Confidence:  37.4%
+  │  Edge:        -4.4%
+  │  Recent Avg:  15.6  (σ=8.1, n=0)
+  │  σ-Distance:  z = 0.55σ
+  │               Line 20.0 is 0.55σ ABOVE mean (15.6) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 15.6 < Line 20.0, 37.4% confidence, -4.4% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 6+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #49 ────────────────────────────────────────────────────────────
+  │  Russell Westbrook (SAC)
+  │  PTS+AST OVER 20.5
+  │
+  │  Confidence:  37.4%
+  │  Edge:        +0.6%
+  │  Recent Avg:  21.1  (σ=6.0, n=0)
+  │  σ-Distance:  z = -0.10σ
+  │               Line 20.5 is 0.10σ BELOW mean (21.1) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 21.1 > Line 20.5, 37.4% confidence, +0.6% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #50 ────────────────────────────────────────────────────────────
+  │  Donovan Clingan (POR)
+  │  PRA OVER 27.5
+  │
+  │  Confidence:  37.3%
+  │  Edge:        -0.7%
+  │  Recent Avg:  26.8  (σ=7.2, n=0)
+  │  σ-Distance:  z = 0.09σ
+  │               Line 27.5 is 0.09σ ABOVE mean (26.8) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 26.8 < Line 27.5, 37.3% confidence, -0.7% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 6+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #51 ────────────────────────────────────────────────────────────
+  │  Jerami Grant (POR)
+  │  PRA OVER 22.5
+  │
+  │  Confidence:  37.2%
+  │  Edge:        -2.5%
+  │  Recent Avg:  20.0  (σ=7.9, n=0)
+  │  σ-Distance:  z = 0.31σ
+  │               Line 22.5 is 0.31σ ABOVE mean (20.0) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 20.0 < Line 22.5, 37.2% confidence, -2.5% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 6+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #52 ────────────────────────────────────────────────────────────
+  │  Shaedon Sharpe (POR)
+  │  PRA OVER 30.5
+  │
+  │  Confidence:  37.2%
+  │  Edge:        -2.7%
+  │  Recent Avg:  27.8  (σ=8.4, n=0)
+  │  σ-Distance:  z = 0.32σ
+  │               Line 30.5 is 0.32σ ABOVE mean (27.8) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 27.8 < Line 30.5, 37.2% confidence, -2.7% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 6+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #53 ────────────────────────────────────────────────────────────
+  │  Maxime Raynaud (SAC)
+  │  PRA OVER 19.5
+  │
+  │  Confidence:  36.8%
+  │  Edge:        -3.6%
+  │  Recent Avg:  15.9  (σ=7.6, n=0)
+  │  σ-Distance:  z = 0.47σ
+  │               Line 19.5 is 0.47σ ABOVE mean (15.9) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 15.9 < Line 19.5, 36.8% confidence, -3.6% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 6+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #54 ────────────────────────────────────────────────────────────
+  │  Malik Monk (SAC)
+  │  3PM OVER 1.5
+  │
+  │  Confidence:  36.8%
+  │  Edge:        +0.7%
+  │  Recent Avg:  2.2  (σ=2.1, n=42)
+  │  σ-Distance:  z = -0.31σ
+  │               Line 1.5 is 0.31σ BELOW mean (2.2) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 2.2 > Line 1.5, 36.8% confidence, +0.7% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #55 ────────────────────────────────────────────────────────────
+  │  Kris Dunn (LAC)
+  │  PRA OVER 17.0
+  │
+  │  Confidence:  36.6%
+  │  Edge:        -3.1%
+  │  Recent Avg:  13.9  (σ=6.4, n=0)
+  │  σ-Distance:  z = 0.49σ
+  │               Line 17.0 is 0.49σ ABOVE mean (13.9) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 13.9 < Line 17.0, 36.6% confidence, -3.1% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 6+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #56 ────────────────────────────────────────────────────────────
+  │  Jordan Miller (LAC)
+  │  PTS+AST OVER 15.5
+  │
+  │  Confidence:  36.5%
+  │  Edge:        -0.4%
+  │  Recent Avg:  15.1  (σ=8.5, n=0)
+  │  σ-Distance:  z = 0.05σ
+  │               Line 15.5 is 0.05σ ABOVE mean (15.1) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 15.1 < Line 15.5, 36.5% confidence, -0.4% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #57 ────────────────────────────────────────────────────────────
+  │  Malik Monk (SAC)
+  │  PTS+AST UNDER 12.5
+  │
+  │  Confidence:  36.5%
+  │  Edge:        -4.4%
+  │  Recent Avg:  16.9  (σ=7.7, n=0)
+  │  σ-Distance:  z = -0.57σ
+  │               Line 12.5 is 0.57σ BELOW mean (16.9) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 16.9 > Line 12.5, 36.5% confidence, -4.4% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #58 ────────────────────────────────────────────────────────────
+  │  Jrue Holiday (POR)
+  │  PRA OVER 23.5
+  │
+  │  Confidence:  36.4%
+  │  Edge:        -3.4%
+  │  Recent Avg:  20.1  (σ=7.9, n=0)
+  │  σ-Distance:  z = 0.43σ
+  │               Line 23.5 is 0.43σ ABOVE mean (20.1) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 20.1 < Line 23.5, 36.4% confidence, -3.4% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 6+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #59 ────────────────────────────────────────────────────────────
+  │  Maxime Raynaud (SAC)
+  │  PTS+AST OVER 9.5
+  │
+  │  Confidence:  36.2%
+  │  Edge:        -0.5%
+  │  Recent Avg:  9.0  (σ=5.8, n=0)
+  │  σ-Distance:  z = 0.09σ
+  │               Line 9.5 is 0.09σ ABOVE mean (9.0) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 9.0 < Line 9.5, 36.2% confidence, -0.5% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #60 ────────────────────────────────────────────────────────────
+  │  De'Andre Hunter (SAC)
+  │  PTS+AST OVER 15.5
+  │
+  │  Confidence:  35.9%
+  │  Edge:        -2.7%
+  │  Recent Avg:  12.8  (σ=7.8, n=0)
+  │  σ-Distance:  z = 0.34σ
+  │               Line 15.5 is 0.34σ ABOVE mean (12.8) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 12.8 < Line 15.5, 35.9% confidence, -2.7% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #61 ────────────────────────────────────────────────────────────
+  │  John Collins (LAC)
+  │  PTS+AST OVER 17.5
+  │
+  │  Confidence:  35.8%
+  │  Edge:        -0.7%
+  │  Recent Avg:  16.8  (σ=4.7, n=0)
+  │  σ-Distance:  z = 0.15σ
+  │               Line 17.5 is 0.15σ ABOVE mean (16.8) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 16.8 < Line 17.5, 35.8% confidence, -0.7% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #62 ────────────────────────────────────────────────────────────
+  │  Brook Lopez (LAC)
+  │  PRA OVER 15.5
+  │
+  │  Confidence:  35.6%
+  │  Edge:        -5.1%
+  │  Recent Avg:  10.4  (σ=6.9, n=0)
+  │  σ-Distance:  z = 0.73σ
+  │               Line 15.5 is 0.73σ ABOVE mean (10.4) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 10.4 < Line 15.5, 35.6% confidence, -5.1% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 6+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #63 ────────────────────────────────────────────────────────────
+  │  Kris Dunn (LAC)
+  │  PTS+AST OVER 13.5
+  │
+  │  Confidence:  35.5%
+  │  Edge:        -2.4%
+  │  Recent Avg:  11.1  (σ=6.1, n=0)
+  │  σ-Distance:  z = 0.40σ
+  │               Line 13.5 is 0.40σ ABOVE mean (11.1) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 11.1 < Line 13.5, 35.5% confidence, -2.4% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #64 ────────────────────────────────────────────────────────────
+  │  GG Jackson (MEM)
+  │  PTS+AST OVER 16.5
+  │
+  │  Confidence:  35.4%
+  │  Edge:        -1.4%
+  │  Recent Avg:  15.1  (σ=6.5, n=0)
+  │  σ-Distance:  z = 0.21σ
+  │               Line 16.5 is 0.21σ ABOVE mean (15.1) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 15.1 < Line 16.5, 35.4% confidence, -1.4% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #65 ────────────────────────────────────────────────────────────
+  │  Jerami Grant (POR)
+  │  PTS+AST OVER 18.5
+  │
+  │  Confidence:  35.3%
+  │  Edge:        -0.8%
+  │  Recent Avg:  17.7  (σ=7.6, n=0)
+  │  σ-Distance:  z = 0.11σ
+  │               Line 18.5 is 0.11σ ABOVE mean (17.7) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 17.7 < Line 18.5, 35.3% confidence, -0.8% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #66 ────────────────────────────────────────────────────────────
+  │  Derrick Jones (LAC)
+  │  PTS+AST OVER 14.5
+  │
+  │  Confidence:  35.3%
+  │  Edge:        -4.1%
+  │  Recent Avg:  10.4  (σ=7.1, n=0)
+  │  σ-Distance:  z = 0.57σ
+  │               Line 14.5 is 0.57σ ABOVE mean (10.4) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 10.4 < Line 14.5, 35.3% confidence, -4.1% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #67 ────────────────────────────────────────────────────────────
+  │  Toumani Camara (POR)
+  │  PTS+AST OVER 15.5
+  │
+  │  Confidence:  35.1%
+  │  Edge:        -1.1%
+  │  Recent Avg:  14.4  (σ=7.6, n=0)
+  │  σ-Distance:  z = 0.15σ
+  │               Line 15.5 is 0.15σ ABOVE mean (14.4) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 14.4 < Line 15.5, 35.1% confidence, -1.1% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #68 ────────────────────────────────────────────────────────────
+  │  Shaedon Sharpe (POR)
+  │  PTS+AST OVER 25.5
+  │
+  │  Confidence:  35.0%
+  │  Edge:        -1.3%
+  │  Recent Avg:  24.2  (σ=8.1, n=0)
+  │  σ-Distance:  z = 0.16σ
+  │               Line 25.5 is 0.16σ ABOVE mean (24.2) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 24.2 < Line 25.5, 35.0% confidence, -1.3% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #69 ────────────────────────────────────────────────────────────
+  │  Brook Lopez (LAC)
+  │  PTS+AST OVER 11.5
+  │
+  │  Confidence:  34.8%
+  │  Edge:        -3.3%
+  │  Recent Avg:  8.2  (σ=6.7, n=0)
+  │  σ-Distance:  z = 0.49σ
+  │               Line 11.5 is 0.49σ ABOVE mean (8.2) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 8.2 < Line 11.5, 34.8% confidence, -3.3% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #70 ────────────────────────────────────────────────────────────
+  │  Jrue Holiday (POR)
+  │  PTS+AST OVER 19.5
+  │
+  │  Confidence:  34.8%
+  │  Edge:        -2.9%
+  │  Recent Avg:  16.6  (σ=7.5, n=0)
+  │  σ-Distance:  z = 0.39σ
+  │               Line 19.5 is 0.39σ ABOVE mean (16.6) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 16.6 < Line 19.5, 34.8% confidence, -2.9% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility, High variance (σ is elevated)
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #71 ────────────────────────────────────────────────────────────
+  │  Donovan Clingan (POR)
+  │  PTS+AST OVER 14.5
+  │
+  │  Confidence:  34.6%
+  │  Edge:        -1.1%
+  │  Recent Avg:  13.4  (σ=4.7, n=0)
+  │  σ-Distance:  z = 0.24σ
+  │               Line 14.5 is 0.24σ ABOVE mean (13.4) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 13.4 < Line 14.5, 34.6% confidence, -1.1% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #72 ────────────────────────────────────────────────────────────
+  │  Kawhi Leonard (LAC)
+  │  PRA OVER 40.5
+  │
+  │  Confidence:  32.4%
+  │  Edge:        -5.8%
+  │  Recent Avg:  34.7  (σ=4.9, n=0)
+  │  σ-Distance:  z = 1.20σ
+  │               Line 40.5 is 1.20σ ABOVE mean (34.7) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 34.7 < Line 40.5, 32.4% confidence, -5.8% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 5+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #73 ────────────────────────────────────────────────────────────
+  │  Kawhi Leonard (LAC)
+  │  PTS+AST OVER 34.5
+  │
+  │  Confidence:  31.6%
+  │  Edge:        -5.3%
+  │  Recent Avg:  29.2  (σ=4.3, n=0)
+  │  σ-Distance:  z = 1.22σ
+  │               Line 34.5 is 1.22σ ABOVE mean (29.2) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 29.2 < Line 34.5, 31.6% confidence, -5.3% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #74 ────────────────────────────────────────────────────────────
+  │  Shaedon Sharpe (POR)
+  │  3PM OVER 2.5
+  │
+  │  Confidence:  27.4%
+  │  Edge:        +0.1%
+  │  Recent Avg:  2.6  (σ=1.7, n=47)
+  │  σ-Distance:  z = -0.09σ
+  │               Line 2.5 is 0.09σ BELOW mean (2.6) → favorable for OVER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 2.6 > Line 2.5, 27.4% confidence, +0.1% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #75 ────────────────────────────────────────────────────────────
+  │  Jerami Grant (POR)
+  │  3PM OVER 3.5
+  │
+  │  Confidence:  26.5%
+  │  Edge:        -1.7%
+  │  Recent Avg:  1.8  (σ=1.6, n=35)
+  │  σ-Distance:  z = 1.06σ
+  │               Line 3.5 is 1.06σ ABOVE mean (1.8) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 1.8 < Line 3.5, 26.5% confidence, -1.7% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #76 ────────────────────────────────────────────────────────────
+  │  Maxime Raynaud (SAC)
+  │  3PM OVER 0.5
+  │
+  │  Confidence:  24.6%
+  │  Edge:        -0.2%
+  │  Recent Avg:  0.3  (σ=0.9, n=44)
+  │  σ-Distance:  z = 0.17σ
+  │               Line 0.5 is 0.17σ ABOVE mean (0.3) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.3 < Line 0.5, 24.6% confidence, -0.2% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #77 ────────────────────────────────────────────────────────────
+  │  Brook Lopez (LAC)
+  │  3PM OVER 3.5
+  │
+  │  Confidence:  21.3%
+  │  Edge:        -2.2%
+  │  Recent Avg:  1.3  (σ=1.5, n=43)
+  │  σ-Distance:  z = 1.44σ
+  │               Line 3.5 is 1.44σ ABOVE mean (1.3) → favorable for UNDER
+  │  Tier Label:  [NO_PLAY]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 1.3 < Line 3.5, 21.3% confidence, -2.2% edge
+  │   • Structural risk: Over bias / market inflation, Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is more protected. OVER is fragile in current market context.
+  └─────────────────────────────────────────────────────────────────
+
+════════════════════════════════════════════════════════════════════════════════
+  ⏭️ SKIP (5)
+  Blocked by governance gates or data quality issues
+════════════════════════════════════════════════════════════════════════════════
+
+  ┌─ #1 ────────────────────────────────────────────────────────────
+  │  Scotty Pippen (?)
+  │  PRA ? 16.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 16.5, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #2 ────────────────────────────────────────────────────────────
+  │  Scotty Pippen (?)
+  │  PRA ? 16.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 16.5, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Composite fragility (one leg failing sinks the bet), Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 4+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #3 ────────────────────────────────────────────────────────────
+  │  Scotty Pippen (?)
+  │  3PM ? 0.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 0.5, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #4 ────────────────────────────────────────────────────────────
+  │  Scotty Pippen (?)
+  │  PTS+AST ? 12.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 12.5, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+  ┌─ #5 ────────────────────────────────────────────────────────────
+  │  Scotty Pippen (?)
+  │  PTS+AST ? 12.5
+  │
+  │  Confidence:  0.0%
+  │  Edge:        +0.0%
+  │  Recent Avg:  0.0  (σ=0.0, n=0)
+  │  Tier Label:  [SKIP]
+  │  Failure Lens:
+  │   • Math says: Recent Avg 0.0 < Line 12.5, 0.0% confidence, +0.0% edge
+  │   • Structural risk: Minutes risk, Possible blowout, Usage volatility
+  │   • Failure count: 3+
+  │   • Correct lens: UNDER is aligned; consider NO PLAY if variance or context risks are high.
+  └─────────────────────────────────────────────────────────────────
+
+════════════════════════════════════════════════════════════════════════════════

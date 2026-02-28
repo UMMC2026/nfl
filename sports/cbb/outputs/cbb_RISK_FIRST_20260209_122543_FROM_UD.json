@@ -1,0 +1,5446 @@
+{
+  "picks": [
+    {
+      "edge_id": "cbb_LOU_Mikel_Brown_Jr._AST_5p0_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Mikel Brown Jr.",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "AST",
+      "line": 5.0,
+      "direction": "higher",
+      "probability": 0.3734,
+      "player_mean": 5.27,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 5.2667,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.393013,
+          "direction": "higher",
+          "line": 5.0
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.373363
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.373363,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=28.3",
+        "games: GP=15",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [],
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=28.3"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=15"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.13<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.135,
+          "z_season": 0.135,
+          "z_threshold": 0.55,
+          "l10_mu": 5.27,
+          "season_mu": 5.27
+        },
+        "cv": {
+          "cv_ratio": 0.38,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.3734,
+      "skip_reason": "SDG_HARD_REJECT: z=0.14 (no signal)"
+    },
+    {
+      "edge_id": "cbb_LOU_Ryan_Conwell_PTS_16p0_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Ryan Conwell",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "PTS",
+      "line": 16.0,
+      "direction": "lower",
+      "probability": 0.6347,
+      "player_mean": 13.94,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 13.9444,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.668089,
+          "direction": "lower",
+          "line": 16.0
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.634685
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.634685,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "LEAN",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.1",
+        "games: GP=126"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.2384,
+        "kept": "lower",
+        "kept_probability": 0.6347
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.1"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=126"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 1.03,
+          "z_season": 1.03,
+          "z_threshold": 0.6,
+          "l10_mu": 13.94,
+          "season_mu": 13.94,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.143,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.6347,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 13.94,
+      "projected_sigma": 2.0
+    },
+    {
+      "edge_id": "cbb_LOU_Mikel_Brown_Jr._PTS_14p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Mikel Brown Jr.",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "PTS",
+      "line": 14.5,
+      "direction": "higher",
+      "probability": 0.5,
+      "player_mean": 15.4,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 15.4,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.572068,
+          "direction": "higher",
+          "line": 14.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.543465
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.543465,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=28.3",
+        "games: GP=15",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "lower",
+        "probability": 0.4065,
+        "kept": "higher",
+        "kept_probability": 0.5435
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=28.3"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=15"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.45<0.6",
+        "PHASE_FAIL:CONFERENCE_PLAY",
+        "SOFT_PENALTY:92%"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.45,
+          "z_season": 0.45,
+          "z_threshold": 0.6,
+          "l10_mu": 15.4,
+          "season_mu": 15.4
+        },
+        "cv": {
+          "cv_ratio": 0.13,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5435,
+      "sdg_soft_penalty": 0.92,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_LOU_J'Vonne_Hadley_PTS_11p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "J'Vonne Hadley",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "lower",
+      "probability": 0.6549,
+      "player_mean": 9.84,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 9.8359,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.689381,
+          "direction": "lower",
+          "line": 11.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.654912
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.654912,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "LEAN",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=28.3",
+        "games: GP=128"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.2951,
+        "kept": "lower",
+        "kept_probability": 0.6549
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=28.3"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=128"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.83,
+          "z_season": 0.83,
+          "z_threshold": 0.6,
+          "l10_mu": 9.84,
+          "season_mu": 9.84,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.203,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.6549,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 9.84,
+      "projected_sigma": 2.0
+    },
+    {
+      "edge_id": "cbb_LOU_Isaac_McKneely_PTS_10p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Isaac McKneely",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "lower",
+      "probability": 0.3707,
+      "player_mean": 11.21,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 11.2149,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.459047,
+          "direction": "lower",
+          "line": 10.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.436095
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.436095,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.3",
+        "games: GP=121"
+      ],
+      "gates_failed": [],
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.3"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=121"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.36<0.6",
+        "PHASE_FAIL:CONFERENCE_PLAY",
+        "SOFT_PENALTY:85%"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.355,
+          "z_season": 0.355,
+          "z_threshold": 0.6,
+          "l10_mu": 11.21,
+          "season_mu": 11.21
+        },
+        "cv": {
+          "cv_ratio": 0.178,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.4361,
+      "sdg_soft_penalty": 0.85,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_LOU_Sananda_Fru_PTS_9p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Sananda Fru",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "PTS",
+      "line": 9.5,
+      "direction": "higher",
+      "probability": 0.5056,
+      "player_mean": 10.61,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 10.6087,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.578567,
+          "direction": "higher",
+          "line": 9.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.549639
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.549639,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=22.9",
+        "games: GP=23",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "lower",
+        "probability": 0.4004,
+        "kept": "higher",
+        "kept_probability": 0.5496
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=22.9"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=23"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.55<0.6",
+        "SOFT_PENALTY:92%"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.555,
+          "z_season": 0.555,
+          "z_threshold": 0.6,
+          "l10_mu": 10.61,
+          "season_mu": 10.61
+        },
+        "cv": {
+          "cv_ratio": 0.189,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5496,
+      "sdg_soft_penalty": 0.92,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_LOU_Mikel_Brown_Jr._POINTS+ASSISTS_19p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Mikel Brown Jr.",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "POINTS+ASSISTS",
+      "line": 19.5,
+      "direction": "higher",
+      "probability": 0.5584,
+      "player_mean": 20.67,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 20.6667,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "poisson",
+          "sigma": 4.55,
+          "raw_prob": 0.587791,
+          "direction": "higher",
+          "line": 19.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.558401
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.558401,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=28.3",
+        "games: GP=15",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "lower",
+        "probability": 0.3916,
+        "kept": "higher",
+        "kept_probability": 0.5584
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=28.3"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=15"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.585,
+          "z_season": 0.585,
+          "z_threshold": 0.55,
+          "l10_mu": 20.67,
+          "season_mu": 20.67,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.097,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5584,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 20.67,
+      "projected_sigma": 2.0,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_LOU_Ryan_Conwell_POINTS+ASSISTS_18p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Ryan Conwell",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "POINTS+ASSISTS",
+      "line": 18.5,
+      "direction": "lower",
+      "probability": 0.68,
+      "player_mean": 16.29,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 16.2857,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "poisson",
+          "sigma": 4.04,
+          "raw_prob": 0.718228,
+          "direction": "lower",
+          "line": 18.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.682316
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": "stat_cap"
+        },
+        "final": {
+          "final_prob": 0.68,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "STRONG",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.1",
+        "games: GP=126"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.2677,
+        "kept": "lower",
+        "kept_probability": 0.68
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.1"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=126"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 1.105,
+          "z_season": 1.105,
+          "z_threshold": 0.55,
+          "l10_mu": 16.29,
+          "season_mu": 16.29,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.123,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.68,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 16.29,
+      "projected_sigma": 2.0
+    },
+    {
+      "edge_id": "cbb_LOU_J'Vonne_Hadley_POINTS+ASSISTS_12p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "J'Vonne Hadley",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "POINTS+ASSISTS",
+      "line": 12.5,
+      "direction": "lower",
+      "probability": 0.5427,
+      "player_mean": 11.55,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 11.5469,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.620948,
+          "direction": "lower",
+          "line": 12.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.5899
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.5899,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=28.3",
+        "games: GP=128"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.3601,
+        "kept": "lower",
+        "kept_probability": 0.5899
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=28.3"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=128"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.47<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY",
+        "SOFT_PENALTY:92%"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.475,
+          "z_season": 0.475,
+          "z_threshold": 0.55,
+          "l10_mu": 11.55,
+          "season_mu": 11.55
+        },
+        "cv": {
+          "cv_ratio": 0.173,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5899,
+      "sdg_soft_penalty": 0.92,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_LOU_Sananda_Fru_POINTS+ASSISTS_12p0_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Sananda Fru",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "POINTS+ASSISTS",
+      "line": 12.0,
+      "direction": "lower",
+      "probability": 0.4539,
+      "player_mean": 12.0,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 12.0,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.477767,
+          "direction": "lower",
+          "line": 12.0
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.453879
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.453879,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=22.9",
+        "games: GP=23"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.4021,
+        "kept": "lower",
+        "kept_probability": 0.4539
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=22.9"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=23"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.00<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.0,
+          "z_season": 0.0,
+          "z_threshold": 0.55,
+          "l10_mu": 12.0,
+          "season_mu": 12.0
+        },
+        "cv": {
+          "cv_ratio": 0.167,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.4539,
+      "skip_reason": "SDG_HARD_REJECT: z=0.00 (no signal)"
+    },
+    {
+      "edge_id": "cbb_LOU_Isaac_McKneely_POINTS+ASSISTS_11p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Isaac McKneely",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "POINTS+ASSISTS",
+      "line": 11.5,
+      "direction": "higher",
+      "probability": 0.5772,
+      "player_mean": 12.82,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 12.8182,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.607548,
+          "direction": "higher",
+          "line": 11.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.577171
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.577171,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.3",
+        "games: GP=121",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "lower",
+        "probability": 0.3728,
+        "kept": "higher",
+        "kept_probability": 0.5772
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.3"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=121"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.66,
+          "z_season": 0.66,
+          "z_threshold": 0.55,
+          "l10_mu": 12.82,
+          "season_mu": 12.82,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.156,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5772,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 12.82,
+      "projected_sigma": 2.0,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_LOU_Ryan_Conwell_POINTS+REBOUNDS_21p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Ryan Conwell",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "POINTS+REBOUNDS",
+      "line": 21.5,
+      "direction": "lower",
+      "probability": 0.68,
+      "player_mean": 17.77,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 17.7698,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "poisson",
+          "sigma": 4.22,
+          "raw_prob": 0.81456,
+          "direction": "lower",
+          "line": 21.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.773832
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": "stat_cap"
+        },
+        "final": {
+          "final_prob": 0.68,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "STRONG",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.1",
+        "games: GP=126"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.1762,
+        "kept": "lower",
+        "kept_probability": 0.68
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.1"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=126"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 1.865,
+          "z_season": 1.865,
+          "z_threshold": 0.55,
+          "l10_mu": 17.77,
+          "season_mu": 17.77,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.113,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.68,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 17.77,
+      "projected_sigma": 2.0
+    },
+    {
+      "edge_id": "cbb_LOU_Mikel_Brown_Jr._POINTS+REBOUNDS_17p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Mikel Brown Jr.",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "POINTS+REBOUNDS",
+      "line": 17.5,
+      "direction": "higher",
+      "probability": 0.454,
+      "player_mean": 18.33,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 18.3333,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "poisson",
+          "sigma": 4.28,
+          "raw_prob": 0.562235,
+          "direction": "higher",
+          "line": 17.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.534123
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.534123,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=28.3",
+        "games: GP=15",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "lower",
+        "probability": 0.4159,
+        "kept": "higher",
+        "kept_probability": 0.5341
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=28.3"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=15"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.41<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY",
+        "SOFT_PENALTY:85%"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.415,
+          "z_season": 0.415,
+          "z_threshold": 0.55,
+          "l10_mu": 18.33,
+          "season_mu": 18.33
+        },
+        "cv": {
+          "cv_ratio": 0.109,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5341,
+      "sdg_soft_penalty": 0.85,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_LOU_J'Vonne_Hadley_POINTS+REBOUNDS_15p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "J'Vonne Hadley",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "POINTS+REBOUNDS",
+      "line": 15.5,
+      "direction": "higher",
+      "probability": 0.4603,
+      "player_mean": 15.52,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 15.5234,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.484564,
+          "direction": "higher",
+          "line": 15.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.460336
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.460336,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=28.3",
+        "games: GP=128",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [],
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=28.3"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=128"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.01<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.01,
+          "z_season": 0.01,
+          "z_threshold": 0.55,
+          "l10_mu": 15.52,
+          "season_mu": 15.52
+        },
+        "cv": {
+          "cv_ratio": 0.129,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.4603,
+      "skip_reason": "SDG_HARD_REJECT: z=0.01 (no signal)"
+    },
+    {
+      "edge_id": "cbb_LOU_Sananda_Fru_POINTS+REBOUNDS_15p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Sananda Fru",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "POINTS+REBOUNDS",
+      "line": 15.5,
+      "direction": "higher",
+      "probability": 0.0,
+      "player_mean": 17.22,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 17.2174,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.15,
+          "raw_prob": 0.0,
+          "direction": "higher",
+          "line": 15.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.0
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.0,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=22.9",
+        "games: GP=23",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [],
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=22.9"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=23"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.86,
+          "z_season": 0.86,
+          "z_threshold": 0.55,
+          "l10_mu": 17.22,
+          "season_mu": 17.22,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.116,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.0,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 17.22,
+      "projected_sigma": 2.0,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_LOU_Isaac_McKneely_POINTS+REBOUNDS_13p0_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Isaac McKneely",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "POINTS+REBOUNDS",
+      "line": 13.0,
+      "direction": "lower",
+      "probability": 0.3327,
+      "player_mean": 13.91,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 13.9091,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.380608,
+          "direction": "lower",
+          "line": 13.0
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.361578
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.361578,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.3",
+        "games: GP=121"
+      ],
+      "gates_failed": [],
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.3"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=121"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.46<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY",
+        "SOFT_PENALTY:92%"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.455,
+          "z_season": 0.455,
+          "z_threshold": 0.55,
+          "l10_mu": 13.91,
+          "season_mu": 13.91
+        },
+        "cv": {
+          "cv_ratio": 0.144,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.3616,
+      "sdg_soft_penalty": 0.92,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_LOU_Ryan_Conwell_PRA_23p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Ryan Conwell",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "PRA",
+      "line": 23.5,
+      "direction": "lower",
+      "probability": 0.633,
+      "player_mean": 20.11,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 20.1111,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.633022,
+          "direction": "lower",
+          "line": 23.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.633022
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.633022,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "LEAN",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.1",
+        "games: GP=126"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.3236,
+        "kept": "lower",
+        "kept_probability": 0.633
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.1"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=126"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 1.695,
+          "z_season": 1.695,
+          "z_threshold": 0.55,
+          "l10_mu": 20.11,
+          "season_mu": 20.11,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.099,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.633,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 20.11,
+      "projected_sigma": 2.0
+    },
+    {
+      "edge_id": "cbb_LOU_Mikel_Brown_Jr._PRA_22p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Mikel Brown Jr.",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "PRA",
+      "line": 22.5,
+      "direction": "lower",
+      "probability": 0.4253,
+      "player_mean": 23.6,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 23.6,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.425346,
+          "direction": "lower",
+          "line": 22.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.425346
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.425346,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=28.3",
+        "games: GP=15"
+      ],
+      "gates_failed": [],
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=28.3"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=15"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.55,
+          "z_season": 0.55,
+          "z_threshold": 0.55,
+          "l10_mu": 23.6,
+          "season_mu": 23.6,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.085,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.4253,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 23.6,
+      "projected_sigma": 2.0,
+      "skip_reason": "COMPOSITE_LOW_Z:0.55<0.6"
+    },
+    {
+      "edge_id": "cbb_LOU_J'Vonne_Hadley_PRA_17p0_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "J'Vonne Hadley",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "PRA",
+      "line": 17.0,
+      "direction": "lower",
+      "probability": 0.4656,
+      "player_mean": 17.23,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 17.2344,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.465575,
+          "direction": "lower",
+          "line": 17.0
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.465575
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.465575,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=28.3",
+        "games: GP=128"
+      ],
+      "gates_failed": [],
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=28.3"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=128"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.12<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.115,
+          "z_season": 0.115,
+          "z_threshold": 0.55,
+          "l10_mu": 17.23,
+          "season_mu": 17.23
+        },
+        "cv": {
+          "cv_ratio": 0.116,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.4656,
+      "skip_reason": "SDG_HARD_REJECT: z=0.12 (no signal)"
+    },
+    {
+      "edge_id": "cbb_LOU_Sananda_Fru_PRA_16p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Sananda Fru",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "PRA",
+      "line": 16.5,
+      "direction": "higher",
+      "probability": 0.5751,
+      "player_mean": 18.61,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 18.6087,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.575055,
+          "direction": "higher",
+          "line": 16.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.575055
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.575055,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=22.9",
+        "games: GP=23",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "lower",
+        "probability": 0.3795,
+        "kept": "higher",
+        "kept_probability": 0.5751
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=22.9"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=23"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 1.055,
+          "z_season": 1.055,
+          "z_threshold": 0.55,
+          "l10_mu": 18.61,
+          "season_mu": 18.61,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.107,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5751,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 18.61,
+      "projected_sigma": 2.0,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_LOU_Isaac_McKneely_PRA_14p0_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Isaac McKneely",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "PRA",
+      "line": 14.0,
+      "direction": "higher",
+      "probability": 0.5474,
+      "player_mean": 15.51,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 15.5124,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.547404,
+          "direction": "higher",
+          "line": 14.0
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.547404
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.547404,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.3",
+        "games: GP=121",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "lower",
+        "probability": 0.4064,
+        "kept": "higher",
+        "kept_probability": 0.5474
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.3"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=121"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.755,
+          "z_season": 0.755,
+          "z_threshold": 0.55,
+          "l10_mu": 15.51,
+          "season_mu": 15.51,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.129,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5474,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 15.51,
+      "projected_sigma": 2.0,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_LOU_Ryan_Conwell_REB_4p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Ryan Conwell",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "REB",
+      "line": 4.5,
+      "direction": "lower",
+      "probability": 0.5495,
+      "player_mean": 3.83,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 3.8254,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.680577,
+          "direction": "lower",
+          "line": 4.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.646548
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 0.75,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.646548,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.1",
+        "games: GP=126"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.3035,
+        "kept": "lower",
+        "kept_probability": 0.6465
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.1"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=126"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.33<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY",
+        "SOFT_PENALTY:85%"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.335,
+          "z_season": 0.335,
+          "z_threshold": 0.55,
+          "l10_mu": 3.83,
+          "season_mu": 3.83
+        },
+        "cv": {
+          "cv_ratio": 0.522,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.6465,
+      "sdg_soft_penalty": 0.85,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_LOU_Isaac_McKneely_REB_2p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Isaac McKneely",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "REB",
+      "line": 2.5,
+      "direction": "lower",
+      "probability": 0.5646,
+      "player_mean": 2.69,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 2.6942,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.660354,
+          "direction": "lower",
+          "line": 2.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.627336
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 0.7,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.627336,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.3",
+        "games: GP=121"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.3227,
+        "kept": "lower",
+        "kept_probability": 0.6273
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.3"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=121"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 0.9,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.09<0.55",
+        "CV_PENALTY:90%",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.095,
+          "z_season": 0.095,
+          "z_threshold": 0.55,
+          "l10_mu": 2.69,
+          "season_mu": 2.69
+        },
+        "cv": {
+          "cv_ratio": 0.743,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.6273,
+      "skip_reason": "SDG_HARD_REJECT: z=0.10 (no signal)"
+    },
+    {
+      "edge_id": "cbb_LOU_Ryan_Conwell_REBOUNDS+ASSISTS_7p0_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Ryan Conwell",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "REBOUNDS+ASSISTS",
+      "line": 7.0,
+      "direction": "lower",
+      "probability": 0.486,
+      "player_mean": 6.17,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 6.1667,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.601842,
+          "direction": "lower",
+          "line": 7.0
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.57175
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.57175,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.1",
+        "games: GP=126"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.2966,
+        "kept": "lower",
+        "kept_probability": 0.5718
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.1"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=126"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.42<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY",
+        "SOFT_PENALTY:85%"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.415,
+          "z_season": 0.415,
+          "z_threshold": 0.55,
+          "l10_mu": 6.17,
+          "season_mu": 6.17
+        },
+        "cv": {
+          "cv_ratio": 0.324,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5718,
+      "sdg_soft_penalty": 0.85,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_LOU_Isaac_McKneely_REBOUNDS+ASSISTS_3p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Isaac McKneely",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "REBOUNDS+ASSISTS",
+      "line": 3.5,
+      "direction": "higher",
+      "probability": 0.3823,
+      "player_mean": 4.3,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 4.2975,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.473455,
+          "direction": "higher",
+          "line": 3.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.449782
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 0.75,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.449782,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.3",
+        "games: GP=121",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [],
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.3"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=121"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.40<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY",
+        "SOFT_PENALTY:85%"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.4,
+          "z_season": 0.4,
+          "z_threshold": 0.55,
+          "l10_mu": 4.3,
+          "season_mu": 4.3
+        },
+        "cv": {
+          "cv_ratio": 0.465,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.4498,
+      "sdg_soft_penalty": 0.85,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_LOU_Isaac_McKneely_3PM_2p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Isaac McKneely",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "3PM",
+      "line": 2.5,
+      "direction": "higher",
+      "probability": 0.4058,
+      "player_mean": 2.48,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 2.4793,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "poisson",
+          "sigma": 1.57,
+          "raw_prob": 0.450876,
+          "direction": "higher",
+          "line": 2.5
+        },
+        "adjustment": {
+          "multiplier": 0.9,
+          "adjusted_prob": 0.405789
+        },
+        "caps": {
+          "stat_cap": 0.65,
+          "global_cap": 0.79,
+          "low_line_cap": 0.7,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.405789,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.3",
+        "games: GP=121",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [],
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.3"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=121"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.01<0.45",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.01,
+          "z_season": 0.01,
+          "z_threshold": 0.45,
+          "l10_mu": 2.48,
+          "season_mu": 2.48
+        },
+        "cv": {
+          "cv_ratio": 0.806,
+          "cv_threshold": 0.85,
+          "player_role": "SPECIALIST"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.4058,
+      "skip_reason": "SDG_HARD_REJECT: z=0.01 (no signal)"
+    },
+    {
+      "edge_id": "cbb_LOU_Ryan_Conwell_PTS_16p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Ryan Conwell",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "PTS",
+      "line": 16.5,
+      "direction": "lower",
+      "probability": 0.68,
+      "player_mean": 13.94,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 13.9444,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.749039,
+          "direction": "lower",
+          "line": 16.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.711587
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": "stat_cap"
+        },
+        "final": {
+          "final_prob": 0.68,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_espn_api",
+      "data_source": "espn_api",
+      "tier": "STRONG",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.1",
+        "games: GP=126"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.2384,
+        "kept": "lower",
+        "kept_probability": 0.68
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.1"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=126"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 1.28,
+          "z_season": 1.28,
+          "z_threshold": 0.6,
+          "l10_mu": 13.94,
+          "season_mu": 13.94,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.143,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.68,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 13.94,
+      "projected_sigma": 2.0
+    },
+    {
+      "edge_id": "cbb_LOU_Isaac_McKneely_PRA_13p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Isaac McKneely",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "PRA",
+      "line": 13.5,
+      "direction": "higher",
+      "probability": 0.5706,
+      "player_mean": 15.51,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 15.5124,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.570611,
+          "direction": "higher",
+          "line": 13.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.570611
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.570611,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.3",
+        "games: GP=121",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "lower",
+        "probability": 0.3838,
+        "kept": "higher",
+        "kept_probability": 0.5706
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.3"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=121"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": true,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 1.005,
+          "z_season": 1.005,
+          "z_threshold": 0.55,
+          "l10_mu": 15.51,
+          "season_mu": 15.51,
+          "window_drift": 0.0
+        },
+        "cv": {
+          "cv_ratio": 0.129,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.5706,
+      "context_penalty": 1.0,
+      "context_adjustments": [],
+      "context_flags": [],
+      "projected_mu": 15.51,
+      "projected_sigma": 2.0,
+      "skip_reason": "BELOW_THRESHOLD"
+    },
+    {
+      "edge_id": "cbb_LOU_J'Vonne_Hadley_PRA_17p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "J'Vonne Hadley",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "PRA",
+      "line": 17.5,
+      "direction": "higher",
+      "probability": 0.4641,
+      "player_mean": 17.23,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 17.2344,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.464114,
+          "direction": "higher",
+          "line": 17.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.464114
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.464114,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "normal_cdf_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=28.3",
+        "games: GP=128",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [],
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=28.3"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=128"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true,
+      "sdg_passed": false,
+      "sdg_penalty": 1.0,
+      "sdg_reasons": [
+        "FAIL_L10_Z:0.13<0.55",
+        "PHASE_FAIL:CONFERENCE_PLAY"
+      ],
+      "sdg_details": {
+        "blowout": {
+          "spread": 0,
+          "min_z_required": 0.5,
+          "reason": "COMPETITIVE"
+        },
+        "multi_window": {
+          "z_l10": 0.135,
+          "z_season": 0.135,
+          "z_threshold": 0.55,
+          "l10_mu": 17.23,
+          "season_mu": 17.23
+        },
+        "cv": {
+          "cv_ratio": 0.116,
+          "cv_threshold": 0.65,
+          "player_role": "ROLE_PLAYER"
+        },
+        "phase": {
+          "name": "CONFERENCE_PLAY",
+          "min_z_required": 0.5
+        }
+      },
+      "raw_probability": 0.4641,
+      "skip_reason": "SDG_HARD_REJECT: z=0.14 (no signal)"
+    },
+    {
+      "edge_id": "cbb_LOU_Quadir_Copeland_AST_7p0_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Quadir Copeland",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "AST",
+      "line": 7.0,
+      "direction": "higher",
+      "probability": 0.4149,
+      "player_mean": 7.42,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 7.42,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.436706,
+          "direction": "higher",
+          "line": 7.0
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.414871
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.414871,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "negbin_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Quadir Copeland not on Louisville Cardinals roster"
+      ],
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Quadir Copeland not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Quadir Copeland not on Louisville Cardinals roster"
+    },
+    {
+      "edge_id": "cbb_LOU_Paul_McNeil_Jr._PTS_13p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Paul McNeil Jr.",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "lower",
+      "probability": 0.5737,
+      "player_mean": 12.69,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 12.69,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.60387,
+          "direction": "lower",
+          "line": 13.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.573677
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.573677,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Paul McNeil Jr. not on Louisville Cardinals roster"
+      ],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.5325,
+        "kept": "lower",
+        "kept_probability": 0.5737
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Paul McNeil Jr. not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Paul McNeil Jr. not on Louisville Cardinals roster"
+    },
+    {
+      "edge_id": "cbb_LOU_Quadir_Copeland_PTS_13p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Quadir Copeland",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "PTS",
+      "line": 13.5,
+      "direction": "lower",
+      "probability": 0.5737,
+      "player_mean": 12.69,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 12.69,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.60387,
+          "direction": "lower",
+          "line": 13.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.573677
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.573677,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Quadir Copeland not on Louisville Cardinals roster"
+      ],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.5325,
+        "kept": "lower",
+        "kept_probability": 0.5737
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Quadir Copeland not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Quadir Copeland not on Louisville Cardinals roster"
+    },
+    {
+      "edge_id": "cbb_LOU_Ven-Allen_Lubin_PTS_11p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Ven-Allen Lubin",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "PTS",
+      "line": 11.5,
+      "direction": "lower",
+      "probability": 0.5695,
+      "player_mean": 10.81,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 10.81,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.59946,
+          "direction": "lower",
+          "line": 11.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.569487
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.569487,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Ven-Allen Lubin not on Louisville Cardinals roster"
+      ],
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Ven-Allen Lubin not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Ven-Allen Lubin not on Louisville Cardinals roster"
+    },
+    {
+      "edge_id": "cbb_LOU_Tre_Holloman_PTS_10p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Tre Holloman",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "PTS",
+      "line": 10.5,
+      "direction": "lower",
+      "probability": 0.5684,
+      "player_mean": 9.87,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 9.87,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.598282,
+          "direction": "lower",
+          "line": 10.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.568368
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.568368,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Tre Holloman not on Louisville Cardinals roster"
+      ],
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Tre Holloman not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Tre Holloman not on Louisville Cardinals roster"
+    },
+    {
+      "edge_id": "cbb_LOU_Quadir_Copeland_POINTS+ASSISTS_20p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Quadir Copeland",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "POINTS+ASSISTS",
+      "line": 20.5,
+      "direction": "lower",
+      "probability": 0.5925,
+      "player_mean": 19.27,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 19.27,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "poisson",
+          "sigma": 4.39,
+          "raw_prob": 0.62365,
+          "direction": "lower",
+          "line": 20.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.592468
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.592468,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Quadir Copeland not on Louisville Cardinals roster"
+      ],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.5614,
+        "kept": "lower",
+        "kept_probability": 0.5925
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Quadir Copeland not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Quadir Copeland not on Louisville Cardinals roster"
+    },
+    {
+      "edge_id": "cbb_LOU_Darrion_Williams_POINTS+ASSISTS_16p0_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Darrion Williams",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "POINTS+ASSISTS",
+      "line": 16.0,
+      "direction": "lower",
+      "probability": 0.5359,
+      "player_mean": 15.04,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 15.04,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.56415,
+          "direction": "lower",
+          "line": 16.0
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.535942
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.535942,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Darrion Williams not on Louisville Cardinals roster"
+      ],
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Darrion Williams not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Darrion Williams not on Louisville Cardinals roster"
+    },
+    {
+      "edge_id": "cbb_LOU_Tre_Holloman_POINTS+ASSISTS_12p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Tre Holloman",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "POINTS+ASSISTS",
+      "line": 12.5,
+      "direction": "lower",
+      "probability": 0.5713,
+      "player_mean": 11.75,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 11.75,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.601378,
+          "direction": "lower",
+          "line": 12.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.57131
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.57131,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Tre Holloman not on Louisville Cardinals roster"
+      ],
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Tre Holloman not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Tre Holloman not on Louisville Cardinals roster"
+    },
+    {
+      "edge_id": "cbb_LOU_Darrion_Williams_POINTS+REBOUNDS_19p0_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Darrion Williams",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "POINTS+REBOUNDS",
+      "line": 19.0,
+      "direction": "lower",
+      "probability": 0.5466,
+      "player_mean": 17.86,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 17.86,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "poisson",
+          "sigma": 4.23,
+          "raw_prob": 0.575346,
+          "direction": "lower",
+          "line": 19.0
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.546579
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.546579,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Darrion Williams not on Louisville Cardinals roster"
+      ],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.0,
+        "kept": "lower",
+        "kept_probability": 0.5466
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Darrion Williams not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Darrion Williams not on Louisville Cardinals roster"
+    },
+    {
+      "edge_id": "cbb_LOU_Ven-Allen_Lubin_POINTS+REBOUNDS_18p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Ven-Allen Lubin",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "POINTS+REBOUNDS",
+      "line": 18.5,
+      "direction": "higher",
+      "probability": 0.5558,
+      "player_mean": 19.61,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 19.61,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "poisson",
+          "sigma": 4.43,
+          "raw_prob": 0.585053,
+          "direction": "higher",
+          "line": 18.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.555801
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.555801,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Ven-Allen Lubin not on Louisville Cardinals roster"
+      ],
+      "dedupe_dropped": {
+        "direction": "lower",
+        "probability": 0.0,
+        "kept": "higher",
+        "kept_probability": 0.5558
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Ven-Allen Lubin not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Ven-Allen Lubin not on Louisville Cardinals roster"
+    },
+    {
+      "edge_id": "cbb_LOU_Quadir_Copeland_POINTS+REBOUNDS_17p0_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Quadir Copeland",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "POINTS+REBOUNDS",
+      "line": 17.0,
+      "direction": "lower",
+      "probability": 0.5395,
+      "player_mean": 15.98,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 15.98,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.567946,
+          "direction": "lower",
+          "line": 17.0
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.539548
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.539548,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Quadir Copeland not on Louisville Cardinals roster"
+      ],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.0,
+        "kept": "lower",
+        "kept_probability": 0.5395
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Quadir Copeland not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Quadir Copeland not on Louisville Cardinals roster"
+    },
+    {
+      "edge_id": "cbb_LOU_Paul_McNeil_Jr._POINTS+REBOUNDS_16p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Paul McNeil Jr.",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "POINTS+REBOUNDS",
+      "line": 16.5,
+      "direction": "lower",
+      "probability": 0.583,
+      "player_mean": 15.51,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 15.51,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.613719,
+          "direction": "lower",
+          "line": 16.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.583033
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.583033,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Paul McNeil Jr. not on Louisville Cardinals roster"
+      ],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.5497,
+        "kept": "lower",
+        "kept_probability": 0.583
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Paul McNeil Jr. not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Paul McNeil Jr. not on Louisville Cardinals roster"
+    },
+    {
+      "edge_id": "cbb_LOU_Tre_Holloman_POINTS+REBOUNDS_12p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Tre Holloman",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "POINTS+REBOUNDS",
+      "line": 12.5,
+      "direction": "lower",
+      "probability": 0.5713,
+      "player_mean": 11.75,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 11.75,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.601378,
+          "direction": "lower",
+          "line": 12.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.57131
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.57131,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Tre Holloman not on Louisville Cardinals roster"
+      ],
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Tre Holloman not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Tre Holloman not on Louisville Cardinals roster"
+    },
+    {
+      "edge_id": "cbb_LOU_Quadir_Copeland_PRA_24p0_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Quadir Copeland",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "PRA",
+      "line": 24.0,
+      "direction": "higher",
+      "probability": 0.544,
+      "player_mean": 25.44,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 25.44,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.544029,
+          "direction": "higher",
+          "line": 24.0
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.544029
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.544029,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "normal_cdf_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Quadir Copeland not on Louisville Cardinals roster"
+      ],
+      "dedupe_dropped": {
+        "direction": "lower",
+        "probability": 0.544,
+        "kept": "higher",
+        "kept_probability": 0.544
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Quadir Copeland not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Quadir Copeland not on Louisville Cardinals roster"
+    },
+    {
+      "edge_id": "cbb_LOU_Darrion_Williams_PRA_21p0_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Darrion Williams",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "PRA",
+      "line": 21.0,
+      "direction": "higher",
+      "probability": 0.5356,
+      "player_mean": 22.26,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 22.26,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.535623,
+          "direction": "higher",
+          "line": 21.0
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.535623
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.535623,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "normal_cdf_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Darrion Williams not on Louisville Cardinals roster"
+      ],
+      "dedupe_dropped": {
+        "direction": "lower",
+        "probability": 0.5356,
+        "kept": "higher",
+        "kept_probability": 0.5356
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Darrion Williams not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Darrion Williams not on Louisville Cardinals roster"
+    },
+    {
+      "edge_id": "cbb_LOU_Tre_Holloman_PRA_14p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Tre Holloman",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "PRA",
+      "line": 14.5,
+      "direction": "lower",
+      "probability": 0.6138,
+      "player_mean": 13.63,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 13.63,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 8.5,
+          "raw_prob": 0.613829,
+          "direction": "lower",
+          "line": 14.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.613829
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.613829,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Tre Holloman not on Louisville Cardinals roster"
+      ],
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Tre Holloman not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Tre Holloman not on Louisville Cardinals roster"
+    },
+    {
+      "edge_id": "cbb_LOU_Ven-Allen_Lubin_REB_7p0_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Ven-Allen Lubin",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "REB",
+      "line": 7.0,
+      "direction": "higher",
+      "probability": 0.4149,
+      "player_mean": 7.42,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 7.42,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.436706,
+          "direction": "higher",
+          "line": 7.0
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.414871
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.414871,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "negbin_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Ven-Allen Lubin not on Louisville Cardinals roster"
+      ],
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Ven-Allen Lubin not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Ven-Allen Lubin not on Louisville Cardinals roster"
+    },
+    {
+      "edge_id": "cbb_LOU_Darrion_Williams_REB_5p0_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Darrion Williams",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "REB",
+      "line": 5.0,
+      "direction": "lower",
+      "probability": 0.5489,
+      "player_mean": 4.7,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 4.7,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.577794,
+          "direction": "lower",
+          "line": 5.0
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.548905
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.548905,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Darrion Williams not on Louisville Cardinals roster"
+      ],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.3769,
+        "kept": "lower",
+        "kept_probability": 0.5489
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Darrion Williams not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Darrion Williams not on Louisville Cardinals roster"
+    },
+    {
+      "edge_id": "cbb_LOU_Quadir_Copeland_REB_4p0_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Quadir Copeland",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "REB",
+      "line": 4.0,
+      "direction": "lower",
+      "probability": 0.5704,
+      "player_mean": 3.76,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 3.76,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.600389,
+          "direction": "lower",
+          "line": 4.0
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.570369
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 0.75,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.570369,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "negbin_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Quadir Copeland not on Louisville Cardinals roster"
+      ],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.3485,
+        "kept": "lower",
+        "kept_probability": 0.5704
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Quadir Copeland not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Quadir Copeland not on Louisville Cardinals roster"
+    },
+    {
+      "edge_id": "cbb_LOU_Quadir_Copeland_REBOUNDS+ASSISTS_11p0_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Quadir Copeland",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "REBOUNDS+ASSISTS",
+      "line": 11.0,
+      "direction": "higher",
+      "probability": 0.4624,
+      "player_mean": 11.66,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 11.66,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.48673,
+          "direction": "higher",
+          "line": 11.0
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.462393
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.462393,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "negbin_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Quadir Copeland not on Louisville Cardinals roster"
+      ],
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Quadir Copeland not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Quadir Copeland not on Louisville Cardinals roster"
+    },
+    {
+      "edge_id": "cbb_LOU_Darrion_Williams_REBOUNDS+ASSISTS_7p0_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Darrion Williams",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "REBOUNDS+ASSISTS",
+      "line": 7.0,
+      "direction": "higher",
+      "probability": 0.4149,
+      "player_mean": 7.42,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 7.42,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "negbin",
+          "sigma": 4.0,
+          "raw_prob": 0.436706,
+          "direction": "higher",
+          "line": 7.0
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.414871
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.414871,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "negbin_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Darrion Williams not on Louisville Cardinals roster"
+      ],
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Darrion Williams not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Darrion Williams not on Louisville Cardinals roster"
+    },
+    {
+      "edge_id": "cbb_LOU_Darrion_Williams_POINTS+ASSISTS_15p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Darrion Williams",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "POINTS+ASSISTS",
+      "line": 15.5,
+      "direction": "higher",
+      "probability": 0.5465,
+      "player_mean": 16.43,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 16.43,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "poisson",
+          "sigma": 4.05,
+          "raw_prob": 0.575276,
+          "direction": "higher",
+          "line": 15.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.546512
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.546512,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Darrion Williams not on Louisville Cardinals roster"
+      ],
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Darrion Williams not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Darrion Williams not on Louisville Cardinals roster"
+    },
+    {
+      "edge_id": "cbb_LOU_Darrion_Williams_POINTS+REBOUNDS_18p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Darrion Williams",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "POINTS+REBOUNDS",
+      "line": 18.5,
+      "direction": "higher",
+      "probability": 0.5558,
+      "player_mean": 19.61,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 19.61,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "poisson",
+          "sigma": 4.43,
+          "raw_prob": 0.585053,
+          "direction": "higher",
+          "line": 18.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.555801
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.555801,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Darrion Williams not on Louisville Cardinals roster"
+      ],
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Darrion Williams not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Darrion Williams not on Louisville Cardinals roster"
+    },
+    {
+      "edge_id": "cbb_LOU_Quadir_Copeland_POINTS+REBOUNDS_16p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Quadir Copeland",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "POINTS+REBOUNDS",
+      "line": 16.5,
+      "direction": "higher",
+      "probability": 0.5497,
+      "player_mean": 17.49,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 17.49,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "poisson",
+          "sigma": 4.18,
+          "raw_prob": 0.578667,
+          "direction": "higher",
+          "line": 16.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.549734
+        },
+        "caps": {
+          "stat_cap": 0.68,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.549734,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Quadir Copeland not on Louisville Cardinals roster"
+      ],
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Quadir Copeland not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Quadir Copeland not on Louisville Cardinals roster"
+    },
+    {
+      "edge_id": "cbb_LOU_Darrion_Williams_PRA_20p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Darrion Williams",
+      "team": "Louisville Cardinals",
+      "opponent": "UNK",
+      "stat": "PRA",
+      "line": 20.5,
+      "direction": "higher",
+      "probability": 0.5342,
+      "player_mean": 21.73,
+      "mean_source": "DIRECTIONAL_FALLBACK",
+      "confidence_flag": "NO_DATA",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 21.73,
+          "mean_source": "DIRECTIONAL_FALLBACK",
+          "confidence_flag": "UNVERIFIED"
+        },
+        "model": {
+          "type": "normal_cdf",
+          "sigma": 8.5,
+          "raw_prob": 0.53422,
+          "direction": "higher",
+          "line": 20.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.53422
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "low_line_cap": 1.0,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.53422,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "normal_cdf_fallback",
+      "data_source": "fallback",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "minutes: NO_DATA",
+        "games: NO_DATA",
+        "blowout: SPREAD=6.5"
+      ],
+      "gates_failed": [
+        "roster: ROSTER_FAIL: Darrion Williams not on Louisville Cardinals roster"
+      ],
+      "dedupe_dropped": {
+        "direction": "lower",
+        "probability": 0.5342,
+        "kept": "higher",
+        "kept_probability": 0.5342
+      },
+      "spread_status": "FOUND",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "FAIL",
+          "reason": "ROSTER_FAIL: Darrion Williams not on Louisville Cardinals roster"
+        },
+        {
+          "gate": "minutes",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "games",
+          "status": "NO_DATA",
+          "reason": "NO_DATA"
+        },
+        {
+          "gate": "blowout",
+          "status": "PASS",
+          "reason": "SPREAD=6.5"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: roster: ROSTER_FAIL: Darrion Williams not on Louisville Cardinals roster"
+    }
+  ],
+  "generated": "2026-02-09T12:25:43.174448",
+  "source": "CBB_PIPELINE"
+}

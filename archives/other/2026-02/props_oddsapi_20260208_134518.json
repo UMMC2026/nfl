@@ -1,0 +1,1184 @@
+{
+  "timestamp": "2026-02-08T13:45:18.145693",
+  "sites": [
+    "oddsapi"
+  ],
+  "total_props": 22,
+  "parsed_props": 22,
+  "players": 10,
+  "props": [
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Nick Martinelli points 21.5 higher (Underdog/player_points)",
+      "player": "Nick Martinelli",
+      "stat": "points",
+      "line": 21.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T19:45:18.144788Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Nick Martinelli",
+        "stat": "points",
+        "line": 21.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "6b14adb12bbba2aee9e918fd8fb89735",
+          "commence_time": "2026-02-08T20:00:00Z",
+          "home_team": "Iowa Hawkeyes",
+          "away_team": "Northwestern Wildcats",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Nick Martinelli"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Nick Martinelli points 21.5 lower (Underdog/player_points)",
+      "player": "Nick Martinelli",
+      "stat": "points",
+      "line": 21.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T19:45:18.144788Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Nick Martinelli",
+        "stat": "points",
+        "line": 21.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "6b14adb12bbba2aee9e918fd8fb89735",
+          "commence_time": "2026-02-08T20:00:00Z",
+          "home_team": "Iowa Hawkeyes",
+          "away_team": "Northwestern Wildcats",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Nick Martinelli"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Cooper Koch points 7.5 higher (Underdog/player_points)",
+      "player": "Cooper Koch",
+      "stat": "points",
+      "line": 7.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T19:45:18.144788Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Cooper Koch",
+        "stat": "points",
+        "line": 7.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "6b14adb12bbba2aee9e918fd8fb89735",
+          "commence_time": "2026-02-08T20:00:00Z",
+          "home_team": "Iowa Hawkeyes",
+          "away_team": "Northwestern Wildcats",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Cooper Koch"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Cooper Koch points 7.5 lower (Underdog/player_points)",
+      "player": "Cooper Koch",
+      "stat": "points",
+      "line": 7.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T19:45:18.144788Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Cooper Koch",
+        "stat": "points",
+        "line": 7.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "6b14adb12bbba2aee9e918fd8fb89735",
+          "commence_time": "2026-02-08T20:00:00Z",
+          "home_team": "Iowa Hawkeyes",
+          "away_team": "Northwestern Wildcats",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Cooper Koch"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Bennett Stirtz points 20.0 higher (PrizePicks/player_points)",
+      "player": "Bennett Stirtz",
+      "stat": "points",
+      "line": 20.0,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T19:45:18.144788Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Bennett Stirtz",
+        "stat": "points",
+        "line": 20.0,
+        "direction": "higher",
+        "raw": {
+          "event_id": "6b14adb12bbba2aee9e918fd8fb89735",
+          "commence_time": "2026-02-08T20:00:00Z",
+          "home_team": "Iowa Hawkeyes",
+          "away_team": "Northwestern Wildcats",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Bennett Stirtz"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Bennett Stirtz points 20.0 lower (PrizePicks/player_points)",
+      "player": "Bennett Stirtz",
+      "stat": "points",
+      "line": 20.0,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T19:45:18.144788Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Bennett Stirtz",
+        "stat": "points",
+        "line": 20.0,
+        "direction": "lower",
+        "raw": {
+          "event_id": "6b14adb12bbba2aee9e918fd8fb89735",
+          "commence_time": "2026-02-08T20:00:00Z",
+          "home_team": "Iowa Hawkeyes",
+          "away_team": "Northwestern Wildcats",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Bennett Stirtz"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Cooper Koch points 7.0 higher (PrizePicks/player_points)",
+      "player": "Cooper Koch",
+      "stat": "points",
+      "line": 7.0,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T19:45:18.144788Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Cooper Koch",
+        "stat": "points",
+        "line": 7.0,
+        "direction": "higher",
+        "raw": {
+          "event_id": "6b14adb12bbba2aee9e918fd8fb89735",
+          "commence_time": "2026-02-08T20:00:00Z",
+          "home_team": "Iowa Hawkeyes",
+          "away_team": "Northwestern Wildcats",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Cooper Koch"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Cooper Koch points 7.0 lower (PrizePicks/player_points)",
+      "player": "Cooper Koch",
+      "stat": "points",
+      "line": 7.0,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T19:45:18.144788Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Cooper Koch",
+        "stat": "points",
+        "line": 7.0,
+        "direction": "lower",
+        "raw": {
+          "event_id": "6b14adb12bbba2aee9e918fd8fb89735",
+          "commence_time": "2026-02-08T20:00:00Z",
+          "home_team": "Iowa Hawkeyes",
+          "away_team": "Northwestern Wildcats",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Cooper Koch"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Tre White points 13.5 higher (Underdog/player_points)",
+      "player": "Tre White",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T19:45:18.144788Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Tre White",
+        "stat": "points",
+        "line": 13.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "7030f28cdeb54fbd95dfc13725bb710f",
+          "commence_time": "2026-02-10T02:00:00Z",
+          "home_team": "Kansas Jayhawks",
+          "away_team": "Arizona Wildcats",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Tre White"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Tre White points 13.5 lower (Underdog/player_points)",
+      "player": "Tre White",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T19:45:18.144788Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Tre White",
+        "stat": "points",
+        "line": 13.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "7030f28cdeb54fbd95dfc13725bb710f",
+          "commence_time": "2026-02-10T02:00:00Z",
+          "home_team": "Kansas Jayhawks",
+          "away_team": "Arizona Wildcats",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Tre White"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Motiejus Krivas points 9.5 higher (Underdog/player_points)",
+      "player": "Motiejus Krivas",
+      "stat": "points",
+      "line": 9.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T19:45:18.144788Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Motiejus Krivas",
+        "stat": "points",
+        "line": 9.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "7030f28cdeb54fbd95dfc13725bb710f",
+          "commence_time": "2026-02-10T02:00:00Z",
+          "home_team": "Kansas Jayhawks",
+          "away_team": "Arizona Wildcats",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Motiejus Krivas"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Motiejus Krivas points 9.5 lower (Underdog/player_points)",
+      "player": "Motiejus Krivas",
+      "stat": "points",
+      "line": 9.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T19:45:18.145693Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Motiejus Krivas",
+        "stat": "points",
+        "line": 9.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "7030f28cdeb54fbd95dfc13725bb710f",
+          "commence_time": "2026-02-10T02:00:00Z",
+          "home_team": "Kansas Jayhawks",
+          "away_team": "Arizona Wildcats",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Motiejus Krivas"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Jaden Bradley points 13.5 higher (Underdog/player_points)",
+      "player": "Jaden Bradley",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T19:45:18.145693Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Jaden Bradley",
+        "stat": "points",
+        "line": 13.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "7030f28cdeb54fbd95dfc13725bb710f",
+          "commence_time": "2026-02-10T02:00:00Z",
+          "home_team": "Kansas Jayhawks",
+          "away_team": "Arizona Wildcats",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Jaden Bradley"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Jaden Bradley points 13.5 lower (Underdog/player_points)",
+      "player": "Jaden Bradley",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T19:45:18.145693Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Jaden Bradley",
+        "stat": "points",
+        "line": 13.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "7030f28cdeb54fbd95dfc13725bb710f",
+          "commence_time": "2026-02-10T02:00:00Z",
+          "home_team": "Kansas Jayhawks",
+          "away_team": "Arizona Wildcats",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Jaden Bradley"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Melvin Council Jr. points 13.5 higher (Underdog/player_points)",
+      "player": "Melvin Council Jr.",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T19:45:18.145693Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Melvin Council Jr.",
+        "stat": "points",
+        "line": 13.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "7030f28cdeb54fbd95dfc13725bb710f",
+          "commence_time": "2026-02-10T02:00:00Z",
+          "home_team": "Kansas Jayhawks",
+          "away_team": "Arizona Wildcats",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Melvin Council Jr."
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Melvin Council Jr. points 13.5 lower (Underdog/player_points)",
+      "player": "Melvin Council Jr.",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T19:45:18.145693Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Melvin Council Jr.",
+        "stat": "points",
+        "line": 13.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "7030f28cdeb54fbd95dfc13725bb710f",
+          "commence_time": "2026-02-10T02:00:00Z",
+          "home_team": "Kansas Jayhawks",
+          "away_team": "Arizona Wildcats",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Melvin Council Jr."
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Brayden Burries points 15.5 higher (Underdog/player_points)",
+      "player": "Brayden Burries",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T19:45:18.145693Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Brayden Burries",
+        "stat": "points",
+        "line": 15.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "7030f28cdeb54fbd95dfc13725bb710f",
+          "commence_time": "2026-02-10T02:00:00Z",
+          "home_team": "Kansas Jayhawks",
+          "away_team": "Arizona Wildcats",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Brayden Burries"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Brayden Burries points 15.5 lower (Underdog/player_points)",
+      "player": "Brayden Burries",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T19:45:18.145693Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Brayden Burries",
+        "stat": "points",
+        "line": 15.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "7030f28cdeb54fbd95dfc13725bb710f",
+          "commence_time": "2026-02-10T02:00:00Z",
+          "home_team": "Kansas Jayhawks",
+          "away_team": "Arizona Wildcats",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Brayden Burries"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Flory Bidunga points 12.5 higher (Underdog/player_points)",
+      "player": "Flory Bidunga",
+      "stat": "points",
+      "line": 12.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T19:45:18.145693Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Flory Bidunga",
+        "stat": "points",
+        "line": 12.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "7030f28cdeb54fbd95dfc13725bb710f",
+          "commence_time": "2026-02-10T02:00:00Z",
+          "home_team": "Kansas Jayhawks",
+          "away_team": "Arizona Wildcats",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Flory Bidunga"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:Underdog",
+      "raw": "Flory Bidunga points 12.5 lower (Underdog/player_points)",
+      "player": "Flory Bidunga",
+      "stat": "points",
+      "line": 12.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T19:45:18.145693Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Flory Bidunga",
+        "stat": "points",
+        "line": 12.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "7030f28cdeb54fbd95dfc13725bb710f",
+          "commence_time": "2026-02-10T02:00:00Z",
+          "home_team": "Kansas Jayhawks",
+          "away_team": "Arizona Wildcats",
+          "bookmaker_key": "underdog",
+          "bookmaker_title": "Underdog",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Flory Bidunga"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Koa Peat points 13.5 higher (PrizePicks/player_points)",
+      "player": "Koa Peat",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-08T19:45:18.145693Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Koa Peat",
+        "stat": "points",
+        "line": 13.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "7030f28cdeb54fbd95dfc13725bb710f",
+          "commence_time": "2026-02-10T02:00:00Z",
+          "home_team": "Kansas Jayhawks",
+          "away_team": "Arizona Wildcats",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Koa Peat"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Koa Peat points 13.5 lower (PrizePicks/player_points)",
+      "player": "Koa Peat",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-08T19:45:18.145693Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "BASKETBALL_NCAAB",
+        "player": "Koa Peat",
+        "stat": "points",
+        "line": 13.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "7030f28cdeb54fbd95dfc13725bb710f",
+          "commence_time": "2026-02-10T02:00:00Z",
+          "home_team": "Kansas Jayhawks",
+          "away_team": "Arizona Wildcats",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_points",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Koa Peat"
+        }
+      }
+    }
+  ],
+  "oddsapi_meta": {
+    "sport": "BASKETBALL_NCAAB",
+    "sport_key": "basketball_ncaab",
+    "regions": "us_dfs",
+    "markets": "player_points",
+    "bookmakers": "betr_us_dfs,pick6,prizepicks,underdog",
+    "event_count": 19,
+    "invalid_markets_dropped": null,
+    "used_market_discovery": false,
+    "include_multipliers": true,
+    "quota": {
+      "events_list": {
+        "remaining": 19683,
+        "used": 317,
+        "last_cost": 0
+      },
+      "last_event_odds": {
+        "remaining": 19681,
+        "used": 319,
+        "last_cost": 0
+      }
+    },
+    "raw_event_odds": [
+      {
+        "id": "8860c1811da28a12a5d204c313ab5302",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T18:00:00Z",
+        "home_team": "Furman Paladins",
+        "away_team": "UNC Greensboro Spartans",
+        "bookmakers": []
+      },
+      {
+        "id": "b0bc6839ab23fe05c984f3302d9615f7",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T18:03:47Z",
+        "home_team": "Ohio State Buckeyes",
+        "away_team": "Michigan Wolverines",
+        "bookmakers": []
+      },
+      {
+        "id": "ac3542b6a4d08086c99b620d64b9ffa4",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T18:06:01Z",
+        "home_team": "West Virginia Mountaineers",
+        "away_team": "Texas Tech Red Raiders",
+        "bookmakers": []
+      },
+      {
+        "id": "74aef849b3deb40d70287c6ad7ec4a7f",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T19:00:00Z",
+        "home_team": "Memphis Tigers",
+        "away_team": "Charlotte 49ers",
+        "bookmakers": []
+      },
+      {
+        "id": "93f20eb01b8761e8b5ca8ddf8e32d2f5",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T19:00:00Z",
+        "home_team": "Tulane Green Wave",
+        "away_team": "Wichita St Shockers",
+        "bookmakers": []
+      },
+      {
+        "id": "e7a7321147c77050f911c9997982e42c",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T19:00:39Z",
+        "home_team": "Minnesota Golden Gophers",
+        "away_team": "Maryland Terrapins",
+        "bookmakers": []
+      },
+      {
+        "id": "433431ee3d14c36b289778979b234b6e",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T19:05:20Z",
+        "home_team": "Cincinnati Bearcats",
+        "away_team": "UCF Knights",
+        "bookmakers": []
+      },
+      {
+        "id": "6b14adb12bbba2aee9e918fd8fb89735",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T20:00:00Z",
+        "home_team": "Iowa Hawkeyes",
+        "away_team": "Northwestern Wildcats",
+        "bookmakers": [
+          {
+            "key": "underdog",
+            "title": "Underdog",
+            "markets": [
+              {
+                "key": "player_points",
+                "last_update": "2026-02-08T19:44:53Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Nick Martinelli",
+                    "price": -137,
+                    "point": 21.5,
+                    "multiplier": 1.0
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Nick Martinelli",
+                    "price": -137,
+                    "point": 21.5,
+                    "multiplier": 1.0
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Cooper Koch",
+                    "price": -137,
+                    "point": 7.5,
+                    "multiplier": 1.0
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Cooper Koch",
+                    "price": -137,
+                    "point": 7.5,
+                    "multiplier": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "prizepicks",
+            "title": "PrizePicks",
+            "markets": [
+              {
+                "key": "player_points",
+                "last_update": "2026-02-08T19:44:39Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Nick Martinelli",
+                    "price": -137,
+                    "point": 21.5,
+                    "multiplier": null
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Nick Martinelli",
+                    "price": -137,
+                    "point": 21.5,
+                    "multiplier": null
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Bennett Stirtz",
+                    "price": -137,
+                    "point": 20.0,
+                    "multiplier": null
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Bennett Stirtz",
+                    "price": -137,
+                    "point": 20.0,
+                    "multiplier": null
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Cooper Koch",
+                    "price": -137,
+                    "point": 7.5,
+                    "multiplier": null
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Cooper Koch",
+                    "price": -137,
+                    "point": 7.5,
+                    "multiplier": null
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Cooper Koch",
+                    "price": -137,
+                    "point": 7.0,
+                    "multiplier": null
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Cooper Koch",
+                    "price": -137,
+                    "point": 7.0,
+                    "multiplier": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "60ae73fe8be3bc2fa0994c3f44784b34",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-08T20:00:00Z",
+        "home_team": "UAB Blazers",
+        "away_team": "Rice Owls",
+        "bookmakers": []
+      },
+      {
+        "id": "c495ba66d7c26d04ae2d33c198b70e7a",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-09T23:30:00Z",
+        "home_team": "St. John's Red Storm",
+        "away_team": "Xavier Musketeers",
+        "bookmakers": []
+      },
+      {
+        "id": "4afdb0df12052859783d2c5a346162ea",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-10T00:00:00Z",
+        "home_team": "Indiana St Sycamores",
+        "away_team": "Southern Illinois Salukis",
+        "bookmakers": []
+      },
+      {
+        "id": "5e1aa928201fd5c2d87346ed74e4d0c4",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-10T00:00:00Z",
+        "home_team": "Louisville Cardinals",
+        "away_team": "NC State Wolfpack",
+        "bookmakers": []
+      },
+      {
+        "id": "33cc21cd8951ab80e32e7269e2a1e7b7",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-10T00:30:00Z",
+        "home_team": "Drake Bulldogs",
+        "away_team": "Valparaiso Beacons",
+        "bookmakers": []
+      },
+      {
+        "id": "41ebe0bb482d21b76fc0b72fb9ba69cc",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-10T01:00:00Z",
+        "home_team": "Bradley Braves",
+        "away_team": "Belmont Bruins",
+        "bookmakers": []
+      },
+      {
+        "id": "cdda07a8325f953c25abce8eab6ab988",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-10T01:00:00Z",
+        "home_team": "Charleston Cougars",
+        "away_team": "UNC Wilmington Seahawks",
+        "bookmakers": []
+      },
+      {
+        "id": "af81c651b77df25f8746eb68af96c7dd",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-10T01:00:00Z",
+        "home_team": "Evansville Purple Aces",
+        "away_team": "Illinois St Redbirds",
+        "bookmakers": []
+      },
+      {
+        "id": "5d17e60236b71d564241ca0944a82f0c",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-10T01:30:00Z",
+        "home_team": "Indiana Hoosiers",
+        "away_team": "Oregon Ducks",
+        "bookmakers": []
+      },
+      {
+        "id": "7030f28cdeb54fbd95dfc13725bb710f",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-10T02:00:00Z",
+        "home_team": "Kansas Jayhawks",
+        "away_team": "Arizona Wildcats",
+        "bookmakers": [
+          {
+            "key": "underdog",
+            "title": "Underdog",
+            "markets": [
+              {
+                "key": "player_points",
+                "last_update": "2026-02-08T19:44:49Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Tre White",
+                    "price": -137,
+                    "point": 13.5,
+                    "multiplier": 1.0
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Tre White",
+                    "price": -137,
+                    "point": 13.5,
+                    "multiplier": 1.0
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Motiejus Krivas",
+                    "price": -137,
+                    "point": 9.5,
+                    "multiplier": 1.0
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Motiejus Krivas",
+                    "price": -137,
+                    "point": 9.5,
+                    "multiplier": 1.0
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Jaden Bradley",
+                    "price": -137,
+                    "point": 13.5,
+                    "multiplier": 1.0
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Jaden Bradley",
+                    "price": -137,
+                    "point": 13.5,
+                    "multiplier": 1.0
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Melvin Council Jr.",
+                    "price": -137,
+                    "point": 13.5,
+                    "multiplier": 1.0
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Melvin Council Jr.",
+                    "price": -137,
+                    "point": 13.5,
+                    "multiplier": 1.0
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Brayden Burries",
+                    "price": -137,
+                    "point": 15.5,
+                    "multiplier": 1.0
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Brayden Burries",
+                    "price": -137,
+                    "point": 15.5,
+                    "multiplier": 1.0
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Flory Bidunga",
+                    "price": -137,
+                    "point": 12.5,
+                    "multiplier": 1.0
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Flory Bidunga",
+                    "price": -137,
+                    "point": 12.5,
+                    "multiplier": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "prizepicks",
+            "title": "PrizePicks",
+            "markets": [
+              {
+                "key": "player_points",
+                "last_update": "2026-02-08T19:44:56Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Brayden Burries",
+                    "price": -137,
+                    "point": 15.5,
+                    "multiplier": null
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Brayden Burries",
+                    "price": -137,
+                    "point": 15.5,
+                    "multiplier": null
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Tre White",
+                    "price": -137,
+                    "point": 13.5,
+                    "multiplier": null
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Tre White",
+                    "price": -137,
+                    "point": 13.5,
+                    "multiplier": null
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Melvin Council Jr.",
+                    "price": -137,
+                    "point": 13.5,
+                    "multiplier": null
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Melvin Council Jr.",
+                    "price": -137,
+                    "point": 13.5,
+                    "multiplier": null
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Jaden Bradley",
+                    "price": -137,
+                    "point": 13.5,
+                    "multiplier": null
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Jaden Bradley",
+                    "price": -137,
+                    "point": 13.5,
+                    "multiplier": null
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Koa Peat",
+                    "price": -137,
+                    "point": 13.5,
+                    "multiplier": null
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Koa Peat",
+                    "price": -137,
+                    "point": 13.5,
+                    "multiplier": null
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Flory Bidunga",
+                    "price": -137,
+                    "point": 12.5,
+                    "multiplier": null
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Flory Bidunga",
+                    "price": -137,
+                    "point": 12.5,
+                    "multiplier": null
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Motiejus Krivas",
+                    "price": -137,
+                    "point": 9.5,
+                    "multiplier": null
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Motiejus Krivas",
+                    "price": -137,
+                    "point": 9.5,
+                    "multiplier": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6580bad1b1a5df95e9b57c63a1aec078",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2026-02-10T03:00:00Z",
+        "home_team": "Murray St Racers",
+        "away_team": "Northern Iowa Panthers",
+        "bookmakers": []
+      }
+    ]
+  },
+  "run_id": "11b697469ace2d34"
+}

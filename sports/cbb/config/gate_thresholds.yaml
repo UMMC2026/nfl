@@ -1,0 +1,142 @@
+# gate_thresholds.yaml — CBB Gate Configuration
+# Updated: 2026-02-14 (v3.0 — Game Script Gate + Direction-Aware MPG)
+#
+# GOVERNANCE: These thresholds are loaded by edge_gates.py and game_script_gate.py.
+# Changes here take effect on next pipeline run — no code changes needed.
+
+# =============================================================================
+# Tier probability thresholds
+# =============================================================================
+tiers:
+  STRONG: 0.70
+  LEAN: 0.60
+  SLAM: null          # Disabled for CBB — too volatile
+  max_probability: 0.79
+
+# =============================================================================
+# MPG Gate — DIRECTION AWARE (v2.2+)
+#
+# Key insight: Low-minute players are bad OVER bets but VALID UNDER bets.
+# A bench player averaging 16 MPG with a points line at 17.5 is exactly
+# the edge — low minutes = low stats = UNDER value.
+# =============================================================================
+mpg_gate:
+  min_mpg_for_over: 18        # OVER requires 18+ MPG
+  min_mpg_for_under: 10       # UNDER only blocked if < 10 MPG (DNP risk)
+  # OLD: min_mpg: 20          # RETIRED — was killing valid UNDERs on bench players
+
+# =============================================================================
+# Blowout Gate — TIGHTENED FOR GAME SCRIPT (v3.0)
+#
+# Old version: blowout_spread: 25 (way too loose, never triggered)
+# New version: Direction + spread-aware with specific thresholds
+# =============================================================================
+blowout_gate:
+  # Spread classification
+  spread_thresholds:
+    heavy_underdog: 8           # Team is +8 or worse
+    moderate_underdog: 5        # Team is +5 to +7
+    close_game: 3               # Spread within 3
+
+  # Direction-specific rules
+  under_on_underdog:
+    block_if_spread_gte: 6      # Block UNDER if team is +6 or worse underdog
+    warn_if_spread_gte: 3       # Warn if team is +3 to +5
+
+  over_on_favorite:
+    block_if_spread_gte: 15     # Block OVER if team is -15+ (blowout, star sits)
+    warn_if_spread_gte: 10      # Warn if team is -10 to -14
+
+# =============================================================================
+# Game Script Gate (v3.0 — P0 FIX)
+#
+# Key insight from calibration failures:
+#   When a team is trailing, their best players play more minutes,
+#   take more shots, get more assists, grab more rebounds.
+#   UNDER picks on those players are structurally -EV.
+#
+# Examples blocked by this gate:
+#   KJ Lewis PRA UNDER 19.5 (Memphis +17) → actual 36 (LOSS)
+#   MJ Collins PTS UNDER 15.5 (Auburn +14) → actual 22 (LOSS)
+# =============================================================================
+game_script_gate:
+  enabled: true
+
+  # Combo stats most affected by game script
+  high_impact_stats:
+    - pra
+    - pts_rebs_asts
+    - pts+reb+ast
+    - pa
+    - pts_ast
+    - pts+ast
+    - pr
+    - pts_reb
+    - pts+reb
+    - reb+ast
+    - reb_ast
+    - points+assists
+    - points+rebounds
+    - points+rebounds+assists
+    - rebounds+assists
+
+  # Block rules
+  block_under_on_underdog:
+    min_spread: 6               # If team is +6 or worse
+    affected_stats: all         # Block all UNDER picks (high-usage only)
+
+  block_under_combo_on_underdog:
+    min_spread: 4               # If team is +4 or worse
+    affected_stats: high_impact # Only combo stats (from high_impact_stats)
+
+  # Usage-based rules
+  high_usage_threshold: 0.22
+  block_high_usage_under_if_spread_gte: 5
+
+  # Soft penalty for moderate underdogs
+  soft_penalty:
+    min_spread: 3               # Start applying lambda inflation at +3
+    max_spread: 6               # Hard block takes over at +6
+    per_point_inflation: 0.03   # Lambda inflated 3% per spread point above min
+    close_game_high_usage_penalty: 1.03   # Flat penalty for close-game stars
+
+# =============================================================================
+# Spread-based lambda adjustment factors
+# =============================================================================
+spread_lambda_adjustment:
+  enabled: true
+  underdog_boost:
+    spread_5_to_8: 1.08
+    spread_8_to_12: 1.12
+    spread_12_plus: 1.15
+  favorite_reduction:
+    spread_10_to_14: 0.95
+    spread_14_plus: 0.90
+
+# =============================================================================
+# Other gate settings
+# =============================================================================
+min_games_played: 5
+max_variance_ratio: 0.40
+
+# Injury keywords
+injury_block_keywords:
+  - out
+  - doubtful
+  - suspended
+  - inactive
+  - dnp
+  - redshirt
+
+injury_warn_keywords:
+  - questionable
+  - probable
+  - day-to-day
+  - game-time
+
+# Tier-specific overrides
+tier_overrides:
+  STRONG:
+    min_games_played: 8
+  LEAN:
+    min_games_played: 5

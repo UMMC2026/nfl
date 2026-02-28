@@ -1,0 +1,35 @@
+==============================================================================
+GOVERNANCE SUMMARY - SOCCER_EPL - 20260208
+==============================================================================
+Created (UTC): 2026-02-08T10:38:48.205500+00:00
+
+COUNTS
+------------------------------------------------------------------------------
+Total results : 7
+Allowed edges : 2
+Blocked edges : 5
+Decision breakdown:
+  - BLOCKED: 5
+  - LEAN: 1
+  - PLAY: 1
+
+TOP BLOCK REASONS
+------------------------------------------------------------------------------
+    5x - pick_state=VETTED
+
+TOP PLAY PICKS
+------------------------------------------------------------------------------
+ 1. Mohamed Salah (Liverpool) shots HIGHER 2.5
+    eff=67.9% model=67.9% edge=? z=?
+
+TOP LEANS
+------------------------------------------------------------------------------
+ 1. Virgil van Dijk (Liverpool) shots HIGHER 0.5
+    eff=63.2% model=63.2% edge=? z=?
+
+FILES
+------------------------------------------------------------------------------
+- outputs/governance_config.json
+- outputs/allowed_edges.json
+- outputs/blocked_edges.json
+(These are the stable 'latest' artifacts.)

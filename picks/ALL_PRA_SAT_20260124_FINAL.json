@@ -1,0 +1,31 @@
+{
+  "date": "2026-01-24",
+  "timestamp": "2026-01-24T14:23:16.630876",
+  "slate": "ALL_PRA_SAT",
+  "source_file": "ALL_PRA_SAT_RISK_FIRST_20260124_FROM_UD.json",
+  "summary": {
+    "play_count": 0,
+    "lean_count": 2,
+    "total": 2
+  },
+  "picks": [
+    {
+      "player": "Sam Hauser",
+      "team": "BOS",
+      "stat": "pra",
+      "line": 17.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Dru Smith",
+      "team": "MIA",
+      "stat": "pra",
+      "line": 12.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+======================================================================
+MONTE CARLO ENTRY OPTIMIZATION
+Generated: 2026-02-06T19:09:11.954805
+======================================================================
+
+STAT KEY (basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made (aka 3PT/3PTS) | STOCKS=STL+BLK | PRA=PTS+REB+AST
+
+RUN CONTEXT:
+   League inferred: NBA
+   Picks: 13 qualifying (from 129 analyzed)
+   Filter pass: UNFILTERED_DIRECT
+   Constraints: max_same_game=1, max_primary_per_game=1
+
+BEST POWER ENTRY:
+   3L POWER | EV=+0.85 | Sharpe=0.31 | P(profit)=30.8% | Deni Avdija 3PM >1.5; John Collins 3PM >0.5; Maxime Raynaud 3PM <0.5
+   Kelly stake: 2.8% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=67.6%, min p_hit=64.0%
+   Stat mix: 3PM:3
+   Same-game buckets: LAC@SAC:1, LAC@UNK:1, MEM@POR:1
+   LEGS (what each pick is):
+    1. Deni Avdija 3PM >1.5 (POR vs MEM) | p_hit=66.9% | FRAGILE
+    2. John Collins 3PM >0.5 (LAC vs UNK) | p_hit=64.0% | FRAGILE
+    3. Maxime Raynaud 3PM <0.5 (SAC vs LAC) | p_hit=71.8% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST FLEX ENTRY:
+   4L FLEX | EV=+0.28 | Sharpe=0.17 | P(profit)=51.8% | Deni Avdija 3PM >1.5; GG Jackson 3PM >0.5; John Collins 3PM >0.5; Maxime Raynaud 3PM <0.5
+   Kelly stake: 2.5% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=62.5%, min p_hit=47.1%
+   Stat mix: 3PM:4
+   Same-game buckets: LAC@SAC:1, LAC@UNK:1, MEM@POR:1, MEM@UNK:1
+   LEGS (what each pick is):
+    1. Deni Avdija 3PM >1.5 (POR vs MEM) | p_hit=66.9% | FRAGILE
+    2. GG Jackson 3PM >0.5 (MEM vs UNK) | p_hit=47.1% | FRAGILE
+    3. John Collins 3PM >0.5 (LAC vs UNK) | p_hit=64.0% | FRAGILE
+    4. Maxime Raynaud 3PM <0.5 (SAC vs LAC) | p_hit=71.8% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST RISK-ADJUSTED (Sharpe):
+   3L POWER | EV=+0.85 | Sharpe=0.31 | P(profit)=30.8% | Deni Avdija 3PM >1.5; John Collins 3PM >0.5; Maxime Raynaud 3PM <0.5
+   ENTRY SNAPSHOT: avg p_hit=67.6%, min p_hit=64.0%
+   Stat mix: 3PM:3
+   Same-game buckets: LAC@SAC:1, LAC@UNK:1, MEM@POR:1
+   LEGS (what each pick is):
+    1. Deni Avdija 3PM >1.5 (POR vs MEM) | p_hit=66.9% | FRAGILE
+    2. John Collins 3PM >0.5 (LAC vs UNK) | p_hit=64.0% | FRAGILE
+    3. Maxime Raynaud 3PM <0.5 (SAC vs LAC) | p_hit=71.8% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+----------------------------------------------------------------------
+TOP 10 ENTRIES BY EV:
+----------------------------------------------------------------------
+ 1. 3L POWER | EV=+0.85 | Sharpe=0.31 | P(profit)=30.8% | Deni Avdija 3PM >1.5; John Collins 3PM >0.5; Maxime Raynaud 3PM <0.5
+ 2. 3L POWER | EV=+0.82 | Sharpe=0.30 | P(profit)=30.3% | Deni Avdija 3PM >1.5; Kawhi Leonard 3PM >1.5; Maxime Raynaud 3PM <0.5
+ 3. 3L POWER | EV=+0.70 | Sharpe=0.26 | P(profit)=28.4% | Deni Avdija 3PM >1.5; Kobe Sanders 3PM >0.5; Maxime Raynaud 3PM <0.5
+ 4. 3L POWER | EV=+0.61 | Sharpe=0.23 | P(profit)=26.8% | Deni Avdija 3PM >1.5; Zach LaVine 3PM >1.5; John Collins 3PM >0.5
+ 5. 3L POWER | EV=+0.58 | Sharpe=0.22 | P(profit)=26.3% | Deni Avdija 3PM >1.5; Kawhi Leonard 3PM >1.5; Zach LaVine 3PM >1.5
+ 6. 3L POWER | EV=+0.55 | Sharpe=0.21 | P(profit)=25.8% | Jrue Holiday 3PM >1.5; John Collins 3PM >0.5; Maxime Raynaud 3PM <0.5
+ 7. 3L POWER | EV=+0.52 | Sharpe=0.20 | P(profit)=25.4% | Jrue Holiday 3PM >1.5; Kawhi Leonard 3PM >1.5; Maxime Raynaud 3PM <0.5
+ 8. 3L POWER | EV=+0.48 | Sharpe=0.19 | P(profit)=24.7% | Deni Avdija 3PM >1.5; Zach LaVine 3PM >1.5; Kobe Sanders 3PM >0.5
+ 9. 4L POWER | EV=+0.45 | Sharpe=0.13 | P(profit)=14.5% | Deni Avdija 3PM >1.5; GG Jackson 3PM >0.5; John Collins 3PM >0.5; Maxime Raynaud 3PM <0.5
+10. 2L POWER | EV=+0.44 | Sharpe=0.29 | P(profit)=48.1% | Deni Avdija 3PM >1.5; Maxime Raynaud 3PM <0.5

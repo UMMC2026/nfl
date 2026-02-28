@@ -1,0 +1,33 @@
+[
+  {
+    "edge_id": "TOTAL_SETS::Bencic::Bartunkova::HARD::2.5",
+    "engine": "TOTAL_SETS_ENGINE",
+    "players": ["Belinda Bencic", "Nikola Bartunkova"],
+    "line": 2.5,
+    "direction": "OVER",
+    "probability": 0.67,
+    "tier": "STRONG",
+    "generated_at": "2026-01-20T10:00:00Z"
+  },
+  {
+    "edge_id": "TOTAL_SETS::Ostapenko::Wang::HARD::2.5",
+    "engine": "TOTAL_SETS_ENGINE",
+    "players": ["Jelena Ostapenko", "Xinyu Wang"],
+    "line": 2.5,
+    "direction": "OVER",
+    "probability": 0.68,
+    "tier": "STRONG",
+    "generated_at": "2026-01-20T10:00:00Z"
+  },
+  {
+    "edge_id": "PLAYER_ACES::Shelton::Sweeny::HARD::14.5",
+    "engine": "PLAYER_ACES_ENGINE",
+    "player": "Ben Shelton",
+    "opponent": "Dane Sweeny",
+    "line": 14.5,
+    "direction": "OVER",
+    "probability": 0.69,
+    "tier": "STRONG",
+    "generated_at": "2026-01-20T10:00:00Z"
+  }
+]

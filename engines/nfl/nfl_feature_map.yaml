@@ -1,0 +1,376 @@
+# NFL Feature Map - PrizePicks Market Coverage
+# NFL_AUTONOMOUS v1.0 Compatible
+# Defines input features and modeling approach for each NFL market
+
+# ============================================================
+# PASSING MARKETS
+# ============================================================
+
+pass_yards:
+  distribution: Normal
+  fallback: Empirical
+  inputs:
+    - pass_attempts_rate          # Avg attempts per game
+    - yards_per_attempt           # Efficiency metric
+    - pressure_rate_allowed       # O-line quality
+    - opponent_coverage_shell     # Coverage scheme
+    - weather_wind_mph            # Environmental factor
+    - game_script_pass_bias       # Expected game flow (trailing = more passing)
+    - home_away_adjustment        # Home field advantage
+    - rest_days                   # Fatigue factor
+  drive_level: true
+  min_sample_games: 3
+
+pass_tds:
+  distribution: Poisson
+  fallback: Empirical
+  inputs:
+    - pass_td_rate                # TDs per game
+    - red_zone_attempts           # RZ opportunities
+    - opponent_red_zone_def       # RZ defense rank
+    - game_script_pass_bias
+    - weather_conditions
+    - home_away_adjustment
+  drive_level: true
+  min_sample_games: 3
+
+pass_attempts:
+  distribution: Normal
+  fallback: Empirical
+  inputs:
+    - pass_attempts_rate
+    - game_script_pass_bias
+    - opponent_run_def_rank       # If run D is strong, more passes
+    - pace_of_play
+    - home_away_adjustment
+  drive_level: true
+  min_sample_games: 3
+
+pass_completions:
+  distribution: Normal
+  fallback: Empirical
+  inputs:
+    - completion_pct
+    - pass_attempts_rate
+    - pressure_rate_allowed
+    - opponent_coverage_shell
+    - weather_wind_mph
+  drive_level: true
+  min_sample_games: 3
+
+completion_pct:
+  distribution: Beta
+  fallback: Empirical
+  inputs:
+    - completion_pct              # Historical %
+    - pressure_rate_allowed
+    - opponent_coverage_shell
+    - weather_wind_mph
+    - receiver_quality_index
+  drive_level: false              # Game-level stat
+  min_sample_games: 5
+
+interceptions:
+  distribution: Poisson
+  fallback: Empirical
+  inputs:
+    - int_rate                    # INTs per attempt
+    - pressure_rate_allowed
+    - opponent_defensive_backs    # DB quality
+    - game_script_desperation     # Trailing late = more risk
+    - weather_conditions
+  drive_level: true
+  min_sample_games: 3
+
+# ============================================================
+# RUSHING MARKETS
+# ============================================================
+
+rush_yards:
+  distribution: LogNormal
+  fallback: Empirical
+  inputs:
+    - rush_attempt_share          # % of team rush attempts
+    - yards_before_contact        # O-line run blocking
+    - defensive_run_dvoa          # Opponent run D
+    - game_script_lead_prob       # Leading = more rushing
+    - home_away_adjustment
+    - weather_conditions
+  drive_level: true
+  min_sample_games: 3
+
+rush_attempts:
+  distribution: Normal
+  fallback: Empirical
+  inputs:
+    - rush_attempt_share
+    - game_script_lead_prob
+    - pace_of_play
+    - opponent_pass_rush          # If pass rush is strong, more runs
+  drive_level: true
+  min_sample_games: 3
+
+yards_per_carry:
+  distribution: Gamma
+  fallback: Empirical
+  inputs:
+    - yards_before_contact
+    - broken_tackle_rate
+    - defensive_run_dvoa
+    - weather_conditions
+  drive_level: false              # Efficiency stat
+  min_sample_games: 5
+
+longest_rush:
+  distribution: Exponential
+  fallback: Empirical
+  inputs:
+    - yards_before_contact
+    - breakaway_speed             # 40-yard dash equivalent
+    - defensive_run_dvoa
+    - rush_attempts_rate          # More attempts = more chances
+  drive_level: false
+  min_sample_games: 5
+
+# ============================================================
+# RECEIVING MARKETS
+# ============================================================
+
+receiving_yards:
+  distribution: Gamma
+  fallback: Empirical
+  inputs:
+    - target_share                # % of team targets
+    - adot                        # Average depth of target
+    - air_yards_share             # % of team air yards
+    - coverage_matchup            # CB quality
+    - separation_rate             # WR vs DB speed/skill
+    - qb_attempts_rate            # More passes = more opportunity
+    - weather_wind_mph
+  drive_level: true
+  min_sample_games: 3
+
+receptions:
+  distribution: Normal
+  fallback: Empirical
+  inputs:
+    - target_share
+    - catch_rate                  # Historical catch %
+    - qb_attempts_rate
+    - coverage_matchup
+    - route_tree_complexity       # Slot vs outside
+  drive_level: true
+  min_sample_games: 3
+
+receiving_targets:
+  distribution: Normal
+  fallback: Empirical
+  inputs:
+    - target_share
+    - qb_attempts_rate
+    - game_script_pass_bias
+    - route_tree_complexity
+  drive_level: true
+  min_sample_games: 3
+
+longest_reception:
+  distribution: Exponential
+  fallback: Empirical
+  inputs:
+    - adot
+    - breakaway_speed
+    - qb_deep_ball_rate           # % of passes 20+ yards
+    - coverage_matchup
+  drive_level: false
+  min_sample_games: 5
+
+# ============================================================
+# COMBO MARKETS
+# ============================================================
+
+rush_rec_yards:
+  distribution: Gamma
+  fallback: Empirical
+  inputs:
+    - rush_yards (component)
+    - receiving_yards (component)
+    - usage_rate                  # Combined opportunity
+    - game_script_neutral         # Balanced game flow
+  drive_level: true
+  min_sample_games: 3
+  components:
+    - rush_yards
+    - receiving_yards
+
+pass_rush_yards:
+  distribution: Normal
+  fallback: Empirical
+  inputs:
+    - pass_yards (component)
+    - rush_yards (component)
+    - dual_threat_index           # QB mobility
+  drive_level: true
+  min_sample_games: 3
+  components:
+    - pass_yards
+    - rush_yards
+
+rush_rec_tds:
+  distribution: Poisson
+  fallback: Empirical
+  inputs:
+    - rush_tds (component)
+    - rec_tds (component)
+    - red_zone_usage              # % of RZ touches
+  drive_level: true
+  min_sample_games: 3
+  components:
+    - rush_tds
+    - rec_tds
+
+# ============================================================
+# DEFENSE MARKETS
+# ============================================================
+
+sacks:
+  distribution: Poisson
+  fallback: Empirical
+  inputs:
+    - sack_rate                   # Sacks per pass attempt faced
+    - opponent_pressure_allowed   # O-line quality
+    - pass_rush_win_rate
+    - opponent_pass_attempts_rate # More passes = more chances
+  drive_level: true
+  min_sample_games: 5
+
+tackles_assists:
+  distribution: Normal
+  fallback: Empirical
+  inputs:
+    - snap_share                  # % of defensive snaps
+    - opponent_pace_of_play       # More plays = more tackles
+    - position_role               # LB vs DB vs DL
+  drive_level: true
+  min_sample_games: 5
+
+def_interceptions:
+  distribution: Poisson
+  fallback: Empirical
+  inputs:
+    - int_rate                    # INTs per target
+    - opponent_qb_int_rate        # QB turnover prone
+    - coverage_grade
+    - opponent_pass_attempts_rate
+  drive_level: true
+  min_sample_games: 8             # High variance stat
+
+# ============================================================
+# SPECIAL TEAMS MARKETS
+# ============================================================
+
+fg_made:
+  distribution: Binomial
+  fallback: Empirical
+  inputs:
+    - fg_success_rate             # Historical %
+    - weather_wind_mph
+    - altitude                    # Elevation (Denver)
+    - opponent_scoring_rate       # FG opportunities
+  drive_level: false
+  min_sample_games: 5
+
+fg_yards:
+  distribution: Normal
+  fallback: Empirical
+  inputs:
+    - avg_fg_distance
+    - team_red_zone_efficiency    # Low efficiency = longer FGs
+    - weather_conditions
+  drive_level: false
+  min_sample_games: 5
+
+punts:
+  distribution: Poisson
+  fallback: Empirical
+  inputs:
+    - team_offensive_efficiency   # Low efficiency = more punts
+    - opponent_defensive_rank
+    - pace_of_play
+  drive_level: true
+  min_sample_games: 3
+
+gross_punt_yards:
+  distribution: Normal
+  fallback: Empirical
+  inputs:
+    - avg_punt_distance
+    - weather_wind_mph
+    - altitude
+    - punts (expected count)
+  drive_level: false              # Aggregate stat
+  min_sample_games: 5
+
+# ============================================================
+# MODELING RULES
+# ============================================================
+
+modeling_rules:
+  drive_simulation:
+    enabled: true
+    drives_per_game_avg: 11
+    drives_per_game_std: 2
+    drive_outcome_distribution:
+      - touchdown: 0.20
+      - field_goal: 0.15
+      - punt: 0.45
+      - turnover: 0.10
+      - end_of_half: 0.05
+      - downs: 0.05
+
+  weather_gates:
+    wind_threshold_mph: 15        # Flag if wind > 15 mph
+    rain_impact_pass: 0.90        # 10% reduction in pass efficiency
+    snow_impact_all: 0.85         # 15% reduction in all stats
+
+  minimum_samples:
+    default: 3
+    high_variance: 8              # For INTs, sacks, longest plays
+
+  correlation_matrix:
+    pass_yards_pass_tds: 0.75
+    rush_yards_rush_attempts: 0.85
+    rec_yards_receptions: 0.80
+    pass_attempts_completions: 0.90
+
+# ============================================================
+# EDGE COLLAPSE RULES
+# ============================================================
+
+edge_collapse:
+  primary_line_selection:
+    over: "highest_reasonable"     # Prefer higher line for OVER
+    under: "lowest_reasonable"     # Prefer lower line for UNDER
+  
+  reasonable_threshold: 0.30       # Prob must be 30%+ to be "reasonable"
+  
+  deduplication_key:
+    - player_id
+    - game_id
+    - market
+
+# ============================================================
+# VALIDATION GATES
+# ============================================================
+
+validation:
+  min_probability: 0.20            # Never output <20% probability
+  max_probability: 0.95            # Cap at 95% (NFL variance)
+  
+  position_market_validation:
+    enabled: true
+    reject_invalid_combos: true    # e.g., reject WR pass yards
+  
+  sample_size_gate:
+    enabled: true
+    min_games: 3
+    fallback_mode: "season_average"  # Use full season avg if <3 games

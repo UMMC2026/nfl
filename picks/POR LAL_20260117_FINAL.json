@@ -1,0 +1,283 @@
+{
+  "date": "2026-01-17",
+  "timestamp": "2026-01-17T20:32:30.469636",
+  "slate": "POR LAL",
+  "source_file": "POR LAL_RISK_FIRST_20260117_FROM_UD.json",
+  "summary": {
+    "play_count": 7,
+    "lean_count": 23,
+    "total": 30
+  },
+  "picks": [
+    {
+      "player": "Zeke Nnaji",
+      "team": "DEN",
+      "stat": "rebounds",
+      "line": 6.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 80.2
+    },
+    {
+      "player": "Peyton Watson",
+      "team": "DEN",
+      "stat": "points",
+      "line": 21.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 79.1
+    },
+    {
+      "player": "Kyshawn George",
+      "team": "WAS",
+      "stat": "assists",
+      "line": 3.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 76.4
+    },
+    {
+      "player": "Zeke Nnaji",
+      "team": "DEN",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 74.7
+    },
+    {
+      "player": "Tre Johnson",
+      "team": "WAS",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 74.4
+    },
+    {
+      "player": "Shaedon Sharpe",
+      "team": "POR",
+      "stat": "points",
+      "line": 25.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 71.6
+    },
+    {
+      "player": "Jamal Murray",
+      "team": "DEN",
+      "stat": "points",
+      "line": 30.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 71.3
+    },
+    {
+      "player": "Rui Hachimura",
+      "team": "LAL",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 69.7
+    },
+    {
+      "player": "Justin Champagnie",
+      "team": "WAS",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 69.3
+    },
+    {
+      "player": "Peyton Watson",
+      "team": "DEN",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 69.0
+    },
+    {
+      "player": "Jamal Murray",
+      "team": "DEN",
+      "stat": "pra",
+      "line": 41.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Tre Johnson",
+      "team": "WAS",
+      "stat": "pra",
+      "line": 14.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Peyton Watson",
+      "team": "DEN",
+      "stat": "pra",
+      "line": 29.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Justin Champagnie",
+      "team": "WAS",
+      "stat": "pra",
+      "line": 15.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Marcus Smart",
+      "team": "LAL",
+      "stat": "pra",
+      "line": 20.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Shaedon Sharpe",
+      "team": "POR",
+      "stat": "pra",
+      "line": 33.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Jerami Grant",
+      "team": "POR",
+      "stat": "pra",
+      "line": 21.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Jarred Vanderbilt",
+      "team": "LAL",
+      "stat": "pra",
+      "line": 16.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Khris Middleton",
+      "team": "WAS",
+      "stat": "pra",
+      "line": 18.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 67.9
+    },
+    {
+      "player": "LeBron James",
+      "team": "LAL",
+      "stat": "points",
+      "line": 27.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 67.9
+    },
+    {
+      "player": "Jarred Vanderbilt",
+      "team": "LAL",
+      "stat": "points",
+      "line": 6.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 67.4
+    },
+    {
+      "player": "Marcus Smart",
+      "team": "LAL",
+      "stat": "points",
+      "line": 11.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 67.2
+    },
+    {
+      "player": "Khris Middleton",
+      "team": "WAS",
+      "stat": "points",
+      "line": 11.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 66.9
+    },
+    {
+      "player": "Jerami Grant",
+      "team": "POR",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 66.4
+    },
+    {
+      "player": "LeBron James",
+      "team": "LAL",
+      "stat": "rebounds",
+      "line": 7.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 66.2
+    },
+    {
+      "player": "Bub Carrington",
+      "team": "WAS",
+      "stat": "points",
+      "line": 11.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 66.1
+    },
+    {
+      "player": "Justin Champagnie",
+      "team": "WAS",
+      "stat": "points",
+      "line": 8.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 66.1
+    },
+    {
+      "player": "Jarred Vanderbilt",
+      "team": "LAL",
+      "stat": "rebounds",
+      "line": 6.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 66.0
+    },
+    {
+      "player": "Alex Sarr",
+      "team": "WAS",
+      "stat": "pra",
+      "line": 26.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 65.9
+    },
+    {
+      "player": "Zeke Nnaji",
+      "team": "DEN",
+      "stat": "points",
+      "line": 5.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 65.6
+    }
+  ]
+}

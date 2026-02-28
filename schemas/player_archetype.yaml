@@ -1,0 +1,166 @@
+# NBA Player Archetype Schema
+# ============================
+# Defines 7 player archetypes with distinct volatility profiles.
+# Each archetype has specific confidence caps, distribution hints, and risk factors.
+
+archetypes:
+
+  PRIMARY_USAGE_SCORER:
+    description: "Star scorer with 28+ usage rate, heavy offensive load"
+    examples:
+      - "Luka Doncic"
+      - "Giannis Antetokounmpo"
+      - "Shai Gilgeous-Alexander"
+      - "Joel Embiid"
+      - "Nikola Jokic"
+    characteristics:
+      usage_mean: 32.0
+      minutes_range: [32, 38]
+      volatility: HIGH
+      elasticity: MODERATE
+    risk_factors:
+      blowout_sensitivity: 0.70  # High - stars sit in blowouts
+      bench_risk: 0.05  # Low - rarely DNP
+    statistical:
+      distribution_hint: NORMAL
+      confidence_cap: 0.72  # 72% max confidence
+    
+  SECONDARY_CREATOR:
+    description: "Secondary ball handler, 22-28% usage"
+    examples:
+      - "Kyrie Irving"
+      - "Jaylen Brown"
+      - "Devin Booker (when CP3 active)"
+      - "Anthony Edwards"
+    characteristics:
+      usage_mean: 24.0
+      minutes_range: [28, 35]
+      volatility: MEDIUM
+      elasticity: MODERATE
+    risk_factors:
+      blowout_sensitivity: 0.65
+      bench_risk: 0.08
+    statistical:
+      distribution_hint: NORMAL
+      confidence_cap: 0.70
+
+  CONNECTOR_STARTER:
+    description: "Low-usage glue guy, consistent role"
+    examples:
+      - "Jrue Holiday"
+      - "Mikal Bridges"
+      - "Derrick White"
+      - "Aaron Gordon"
+    characteristics:
+      usage_mean: 18.0
+      minutes_range: [28, 34]
+      volatility: LOW
+      elasticity: FIXED
+    risk_factors:
+      blowout_sensitivity: 0.50
+      bench_risk: 0.05
+    statistical:
+      distribution_hint: NORMAL
+      confidence_cap: 0.68
+
+  STRETCH_BIG:
+    description: "Floor-spacing big, 18-25% usage"
+    examples:
+      - "Brook Lopez"
+      - "Karl-Anthony Towns"
+      - "Jaren Jackson Jr"
+      - "Lauri Markkanen"
+    characteristics:
+      usage_mean: 20.0
+      minutes_range: [20, 30]
+      volatility: MEDIUM
+      elasticity: MODERATE
+    risk_factors:
+      blowout_sensitivity: 0.60
+      bench_risk: 0.10
+    statistical:
+      distribution_hint: NEGATIVE_BINOMIAL  # 3PT makes are clustered
+      confidence_cap: 0.68
+
+  RIM_RUNNER:
+    description: "Low-usage dunker/rim protector"
+    examples:
+      - "Clint Capela"
+      - "Isaiah Hartenstein"
+      - "Daniel Gafford"
+      - "Dereck Lively II"
+    characteristics:
+      usage_mean: 14.0
+      minutes_range: [18, 28]
+      volatility: LOW
+      elasticity: MODERATE
+    risk_factors:
+      blowout_sensitivity: 0.55
+      bench_risk: 0.12
+    statistical:
+      distribution_hint: POISSON  # Low-frequency events (dunks, blocks)
+      confidence_cap: 0.66
+
+  DEFENSIVE_SPECIALIST:
+    description: "Low-usage defender, <15% usage"
+    examples:
+      - "Herb Jones"
+      - "Alex Caruso"
+      - "Matisse Thybulle"
+      - "Dillon Brooks"
+    characteristics:
+      usage_mean: 12.0
+      minutes_range: [24, 30]
+      volatility: LOW
+      elasticity: FIXED
+    risk_factors:
+      blowout_sensitivity: 0.40  # Less affected by score
+      bench_risk: 0.15
+    statistical:
+      distribution_hint: POISSON
+      confidence_cap: 0.65
+
+  BENCH_MICROWAVE:
+    description: "High-usage bench scorer, volatile minutes"
+    examples:
+      - "Jordan Clarkson"
+      - "Immanuel Quickley"
+      - "Malik Monk"
+      - "Norman Powell"
+    characteristics:
+      usage_mean: 22.0
+      minutes_range: [18, 28]
+      volatility: HIGH
+      elasticity: ELASTIC
+    risk_factors:
+      blowout_sensitivity: 0.80  # Highest - garbage time specialists
+      bench_risk: 0.25  # Highest - DNP risk
+    statistical:
+      distribution_hint: NORMAL
+      confidence_cap: 0.62  # Lowest cap due to volatility
+
+# Classification Heuristics
+# ==========================
+# Used when no manual override exists in nba_role_mapping.json
+
+classification_rules:
+  - condition: "usage >= 28.0 AND minutes >= 32.0"
+    archetype: PRIMARY_USAGE_SCORER
+  
+  - condition: "22.0 <= usage < 28.0 AND minutes >= 28.0"
+    archetype: SECONDARY_CREATOR
+  
+  - condition: "15.0 <= usage < 22.0 AND minutes >= 28.0"
+    archetype: CONNECTOR_STARTER
+  
+  - condition: "usage < 18.0 AND 18.0 <= minutes < 28.0"
+    archetype: RIM_RUNNER
+  
+  - condition: "usage < 15.0 AND 24.0 <= minutes < 30.0"
+    archetype: DEFENSIVE_SPECIALIST
+  
+  - condition: "usage >= 20.0 AND minutes < 28.0"
+    archetype: BENCH_MICROWAVE
+  
+  - condition: "default"
+    archetype: CONNECTOR_STARTER  # Safe fallback

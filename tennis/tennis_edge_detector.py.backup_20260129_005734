@@ -1,0 +1,217 @@
+"""
+Tennis Props Edge Detection & Tier Assignment
+=============================================
+Same governance as NBA system:
+- Probability thresholds for tiers
+- Confidence caps
+- Edge calculation vs implied odds
+
+GOVERNANCE: Tier thresholds imported from config/thresholds.py (single source of truth).
+"""
+
+import sys
+from pathlib import Path
+from dataclasses import dataclass
+from typing import Optional
+
+# Add project root for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from config.thresholds import get_all_thresholds
+from tennis_monte_carlo import MonteCarloResult
+
+# Tennis-specific confidence caps (maps HIGH/MEDIUM/LOW to canonical thresholds)
+TENNIS_CONFIDENCE_CAPS = {
+    "HIGH": 0.75,      # Maps to "core" - base SLAM ceiling
+    "MEDIUM": 0.68,    # Maps to "volume_micro" - alt stats ceiling
+    "LOW": 0.55        # Maps to "event_binary" - minimum edge
+}
+
+
+@dataclass
+class TennisEdge:
+    """Edge detected from Monte Carlo simulation"""
+    player: str
+    stat_type: str
+    line: float
+    direction: str  # "HIGHER" or "LOWER"
+    
+    # Probabilities
+    probability: float  # Our calculated probability
+    implied_odds: float  # From market (if available)
+    edge: float  # probability - implied_odds
+    
+    # Tier assignment
+    tier: str  # "SLAM" / "STRONG" / "LEAN" / "PASS"
+    
+    # Monte Carlo details
+    mean: float
+    std: float
+    confidence: str  # "HIGH" / "MEDIUM" / "LOW"
+    
+    # Metadata
+    simulations: int
+    sample_size: int
+
+
+# TIER THRESHOLDS (Tennis-specific from canonical config)
+# GOVERNANCE: Use canonical thresholds from config/thresholds.py
+TIER_THRESHOLDS = get_all_thresholds("TENNIS")  # SLAM=0.82, STRONG=0.68, LEAN=0.58
+
+
+class TennisEdgeDetector:
+    """Detects edges and assigns tiers"""
+    
+    def __init__(self):
+        pass
+    
+    def analyze_result(
+        self,
+        mc_result: MonteCarloResult,
+        implied_odds: Optional[float] = None
+    ) -> Optional[TennisEdge]:
+        """
+        Analyze Monte Carlo result and detect edge.
+        
+        Args:
+            mc_result: Monte Carlo simulation result
+            implied_odds: Market implied probability (if available)
+        
+        Returns:
+            TennisEdge if playable, None if pass
+        """
+        # Determine direction
+        if mc_result.prob_over > mc_result.prob_under:
+            direction = "HIGHER"
+            probability = mc_result.prob_over
+        else:
+            direction = "LOWER"
+            probability = mc_result.prob_under
+        
+        # Apply confidence cap
+        capped_prob = self._apply_confidence_cap(probability, mc_result.confidence)
+        
+        # Calculate edge (vs implied odds if available)
+        if implied_odds:
+            edge = capped_prob - implied_odds
+        else:
+            # No market odds - use conservative implied odds (50/50)
+            edge = capped_prob - 0.50
+        
+        # Assign tier
+        tier = self._assign_tier(capped_prob, mc_result.confidence)
+        
+        # Filter out PASS
+        if tier == "PASS":
+            return None
+        
+        return TennisEdge(
+            player=mc_result.player,
+            stat_type=mc_result.stat_type,
+            line=mc_result.line,
+            direction=direction,
+            probability=capped_prob,
+            implied_odds=implied_odds if implied_odds else 0.50,
+            edge=edge,
+            tier=tier,
+            mean=mc_result.mean,
+            std=mc_result.std,
+            confidence=mc_result.confidence,
+            simulations=mc_result.simulations,
+            sample_size=mc_result.sample_size
+        )
+    
+    def _apply_confidence_cap(self, prob: float, confidence: str) -> float:
+        """
+        Apply confidence-based probability cap.
+        
+        Prevents overconfidence on high variance props.
+        """
+        cap = CONFIDENCE_CAPS.get(confidence, 0.60)
+        return min(prob, cap)
+    
+    def _assign_tier(self, prob: float, confidence: str) -> str:
+        """
+        Assign tier based on probability and confidence.
+        
+        Rules:
+        - SLAM requires HIGH confidence + 75%+
+        - STRONG requires MEDIUM+ confidence + 65%+
+        - LEAN requires 55%+
+        """
+        # Apply confidence restrictions
+        if confidence == "LOW" and prob > TENNIS_CONFIDENCE_CAPS['LOW']:
+            prob = TENNIS_CONFIDENCE_CAPS['LOW']
+        elif confidence == "MEDIUM" and prob > TENNIS_CONFIDENCE_CAPS['MEDIUM']:
+            prob = TENNIS_CONFIDENCE_CAPS['MEDIUM']
+        
+        # Tier assignment
+        if prob >= TIER_THRESHOLDS['SLAM'] and confidence == "HIGH":
+            return "SLAM"
+        elif prob >= TIER_THRESHOLDS['STRONG'] and confidence in ["HIGH", "MEDIUM"]:
+            return "STRONG"
+        elif prob >= TIER_THRESHOLDS['LEAN']:
+            return "LEAN"
+        else:
+            return "PASS"
+    
+    def batch_analyze(
+        self,
+        mc_results: dict[str, MonteCarloResult]
+    ) -> list[TennisEdge]:
+        """
+        Analyze multiple Monte Carlo results.
+        
+        Returns only playable edges (filters out PASS).
+        """
+        edges = []
+        
+        for prop_key, mc_result in mc_results.items():
+            edge = self.analyze_result(mc_result)
+            if edge:  # Only add non-PASS edges
+                edges.append(edge)
+        
+        # Sort by tier priority, then probability
+        tier_priority = {"SLAM": 0, "STRONG": 1, "LEAN": 2}
+        edges.sort(key=lambda e: (tier_priority[e.tier], -e.probability))
+        
+        return edges
+
+
+# Test
+if __name__ == "__main__":
+    from tennis_stats_api import TennisStatsAPI
+    from tennis_monte_carlo import TennisMonteCarloEngine
+    
+    # Get stats
+    api = TennisStatsAPI()
+    sinner = api.get_player_stats("Jannik Sinner")
+    alcaraz = api.get_player_stats("Carlos Alcaraz")
+    
+    # Run Monte Carlo
+    engine = TennisMonteCarloEngine(10000)
+    props = [
+        ("Jannik Sinner", "Fantasy Score", 34.0),
+        ("Jannik Sinner", "Aces", 8.0),
+        ("Carlos Alcaraz", "Games Won", 20.5),
+        ("Carlos Alcaraz", "Breakpoints Won", 4.5),
+    ]
+    
+    mc_results = engine.simulate_multiple_props([sinner, alcaraz], props)
+    
+    # Detect edges
+    detector = TennisEdgeDetector()
+    edges = detector.batch_analyze(mc_results)
+    
+    # Display
+    print("\n" + "=" * 90)
+    print("TENNIS PROPS - EDGE DETECTION & TIER ASSIGNMENT")
+    print("=" * 90)
+    print(f"\nPlayable Props: {len(edges)}")
+    
+    for edge in edges:
+        print(f"\n[{edge.tier}] {edge.player} - {edge.stat_type} {edge.direction} {edge.line}")
+        print(f"  Probability: {edge.probability:.1%} (capped from simulation)")
+        print(f"  Edge: +{edge.edge:.1%} vs implied {edge.implied_odds:.1%}")
+        print(f"  Mean: {edge.mean:.2f} ± {edge.std:.2f}")
+        print(f"  Confidence: {edge.confidence} ({edge.sample_size} match sample)")

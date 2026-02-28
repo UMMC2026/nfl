@@ -1,0 +1,305 @@
+{
+  "created_at_utc": "2026-02-07T22:41:45.927531+00:00",
+  "edges": [
+    {
+      "edge_id": "682d4337e99df02b",
+      "player": "Danny Welbeck",
+      "team": "",
+      "opponent": "",
+      "stat": "shots",
+      "line": 2.0,
+      "direction": "lower",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 72.0,
+      "effective_confidence": 72.0,
+      "mu": 1.2,
+      "sigma": 1.0954451150103321,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "poisson",
+      "sample_n": 0,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=VETTED",
+      "gate_details": [
+        {
+          "pick_id": "Danny Welbeck_SHOTS_lower_2.0",
+          "state": "VETTED",
+          "original_probability": 72.0,
+          "final_probability": 72.0,
+          "adjustments": [],
+          "rejection_reason": null,
+          "vetted_reason": "FRAGILE_FLAG",
+          "flags_detected": [
+            "FRAGILE"
+          ],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "GATE_2_USAGE_VOLATILITY",
+            "GATE_3_SPECIALIST_REJECTS",
+            "GATE_4_FRAGILE",
+            "VETTED: FRAGILE flag (visible, not optimizable)"
+          ],
+          "is_optimizable": false,
+          "is_visible": true
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "c5d5717cd4fe3ae0",
+      "player": "Kaoru Mitoma",
+      "team": "",
+      "opponent": "",
+      "stat": "shots",
+      "line": 1.5,
+      "direction": "lower",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 66.26272662068446,
+      "effective_confidence": 66.26272662068446,
+      "mu": 1.2,
+      "sigma": 1.0954451150103321,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "poisson",
+      "sample_n": 0,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=VETTED",
+      "gate_details": [
+        {
+          "pick_id": "Kaoru Mitoma_SHOTS_lower_1.5",
+          "state": "VETTED",
+          "original_probability": 66.26272662068446,
+          "final_probability": 66.26272662068446,
+          "adjustments": [],
+          "rejection_reason": null,
+          "vetted_reason": "FRAGILE_FLAG",
+          "flags_detected": [
+            "FRAGILE"
+          ],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "GATE_2_USAGE_VOLATILITY",
+            "GATE_3_SPECIALIST_REJECTS",
+            "GATE_4_FRAGILE",
+            "VETTED: FRAGILE flag (visible, not optimizable)"
+          ],
+          "is_optimizable": false,
+          "is_visible": true
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "ae2bc1e094b6b829",
+      "player": "Yankuba Minteh",
+      "team": "",
+      "opponent": "",
+      "stat": "shots",
+      "line": 1.5,
+      "direction": "lower",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 66.26272662068446,
+      "effective_confidence": 66.26272662068446,
+      "mu": 1.2,
+      "sigma": 1.0954451150103321,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "poisson",
+      "sample_n": 0,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=VETTED",
+      "gate_details": [
+        {
+          "pick_id": "Yankuba Minteh_SHOTS_lower_1.5",
+          "state": "VETTED",
+          "original_probability": 66.26272662068446,
+          "final_probability": 66.26272662068446,
+          "adjustments": [],
+          "rejection_reason": null,
+          "vetted_reason": "FRAGILE_FLAG",
+          "flags_detected": [
+            "FRAGILE"
+          ],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "GATE_2_USAGE_VOLATILITY",
+            "GATE_3_SPECIALIST_REJECTS",
+            "GATE_4_FRAGILE",
+            "VETTED: FRAGILE flag (visible, not optimizable)"
+          ],
+          "is_optimizable": false,
+          "is_visible": true
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "4d613f0ea6a8eeab",
+      "player": "Erling Braut Haaland",
+      "team": "",
+      "opponent": "",
+      "stat": "shots",
+      "line": 3.0,
+      "direction": "lower",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 72.0,
+      "effective_confidence": 72.0,
+      "mu": 1.2,
+      "sigma": 1.0954451150103321,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "poisson",
+      "sample_n": 0,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=VETTED",
+      "gate_details": [
+        {
+          "pick_id": "Erling Braut Haaland_SHOTS_lower_3.0",
+          "state": "VETTED",
+          "original_probability": 72.0,
+          "final_probability": 72.0,
+          "adjustments": [],
+          "rejection_reason": null,
+          "vetted_reason": "FRAGILE_FLAG",
+          "flags_detected": [
+            "FRAGILE"
+          ],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "GATE_2_USAGE_VOLATILITY",
+            "GATE_3_SPECIALIST_REJECTS",
+            "GATE_4_FRAGILE",
+            "VETTED: FRAGILE flag (visible, not optimizable)"
+          ],
+          "is_optimizable": false,
+          "is_visible": true
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "b586659cb7eb139f",
+      "player": "Cody Gakpo",
+      "team": "",
+      "opponent": "",
+      "stat": "shots_on_target",
+      "line": 0.5,
+      "direction": "lower",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 60.653065971263345,
+      "effective_confidence": 60.653065971263345,
+      "mu": 0.5,
+      "sigma": 0.7071067811865476,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "poisson",
+      "sample_n": 0,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=VETTED",
+      "gate_details": [
+        {
+          "pick_id": "Cody Gakpo_SHOTS_ON_TARGET_lower_0.5",
+          "state": "VETTED",
+          "original_probability": 60.653065971263345,
+          "final_probability": 60.653065971263345,
+          "adjustments": [],
+          "rejection_reason": null,
+          "vetted_reason": "FRAGILE_FLAG",
+          "flags_detected": [
+            "FRAGILE"
+          ],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "GATE_2_USAGE_VOLATILITY",
+            "GATE_3_SPECIALIST_REJECTS",
+            "GATE_4_FRAGILE",
+            "VETTED: FRAGILE flag (visible, not optimizable)"
+          ],
+          "is_optimizable": false,
+          "is_visible": true
+        }
+      ],
+      "stat_adjustment": null
+    },
+    {
+      "edge_id": "32b3cc994d8710e4",
+      "player": "Rayan Cherki",
+      "team": "",
+      "opponent": "",
+      "stat": "shots_on_target",
+      "line": 0.5,
+      "direction": "lower",
+      "decision": "BLOCKED",
+      "status": "BLOCKED",
+      "model_confidence": 60.653065971263345,
+      "effective_confidence": 60.653065971263345,
+      "mu": 0.5,
+      "sigma": 0.7071067811865476,
+      "edge": null,
+      "z_score": null,
+      "edge_quality": null,
+      "prob_method": "poisson",
+      "sample_n": 0,
+      "minutes_cv": null,
+      "context_notes": [],
+      "context_warnings": [],
+      "block_reason": "pick_state=VETTED",
+      "gate_details": [
+        {
+          "pick_id": "Rayan Cherki_SHOTS_ON_TARGET_lower_0.5",
+          "state": "VETTED",
+          "original_probability": 60.653065971263345,
+          "final_probability": 60.653065971263345,
+          "adjustments": [],
+          "rejection_reason": null,
+          "vetted_reason": "FRAGILE_FLAG",
+          "flags_detected": [
+            "FRAGILE"
+          ],
+          "gate_sequence": [
+            "GATE_0_STAT_DEVIATION",
+            "SDG_SKIP: no mu/sigma data",
+            "GATE_1_MIN_PROB",
+            "GATE_2_USAGE_VOLATILITY",
+            "GATE_3_SPECIALIST_REJECTS",
+            "GATE_4_FRAGILE",
+            "VETTED: FRAGILE flag (visible, not optimizable)"
+          ],
+          "is_optimizable": false,
+          "is_visible": true
+        }
+      ],
+      "stat_adjustment": null
+    }
+  ]
+}

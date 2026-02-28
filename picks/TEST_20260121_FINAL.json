@@ -1,0 +1,58 @@
+{
+  "date": "2026-01-21",
+  "timestamp": "2026-01-21T02:47:37.263577",
+  "slate": "TEST",
+  "source_file": "TEST_RISK_FIRST_20260121_FROM_UD.json",
+  "summary": {
+    "play_count": 1,
+    "lean_count": 4,
+    "total": 5
+  },
+  "picks": [
+    {
+      "player": "Chet Holmgren",
+      "team": "OKC",
+      "stat": "rebounds",
+      "line": 9.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 74.6
+    },
+    {
+      "player": "Giannis Antetokounmpo",
+      "team": "MIL",
+      "stat": "pra",
+      "line": 44.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Ryan Rollins",
+      "team": "MIL",
+      "stat": "pra",
+      "line": 24.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Shai Gilgeous-Alexander",
+      "team": "OKC",
+      "stat": "pra",
+      "line": 43.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Kyle Kuzma",
+      "team": "MIL",
+      "stat": "pra",
+      "line": 19.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    }
+  ]
+}

@@ -1,0 +1,2417 @@
+{
+  "results": [
+    {
+      "player": "Coco Gauff",
+      "stat": "total_games",
+      "line": 18.5,
+      "direction": "higher",
+      "probability": 0.839,
+      "confidence": 63.699999999999996,
+      "tier": "SLAM",
+      "simulation": {
+        "mean": 24.698,
+        "std": 5.656924641375303,
+        "n": 2000
+      },
+      "physics_mode": true,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 10,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": "match_duration"
+    },
+    {
+      "player": "Iga Swiatek",
+      "stat": "total_games",
+      "line": 17.5,
+      "direction": "higher",
+      "probability": 0.9005,
+      "confidence": 63.699999999999996,
+      "tier": "SLAM",
+      "simulation": {
+        "mean": 24.7445,
+        "std": 5.783160227860764,
+        "n": 2000
+      },
+      "physics_mode": true,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 10,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": "match_duration"
+    },
+    {
+      "player": "Janice Tjen",
+      "stat": "game_spread",
+      "line": 6.5,
+      "direction": "higher",
+      "probability": 0.882,
+      "confidence": 63.699999999999996,
+      "tier": "SLAM",
+      "simulation": {
+        "mean": 10.042917907497715,
+        "std": 2.9225127576530943,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 10,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Tereza Valentova",
+      "stat": "game_spread",
+      "line": 3.5,
+      "direction": "higher",
+      "probability": 0.9845,
+      "confidence": 63.699999999999996,
+      "tier": "SLAM",
+      "simulation": {
+        "mean": 10.041648327306607,
+        "std": 3.0062574017007235,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 10,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Camila Osorio",
+      "stat": "game_spread",
+      "line": 2.5,
+      "direction": "higher",
+      "probability": 0.994,
+      "confidence": 63.699999999999996,
+      "tier": "SLAM",
+      "simulation": {
+        "mean": 10.087152987531963,
+        "std": 2.929696288622673,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 10,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Elena Rybakina",
+      "stat": "total_games",
+      "line": 19.0,
+      "direction": "higher",
+      "probability": 0.7235,
+      "confidence": 63.699999999999996,
+      "tier": "STRONG",
+      "simulation": {
+        "mean": 24.2535,
+        "std": 5.7717323393499935,
+        "n": 2000
+      },
+      "physics_mode": true,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 10,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": "match_duration"
+    },
+    {
+      "player": "Emma Navarro",
+      "stat": "game_spread",
+      "line": 1.5,
+      "direction": "higher",
+      "probability": 0.998,
+      "confidence": 63.28,
+      "tier": "SLAM",
+      "simulation": {
+        "mean": 9.991559239987565,
+        "std": 2.9982991512101567,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 9,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Vera Zvonareva",
+      "stat": "total_games",
+      "line": 19.0,
+      "direction": "higher",
+      "probability": 0.734,
+      "confidence": 62.86,
+      "tier": "STRONG",
+      "simulation": {
+        "mean": 24.2825,
+        "std": 5.710954495583493,
+        "n": 2000
+      },
+      "physics_mode": true,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 8,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": "match_duration"
+    },
+    {
+      "player": "Vera Zvonareva",
+      "stat": "game_spread",
+      "line": 6.0,
+      "direction": "higher",
+      "probability": 0.907,
+      "confidence": 62.86,
+      "tier": "SLAM",
+      "simulation": {
+        "mean": 9.932473627352651,
+        "std": 2.9779527694955585,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 8,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Daria Kasatkina",
+      "stat": "total_games",
+      "line": 20.5,
+      "direction": "higher",
+      "probability": 0.6895,
+      "confidence": 62.744499999999995,
+      "tier": "STRONG",
+      "simulation": {
+        "mean": 24.546,
+        "std": 5.672034025373305,
+        "n": 2000
+      },
+      "physics_mode": true,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 10,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": "match_duration"
+    },
+    {
+      "player": "Dayana Yastremska",
+      "stat": "game_spread",
+      "line": 5.0,
+      "direction": "higher",
+      "probability": 0.9535,
+      "confidence": 62.44,
+      "tier": "SLAM",
+      "simulation": {
+        "mean": 10.052394228184577,
+        "std": 3.0065435234248867,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 7,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Magdalena Frech",
+      "stat": "game_spread",
+      "line": 3.0,
+      "direction": "higher",
+      "probability": 0.987,
+      "confidence": 61.6,
+      "tier": "SLAM",
+      "simulation": {
+        "mean": 9.961128962890639,
+        "std": 3.0411718522645437,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 5,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Daria Kasatkina",
+      "stat": "game_spread",
+      "line": 4.5,
+      "direction": "higher",
+      "probability": 0.9665,
+      "confidence": 61.18,
+      "tier": "SLAM",
+      "simulation": {
+        "mean": 10.083530181860526,
+        "std": 3.00223481067302,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 4,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Jelena Ostapenko",
+      "stat": "game_spread",
+      "line": 4.0,
+      "direction": "higher",
+      "probability": 0.9785,
+      "confidence": 61.18,
+      "tier": "SLAM",
+      "simulation": {
+        "mean": 10.172638713916143,
+        "std": 3.0487653811182756,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 4,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Elisabetta Cocciaretto",
+      "stat": "game_spread",
+      "line": 6.5,
+      "direction": "higher",
+      "probability": 0.886,
+      "confidence": 61.18,
+      "tier": "SLAM",
+      "simulation": {
+        "mean": 9.963318929138723,
+        "std": 2.900159255769217,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 4,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Maria Sakkari",
+      "stat": "game_spread",
+      "line": 3.5,
+      "direction": "higher",
+      "probability": 0.984,
+      "confidence": 60.76,
+      "tier": "SLAM",
+      "simulation": {
+        "mean": 10.033241994386596,
+        "std": 3.0386756091898572,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 3,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Varvara Gracheva",
+      "stat": "game_spread",
+      "line": 4.5,
+      "direction": "higher",
+      "probability": 0.9625,
+      "confidence": 60.76,
+      "tier": "SLAM",
+      "simulation": {
+        "mean": 9.90242150256584,
+        "std": 3.0005724167810364,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 3,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Alycia Parks",
+      "stat": "game_spread",
+      "line": 4.0,
+      "direction": "higher",
+      "probability": 0.9835,
+      "confidence": 60.76,
+      "tier": "SLAM",
+      "simulation": {
+        "mean": 10.093743792966603,
+        "std": 2.936383336155025,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 3,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Xin Yu Wang",
+      "stat": "game_spread",
+      "line": 5.5,
+      "direction": "higher",
+      "probability": 0.933,
+      "confidence": 60.76,
+      "tier": "SLAM",
+      "simulation": {
+        "mean": 10.04604866428275,
+        "std": 3.039657504366081,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 3,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Alycia Parks",
+      "stat": "total_games",
+      "line": 21.0,
+      "direction": "higher",
+      "probability": 0.665,
+      "confidence": 60.51499999999999,
+      "tier": "LEAN",
+      "simulation": {
+        "mean": 25.098,
+        "std": 5.815694898597827,
+        "n": 2000
+      },
+      "physics_mode": true,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 10,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": "match_duration"
+    },
+    {
+      "player": "Dayana Yastremska",
+      "stat": "total_games",
+      "line": 20.0,
+      "direction": "higher",
+      "probability": 0.663,
+      "confidence": 60.33299999999999,
+      "tier": "LEAN",
+      "simulation": {
+        "mean": 24.245,
+        "std": 5.731352301124038,
+        "n": 2000
+      },
+      "physics_mode": true,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 10,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": "match_duration"
+    },
+    {
+      "player": "Karolina Muchova",
+      "stat": "total_games",
+      "line": 21.5,
+      "direction": "higher",
+      "probability": 0.6535,
+      "confidence": 59.46849999999999,
+      "tier": "LEAN",
+      "simulation": {
+        "mean": 25.022,
+        "std": 5.8887906167110184,
+        "n": 2000
+      },
+      "physics_mode": true,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 10,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": "match_duration"
+    },
+    {
+      "player": "Anna Kalinskaya",
+      "stat": "total_games",
+      "line": 21.5,
+      "direction": "higher",
+      "probability": 0.6445,
+      "confidence": 58.649499999999996,
+      "tier": "LEAN",
+      "simulation": {
+        "mean": 24.725,
+        "std": 5.7698371303057705,
+        "n": 2000
+      },
+      "physics_mode": true,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 10,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": "match_duration"
+    },
+    {
+      "player": "Varvara Gracheva",
+      "stat": "total_games",
+      "line": 21.0,
+      "direction": "higher",
+      "probability": 0.6405,
+      "confidence": 58.28549999999999,
+      "tier": "LEAN",
+      "simulation": {
+        "mean": 24.5285,
+        "std": 5.758191220606219,
+        "n": 2000
+      },
+      "physics_mode": true,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 10,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": "match_duration"
+    },
+    {
+      "player": "Jasmine Paolini",
+      "stat": "total_games",
+      "line": 21.0,
+      "direction": "higher",
+      "probability": 0.6385,
+      "confidence": 58.10349999999999,
+      "tier": "LEAN",
+      "simulation": {
+        "mean": 24.6025,
+        "std": 5.751872370618453,
+        "n": 2000
+      },
+      "physics_mode": true,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 10,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": "match_duration"
+    },
+    {
+      "player": "Ann Li",
+      "stat": "total_games",
+      "line": 21.5,
+      "direction": "higher",
+      "probability": 0.6365,
+      "confidence": 57.921499999999995,
+      "tier": "LEAN",
+      "simulation": {
+        "mean": 24.565,
+        "std": 5.777842740449647,
+        "n": 2000
+      },
+      "physics_mode": true,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 10,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": "match_duration"
+    },
+    {
+      "player": "Camila Osorio",
+      "stat": "total_games",
+      "line": 21.5,
+      "direction": "higher",
+      "probability": 0.6275,
+      "confidence": 57.10249999999999,
+      "tier": "LEAN",
+      "simulation": {
+        "mean": 24.34,
+        "std": 5.686349205214346,
+        "n": 2000
+      },
+      "physics_mode": true,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 10,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": "match_duration"
+    },
+    {
+      "player": "Ekaterina Alexandrova",
+      "stat": "total_games",
+      "line": 21.0,
+      "direction": "higher",
+      "probability": 0.6265,
+      "confidence": 57.011499999999984,
+      "tier": "LEAN",
+      "simulation": {
+        "mean": 24.5615,
+        "std": 5.767655561433751,
+        "n": 2000
+      },
+      "physics_mode": true,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 10,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": "match_duration"
+    },
+    {
+      "player": "Anna Kalinskaya",
+      "stat": "game_spread",
+      "line": -1.5,
+      "direction": "lower",
+      "probability": 0.0005,
+      "confidence": 0.0449,
+      "tier": "NO_PLAY",
+      "simulation": {
+        "mean": 10.089836169961867,
+        "std": 2.9784189990641554,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 8,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Elise Mertens",
+      "stat": "game_spread",
+      "line": -4.5,
+      "direction": "lower",
+      "probability": 0.0,
+      "confidence": 0.0,
+      "tier": "NO_PLAY",
+      "simulation": {
+        "mean": 9.939930078122128,
+        "std": 3.0090236256883838,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 6,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Ann Li",
+      "stat": "game_spread",
+      "line": -3.0,
+      "direction": "lower",
+      "probability": 0.0,
+      "confidence": 0.0,
+      "tier": "NO_PLAY",
+      "simulation": {
+        "mean": 10.10927957895876,
+        "std": 3.0099800845202016,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 1,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Jasmine Paolini",
+      "stat": "game_spread",
+      "line": -3.5,
+      "direction": "lower",
+      "probability": 0.0,
+      "confidence": 0.0,
+      "tier": "NO_PLAY",
+      "simulation": {
+        "mean": 9.95858126789411,
+        "std": 2.968089460305132,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 7,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Ekaterina Alexandrova",
+      "stat": "game_spread",
+      "line": -4.0,
+      "direction": "lower",
+      "probability": 0.0,
+      "confidence": 0.0,
+      "tier": "NO_PLAY",
+      "simulation": {
+        "mean": 9.964835226171967,
+        "std": 3.036570341726684,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 4,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Coco Gauff",
+      "stat": "game_spread",
+      "line": -6.5,
+      "direction": "lower",
+      "probability": 0.0,
+      "confidence": 0.0,
+      "tier": "NO_PLAY",
+      "simulation": {
+        "mean": 9.943965623691529,
+        "std": 3.041918933335643,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 10,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Linda Noskova",
+      "stat": "game_spread",
+      "line": -4.5,
+      "direction": "lower",
+      "probability": 0.0,
+      "confidence": 0.0,
+      "tier": "NO_PLAY",
+      "simulation": {
+        "mean": 9.969935659985953,
+        "std": 2.988879475520354,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 6,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Victoria Mboko",
+      "stat": "game_spread",
+      "line": -6.0,
+      "direction": "lower",
+      "probability": 0.0,
+      "confidence": 0.0,
+      "tier": "NO_PLAY",
+      "simulation": {
+        "mean": 10.072946444833565,
+        "std": 2.9542858112502812,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 10,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Elina Svitolina",
+      "stat": "game_spread",
+      "line": -5.0,
+      "direction": "lower",
+      "probability": 0.0,
+      "confidence": 0.0,
+      "tier": "NO_PLAY",
+      "simulation": {
+        "mean": 9.982295511076092,
+        "std": 3.038093142053039,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 7,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Iga Swiatek",
+      "stat": "game_spread",
+      "line": -6.5,
+      "direction": "lower",
+      "probability": 0.0,
+      "confidence": 0.0,
+      "tier": "NO_PLAY",
+      "simulation": {
+        "mean": 10.201223755925785,
+        "std": 2.9999142859622565,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 8,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Karolina Muchova",
+      "stat": "game_spread",
+      "line": -3.5,
+      "direction": "lower",
+      "probability": 0.0,
+      "confidence": 0.0,
+      "tier": "NO_PLAY",
+      "simulation": {
+        "mean": 10.075167506999538,
+        "std": 2.916522076689559,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 6,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Katerina Siniakova",
+      "stat": "game_spread",
+      "line": -2.5,
+      "direction": "lower",
+      "probability": 0.0,
+      "confidence": 0.0,
+      "tier": "NO_PLAY",
+      "simulation": {
+        "mean": 10.068942250628082,
+        "std": 3.0524525279676267,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 3,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Qinwen Zheng",
+      "stat": "game_spread",
+      "line": -4.0,
+      "direction": "lower",
+      "probability": 0.0,
+      "confidence": 0.0,
+      "tier": "NO_PLAY",
+      "simulation": {
+        "mean": 10.065538845986593,
+        "std": 3.065458917224967,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 12,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    },
+    {
+      "player": "Elena Rybakina",
+      "stat": "game_spread",
+      "line": -5.5,
+      "direction": "lower",
+      "probability": 0.0,
+      "confidence": 0.0,
+      "tier": "NO_PLAY",
+      "simulation": {
+        "mean": 10.021577266322184,
+        "std": 3.034559552199314,
+        "n": 2000
+      },
+      "physics_mode": false,
+      "injury_gate": {
+        "player_injury_penalty": 0.0,
+        "opponent_injury_penalty": 0.0,
+        "net_adjustment": 0,
+        "player_status": "ACTIVE",
+        "adjustment_applied": false
+      },
+      "profile_data": {
+        "n_matches": 3,
+        "historical_mean": null,
+        "historical_std": null
+      },
+      "correlation_group": null
+    }
+  ],
+  "tiers": {
+    "SLAM": [
+      {
+        "player": "Coco Gauff",
+        "stat": "total_games",
+        "line": 18.5,
+        "direction": "higher",
+        "probability": 0.839,
+        "confidence": 63.699999999999996,
+        "tier": "SLAM",
+        "simulation": {
+          "mean": 24.698,
+          "std": 5.656924641375303,
+          "n": 2000
+        },
+        "physics_mode": true,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 10,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": "match_duration"
+      },
+      {
+        "player": "Iga Swiatek",
+        "stat": "total_games",
+        "line": 17.5,
+        "direction": "higher",
+        "probability": 0.9005,
+        "confidence": 63.699999999999996,
+        "tier": "SLAM",
+        "simulation": {
+          "mean": 24.7445,
+          "std": 5.783160227860764,
+          "n": 2000
+        },
+        "physics_mode": true,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 10,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": "match_duration"
+      },
+      {
+        "player": "Janice Tjen",
+        "stat": "game_spread",
+        "line": 6.5,
+        "direction": "higher",
+        "probability": 0.882,
+        "confidence": 63.699999999999996,
+        "tier": "SLAM",
+        "simulation": {
+          "mean": 10.042917907497715,
+          "std": 2.9225127576530943,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 10,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Tereza Valentova",
+        "stat": "game_spread",
+        "line": 3.5,
+        "direction": "higher",
+        "probability": 0.9845,
+        "confidence": 63.699999999999996,
+        "tier": "SLAM",
+        "simulation": {
+          "mean": 10.041648327306607,
+          "std": 3.0062574017007235,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 10,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Camila Osorio",
+        "stat": "game_spread",
+        "line": 2.5,
+        "direction": "higher",
+        "probability": 0.994,
+        "confidence": 63.699999999999996,
+        "tier": "SLAM",
+        "simulation": {
+          "mean": 10.087152987531963,
+          "std": 2.929696288622673,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 10,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Emma Navarro",
+        "stat": "game_spread",
+        "line": 1.5,
+        "direction": "higher",
+        "probability": 0.998,
+        "confidence": 63.28,
+        "tier": "SLAM",
+        "simulation": {
+          "mean": 9.991559239987565,
+          "std": 2.9982991512101567,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 9,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Vera Zvonareva",
+        "stat": "game_spread",
+        "line": 6.0,
+        "direction": "higher",
+        "probability": 0.907,
+        "confidence": 62.86,
+        "tier": "SLAM",
+        "simulation": {
+          "mean": 9.932473627352651,
+          "std": 2.9779527694955585,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 8,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Dayana Yastremska",
+        "stat": "game_spread",
+        "line": 5.0,
+        "direction": "higher",
+        "probability": 0.9535,
+        "confidence": 62.44,
+        "tier": "SLAM",
+        "simulation": {
+          "mean": 10.052394228184577,
+          "std": 3.0065435234248867,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 7,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Magdalena Frech",
+        "stat": "game_spread",
+        "line": 3.0,
+        "direction": "higher",
+        "probability": 0.987,
+        "confidence": 61.6,
+        "tier": "SLAM",
+        "simulation": {
+          "mean": 9.961128962890639,
+          "std": 3.0411718522645437,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 5,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Daria Kasatkina",
+        "stat": "game_spread",
+        "line": 4.5,
+        "direction": "higher",
+        "probability": 0.9665,
+        "confidence": 61.18,
+        "tier": "SLAM",
+        "simulation": {
+          "mean": 10.083530181860526,
+          "std": 3.00223481067302,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 4,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Jelena Ostapenko",
+        "stat": "game_spread",
+        "line": 4.0,
+        "direction": "higher",
+        "probability": 0.9785,
+        "confidence": 61.18,
+        "tier": "SLAM",
+        "simulation": {
+          "mean": 10.172638713916143,
+          "std": 3.0487653811182756,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 4,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Elisabetta Cocciaretto",
+        "stat": "game_spread",
+        "line": 6.5,
+        "direction": "higher",
+        "probability": 0.886,
+        "confidence": 61.18,
+        "tier": "SLAM",
+        "simulation": {
+          "mean": 9.963318929138723,
+          "std": 2.900159255769217,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 4,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Maria Sakkari",
+        "stat": "game_spread",
+        "line": 3.5,
+        "direction": "higher",
+        "probability": 0.984,
+        "confidence": 60.76,
+        "tier": "SLAM",
+        "simulation": {
+          "mean": 10.033241994386596,
+          "std": 3.0386756091898572,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 3,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Varvara Gracheva",
+        "stat": "game_spread",
+        "line": 4.5,
+        "direction": "higher",
+        "probability": 0.9625,
+        "confidence": 60.76,
+        "tier": "SLAM",
+        "simulation": {
+          "mean": 9.90242150256584,
+          "std": 3.0005724167810364,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 3,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Alycia Parks",
+        "stat": "game_spread",
+        "line": 4.0,
+        "direction": "higher",
+        "probability": 0.9835,
+        "confidence": 60.76,
+        "tier": "SLAM",
+        "simulation": {
+          "mean": 10.093743792966603,
+          "std": 2.936383336155025,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 3,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Xin Yu Wang",
+        "stat": "game_spread",
+        "line": 5.5,
+        "direction": "higher",
+        "probability": 0.933,
+        "confidence": 60.76,
+        "tier": "SLAM",
+        "simulation": {
+          "mean": 10.04604866428275,
+          "std": 3.039657504366081,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 3,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      }
+    ],
+    "STRONG": [
+      {
+        "player": "Elena Rybakina",
+        "stat": "total_games",
+        "line": 19.0,
+        "direction": "higher",
+        "probability": 0.7235,
+        "confidence": 63.699999999999996,
+        "tier": "STRONG",
+        "simulation": {
+          "mean": 24.2535,
+          "std": 5.7717323393499935,
+          "n": 2000
+        },
+        "physics_mode": true,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 10,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": "match_duration"
+      },
+      {
+        "player": "Vera Zvonareva",
+        "stat": "total_games",
+        "line": 19.0,
+        "direction": "higher",
+        "probability": 0.734,
+        "confidence": 62.86,
+        "tier": "STRONG",
+        "simulation": {
+          "mean": 24.2825,
+          "std": 5.710954495583493,
+          "n": 2000
+        },
+        "physics_mode": true,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 8,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": "match_duration"
+      },
+      {
+        "player": "Daria Kasatkina",
+        "stat": "total_games",
+        "line": 20.5,
+        "direction": "higher",
+        "probability": 0.6895,
+        "confidence": 62.744499999999995,
+        "tier": "STRONG",
+        "simulation": {
+          "mean": 24.546,
+          "std": 5.672034025373305,
+          "n": 2000
+        },
+        "physics_mode": true,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 10,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": "match_duration"
+      }
+    ],
+    "LEAN": [
+      {
+        "player": "Alycia Parks",
+        "stat": "total_games",
+        "line": 21.0,
+        "direction": "higher",
+        "probability": 0.665,
+        "confidence": 60.51499999999999,
+        "tier": "LEAN",
+        "simulation": {
+          "mean": 25.098,
+          "std": 5.815694898597827,
+          "n": 2000
+        },
+        "physics_mode": true,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 10,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": "match_duration"
+      },
+      {
+        "player": "Dayana Yastremska",
+        "stat": "total_games",
+        "line": 20.0,
+        "direction": "higher",
+        "probability": 0.663,
+        "confidence": 60.33299999999999,
+        "tier": "LEAN",
+        "simulation": {
+          "mean": 24.245,
+          "std": 5.731352301124038,
+          "n": 2000
+        },
+        "physics_mode": true,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 10,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": "match_duration"
+      },
+      {
+        "player": "Karolina Muchova",
+        "stat": "total_games",
+        "line": 21.5,
+        "direction": "higher",
+        "probability": 0.6535,
+        "confidence": 59.46849999999999,
+        "tier": "LEAN",
+        "simulation": {
+          "mean": 25.022,
+          "std": 5.8887906167110184,
+          "n": 2000
+        },
+        "physics_mode": true,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 10,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": "match_duration"
+      },
+      {
+        "player": "Anna Kalinskaya",
+        "stat": "total_games",
+        "line": 21.5,
+        "direction": "higher",
+        "probability": 0.6445,
+        "confidence": 58.649499999999996,
+        "tier": "LEAN",
+        "simulation": {
+          "mean": 24.725,
+          "std": 5.7698371303057705,
+          "n": 2000
+        },
+        "physics_mode": true,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 10,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": "match_duration"
+      },
+      {
+        "player": "Varvara Gracheva",
+        "stat": "total_games",
+        "line": 21.0,
+        "direction": "higher",
+        "probability": 0.6405,
+        "confidence": 58.28549999999999,
+        "tier": "LEAN",
+        "simulation": {
+          "mean": 24.5285,
+          "std": 5.758191220606219,
+          "n": 2000
+        },
+        "physics_mode": true,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 10,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": "match_duration"
+      },
+      {
+        "player": "Jasmine Paolini",
+        "stat": "total_games",
+        "line": 21.0,
+        "direction": "higher",
+        "probability": 0.6385,
+        "confidence": 58.10349999999999,
+        "tier": "LEAN",
+        "simulation": {
+          "mean": 24.6025,
+          "std": 5.751872370618453,
+          "n": 2000
+        },
+        "physics_mode": true,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 10,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": "match_duration"
+      },
+      {
+        "player": "Ann Li",
+        "stat": "total_games",
+        "line": 21.5,
+        "direction": "higher",
+        "probability": 0.6365,
+        "confidence": 57.921499999999995,
+        "tier": "LEAN",
+        "simulation": {
+          "mean": 24.565,
+          "std": 5.777842740449647,
+          "n": 2000
+        },
+        "physics_mode": true,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 10,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": "match_duration"
+      },
+      {
+        "player": "Camila Osorio",
+        "stat": "total_games",
+        "line": 21.5,
+        "direction": "higher",
+        "probability": 0.6275,
+        "confidence": 57.10249999999999,
+        "tier": "LEAN",
+        "simulation": {
+          "mean": 24.34,
+          "std": 5.686349205214346,
+          "n": 2000
+        },
+        "physics_mode": true,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 10,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": "match_duration"
+      },
+      {
+        "player": "Ekaterina Alexandrova",
+        "stat": "total_games",
+        "line": 21.0,
+        "direction": "higher",
+        "probability": 0.6265,
+        "confidence": 57.011499999999984,
+        "tier": "LEAN",
+        "simulation": {
+          "mean": 24.5615,
+          "std": 5.767655561433751,
+          "n": 2000
+        },
+        "physics_mode": true,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 10,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": "match_duration"
+      }
+    ],
+    "NO_PLAY": [
+      {
+        "player": "Anna Kalinskaya",
+        "stat": "game_spread",
+        "line": -1.5,
+        "direction": "lower",
+        "probability": 0.0005,
+        "confidence": 0.0449,
+        "tier": "NO_PLAY",
+        "simulation": {
+          "mean": 10.089836169961867,
+          "std": 2.9784189990641554,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 8,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Elise Mertens",
+        "stat": "game_spread",
+        "line": -4.5,
+        "direction": "lower",
+        "probability": 0.0,
+        "confidence": 0.0,
+        "tier": "NO_PLAY",
+        "simulation": {
+          "mean": 9.939930078122128,
+          "std": 3.0090236256883838,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 6,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Ann Li",
+        "stat": "game_spread",
+        "line": -3.0,
+        "direction": "lower",
+        "probability": 0.0,
+        "confidence": 0.0,
+        "tier": "NO_PLAY",
+        "simulation": {
+          "mean": 10.10927957895876,
+          "std": 3.0099800845202016,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 1,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Jasmine Paolini",
+        "stat": "game_spread",
+        "line": -3.5,
+        "direction": "lower",
+        "probability": 0.0,
+        "confidence": 0.0,
+        "tier": "NO_PLAY",
+        "simulation": {
+          "mean": 9.95858126789411,
+          "std": 2.968089460305132,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 7,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Ekaterina Alexandrova",
+        "stat": "game_spread",
+        "line": -4.0,
+        "direction": "lower",
+        "probability": 0.0,
+        "confidence": 0.0,
+        "tier": "NO_PLAY",
+        "simulation": {
+          "mean": 9.964835226171967,
+          "std": 3.036570341726684,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 4,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Coco Gauff",
+        "stat": "game_spread",
+        "line": -6.5,
+        "direction": "lower",
+        "probability": 0.0,
+        "confidence": 0.0,
+        "tier": "NO_PLAY",
+        "simulation": {
+          "mean": 9.943965623691529,
+          "std": 3.041918933335643,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 10,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Linda Noskova",
+        "stat": "game_spread",
+        "line": -4.5,
+        "direction": "lower",
+        "probability": 0.0,
+        "confidence": 0.0,
+        "tier": "NO_PLAY",
+        "simulation": {
+          "mean": 9.969935659985953,
+          "std": 2.988879475520354,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 6,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Victoria Mboko",
+        "stat": "game_spread",
+        "line": -6.0,
+        "direction": "lower",
+        "probability": 0.0,
+        "confidence": 0.0,
+        "tier": "NO_PLAY",
+        "simulation": {
+          "mean": 10.072946444833565,
+          "std": 2.9542858112502812,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 10,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Elina Svitolina",
+        "stat": "game_spread",
+        "line": -5.0,
+        "direction": "lower",
+        "probability": 0.0,
+        "confidence": 0.0,
+        "tier": "NO_PLAY",
+        "simulation": {
+          "mean": 9.982295511076092,
+          "std": 3.038093142053039,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 7,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Iga Swiatek",
+        "stat": "game_spread",
+        "line": -6.5,
+        "direction": "lower",
+        "probability": 0.0,
+        "confidence": 0.0,
+        "tier": "NO_PLAY",
+        "simulation": {
+          "mean": 10.201223755925785,
+          "std": 2.9999142859622565,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 8,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Karolina Muchova",
+        "stat": "game_spread",
+        "line": -3.5,
+        "direction": "lower",
+        "probability": 0.0,
+        "confidence": 0.0,
+        "tier": "NO_PLAY",
+        "simulation": {
+          "mean": 10.075167506999538,
+          "std": 2.916522076689559,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 6,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Katerina Siniakova",
+        "stat": "game_spread",
+        "line": -2.5,
+        "direction": "lower",
+        "probability": 0.0,
+        "confidence": 0.0,
+        "tier": "NO_PLAY",
+        "simulation": {
+          "mean": 10.068942250628082,
+          "std": 3.0524525279676267,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 3,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Qinwen Zheng",
+        "stat": "game_spread",
+        "line": -4.0,
+        "direction": "lower",
+        "probability": 0.0,
+        "confidence": 0.0,
+        "tier": "NO_PLAY",
+        "simulation": {
+          "mean": 10.065538845986593,
+          "std": 3.065458917224967,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 12,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      },
+      {
+        "player": "Elena Rybakina",
+        "stat": "game_spread",
+        "line": -5.5,
+        "direction": "lower",
+        "probability": 0.0,
+        "confidence": 0.0,
+        "tier": "NO_PLAY",
+        "simulation": {
+          "mean": 10.021577266322184,
+          "std": 3.034559552199314,
+          "n": 2000
+        },
+        "physics_mode": false,
+        "injury_gate": {
+          "player_injury_penalty": 0.0,
+          "opponent_injury_penalty": 0.0,
+          "net_adjustment": 0,
+          "player_status": "ACTIVE",
+          "adjustment_applied": false
+        },
+        "profile_data": {
+          "n_matches": 3,
+          "historical_mean": null,
+          "historical_std": null
+        },
+        "correlation_group": null
+      }
+    ]
+  },
+  "players_analyzed": [
+    "Daria Kasatkina vs Elise Mertens",
+    "Jelena Ostapenko",
+    "Tereza Valentova vs Karolina Muchova",
+    "Xinyu Wang vs Elena Rybakina",
+    "Victoria Mboko",
+    "Dayana Yastremska",
+    "Emma Navarro",
+    "Karolina Muchova",
+    "Maria Sakkari vs Jasmine Paolini",
+    "Elisabetta Cocciaretto",
+    "Iga Swiatek",
+    "Linda Noskova vs Varvara Gracheva",
+    "Tereza Valentova",
+    "Xinyu Wang",
+    "Coco Gauff",
+    "Ann Li",
+    "Vera Zvonareva",
+    "Elena Rybakina",
+    "Dayana Yastremska vs Elina Svitolina",
+    "Elise Mertens",
+    "Maria Sakkari",
+    "Qinwen Zheng",
+    "Magdalena Frech",
+    "Emma Navarro vs Anna Kalinskaya",
+    "Elina Svitolina",
+    "Jasmine Paolini",
+    "Daria Kasatkina",
+    "Varvara Gracheva",
+    "Alycia Parks",
+    "Ekaterina Alexandrova",
+    "Linda Noskova",
+    "Anna Kalinskaya",
+    "Janice Tjen",
+    "Alycia Parks vs Qinwen Zheng",
+    "Maria Camila Osorio Serrano vs Katerina Siniakova",
+    "Iga Swiatek vs Janice Tjen",
+    "Magdalena Frech vs Ann Li",
+    "Maria Camila Osorio Serrano",
+    "Ekaterina Alexandrova vs Jelena Ostapenko",
+    "Elisabetta Cocciaretto vs Coco Gauff",
+    "Katerina Siniakova",
+    "Vera Zvonareva vs Victoria Mboko"
+  ],
+  "players_not_found": [],
+  "surface": "Hard",
+  "timestamp": "2026-02-09T17:10:58.538024",
+  "_source": {
+    "ingest": "oddsapi_tennis",
+    "surface": "Hard"
+  }
+}

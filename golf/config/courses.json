@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "last_updated": "2026-01-31",
+    "description": "Course Difficulty Index (CDI) configurations for golf Monte Carlo"
+  },
+  
+  "courses": {
+    "torrey_pines_south": {
+      "name": "Torrey Pines South",
+      "tournament": "Farmers Insurance Open",
+      "par": 72,
+      "yardage": 7765,
+      "difficulty_rank": 2,
+      "notes": "Long, punishing rough, Poa annua greens, coastal wind",
+      
+      "rounds": {
+        "default": {
+          "scoring_avg": 72.8,
+          "difficulty_adjustment": 0.8,
+          "birdie_factor": 0.85,
+          "bogey_factor": 1.20,
+          "scoring_stddev": 3.0
+        },
+        "sunday": {
+          "scoring_avg": 73.25,
+          "difficulty_adjustment": 1.25,
+          "birdie_factor": 0.75,
+          "bogey_factor": 1.35,
+          "scoring_stddev": 3.1,
+          "notes": "Sunday pins, firm greens, 21.8% bogey rate"
+        }
+      },
+      
+      "wave_adjustments": {
+        "AM": {
+          "scoring_adjustment": -0.45,
+          "wind_factor": 0.85,
+          "notes": "Less wind, softer greens"
+        },
+        "PM": {
+          "scoring_adjustment": 0.60,
+          "wind_factor": 1.25,
+          "notes": "Afternoon coastal winds"
+        }
+      }
+    },
+    
+    "torrey_pines_north": {
+      "name": "Torrey Pines North",
+      "tournament": "Farmers Insurance Open",
+      "par": 72,
+      "yardage": 7258,
+      "difficulty_rank": 25,
+      "notes": "Shorter, more scorable, used for early rounds",
+      
+      "rounds": {
+        "default": {
+          "scoring_avg": 71.2,
+          "difficulty_adjustment": -0.3,
+          "birdie_factor": 1.10,
+          "bogey_factor": 0.95,
+          "scoring_stddev": 2.8
+        }
+      }
+    },
+    
+    "pebble_beach": {
+      "name": "Pebble Beach Golf Links",
+      "tournament": "AT&T Pebble Beach Pro-Am",
+      "par": 72,
+      "yardage": 6828,
+      "difficulty_rank": 5,
+      "notes": "Coastal winds, tight fairways, iconic finishing holes",
+      
+      "rounds": {
+        "default": {
+          "scoring_avg": 72.5,
+          "difficulty_adjustment": 1.0,
+          "birdie_factor": 0.88,
+          "bogey_factor": 1.15,
+          "scoring_stddev": 3.2
+        },
+        "sunday": {
+          "scoring_avg": 73.0,
+          "difficulty_adjustment": 1.5,
+          "birdie_factor": 0.80,
+          "bogey_factor": 1.25,
+          "scoring_stddev": 3.4
+        }
+      },
+      
+      "wave_adjustments": {
+        "AM": {
+          "scoring_adjustment": -0.6,
+          "wind_factor": 0.75,
+          "notes": "Calm mornings before marine layer burns off"
+        },
+        "PM": {
+          "scoring_adjustment": 0.8,
+          "wind_factor": 1.50,
+          "notes": "Howling afternoon winds"
+        }
+      }
+    },
+    
+    "tpc_scottsdale": {
+      "name": "TPC Scottsdale Stadium Course",
+      "tournament": "WM Phoenix Open",
+      "par": 71,
+      "yardage": 7261,
+      "difficulty_rank": 40,
+      "notes": "Desert course, scorable, birdie fest",
+      
+      "rounds": {
+        "default": {
+          "scoring_avg": 69.8,
+          "difficulty_adjustment": -0.8,
+          "birdie_factor": 1.25,
+          "bogey_factor": 0.85,
+          "scoring_stddev": 2.6
+        }
+      },
+      
+      "wave_adjustments": {
+        "AM": {
+          "scoring_adjustment": -0.2,
+          "wind_factor": 0.95
+        },
+        "PM": {
+          "scoring_adjustment": 0.2,
+          "wind_factor": 1.05
+        }
+      }
+    },
+    
+    "riviera": {
+      "name": "Riviera Country Club",
+      "tournament": "Genesis Invitational",
+      "par": 71,
+      "yardage": 7322,
+      "difficulty_rank": 8,
+      "notes": "Historic course, kikuyu rough, tough finishing stretch",
+      
+      "rounds": {
+        "default": {
+          "scoring_avg": 71.5,
+          "difficulty_adjustment": 0.5,
+          "birdie_factor": 0.92,
+          "bogey_factor": 1.10,
+          "scoring_stddev": 2.9
+        },
+        "sunday": {
+          "scoring_avg": 72.0,
+          "difficulty_adjustment": 1.0,
+          "birdie_factor": 0.85,
+          "bogey_factor": 1.20,
+          "scoring_stddev": 3.0
+        }
+      }
+    }
+  },
+  
+  "wave_multipliers": {
+    "_description": "Coastal courses have bigger AM/PM wave effects",
+    "torrey_pines_south": 1.5,
+    "torrey_pines_north": 1.3,
+    "pebble_beach": 1.8,
+    "riviera": 1.2,
+    "tpc_scottsdale": 0.8
+  },
+  
+  "weather_adjustments": {
+    "_description": "Real-time weather overrides (update manually)",
+    "wind_threshold_mph": 15,
+    "wind_adjustment_per_5mph": 0.3,
+    "rain_adjustment": 0.5,
+    "cold_temp_threshold_f": 55,
+    "cold_adjustment": 0.2
+  }
+}

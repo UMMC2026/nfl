@@ -1,0 +1,38 @@
+# Public Bet Fade Logic
+# March public money overpays for favorites, stars, and overs
+
+_notes: |
+  When public betting heavily skews one direction, we either:
+  1. Add variance (fade soft)
+  2. Block entirely (fade hard)
+  
+  This is automatic, not discretionary.
+
+THRESHOLDS:
+  FADE_SOFT_AT: 65       # % public on one side
+  HARD_BLOCK_AT: 75      # % public on one side
+
+ACTIONS:
+  FADE_SOFT:
+    variance_mult: 1.20
+    confidence_penalty: 0.05
+    notes: "Add uncertainty, reduce confidence"
+    
+  HARD_BLOCK:
+    block: true
+    reason: "PUBLIC_HERD"
+    notes: "Do not play with the crowd"
+
+# Specific market fades
+MARKET_OVERRIDES:
+  star_player_overs:
+    fade_threshold: 60
+    notes: "Public overweights stars"
+    
+  favorite_overs:
+    fade_threshold: 62
+    notes: "Public wants points from favorites"
+    
+  underdog_unders:
+    fade_threshold: 70
+    notes: "Public fades underdogs too hard"

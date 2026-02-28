@@ -1,0 +1,63 @@
+{
+  "rest_advantage": {
+    "ORL": {
+      "days_rest": 1,
+      "back_to_back": false,
+      "travel_distance_miles": 0,
+      "last_game_minutes": {
+        "Paolo Banchero": 36,
+        "Franz Wagner": 34,
+        "Wendell Carter Jr": 28
+      }
+    },
+    "MEM": {
+      "days_rest": 1,
+      "back_to_back": false,
+      "travel_distance_miles": 850,
+      "last_game_minutes": {
+        "Desmond Bane": 35,
+        "Jaren Jackson Jr": 32
+      }
+    }
+  },
+  "injury_report": {
+    "ORL": [],
+    "MEM": []
+  },
+  "coaching_tendencies": {
+    "Jamahl Mosley": {
+      "team": "ORL",
+      "rest_management": "moderate",
+      "back_to_back_restrictions": false,
+      "minute_limits": {
+        "Paolo Banchero": 38,
+        "Franz Wagner": 36
+      },
+      "blowout_pull_starters": 12
+    },
+    "Taylor Jenkins": {
+      "team": "MEM",
+      "rest_management": "aggressive",
+      "back_to_back_restrictions": true,
+      "minute_limits": {
+        "Desmond Bane": 35,
+        "Jaren Jackson Jr": 34
+      },
+      "blowout_pull_starters": 15
+    }
+  },
+  "game_dynamics": {
+    "pace_matchup": {
+      "ORL_pace": 97.8,
+      "MEM_pace": 101.2,
+      "expected_pace": 99.5,
+      "pace_advantage": "MEM"
+    },
+    "motivation": {
+      "ORL": "high",
+      "MEM": "moderate",
+      "rivalry": false,
+      "playoff_implications": true
+    }
+  }
+}

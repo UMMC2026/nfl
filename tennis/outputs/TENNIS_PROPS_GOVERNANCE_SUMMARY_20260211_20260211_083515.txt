@@ -1,0 +1,40 @@
+==============================================================================
+GOVERNANCE SUMMARY - TENNIS_PROPS - 20260211
+==============================================================================
+Created (UTC): 2026-02-11T14:35:15.811382+00:00
+
+COUNTS
+------------------------------------------------------------------------------
+Total results : 12
+Allowed edges : 5
+Blocked edges : 7
+Decision breakdown:
+  - BLOCKED: 7
+  - PLAY: 4
+  - LEAN: 1
+
+TOP BLOCK REASONS
+------------------------------------------------------------------------------
+    5x - pick_state=REJECTED
+    2x - pick_state=VETTED
+
+TOP PLAY PICKS
+------------------------------------------------------------------------------
+ 1. Anna Kalinskaya () game_spread HIGHER 3.5
+    eff=98.6% model=98.6% edge=? z=?
+ 2. Daria Kasatkina () total_games HIGHER 16.5
+    eff=94.8% model=94.8% edge=? z=?
+ 3. Qinwen Zheng () game_spread HIGHER 5.5
+    eff=93.7% model=93.7% edge=? z=?
+ 4. Karolina Muchova () total_games HIGHER 20.5
+    eff=70.3% model=70.3% edge=? z=?
+
+TOP LEANS
+------------------------------------------------------------------------------
+ 1. Anna Kalinskaya () total_games HIGHER 21.5
+    eff=63.9% model=63.9% edge=? z=?
+
+FILES
+------------------------------------------------------------------------------
+- outputs/governance_config.json
+... (truncated)

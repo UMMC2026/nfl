@@ -1,0 +1,26 @@
+{
+  "NBA_ROLE_LAYER": {
+    "enabled": true,
+    "version": "1.0",
+    "description": "Role & Scheme Normalization Layer for NBA props"
+  },
+  "PARAMETER_MC_MODE": {
+    "enabled": true,
+    "description": "Adjust parameters BEFORE Monte Carlo, not outcomes after"
+  },
+  "BACKTEST_WINDOWS": {
+    "L3": "Role detection only (not statistical inference)",
+    "L5": "Variance calculation",
+    "L10": "Mean anchor + usage patterns",
+    "season": "Bayesian prior only",
+    "previous_reports": "Audit trail only (no inference)"
+  },
+  "CONFIDENCE_PENALTIES": {
+    "HIGH_USAGE_VOLATILITY": -5,
+    "BLOWOUT_GAME_RISK": -5,
+    "HIGH_MINUTES_VARIANCE": -5,
+    "LOOSE_ROTATION": -8,
+    "HIGH_BENCH_RISK": -3,
+    "BACK_TO_BACK_GAME": -3
+  }
+}

@@ -1,0 +1,24 @@
+# Seed Gap Volatility Multipliers — Tournament Use
+# Multiplies VARIANCE (not mean)
+
+_notes: |
+  Seed gaps drive minutes volatility, foul variance, and late-game randomness.
+  Higher gaps = more chaos = higher variance multiplier.
+
+SAME_SEED: 1.00
+
+SEED_GAP_1_2: 1.05
+SEED_GAP_3_4: 1.10
+SEED_GAP_5_8: 1.18
+SEED_GAP_9_12: 1.28
+SEED_GAP_13_PLUS: 1.40
+
+# First round matchup examples:
+# 1 vs 16: gap=15 → 1.40
+# 2 vs 15: gap=13 → 1.40
+# 3 vs 14: gap=11 → 1.28
+# 4 vs 13: gap=9 → 1.28
+# 5 vs 12: gap=7 → 1.18
+# 6 vs 11: gap=5 → 1.18
+# 7 vs 10: gap=3 → 1.10
+# 8 vs 9: gap=1 → 1.05

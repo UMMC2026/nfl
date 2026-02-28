@@ -1,0 +1,70 @@
+======================================================================
+MONTE CARLO ENTRY OPTIMIZATION
+Generated: 2026-01-28T18:11:01.296378
+======================================================================
+
+STAT KEY (basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made (aka 3PT/3PTS) | STOCKS=STL+BLK | PRA=PTS+REB+AST
+
+RUN CONTEXT:
+   League inferred: NBA
+   Picks: 18 qualifying (from 100 analyzed)
+   Filter pass: UNFILTERED_DIRECT
+   Constraints: max_same_game=4, max_primary_per_game=4
+
+BEST POWER ENTRY:
+   2L POWER | EV=+0.37 | Sharpe=0.25 | P(profit)=45.5% | Andrew Wiggins REB >4.5; Desmond Bane AST >3.5
+   Kelly stake: 4.1% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=71.4%, min p_hit=63.9%
+   Stat mix: AST:1, REB:1
+   Same-game buckets: MIA@ORL:2
+   LEGS (what each pick is):
+    1. Andrew Wiggins REB >4.5 (MIA vs ORL) | p_hit=63.9% | PRIMARY_SAFE
+    2. Desmond Bane AST >3.5 (ORL vs MIA) | p_hit=78.9% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST FLEX ENTRY:
+   3L FLEX | EV=+0.06 | Sharpe=0.07 | P(profit)=66.7% | Anthony Black REB <4.5; Andrew Wiggins REB >4.5; Desmond Bane AST >3.5
+   Kelly stake: 2.1% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=68.1%, min p_hit=61.3%
+   Stat mix: REB:2, AST:1
+   Same-game buckets: MIA@ORL:3
+   LEGS (what each pick is):
+    1. Anthony Black REB <4.5 (ORL vs MIA) | p_hit=61.3% | PRIMARY_SAFE
+    2. Andrew Wiggins REB >4.5 (MIA vs ORL) | p_hit=63.9% | PRIMARY_SAFE
+    3. Desmond Bane AST >3.5 (ORL vs MIA) | p_hit=78.9% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST RISK-ADJUSTED (Sharpe):
+   2L POWER | EV=+0.37 | Sharpe=0.25 | P(profit)=45.5% | Andrew Wiggins REB >4.5; Desmond Bane AST >3.5
+   ENTRY SNAPSHOT: avg p_hit=71.4%, min p_hit=63.9%
+   Stat mix: AST:1, REB:1
+   Same-game buckets: MIA@ORL:2
+   LEGS (what each pick is):
+    1. Andrew Wiggins REB >4.5 (MIA vs ORL) | p_hit=63.9% | PRIMARY_SAFE
+    2. Desmond Bane AST >3.5 (ORL vs MIA) | p_hit=78.9% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+----------------------------------------------------------------------
+TOP 10 ENTRIES BY EV:
+----------------------------------------------------------------------
+ 1. 2L POWER | EV=+0.37 | Sharpe=0.25 | P(profit)=45.5% | Andrew Wiggins REB >4.5; Desmond Bane AST >3.5
+ 2. 3L POWER | EV=+0.35 | Sharpe=0.14 | P(profit)=22.6% | Anthony Black REB <4.5; Andrew Wiggins REB >4.5; Desmond Bane AST >3.5
+ 3. 2L POWER | EV=+0.31 | Sharpe=0.21 | P(profit)=43.7% | Anthony Black REB <4.5; Desmond Bane AST >3.5
+ 4. 3L POWER | EV=+0.28 | Sharpe=0.11 | P(profit)=21.4% | Jalen Suggs REB <3.5; Andrew Wiggins REB >4.5; Desmond Bane AST >3.5
+ 5. 3L POWER | EV=+0.28 | Sharpe=0.11 | P(profit)=21.3% | Jalen Suggs AST >4.5; Andrew Wiggins REB >4.5; Desmond Bane AST >3.5
+ 6. 2L POWER | EV=+0.24 | Sharpe=0.16 | P(profit)=41.4% | Jalen Suggs REB <3.5; Desmond Bane AST >3.5
+ 7. 2L POWER | EV=+0.24 | Sharpe=0.16 | P(profit)=41.3% | Jalen Suggs AST >4.5; Desmond Bane AST >3.5
+ 8. 3L POWER | EV=+0.23 | Sharpe=0.10 | P(profit)=20.6% | Andrew Wiggins REB >4.5; Paolo Banchero AST >4.5; Desmond Bane AST >3.5
+ 9. 3L POWER | EV=+0.23 | Sharpe=0.09 | P(profit)=20.5% | Anthony Black REB <4.5; Jalen Suggs REB <3.5; Desmond Bane AST >3.5
+10. 3L POWER | EV=+0.23 | Sharpe=0.09 | P(profit)=20.5% | Andrew Wiggins REB >4.5; Jaime Jaquez Jr. REB >4.5; Desmond Bane AST >3.5

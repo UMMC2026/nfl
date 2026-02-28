@@ -1,0 +1,54 @@
+
+===========================================================================
+  TENNIS PROPS CHEATSHEET
+  Surface: HARD
+  Generated: Wednesday, February 04, 2026 at 12:58 PM
+===========================================================================
+
+  SUMMARY
+  -----------------------------------
+  Total Playable:    10
+  SLAM (70%+):       4
+  STRONG (62-70%):   3
+  LEAN (55-62%):     3
+
+  [SLAM] *** (4 picks)
+  ---------------------------------------------------------------------------
+  PLAYER                   PICK                   LINE    PROB    n
+  ---------------------------------------------------------------------------
+  Diane Parry              HIGHER games_won       5.5     92%     5 [CORR]
+  Diane Parry              HIGHER games_played    8.5     100%     5 [CORR]
+  Diane Parry              HIGHER sets_played     2.5     99%     5 [CORR]
+  Diane Parry              HIGHER sets_won        0.5     74%     5
+
+  [STRONG] ** (3 picks)
+  ---------------------------------------------------------------------------
+  PLAYER                   PICK                   LINE    PROB    n
+  ---------------------------------------------------------------------------
+  Diane Parry              HIGHER tiebreakers     0.5     100%     5
+  Diane Parry              HIGHER aces            3.5     68%     5 [CORR]
+  Panna Udvardy            HIGHER aces            2.5     69%     2 [CORR]
+
+  [LEAN] * (3 picks)
+  ---------------------------------------------------------------------------
+  PLAYER                   PICK                   LINE    PROB    n
+  ---------------------------------------------------------------------------
+  Panna Udvardy            HIGHER sets_won        0.5     60%     2
+  Diane Parry              HIGHER games_played    21.5    57%     5 [CORR]
+  Diane Parry              HIGHER double_faults   2.5     56%     5 [CORR]
+
+  [AVOID] (6 props below 55%)
+  ----------------------------------------
+    Diane Parry: games_won (43%)
+    Panna Udvardy: games_won (35%)
+    Panna Udvardy: breakpoints_won (30%)
+    Diane Parry: breakpoints_won (13%)
+    Panna Udvardy: double_faults (8%)
+    ... and 1 more
+
+===========================================================================
+  RULES (SOP v2.1)
+  - One player, one bet per match
+  - [CORR] = Correlated stats - don't combine in parlays
+  - Probabilities from 2,000 Monte Carlo simulations
+===========================================================================

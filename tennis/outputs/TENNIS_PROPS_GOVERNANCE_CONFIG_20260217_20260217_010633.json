@@ -1,0 +1,140 @@
+{
+  "schema_version": "governance_artifacts.v1",
+  "created_at_utc": "2026-02-17T07:06:33.822820+00:00",
+  "slug": "TENNIS_PROPS",
+  "stamp": "20260217",
+  "pipeline_steps_executed": [
+    "raw_txt (inputs/*.txt)",
+    "parse_underdog_slate -> parsed JSON",
+    "risk_first_analyzer.analyze_slate (probability + gates + context gates)",
+    "export: governance_config.json",
+    "export: allowed_edges.json",
+    "export: blocked_edges.json"
+  ],
+  "counts": {
+    "total_results": 13,
+    "allowed_edges": 8,
+    "blocked_edges": 5
+  },
+  "run_settings": {},
+  "source": {
+    "ingest": "underdog_paste",
+    "surface": "Hard"
+  },
+  "by_player": [
+    {
+      "player": "Arthur Rinderknech",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "aces",
+        "games_won"
+      ],
+      "blocked_stats": [
+        "double_faults"
+      ],
+      "block_reasons": {
+        "double_faults": "pick_state=REJECTED"
+      },
+      "prediction_allowed": true
+    },
+    {
+      "player": "Carlos Alcaraz",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Daria Kasatkina",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "aces",
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=VETTED",
+        "aces": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Elena Rybakina",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "pick_state=VETTED"
+      },
+      "prediction_allowed": false
+    },
+    {
+      "player": "Karen Khachanov",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Matteo Berrettini",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "aces"
+      ],
+      "blocked_stats": [
+        "games_won"
+      ],
+      "block_reasons": {
+        "games_won": "tier=AVOID"
+      },
+      "prediction_allowed": true
+    },
+    {
+      "player": "Miomir Kecmanovic",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Stefanos Tsitsipas",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    },
+    {
+      "player": "Tommy Paul",
+      "team": "",
+      "opponent": "",
+      "allowed_stats": [
+        "games_won"
+      ],
+      "blocked_stats": [],
+      "block_reasons": {},
+      "prediction_allowed": true
+    }
+  ]
+}

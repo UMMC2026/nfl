@@ -1,0 +1,85 @@
+{
+  "date": "2026-01-16",
+  "timestamp": "2026-01-16T18:45:26.371748",
+  "slate": "CLE_PHI_USERPASTE_RELAXED_20260116",
+  "source_file": "CLE_PHI_USERPASTE_RELAXED_20260116_RISK_FIRST_20260116_FROM_UD.json",
+  "summary": {
+    "play_count": 2,
+    "lean_count": 6,
+    "total": 8
+  },
+  "picks": [
+    {
+      "player": "De'Andre Hunter",
+      "team": "CLE",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 78
+    },
+    {
+      "player": "Craig Porter Jr.",
+      "team": "CLE",
+      "stat": "points",
+      "line": 6.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 73.8
+    },
+    {
+      "player": "Jaylon Tyson",
+      "team": "CLE",
+      "stat": "rebounds",
+      "line": 5.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.9
+    },
+    {
+      "player": "Kelly Oubre",
+      "team": "PHI",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.3
+    },
+    {
+      "player": "Donovan Mitchell",
+      "team": "CLE",
+      "stat": "turnovers",
+      "line": 3.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 66.8
+    },
+    {
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "stat": "points",
+      "line": 18.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 65.6
+    },
+    {
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "stat": "rebounds",
+      "line": 9.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 65.6
+    },
+    {
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "stat": "turnovers",
+      "line": 2.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 65.6
+    }
+  ]
+}

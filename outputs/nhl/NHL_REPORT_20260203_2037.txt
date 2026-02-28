@@ -1,0 +1,158 @@
+============================================================
+  NHL PROFESSIONAL REPORT
+  Generated: 2026-02-03 20:37
+  Slate Date: 2026-02-03
+============================================================
+
++----------------------------------------------------------+
+|  SLATE SUMMARY                                           |
++----------------------------------------------------------+
+|  Total Props Analyzed: 55                                |
+|  Playable Picks:       20                                |
+|  [STRONG]:             19                                |
+|  [LEAN]:               1                                 |
+|  Players Covered:      125 skaters                       |
++----------------------------------------------------------+
+
++==========================================================+
+|               TOP 5 NHL PICKS                            |
++==========================================================+
+|  #1 [STRONG] Jacob Melanson (SEA)                        |
+|     Hits LESS 6.0                                        |
+|     Confidence: 85.0% | Edge: 35.0%                      |
+|----------------------------------------------------------|
+|  #2 [STRONG] Jordan Eberle (SEA)                         |
+|     Points MORE 0.5                                      |
+|     Confidence: 85.0% | Edge: 35.0%                      |
+|----------------------------------------------------------|
+|  #3 [STRONG] Troy Terry (ANA)                            |
+|     Points MORE 0.5                                      |
+|     Confidence: 85.0% | Edge: 35.0%                      |
+|----------------------------------------------------------|
+|  #4 [STRONG] Jackson LaCombe (ANA)                       |
+|     Points MORE 0.5                                      |
+|     Confidence: 85.0% | Edge: 35.0%                      |
+|----------------------------------------------------------|
+|  #5 [STRONG] Mikael Granlund (ANA)                       |
+|     TOI LESS 20.0                                        |
+|     Confidence: 84.1% | Edge: 34.1%                      |
++==========================================================+
+
++----------------------------------------------------------+
+|  MODEL & GOVERNANCE                                      |
++----------------------------------------------------------+
+|  Model: Poisson Distribution with Real Season Stats      |
+|  Data-Driven Calibration (SDG): DISABLED                 |
+|  SLAM Tier: DISABLED (hockey volatility)                 |
+|  Minimum Edge: 2%                                        |
+|  Goalie Gate: MANDATORY for saves props                  |
++----------------------------------------------------------+
+
+============================================================
+  [STRONG] PICKS (19)
+============================================================
+  Jacob Melanson (SEA) vs ANA
+    Hits LESS 6.0
+    Confidence: 85.0% | Edge: 35.0%
+
+  Jordan Eberle (SEA) vs ANA
+    Points MORE 0.5
+    Confidence: 85.0% | Edge: 35.0%
+
+  Troy Terry (ANA) vs SEA
+    Points MORE 0.5
+    Confidence: 85.0% | Edge: 35.0%
+
+  Jackson LaCombe (ANA) vs SEA
+    Points MORE 0.5
+    Confidence: 85.0% | Edge: 35.0%
+
+  Mikael Granlund (ANA) vs SEA
+    TOI LESS 20.0
+    Confidence: 84.1% | Edge: 34.1%
+
+  Jackson LaCombe (ANA) vs SEA
+    TOI LESS 24.5
+    Confidence: 76.2% | Edge: 26.2%
+
+  MoreJackson LaCombe (ANA) vs UNK
+    TOI LESS 24.5
+    Confidence: 76.2% | Edge: 26.2%
+
+  Matty Beniers (SEA) vs ANA
+    TOI LESS 18.5
+    Confidence: 69.1% | Edge: 19.1%
+
+  Mason McTavish (ANA) vs SEA
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%
+
+  Eeli Tolvanen (SEA) vs ANA
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%
+
+  Alex Killorn (ANA) vs SEA
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%
+
+  Beckett Sennecke (ANA) vs SEA
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%
+
+  Chris Kreider (ANA) vs SEA
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%
+
+  Mikael Granlund (ANA) vs SEA
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%
+
+  Troy Terry (ANA) vs SEA
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%
+
+  Jaden Schwartz (SEA) vs ANA
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%
+
+  Jordan Eberle (SEA) vs ANA
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%
+
+  Matty Beniers (SEA) vs ANA
+    SOG MORE 1.5
+    Confidence: 68.0% | Edge: 18.0%
+    Flags: HIGH_CV:50%
+
+  Shane Wright (SEA) vs ANA
+    SOG MORE 0.5
+    Confidence: 63.0% | Edge: 13.0%
+    Flags: HIGH_CV:50%
+
+
+============================================================
+  [LEAN] PICKS (1)
+============================================================
+  Vince Dunn (SEA): TOI MORE 21.25
+    58.5% confidence
+
+============================================================
+  RISK WARNINGS
+============================================================
+  * NO SLAM TIER - Hockey has inherent volatility
+  * Goalie confirmation REQUIRED before playing saves
+  * Back-to-back games reduce goalie reliability
+  * High CV props flagged for caution
+
+============================================================
+  Risk-First Quant Engine | NHL v2.0
+============================================================

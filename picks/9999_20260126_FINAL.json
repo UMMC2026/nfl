@@ -1,0 +1,76 @@
+{
+  "date": "2026-01-26",
+  "timestamp": "2026-01-26T18:45:39.108970",
+  "slate": "9999",
+  "source_file": "9999_RISK_FIRST_20260126_FROM_UD.json",
+  "summary": {
+    "play_count": 1,
+    "lean_count": 6,
+    "total": 7
+  },
+  "picks": [
+    {
+      "player": "Jaylen Clark",
+      "team": "MIN",
+      "stat": "points",
+      "line": 29.5,
+      "direction": "lower",
+      "decision": "PLAY",
+      "probability": 63.8
+    },
+    {
+      "player": "Derrick White",
+      "team": "BOS",
+      "stat": "points",
+      "line": 18.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 63.8
+    },
+    {
+      "player": "Derrick White",
+      "team": "BOS",
+      "stat": "points",
+      "line": 18.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 63.8
+    },
+    {
+      "player": "Jerami Grant",
+      "team": "POR",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 60.5
+    },
+    {
+      "player": "Jerami Grant",
+      "team": "POR",
+      "stat": "points",
+      "line": 15.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 60.5
+    },
+    {
+      "player": "Brandin Podziemski",
+      "team": "GSW",
+      "stat": "points",
+      "line": 16.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 60.4
+    },
+    {
+      "player": "Brandin Podziemski",
+      "team": "GSW",
+      "stat": "points",
+      "line": 16.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 60.4
+    }
+  ]
+}

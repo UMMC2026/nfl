@@ -1,0 +1,1079 @@
+{
+  "picks": [
+    {
+      "edge_id": "cbb_MSU_Jeremy_Fears_points_13p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Jeremy Fears",
+      "team": "MSU",
+      "opponent": "UNK",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "lower",
+      "probability": 0.75,
+      "player_mean": 8.34,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 8.3382,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.954709,
+          "direction": "lower",
+          "line": 13.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.954709
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": "stat_cap"
+        },
+        "final": {
+          "final_prob": 0.75,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "STRONG",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=24.2",
+        "games: GP=68"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.0453,
+        "kept": "lower",
+        "kept_probability": 0.75
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=24.2"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=68"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_PUR_Trey_Kaufman-Renn_assists_2p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Trey Kaufman-Renn",
+      "team": "PUR",
+      "opponent": "UNK",
+      "stat": "assists",
+      "line": 2.5,
+      "direction": "higher",
+      "probability": 0.1779,
+      "player_mean": 1.48,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 1.4844,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.187241,
+          "direction": "higher",
+          "line": 2.5
+        },
+        "adjustment": {
+          "multiplier": 0.95,
+          "adjusted_prob": 0.177879
+        },
+        "caps": {
+          "stat_cap": 0.7,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.177879,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": true,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=20.7",
+        "games: GP=128",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=20.7"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=128"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_PROV_Jamier_Jones_points_12p0_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Jamier Jones",
+      "team": "PROV",
+      "opponent": "UNK",
+      "stat": "points",
+      "line": 12.0,
+      "direction": "higher",
+      "probability": 0.4721,
+      "player_mean": 12.42,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 12.4211,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.472073,
+          "direction": "higher",
+          "line": 12.0
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.472073
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.472073,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=22.7",
+        "games: GP=19",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "lower",
+        "probability": 0.4144,
+        "kept": "higher",
+        "kept_probability": 0.4721
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=22.7"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=19"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_MICH_Yaxel_Lendeborg_points_14p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Yaxel Lendeborg",
+      "team": "MICH",
+      "opponent": "NEB",
+      "stat": "points",
+      "line": 14.5,
+      "direction": "higher",
+      "probability": 0.583,
+      "player_mean": 15.48,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 15.4835,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.582971,
+          "direction": "higher",
+          "line": 14.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.582971
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.582971,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=31.0",
+        "games: GP=91",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "lower",
+        "probability": 0.417,
+        "kept": "higher",
+        "kept_probability": 0.583
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=31.0"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=91"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_RUTG_Tariq_Francis_points_12p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Tariq Francis",
+      "team": "RUTG",
+      "opponent": "MSU",
+      "stat": "points",
+      "line": 12.5,
+      "direction": "higher",
+      "probability": 0.75,
+      "player_mean": 16.7,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 16.7027,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.849341,
+          "direction": "higher",
+          "line": 12.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.849341
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": "stat_cap"
+        },
+        "final": {
+          "final_prob": 0.75,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "LEAN",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.7",
+        "games: GP=74",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "lower",
+        "probability": 0.1507,
+        "kept": "higher",
+        "kept_probability": 0.75
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.7"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=74"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "tier_cap_reason": "TIER_CAPPED (ESPN/UNVERIFIED)"
+    },
+    {
+      "edge_id": "cbb_PROV_Stefan_Vaaks_points_13p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Stefan Vaaks",
+      "team": "PROV",
+      "opponent": "UNK",
+      "stat": "points",
+      "line": 13.5,
+      "direction": "higher",
+      "probability": 0.6649,
+      "player_mean": 15.3,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 15.3,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.664874,
+          "direction": "higher",
+          "line": 13.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.664874
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.664874,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "LEAN",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=31.1",
+        "games: GP=20",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "lower",
+        "probability": 0.3351,
+        "kept": "higher",
+        "kept_probability": 0.6649
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=31.1"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=20"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_PUR_Oscar_Cluff_rebounds_7p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Oscar Cluff",
+      "team": "PUR",
+      "opponent": "UNK",
+      "stat": "rebounds",
+      "line": 7.5,
+      "direction": "higher",
+      "probability": 0.5329,
+      "player_mean": 7.98,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 7.9765,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.54375,
+          "direction": "higher",
+          "line": 7.5
+        },
+        "adjustment": {
+          "multiplier": 0.98,
+          "adjusted_prob": 0.532875
+        },
+        "caps": {
+          "stat_cap": 0.72,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.532875,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=23.7",
+        "games: GP=85",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "lower",
+        "probability": 0.4471,
+        "kept": "higher",
+        "kept_probability": 0.5329
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=23.7"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=85"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_ASU_Massamba_Diop_points_15p0_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Massamba Diop",
+      "team": "ASU",
+      "opponent": "UNK",
+      "stat": "points",
+      "line": 15.0,
+      "direction": "lower",
+      "probability": 0.5916,
+      "player_mean": 13.8,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 13.8,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.591624,
+          "direction": "lower",
+          "line": 15.0
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.591624
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.591624,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=28.6",
+        "games: GP=20"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.311,
+        "kept": "lower",
+        "kept_probability": 0.5916
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=28.6"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=20"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": true
+    },
+    {
+      "edge_id": "cbb_RUTG_Tariq_Francis_pra_17p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Tariq Francis",
+      "team": "RUTG",
+      "opponent": "MSU",
+      "stat": "pra",
+      "line": 17.5,
+      "direction": "higher",
+      "probability": 0.75,
+      "player_mean": 23.27,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 23.2703,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.887845,
+          "direction": "higher",
+          "line": 17.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.887845
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": "stat_cap"
+        },
+        "final": {
+          "final_prob": 0.75,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "LEAN",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "minutes: MPG=29.7",
+        "games: GP=74",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [],
+      "dedupe_dropped": {
+        "direction": "lower",
+        "probability": 0.1122,
+        "kept": "higher",
+        "kept_probability": 0.75
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "PASS",
+          "reason": "MPG=29.7"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=74"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": true,
+      "tier_cap_reason": "TIER_CAPPED (ESPN/UNVERIFIED)"
+    },
+    {
+      "edge_id": "cbb_NEB_Pryce_Sandfort_points_17p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Pryce Sandfort",
+      "team": "NEB",
+      "opponent": "UNK",
+      "stat": "points",
+      "line": 17.5,
+      "direction": "lower",
+      "probability": 0.75,
+      "player_mean": 8.35,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 8.3529,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.997491,
+          "direction": "lower",
+          "line": 17.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.997491
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": "stat_cap"
+        },
+        "final": {
+          "final_prob": 0.75,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "games: GP=85"
+      ],
+      "gates_failed": [
+        "minutes: MPG=19.2 < 20.0"
+      ],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.0025,
+        "kept": "lower",
+        "kept_probability": 0.75
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "FAIL",
+          "reason": "MPG=19.2 < 20.0"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=85"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: minutes: MPG=19.2 < 20.0"
+    },
+    {
+      "edge_id": "cbb_UK_Denzel_Aberdeen_3pm_1p5_higher",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Denzel Aberdeen",
+      "team": "UK",
+      "opponent": "UNK",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "probability": 0.1505,
+      "player_mean": 0.73,
+      "mean_source": "ESPN",
+      "confidence_flag": "UNVERIFIED",
+      "signal_flag": "WEAK_SIGNAL",
+      "decision_trace": {
+        "mean": {
+          "lambda": 0.7327,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.167238,
+          "direction": "higher",
+          "line": 1.5
+        },
+        "adjustment": {
+          "multiplier": 0.9,
+          "adjusted_prob": 0.150515
+        },
+        "caps": {
+          "stat_cap": 0.65,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.150515,
+          "signal_flag": "WEAK_SIGNAL"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": true,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "games: GP=101",
+        "blowout: NO_DATA"
+      ],
+      "gates_failed": [
+        "minutes: MPG=15.9 < 20.0"
+      ],
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "FAIL",
+          "reason": "MPG=15.9 < 20.0"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=101"
+        },
+        {
+          "gate": "blowout",
+          "status": "NO_DATA",
+          "reason": "SPREAD_MISSING"
+        }
+      ],
+      "has_no_data": true,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: minutes: MPG=15.9 < 20.0"
+    },
+    {
+      "edge_id": "cbb_MICH_Morez_Johnson_points_11p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Morez Johnson",
+      "team": "MICH",
+      "opponent": "NEB",
+      "stat": "points",
+      "line": 11.5,
+      "direction": "lower",
+      "probability": 0.7421,
+      "player_mean": 9.59,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 9.5918,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.742124,
+          "direction": "lower",
+          "line": 11.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.742124
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": null
+        },
+        "final": {
+          "final_prob": 0.742124,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "games: GP=49"
+      ],
+      "gates_failed": [
+        "minutes: MPG=19.9 < 20.0"
+      ],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.2579,
+        "kept": "lower",
+        "kept_probability": 0.7421
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "FAIL",
+          "reason": "MPG=19.9 < 20.0"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=49"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: minutes: MPG=19.9 < 20.0"
+    },
+    {
+      "edge_id": "cbb_MICH_Aday_Mara_points_10p5_lower",
+      "sport": "cbb",
+      "league": "CBB",
+      "player": "Aday Mara",
+      "team": "MICH",
+      "opponent": "NEB",
+      "stat": "points",
+      "line": 10.5,
+      "direction": "lower",
+      "probability": 0.75,
+      "player_mean": 6.45,
+      "mean_source": "ESPN",
+      "confidence_flag": "OK",
+      "signal_flag": "OK",
+      "decision_trace": {
+        "mean": {
+          "lambda": 6.45,
+          "mean_source": "ESPN",
+          "confidence_flag": "OK"
+        },
+        "poisson": {
+          "raw_prob": 0.935913,
+          "direction": "lower",
+          "line": 10.5
+        },
+        "adjustment": {
+          "multiplier": 1.0,
+          "adjusted_prob": 0.935913
+        },
+        "caps": {
+          "stat_cap": 0.75,
+          "global_cap": 0.79,
+          "cap_hit": "stat_cap"
+        },
+        "final": {
+          "final_prob": 0.75,
+          "signal_flag": "OK"
+        }
+      },
+      "model_used": "poisson_espn_api",
+      "data_source": "espn_api",
+      "tier": "SKIP",
+      "goblin": false,
+      "demon": false,
+      "taco": false,
+      "gates_passed": [
+        "roster: ACTIVE",
+        "games: GP=80"
+      ],
+      "gates_failed": [
+        "minutes: MPG=14.1 < 20.0"
+      ],
+      "dedupe_dropped": {
+        "direction": "higher",
+        "probability": 0.0641,
+        "kept": "lower",
+        "kept_probability": 0.75
+      },
+      "spread_status": "MISSING",
+      "gate_status": [
+        {
+          "gate": "roster",
+          "status": "PASS",
+          "reason": "ACTIVE"
+        },
+        {
+          "gate": "minutes",
+          "status": "FAIL",
+          "reason": "MPG=14.1 < 20.0"
+        },
+        {
+          "gate": "games",
+          "status": "PASS",
+          "reason": "GP=80"
+        }
+      ],
+      "has_no_data": false,
+      "gates_all_passed": false,
+      "skip_reason": "GATE_FAIL: minutes: MPG=14.1 < 20.0"
+    }
+  ],
+  "generated": "2026-01-27T17:09:08.798769",
+  "source": "CBB_PIPELINE"
+}

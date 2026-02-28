@@ -1,0 +1,264 @@
+"""
+CBB SPREAD INTEGRATION — Implementation Blueprint
+═══════════════════════════════════════════════════════════════
+
+OBJECTIVE: Add game spread/totals to props so CBB can model:
+           - Blowout risk (bench units inflating stats)
+           - Trailing team usage spikes
+           - Pace adjustments (tight games = slower)
+
+FILES TO MODIFY:
+1. fuoom/fuoom_no_scrape_ingest.py (OddsAPI fetcher)
+2. sports/cbb/cbb_main.py (run_cbb_odds_api_ingest)
+3. sports/cbb/cbb_main.py (compute_cbb_probability — add game script penalties)
+
+═══════════════════════════════════════════════════════════════
+STEP 1: Extend OddsAPI Ingestion to Fetch Spreads
+═══════════════════════════════════════════════════════════════
+
+FILE: fuoom/fuoom_no_scrape_ingest.py
+
+CURRENT MARKETS (line ~50):
+    player_points, player_rebounds, player_assists, ...
+
+ADD GAME MARKETS:
+    spreads, totals (h2h markets)
+
+CURRENT RETURN (line ~120):
+    return {
+        'props': props_list,
+        'metadata': {...}
+    }
+
+EXTEND TO:
+    return {
+        'props': props_list,
+        'games': games_list,  # NEW FIELD
+        'metadata': {...}
+    }
+
+NEW FIELD FORMAT:
+    games_list = [
+        {
+            'event_id': 'abc123',
+            'home_team': 'Duke',
+            'away_team': 'UNC',
+            'spread': -5.5,        # Duke favored by 5.5
+            'total': 152.5,        # Over/Under
+            'commence_time': '2026-02-20T19:00:00Z'
+        },
+        ...
+    ]
+
+IMPLEMENTATION:
+    After fetching player props, make separate API call:
+    
+    spread_url = f"{BASE_URL}/sports/{sport}/odds?regions={regions}&markets=spreads,totals"
+    spread_resp = requests.get(spread_url, headers=headers)
+    spreads_data = spread_resp.json()
+    
+    games = []
+    for event in spreads_data:
+        game = {
+            'event_id': event['id'],
+            'home_team': event['home_team'],
+            'away_team': event['away_team'],
+            'spread': None,
+            'total': None
+        }
+        for bookmaker in event.get('bookmakers', []):
+            for market in bookmaker.get('markets', []):
+                if market['key'] == 'spreads':
+                    # Extract spread (look for home team outcome)
+                    for outcome in market['outcomes']:
+                        if outcome['name'] == game['home_team']:
+                            game['spread'] = outcome['point']
+                elif market['key'] == 'totals':
+                    game['total'] = market['outcomes'][0]['point']
+        games.append(game)
+
+═══════════════════════════════════════════════════════════════
+STEP 2: Attach Spread to Props During Conversion
+═══════════════════════════════════════════════════════════════
+
+FILE: sports/cbb/cbb_main.py (run_cbb_odds_api_ingest, line ~507-730)
+
+CURRENT CODE (line ~590):
+    raw_data = ingest_odds_api_props(sport="BASKETBALL_NCAAB", ...)
+    raw_props = raw_data.get('props', [])
+
+EXTEND TO:
+    raw_data = ingest_odds_api_props(sport="BASKETBALL_NCAAB", ...)
+    raw_props = raw_data.get('props', [])
+    games_data = raw_data.get('games', [])  # NEW
+    
+    # Build game lookup: event_id -> {spread, total}
+    game_lookup = {}
+    for game in games_data:
+        game_lookup[game['event_id']] = {
+            'spread': game.get('spread'),
+            'total': game.get('total'),
+            'home_team': game.get('home_team'),
+            'away_team': game.get('away_team')
+        }
+
+CURRENT PROP CREATION (line ~606):
+    cbb_props.append({
+        'player': player,
+        'team': 'UNK',
+        'opponent': 'UNK',
+        'stat': stat,
+        'line': float(line),
+        'direction': direction,
+        'source': 'OddsAPI',
+        '_home_team': home_team_raw,
+        '_away_team': away_team_raw,
+    })
+
+EXTEND TO:
+    # Look up game context
+    event_id = prop.get('meta', {}).get('raw', {}).get('event_id')
+    game_ctx = game_lookup.get(event_id, {})
+    
+    cbb_props.append({
+        'player': player,
+        'team': 'UNK',
+        'opponent': 'UNK',
+        'stat': stat,
+        'line': float(line),
+        'direction': direction,
+        'source': 'OddsAPI',
+        '_home_team': home_team_raw,
+        '_away_team': away_team_raw,
+        'spread': game_ctx.get('spread'),      # NEW
+        'total': game_ctx.get('total'),        # NEW
+    })
+
+═══════════════════════════════════════════════════════════════
+STEP 3: Game Script Penalties in Probability Engine
+═══════════════════════════════════════════════════════════════
+
+FILE: sports/cbb/cbb_main.py (compute_cbb_probability, line ~1100-1450)
+
+ADD AFTER LINE 1350 (after variance calculation):
+
+    # ── GAME SCRIPT ADJUSTMENTS ──
+    spread = prop.get('spread')
+    total = prop.get('total')
+    team = prop.get('team', '')
+    opponent = prop.get('opponent', '')
+    
+    game_script_penalty = 1.0  # Multiplicative penalty (1.0 = no change)
+    
+    if spread is not None and spread != 'MISSING':
+        # Blowout risk: Large spreads (>12 points) reduce playing time for starters
+        spread_abs = abs(float(spread))
+        if spread_abs > 12:
+            # Determine if player is on favored or underdog team
+            # (Requires knowing which team spread applies to)
+            # SIMPLIFICATION: Penalize all props in blowout-risk games
+            game_script_penalty *= 0.95  # 5% confidence reduction
+            confidence_flag = "BLOWOUT_RISK"
+    
+    if total is not None and total != 'MISSING':
+        # Pace proxy: Low totals (<130) = slower pace = fewer possessions
+        total_val = float(total)
+        if total_val < 130:
+            game_script_penalty *= 0.97  # 3% penalty for low-pace games
+        elif total_val > 155:
+            game_script_penalty *= 1.03  # 3% boost for high-pace games
+    
+    # Apply penalty to probability
+    prob = prob * game_script_penalty
+    prob = max(0.5, min(prob, 0.95))  # Clamp to valid range
+
+ADD TO DECISION TRACE:
+    decision_trace['game_script_penalty'] = game_script_penalty
+    decision_trace['spread'] = spread
+    decision_trace['total'] = total
+
+═══════════════════════════════════════════════════════════════
+STEP 4: Report Display of Spread Context
+═══════════════════════════════════════════════════════════════
+
+FILE: sports/cbb/generate_professional_report.py (line ~200-400)
+
+CURRENT EDGE DISPLAY:
+    {player} ({team}) - {stat} {direction} {line} | {prob}%
+
+EXTEND TO:
+    {player} ({team} vs {opponent}) - {stat} {direction} {line} | {prob}%
+    Game: {team} {spread_display} | Total: {total}
+
+EXAMPLE OUTPUT:
+    Duke vs UNC
+    Spread: DUKE -5.5 | Total: 152.5
+    
+    1. Kyle Filipowski (DUKE vs UNC) - PTS over 18.5 | 74%
+       (Blowout risk: moderate)
+
+═══════════════════════════════════════════════════════════════
+STEP 5: Testing & Validation
+═══════════════════════════════════════════════════════════════
+
+UNIT TEST: sports/cbb/tests/test_spread_integration.py
+
+    def test_spread_attachment():
+        # Mock OddsAPI response with games data
+        raw_data = {
+            'props': [...],
+            'games': [{
+                'event_id': 'abc123',
+                'spread': -5.5,
+                'total': 152.5,
+                'home_team': 'Duke',
+                'away_team': 'UNC'
+            }]
+        }
+        
+        # Run conversion
+        cbb_props = convert_to_cbb_props(raw_data)
+        
+        # Verify spread attached
+        for prop in cbb_props:
+            assert 'spread' in prop
+            assert 'total' in prop
+            if prop.get('_event_id') == 'abc123':
+                assert prop['spread'] == -5.5
+                assert prop['total'] == 152.5
+
+INTEGRATION TEST:
+    1. Run OddsAPI ingestion
+    2. Check cbb_slate_latest.json — props should have spread/total fields
+    3. Run analysis
+    4. Check report — should show "Blowout risk" or "High pace game" flags
+    5. Verify probabilities adjust based on spread (large spreads = lower confidence)
+
+EXPECTED OUTPUT:
+    BEFORE:
+        Kyle Filipowski (DUKE) - PTS over 18.5 | 76%
+        spread=MISSING
+    
+    AFTER:
+        Kyle Filipowski (DUKE vs UNC) - PTS over 18.5 | 72%
+        Spread: DUKE -8.5 | Total: 155.5
+        [Blowout risk applied: -4% confidence]
+
+═══════════════════════════════════════════════════════════════
+ESTIMATED EFFORT: 3 hours
+═══════════════════════════════════════════════════════════════
+- Step 1: 60 minutes (extend OddsAPI fetcher)
+- Step 2: 30 minutes (attach spread to props)
+- Step 3: 45 minutes (game script penalties)
+- Step 4: 30 minutes (report display)
+- Step 5: 15 minutes (validation)
+
+═══════════════════════════════════════════════════════════════
+SUCCESS CRITERIA:
+═══════════════════════════════════════════════════════════════
+✓ Props have spread/total fields populated (not "MISSING")
+✓ Game script penalties apply to blowout-risk games
+✓ Reports show spread context alongside picks
+✓ Probabilities adjust based on pace/spread
+✓ Audit trail includes game_script_penalty value
+"""

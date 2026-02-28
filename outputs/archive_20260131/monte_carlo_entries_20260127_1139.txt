@@ -1,0 +1,78 @@
+======================================================================
+MONTE CARLO ENTRY OPTIMIZATION
+Generated: 2026-01-27T11:39:57.383888
+======================================================================
+
+STAT KEY (basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made (aka 3PT/3PTS) | STOCKS=STL+BLK | PRA=PTS+REB+AST
+
+RUN CONTEXT:
+   League inferred: NBA
+   Picks: 61 qualifying (from 178 analyzed)
+   Filter pass: NBA_LEGACY_FALLBACK — fallback: include PLAY/LEAN or >= min_confidence (broadest)
+   Filter attempts (qualifying picks): NBA_STRICT_PRIMARY=0, NBA_PRIMARY_ONLY=0, NBA_PLAYLEAN_ANY_NO_COMPOSITES=0, NBA_LEGACY_FALLBACK=61
+   Constraints: max_same_game=1, max_primary_per_game=1
+   NBA min confidence: 65.0
+   NBA flags: primary_only=1, playlean_only=1
+
+BEST POWER ENTRY:
+   4L POWER | EV=+1.60 | Sharpe=0.36 | P(profit)=26.0% | Cade Cunningham PA <33.5; Peyton Watson PA >20.5; Dillon Brooks PA <24.5; Lauri Markkanen PA >24.5
+   Kelly stake: 2.1% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=71.4%, min p_hit=71.4%
+   Stat mix: PA:4
+   Same-game buckets: BKN@PHX:1, DEN@DET:1, DET@UNK:1, LAC@UTA:1
+   LEGS (what each pick is):
+    1. Cade Cunningham PA <33.5 (DET vs UNK) | p_hit=71.4% | FRAGILE
+    2. Peyton Watson PA >20.5 (DEN vs DET) | p_hit=71.4% | FRAGILE
+    3. Dillon Brooks PA <24.5 (PHX vs BKN) | p_hit=71.4% | FRAGILE
+    4. Lauri Markkanen PA >24.5 (UTA vs LAC) | p_hit=71.4% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST FLEX ENTRY:
+   4L FLEX | EV=+0.92 | Sharpe=0.48 | P(profit)=67.6% | Cade Cunningham PA <33.5; Peyton Watson PA >20.5; Dillon Brooks PA <24.5; Lauri Markkanen PA >24.5
+   Kelly stake: 6.2% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=71.4%, min p_hit=71.4%
+   Stat mix: PA:4
+   Same-game buckets: BKN@PHX:1, DEN@DET:1, DET@UNK:1, LAC@UTA:1
+   LEGS (what each pick is):
+    1. Cade Cunningham PA <33.5 (DET vs UNK) | p_hit=71.4% | FRAGILE
+    2. Peyton Watson PA >20.5 (DEN vs DET) | p_hit=71.4% | FRAGILE
+    3. Dillon Brooks PA <24.5 (PHX vs BKN) | p_hit=71.4% | FRAGILE
+    4. Lauri Markkanen PA >24.5 (UTA vs LAC) | p_hit=71.4% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST RISK-ADJUSTED (Sharpe):
+   4L FLEX | EV=+0.92 | Sharpe=0.48 | P(profit)=67.6% | Cade Cunningham PA <33.5; Peyton Watson PA >20.5; Dillon Brooks PA <24.5; Lauri Markkanen PA >24.5
+   ENTRY SNAPSHOT: avg p_hit=71.4%, min p_hit=71.4%
+   Stat mix: PA:4
+   Same-game buckets: BKN@PHX:1, DEN@DET:1, DET@UNK:1, LAC@UTA:1
+   LEGS (what each pick is):
+    1. Cade Cunningham PA <33.5 (DET vs UNK) | p_hit=71.4% | FRAGILE
+    2. Peyton Watson PA >20.5 (DEN vs DET) | p_hit=71.4% | FRAGILE
+    3. Dillon Brooks PA <24.5 (PHX vs BKN) | p_hit=71.4% | FRAGILE
+    4. Lauri Markkanen PA >24.5 (UTA vs LAC) | p_hit=71.4% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+----------------------------------------------------------------------
+TOP 10 ENTRIES BY EV:
+----------------------------------------------------------------------
+ 1. 4L POWER | EV=+1.60 | Sharpe=0.36 | P(profit)=26.0% | Cade Cunningham PA <33.5; Peyton Watson PA >20.5; Dillon Brooks PA <24.5; Lauri Markkanen PA >24.5
+ 2. 4L POWER | EV=+1.60 | Sharpe=0.36 | P(profit)=26.0% | Cade Cunningham PA <33.5; Peyton Watson PA >20.5; Dillon Brooks PA <24.5; Isaiah Collier PA <22.5
+ 3. 4L POWER | EV=+1.60 | Sharpe=0.36 | P(profit)=26.0% | Cade Cunningham PA <33.5; Peyton Watson PA >20.5; Dillon Brooks PA <24.5; Kyle Filipowski PA <15.5
+ 4. 4L POWER | EV=+1.60 | Sharpe=0.36 | P(profit)=26.0% | Cade Cunningham PA <33.5; Peyton Watson PA >20.5; Dillon Brooks PA <24.5; Kris Dunn RA <14.5
+ 5. 4L POWER | EV=+1.60 | Sharpe=0.36 | P(profit)=26.0% | Cade Cunningham PA <33.5; Peyton Watson PA >20.5; Dillon Brooks PA <24.5; Egor Dëmin RA <6
+ 6. 4L POWER | EV=+1.60 | Sharpe=0.36 | P(profit)=26.0% | Cade Cunningham PA <33.5; Peyton Watson PA >20.5; Dillon Brooks PA <24.5; Cam Thomas RA >3.5
+ 7. 4L POWER | EV=+1.60 | Sharpe=0.36 | P(profit)=26.0% | Cade Cunningham PA <33.5; Peyton Watson PA >20.5; Dillon Brooks PA <24.5; Isaiah Collier RA <12.5
+ 8. 4L POWER | EV=+1.60 | Sharpe=0.36 | P(profit)=26.0% | Cade Cunningham PA <33.5; Peyton Watson PA >20.5; Dillon Brooks PA <24.5; John Collins RA <6.5
+ 9. 4L POWER | EV=+1.60 | Sharpe=0.36 | P(profit)=26.0% | Cade Cunningham PA <33.5; Peyton Watson PA >20.5; Lauri Markkanen PA >24.5; Kris Dunn RA <14.5
+10. 4L POWER | EV=+1.60 | Sharpe=0.36 | P(profit)=26.0% | Cade Cunningham PA <33.5; Peyton Watson PA >20.5; Lauri Markkanen PA >24.5; Collin Gillespie RA <10

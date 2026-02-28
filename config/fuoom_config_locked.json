@@ -1,0 +1,532 @@
+{
+  "_meta": {
+    "config_name": "FUOOM Production Config",
+    "version": "1.0.0",
+    "sop_version": "2.1",
+    "created": "2026-01-31",
+    "locked": true,
+    "description": "Locked configuration parameters. Changes require SOP review and version bump.",
+    "change_control": "Any modification requires: (1) documented justification, (2) backtest validation, (3) SOP v2.1 compliance check"
+  },
+
+  "tier_definitions": {
+    "_doc": "SOP v2.1 Rule C2: Tier labels MUST match these probability ranges",
+    
+    "SLAM": {
+      "min_probability": 0.75,
+      "max_probability": 1.00,
+      "kelly_multiplier": 1.0,
+      "max_units": 2.0
+    },
+    "STRONG": {
+      "min_probability": 0.65,
+      "max_probability": 0.7499,
+      "kelly_multiplier": 0.75,
+      "max_units": 1.5
+    },
+    "LEAN": {
+      "min_probability": 0.55,
+      "max_probability": 0.6499,
+      "kelly_multiplier": 0.50,
+      "max_units": 1.0
+    },
+    "NO_PLAY": {
+      "min_probability": 0.00,
+      "max_probability": 0.5499,
+      "kelly_multiplier": 0.00,
+      "max_units": 0.0
+    }
+  },
+
+  "sport_tier_overrides": {
+    "_doc": "Sport-specific tier modifications per SOP",
+    
+    "CBB": {
+      "SLAM": null,
+      "STRONG": {"min_probability": 0.70, "max_probability": 1.00},
+      "LEAN": {"min_probability": 0.60, "max_probability": 0.6999}
+    },
+    "GOLF": {
+      "SLAM": null,
+      "STRONG": {"min_probability": 0.68, "max_probability": 1.00},
+      "LEAN": {"min_probability": 0.58, "max_probability": 0.6799}
+    },
+    "TENNIS": {
+      "SLAM": {"min_probability": 0.82, "max_probability": 1.00},
+      "STRONG": {"min_probability": 0.68, "max_probability": 0.8199},
+      "LEAN": {"min_probability": 0.58, "max_probability": 0.6799}
+    }
+  },
+
+  "stat_distributions": {
+    "_doc": "SOP-mandated distribution types per stat category. Do NOT use normal distribution for overdispersed stats.",
+    
+    "NBA": {
+      "points": {
+        "distribution": "t_distribution",
+        "degrees_freedom": 5,
+        "rationale": "Heavy tails for scoring variance, handles outlier games"
+      },
+      "rebounds": {
+        "distribution": "negative_binomial",
+        "overdispersion_threshold": 1.2,
+        "rationale": "Count data with overdispersion > 1.2 typical for REB"
+      },
+      "assists": {
+        "distribution": "negative_binomial",
+        "overdispersion_threshold": 1.3,
+        "rationale": "Highly overdispersed count data, playmaker variance"
+      },
+      "three_pointers_made": {
+        "distribution": "negative_binomial",
+        "overdispersion_threshold": 1.5,
+        "rationale": "High variance shooting, zero-inflation common"
+      },
+      "steals": {
+        "distribution": "zero_inflated_poisson",
+        "zero_inflation_rate": 0.15,
+        "rationale": "Many zero-steal games, discrete rare events"
+      },
+      "blocks": {
+        "distribution": "zero_inflated_poisson",
+        "zero_inflation_rate": 0.20,
+        "rationale": "Position-dependent, many zeros for guards"
+      },
+      "turnovers": {
+        "distribution": "poisson",
+        "rationale": "Standard count data, less overdispersion"
+      },
+      "minutes": {
+        "distribution": "truncated_normal",
+        "lower_bound": 0,
+        "upper_bound": 48,
+        "rationale": "Bounded continuous, game-time limits"
+      },
+      "pts_rebs_asts": {
+        "distribution": "normal",
+        "rationale": "Combined stat approaches normality via CLT"
+      },
+      "pts_rebs": {
+        "distribution": "normal",
+        "rationale": "Two-stat combo, near-normal"
+      },
+      "pts_asts": {
+        "distribution": "normal",
+        "rationale": "Two-stat combo, near-normal"
+      },
+      "rebs_asts": {
+        "distribution": "negative_binomial",
+        "overdispersion_threshold": 1.25,
+        "rationale": "Both components overdispersed"
+      },
+      "fantasy_score": {
+        "distribution": "normal",
+        "rationale": "Weighted composite approaches normality"
+      }
+    },
+    
+    "NFL": {
+      "passing_yards": {
+        "distribution": "normal",
+        "rationale": "High volume, approaches normality"
+      },
+      "rushing_yards": {
+        "distribution": "gamma",
+        "shape": 2.5,
+        "rationale": "Right-skewed, non-negative, high variance"
+      },
+      "receiving_yards": {
+        "distribution": "gamma",
+        "shape": 2.0,
+        "rationale": "Right-skewed with many low values"
+      },
+      "receptions": {
+        "distribution": "negative_binomial",
+        "overdispersion_threshold": 1.3,
+        "rationale": "Count data with target-share variance"
+      },
+      "touchdowns": {
+        "distribution": "poisson",
+        "rationale": "Rare discrete events"
+      },
+      "passing_touchdowns": {
+        "distribution": "poisson",
+        "rationale": "Rare discrete events, QB-specific"
+      },
+      "interceptions": {
+        "distribution": "zero_inflated_poisson",
+        "zero_inflation_rate": 0.35,
+        "rationale": "Many zero-INT games, rare events"
+      },
+      "completions": {
+        "distribution": "binomial",
+        "rationale": "Success/failure trials (attempts)"
+      },
+      "rushing_attempts": {
+        "distribution": "negative_binomial",
+        "overdispersion_threshold": 1.2,
+        "rationale": "Game-script dependent count data"
+      }
+    },
+    
+    "CBB": {
+      "points": {
+        "distribution": "t_distribution",
+        "degrees_freedom": 4,
+        "rationale": "Higher variance than NBA, smaller samples"
+      },
+      "rebounds": {
+        "distribution": "negative_binomial",
+        "overdispersion_threshold": 1.3,
+        "rationale": "Similar to NBA but higher variance"
+      },
+      "assists": {
+        "distribution": "negative_binomial",
+        "overdispersion_threshold": 1.4,
+        "rationale": "Higher variance in college"
+      },
+      "three_pointers_made": {
+        "distribution": "negative_binomial",
+        "overdispersion_threshold": 1.6,
+        "rationale": "Very high variance in college shooting"
+      }
+    },
+    
+    "TENNIS": {
+      "aces": {
+        "distribution": "negative_binomial",
+        "overdispersion_threshold": 1.4,
+        "rationale": "Server-dependent, surface-dependent"
+      },
+      "double_faults": {
+        "distribution": "poisson",
+        "rationale": "Rare events, less overdispersion"
+      },
+      "games_won": {
+        "distribution": "negative_binomial",
+        "overdispersion_threshold": 1.2,
+        "rationale": "Match-length dependent"
+      },
+      "sets_won": {
+        "distribution": "binomial",
+        "rationale": "Bounded discrete (0-2 or 0-3)"
+      },
+      "total_games": {
+        "distribution": "negative_binomial",
+        "overdispersion_threshold": 1.3,
+        "rationale": "Match competitiveness variance"
+      }
+    }
+  },
+
+  "multi_window_weights": {
+    "_doc": "Weights for multi-window projections. Must sum to 1.0. L3 = Last 3 games, etc.",
+    
+    "NBA": {
+      "default": {
+        "L3": 0.30,
+        "L5": 0.25,
+        "L10": 0.20,
+        "L20": 0.15,
+        "season": 0.10
+      },
+      "early_season": {
+        "_doc": "Use when games_played < 15",
+        "L3": 0.20,
+        "L5": 0.20,
+        "L10": 0.15,
+        "L20": 0.10,
+        "season": 0.15,
+        "last_season": 0.20
+      },
+      "high_variance_player": {
+        "_doc": "Use when CV > 0.35",
+        "L3": 0.20,
+        "L5": 0.25,
+        "L10": 0.25,
+        "L20": 0.20,
+        "season": 0.10
+      },
+      "injury_return": {
+        "_doc": "Use when returning from 5+ game absence",
+        "L3": 0.15,
+        "L5": 0.15,
+        "L10": 0.20,
+        "L20": 0.25,
+        "season": 0.25
+      }
+    },
+    
+    "NFL": {
+      "default": {
+        "L3": 0.35,
+        "L5": 0.30,
+        "L10": 0.20,
+        "season": 0.15
+      },
+      "early_season": {
+        "_doc": "Use when games_played < 5",
+        "L3": 0.25,
+        "L5": 0.20,
+        "season": 0.25,
+        "last_season": 0.30
+      },
+      "qb_specific": {
+        "L3": 0.30,
+        "L5": 0.30,
+        "L10": 0.25,
+        "season": 0.15
+      }
+    },
+    
+    "CBB": {
+      "default": {
+        "L3": 0.35,
+        "L5": 0.30,
+        "L10": 0.25,
+        "season": 0.10
+      },
+      "conference_play": {
+        "_doc": "Use during conference schedule",
+        "L3": 0.40,
+        "L5": 0.30,
+        "L10": 0.20,
+        "season": 0.10
+      }
+    },
+    
+    "TENNIS": {
+      "default": {
+        "L3": 0.35,
+        "L5": 0.30,
+        "L10": 0.20,
+        "season": 0.15
+      },
+      "surface_specific": {
+        "_doc": "Weight recent surface matches higher",
+        "L3_surface": 0.40,
+        "L5_surface": 0.30,
+        "L10_all": 0.20,
+        "season": 0.10
+      }
+    }
+  },
+
+  "confidence_calibration": {
+    "_doc": "Empirically-derived calibration adjustments from historical performance",
+    
+    "stat_type_multipliers": {
+      "_doc": "Multiplicative adjustments to raw probability based on stat type edge patterns",
+      "NBA": {
+        "assists": 1.20,
+        "three_pointers_made": 1.06,
+        "pts_rebs_asts": 0.75,
+        "pts_asts": 0.75,
+        "rebs_asts": 0.75,
+        "rebounds": 1.00,
+        "points": 1.00,
+        "steals": 1.00,
+        "blocks": 1.00
+      }
+    },
+    
+    "direction_bias": {
+      "_doc": "Market inefficiency adjustments - UNDERS historically undervalued",
+      "NBA": {
+        "over": 0.94,
+        "under": 1.03
+      },
+      "NFL": {
+        "over": 0.92,
+        "under": 1.04
+      },
+      "CBB": {
+        "over": 0.90,
+        "under": 1.05
+      }
+    },
+    
+    "pra_direction_multipliers": {
+      "_doc": "PRA direction has strongest signal in calibration data",
+      "lower": 1.40,
+      "higher": 0.50
+    },
+    
+    "compression_rules": {
+      "_doc": "SOP v2.1 Rule C1: Compress confidence when projection deviates significantly",
+      "deviation_threshold_std": 2.5,
+      "max_confidence_when_exceeded": 0.65
+    },
+    
+    "specialist_caps": {
+      "_doc": "Hard caps for specific edge-case scenarios",
+      "BIG_MAN_3PM": {
+        "description": "Centers attempting 3-pointers",
+        "max_confidence": 0.62,
+        "trigger": "position in ['C', 'PF'] AND stat == '3PM' AND attempts_per_game < 3"
+      },
+      "CATCH_AND_SHOOT_3PM": {
+        "description": "Catch-and-shoot specialists",
+        "max_confidence": 0.70,
+        "trigger": "assisted_3pa >= 65%"
+      },
+      "BENCH_MICROWAVE": {
+        "description": "Bench scorer with high volatility",
+        "max_confidence": 0.55,
+        "trigger": "bench_min >= 80% AND minutes_std > 8"
+      },
+      "BACKUP_STARTER": {
+        "description": "Backup getting unexpected start",
+        "max_confidence": 0.62,
+        "trigger": "usual_role == 'bench' AND projected_minutes > 28"
+      },
+      "INJURY_RETURN": {
+        "description": "First game back from 10+ day absence",
+        "max_confidence": 0.60,
+        "trigger": "games_missed >= 3 AND days_since_last_game >= 10"
+      },
+      "BLOWOUT_RISK": {
+        "description": "Games with high blowout probability",
+        "max_confidence": 0.63,
+        "trigger": "spread >= 12 OR implied_total_diff >= 15"
+      }
+    }
+  },
+
+  "cbb_specific_settings": {
+    "_doc": "CBB-specific configuration - stricter than NBA",
+    
+    "model": {
+      "distribution": "poisson",
+      "market_gate_threshold": 0.12,
+      "l10_blend_weight": 0.40
+    },
+    
+    "caps": {
+      "strict_mode": true,
+      "no_slam_tier": true,
+      "max_confidence": 0.75
+    },
+    
+    "guards": {
+      "usage_volatility_clamp": {
+        "enabled": true,
+        "minutes_std_threshold": 6,
+        "confidence_multiplier": 0.75
+      },
+      "coaching_pace_guard": {
+        "enabled": true,
+        "pace_rank_change_threshold": 50,
+        "confidence_cap": 0.65
+      },
+      "freshman_transfer_penalty": {
+        "enabled": true,
+        "class_years": ["FR", "TRANSFER"],
+        "half_life_multiplier": 0.70
+      }
+    }
+  },
+
+  "edge_deduplication": {
+    "_doc": "SOP v2.1 Rules A1-A3: Edge definition and collapse rules",
+    
+    "edge_definition": {
+      "unique_key_components": ["player_id", "game_id", "stat_type", "direction"],
+      "case_sensitive": false
+    },
+    
+    "canonical_line_selection": {
+      "over": "highest_reasonable_line",
+      "under": "lowest_reasonable_line",
+      "outlier_exclusion_threshold_std": 2.5
+    },
+    
+    "correlated_handling": {
+      "max_primary_per_player_per_game": 1,
+      "correlated_excluded_from_tiers": true,
+      "correlated_excluded_from_parlays": true,
+      "visual_separation_required": true
+    }
+  },
+
+  "validation_gates": {
+    "_doc": "SOP v2.1 Section 6: Render gate checks",
+    
+    "pre_render_checks": {
+      "no_duplicate_edges": {
+        "enabled": true,
+        "severity": "CRITICAL",
+        "blocks_output": true
+      },
+      "no_duplicate_primary_players": {
+        "enabled": true,
+        "severity": "CRITICAL",
+        "blocks_output": true
+      },
+      "no_correlated_in_tiers": {
+        "enabled": true,
+        "severity": "ERROR",
+        "blocks_output": true
+      },
+      "tier_probability_alignment": {
+        "enabled": true,
+        "severity": "CRITICAL",
+        "blocks_output": true
+      },
+      "required_fields_present": {
+        "enabled": true,
+        "severity": "ERROR",
+        "blocks_output": true
+      },
+      "pick_state_valid": {
+        "enabled": true,
+        "severity": "WARNING",
+        "blocks_output": false
+      }
+    }
+  },
+
+  "data_sources": {
+    "_doc": "Approved data sources per SOP Section 3",
+    
+    "NBA": {
+      "primary": ["stats.nba.com", "espn.com"],
+      "secondary": ["basketball-reference.com"],
+      "market": ["underdogfantasy.com", "prizepicks.com"],
+      "injury": ["official NBA injury report"]
+    },
+    "NFL": {
+      "primary": ["nfl.com", "espn.com"],
+      "secondary": ["pro-football-reference.com", "nflfastR"],
+      "market": ["underdogfantasy.com", "prizepicks.com"],
+      "injury": ["official NFL injury report"],
+      "weather": ["openweathermap.org"]
+    },
+    "CBB": {
+      "primary": ["espn.com", "ncaa.com"],
+      "secondary": ["sports-reference.com/cbb"],
+      "market": ["underdogfantasy.com", "prizepicks.com"]
+    },
+    "TENNIS": {
+      "primary": ["api-sports.io"],
+      "secondary": ["flashscore.com"],
+      "market": ["underdogfantasy.com"]
+    }
+  },
+
+  "runtime_settings": {
+    "monte_carlo_simulations": 10000,
+    "confidence_interval_level": 0.95,
+    "min_sample_size_for_projection": 5,
+    "cache_ttl_hours": 24,
+    "api_rate_limit_per_minute": 30,
+    "max_concurrent_requests": 5
+  },
+
+  "cache_namespacing": {
+    "_doc": "Sport-isolated cache settings",
+    "separator": "|",
+    "version": "v1",
+    "valid_sports": ["NBA", "CBB", "NFL", "TENNIS", "GOLF", "SOCCER", "CFB", "WNBA", "MLB", "NHL"]
+  }
+}

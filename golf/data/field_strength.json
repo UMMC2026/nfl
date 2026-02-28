@@ -1,0 +1,12 @@
+{
+  "_metadata": {
+    "last_updated": "2026-02-05T00:00:00",
+    "description": "Tournament field strength metrics"
+  },
+  "_tier_thresholds": {
+    "ELITE": "avg OWGR < 50",
+    "STRONG": "50-100",
+    "AVERAGE": "100-150",
+    "WEAK": "150+"
+  }
+}

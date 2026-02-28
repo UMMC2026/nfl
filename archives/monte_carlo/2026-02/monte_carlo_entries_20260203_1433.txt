@@ -1,0 +1,77 @@
+======================================================================
+MONTE CARLO ENTRY OPTIMIZATION
+Generated: 2026-02-03T14:33:54.130666
+======================================================================
+
+STAT KEY (basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made (aka 3PT/3PTS) | STOCKS=STL+BLK | PRA=PTS+REB+AST
+
+RUN CONTEXT:
+   League inferred: NBA
+   Picks: 7 qualifying (from 63 analyzed)
+   Filter pass: NBA_STRICT_PRIMARY — PLAY/LEAN only + min conf + primary-safe stats only (PTS/REB/STL/BLK)
+   Filter attempts (qualifying picks): NBA_STRICT_PRIMARY=7
+   Constraints: max_same_game=1, max_primary_per_game=1
+   NBA min confidence: 65.0
+   NBA flags: primary_only=1, playlean_only=1
+
+BEST POWER ENTRY:
+   4L POWER | EV=+1.71 | Sharpe=0.39 | P(profit)=27.1% | Luka Dončić PTS >25.5; Jarace Walker PTS <17.5; Isaiah Collier PTS <15.5; Shai Gilgeous-Alexander PTS >24.5
+   Kelly stake: 2.2% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=72.2%, min p_hit=67.7%
+   Stat mix: PTS:4
+   Same-game buckets: IND@UTA:1, LAL@UNK:1, OKC@ORL:1, UNK@UTA:1
+   LEGS (what each pick is):
+    1. Luka Dončić PTS >25.5 (LAL vs UNK) | μ=33.5 | σ=7.4 | p_hit=67.7% | PRIMARY_SAFE
+    2. Jarace Walker PTS <17.5 (IND vs UTA) | μ=12.9 | σ=6.4 | p_hit=74.2% | PRIMARY_SAFE
+    3. Isaiah Collier PTS <15.5 (UTA vs UNK) | μ=12.1 | σ=4.8 | p_hit=74.2% | PRIMARY_SAFE
+    4. Shai Gilgeous-Alexander PTS >24.5 (OKC vs ORL) | μ=32.2 | σ=7.9 | p_hit=72.9% | PRIMARY_SAFE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST FLEX ENTRY:
+   4L FLEX | EV=+0.99 | Sharpe=0.51 | P(profit)=69.1% | Luka Dončić PTS >25.5; Jarace Walker PTS <17.5; Isaiah Collier PTS <15.5; Shai Gilgeous-Alexander PTS >24.5
+   Kelly stake: 6.5% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=72.2%, min p_hit=67.7%
+   Stat mix: PTS:4
+   Same-game buckets: IND@UTA:1, LAL@UNK:1, OKC@ORL:1, UNK@UTA:1
+   LEGS (what each pick is):
+    1. Luka Dončić PTS >25.5 (LAL vs UNK) | μ=33.5 | σ=7.4 | p_hit=67.7% | PRIMARY_SAFE
+    2. Jarace Walker PTS <17.5 (IND vs UTA) | μ=12.9 | σ=6.4 | p_hit=74.2% | PRIMARY_SAFE
+    3. Isaiah Collier PTS <15.5 (UTA vs UNK) | μ=12.1 | σ=4.8 | p_hit=74.2% | PRIMARY_SAFE
+    4. Shai Gilgeous-Alexander PTS >24.5 (OKC vs ORL) | μ=32.2 | σ=7.9 | p_hit=72.9% | PRIMARY_SAFE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST RISK-ADJUSTED (Sharpe):
+   3L FLEX | EV=+0.44 | Sharpe=0.55 | P(profit)=82.9% | Jarace Walker PTS <17.5; Isaiah Collier PTS <15.5; Shai Gilgeous-Alexander PTS >24.5
+   ENTRY SNAPSHOT: avg p_hit=73.7%, min p_hit=72.9%
+   Stat mix: PTS:3
+   Same-game buckets: IND@UTA:1, OKC@ORL:1, UNK@UTA:1
+   LEGS (what each pick is):
+    1. Jarace Walker PTS <17.5 (IND vs UTA) | μ=12.9 | σ=6.4 | p_hit=74.2% | PRIMARY_SAFE
+    2. Isaiah Collier PTS <15.5 (UTA vs UNK) | μ=12.1 | σ=4.8 | p_hit=74.2% | PRIMARY_SAFE
+    3. Shai Gilgeous-Alexander PTS >24.5 (OKC vs ORL) | μ=32.2 | σ=7.9 | p_hit=72.9% | PRIMARY_SAFE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+----------------------------------------------------------------------
+TOP 10 ENTRIES BY EV:
+----------------------------------------------------------------------
+ 1. 4L POWER | EV=+1.71 | Sharpe=0.39 | P(profit)=27.1% | Luka Dončić PTS >25.5; Jarace Walker PTS <17.5; Isaiah Collier PTS <15.5; Shai Gilgeous-Alexander PTS >24.5
+ 2. 4L POWER | EV=+1.71 | Sharpe=0.39 | P(profit)=27.1% | Luka Dončić PTS >25.5; Isaiah Collier PTS <15.5; Johnny Furphy PTS <10.5; Shai Gilgeous-Alexander PTS >24.5
+ 3. 4L POWER | EV=+1.66 | Sharpe=0.38 | P(profit)=26.6% | Isaiah Collier PTS <15.5; Johnny Furphy PTS <10.5; Shai Gilgeous-Alexander PTS >24.5; Bobby Portis REB <10
+ 4. 4L POWER | EV=+1.66 | Sharpe=0.38 | P(profit)=26.6% | Jarace Walker PTS <17.5; Isaiah Collier PTS <15.5; Shai Gilgeous-Alexander PTS >24.5; Bobby Portis REB <10
+ 5. 4L POWER | EV=+1.64 | Sharpe=0.37 | P(profit)=26.4% | Luka Dončić PTS >25.5; Jarace Walker PTS <17.5; Shai Gilgeous-Alexander PTS >24.5; Isaiah Collier REB <4.5
+ 6. 4L POWER | EV=+1.64 | Sharpe=0.37 | P(profit)=26.4% | Luka Dončić PTS >25.5; Johnny Furphy PTS <10.5; Shai Gilgeous-Alexander PTS >24.5; Isaiah Collier REB <4.5
+ 7. 4L POWER | EV=+1.59 | Sharpe=0.36 | P(profit)=25.9% | Jarace Walker PTS <17.5; Shai Gilgeous-Alexander PTS >24.5; Isaiah Collier REB <4.5; Bobby Portis REB <10
+ 8. 4L POWER | EV=+1.59 | Sharpe=0.36 | P(profit)=25.9% | Johnny Furphy PTS <10.5; Shai Gilgeous-Alexander PTS >24.5; Isaiah Collier REB <4.5; Bobby Portis REB <10
+ 9. 4L POWER | EV=+1.47 | Sharpe=0.34 | P(profit)=24.7% | Luka Dončić PTS >25.5; Jarace Walker PTS <17.5; Isaiah Collier PTS <15.5; Bobby Portis REB <10
+10. 4L POWER | EV=+1.47 | Sharpe=0.34 | P(profit)=24.7% | Luka Dončić PTS >25.5; Isaiah Collier PTS <15.5; Johnny Furphy PTS <10.5; Bobby Portis REB <10

@@ -1,0 +1,39 @@
+==============================================================================
+GOVERNANCE SUMMARY - SOCCER_EPL - 20260217
+==============================================================================
+Created (UTC): 2026-02-17T07:20:41.353371+00:00
+
+COUNTS
+------------------------------------------------------------------------------
+Total results : 5
+Allowed edges : 4
+Blocked edges : 1
+Decision breakdown:
+  - PLAY: 3
+  - BLOCKED: 1
+  - LEAN: 1
+
+TOP BLOCK REASONS
+------------------------------------------------------------------------------
+    1x - pick_state=VETTED
+
+TOP PLAY PICKS
+------------------------------------------------------------------------------
+ 1. Viktor Gyokeres (Sporting Lisbon) shots HIGHER 2.5
+    eff=76.2% model=76.2% edge=? z=?
+ 2. Bukayo Saka (Arsenal) shots LOWER 3.0
+    eff=69.2% model=69.2% edge=? z=?
+ 3. Leandro Trossard (Arsenal) shots LOWER 2.5
+    eff=67.7% model=67.7% edge=? z=?
+
+TOP LEANS
+------------------------------------------------------------------------------
+ 1. Noni Madueke (Chelsea) shots LOWER 2.0
+    eff=57.0% model=57.0% edge=? z=?
+
+FILES
+------------------------------------------------------------------------------
+- outputs/governance_config.json
+- outputs/allowed_edges.json
+- outputs/blocked_edges.json
+(These are the stable 'latest' artifacts.)

@@ -1,0 +1,130 @@
+{
+  "date": "2026-01-20",
+  "timestamp": "2026-01-20T11:03:25.434947",
+  "slate": "SAS HOU",
+  "source_file": "SAS HOU_RISK_FIRST_20260120_FROM_UD.json",
+  "summary": {
+    "play_count": 1,
+    "lean_count": 12,
+    "total": 13
+  },
+  "picks": [
+    {
+      "player": "De'Aaron Fox",
+      "team": "SAS",
+      "stat": "rebounds",
+      "line": 3.5,
+      "direction": "higher",
+      "decision": "PLAY",
+      "probability": 72.0
+    },
+    {
+      "player": "Victor Wembanyama",
+      "team": "SAS",
+      "stat": "assists",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 69.9
+    },
+    {
+      "player": "Victor Wembanyama",
+      "team": "SAS",
+      "stat": "reb+ast",
+      "line": 11.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "De'Aaron Fox",
+      "team": "SAS",
+      "stat": "reb+ast",
+      "line": 8.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Amen Thompson",
+      "team": "HOU",
+      "stat": "pra",
+      "line": 29.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Amen Thompson",
+      "team": "HOU",
+      "stat": "pts+reb",
+      "line": 23.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Amen Thompson",
+      "team": "HOU",
+      "stat": "pts+ast",
+      "line": 21.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Luke Kornet",
+      "team": "SAS",
+      "stat": "pra",
+      "line": 13.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Kevin Durant",
+      "team": "HOU",
+      "stat": "reb+ast",
+      "line": 10.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 68.0
+    },
+    {
+      "player": "Jabari Smith Jr.",
+      "team": "HOU",
+      "stat": "rebounds",
+      "line": 6.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 67.6
+    },
+    {
+      "player": "Kevin Durant",
+      "team": "HOU",
+      "stat": "3pm",
+      "line": 2.5,
+      "direction": "lower",
+      "decision": "LEAN",
+      "probability": 66.4
+    },
+    {
+      "player": "De'Aaron Fox",
+      "team": "SAS",
+      "stat": "3pm",
+      "line": 1.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 66.3
+    },
+    {
+      "player": "De'Aaron Fox",
+      "team": "SAS",
+      "stat": "assists",
+      "line": 4.5,
+      "direction": "higher",
+      "decision": "LEAN",
+      "probability": 66.2
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+# CBB Season Regimes — Variance and Confidence Controls
+
+EARLY_SEASON:
+  start: "2024-11-01"
+  end: "2024-12-01"
+  variance_multiplier: 1.30
+  confidence_cap: 0.65
+  allow_overs: false
+  notes: "High role volatility, small samples"
+
+MID_SEASON:
+  start: "2024-12-02"
+  end: "2025-02-15"
+  variance_multiplier: 1.00
+  confidence_cap: 0.75
+  allow_overs: true
+  notes: "Stable rotations, reliable data"
+
+LATE_SEASON:
+  start: "2025-02-16"
+  end: "2025-02-28"
+  variance_multiplier: 1.15
+  confidence_cap: 0.70
+  allow_overs: false
+  notes: "Conference tournament prep, rotation experiments"
+
+CONFERENCE_TOURNAMENT:
+  start: "2025-03-01"
+  end: "2025-03-15"
+  variance_multiplier: 1.25
+  confidence_cap: 0.65
+  allow_overs: false
+  notes: "Short rest, neutral courts, whistle variance"
+
+NCAA_TOURNAMENT:
+  start: "2025-03-16"
+  end: "2025-04-10"
+  variance_multiplier: 1.35
+  confidence_cap: 0.60
+  allow_overs: false
+  max_edges_per_game: 1
+  notes: "Maximum chaos, capital preservation mode"

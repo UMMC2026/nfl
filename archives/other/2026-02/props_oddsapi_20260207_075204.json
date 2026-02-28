@@ -1,0 +1,2270 @@
+{
+  "timestamp": "2026-02-07T07:52:04.741685",
+  "sites": [
+    "oddsapi"
+  ],
+  "total_props": 54,
+  "parsed_props": 54,
+  "players": 26,
+  "props": [
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Viktor Gyokeres shots 3.0 higher (PrizePicks/player_shots)",
+      "player": "Viktor Gyokeres",
+      "stat": "shots",
+      "line": 3.0,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.739644Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Viktor Gyokeres",
+        "stat": "shots",
+        "line": 3.0,
+        "direction": "higher",
+        "raw": {
+          "event_id": "0232baa88f2ea7539654e9f8ebd53272",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Arsenal",
+          "away_team": "Sunderland",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Viktor Gyokeres"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Viktor Gyokeres shots 3.0 lower (PrizePicks/player_shots)",
+      "player": "Viktor Gyokeres",
+      "stat": "shots",
+      "line": 3.0,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.739644Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Viktor Gyokeres",
+        "stat": "shots",
+        "line": 3.0,
+        "direction": "lower",
+        "raw": {
+          "event_id": "0232baa88f2ea7539654e9f8ebd53272",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Arsenal",
+          "away_team": "Sunderland",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Viktor Gyokeres"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Leandro Trossard shots 2.5 higher (PrizePicks/player_shots)",
+      "player": "Leandro Trossard",
+      "stat": "shots",
+      "line": 2.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.739644Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Leandro Trossard",
+        "stat": "shots",
+        "line": 2.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "0232baa88f2ea7539654e9f8ebd53272",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Arsenal",
+          "away_team": "Sunderland",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Leandro Trossard"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Leandro Trossard shots 2.5 lower (PrizePicks/player_shots)",
+      "player": "Leandro Trossard",
+      "stat": "shots",
+      "line": 2.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.739644Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Leandro Trossard",
+        "stat": "shots",
+        "line": 2.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "0232baa88f2ea7539654e9f8ebd53272",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Arsenal",
+          "away_team": "Sunderland",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Leandro Trossard"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Enzo Le Fee shots 0.5 higher (PrizePicks/player_shots)",
+      "player": "Enzo Le Fee",
+      "stat": "shots",
+      "line": 0.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.739644Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Enzo Le Fee",
+        "stat": "shots",
+        "line": 0.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "0232baa88f2ea7539654e9f8ebd53272",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Arsenal",
+          "away_team": "Sunderland",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Enzo Le Fee"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Enzo Le Fee shots 0.5 lower (PrizePicks/player_shots)",
+      "player": "Enzo Le Fee",
+      "stat": "shots",
+      "line": 0.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.739644Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Enzo Le Fee",
+        "stat": "shots",
+        "line": 0.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "0232baa88f2ea7539654e9f8ebd53272",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Arsenal",
+          "away_team": "Sunderland",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Enzo Le Fee"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Chemsdine Talbi shots 0.5 higher (PrizePicks/player_shots)",
+      "player": "Chemsdine Talbi",
+      "stat": "shots",
+      "line": 0.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.739644Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Chemsdine Talbi",
+        "stat": "shots",
+        "line": 0.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "0232baa88f2ea7539654e9f8ebd53272",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Arsenal",
+          "away_team": "Sunderland",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Chemsdine Talbi"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Chemsdine Talbi shots 0.5 lower (PrizePicks/player_shots)",
+      "player": "Chemsdine Talbi",
+      "stat": "shots",
+      "line": 0.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.739644Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Chemsdine Talbi",
+        "stat": "shots",
+        "line": 0.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "0232baa88f2ea7539654e9f8ebd53272",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Arsenal",
+          "away_team": "Sunderland",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Chemsdine Talbi"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Declan Rice shots_on_target 0.5 higher (PrizePicks/player_shots_on_target)",
+      "player": "Declan Rice",
+      "stat": "shots_on_target",
+      "line": 0.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.739644Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Declan Rice",
+        "stat": "shots_on_target",
+        "line": 0.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "0232baa88f2ea7539654e9f8ebd53272",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Arsenal",
+          "away_team": "Sunderland",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots_on_target",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Declan Rice"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Declan Rice shots_on_target 0.5 lower (PrizePicks/player_shots_on_target)",
+      "player": "Declan Rice",
+      "stat": "shots_on_target",
+      "line": 0.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Declan Rice",
+        "stat": "shots_on_target",
+        "line": 0.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "0232baa88f2ea7539654e9f8ebd53272",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Arsenal",
+          "away_team": "Sunderland",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots_on_target",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Declan Rice"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Francisco Evanilson de Lima Barbosa shots 2.0 higher (PrizePicks/player_shots)",
+      "player": "Francisco Evanilson de Lima Barbosa",
+      "stat": "shots",
+      "line": 2.0,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Francisco Evanilson de Lima Barbosa",
+        "stat": "shots",
+        "line": 2.0,
+        "direction": "higher",
+        "raw": {
+          "event_id": "9a38c80a3bab5163166bcf10f4995e8d",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Bournemouth",
+          "away_team": "Aston Villa",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Francisco Evanilson de Lima Barbosa"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Francisco Evanilson de Lima Barbosa shots 2.0 lower (PrizePicks/player_shots)",
+      "player": "Francisco Evanilson de Lima Barbosa",
+      "stat": "shots",
+      "line": 2.0,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Francisco Evanilson de Lima Barbosa",
+        "stat": "shots",
+        "line": 2.0,
+        "direction": "lower",
+        "raw": {
+          "event_id": "9a38c80a3bab5163166bcf10f4995e8d",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Bournemouth",
+          "away_team": "Aston Villa",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Francisco Evanilson de Lima Barbosa"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Eli Junior Kroupi shots 2.0 higher (PrizePicks/player_shots)",
+      "player": "Eli Junior Kroupi",
+      "stat": "shots",
+      "line": 2.0,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Eli Junior Kroupi",
+        "stat": "shots",
+        "line": 2.0,
+        "direction": "higher",
+        "raw": {
+          "event_id": "9a38c80a3bab5163166bcf10f4995e8d",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Bournemouth",
+          "away_team": "Aston Villa",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Eli Junior Kroupi"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Eli Junior Kroupi shots 2.0 lower (PrizePicks/player_shots)",
+      "player": "Eli Junior Kroupi",
+      "stat": "shots",
+      "line": 2.0,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Eli Junior Kroupi",
+        "stat": "shots",
+        "line": 2.0,
+        "direction": "lower",
+        "raw": {
+          "event_id": "9a38c80a3bab5163166bcf10f4995e8d",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Bournemouth",
+          "away_team": "Aston Villa",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Eli Junior Kroupi"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Adrien Truffert shots 0.5 higher (PrizePicks/player_shots)",
+      "player": "Adrien Truffert",
+      "stat": "shots",
+      "line": 0.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Adrien Truffert",
+        "stat": "shots",
+        "line": 0.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "9a38c80a3bab5163166bcf10f4995e8d",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Bournemouth",
+          "away_team": "Aston Villa",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Adrien Truffert"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Adrien Truffert shots 0.5 lower (PrizePicks/player_shots)",
+      "player": "Adrien Truffert",
+      "stat": "shots",
+      "line": 0.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Adrien Truffert",
+        "stat": "shots",
+        "line": 0.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "9a38c80a3bab5163166bcf10f4995e8d",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Bournemouth",
+          "away_team": "Aston Villa",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Adrien Truffert"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Jarrod Bowen shots 2.5 higher (PrizePicks/player_shots)",
+      "player": "Jarrod Bowen",
+      "stat": "shots",
+      "line": 2.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Jarrod Bowen",
+        "stat": "shots",
+        "line": 2.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "8ca6a2f0fb6436b92bf3745d4ba81c54",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Burnley",
+          "away_team": "West Ham United",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Jarrod Bowen"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Jarrod Bowen shots 2.5 lower (PrizePicks/player_shots)",
+      "player": "Jarrod Bowen",
+      "stat": "shots",
+      "line": 2.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Jarrod Bowen",
+        "stat": "shots",
+        "line": 2.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "8ca6a2f0fb6436b92bf3745d4ba81c54",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Burnley",
+          "away_team": "West Ham United",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Jarrod Bowen"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Armando Broja shots 2.0 higher (PrizePicks/player_shots)",
+      "player": "Armando Broja",
+      "stat": "shots",
+      "line": 2.0,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Armando Broja",
+        "stat": "shots",
+        "line": 2.0,
+        "direction": "higher",
+        "raw": {
+          "event_id": "8ca6a2f0fb6436b92bf3745d4ba81c54",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Burnley",
+          "away_team": "West Ham United",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Armando Broja"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Armando Broja shots 2.0 lower (PrizePicks/player_shots)",
+      "player": "Armando Broja",
+      "stat": "shots",
+      "line": 2.0,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Armando Broja",
+        "stat": "shots",
+        "line": 2.0,
+        "direction": "lower",
+        "raw": {
+          "event_id": "8ca6a2f0fb6436b92bf3745d4ba81c54",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Burnley",
+          "away_team": "West Ham United",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Armando Broja"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Jaidon Anthony shots 1.5 higher (PrizePicks/player_shots)",
+      "player": "Jaidon Anthony",
+      "stat": "shots",
+      "line": 1.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Jaidon Anthony",
+        "stat": "shots",
+        "line": 1.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "8ca6a2f0fb6436b92bf3745d4ba81c54",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Burnley",
+          "away_team": "West Ham United",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Jaidon Anthony"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Jaidon Anthony shots 1.5 lower (PrizePicks/player_shots)",
+      "player": "Jaidon Anthony",
+      "stat": "shots",
+      "line": 1.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Jaidon Anthony",
+        "stat": "shots",
+        "line": 1.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "8ca6a2f0fb6436b92bf3745d4ba81c54",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Burnley",
+          "away_team": "West Ham United",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Jaidon Anthony"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Lyle Foster shots 1.5 higher (PrizePicks/player_shots)",
+      "player": "Lyle Foster",
+      "stat": "shots",
+      "line": 1.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Lyle Foster",
+        "stat": "shots",
+        "line": 1.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "8ca6a2f0fb6436b92bf3745d4ba81c54",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Burnley",
+          "away_team": "West Ham United",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Lyle Foster"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Lyle Foster shots 1.5 lower (PrizePicks/player_shots)",
+      "player": "Lyle Foster",
+      "stat": "shots",
+      "line": 1.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Lyle Foster",
+        "stat": "shots",
+        "line": 1.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "8ca6a2f0fb6436b92bf3745d4ba81c54",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Burnley",
+          "away_team": "West Ham United",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Lyle Foster"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Marcus Edwards shots 1.5 higher (PrizePicks/player_shots)",
+      "player": "Marcus Edwards",
+      "stat": "shots",
+      "line": 1.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Marcus Edwards",
+        "stat": "shots",
+        "line": 1.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "8ca6a2f0fb6436b92bf3745d4ba81c54",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Burnley",
+          "away_team": "West Ham United",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Marcus Edwards"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Marcus Edwards shots 1.5 lower (PrizePicks/player_shots)",
+      "player": "Marcus Edwards",
+      "stat": "shots",
+      "line": 1.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Marcus Edwards",
+        "stat": "shots",
+        "line": 1.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "8ca6a2f0fb6436b92bf3745d4ba81c54",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Burnley",
+          "away_team": "West Ham United",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Marcus Edwards"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Kyle Walker-Peters shots 0.5 higher (PrizePicks/player_shots)",
+      "player": "Kyle Walker-Peters",
+      "stat": "shots",
+      "line": 0.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Kyle Walker-Peters",
+        "stat": "shots",
+        "line": 0.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "8ca6a2f0fb6436b92bf3745d4ba81c54",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Burnley",
+          "away_team": "West Ham United",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Kyle Walker-Peters"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Kyle Walker-Peters shots 0.5 lower (PrizePicks/player_shots)",
+      "player": "Kyle Walker-Peters",
+      "stat": "shots",
+      "line": 0.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Kyle Walker-Peters",
+        "stat": "shots",
+        "line": 0.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "8ca6a2f0fb6436b92bf3745d4ba81c54",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Burnley",
+          "away_team": "West Ham United",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Kyle Walker-Peters"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Jaidon Anthony shots_on_target 0.5 higher (PrizePicks/player_shots_on_target)",
+      "player": "Jaidon Anthony",
+      "stat": "shots_on_target",
+      "line": 0.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Jaidon Anthony",
+        "stat": "shots_on_target",
+        "line": 0.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "8ca6a2f0fb6436b92bf3745d4ba81c54",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Burnley",
+          "away_team": "West Ham United",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots_on_target",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Jaidon Anthony"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Jaidon Anthony shots_on_target 0.5 lower (PrizePicks/player_shots_on_target)",
+      "player": "Jaidon Anthony",
+      "stat": "shots_on_target",
+      "line": 0.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Jaidon Anthony",
+        "stat": "shots_on_target",
+        "line": 0.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "8ca6a2f0fb6436b92bf3745d4ba81c54",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Burnley",
+          "away_team": "West Ham United",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots_on_target",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Jaidon Anthony"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Joao Pedro Junqueira de Jesus shots 2.5 higher (PrizePicks/player_shots)",
+      "player": "Joao Pedro Junqueira de Jesus",
+      "stat": "shots",
+      "line": 2.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Joao Pedro Junqueira de Jesus",
+        "stat": "shots",
+        "line": 2.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "a6fb47d91c1bdfd7152af4938e73b4d3",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Wolverhampton Wanderers",
+          "away_team": "Chelsea",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Joao Pedro Junqueira de Jesus"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Joao Pedro Junqueira de Jesus shots 2.5 lower (PrizePicks/player_shots)",
+      "player": "Joao Pedro Junqueira de Jesus",
+      "stat": "shots",
+      "line": 2.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Joao Pedro Junqueira de Jesus",
+        "stat": "shots",
+        "line": 2.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "a6fb47d91c1bdfd7152af4938e73b4d3",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Wolverhampton Wanderers",
+          "away_team": "Chelsea",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Joao Pedro Junqueira de Jesus"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Cole Palmer shots 2.5 higher (PrizePicks/player_shots)",
+      "player": "Cole Palmer",
+      "stat": "shots",
+      "line": 2.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Cole Palmer",
+        "stat": "shots",
+        "line": 2.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "a6fb47d91c1bdfd7152af4938e73b4d3",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Wolverhampton Wanderers",
+          "away_team": "Chelsea",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Cole Palmer"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Cole Palmer shots 2.5 lower (PrizePicks/player_shots)",
+      "player": "Cole Palmer",
+      "stat": "shots",
+      "line": 2.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Cole Palmer",
+        "stat": "shots",
+        "line": 2.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "a6fb47d91c1bdfd7152af4938e73b4d3",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Wolverhampton Wanderers",
+          "away_team": "Chelsea",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Cole Palmer"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Liam Delap shots 2.0 higher (PrizePicks/player_shots)",
+      "player": "Liam Delap",
+      "stat": "shots",
+      "line": 2.0,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Liam Delap",
+        "stat": "shots",
+        "line": 2.0,
+        "direction": "higher",
+        "raw": {
+          "event_id": "a6fb47d91c1bdfd7152af4938e73b4d3",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Wolverhampton Wanderers",
+          "away_team": "Chelsea",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Liam Delap"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Liam Delap shots 2.0 lower (PrizePicks/player_shots)",
+      "player": "Liam Delap",
+      "stat": "shots",
+      "line": 2.0,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Liam Delap",
+        "stat": "shots",
+        "line": 2.0,
+        "direction": "lower",
+        "raw": {
+          "event_id": "a6fb47d91c1bdfd7152af4938e73b4d3",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Wolverhampton Wanderers",
+          "away_team": "Chelsea",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Liam Delap"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Malo Gusto shots 0.5 higher (PrizePicks/player_shots)",
+      "player": "Malo Gusto",
+      "stat": "shots",
+      "line": 0.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Malo Gusto",
+        "stat": "shots",
+        "line": 0.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "a6fb47d91c1bdfd7152af4938e73b4d3",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Wolverhampton Wanderers",
+          "away_team": "Chelsea",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Malo Gusto"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Malo Gusto shots 0.5 lower (PrizePicks/player_shots)",
+      "player": "Malo Gusto",
+      "stat": "shots",
+      "line": 0.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Malo Gusto",
+        "stat": "shots",
+        "line": 0.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "a6fb47d91c1bdfd7152af4938e73b4d3",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Wolverhampton Wanderers",
+          "away_team": "Chelsea",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Malo Gusto"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Pedro Neto shots_on_target 0.5 higher (PrizePicks/player_shots_on_target)",
+      "player": "Pedro Neto",
+      "stat": "shots_on_target",
+      "line": 0.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Pedro Neto",
+        "stat": "shots_on_target",
+        "line": 0.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "a6fb47d91c1bdfd7152af4938e73b4d3",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Wolverhampton Wanderers",
+          "away_team": "Chelsea",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots_on_target",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Pedro Neto"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Pedro Neto shots_on_target 0.5 lower (PrizePicks/player_shots_on_target)",
+      "player": "Pedro Neto",
+      "stat": "shots_on_target",
+      "line": 0.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Pedro Neto",
+        "stat": "shots_on_target",
+        "line": 0.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "a6fb47d91c1bdfd7152af4938e73b4d3",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Wolverhampton Wanderers",
+          "away_team": "Chelsea",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots_on_target",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Pedro Neto"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Samuel Chukwueze shots 1.5 higher (PrizePicks/player_shots)",
+      "player": "Samuel Chukwueze",
+      "stat": "shots",
+      "line": 1.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Samuel Chukwueze",
+        "stat": "shots",
+        "line": 1.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "5064501681485a3db4abd297a0e775f4",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Fulham",
+          "away_team": "Everton",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Samuel Chukwueze"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Samuel Chukwueze shots 1.5 lower (PrizePicks/player_shots)",
+      "player": "Samuel Chukwueze",
+      "stat": "shots",
+      "line": 1.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Samuel Chukwueze",
+        "stat": "shots",
+        "line": 1.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "5064501681485a3db4abd297a0e775f4",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Fulham",
+          "away_team": "Everton",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Samuel Chukwueze"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Harry Wilson shots_on_target 0.5 higher (PrizePicks/player_shots_on_target)",
+      "player": "Harry Wilson",
+      "stat": "shots_on_target",
+      "line": 0.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Harry Wilson",
+        "stat": "shots_on_target",
+        "line": 0.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "5064501681485a3db4abd297a0e775f4",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Fulham",
+          "away_team": "Everton",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots_on_target",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Harry Wilson"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Harry Wilson shots_on_target 0.5 lower (PrizePicks/player_shots_on_target)",
+      "player": "Harry Wilson",
+      "stat": "shots_on_target",
+      "line": 0.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Harry Wilson",
+        "stat": "shots_on_target",
+        "line": 0.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "5064501681485a3db4abd297a0e775f4",
+          "commence_time": "2026-02-07T15:00:00Z",
+          "home_team": "Fulham",
+          "away_team": "Everton",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots_on_target",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Harry Wilson"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Bruno Guimaraes shots 1.5 higher (PrizePicks/player_shots)",
+      "player": "Bruno Guimaraes",
+      "stat": "shots",
+      "line": 1.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Bruno Guimaraes",
+        "stat": "shots",
+        "line": 1.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "5c062fe74faee27e969bdccaa3040ef5",
+          "commence_time": "2026-02-07T17:30:00Z",
+          "home_team": "Newcastle United",
+          "away_team": "Brentford",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Bruno Guimaraes"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Bruno Guimaraes shots 1.5 lower (PrizePicks/player_shots)",
+      "player": "Bruno Guimaraes",
+      "stat": "shots",
+      "line": 1.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Bruno Guimaraes",
+        "stat": "shots",
+        "line": 1.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "5c062fe74faee27e969bdccaa3040ef5",
+          "commence_time": "2026-02-07T17:30:00Z",
+          "home_team": "Newcastle United",
+          "away_team": "Brentford",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Bruno Guimaraes"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Anthony Elanga shots_on_target 0.5 higher (PrizePicks/player_shots_on_target)",
+      "player": "Anthony Elanga",
+      "stat": "shots_on_target",
+      "line": 0.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Anthony Elanga",
+        "stat": "shots_on_target",
+        "line": 0.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "5c062fe74faee27e969bdccaa3040ef5",
+          "commence_time": "2026-02-07T17:30:00Z",
+          "home_team": "Newcastle United",
+          "away_team": "Brentford",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots_on_target",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Anthony Elanga"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Anthony Elanga shots_on_target 0.5 lower (PrizePicks/player_shots_on_target)",
+      "player": "Anthony Elanga",
+      "stat": "shots_on_target",
+      "line": 0.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Anthony Elanga",
+        "stat": "shots_on_target",
+        "line": 0.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "5c062fe74faee27e969bdccaa3040ef5",
+          "commence_time": "2026-02-07T17:30:00Z",
+          "home_team": "Newcastle United",
+          "away_team": "Brentford",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots_on_target",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Anthony Elanga"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Danny Welbeck shots 2.0 higher (PrizePicks/player_shots)",
+      "player": "Danny Welbeck",
+      "stat": "shots",
+      "line": 2.0,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.740692Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Danny Welbeck",
+        "stat": "shots",
+        "line": 2.0,
+        "direction": "higher",
+        "raw": {
+          "event_id": "a7f9683fe58c4fc6a5ac52396f279456",
+          "commence_time": "2026-02-08T14:00:00Z",
+          "home_team": "Brighton and Hove Albion",
+          "away_team": "Crystal Palace",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Danny Welbeck"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Danny Welbeck shots 2.0 lower (PrizePicks/player_shots)",
+      "player": "Danny Welbeck",
+      "stat": "shots",
+      "line": 2.0,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.741685Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Danny Welbeck",
+        "stat": "shots",
+        "line": 2.0,
+        "direction": "lower",
+        "raw": {
+          "event_id": "a7f9683fe58c4fc6a5ac52396f279456",
+          "commence_time": "2026-02-08T14:00:00Z",
+          "home_team": "Brighton and Hove Albion",
+          "away_team": "Crystal Palace",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Danny Welbeck"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Kaoru Mitoma shots 1.5 higher (PrizePicks/player_shots)",
+      "player": "Kaoru Mitoma",
+      "stat": "shots",
+      "line": 1.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.741685Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Kaoru Mitoma",
+        "stat": "shots",
+        "line": 1.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "a7f9683fe58c4fc6a5ac52396f279456",
+          "commence_time": "2026-02-08T14:00:00Z",
+          "home_team": "Brighton and Hove Albion",
+          "away_team": "Crystal Palace",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Kaoru Mitoma"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Kaoru Mitoma shots 1.5 lower (PrizePicks/player_shots)",
+      "player": "Kaoru Mitoma",
+      "stat": "shots",
+      "line": 1.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.741685Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Kaoru Mitoma",
+        "stat": "shots",
+        "line": 1.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "a7f9683fe58c4fc6a5ac52396f279456",
+          "commence_time": "2026-02-08T14:00:00Z",
+          "home_team": "Brighton and Hove Albion",
+          "away_team": "Crystal Palace",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Kaoru Mitoma"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Yankuba Minteh shots 1.5 higher (PrizePicks/player_shots)",
+      "player": "Yankuba Minteh",
+      "stat": "shots",
+      "line": 1.5,
+      "direction": "higher",
+      "scraped_at": "2026-02-07T13:52:04.741685Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Yankuba Minteh",
+        "stat": "shots",
+        "line": 1.5,
+        "direction": "higher",
+        "raw": {
+          "event_id": "a7f9683fe58c4fc6a5ac52396f279456",
+          "commence_time": "2026-02-08T14:00:00Z",
+          "home_team": "Brighton and Hove Albion",
+          "away_team": "Crystal Palace",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Over",
+          "outcome_description": "Yankuba Minteh"
+        }
+      }
+    },
+    {
+      "source": "OddsAPI:PrizePicks",
+      "raw": "Yankuba Minteh shots 1.5 lower (PrizePicks/player_shots)",
+      "player": "Yankuba Minteh",
+      "stat": "shots",
+      "line": 1.5,
+      "direction": "lower",
+      "scraped_at": "2026-02-07T13:52:04.741685Z",
+      "parsed": true,
+      "meta": {
+        "platform": "oddsapi",
+        "sport": "SOCCER_EPL",
+        "player": "Yankuba Minteh",
+        "stat": "shots",
+        "line": 1.5,
+        "direction": "lower",
+        "raw": {
+          "event_id": "a7f9683fe58c4fc6a5ac52396f279456",
+          "commence_time": "2026-02-08T14:00:00Z",
+          "home_team": "Brighton and Hove Albion",
+          "away_team": "Crystal Palace",
+          "bookmaker_key": "prizepicks",
+          "bookmaker_title": "PrizePicks",
+          "market_key": "player_shots",
+          "price": -137,
+          "outcome_name": "Under",
+          "outcome_description": "Yankuba Minteh"
+        }
+      }
+    }
+  ],
+  "oddsapi_meta": {
+    "sport": "SOCCER_EPL",
+    "sport_key": "soccer_epl",
+    "regions": "us_dfs",
+    "markets": "player_shots,player_shots_on_target,player_assists",
+    "bookmakers": "betr_us_dfs,pick6,prizepicks,underdog",
+    "event_count": 19,
+    "quota": {
+      "events_list": {
+        "remaining": 241,
+        "used": 259,
+        "last_cost": 0
+      },
+      "last_event_odds": {
+        "remaining": 229,
+        "used": 271,
+        "last_cost": 0
+      }
+    },
+    "raw_event_odds": [
+      {
+        "id": "78f2e11f06a4662eb94d23b6c7319238",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-07T12:30:00Z",
+        "home_team": "Manchester United",
+        "away_team": "Tottenham Hotspur",
+        "bookmakers": []
+      },
+      {
+        "id": "0232baa88f2ea7539654e9f8ebd53272",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-07T15:00:00Z",
+        "home_team": "Arsenal",
+        "away_team": "Sunderland",
+        "bookmakers": [
+          {
+            "key": "prizepicks",
+            "title": "PrizePicks",
+            "markets": [
+              {
+                "key": "player_shots",
+                "last_update": "2026-02-07T13:51:54Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Viktor Gyokeres",
+                    "price": -137,
+                    "point": 3.0
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Viktor Gyokeres",
+                    "price": -137,
+                    "point": 3.0
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Leandro Trossard",
+                    "price": -137,
+                    "point": 2.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Leandro Trossard",
+                    "price": -137,
+                    "point": 2.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Enzo Le Fee",
+                    "price": -137,
+                    "point": 0.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Enzo Le Fee",
+                    "price": -137,
+                    "point": 0.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Chemsdine Talbi",
+                    "price": -137,
+                    "point": 0.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Chemsdine Talbi",
+                    "price": -137,
+                    "point": 0.5
+                  }
+                ]
+              },
+              {
+                "key": "player_shots_on_target",
+                "last_update": "2026-02-07T13:51:54Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Declan Rice",
+                    "price": -137,
+                    "point": 0.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Declan Rice",
+                    "price": -137,
+                    "point": 0.5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9a38c80a3bab5163166bcf10f4995e8d",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-07T15:00:00Z",
+        "home_team": "Bournemouth",
+        "away_team": "Aston Villa",
+        "bookmakers": [
+          {
+            "key": "prizepicks",
+            "title": "PrizePicks",
+            "markets": [
+              {
+                "key": "player_shots",
+                "last_update": "2026-02-07T13:51:23Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Francisco Evanilson de Lima Barbosa",
+                    "price": -137,
+                    "point": 2.0
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Francisco Evanilson de Lima Barbosa",
+                    "price": -137,
+                    "point": 2.0
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Eli Junior Kroupi",
+                    "price": -137,
+                    "point": 2.0
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Eli Junior Kroupi",
+                    "price": -137,
+                    "point": 2.0
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Adrien Truffert",
+                    "price": -137,
+                    "point": 0.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Adrien Truffert",
+                    "price": -137,
+                    "point": 0.5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8ca6a2f0fb6436b92bf3745d4ba81c54",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-07T15:00:00Z",
+        "home_team": "Burnley",
+        "away_team": "West Ham United",
+        "bookmakers": [
+          {
+            "key": "prizepicks",
+            "title": "PrizePicks",
+            "markets": [
+              {
+                "key": "player_shots",
+                "last_update": "2026-02-07T13:51:42Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Jarrod Bowen",
+                    "price": -137,
+                    "point": 2.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Jarrod Bowen",
+                    "price": -137,
+                    "point": 2.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Armando Broja",
+                    "price": -137,
+                    "point": 2.0
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Armando Broja",
+                    "price": -137,
+                    "point": 2.0
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Jaidon Anthony",
+                    "price": -137,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Jaidon Anthony",
+                    "price": -137,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Lyle Foster",
+                    "price": -137,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Lyle Foster",
+                    "price": -137,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Marcus Edwards",
+                    "price": -137,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Marcus Edwards",
+                    "price": -137,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Kyle Walker-Peters",
+                    "price": -137,
+                    "point": 0.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Kyle Walker-Peters",
+                    "price": -137,
+                    "point": 0.5
+                  }
+                ]
+              },
+              {
+                "key": "player_shots_on_target",
+                "last_update": "2026-02-07T13:51:42Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Jaidon Anthony",
+                    "price": -137,
+                    "point": 0.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Jaidon Anthony",
+                    "price": -137,
+                    "point": 0.5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a6fb47d91c1bdfd7152af4938e73b4d3",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-07T15:00:00Z",
+        "home_team": "Wolverhampton Wanderers",
+        "away_team": "Chelsea",
+        "bookmakers": [
+          {
+            "key": "prizepicks",
+            "title": "PrizePicks",
+            "markets": [
+              {
+                "key": "player_shots",
+                "last_update": "2026-02-07T13:51:06Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Joao Pedro Junqueira de Jesus",
+                    "price": -137,
+                    "point": 2.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Joao Pedro Junqueira de Jesus",
+                    "price": -137,
+                    "point": 2.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Cole Palmer",
+                    "price": -137,
+                    "point": 2.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Cole Palmer",
+                    "price": -137,
+                    "point": 2.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Liam Delap",
+                    "price": -137,
+                    "point": 2.0
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Liam Delap",
+                    "price": -137,
+                    "point": 2.0
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Malo Gusto",
+                    "price": -137,
+                    "point": 0.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Malo Gusto",
+                    "price": -137,
+                    "point": 0.5
+                  }
+                ]
+              },
+              {
+                "key": "player_shots_on_target",
+                "last_update": "2026-02-07T13:51:06Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Pedro Neto",
+                    "price": -137,
+                    "point": 0.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Pedro Neto",
+                    "price": -137,
+                    "point": 0.5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5064501681485a3db4abd297a0e775f4",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-07T15:00:00Z",
+        "home_team": "Fulham",
+        "away_team": "Everton",
+        "bookmakers": [
+          {
+            "key": "prizepicks",
+            "title": "PrizePicks",
+            "markets": [
+              {
+                "key": "player_shots",
+                "last_update": "2026-02-07T13:50:52Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Samuel Chukwueze",
+                    "price": -137,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Samuel Chukwueze",
+                    "price": -137,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "player_shots_on_target",
+                "last_update": "2026-02-07T13:50:52Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Harry Wilson",
+                    "price": -137,
+                    "point": 0.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Harry Wilson",
+                    "price": -137,
+                    "point": 0.5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5c062fe74faee27e969bdccaa3040ef5",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-07T17:30:00Z",
+        "home_team": "Newcastle United",
+        "away_team": "Brentford",
+        "bookmakers": [
+          {
+            "key": "prizepicks",
+            "title": "PrizePicks",
+            "markets": [
+              {
+                "key": "player_shots",
+                "last_update": "2026-02-07T13:50:59Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Bruno Guimaraes",
+                    "price": -137,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Bruno Guimaraes",
+                    "price": -137,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "player_shots_on_target",
+                "last_update": "2026-02-07T13:50:59Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Anthony Elanga",
+                    "price": -137,
+                    "point": 0.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Anthony Elanga",
+                    "price": -137,
+                    "point": 0.5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a7f9683fe58c4fc6a5ac52396f279456",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-08T14:00:00Z",
+        "home_team": "Brighton and Hove Albion",
+        "away_team": "Crystal Palace",
+        "bookmakers": [
+          {
+            "key": "prizepicks",
+            "title": "PrizePicks",
+            "markets": [
+              {
+                "key": "player_shots",
+                "last_update": "2026-02-07T13:50:59Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "description": "Danny Welbeck",
+                    "price": -137,
+                    "point": 2.0
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Danny Welbeck",
+                    "price": -137,
+                    "point": 2.0
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Kaoru Mitoma",
+                    "price": -137,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Kaoru Mitoma",
+                    "price": -137,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Over",
+                    "description": "Yankuba Minteh",
+                    "price": -137,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Under",
+                    "description": "Yankuba Minteh",
+                    "price": -137,
+                    "point": 1.5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e526c157d950230afb02bc6534fbaf82",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-08T16:30:00Z",
+        "home_team": "Liverpool",
+        "away_team": "Manchester City",
+        "bookmakers": []
+      },
+      {
+        "id": "5b5fa92a38c5a46da05ac81d003f6f1e",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-10T19:30:00Z",
+        "home_team": "Everton",
+        "away_team": "Bournemouth",
+        "bookmakers": []
+      },
+      {
+        "id": "72774f6fb55af274c4982bcb62d4a765",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-10T19:30:00Z",
+        "home_team": "Chelsea",
+        "away_team": "Leeds United",
+        "bookmakers": []
+      },
+      {
+        "id": "7dbe188ba5a5b8a16e8d293c2afe1274",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-10T19:30:00Z",
+        "home_team": "Tottenham Hotspur",
+        "away_team": "Newcastle United",
+        "bookmakers": []
+      },
+      {
+        "id": "e52ffec43cce1bd9cea0f0ef8e9a0b7b",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-10T20:15:00Z",
+        "home_team": "West Ham United",
+        "away_team": "Manchester United",
+        "bookmakers": []
+      },
+      {
+        "id": "6eb455fd4d99ec4ccae4ec842f2f34fb",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-11T19:30:00Z",
+        "home_team": "Aston Villa",
+        "away_team": "Brighton and Hove Albion",
+        "bookmakers": []
+      },
+      {
+        "id": "0668597268dc436be07072656aeeebb6",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-11T19:30:00Z",
+        "home_team": "Crystal Palace",
+        "away_team": "Burnley",
+        "bookmakers": []
+      },
+      {
+        "id": "a02f032d38dce8c9449394eef35c9992",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-11T19:30:00Z",
+        "home_team": "Manchester City",
+        "away_team": "Fulham",
+        "bookmakers": []
+      },
+      {
+        "id": "f32339e73cc54282b92a96ab5ab00488",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-11T19:30:00Z",
+        "home_team": "Nottingham Forest",
+        "away_team": "Wolverhampton Wanderers",
+        "bookmakers": []
+      },
+      {
+        "id": "34bd80d2295adf2b26ae146f65f226be",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-11T20:15:00Z",
+        "home_team": "Sunderland",
+        "away_team": "Liverpool",
+        "bookmakers": []
+      },
+      {
+        "id": "c05ca60866c3224a6fa96c81a0eef68f",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2026-02-12T20:00:00Z",
+        "home_team": "Brentford",
+        "away_team": "Arsenal",
+        "bookmakers": []
+      }
+    ]
+  },
+  "run_id": "0c0b966753d2752e"
+}

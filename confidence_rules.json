@@ -1,0 +1,48 @@
+{
+  "stat_confidence_caps": {
+    "points": 75,
+    "rebounds": 78,
+    "assists": 82,
+    "3pm": 68,
+    "steals": 70,
+    "blocks": 70,
+    "turnovers": 70,
+    "pra": 78,
+    "pts+reb+ast": 78,
+    "pr": 72,
+    "pa": 72,
+    "ra": 72
+  },
+  "stat_penalties": {
+    "points": 5,
+    "3pm": 8,
+    "steals": 5,
+    "rebounds": 0,
+    "assists": 0,
+    "pts+reb+ast": 0,
+    "pra": 0
+  },
+  "stat_notes": {
+    "assists": "75% hit rate - best performer, no penalty",
+    "pts+reb+ast": "71.4% hit rate - strong, removed fragility gate",
+    "rebounds": "64.3% hit rate - OK, no change",
+    "points": "48.6% hit rate - underperforming, add 5% penalty",
+    "3pm": "44.4% hit rate - risky, add 8% penalty + lower cap"
+  },
+  "probability_thresholds": {
+    "SLAM": 80,
+    "PLAY": 80,
+    "STRONG": 65,
+    "LEAN": 55,
+    "NO_PLAY": 0
+  },
+  "memory_penalty_per_fail": 6,
+  "slate_limits": {
+    "MAX_LEGS": 3,
+    "MAX_GAMES": 1,
+    "MAX_PLAYER_PROPS": 1
+  },
+  "calibration_updated": "2026-01-18",
+  "calibration_sample_size": 96,
+  "overall_hit_rate": 0.594
+}

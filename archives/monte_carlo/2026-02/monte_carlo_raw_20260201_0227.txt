@@ -1,0 +1,75 @@
+======================================================================
+MONTE CARLO ENTRY OPTIMIZATION
+Generated: 2026-02-01T02:27:28.405558
+======================================================================
+
+STAT KEY (basketball):
+   PTS=Points | REB=Rebounds | AST=Assists | STL=Steals | BLK=Blocks | TOV=Turnovers
+   3PM=3-pointers made (aka 3PT/3PTS) | STOCKS=STL+BLK | PRA=PTS+REB+AST
+
+RUN CONTEXT:
+   League inferred: NBA
+   Picks: 130 qualifying (from 966 analyzed)
+   Filter pass: UNFILTERED_DIRECT
+   Constraints: max_same_game=1, max_primary_per_game=1
+
+BEST POWER ENTRY:
+   4L POWER | EV=+1.71 | Sharpe=0.38 | P(profit)=27.1% | Bruce Brown 3PM <1.5; Jarrett Allen REB <9; Bobby Portis TOV <1.5; Derrick White 3PM <2.5
+   Kelly stake: 2.2% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=72.2%, min p_hit=70.7%
+   Stat mix: 3PM:2, REB:1, TOV:1
+   Same-game buckets: BOS@MIL:1, CLE@UNK:1, DEN@OKC:1, MIL@UNK:1
+   LEGS (what each pick is):
+    1. Bruce Brown 3PM <1.5 (DEN vs OKC) | p_hit=74.2% | FRAGILE
+    2. Jarrett Allen REB <9 (CLE vs UNK) | p_hit=72.1% | PRIMARY_SAFE
+    3. Bobby Portis TOV <1.5 (MIL vs UNK) | p_hit=71.7% | FRAGILE
+    4. Derrick White 3PM <2.5 (BOS vs MIL) | p_hit=70.7% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST FLEX ENTRY:
+   4L FLEX | EV=+0.98 | Sharpe=0.51 | P(profit)=69.0% | Bruce Brown 3PM <1.5; Jarrett Allen REB <9; Bobby Portis TOV <1.5; Derrick White 3PM <2.5
+   Kelly stake: 6.5% of bankroll
+   ENTRY SNAPSHOT: avg p_hit=72.2%, min p_hit=70.7%
+   Stat mix: 3PM:2, REB:1, TOV:1
+   Same-game buckets: BOS@MIL:1, CLE@UNK:1, DEN@OKC:1, MIL@UNK:1
+   LEGS (what each pick is):
+    1. Bruce Brown 3PM <1.5 (DEN vs OKC) | p_hit=74.2% | FRAGILE
+    2. Jarrett Allen REB <9 (CLE vs UNK) | p_hit=72.1% | PRIMARY_SAFE
+    3. Bobby Portis TOV <1.5 (MIL vs UNK) | p_hit=71.7% | FRAGILE
+    4. Derrick White 3PM <2.5 (BOS vs MIL) | p_hit=70.7% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+BEST RISK-ADJUSTED (Sharpe):
+   4L FLEX | EV=+0.98 | Sharpe=0.51 | P(profit)=69.0% | Bruce Brown 3PM <1.5; Jarrett Allen REB <9; Bobby Portis TOV <1.5; Derrick White 3PM <2.5
+   ENTRY SNAPSHOT: avg p_hit=72.2%, min p_hit=70.7%
+   Stat mix: 3PM:2, REB:1, TOV:1
+   Same-game buckets: BOS@MIL:1, CLE@UNK:1, DEN@OKC:1, MIL@UNK:1
+   LEGS (what each pick is):
+    1. Bruce Brown 3PM <1.5 (DEN vs OKC) | p_hit=74.2% | FRAGILE
+    2. Jarrett Allen REB <9 (CLE vs UNK) | p_hit=72.1% | PRIMARY_SAFE
+    3. Bobby Portis TOV <1.5 (MIL vs UNK) | p_hit=71.7% | FRAGILE
+    4. Derrick White 3PM <2.5 (BOS vs MIL) | p_hit=70.7% | FRAGILE
+   Why these markets show up here
+    - The optimizer picks the combination that maximizes the chosen objective (EV or Sharpe) under the current filters + stacking constraints.
+    - In NBA mode we *try* strict primary-safe legs first (PTS/REB/STL/BLK). If that yields <2 qualifying picks, we automatically relax filters so it can still build entries.
+    - So if you see 3PM/AST/TOV/etc, it usually means the run selected a looser filter pass due to not enough strict-qualifying picks.
+
+----------------------------------------------------------------------
+TOP 10 ENTRIES BY EV:
+----------------------------------------------------------------------
+ 1. 4L POWER | EV=+1.71 | Sharpe=0.38 | P(profit)=27.1% | Bruce Brown 3PM <1.5; Jarrett Allen REB <9; Bobby Portis TOV <1.5; Derrick White 3PM <2.5
+ 2. 4L POWER | EV=+1.71 | Sharpe=0.38 | P(profit)=27.1% | Bruce Brown 3PM <1.5; Sam Merrill REB <3; Bobby Portis TOV <1.5; Derrick White 3PM <2.5
+ 3. 4L POWER | EV=+1.68 | Sharpe=0.38 | P(profit)=26.8% | Bruce Brown 3PM <1.5; Jarrett Allen REB <9; Bobby Portis TOV <1.5; LeBron James 3PM >0.5
+ 4. 4L POWER | EV=+1.68 | Sharpe=0.38 | P(profit)=26.8% | Bruce Brown 3PM <1.5; Sam Merrill REB <3; Bobby Portis TOV <1.5; LeBron James 3PM >0.5
+ 5. 4L POWER | EV=+1.65 | Sharpe=0.37 | P(profit)=26.5% | Bruce Brown 3PM <1.5; Jarrett Allen REB <9; Derrick White 3PM <2.5; LeBron James 3PM >0.5
+ 6. 4L POWER | EV=+1.65 | Sharpe=0.37 | P(profit)=26.5% | Bruce Brown 3PM <1.5; Sam Merrill REB <3; Derrick White 3PM <2.5; LeBron James 3PM >0.5
+ 7. 4L POWER | EV=+1.63 | Sharpe=0.37 | P(profit)=26.3% | Bruce Brown 3PM <1.5; Bobby Portis TOV <1.5; Derrick White 3PM <2.5; LeBron James 3PM >0.5
+ 8. 4L POWER | EV=+1.62 | Sharpe=0.37 | P(profit)=26.2% | Bruce Brown 3PM <1.5; Jarrett Allen REB <9; Bobby Portis TOV <1.5; Wendell Carter REB <7
+ 9. 4L POWER | EV=+1.62 | Sharpe=0.37 | P(profit)=26.2% | Bruce Brown 3PM <1.5; Sam Merrill REB <3; Bobby Portis TOV <1.5; Wendell Carter REB <7
+10. 4L POWER | EV=+1.59 | Sharpe=0.36 | P(profit)=25.9% | Bruce Brown 3PM <1.5; Jarrett Allen REB <9; Bobby Portis TOV <1.5; Paolo Banchero 3PM >0.5
