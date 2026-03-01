@@ -11,6 +11,7 @@ Usage:
 
 import json
 import argparse
+import sys
 from pathlib import Path
 from datetime import datetime, date
 
@@ -18,6 +19,14 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 OUTPUTS_DIR = PROJECT_ROOT / "outputs"
 PICKS_DIR = PROJECT_ROOT / "picks"
 PICKS_DIR.mkdir(exist_ok=True)
+
+# ── Optional DB write (available when running from UMMCSPORTS context) ──────
+_DB_WRITE_AVAILABLE = False
+try:
+    from db.writer import write_picks_batch  # type: ignore
+    _DB_WRITE_AVAILABLE = True
+except ImportError:
+    pass  # DB layer not on path — skips silently
 
 
 def extract_final_picks(results_file: Path) -> dict:
@@ -86,7 +95,30 @@ def save_final_picks(results_file: Path = None, label: str = None) -> Path:
     output_name = f"{final['slate']}_{date.today().strftime('%Y%m%d')}_FINAL.json"
     output_path = PICKS_DIR / output_name
     output_path.write_text(json.dumps(final, indent=2))
-    
+
+    # ── Mirror to structured DB (if db layer available) ───────────────────
+    if _DB_WRITE_AVAILABLE:
+        try:
+            _db_picks = [
+                {
+                    "player":     p["player"],
+                    "team":       p.get("team", ""),
+                    "stat":       p["stat"],
+                    "line":       p["line"],
+                    "direction":  p["direction"],
+                    "decision":   p["decision"],
+                    "confidence": p["probability"],
+                    "sport":      final.get("sport", "NBA"),
+                    "source":     "Underdog",
+                    "slate_date": date.fromisoformat(final["date"]),
+                }
+                for p in final["picks"]
+            ]
+            n = write_picks_batch(_db_picks)
+            print(f"  [DB] {n}/{len(_db_picks)} picks written to database")
+        except Exception as _exc:
+            print(f"  [DB] write skipped ({_exc})")
+
     # Print summary
     print(f"\n{'='*60}")
     print(f"  FINAL PICKS SAVED: {output_name}")

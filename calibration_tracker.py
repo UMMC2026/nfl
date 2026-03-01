@@ -696,7 +696,7 @@ class CalibrationTracker:
             """, (sport.upper(),)).fetchall()
             drift_alerts = [dict(r) for r in drift_rows]
             
-            return CalibrationReport(
+            report = CalibrationReport(
                 sport=sport, period=period or "last_30_days",
                 generated_at=datetime.utcnow().isoformat(),
                 total_picks=total_picks, total_hits=total_hits,
@@ -705,6 +705,31 @@ class CalibrationTracker:
                 by_tier=by_tier, by_bucket=by_bucket, by_stat=by_stat,
                 by_direction=by_direction, drift_alerts=drift_alerts
             )
+
+            # ── Mirror to structured DB (if db layer available) ───────────
+            try:
+                from db.writer import write_calibration_snapshot  # type: ignore
+                _period = period or datetime.utcnow().strftime("%Y-%m")
+                for _tier, _tdata in by_tier.items():
+                    over_r = by_direction.get("over", {}).get("hit_rate")
+                    under_r = by_direction.get("under", {}).get("hit_rate")
+                    write_calibration_snapshot(
+                        period=_period,
+                        sport=sport,
+                        tier=_tier,
+                        predicted_avg=_tdata.get("expected", expected_rate),
+                        actual_hit_rate=_tdata.get("hit_rate", hit_rate),
+                        sample_size=_tdata.get("n", total_picks),
+                        brier_score=_tdata.get("brier", brier),
+                        over_rate=over_r,
+                        under_rate=under_r,
+                    )
+            except ImportError:
+                pass  # DB layer not on path — normal when running from UDA directly
+            except Exception as _db_exc:
+                pass  # DB write failed — non-fatal
+
+            return report
     
     def check_drift(self, sport: str, threshold: float = 0.05) -> List[Dict]:
         """Check for calibration drift."""
