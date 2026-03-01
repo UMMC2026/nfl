@@ -55,6 +55,14 @@ MENU_OPTIONS = {
     "10": ("📝 EDIT PICKS", "Edit picks.json in editor (PRECONDITION: [1] will re-ingest after save)"),
     "11": ("⚙️ SETTINGS", "Configure environment variables (REQUIRES: restart after changes)"),
     "12": ("📊 UPDATE BOX SCORES", "Fetch final game results from ESPN and update historical performance (FINAL-ONLY reconciliation)"),
+    # ── Sport Sub-Menus ──────────────────────────────────────────────────────
+    "Y":  ("🎾 TENNIS",  "Props + Match Winner (Odds API ingest)"),
+    "B":  ("🏀 CBB",     "College Basketball (PROD)"),
+    "F":  ("🏈 NFL",     "NFL Props & Playoff Analysis"),
+    "O":  ("⚽ SOCCER",  "Futbol v1.0 (RESEARCH, Auto-Ingest + Odds API)"),
+    "Z":  ("⛳ GOLF",    "PGA Tour Props (DEVELOPMENT)"),
+    "HK": ("🏒 NHL",    "Hockey Props v2.0 (REAL STATS)"),
+    "ML": ("⚾ MLB",    "Baseball Props v1.0 (Statcast + Odds API)"),
     "0": ("👋 EXIT", "Close program"),
 }
 
@@ -261,17 +269,135 @@ def update_box_scores():
     
     input("\nPress Enter to continue...")
 
+
+# ─────────────────────────────────────────────────────────────────────────────
+# SPORT SUB-MENU LAUNCHERS
+# Each function does a lazy import so the main menu loads instantly even if a
+# sport module has a missing optional dependency.
+# ─────────────────────────────────────────────────────────────────────────────
+
+def _sport_error(sport: str, exc: Exception):
+    console.print(f"[red]❌ {sport} module error:[/] {exc}")
+    console.print("[dim]Check that all dependencies are installed in .venv[/]")
+    input("\nPress Enter to continue...")
+
+
+def launch_tennis():
+    """[Y] Tennis — Props + Match Winner (Odds API ingest)"""
+    try:
+        from tennis.tennis_main import show_menu  # type: ignore
+        show_menu()
+    except ImportError as e:
+        _sport_error("Tennis", e)
+    except SystemExit:
+        pass
+    except Exception as e:
+        _sport_error("Tennis", e)
+
+
+def launch_cbb():
+    """[B] CBB — College Basketball (PROD)"""
+    try:
+        from sports.cbb.cbb_main import show_menu as cbb_show_menu  # type: ignore
+        cbb_show_menu()
+    except ImportError as e:
+        _sport_error("CBB", e)
+    except SystemExit:
+        pass
+    except Exception as e:
+        _sport_error("CBB", e)
+
+
+def launch_nfl():
+    """[F] NFL — NFL Props & Playoff Analysis"""
+    try:
+        # nfl_menu.py lives at the project root
+        import importlib.util, sys as _sys
+        spec = importlib.util.spec_from_file_location(
+            "nfl_menu", Path.cwd() / "nfl_menu.py"
+        )
+        mod = importlib.util.module_from_spec(spec)
+        _sys.modules.setdefault("nfl_menu", mod)
+        spec.loader.exec_module(mod)  # type: ignore
+        mod.main()
+    except ImportError as e:
+        _sport_error("NFL", e)
+    except SystemExit:
+        pass
+    except Exception as e:
+        _sport_error("NFL", e)
+
+
+def launch_soccer():
+    """[O] Soccer — Futbol v1.0 (RESEARCH, Auto-Ingest + Odds API)"""
+    try:
+        from soccer.soccer_menu import run_menu  # type: ignore
+        run_menu()
+    except ImportError as e:
+        _sport_error("Soccer", e)
+    except SystemExit:
+        pass
+    except Exception as e:
+        _sport_error("Soccer", e)
+
+
+def launch_golf():
+    """[Z] Golf — PGA Tour Props (DEVELOPMENT)"""
+    try:
+        from golf.golf_menu import main as golf_main  # type: ignore
+        golf_main()
+    except ImportError as e:
+        _sport_error("Golf", e)
+    except SystemExit:
+        pass
+    except Exception as e:
+        _sport_error("Golf", e)
+
+
+def launch_nhl():
+    """[HK] NHL — Hockey Props v2.0 (REAL STATS)"""
+    try:
+        from sports.nhl.nhl_menu import main as nhl_main  # type: ignore
+        nhl_main()
+    except ImportError as e:
+        _sport_error("NHL", e)
+    except SystemExit:
+        pass
+    except Exception as e:
+        _sport_error("NHL", e)
+
+
+def launch_mlb():
+    """[ML] MLB — Baseball Props v1.0 (Statcast + Odds API)"""
+    try:
+        from mlb.mlb_menu import main as mlb_main  # type: ignore
+        mlb_main()
+    except ImportError as e:
+        _sport_error("MLB", e)
+    except SystemExit:
+        pass
+    except Exception as e:
+        _sport_error("MLB", e)
+
 # ─────────────────────────────────────────────────────────────
 # MAIN LOOP
 # ─────────────────────────────────────────────────────────────
 
 def main():
+    _valid_choices = list(MENU_OPTIONS.keys())
+
     while True:
         print_header()
         print_status()
         print_menu()
 
-        choice = Prompt.ask("Select option", choices=list(MENU_OPTIONS.keys()), default="1")
+        # Use plain input instead of Prompt.ask so multi-char keys (HK, ML) work
+        # without Rich's choice-list validation forcing a re-prompt.
+        try:
+            raw = input("Select option: ").strip()
+        except (EOFError, KeyboardInterrupt):
+            raw = "0"
+        choice = raw.upper() if raw.upper() in _valid_choices else raw
 
         if choice == "0":
             console.print("\n[bold cyan]👋 Goodbye.[/]\n")
@@ -282,11 +408,11 @@ def main():
             send_telegram()
         elif choice == "3":
             rank_picks()
-        elif choice == "3b":
+        elif choice == "3b" or choice == "3B":
             view_by_opponent()
-        elif choice == "3c":
+        elif choice == "3c" or choice == "3C":
             send_by_opponent()
-        elif choice == "3d":
+        elif choice == "3d" or choice == "3D":
             send_unders()
         elif choice == "4":
             build_parlays()
@@ -306,6 +432,23 @@ def main():
             settings_menu()
         elif choice == "12":
             update_box_scores()
+        # ── Sport sub-menus ──────────────────────────────────────
+        elif choice == "Y":
+            launch_tennis()
+        elif choice == "B":
+            launch_cbb()
+        elif choice == "F":
+            launch_nfl()
+        elif choice == "O":
+            launch_soccer()
+        elif choice == "Z":
+            launch_golf()
+        elif choice == "HK":
+            launch_nhl()
+        elif choice == "ML":
+            launch_mlb()
+        else:
+            console.print(f"[yellow]Unknown option: {raw!r}. Try again.[/]")
 
 
 if __name__ == "__main__":
