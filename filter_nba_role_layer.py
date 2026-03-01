@@ -81,16 +81,22 @@ def load_picks(file_path: str) -> List[Dict]:
     return unique_picks
 
 
-def filter_optimal_picks(picks: List[Dict], min_confidence: float = 55.0) -> List[Dict]:
+def filter_optimal_picks(
+    picks: List[Dict],
+    min_confidence: float = 55.0,
+    respect_decision: bool = True,
+) -> List[Dict]:
     """
     Filter for optimal NBA Role Layer picks.
-    
-    Criteria:
-    - Archetype: SECONDARY_CREATOR, PRIMARY_USAGE_SCORER (most common)
-    - Stats: points, rebounds, steals, blocks, or combo stats containing them
-    - No BENCH_MICROWAVE archetype
-    - No HIGH_BENCH_RISK or BLOWOUT_GAME_RISK flags
-    - Effective confidence >= min_confidence
+
+    Args:
+        picks:            List of enriched pick dicts.
+        min_confidence:   Minimum effective_confidence % to include.
+        respect_decision: When True (default), skip picks the analysis engine
+                          marked NO_PLAY/SKIP/BLOCKED.  Set False for
+                          exploratory views (option 5) where the user wants
+                          to see all probability-passing picks regardless of
+                          the system decision.
     """
     optimal = []
     
@@ -106,12 +112,12 @@ def filter_optimal_picks(picks: List[Dict], min_confidence: float = 55.0) -> Lis
         if not pick.get("nba_role_archetype"):
             continue
 
-        # Never surface rejected / non-play decisions in an "optimal" view
+        # Gate on analysis-engine decision (skip in exploratory mode)
         pick_state = str(pick.get("pick_state", "")).upper().strip()
         if pick_state == "REJECTED":
             continue
         decision = str(pick.get("decision", "")).upper().strip()
-        if decision in {"SKIP", "NO_PLAY", "BLOCKED", "REJECTED"}:
+        if respect_decision and decision in {"SKIP", "NO_PLAY", "BLOCKED", "REJECTED"}:
             continue
         
         archetype = pick["nba_role_archetype"]
@@ -323,7 +329,12 @@ def display_picks_table(
 
         archetype = str(pick.get("nba_role_archetype", ""))
         cap_adj = str(pick.get("nba_confidence_cap_adjustment", 0))
-        flags = ", ".join(pick.get("nba_role_flags", []) or [])
+        role_flags = list(pick.get("nba_role_flags", []) or [])
+        # Bubble the system decision into the flags column so it's visible
+        decision_val = str(pick.get("decision", "")).upper().strip()
+        if decision_val and decision_val not in {"LEAN", "STRONG", "PLAY", ""}:
+            role_flags = [f"[{decision_val}]"] + role_flags
+        flags = ", ".join(role_flags)
 
         if resolved_mode == "wide":
             table.add_row(
@@ -482,9 +493,24 @@ def main():
             except ValueError:
                 console.print("[red]Invalid confidence threshold[/red]")
                 continue
-            optimal = filter_optimal_picks(nba_picks, min_confidence=threshold)
-            display_picks_table(optimal, title=f"Picks with confidence >= {threshold}%",
-                               all_picks=nba_picks, min_conf=threshold)
+            # Exploratory mode: ignore NO_PLAY gate so user can see all
+            # probability-passing picks (decision shown in Flags column)
+            all_above = filter_optimal_picks(
+                nba_picks, min_confidence=threshold, respect_decision=False
+            )
+            play_above = [p for p in all_above
+                          if str(p.get("decision", "")).upper().strip()
+                          not in {"NO_PLAY", "SKIP", "BLOCKED", "REJECTED"}]
+            console.print(
+                f"[dim]  {len(play_above)} picks are system-approved plays; "
+                f"{len(all_above) - len(play_above)} are [NO_PLAY] (shown with flag)[/dim]"
+            )
+            display_picks_table(
+                all_above,
+                title=f"All picks conf >= {threshold}%  (NO_PLAY shown with flag)",
+                all_picks=nba_picks,
+                min_conf=threshold,
+            )
             
         elif choice == "6":
             optimal = filter_optimal_picks(nba_picks, min_confidence=68.0)
