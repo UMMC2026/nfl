@@ -1513,7 +1513,31 @@ def action_export_picks(slate: NHLSlate):
     
     with open(filepath, "w") as f:
         json.dump(output, f, indent=2)
-    
+
+    # ── Mirror to DB (fail-soft) ─────────────────────────────────────────
+    try:
+        from db.writer import write_picks_batch  # type: ignore
+        _db_picks = [
+            {
+                "player":     p.player,
+                "team":       p.team,
+                "stat":       p.stat,
+                "line":       p.line,
+                "direction":  "higher" if p.direction.lower() in ("more", "over", "higher") else "lower",
+                "sport":      "NHL",
+                "source":     "Underdog",
+                "confidence": (p.model_prob or 0) * 100,
+                "p_hit":      p.model_prob or 0,
+                "tier":       p.tier,
+                "decision":   "PLAY" if p.tier == "STRONG" else "LEAN",
+            }
+            for p in playable
+        ]
+        n = write_picks_batch(_db_picks, sport="NHL")
+        print(f"  [DB] {n}/{len(_db_picks)} NHL picks written to database")
+    except Exception:
+        pass
+
     print(f"\n  ✅ Exported {len(playable)} picks to:")
     print(f"     {filepath}\n")
 

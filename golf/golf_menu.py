@@ -124,6 +124,36 @@ def option_paste_analyze():
         print(f"\n✓ Analysis complete!")
         print(f"  Edges: {result['edges_generated']}")
         print(f"  Optimizable: {result['edges_optimizable']}")
+
+        # ── Mirror to DB (fail-soft) ──────────────────────────────────────
+        try:
+            from db.writer import write_picks_batch  # type: ignore
+            import json as _json
+            _edge_files = sorted(OUTPUTS_DIR.glob("golf_edges_*.json"), reverse=True)
+            if _edge_files:
+                _edata = _json.loads(_edge_files[0].read_text())
+                _edges = _edata.get("edges", [])
+                _db_golf = [
+                    {
+                        "player":     e.get("player", ""),
+                        "stat":       e.get("market", e.get("stat", "")),
+                        "line":       e.get("line", 0),
+                        "direction":  "higher" if str(e.get("direction", "")).lower() in ("over", "higher", "more") else "lower",
+                        "sport":      "Golf",
+                        "source":     "Underdog",
+                        "confidence": float(e.get("probability", 0)) * 100,
+                        "p_hit":      float(e.get("probability", 0)),
+                        "tier":       e.get("tier", ""),
+                        "decision":   "PLAY" if e.get("tier") == "STRONG" else "LEAN",
+                    }
+                    for e in _edges
+                    if e.get("pick_state") == "OPTIMIZABLE"
+                ]
+                if _db_golf:
+                    n = write_picks_batch(_db_golf, sport="Golf")
+                    print(f"  [DB] {n}/{len(_db_golf)} Golf picks written to database")
+        except Exception:
+            pass
     else:
         print(f"\n⚠️  Analysis failed: {result['status']}")
     

@@ -374,7 +374,7 @@ class NHLCalibrationTracker:
         dates = [p.date for p in filtered]
         date_range = (min(dates), max(dates))
         
-        return CalibrationReport(
+        report = CalibrationReport(
             generated_at=datetime.now().isoformat(),
             date_range=date_range,
             overall=overall,
@@ -383,6 +383,25 @@ class NHLCalibrationTracker:
             by_probability_bucket=by_prob,
             last_7_days=last_7_days,
         )
+
+        # ── Mirror to DB (fail-soft) ──────────────────────────────────────
+        try:
+            from db.writer import write_calibration_snapshot  # type: ignore
+            _period = datetime.now().strftime("%Y-%m")
+            for _tier, _stats in by_tier.items():
+                write_calibration_snapshot(
+                    period=_period,
+                    sport="NHL",
+                    tier=str(_tier),
+                    predicted_avg=0.0,
+                    actual_hit_rate=float(getattr(_stats, "hit_rate", 0) or 0),
+                    sample_size=int(getattr(_stats, "total_picks", 0) or 0),
+                    brier_score=None,
+                )
+        except Exception:
+            pass
+
+        return report
     
     def print_report(self, report: Optional[CalibrationReport] = None):
         """Print calibration report to console"""

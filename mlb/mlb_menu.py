@@ -929,6 +929,32 @@ def _action_analyze(settings: dict) -> Optional[List[dict]]:
     settings["last_analysis"] = str(r_path)
     save_settings(settings)
 
+    # ── Mirror to DB (fail-soft) ──────────────────────────────────────────
+    try:
+        from db.writer import write_picks_batch  # type: ignore
+        _db_picks = [
+            {
+                "player":     r.get("player", ""),
+                "team":       r.get("team", ""),
+                "stat":       r.get("stat", ""),
+                "line":       r.get("line", 0),
+                "direction":  r.get("direction", "higher"),
+                "sport":      "MLB",
+                "source":     "Underdog",
+                "confidence": float(r.get("probability", 0)) * 100,
+                "p_hit":      float(r.get("probability", 0)),
+                "decision":   r.get("action", r.get("grade", "")),
+                "tier":       r.get("grade", ""),
+            }
+            for r in results
+            if r.get("action", r.get("grade", "")) in ("STRONG", "LEAN", "PLAY", "A", "B")
+        ]
+        if _db_picks:
+            n = write_picks_batch(_db_picks, sport="MLB")
+            print(f"  [DB] {n}/{len(_db_picks)} MLB picks written to database")
+    except Exception:
+        pass
+
     # Display
     print("\n" + "=" * 80)
     print(f"  {'PLAYER':26} {'STAT':22} {'LINE':>6} {'DIR':6} {'PROB':>6} {'G':2} {'ACTION'}")

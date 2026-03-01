@@ -331,7 +331,37 @@ def save_picks_to_calibration(analyzed_props: list, slate_date: str = None):
             
             tracker.add_pick(pick)
             saved += 1
-        
+
+        # ── Also write to structured DB (fail-soft) ───────────────────────
+        _db_picks_list = []
+        for _prop in analyzed_props:
+            if getattr(_prop, "tier", None) not in ("STRONG", "LEAN", "SLAM"):
+                continue
+            _pover  = getattr(_prop, "prob_over",  0) or 0
+            _punder = getattr(_prop, "prob_under", 0) or 0
+            if _pover >= _punder:
+                _dir, _prob = "higher", _pover
+            else:
+                _dir, _prob = "lower",  _punder
+            _db_picks_list.append({
+                "player":     getattr(_prop, "player",  ""),
+                "team":       getattr(_prop, "team",    ""),
+                "stat":       getattr(_prop, "stat",    ""),
+                "line":       getattr(_prop, "line",    0),
+                "direction":  _dir,
+                "sport":      "Soccer",
+                "source":     "Underdog",
+                "confidence": _prob * 100,
+                "p_hit":      _prob,
+                "tier":       getattr(_prop, "tier", ""),
+            })
+        if _db_picks_list:
+            try:
+                from db.writer import write_picks_batch  # type: ignore
+                write_picks_batch(_db_picks_list, sport="Soccer")
+            except Exception:
+                pass
+
         if saved > 0:
             print(f"\n📊 Saved {saved} picks to calibration tracker")
         return saved
